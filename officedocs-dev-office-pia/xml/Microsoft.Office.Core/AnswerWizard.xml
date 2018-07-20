@@ -1,0 +1,225 @@
+<Type Name="AnswerWizard" FullName="Microsoft.Office.Core.AnswerWizard">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2f63a7e2898af1d9dea244a238d194201a4ece2f" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662280" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface AnswerWizard : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AnswerWizard implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.AnswerWizard" />
+  <TypeSignature Language="VB.NET" Value="Public Interface AnswerWizard&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class AnswerWizard : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0360-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Представляет мастера ответов в приложении Microsoft Office.</summary>
+    <remarks>
+      <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
+      <para>Существует только один мастер ответов на каждое приложение и все изменения в объекте <b>AnswerWizard</b> или <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> семейства сайтов, влияющие на активное приложение Office немедленно.</para>
+      <para>Использования <see cref="M:Microsoft.Office.Core.AnswerWizard.ClearFileList" /> метод, чтобы удалить все записи из списка с файлами текущей Мастер ответов. С помощью этого метода гарантирует, что по умолчанию файлы, доступные в ведущем приложении Office больше не доступна через мастер ответов, например, при замене файлов мастера ответов с настраиваемыми. Рабочая станция Администрирования файлы.</para>
+      <para>Использования <see cref="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" /> метод для восстановления в список файлов для текущего Мастер ответов в список по умолчанию файлов для ведущего приложения Office. Можно также установить список файлов по умолчанию в реестре Windows, добавив имена пользовательских файлов в соответствующий раздел; файлы, указанные в этом разделе реестра затем восстанавливается при вызове ResetFileList.</para>
+      <para>Использования <see cref="P:Microsoft.Office.Core.AnswerWizard.Files" /> свойство, позволяющее получить коллекцию ссылок файла мастер ответов. Свойство <b>файлы</b> возвращает набор строк, связанные с. Рабочая станция Администрирования файлы.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.AnswerWizard.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearFileList">
+      <MemberSignature Language="C#" Value="public void ClearFileList ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearFileList() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.AnswerWizard.ClearFileList" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearFileList ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearFileList();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Удаляет список файлов для текущего AnswerWizard, включая список по умолчанию файлов для ведущего приложения Microsoft Office.</summary>
+        <remarks>
+          <para>Этот метод используется для удаления всех записей из текущего списка файлов для указанного приложения. Вы также можно использовать убедитесь, что ни один из файлов AnswerWizard по умолчанию для ведущего приложения доступны для пользователей. Затем можно создать настраиваемый список файлов с помощью <see cref="M:Microsoft.Office.Core.AnswerWizardFiles.Add(System.String)" /> метод <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> семейства.</para>
+          <para>Для восстановления файлов по умолчанию AnswerWizard для ведущего приложения, используйте <see cref="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" /> метод.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.AnswerWizard.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>В качестве примера того, как работает данное свойство возвращает 1297307460, который представляет строку «MSWD», если объект был создан в Microsoft Word; Данное свойство возвращает 1480803660, если объект был создан в Microsoft Excel. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
+          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
+          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как это <b>приложение</b> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Files">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.AnswerWizardFiles Files { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.AnswerWizardFiles Files" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.AnswerWizard.Files" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Files As AnswerWizardFiles" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::AnswerWizardFiles ^ Files { Microsoft::Office::Core::AnswerWizardFiles ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.AnswerWizardFiles</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> семейства сайтов, представляющий список файлов, доступных для текущего AnswerWizard.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.AnswerWizard.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает <b>родительский</b> объект для указанного объекта.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetFileList">
+      <MemberSignature Language="C#" Value="public void ResetFileList ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResetFileList() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResetFileList ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetFileList();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Сбрасывает список файлов для текущего AnswerWizard список по умолчанию файлов для ведущего приложения Microsoft Office.</summary>
+        <remarks>
+          <para>Используйте этот метод для восстановления всех записей в списке текущий файл AnswerWizard список в реестре Windows для ведущего приложения. Список файлов по умолчанию в реестре можно установить путем добавления имена пользовательских файлов в соответствующий раздел.</para>
+          <para>
+            <b>Осторожность</b> неправильное изменение реестра может вызвать серьезные проблемы пользователя от необходимости повторную установку операционной системы. Корпорация Майкрософт не гарантирует, что проблем, связанных с изменения реестра можно разрешить. До начала редактирования реестра, резервное копирование всех необходимых данных. Самые последние сведения о защите реестра компьютера см.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

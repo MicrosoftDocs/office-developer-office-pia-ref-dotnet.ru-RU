@@ -1,0 +1,88 @@
+<Type Name="MsoCustomXMLValidationErrorType" FullName="Microsoft.Office.Core.MsoCustomXMLValidationErrorType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d79d773c902dd0b290353d858f36f6478905d4bc" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20661895" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoCustomXMLValidationErrorType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCustomXMLValidationErrorType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCustomXMLValidationErrorType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoCustomXMLValidationErrorType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoCustomXMLValidationErrorType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Указывает, как очистить или созданных ошибок проверки.</summary>
+    <remarks>
+      <para>Ссылки на DTD из настраиваемых XML-частей, не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCustomXMLValidationErrorAutomaticallyCleared">
+      <MemberSignature Language="C#" Value="msoCustomXMLValidationErrorAutomaticallyCleared" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCustomXMLValidationErrorType msoCustomXMLValidationErrorAutomaticallyCleared = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCustomXMLValidationErrorType.msoCustomXMLValidationErrorAutomaticallyCleared" />
+      <MemberSignature Language="VB.NET" Value="msoCustomXMLValidationErrorAutomaticallyCleared" />
+      <MemberSignature Language="C++ CLI" Value="msoCustomXMLValidationErrorAutomaticallyCleared" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCustomXMLValidationErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Указывает, что ошибки будут снимите флажок самого при каждом изменении в узел, с которым он связан.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCustomXMLValidationErrorManual">
+      <MemberSignature Language="C#" Value="msoCustomXMLValidationErrorManual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCustomXMLValidationErrorType msoCustomXMLValidationErrorManual = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCustomXMLValidationErrorType.msoCustomXMLValidationErrorManual" />
+      <MemberSignature Language="VB.NET" Value="msoCustomXMLValidationErrorManual" />
+      <MemberSignature Language="C++ CLI" Value="msoCustomXMLValidationErrorManual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCustomXMLValidationErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Указывает, что ошибки не удалось очистить до <see cref="M:Microsoft.Office.Core.CustomXMLValidationError.Delete" /> вызывается метод.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCustomXMLValidationErrorSchemaGenerated">
+      <MemberSignature Language="C#" Value="msoCustomXMLValidationErrorSchemaGenerated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCustomXMLValidationErrorType msoCustomXMLValidationErrorSchemaGenerated = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCustomXMLValidationErrorType.msoCustomXMLValidationErrorSchemaGenerated" />
+      <MemberSignature Language="VB.NET" Value="msoCustomXMLValidationErrorSchemaGenerated" />
+      <MemberSignature Language="C++ CLI" Value="msoCustomXMLValidationErrorSchemaGenerated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCustomXMLValidationErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Указывает, что которых существует коллекции непустые схемы для настраиваемой XML-части и проверки действует, все изменения в часть приведет к ошибкам проверки.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

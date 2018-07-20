@@ -1,0 +1,233 @@
+<Type Name="SmartDocument" FullName="Microsoft.Office.Core.SmartDocument">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f1baad263eb43139b77bb1be53d230555de79afc" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662126" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SmartDocument : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartDocument implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartDocument" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SmartDocument&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SmartDocument : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0377-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Свойство <b>SmartDocument</b> Microsoft Office Word 2003 <b>документов</b> и объектов Microsoft Office Excel 2003 <b>книги</b> возвращает объект <b>SmartDocument</b> .</summary>
+    <remarks>
+      <para>Использование объекта <b>SmartDocument</b> для управления пакета расширения XML, присоединяется к активных документов.</para> Объект 
+      <para>использования <b>SmartDocument</b><see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" /> и <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" /> вложенные свойства для извлечения сведений о пакета расширения XML в активный документ или книгу. Использование <see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" /> метод, чтобы разрешить пользователю выбрать доступные пакета расширения XML из списка присоединение в активный документ или книгу. Использование <see cref="M:Microsoft.Office.Core.SmartDocument.RefreshPane" /> метод, чтобы обновить область задач действия с документами смарт-документа.</para> Объектная модель 
+      <para><b>SmartDocument</b> доступна ли документ имеет присоединен пакет расширения XML. Свойство <b>SmartDocument</b> объектов <b>документа</b> или <b>книги</b> не возвращает значение Nothing Если активный документ без пакета расширения XML, присоединенного. Проверить свойство <b>SolutionID</b> , чтобы определить, имеет ли активных документов присоединен пакет расширения XML.</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartDocument.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartDocument.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
+          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
+          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.SmartDocument.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PickSolution">
+      <MemberSignature Language="C#" Value="public void PickSolution (bool ConsiderAllSchemas = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PickSolution([in]bool ConsiderAllSchemas) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PickSolution (Optional ConsiderAllSchemas As Boolean = false)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ConsiderAllSchemas" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="ConsiderAllSchemas">Необязательный атрибут типа <b>Boolean</b>.  <b>Значение true,</b> отображаются все доступные пакеты расширения XML, установленные на компьютере пользователя. <b>Значение false,</b> отображается только пакеты расширения XML применимых в активный документ. Значение по умолчанию — <b>False</b>.</param>
+        <summary>Отображает диалоговое окно, что позволяет пользователям выбирать доступные пакета расширения XML для присоединения в активный документ Microsoft Office Word 2003 или Microsoft Office Excel 2003 книгу.</summary>
+        <remarks>
+          <para>Используйте метод <b>PickSolution</b> , чтобы разрешить пользователю выбрать пакет расширения XML из списка. Схема, вложенная в активный документ или книга определяет, какие пакеты расширения XML могут быть применены.</para> Метод 
+          <para><b>PickSolution</b> не возвращает значение, указывающее, выбран пакет расширения XML или нажатии этой кнопки "Отмена" в диалоговом окне пользователя. Проверка <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" /> свойство после вызова <b>PickSolution</b> , чтобы определить, добавлен ли пакет расширения XML.</para><para>, Если разработчик смарт-документ не удалось задать «targetApplication» в файле манифеста пакета расширения XML, список, отображаемые <b>PickSolution</b> может включать пакеты расширения XML, не предназначенные для активного приложения; например, Excel при установке будет отображаться пакеты расширения XML, предназначенных исключительно для Word. В этой ситуации, пользователь может выбрать пакета расширения XML, который не подходит для активного приложения.</para><para>Дополнительные сведения о смарт-документы или пакеты расширения XML для смарт-документов можно найти в смарт-документ Software Development Kit (SDK) на веб-сайте Microsoft Developer Network (MSDN).</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshPane">
+      <MemberSignature Language="C#" Value="public void RefreshPane ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RefreshPane() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SmartDocument.RefreshPane" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RefreshPane ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RefreshPane();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Обновление области задач действия с документами для активных документов Microsoft Office Word 2003 или книги Microsoft Office Excel 2003.</summary>
+        <remarks>
+          <para>Метод <b>RefreshPane</b> вызывает ошибку, если активный документ не присоединен пакет расширения XML.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SolutionID">
+      <MemberSignature Language="C#" Value="public string SolutionID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SolutionID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartDocument.SolutionID" />
+      <MemberSignature Language="VB.NET" Value="Public Property SolutionID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SolutionID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает идентификатор, часто глобальный уникальный идентификатор (GUID), определяющий пакета расширения XML, вложенная в активный документ Microsoft Office Word 2003 или книги Microsoft Office Excel 2003.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Свойство <b>SolutionID</b> возвращает пустую строку или «None», при подключении без пакета расширения XML в активный документ.</para>
+          <para>Предоставление подходящие значения для <b>SolutionID</b> и <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" /> пакет обновления свойств для присоединения доступные расширения XML в активный документ, ее можно преобразовать в смарт-документ без использования <see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" /> метод. Установите свойства <b>SolutionID</b> и <b>SolutionURL</b> пустые строки, чтобы удалить присоединенные пакета расширения XML.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SolutionURL">
+      <MemberSignature Language="C#" Value="public string SolutionURL { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SolutionURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartDocument.SolutionURL" />
+      <MemberSignature Language="VB.NET" Value="Public Property SolutionURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SolutionURL { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает абсолютный URL-адрес, который предоставляет полный путь для файла пакета расширения XML, вложенная в активный документ Microsoft Office Word 2003 или книги Microsoft Office Excel 2003.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Свойство <b>SolutionURL</b> возвращает пустую строку при подключении без пакета расширения XML в активный документ.</para>
+          <para>Предоставление подходящие значения для свойств <b>SolutionID</b> и <b>SolutionURL</b> присоединение доступные расширения XML пакет в активный документ и преобразует его в смарт-документ без использования метода <b>PickSolution</b> . Установите свойства <b>SolutionID</b> и <b>SolutionURL</b> пустые строки, чтобы удалить присоединенные пакета расширения XML</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

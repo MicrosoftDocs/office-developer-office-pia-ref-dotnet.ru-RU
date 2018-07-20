@@ -1,0 +1,74 @@
+<Type Name="MsoConnector" FullName="Microsoft.Office.Core.MsoConnector">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d1b76e35cf6bb0c7656f45ee92d42208df7eeb94" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662319" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoConnector" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoConnector extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoConnector" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoConnector" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoConnector" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Указывает соединитель между двумя значениями аналогичные свойства теста.</summary>
+    <remarks>
+      <para>Используется со свойством <b>соединителя</b> объекта <b>PropertyTest</b> .</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoConnectorAnd">
+      <MemberSignature Language="C#" Value="msoConnectorAnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoConnector msoConnectorAnd = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoConnector.msoConnectorAnd" />
+      <MemberSignature Language="VB.NET" Value="msoConnectorAnd" />
+      <MemberSignature Language="C++ CLI" Value="msoConnectorAnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoConnector</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Объединить тестовые значения свойства для формирования одно свойство тестирование.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConnectorOr">
+      <MemberSignature Language="C#" Value="msoConnectorOr" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoConnector msoConnectorOr = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoConnector.msoConnectorOr" />
+      <MemberSignature Language="VB.NET" Value="msoConnectorOr" />
+      <MemberSignature Language="C++ CLI" Value="msoConnectorOr" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoConnector</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Значения свойств тестирования считать отдельных условий.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

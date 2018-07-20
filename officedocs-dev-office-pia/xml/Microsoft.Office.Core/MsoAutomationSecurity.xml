@@ -1,0 +1,85 @@
+<Type Name="MsoAutomationSecurity" FullName="Microsoft.Office.Core.MsoAutomationSecurity">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c92dc32bbd577b26430e2b8d93e0617d6c648dd7" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662270" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoAutomationSecurity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAutomationSecurity extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAutomationSecurity" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoAutomationSecurity" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoAutomationSecurity" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Указывает режим безопасности, используемый приложения при открытии файлов программными средствами.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAutomationSecurityByUI">
+      <MemberSignature Language="C#" Value="msoAutomationSecurityByUI" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutomationSecurity msoAutomationSecurityByUI = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutomationSecurity.msoAutomationSecurityByUI" />
+      <MemberSignature Language="VB.NET" Value="msoAutomationSecurityByUI" />
+      <MemberSignature Language="C++ CLI" Value="msoAutomationSecurityByUI" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutomationSecurity</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Использует параметры безопасности, указанные в диалоговом окне "Безопасность".</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAutomationSecurityForceDisable">
+      <MemberSignature Language="C#" Value="msoAutomationSecurityForceDisable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutomationSecurity msoAutomationSecurityForceDisable = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutomationSecurity.msoAutomationSecurityForceDisable" />
+      <MemberSignature Language="VB.NET" Value="msoAutomationSecurityForceDisable" />
+      <MemberSignature Language="C++ CLI" Value="msoAutomationSecurityForceDisable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutomationSecurity</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Отключает все макросы в все файлы, открытые программным способом, без отображения любой оповещение системы безопасности.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAutomationSecurityLow">
+      <MemberSignature Language="C#" Value="msoAutomationSecurityLow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutomationSecurity msoAutomationSecurityLow = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutomationSecurity.msoAutomationSecurityLow" />
+      <MemberSignature Language="VB.NET" Value="msoAutomationSecurityLow" />
+      <MemberSignature Language="C++ CLI" Value="msoAutomationSecurityLow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutomationSecurity</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Включает все макросы. Это значение по умолчанию при запуске приложения.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

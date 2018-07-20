@@ -1,0 +1,104 @@
+<Type Name="MsoControlOLEUsage" FullName="Microsoft.Office.Core.MsoControlOLEUsage">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9b02ed8bfb7ad0b3fe9f7fd651f0ac84446eef72" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20661907" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoControlOLEUsage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoControlOLEUsage extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoControlOLEUsage" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoControlOLEUsage" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoControlOLEUsage" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Указывает клиента OLE и OLE ролей сервера, в которых используется элемент управления панели команд, время объединения двух приложений Microsoft Office.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoControlOLEUsageBoth">
+      <MemberSignature Language="C#" Value="msoControlOLEUsageBoth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlOLEUsage msoControlOLEUsageBoth = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlOLEUsage.msoControlOLEUsageBoth" />
+      <MemberSignature Language="VB.NET" Value="msoControlOLEUsageBoth" />
+      <MemberSignature Language="C++ CLI" Value="msoControlOLEUsageBoth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlOLEUsage</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Элемент управления работает на клиента и сервера.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlOLEUsageClient">
+      <MemberSignature Language="C#" Value="msoControlOLEUsageClient" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlOLEUsage msoControlOLEUsageClient = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlOLEUsage.msoControlOLEUsageClient" />
+      <MemberSignature Language="VB.NET" Value="msoControlOLEUsageClient" />
+      <MemberSignature Language="C++ CLI" Value="msoControlOLEUsageClient" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlOLEUsage</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Только для клиентского элемента управления.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlOLEUsageNeither">
+      <MemberSignature Language="C#" Value="msoControlOLEUsageNeither" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlOLEUsage msoControlOLEUsageNeither = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlOLEUsage.msoControlOLEUsageNeither" />
+      <MemberSignature Language="VB.NET" Value="msoControlOLEUsageNeither" />
+      <MemberSignature Language="C++ CLI" Value="msoControlOLEUsageNeither" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlOLEUsage</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Элемент управления выполняет ни клиент, ни сервер.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlOLEUsageServer">
+      <MemberSignature Language="C#" Value="msoControlOLEUsageServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlOLEUsage msoControlOLEUsageServer = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlOLEUsage.msoControlOLEUsageServer" />
+      <MemberSignature Language="VB.NET" Value="msoControlOLEUsageServer" />
+      <MemberSignature Language="C++ CLI" Value="msoControlOLEUsageServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlOLEUsage</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Элемент управления только на сервере.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

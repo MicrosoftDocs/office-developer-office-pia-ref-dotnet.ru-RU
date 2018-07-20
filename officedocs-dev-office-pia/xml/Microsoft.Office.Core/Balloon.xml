@@ -1,0 +1,861 @@
+<Type Name="Balloon" FullName="Microsoft.Office.Core.Balloon">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b978291d98fbee8f572e76ae54e7063dd52fe070" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662273" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Balloon : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Balloon implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Balloon" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Balloon&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Balloon : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0324-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Представляет выноске, где помощником сведения.</summary>
+    <remarks>
+      <para>Всплывающая подсказка может содержать элементы управления, такие как флажки и метки.</para>
+      <para>Использования <see cref="P:Microsoft.Office.Core.Assistant.NewBalloon" /> свойство возвращает объект <b>в документе</b> . Не коллекцию для объекта <b>в документе</b> . только одна всплывающая могут быть видны за раз. Тем не менее, можно определить несколько выноски и отображать один из них при необходимости.</para>
+      <para>Использования <see cref="M:Microsoft.Office.Core.Balloon.Show" /> метод, чтобы сделать видимой выноске указанного. Использование <see cref="P:Microsoft.Office.Core.Balloon.Callback" /> свойства для выполнения процедур на основе выбранных безрежимным выносках (выноски, которые остаются видимыми, хотя пользователь работает в приложении). Использование <see cref="M:Microsoft.Office.Core.Balloon.Close" /> метод закрытия безрежимным выноски.</para>
+      <para>Можно повторно использовать в документе объектов, которые вы уже создали, назначение объектной переменной и отображение переменной при необходимости его.</para>
+      <para>Кроме того, вместо использования отдельных переменных, вы также можете поместить объект в документе в массив.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Animation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoAnimationType Animation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoAnimationType Animation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Animation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Animation As MsoAnimationType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoAnimationType Animation { Microsoft::Office::Core::MsoAnimationType get(); void set(Microsoft::Office::Core::MsoAnimationType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает действие анимации для помощника по Office.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
+          <para>Помощнике выполняется анимация только в том случае, когда отображается сообщение. Помощник по умолчанию является «Скрепыш» и <b>msoAnimationIdle</b> — это тип анимации по умолчанию для помощника.</para>
+          <para>В зависимости от выбранного помощник свойства <b>анимации</b> может отображаться или не может привести к очевидны анимации. Тем не менее все <see cref="T:Microsoft.Office.Core.MsoAnimationType" /> константы допустимы для всех помощников по обслуживанию. Обратите внимание, что различных констант может привести к той же анимации.</para>
+          <para>Следующие константы <b>MsoAnimationType</b> представляют анимация, повторите заданное действие до закрытия помощник или свойство <b>анимации</b> сбрасывается с другой анимации:</para>
+          <para>
+            <b>msoAnimationCheckingSomething</b>
+          </para>
+          <para>
+            <b>msoAnimationGetTechy</b>
+          </para>
+          <para>
+            <b>msoAnimationListensToComputer</b>
+          </para>
+          <para>
+            <b>msoAnimationSearching</b>
+          </para>
+          <para>
+            <b>msoAnimationThinking</b>
+          </para>
+          <para>
+            <b>msoAnimationWorkingAtSomething</b>
+          </para>
+          <para>
+            <b>msoAnimationWritingNotingSomething</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BalloonType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoBalloonType BalloonType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoBalloonType BalloonType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.BalloonType" />
+      <MemberSignature Language="VB.NET" Value="Public Property BalloonType As MsoBalloonType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoBalloonType BalloonType { Microsoft::Office::Core::MsoBalloonType get(); void set(Microsoft::Office::Core::MsoBalloonType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает тип в документе, с помощью помощника по Office.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
+          <para>При создании <see cref="T:Microsoft.Office.Core.Balloon" /> объекта, это свойство изначально установлено значение <b>msoBalloonTypeButtons</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Button">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoButtonSetType Button { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoButtonSetType Button" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Button" />
+      <MemberSignature Language="VB.NET" Value="Public Property Button As MsoButtonSetType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoButtonSetType Button { Microsoft::Office::Core::MsoButtonSetType get(); void set(Microsoft::Office::Core::MsoButtonSetType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает тип кнопки, отображаемые в нижней части помощника Microsoft Office.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
+          <para>При создании <see cref="T:Microsoft.Office.Core.Balloon" /> объекта, это свойство изначально установлено значение <b>msoButtonSetOK</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Callback">
+      <MemberSignature Language="C#" Value="public string Callback { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Callback" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Callback" />
+      <MemberSignature Language="VB.NET" Value="Public Property Callback As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Callback { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает имя процедуры, чтобы запускать с безрежимным выноски.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Процедуры, указанный для <b>обратного вызова</b> свойства должны быть записаны на получение два или три аргумента в зависимости от того, используйте свойство с. Если вы используете свойство <b>обратного вызова</b> с помощью мастера, необходимо создать процедуру, чтобы получать два аргумента: длинное целое, представляющее <see cref="T:Microsoft.Office.Core.MsoBalloonButtonType" /> значения, выбираемого пользователем кнопки и длинное целое число, однозначно идентифицирующее выноске. Если свойство <b>обратного вызова</b> с безрежимным выноски, необходимо создать процедуру, чтобы получать три аргумента: объекта в документе, который вызвал процедуру; длинное целое число, представляющее значение <b>msoBalloonButtonType</b> кнопки выбираемого пользователем; и длинное целое число, однозначно идентифицирующее выноске, вызвавшей процедуру как идентификаторами во всплывающем <see cref="P:Microsoft.Office.Core.Balloon.Private" /> свойство.</para>
+          <para>Процедуру обратного вызова должна содержать по крайней мере один условие, при котором <see cref="M:Microsoft.Office.Core.Balloon.Close" /> метод применяется к <see cref="T:Microsoft.Office.Core.Balloon" /> объекта, передаваемого ему; в противном случае нельзя закрыть выноске безрежимным.</para>
+          <para>При указании процедуры, которые хранятся в отдельный модуль класса, должны включать имя модуля в значение, присваиваемое свойству <b>обратного вызова</b> (например, «Sheet1.MyCallback).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Checkboxes">
+      <MemberSignature Language="C#" Value="public object Checkboxes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Checkboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Checkboxes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Checkboxes As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Checkboxes { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.BalloonCheckboxes" /> коллекции, представляющей все флажки, содержащиеся в указанном выноске.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Balloon.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809368)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Закрывает выноске active безрежимным.</summary>
+        <remarks>
+          <para>Этот метод следует использовать только в процедуры обратного вызова.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>В качестве примера того, как работает данное свойство возвращает 1297307460, который представляет строку «MSWD», если объект был создан в Microsoft Word; Данное свойство возвращает 1480803660, если объект был создан в Microsoft Excel. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
+          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя «MSWD». Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
+          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.Balloon.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Heading">
+      <MemberSignature Language="C#" Value="public string Heading { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Heading" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Heading" />
+      <MemberSignature Language="VB.NET" Value="Public Property Heading As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Heading { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает заголовок, который отображается в окне помощника Microsoft Office.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
+          <para>, Можно указать изображение, которое будет отображаться в заголовке в документе, используя следующий синтаксис: {<paramref name="type location sizing_factor" />}, где <paramref name="type" /> bmp (точечный рисунок) или wmf (метафайл Windows), <paramref name="location" /> является ресурсом идентификатор или путь и имя файла, и <paramref name="sizing_factor" /> указывает ширину WMF (указана для bmp).</para>
+          <para>Заголовков в документе также поддерживает подчеркнутый текст и текст, который имеет один из палитры цветов 16 системы применяется к нему. Чтобы отобразить подчеркнутый текст заголовка, используйте синтаксис {<paramref name="ul" />} или {<paramref name="ul 1" />}; Используйте {<paramref name="ul 0" />} Чтобы отключить подчеркивание. Для изменения цвета текст заголовка, предшествовать текстовой строки с последовательности знаков {<paramref name="cf number" />}, где номер — это один из номеров цвет системы, перечисленные в следующей таблице.</para>
+          <list type="table">
+            <item>
+              <description>
+                <b>0</b>
+              </description>
+              <description>черный</description>
+            </item>
+            <item>
+              <description>
+                <b>1</b>
+              </description>
+              <description>Темно-красный</description>
+            </item>
+            <item>
+              <description>
+                <b>2</b>
+              </description>
+              <description>темно-зеленый</description>
+            </item>
+            <item>
+              <description>
+                <b>3</b>
+              </description>
+              <description>темно-желтый</description>
+            </item>
+            <item>
+              <description>
+                <b>4</b>
+              </description>
+              <description>Темно-синий</description>
+            </item>
+            <item>
+              <description>
+                <b>5 </b>
+              </description>
+              <description>Фиолетовый</description>
+            </item>
+            <item>
+              <description>
+                <b>6</b>
+              </description>
+              <description>Темно-голубой</description>
+            </item>
+            <item>
+              <description>
+                <b>7</b>
+              </description>
+              <description>светло-серый</description>
+            </item>
+            <item>
+              <description>
+                <b>248</b>
+              </description>
+              <description>серого цвета</description>
+            </item>
+            <item>
+              <description>
+                <b>249</b>
+              </description>
+              <description>Красный</description>
+            </item>
+            <item>
+              <description>
+                <b>250</b>
+              </description>
+              <description>Зеленый</description>
+            </item>
+            <item>
+              <description>
+                <b>251</b>
+              </description>
+              <description>желтый</description>
+            </item>
+            <item>
+              <description>
+                <b>252</b>
+              </description>
+              <description>Синий</description>
+            </item>
+            <item>
+              <description>
+                <b>253</b>
+              </description>
+              <description>пурпурный</description>
+            </item>
+            <item>
+              <description>
+                <b>254</b>
+              </description>
+              <description>голубой</description>
+            </item>
+            <item>
+              <description>
+                <b>255</b>
+              </description>
+              <description>Технический</description>
+            </item>
+          </list>
+          <para>При указании номер от одного из предыдущего номера цвет системы, черный текст заголовка.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Icon">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoIconType Icon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoIconType Icon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Icon" />
+      <MemberSignature Language="VB.NET" Value="Public Property Icon As MsoIconType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoIconType Icon { Microsoft::Office::Core::MsoIconType get(); void set(Microsoft::Office::Core::MsoIconType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoIconType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает тип значок, который отображается в левом верхнем часть помощника Microsoft Office.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Labels">
+      <MemberSignature Language="C#" Value="public object Labels { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Labels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Labels" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Labels As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Labels { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.BalloonLabels" /> коллекции, представляющей метки кнопок, число меток и подписи маркера, содержащиеся в указанном помощника Microsoft Office.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoModeType Mode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoModeType Mode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Mode" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mode As MsoModeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoModeType Mode { Microsoft::Office::Core::MsoModeType get(); void set(Microsoft::Office::Core::MsoModeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoModeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает модальное поведение помощника Microsoft Office.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
+          <para>При создании <see cref="T:Microsoft.Office.Core.Balloon" /> объекта, это свойство изначально установлено значение <b>msoModeModal</b>.</para>
+          <para>, Если свойство <b>режима</b> для всплывающая подсказка имеет значение <b>msoModeModeless</b>, пользователь может работать в приложении, во время выноске будет отображаться. Если задано значение <b>msoModeModal</b>, пользователь должен закрыть выноске перед продолжением работы в приложении. Если задано значение <b>msoModeAutoDown</b>, выноске закрывается при нажатии кнопки в любом месте на экране.</para> Если значение свойства <b>режима</b> для всплывающая подсказка <b>msoModeModeless</b> и значение для 
+          <para><see cref="P:Microsoft.Office.Core.Balloon.Callback" /> свойство не задано, возникает ошибка. <see cref="M:Microsoft.Office.Core.Balloon.Close" /> Метод можно использовать только в процедуре, указанного в свойстве <b>обратного вызова</b> , если свойство <b>Mode</b> имеет значение <b>msoModeModeless</b>.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809366)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809366)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает имя указанного объекта.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает родительский объект для указанного объекта.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Private">
+      <MemberSignature Language="C#" Value="public int Private { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Private" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Private" />
+      <MemberSignature Language="VB.NET" Value="Public Property Private As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Private { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает целое число, идентифицирующее помощника Microsoft Office, который инициировал процедуру обратного вызова.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
+          <para>Это свойство является полезным, если выполните ту же процедуру обратного вызова из нескольких выноски.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAvoidRectangle">
+      <MemberSignature Language="C#" Value="public void SetAvoidRectangle (int Left, int Top, int Right, int Bottom);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAvoidRectangle([in]int32 Left, [in]int32 Top, [in]int32 Right, [in]int32 Bottom) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Balloon.SetAvoidRectangle(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetAvoidRectangle (Left As Integer, Top As Integer, Right As Integer, Bottom As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAvoidRectangle(int Left, int Top, int Right, int Bottom);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809365)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Left" Type="System.Int32" />
+        <Parameter Name="Top" Type="System.Int32" />
+        <Parameter Name="Right" Type="System.Int32" />
+        <Parameter Name="Bottom" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Left">Требуется <b>целое число</b>. Координаты (в пунктах и относительно экрана) область экрана, помощника Microsoft Office можно избежать при его отображении.</param>
+        <param name="Top">Требуется <b>целое число</b>. Координаты (в пунктах и относительно экрана) область экрана, помощника Microsoft Office можно избежать при его отображении.</param>
+        <param name="Right">Требуется <b>целое число</b>. Координаты (в пунктах и относительно экрана) область экрана, помощника Microsoft Office можно избежать при его отображении.</param>
+        <param name="Bottom">Требуется <b>целое число</b>. Координаты (в пунктах и относительно экрана) область экрана, помощника Microsoft Office можно избежать при его отображении.</param>
+        <summary>Запрещает отображение в заданную область экрана помощника Microsoft Office.</summary>
+        <remarks>
+          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
+          <para>Данное свойство возвращает <see cref="T:Microsoft.Office.Core.Assistant" /> объект.</para>
+          <para>Это свойство предназначено для предотвращения помощника из перекрывающиеся пользовательских диалоговых окон и мастеров.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoBalloonButtonType Show ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Office.Core.MsoBalloonButtonType Show() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Balloon.Show" />
+      <MemberSignature Language="VB.NET" Value="Public Function Show () As MsoBalloonButtonType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::MsoBalloonButtonType Show();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809367)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Отображает объект указанного в документе и возвращает <see cref="T:Microsoft.Office.Core.MsoBalloonButtonType" /> константу.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Возвращенные константу указывает, какие кнопки или метки выбираемого пользователем в выноске.</para>
+          <para>Данное свойство возвращает выражение, возвращающее <see cref="T:Microsoft.Office.Core.Balloon" /> объект.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Text" />
+      <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает текст, отображаемый после заголовка, но до метки или флажки в окне помощника Microsoft Office.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
+          <para>, Можно указать, что определенный график отображаться, используя следующий синтаксис: {<paramref name="type location sizing_factor" />}, где <paramref name="type" /> bmp (точечный рисунок) или wmf (метафайл Windows); <paramref name="location" /> является ресурсом идентификатор или путь и имя файла; и <paramref name="sizing_factor" /> обозначает ширину WMF-файл (<paramref name="sizing_factor" /> опускается в BMP-файлы).</para>
+          <para>
+            <see cref="T:Microsoft.Office.Core.Balloon" /> Также поддерживает подчеркнутый текст и текст, который имеет один из палитры цветов 16 системы применяется к нему. Чтобы отобразить подчеркнутый текст, используйте следующий синтаксис {<paramref name="ul" />} или {<paramref name="ul 1" />}; Используйте {<paramref name="ul 0" />} Чтобы отключить подчеркивание. Чтобы изменить цвет текста, перед текстовой строки с последовательности знаков {<paramref name="cf number" />}, где номер — это один из номеров цвет системы, перечисленные в следующей таблице.</para>
+          <list type="table">
+            <item>
+              <description>
+                <b>0</b>
+              </description>
+              <description>черный</description>
+            </item>
+            <item>
+              <description>
+                <b>1</b>
+              </description>
+              <description>Темно-красный</description>
+            </item>
+            <item>
+              <description>
+                <b>2</b>
+              </description>
+              <description>темно-зеленый</description>
+            </item>
+            <item>
+              <description>
+                <b>3</b>
+              </description>
+              <description>темно-желтый</description>
+            </item>
+            <item>
+              <description>
+                <b>4</b>
+              </description>
+              <description>Темно-синий</description>
+            </item>
+            <item>
+              <description>
+                <b>5 </b>
+              </description>
+              <description>Фиолетовый</description>
+            </item>
+            <item>
+              <description>
+                <b>6</b>
+              </description>
+              <description>Темно-голубой</description>
+            </item>
+            <item>
+              <description>
+                <b>7</b>
+              </description>
+              <description>светло-серый</description>
+            </item>
+            <item>
+              <description>
+                <b>248</b>
+              </description>
+              <description>серого цвета</description>
+            </item>
+            <item>
+              <description>
+                <b>249</b>
+              </description>
+              <description>Красный</description>
+            </item>
+            <item>
+              <description>
+                <b>250</b>
+              </description>
+              <description>Зеленый</description>
+            </item>
+            <item>
+              <description>
+                <b>251</b>
+              </description>
+              <description>желтый</description>
+            </item>
+            <item>
+              <description>
+                <b>252</b>
+              </description>
+              <description>Синий</description>
+            </item>
+            <item>
+              <description>
+                <b>253</b>
+              </description>
+              <description>пурпурный</description>
+            </item>
+            <item>
+              <description>
+                <b>254</b>
+              </description>
+              <description>голубой</description>
+            </item>
+            <item>
+              <description>
+                <b>255</b>
+              </description>
+              <description>Технический</description>
+            </item>
+          </list>
+          <para>Если указан номер от одного из предыдущего номера цвет системы текст в выноске помощника по Office черные.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

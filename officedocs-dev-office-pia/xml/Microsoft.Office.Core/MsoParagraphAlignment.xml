@@ -1,0 +1,180 @@
+<Type Name="MsoParagraphAlignment" FullName="Microsoft.Office.Core.MsoParagraphAlignment">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="302463a2e372ad7553a9c35d1dace27842916c91" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662446" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoParagraphAlignment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoParagraphAlignment extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoParagraphAlignment" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoParagraphAlignment" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoParagraphAlignment" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Задает выравнивание абзаца для блока текста.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAlignCenter">
+      <MemberSignature Language="C#" Value="msoAlignCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignCenter = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignCenter" />
+      <MemberSignature Language="VB.NET" Value="msoAlignCenter" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Указывает, что центр каждой строки текста выравнивается по центру правая и левая текстовые поля и влево и вправо края каждой строки переменной длины.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignDistribute">
+      <MemberSignature Language="C#" Value="msoAlignDistribute" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignDistribute = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignDistribute" />
+      <MemberSignature Language="VB.NET" Value="msoAlignDistribute" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignDistribute" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Указывает, что имя и фамилию каждой строки (кроме последней) выравнивается по левое и правое поля, а в строках путем увеличения или уменьшения справа каждый символ. Последняя строка абзаца выравнивается по левому краю, если направление текста справа налево, или правого поля если направление текста справа налево.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignJustify">
+      <MemberSignature Language="C#" Value="msoAlignJustify" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignJustify = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignJustify" />
+      <MemberSignature Language="VB.NET" Value="msoAlignJustify" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignJustify" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Указывает, что имя и фамилию каждой строки (кроме последней) выравнивается по левое и правое поля, и по увеличения или уменьшения интервала между и внутри слов. Последняя строка абзаца выравнивается по левому краю, если направление текста справа налево, или правого поля если направление текста справа налево.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignJustifyLow">
+      <MemberSignature Language="C#" Value="msoAlignJustifyLow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignJustifyLow = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignJustifyLow" />
+      <MemberSignature Language="VB.NET" Value="msoAlignJustifyLow" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignJustifyLow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Указывает выравнивание или корректировка длину кашиды в арабский текст. Кашиды, специальные знаки, используемые для расширения соединения между двумя знаков арабского языка.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignLeft">
+      <MemberSignature Language="C#" Value="msoAlignLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignLeft = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignLeft" />
+      <MemberSignature Language="VB.NET" Value="msoAlignLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Указывает, что самые левые символ каждой строки выравнивается по левому краю и правому краю каждой строки переменной длины. Это выравнивание по умолчанию для абзацев с направлением письма справа налево.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignMixed">
+      <MemberSignature Language="C#" Value="msoAlignMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignMixed" />
+      <MemberSignature Language="VB.NET" Value="msoAlignMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>Используйте сочетание стилей выравнивания.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignRight">
+      <MemberSignature Language="C#" Value="msoAlignRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignRight = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignRight" />
+      <MemberSignature Language="VB.NET" Value="msoAlignRight" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Указывает, что самый правый знак каждой строки выравнивается по правому полю, а левого края каждой строки переменной длины. Это выравнивание по умолчанию для абзацев с направлением письма справа налево.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignThaiDistribute">
+      <MemberSignature Language="C#" Value="msoAlignThaiDistribute" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignThaiDistribute = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignThaiDistribute" />
+      <MemberSignature Language="VB.NET" Value="msoAlignThaiDistribute" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignThaiDistribute" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Указывает, что имя и фамилию каждой строки (кроме последней) выравнивается по левое и правое поля, и по увеличения или уменьшения слова пространство между (но не в пределах). Последняя строка абзаца выравнивается по левому краю.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

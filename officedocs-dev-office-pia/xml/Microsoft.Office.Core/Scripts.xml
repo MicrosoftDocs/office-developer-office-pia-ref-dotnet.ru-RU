@@ -1,0 +1,310 @@
+<Type Name="Scripts" FullName="Microsoft.Office.Core.Scripts">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3d47d002587c045d30ad740a840c614a1267790d" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20661729" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Scripts : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Scripts implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Scripts" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Scripts&#xA;Implements _IMsoDispObj, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Scripts : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0340-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Коллекцию <see cref="T:Microsoft.Office.Core.Script" /> объекты, которые представляют набор сценариев HTML в указанный документ.</summary>
+    <remarks>
+      <para>Коллекция <b>сценариев</b> содержит все объекты <b>скрипта</b> в данный документ, в исходном порядке (порядок, в какой <b>сценарий</b> объекты были добавлены к исходному файлу). Порядок источника не влияет на расположение (заголовка или основного текста) скрипта в документе. Коллекции <b>скриптов</b> можно получить доступ с помощью свойства <b>скрипты</b> подходящий объект (например, объект <b>документа</b> в Microsoft Word).</para>
+      <para>Объекты <b>сценария</b> можно использовать для доступа к сценарию или добавление сценария в документе Microsoft Word, лист Microsoft Excel или слайдов Microsoft PowerPoint. Можно также использовать коллекции <b>скриптов</b> для доступа к любой HTML-страницу или скрипта, который открыт в приложении Microsoft Office.</para>
+      <para>Примечание Microsoft Access не использует этот общий компонент Office.</para> При добавлении объекта <b>скрипта</b> в коллекции <b>скриптов</b> , объект <b>фигуры</b> типа <b>msoScriptAnchor</b><para>автоматически добавляется в документ. На листе Excel или слайдах PowerPoint Фигура добавляется в коллекцию <b>фигур</b> ; в документе Word фигуры добавляется к коллекции <b>InlineShapes</b> . Добавить <b>скрипт</b> в документ с помощью <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> метод.</para><para>Для доступа к конкретному элементу в коллекции <b>скриптов</b> , используйте <see cref="M:Microsoft.Office.Core.Scripts.Item(System.Object)" /> метод и укажите атрибут ID из &lt;СЦЕНАРИЙ&gt; тег или номер индекса, который указывает положение скрипта в коллекции. Идентификатор должен быть уникальным в документе. В случае повторяющихся атрибуты ID, первый сценарий найден, который имеет возвращаемого идентификатора.</para><para>Использования <see cref="P:Microsoft.Office.Core.Scripts.Count" /> свойства, чтобы определить число объектов <b>скрипта</b> в указанный документ.</para><para>Использования <see cref="M:Microsoft.Office.Core.Scripts.Delete" /> метод, чтобы удалить скрипт из коллекции <b>скриптов</b> .</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Script Add (object Anchor, Microsoft.Office.Core.MsoScriptLocation Location = Microsoft.Office.Core.MsoScriptLocation.msoScriptLocationInBody, Microsoft.Office.Core.MsoScriptLanguage Language = Microsoft.Office.Core.MsoScriptLanguage.msoScriptLanguageVisualBasic, string Id = &quot;&quot;, string Extended = &quot;&quot;, string ScriptText = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Script Add([in]object Anchor, [in]valuetype Microsoft.Office.Core.MsoScriptLocation Location, [in]valuetype Microsoft.Office.Core.MsoScriptLanguage Language, [in]string Id, [in]string Extended, [in]string ScriptText) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Optional Anchor As Object, Optional Location As MsoScriptLocation = Microsoft.Office.Core.MsoScriptLocation.msoScriptLocationInBody, Optional Language As MsoScriptLanguage = Microsoft.Office.Core.MsoScriptLanguage.msoScriptLanguageVisualBasic, Optional Id As String = &quot;&quot;, Optional Extended As String = &quot;&quot;, Optional ScriptText As String = &quot;&quot;) As Script" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Script</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Anchor" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.CompilerServices.IDispatchConstant</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="Location" Type="Microsoft.Office.Core.MsoScriptLocation" />
+        <Parameter Name="Language" Type="Microsoft.Office.Core.MsoScriptLanguage" />
+        <Parameter Name="Id" Type="System.String" />
+        <Parameter Name="Extended" Type="System.String" />
+        <Parameter Name="ScriptText" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Anchor">Необязательный элемент <b>Object</b> (только для Microsoft Excel). <paramref name="Anchor" /> Аргумент принимает объект Excel <b>диапазон</b> , который указывает расположение привязку <b>лист</b>Microsoft Excel. Не удается вставить ссылки сценария в диаграмм Excel.</param>
+        <param name="Location">Необязательные <see cref="T:Microsoft.Office.Core.MsoScriptLocation" />. Указывает расположение привязку в документе. Если задано <paramref name="Anchor" /> аргумент, <paramref name="Location" /> аргумент не используется; расположение <paramref name="Anchor" /> аргумент определяет расположение привязку.</param>
+        <param name="Language">Необязательные <see cref="T:Microsoft.Office.Core.MsoScriptLanguage" />. Указывает язык сценариев.</param>
+        <param name="Id">Необязательный атрибут типа <b>String</b>.  Идентификатор &lt;СЦЕНАРИЙ&gt; тег в формате HTML. <paramref name="Id" /> Аргумент указывает идентификатор SGML, используемый для имен элементов. Допустимыми идентификаторами включать любую строку, которая начинается с буквы и состоять из буквенно-цифровых символов; Строка может также включать символ подчеркивания (_). Идентификатор должен быть уникальным в рамках HTML-документ. Этот параметр экспортируется как значение атрибута ID &lt;СЦЕНАРИЙ&gt; тег.</param>
+        <param name="Extended">Необязательный атрибут типа <b>String</b>.  Указывает атрибуты, которые требуется добавить к &lt;СЦЕНАРИЙ&gt; тег (атрибуты языка и идентификатора экспортируются через <paramref name="Language" /> и <paramref name="Id" /> параметры и не должны быть экспортированы через <paramref name="Extended" /> параметр). По умолчанию используется пустая строка. Атрибуты, разделенных пробелами, то же самое, что и HTML-код. Ведущее приложение Microsoft Office не предоставляет означает, что проверки синтаксиса переданного атрибуты.</param>
+        <param name="ScriptText">Необязательный атрибут типа <b>String</b>.  Задает текст, содержащийся в блок скрипта. По умолчанию используется пустая строка. Ведущее приложение Microsoft Office не проверять синтаксис сценария.</param>
+        <summary>Добавляет <see cref="T:Microsoft.Office.Core.Script" /> объект <see cref="T:Microsoft.Office.Core.Scripts" /> коллекцию один из следующих объектов: объект <b>документа</b> или <b>диапазона</b> в Microsoft Word; Объект <b>электронной таблицы</b> или <b>диаграммы</b> в Microsoft Excel; или <b>слайд</b>, <b>SlideRange</b><b>Образец</b>слайда или title <b>главный</b> объект в Microsoft PowerPoint.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Фигуры, связанной с блок скрипта не экспортировать или как фигуры в HTML-код при выводе на печать; только блок скрипта возвращает экспортированного.</para>
+          <para>Нельзя использовать метод <b>Add</b> для добавления точку привязки к диапазону слайдов PowerPoint, которая содержит более одного слайда.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Scripts.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Scripts.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает <b>целое число</b> , указывающее количество элементов в указанном семействе сайтов.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
+          <para>Возвращенное число — это число блоков скрипта в указанный документ. В Microsoft Word, Scripts.Count возвращает общее число в тексте, а в сочетании с плавающей ссылки сценария.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Scripts.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
+          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
+          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.Scripts.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Scripts.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Удаляет указанный объект из коллекции.</summary>
+        <remarks>
+          <para>Для <see cref="T:Microsoft.Office.Core.Scripts" /> коллекции с помощью метода <b>Delete</b> удаляет все сценарии из указанного документа Microsoft Word, лист Microsoft Excel или слайдов Microsoft PowerPoint. Фигуры в ведущем приложении представлены точку привязки. Таким образом объекта <b>Shape</b> , связанные с каждой привязку из типа <b>msoScriptAnchor</b> удаляется из коллекции <b>фигур</b> в Excel и PowerPoint и <b>InlineShapes</b> и коллекции <b>фигур</b> в Word.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Scripts.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Script Item (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Script Item([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Scripts.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Item (Index As Object) As Script" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Script ^ Item(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Script</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Требуется <b>объект</b>. Идентификатор или номер индекса сценария, должно быть возвращено.</param>
+        <summary>Возвращает элемент <see cref="T:Microsoft.Office.Core.Scripts" /> семейства сайтов.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Принимает номер индекса или код сценария, приложение Microsoft Office для возврата. Метод <b>Item</b> принимает значение <b>объекта</b> , которое может принимать либо порядковый номер (значение индекса), которая возвращает скрипт, хранящиеся в этой позиции в коллекции <b>скриптов</b> , или <b>строковое</b> значение, представляющее имя или идентификатор сценарий</para> Коллекция 
+          <para><b>сценариев</b> содержит все сценарии в данный документ, в исходном порядке (порядок, в котором <see cref="T:Microsoft.Office.Core.Script" /> объекты отображаются в исходном файле). Сценарии сохраняются в исходном порядке независимо от их местоположения в документе, то есть, следует ли они в заголовке или к основному тексту.</para> Метод <b>Item</b> можно использовать для доступа к скрипта в коллекции <b>скриптов</b> с помощью идентификатора 
+          <para> &lt;СЦЕНАРИЙ&gt; тег. Для атрибута ID &lt;СЦЕНАРИЙ&gt; тег идентична <see cref="P:Microsoft.Office.Core.Script.Id" /> свойства объекта <b>скрипта</b> . Если существуют повторяющиеся или несколько идентификаторов в документе, а также можно использовать свойство <b>Id</b> объекта <b>сценария</b> доступ к сценария с помощью метода <b>Item</b> , Office возвращает первый сценарий, который соответствует Идентификатору; Дополнительные сценарии с таким же Идентификатором игнорируются.</para> Добавлен в коллекцию привязки 
+          <para>новый сценарий, добавляются в конец коллекции <b>скриптов</b> в том порядке, в котором они были добавлены в документ. Ссылки сценария оставаться в указанном порядке, пока не сохраняются как HTML, закрыт и затем снова открыть в ведущем приложении документа. Следующие шаги вызывает коллекции <b>скриптов</b> для индексации в том порядке, в котором отображаются ссылки сценария в документ, который может отличаться от порядка, в котором они были добавлены к нему. Таким образом, рекомендуется использовать свойство <b>Id</b> объекта <b>скрипта</b> , а не скрипт позицию в коллекции, для обеспечения надежной идентификации выполнения сценария.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Scripts.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает <b>родительский</b> объект для указанного объекта.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,512 @@
+<Type Name="FileDialog" FullName="Microsoft.Office.Core.FileDialog">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="db6c4516b8b2127a1b83795fb9150768f72ed02c" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662148" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface FileDialog : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FileDialog implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.FileDialog" />
+  <TypeSignature Language="VB.NET" Value="Public Interface FileDialog&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class FileDialog : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0362-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Содержит файл функциональности диалогового окна аналогичную функциональность стандартной открыть и сохранить диалоговые окна приложения Microsoft Office.</summary>
+    <remarks>
+      <para>С диалоговых окон, этот объект содержит, пользователи решений легко можно указать, файлы и папки, которые следует использовать решение.</para> Свойство 
+      <para>Использование <b>классов FileDialog</b> для возврата объекта <b>классов FileDialog</b> . Свойство <b>классов FileDialog</b> расположен в объект <b>приложения</b> каждого отдельного приложения Office. Свойство принимает один аргумент, <paramref name="DialogType" />, определяющий тип объекта <b>классов FileDialog</b> , возвращаемый свойством. Существует четыре типа объектов <b>классов FileDialog</b> :</para><list type="bullet"><item><para>диалоговым окном Открыть - позволяет пользователям выбрать один или несколько файлов, которые затем можно открыть в ведущем приложении с помощью метода <b>Execute</b> .</para></item><item><para>Диалогового окна Сохранить как - позволяет пользователям выберите одного файла, затем можно сохранить текущий файл как с помощью метода <b>Execute</b> .</para></item> Пользователи 
+        <item><para>диалоговое окно выбора файла - позволяет выбрать один или несколько файлов. Пути к файлам, которые пользователь выбирает регистрируются в <see cref="T:Microsoft.Office.Core.FileDialogSelectedItems" /> семейства.</para></item> Пользователи 
+        <item><para>диалоговое окно "Выбор папки" - позволяет выбрать путь. Путь, который пользователь выбирает записываемые в коллекции <b>FileDialogSelectedItems</b> .</para></item></list><para>Каждого ведущее приложение может создавать только один экземпляр объекта <b>классов FileDialog</b> . Таким образом многие из свойства объекта <b>классов FileDialog</b> сохранение даже в том случае, когда создается несколько <b>классов FileDialog</b> объектов. Таким образом, убедитесь в том, что выбраны все свойства надлежащим образом для вашей цели перед Отображение диалогового окна.</para><para>Для отображения диалогового окна файла укажите с помощью объекта <b>классов FileDialog</b> , необходимо использовать <see cref="M:Microsoft.Office.Core.FileDialog.Show" /> метод. Если отображается диалоговое окно, код не выполняется, пока пользователь не закрывает диалоговое окно.</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowMultiSelect">
+      <MemberSignature Language="C#" Value="public bool AllowMultiSelect { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowMultiSelect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.AllowMultiSelect" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowMultiSelect As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowMultiSelect { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Определяет, если пользователь может выбрать несколько файлов из диалогового окна файла.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Данное свойство возвращает <b>значение True, если пользователь может выбрать несколько файлов из диалогового окна файла;</b><b>Значение false,</b> если они не допускается.</para>
+          <para>Это свойство не оказывает влияния на диалоговые окна выбора папки или диалоговые окна Сохранить как, так как пользователи никогда не должны иметь возможность выбрать несколько файлов в этих типов диалоговых окнах файлов.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ButtonName">
+      <MemberSignature Language="C#" Value="public string ButtonName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ButtonName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.ButtonName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ButtonName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ButtonName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает <b>строку</b> , представляющую текст, отображаемый на кнопке действие диалогового окна файла.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>По умолчанию этому свойству присвоено стандартный текст для типа диалогового окна файла. Например в случае диалоговым окном открыть, свойство — это значение «Открыть» по умолчанию. Эта строка ограничен одним 50 символов.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
+          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
+          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.FileDialog.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DialogType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFileDialogType DialogType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFileDialogType DialogType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.DialogType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DialogType As MsoFileDialogType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileDialogType DialogType { Microsoft::Office::Core::MsoFileDialogType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.MsoFileDialogType" /> константа, представляющий тип файла диалогового окна поле, которое <see cref="T:Microsoft.Office.Core.FileDialog" /> объект настроен для отображения.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Execute">
+      <MemberSignature Language="C#" Value="public void Execute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Execute() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FileDialog.Execute" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Execute ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Execute();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809362)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Запускает процедуры или встроенные команды, назначенные для элемента управления панели команд указанного.</summary>
+        <remarks>
+          <para>Для <see cref="T:Microsoft.Office.Core.FileDialog" /> объекты с типом <b>msoFileDialogOpen</b> или <b>msoFileDialogSaveAs</b>выполняет действие право после <see cref="M:Microsoft.Office.Core.FileDialog.Show" /> вызван метод.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilterIndex">
+      <MemberSignature Language="C#" Value="public int FilterIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FilterIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.FilterIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property FilterIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FilterIndex { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает <b>целое число</b> , указывающее, фильтр файлов по умолчанию из диалогового окна файла.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>При попытке установить это свойство больше, чем количество фильтров, будет выбран последний фильтр недоступны.</para>
+          <para>Фильтра по умолчанию определяет типы файлов, которые отображаются при первом открытии диалогового окна файла.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Filters">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.FileDialogFilters Filters { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.FileDialogFilters Filters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.Filters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Filters As FileDialogFilters" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::FileDialogFilters ^ Filters { Microsoft::Office::Core::FileDialogFilters ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.FileDialogFilters</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> семейства сайтов.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitialFileName">
+      <MemberSignature Language="C#" Value="public string InitialFileName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InitialFileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.InitialFileName" />
+      <MemberSignature Language="VB.NET" Value="Public Property InitialFileName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InitialFileName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает <b>строку</b> , представляющую имя пути и/или файл, который отображается в диалоговом окне файла.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Можно использовать «*» и знаки подстановки «?» при указании имени файла, но не в том случае, когда Выбор пути. "*" Представляет любое число последовательности символов, а «?» представляет один символ. Например. InitialFileName = «c:\c*s.txt» возвращает «charts.txt» и «checkregister.txt.»</para>
+          <para>Если укажите путь и имя файла не, а затем в диалоговом окне отображаются все файлы, в которых разрешен фильтром файлов.</para>
+          <para>Если указать файл, который существует в исходной папке, а затем только этот файл будет отображаться в диалоговом окне.</para>
+          <para>При указании имя файла, который не существует в папке начальной, а затем диалоговое окно будет содержать ни одного файла. Тип файла, который указан в свойстве <b>InitialFileName</b> переопределяют параметры фильтра файлов.</para>
+          <para>, Если указан недопустимый путь, путь последний использовавшийся используется. Появится сообщение, предупреждающее пользователей при использовании недопустимый путь.</para>
+          <para>Этого свойства к типу string более 256 символов вызовет ошибку времени выполнения.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitialView">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFileDialogView InitialView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFileDialogView InitialView" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.InitialView" />
+      <MemberSignature Language="VB.NET" Value="Public Property InitialView As MsoFileDialogView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileDialogView InitialView { Microsoft::Office::Core::MsoFileDialogView get(); void set(Microsoft::Office::Core::MsoFileDialogView value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoFileDialogView" /> константа, представляющий начальное представление файлов и папок из диалогового окна файла.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Item" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.Item" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает текст, связанного с объектом.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает <b>родительский</b> объект для указанного объекта.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.FileDialogSelectedItems SelectedItems { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.FileDialogSelectedItems SelectedItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.SelectedItems" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SelectedItems As FileDialogSelectedItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::FileDialogSelectedItems ^ SelectedItems { Microsoft::Office::Core::FileDialogSelectedItems ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809358)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809358)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.FileDialogSelectedItems</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.FileDialogSelectedItems" /> семейства сайтов.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Данную коллекцию список путей файлов, которые пользователь из диалогового окна файла отображения с использованием <see cref="M:Microsoft.Office.Core.FileDialog.Show" /> метод <see cref="T:Microsoft.Office.Core.FileDialog" /> объекта.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public int Show ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Show() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FileDialog.Show" />
+      <MemberSignature Language="VB.NET" Value="Public Function Show () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Show();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Отображение диалогового окна файла и возвращает <b>целое число</b> , указывающее, является ли пользователь нажимает кнопку действие (-1) или нажатии кнопки "Отмена" (0).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>При вызове метода <b>Show</b> , не более код будет выполняться, пока пользователь не закрывает диалоговое окно "файл". В случае диалоговые окна Открыть "и" Сохранить как, используйте <see cref="M:Microsoft.Office.Core.FileDialog.Execute" /> метод сразу же после метода <b>Show</b> , чтобы выполнить действия пользователя.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string Title { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.Title" />
+      <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает или задает заголовок отображения с использованием диалогового окна файла <see cref="T:Microsoft.Office.Core.FileDialog" /> объекта.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,123 @@
+<Type Name="ContentVerificationResults" FullName="Microsoft.Office.Core.ContentVerificationResults">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="eb575f3c321cb3f9fbf9e8799863265db1be34ff" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662425" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ContentVerificationResults" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContentVerificationResults extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ContentVerificationResults" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContentVerificationResults" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContentVerificationResults" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Предоставляет сведения о состоянии проверить, было ли изменено содержимое документа.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="contverresError">
+      <MemberSignature Language="C#" Value="contverresError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.ContentVerificationResults contverresError = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.ContentVerificationResults.contverresError" />
+      <MemberSignature Language="VB.NET" Value="contverresError" />
+      <MemberSignature Language="C++ CLI" Value="contverresError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Проверка возникла ошибка.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contverresModified">
+      <MemberSignature Language="C#" Value="contverresModified" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.ContentVerificationResults contverresModified = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.ContentVerificationResults.contverresModified" />
+      <MemberSignature Language="VB.NET" Value="contverresModified" />
+      <MemberSignature Language="C++ CLI" Value="contverresModified" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Содержимое документа был изменен после его цифровой подписи.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contverresUnverified">
+      <MemberSignature Language="C#" Value="contverresUnverified" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.ContentVerificationResults contverresUnverified = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.ContentVerificationResults.contverresUnverified" />
+      <MemberSignature Language="VB.NET" Value="contverresUnverified" />
+      <MemberSignature Language="C++ CLI" Value="contverresUnverified" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Документ не было проверено.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contverresValid">
+      <MemberSignature Language="C#" Value="contverresValid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.ContentVerificationResults contverresValid = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.ContentVerificationResults.contverresValid" />
+      <MemberSignature Language="VB.NET" Value="contverresValid" />
+      <MemberSignature Language="C++ CLI" Value="contverresValid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Содержимое проверена и является допустимым.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="contverresVerifying">
+      <MemberSignature Language="C#" Value="contverresVerifying" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.ContentVerificationResults contverresVerifying = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.ContentVerificationResults.contverresVerifying" />
+      <MemberSignature Language="VB.NET" Value="contverresVerifying" />
+      <MemberSignature Language="C++ CLI" Value="contverresVerifying" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>В настоящее время выполняется проверка содержимого документа.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

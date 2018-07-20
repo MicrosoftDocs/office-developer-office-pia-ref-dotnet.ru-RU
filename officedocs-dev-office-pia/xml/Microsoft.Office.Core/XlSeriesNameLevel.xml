@@ -1,0 +1,93 @@
+<Type Name="XlSeriesNameLevel" FullName="Microsoft.Office.Core.XlSeriesNameLevel">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4a23b9311629d8d8ddef211492e16299c6942534" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662558" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlSeriesNameLevel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlSeriesNameLevel extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlSeriesNameLevel" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlSeriesNameLevel" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlSeriesNameLevel" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("76D9466C-84C2-4355-81FE-CB1B9CB03C19")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает метки серии для уровней подписей серии.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlSeriesNameLevelAll">
+      <MemberSignature Language="C#" Value="xlSeriesNameLevelAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlSeriesNameLevel xlSeriesNameLevelAll = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlSeriesNameLevel.xlSeriesNameLevelAll" />
+      <MemberSignature Language="VB.NET" Value="xlSeriesNameLevelAll" />
+      <MemberSignature Language="C++ CLI" Value="xlSeriesNameLevelAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlSeriesNameLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задание имен серии на всех уровнях имя серии w/в диапазоне на диаграмме.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSeriesNameLevelCustom">
+      <MemberSignature Language="C#" Value="xlSeriesNameLevelCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlSeriesNameLevel xlSeriesNameLevelCustom = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlSeriesNameLevel.xlSeriesNameLevelCustom" />
+      <MemberSignature Language="VB.NET" Value="xlSeriesNameLevelCustom" />
+      <MemberSignature Language="C++ CLI" Value="xlSeriesNameLevelCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlSeriesNameLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает литерала в именах серии.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSeriesNameLevelNone">
+      <MemberSignature Language="C#" Value="xlSeriesNameLevelNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlSeriesNameLevel xlSeriesNameLevelNone = int32(-3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlSeriesNameLevel.xlSeriesNameLevelNone" />
+      <MemberSignature Language="VB.NET" Value="xlSeriesNameLevelNone" />
+      <MemberSignature Language="C++ CLI" Value="xlSeriesNameLevelNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlSeriesNameLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>-3</MemberValue>
+      <Docs>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Установка без меток категории в диаграмме. Вместо этого по умолчанию установлено равным автоматическая индексированных метки.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

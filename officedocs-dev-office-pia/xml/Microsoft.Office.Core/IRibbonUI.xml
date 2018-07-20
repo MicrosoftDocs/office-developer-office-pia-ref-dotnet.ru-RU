@@ -1,0 +1,258 @@
+<Type Name="IRibbonUI" FullName="Microsoft.Office.Core.IRibbonUI">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f912fe8c8db15a87c031bae5d14f2fe64d719567" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662102" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IRibbonUI" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRibbonUI" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IRibbonUI" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRibbonUI" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IRibbonUI" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03A7-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Объект, который возвращается при выполнении процедуры <b>onLoad</b> , указанный в теге <b>customUI</b> .  Объект содержит методы для аннулирования свойства элемента управления и обновление пользовательского интерфейса.</summary>
+    <remarks>
+      <para>Лента пользовательского интерфейса (UI) можно настроить с помощью процедур обратного вызова в COM-надстроек. При запуске ведущего приложения вызывает процедуру обратного вызова <b>onLoad</b> .  Процедура обратного вызова, командлет возвращает объект <b>IRibbonUI</b> с указанием пользовательского интерфейса (UI). Этот объект можно использовать для вызова метода <b>Invalidate</b><b>InvalidateControl</b>и <b>обновления</b> .</para>
+      <para />
+    </remarks>
+    <example>
+      <para>В следующем примере запуск ведущего приложения запускает процедуру события <b>onLoad</b> , который затем вызывает процедуру, которая создает объект <b>IRibbonUI</b> , представляющий пользовательский Интерфейс ленты.  Далее, определяется процедуру обратного вызова, который делает недействительными все кэшированные элементы управления и затем обновляет пользовательский Интерфейс.</para>
+      <para>Вот разметка XML для Office для загрузки настраиваемой ленты:</para>
+      <code>&amp;lt;customUI … onLoad=”MyAddInInitialize” …&amp;gt;</code>
+      <para>Вот метод обратного вызова для события <b>onLoad</b> :</para>
+      <code>Dim MyRibbon As IRibbonUI
+Sub MyAddInInitialize(Ribbon As IRibbonUI)
+    Set MyRibbon = Ribbon
+End Sub
+
+Sub myFunction()
+    ‘ Invalidates the caches of all of this add-in’s controls 
+    MyRibbon.Invalidate()            
+End Sub</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName="ActivateTab">
+      <MemberSignature Language="C#" Value="public void ActivateTab (string ControlID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ActivateTab([in]string ControlID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.ActivateTab(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ActivateTab (ControlID As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ActivateTab(System::String ^ ControlID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">Задает идентификатор настраиваемой вкладки ленты с активацией.</param>
+        <summary>Активация указанной настраиваемой вкладки.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActivateTabMso">
+      <MemberSignature Language="C#" Value="public void ActivateTabMso (string ControlID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ActivateTabMso([in]string ControlID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.ActivateTabMso(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ActivateTabMso (ControlID As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ActivateTabMso(System::String ^ ControlID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">Задает идентификатор настраиваемой вкладки ленты с активацией.</param>
+        <summary>Активация указанной встроенной вкладки.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActivateTabQ">
+      <MemberSignature Language="C#" Value="public void ActivateTabQ (string ControlID, string Namespace);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ActivateTabQ([in]string ControlID, [in]string Namespace) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.ActivateTabQ(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ActivateTabQ (ControlID As String, Namespace As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ActivateTabQ(System::String ^ ControlID, System::String ^ Namespace);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.String" />
+        <Parameter Name="Namespace" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">Задает идентификатор настраиваемой вкладки ленты с активацией.</param>
+        <param name="Namespace">Указывает пространство имен элемент вкладки.</param>
+        <summary>Активация указанной пользовательская вкладка в Microsoft Office Fluent пользовательского интерфейса ленты. Использует полное имя вкладки, которая включает в себя идентификатор и пространства имен вкладки.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalidate">
+      <MemberSignature Language="C#" Value="public void Invalidate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Invalidate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.Invalidate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Invalidate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Invalidate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Признает недействительным кэшированных значений для всех элементов управления пользовательского интерфейса ленты.</summary>
+        <remarks>
+          <para>Пользовательский Интерфейс ленты можно настроить с помощью процедур обратного вызова в COM-надстроек. Для каждого из implements обратных вызовов надстройки кэшируются ответы.  К примеру Если модуля записи реализует процедуру обратного вызова <b>getImage</b> для кнопки, функция вызывается один раз и загружает изображение и затем, если изображение должно быть обновлено, кэшированное изображение используется вместо вызывает процедуру. Этот процесс остается на месте до надстройки сообщает, что кэшированных значений недопустимы с помощью метода <b>Invalidate</b> в этот момент, еще раз вызывает процедуру обратного вызова и возврата ответа в кэше.  Надстройки затем можно принудительно немедленное обновление пользовательского интерфейса, вызвав метод <b>Refresh</b> .</para>
+          <para />
+        </remarks>
+        <example>
+          <para>В следующем примере запуск ведущего приложения запускает процедуру события <b>onLoad</b> , который затем вызывает процедуру, которая создает объект, представляющий пользовательский Интерфейс ленты.  Далее, определяется процедуру обратного вызова, который делает недействительными все элементы управления пользовательского интерфейса и затем обновляет пользовательский Интерфейс.</para>
+          <para>Вот разметка XML для Office для загрузки настраиваемой ленты:</para>
+          <code>&amp;lt;customUI … onLoad=”MyAddInInitialize” …&amp;gt;</code>
+          <para>Вот метод обратного вызова для события <b>onLoad</b> :</para>
+          <code>Dim MyRibbon As IRibbonUI
+Sub MyAddInInitialize(Ribbon As IRibbonUI)
+    Set MyRibbon = Ribbon
+End Sub
+
+Sub myFunction()
+    ‘ Invalidates the caches of all of this add-in’s controls 
+    MyRibbon.Invalidate()            
+End Sub</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidateControl">
+      <MemberSignature Language="C#" Value="public void InvalidateControl (string ControlID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InvalidateControl([in]string ControlID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.InvalidateControl(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InvalidateControl (ControlID As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InvalidateControl(System::String ^ ControlID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">Задает идентификатор элемента управления, станут недействительными.</param>
+        <summary>Делает недействительным кэшированные значение для одного элемента управления на ленте пользовательского интерфейса.</summary>
+        <remarks>
+          <para>Пользовательский Интерфейс ленты можно настроить с помощью процедур обратного вызова в COM-надстроек. Для каждого из implements обратных вызовов надстройки кэшируются ответы.  К примеру Если модуля записи реализует процедуру обратного вызова <b>getImage</b> для кнопки, функция вызывается один раз и загружает изображение и затем, если изображение должно быть обновлено, кэшированное изображение используется вместо вызывает процедуру. Этот процесс остается на месте для элемента управления, пока не надстройки сообщает, что кэшированных значений недопустимы с помощью метода <b>InvalidateControl</b> в этот момент, еще раз вызывает процедуру обратного вызова и возврата ответа в кэше.</para>
+          <para />
+        </remarks>
+        <example>
+          <para>В следующем примере запуск ведущего приложения запускает процедуру события <b>onLoad</b> , который затем вызывает процедуру, которая создает объект, представляющий пользовательский Интерфейс ленты.  Далее, определяется процедуру обратного вызова, который делает недействительным элемент управления пользовательского интерфейса и затем обновляет пользовательский Интерфейс.</para>
+          <para>Вот разметка XML для Office для загрузки настраиваемой ленты:</para>
+          <code>&amp;lt;customUI … onLoad=”MyAddInInitialize” …&amp;gt;</code>
+          <para>Вот метод обратного вызова для события <b>onLoad</b> :</para>
+          <code>Dim MyRibbon As IRibbonUI
+Sub MyAddInInitialize(Ribbon As IRibbonUI)
+    Set MyRibbon = Ribbon
+End Sub
+
+Sub myFunction()
+    ‘ Invalidates the cache of a single control 
+    MyRibbon.InvalidateControl(“control5”)            
+End Sub</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidateControlMso">
+      <MemberSignature Language="C#" Value="public void InvalidateControlMso (string ControlID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InvalidateControlMso([in]string ControlID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.InvalidateControlMso(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InvalidateControlMso (ControlID As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InvalidateControlMso(System::String ^ ControlID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">Указанный идентификатор элемента управления, станут недействительными.</param>
+        <summary>Используется, чтобы объявить недействительным встроенного элемента управления.</summary>
+        <remarks>
+          <para>Аннулирование элемента управления перерисует экрана и вызывает любой процедуры обратного вызова, связанный с этим элементом управления для запуска.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

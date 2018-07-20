@@ -1,0 +1,1417 @@
+<Type Name="TextRange2" FullName="Microsoft.Office.Core.TextRange2">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e13cb597db4d10f29174ed725d2871ab3848976a" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662646" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface TextRange2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextRange2 implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.TextRange2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TextRange2&#xA;Implements _IMsoDispObj, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TextRange2 : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0397-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Представляет кадр текст в <b>фигуру</b> или <b>ShapeRange</b> объектов.</summary>
+    <remarks>
+      <para>Этот объект содержит текст надписи, а также свойства и методы, которые управляют выравнивания и привязка текстового фрейма. Свойство <b>TextFrame2</b> возвращает <see cref="T:Microsoft.Office.Core.TextFrame2" /> объекта.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddPeriods">
+      <MemberSignature Language="C#" Value="public void AddPeriods ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddPeriods() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.AddPeriods" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddPeriods ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddPeriods();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(29)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Добавляет знаков препинания точкой (.) в правой части текст, содержащийся в <see cref="T:Microsoft.Office.Core.TextFrame2" /> объекта для языков слева направо и в левой части для языков для письма справа налево.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>При использовании без квалификатор объекта, данное свойство возвращает объект <b>приложения</b> , который представляет текущего экземпляра приложения Microsoft Office. Используется квалификатор объекта, данное свойство возвращает объект <b>приложения</b> , представляющего создателя <see cref="T:Microsoft.Office.Core.TextFrame2" /> объекта. При использовании с помощью объекта OLE-автоматизации возвращает объект приложения. Только для чтения.</summary>
+        <value>
+          <b>Объект</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoundHeight">
+      <MemberSignature Language="C#" Value="public float BoundHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BoundHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.BoundHeight" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoundHeight As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundHeight { float get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает высоту, в точках текста, ограничивающих поля для указанного текста. Только для чтения.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>
+          <para>Текст, ограничивающий прямоугольник не совпадает с <see cref="T:Microsoft.Office.Core.TextFrame" /> объекта.  Объект <b>TextFrame</b> представляет контейнер, в котором могут храниться текст.  Ограничивающий текстовое поле представляет демилитаризованной зоны, сразу же окружающим текстом.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoundLeft">
+      <MemberSignature Language="C#" Value="public float BoundLeft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BoundLeft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.BoundLeft" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoundLeft As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundLeft { float get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает левой координат в точках текста, ограничивающих поля для указанного текста. Только для чтения.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>
+          <para>Текст, ограничивающий прямоугольник не совпадает с <see cref="T:Microsoft.Office.Core.TextFrame" /> объекта.  Объект <b>TextFrame</b> представляет контейнер, в котором могут храниться текст.  Ограничивающий текстовое поле представляет демилитаризованной зоны, сразу же окружающим текстом.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoundTop">
+      <MemberSignature Language="C#" Value="public float BoundTop { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BoundTop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.BoundTop" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoundTop As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundTop { float get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает Верхняя координата в пунктах, ограничивающий текстового поля для указанного текста. Только для чтения.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>
+          <para>Текст, ограничивающий прямоугольник не совпадает с <see cref="T:Microsoft.Office.Core.TextFrame" /> объекта.  Объект <b>TextFrame</b> представляет контейнер, в котором могут храниться текст.  Ограничивающий текстовое поле представляет демилитаризованной зоны, сразу же окружающим текстом.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoundWidth">
+      <MemberSignature Language="C#" Value="public float BoundWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BoundWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.BoundWidth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoundWidth As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundWidth { float get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает ширину в точках текста, ограничивающих поля для указанного текста. Только для чтения.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>
+          <para>Текст, ограничивающий прямоугольник не совпадает с <see cref="T:Microsoft.Office.Core.TextFrame" /> объекта.  Объект <b>TextFrame</b> представляет контейнер, в котором могут храниться текст.  Ограничивающий текстовое поле представляет демилитаризованной зоны, сразу же окружающим текстом.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeCase">
+      <MemberSignature Language="C#" Value="public void ChangeCase (Microsoft.Office.Core.MsoTextChangeCase Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ChangeCase([in]valuetype Microsoft.Office.Core.MsoTextChangeCase Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.ChangeCase(Microsoft.Office.Core.MsoTextChangeCase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ChangeCase (Type As MsoTextChangeCase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ChangeCase(Microsoft::Office::Core::MsoTextChangeCase Type);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(28)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Office.Core.MsoTextChangeCase" />
+      </Parameters>
+      <Docs>
+        <param name="Type">Указывает тип изменения для текста.</param>
+        <summary>Изменяет регистр <see cref="T:Microsoft.Office.Core.TextRange2" /> объект, который требуется одно из значений в <see cref="T:Microsoft.Office.Core.MsoTextChangeCase" /> перечисления.</summary>
+        <remarks>
+          <para>Примеры перечисление <b>MsoTextChangeCase</b><see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseLower" />, <see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseUpper" />, и <see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseTitle" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Characters">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Characters[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Characters(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Characters(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Characters(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Characters[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">Первый символ возвращаемого диапазона.</param>
+        <param name="Length">Число символов, которые будут возвращены.</param>
+        <summary>Только для чтения.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>
+          <para>Если оба <paramref name="Start" /> и <paramref name="Length" /> , этот параметр опущен, возвращенный диапазон начинается с первого знака и заканчивается на последнем абзаце в указанном диапазоне.</para>
+          <para>Если <paramref name="Start" /> указано, но <paramref name="Length" /> — этот параметр опущен, возвращенный диапазон содержит один символ.</para>
+          <para>Если <paramref name="Length" /> указано, но <paramref name="Start" /> — этот параметр опущен, возвращенный диапазон начинается с первого знака в указанном диапазоне.</para>
+          <para>Если <paramref name="Start" /> больше, чем количество символов в указанный текст, возвращенный диапазон начинается с последнего символа в указанном диапазоне.</para>
+          <para>Если <paramref name="Length" /> больше, чем количество символов из указанного начиная символов в конец текста, возвращенный диапазон содержит все символы.</para>
+          <para />
+        </remarks>
+        <example>
+          <para>В этом примере задает текст для двух фигуры на один слайд активной презентации и затем делает второй символ нижнего индекса символ со смещением 20 процентов.</para>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public void Copy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Copy() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Copy" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Copy ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Copy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Копирует <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.TextRange2" /> семейства сайтов. Только для чтения.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.TextRange2" /> был создан объект. Только для чтения.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cut">
+      <MemberSignature Language="C#" Value="public void Cut ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Cut() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Cut" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Cut ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Cut();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Удаляет часть или весь текст из диапазон текста.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(25)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Удаляет <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Find (string FindWhat, int After = 0, Microsoft.Office.Core.MsoTriState MatchCase = Microsoft.Office.Core.MsoTriState.msoFalse, Microsoft.Office.Core.MsoTriState WholeWords = Microsoft.Office.Core.MsoTriState.msoFalse);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 Find([in]string FindWhat, [in]int32 After, [in]valuetype Microsoft.Office.Core.MsoTriState MatchCase, [in]valuetype Microsoft.Office.Core.MsoTriState WholeWords) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Find(System.String,System.Int32,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Find (FindWhat As String, Optional After As Integer = 0, Optional MatchCase As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse, Optional WholeWords As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse) As TextRange2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(31)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FindWhat" Type="System.String" />
+        <Parameter Name="After" Type="System.Int32" />
+        <Parameter Name="MatchCase" Type="Microsoft.Office.Core.MsoTriState" />
+        <Parameter Name="WholeWords" Type="Microsoft.Office.Core.MsoTriState" />
+      </Parameters>
+      <Docs>
+        <param name="FindWhat">Содержит текст для поиска.</param>
+        <param name="After">Указывает точку в диапазон текста для запуска службы поиска.</param>
+        <param name="MatchCase">Указывает, если текст конечного должен полностью совпадать регистр текста поиска.</param>
+        <param name="WholeWords">Указывает, что будет осуществляться только слово целиком.</param>
+        <summary>Поиск <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта для подмножества текста.</summary>
+        <returns>
+          <b>TextRange2</b>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Font2 Font { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Font2 Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Font" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As Font2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Font2 ^ Font { Microsoft::Office::Core::Font2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Font2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает объект <b>Font</b> форматирование знаков, представляющую для <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта. Только для чтения.</summary>
+        <value>
+          <b>Шрифт</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertAfter">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 InsertAfter (string NewText = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 InsertAfter([in]string NewText) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.InsertAfter(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InsertAfter (Optional NewText As String = &quot;&quot;) As TextRange2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(19)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="NewText" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="NewText">Содержит текст для вставки.</param>
+        <summary>Вставка текста справа от существующий текст в <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <returns>
+          <b>TextRange2</b>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertBefore">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 InsertBefore (string NewText = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 InsertBefore([in]string NewText) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.InsertBefore(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InsertBefore (Optional NewText As String = &quot;&quot;) As TextRange2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(20)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="NewText" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="NewText">Содержит текст для вставки.</param>
+        <summary>Вставка текста слева от существующий текст в <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <returns>
+          <b>TextRange2</b>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertChartField">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 InsertChartField (Microsoft.Office.Core.MsoChartFieldType ChartFieldType, string Formula = &quot;&quot;, int Position = -1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 InsertChartField([in]valuetype Microsoft.Office.Core.MsoChartFieldType ChartFieldType, [in]string Formula, [in]int32 Position) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.InsertChartField(Microsoft.Office.Core.MsoChartFieldType,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InsertChartField (ChartFieldType As MsoChartFieldType, Optional Formula As String = &quot;&quot;, Optional Position As Integer = -1) As TextRange2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(38)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ChartFieldType" Type="Microsoft.Office.Core.MsoChartFieldType" />
+        <Parameter Name="Formula" Type="System.String" />
+        <Parameter Name="Position" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="ChartFieldType">Содержит текст для вставки.</param>
+        <param name="Formula">Указывает на ячейки (или диапазон), если <see cref="Microsoft.Office.Core.MsoChartFieldFormula" /> константу передается в <paramref name="ChartFieldType" /> параметр.</param>
+        <param name="Position">Задает положение знака вставки в поле диаграммы. По умолчанию используется для добавления поля к завершению теста. Если значение позиции находится вне диапазона, используется значение по умолчанию.</param>
+        <summary>Добавляет поле в текст метки данных на диаграмме.</summary>
+        <returns>
+          <b>TextRange2</b>
+        </returns>
+        <remarks>
+          <para>Этот метод применяется только к метки данных на диаграмме. Вызов этого метода для любого другого типа <a href="a6a59c9b-9b64-c1e2-2e98-a1f99025c877.htm">Microsoft.Office.Core.TextRange2</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertSymbol">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 InsertSymbol (string FontName, int CharNumber, Microsoft.Office.Core.MsoTriState Unicode = Microsoft.Office.Core.MsoTriState.msoFalse);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 InsertSymbol([in]string FontName, [in]int32 CharNumber, [in]valuetype Microsoft.Office.Core.MsoTriState Unicode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.InsertSymbol(System.String,System.Int32,Microsoft.Office.Core.MsoTriState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InsertSymbol (FontName As String, CharNumber As Integer, Optional Unicode As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse) As TextRange2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FontName" Type="System.String" />
+        <Parameter Name="CharNumber" Type="System.Int32" />
+        <Parameter Name="Unicode" Type="Microsoft.Office.Core.MsoTriState" />
+      </Parameters>
+      <Docs>
+        <param name="FontName">Задайте имя шрифта.</param>
+        <param name="CharNumber">Число символов.</param>
+        <param name="Unicode">Указывает, будет ли значение символа указано как значение Юникод.</param>
+        <summary>Вставляет символ из указанного шрифт, установленный в диапазон текста, представленного <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <returns>
+          <b>TextRange2</b>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Item (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 Item([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Item (Index As Object) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ Item(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Номер индекса диапазон текста.</param>
+        <summary>Получает диапазон текста, указанного идентификатором номер индекса из <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <returns>
+          <b>TextRange2</b>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LanguageID">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoLanguageID LanguageID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoLanguageID LanguageID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.LanguageID" />
+      <MemberSignature Language="VB.NET" Value="Public Property LanguageID As MsoLanguageID" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoLanguageID LanguageID { Microsoft::Office::Core::MsoLanguageID get(); void set(Microsoft::Office::Core::MsoLanguageID value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLanguageID</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает <see cref="T:Microsoft.Office.Core.MsoLanguageID" /> значение <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта. Для чтения и записи.</summary>
+        <value>
+          <b>MsoLanguageID</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Length">
+      <MemberSignature Language="C#" Value="public int Length { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Length" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Length" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Length { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает длину диапазон текста. Только для чтения.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lines">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Lines[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Lines(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Lines(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Lines(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Lines[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">Первая строка возвращаемого диапазона.</param>
+        <param name="Length">Число строк должно быть возвращено.</param>
+        <summary>Возвращает указанный набор строк текста. Только для чтения.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>
+          <para>Если оба <paramref name="Start" /> и <paramref name="Length" /> , этот параметр опущен, возвращенный диапазон начинается с первой строки и заканчивается на последнем абзаце в указанном диапазоне.</para>
+          <para>Если <paramref name="Start" /> указано, но <paramref name="Length" /> — этот параметр опущен, возвращенный диапазон содержит одну строку.</para>
+          <para>Если <paramref name="Length" /> указано, но <paramref name="Start" /> — этот параметр опущен, возвращенный диапазон начинается с первой строки в указанном диапазоне.</para>
+          <para>Если <paramref name="Start" /> больше, чем количество строк в указанный текст, возвращенный диапазон начинается с последней строки в указанном диапазоне.</para>
+          <para>Если <paramref name="Length" /> больше, чем число строк из указанного начальную строку в конец текста, возвращенный диапазон содержит все строки.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LtrRun">
+      <MemberSignature Language="C#" Value="public void LtrRun ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LtrRun() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.LtrRun" />
+      <MemberSignature Language="VB.NET" Value="Public Sub LtrRun ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void LtrRun();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(36)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.TextRange2" /> запускает объект, представляющий указанного подмножества текста справа налево. Текстовый поток состоит из набора символов, которые совместно использовать те же атрибуты шрифта.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MathZones">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 MathZones[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 MathZones(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.MathZones(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MathZones(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ MathZones[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(37)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(37)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">To be added.</param>
+        <param name="Length">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParagraphFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ParagraphFormat2 ParagraphFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ParagraphFormat2 ParagraphFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.ParagraphFormat" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParagraphFormat As ParagraphFormat2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ParagraphFormat2 ^ ParagraphFormat { Microsoft::Office::Core::ParagraphFormat2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ParagraphFormat2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает форматирование абзаца для указанного текста. Только для чтения.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.ParagraphFormat2" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Paragraphs">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Paragraphs[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Paragraphs(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Paragraphs(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Paragraphs(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Paragraphs[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">Первый абзац возвращаемого диапазона.</param>
+        <param name="Length">Число абзацев которого требуется получить.</param>
+        <summary>Получает указанного подмножества параграфов текста. Только для чтения.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>
+          <para>Если оба <paramref name="Start" /> и <paramref name="Length" /> , этот параметр опущен, возвращенный диапазон начинается с первого абзаца и заканчивается на последнем абзаце в указанном диапазоне.</para>
+          <para>Если <paramref name="Start" /> указано, но <paramref name="Length" /> — этот параметр опущен, возвращенный диапазон содержит один абзац.</para>
+          <para>Если <paramref name="Length" /> указано, но <paramref name="Start" /> — этот параметр опущен, возвращенный диапазон начинается с первого абзаца в указанном диапазоне.</para>
+          <para>Если <paramref name="Start" /> больше, чем количество абзацев в указанный текст, возвращенный диапазон начинается с последнего абзаца в указанном диапазоне.</para>
+          <para>Если <paramref name="Length" /> больше, чем номер абзацев из указанного начального абзаца в конец текста, возвращенный диапазон содержит все абзацы.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта. 
+Только для чтения.</summary>
+        <value>
+          <b>Объект</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Paste">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Paste ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 Paste() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Paste" />
+      <MemberSignature Language="VB.NET" Value="Public Function Paste () As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ Paste();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Вставка содержимого буфера обмена в <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <returns>
+          <b>TextRange2</b>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasteSpecial">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 PasteSpecial (Microsoft.Office.Core.MsoClipboardFormat Format);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 PasteSpecial([in]valuetype Microsoft.Office.Core.MsoClipboardFormat Format) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.PasteSpecial(Microsoft.Office.Core.MsoClipboardFormat)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PasteSpecial (Format As MsoClipboardFormat) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ PasteSpecial(Microsoft::Office::Core::MsoClipboardFormat Format);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Format" Type="Microsoft.Office.Core.MsoClipboardFormat" />
+      </Parameters>
+      <Docs>
+        <param name="Format">Определяет формат для содержимого буфера обмена при их вставки в документ.</param>
+        <summary>Заменяет содержимое буфера обмена в формате, указанном диапазон текста. Если вставка прошла успешно, этот метод возвращает <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта, включая диапазон текста, который был вставлен.</summary>
+        <returns>
+          <b>TextRange2</b>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemovePeriods">
+      <MemberSignature Language="C#" Value="public void RemovePeriods ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemovePeriods() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.RemovePeriods" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemovePeriods ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemovePeriods();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(30)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Удаляет все точки (.) знаков препинания из текста в <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Replace">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Replace (string FindWhat, string ReplaceWhat, int After = 0, Microsoft.Office.Core.MsoTriState MatchCase = Microsoft.Office.Core.MsoTriState.msoFalse, Microsoft.Office.Core.MsoTriState WholeWords = Microsoft.Office.Core.MsoTriState.msoFalse);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 Replace([in]string FindWhat, [in]string ReplaceWhat, [in]int32 After, [in]valuetype Microsoft.Office.Core.MsoTriState MatchCase, [in]valuetype Microsoft.Office.Core.MsoTriState WholeWords) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Replace(System.String,System.String,System.Int32,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Replace (FindWhat As String, ReplaceWhat As String, Optional After As Integer = 0, Optional MatchCase As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse, Optional WholeWords As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse) As TextRange2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(32)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FindWhat" Type="System.String" />
+        <Parameter Name="ReplaceWhat" Type="System.String" />
+        <Parameter Name="After" Type="System.Int32" />
+        <Parameter Name="MatchCase" Type="Microsoft.Office.Core.MsoTriState" />
+        <Parameter Name="WholeWords" Type="Microsoft.Office.Core.MsoTriState" />
+      </Parameters>
+      <Docs>
+        <param name="FindWhat">Текст для поиска.</param>
+        <param name="ReplaceWhat">Текст, который вы хотите заменить найденный текст с.</param>
+        <param name="After">Позиция символа (в диапазоне указанный текст), после которого нужно найти следующее вхождение <paramref name="FindWhat" />. Например, если нужно найти с пятого символа диапазон текста, укажите 4 для <paramref name="After" />. Если этот аргумент задан, первым символом диапазон текста используется в качестве отправной точки для поиска.</param>
+        <param name="MatchCase">Определяет, будет ли различие выполняется на основе case.</param>
+        <param name="WholeWords">Определяет, выполняется ли поиск только целых слов.</param>
+        <summary>Поиск определенного текста в диапазон текста, заменяет найденный текст с указанной строки и возвращает <see cref="T:Microsoft.Office.Core.TextRange2" /> объект, представляющий первого появления найденный текст. Возвращает <b>значение Nothing</b> , если совпадение не найдено.</summary>
+        <returns>
+          <b>TextRange2</b>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RotatedBounds">
+      <MemberSignature Language="C#" Value="public void RotatedBounds (out float X1, out float Y1, out float X2, out float Y2, out float X3, out float Y3, out float x4, out float y4);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RotatedBounds([out] float32&amp; X1, [out] float32&amp; Y1, [out] float32&amp; X2, [out] float32&amp; Y2, [out] float32&amp; X3, [out] float32&amp; Y3, [out] float32&amp; x4, [out] float32&amp; y4) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.RotatedBounds(System.Single@,System.Single@,System.Single@,System.Single@,System.Single@,System.Single@,System.Single@,System.Single@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RotatedBounds (ByRef X1 As Single, ByRef Y1 As Single, ByRef X2 As Single, ByRef Y2 As Single, ByRef X3 As Single, ByRef Y3 As Single, ByRef x4 As Single, ByRef y4 As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RotatedBounds([Runtime::InteropServices::Out] float % X1, [Runtime::InteropServices::Out] float % Y1, [Runtime::InteropServices::Out] float % X2, [Runtime::InteropServices::Out] float % Y2, [Runtime::InteropServices::Out] float % X3, [Runtime::InteropServices::Out] float % Y3, [Runtime::InteropServices::Out] float % x4, [Runtime::InteropServices::Out] float % y4);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="X1" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="Y1" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="X2" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="Y2" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="X3" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="Y3" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="x4" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="y4" Type="System.Single&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="X1">Возвращает положение (в пунктах) по оси X первой вершины прямоугольника для текста в диапазоне указанный текст.</param>
+        <param name="Y1">Возвращает положение (в пунктах) оси Y первой вершины прямоугольника для текста в диапазоне указанный текст.</param>
+        <param name="X2">Возвращает положение (в пунктах) оси X второй вершины прямоугольника для текста в диапазоне указанный текст.</param>
+        <param name="Y2">Возвращает положение (в пунктах) оси Y второй вершины прямоугольника для текста в диапазоне указанный текст.</param>
+        <param name="X3">Возвращает положение третьей вершины прямоугольника для текста в диапазоне указанный текст по оси X (в точках).</param>
+        <param name="Y3">Возвращает положение третьей вершины прямоугольника для текста в диапазоне указанный текст по оси Y (в точках).</param>
+        <param name="x4">Возвращает положение (в пунктах) координаты X четвертый вершины прямоугольника для текста в диапазоне указанный текст.</param>
+        <param name="y4">Возвращает положение (в пунктах) оси Y четвертый вершин прямоугольника для текста в диапазоне указанный текст.</param>
+        <summary>Получает координаты грани ограничивающего текстовое поле для диапазона указанный текст. Только для чтения.</summary>
+        <remarks>
+          <para>Текст, ограничивающий прямоугольник не совпадает с <see cref="T:Microsoft.Office.Core.TextFrame2" /> объекта.  Объект <b>TextFrame2</b> представляет контейнер, в котором могут храниться текст.  Ограничивающий текстовое поле представляет демилитаризованной зоны, сразу же окружающим текстом.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RtlRun">
+      <MemberSignature Language="C#" Value="public void RtlRun ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RtlRun() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.RtlRun" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RtlRun ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RtlRun();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(35)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.TextRange2" /> запускает объект, представляющий указанного подмножества текста справа налево. Текстовый поток состоит из набора символов, которые совместно использовать те же атрибуты шрифта.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Runs">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Runs[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Runs(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Runs(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Runs(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Runs[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">Первый запуск возвращаемого диапазона.</param>
+        <param name="Length">Число потоков должно быть возвращено.</param>
+        <summary>Возвращает указанный набор текстовых потоков. Текстовый поток состоит из набора символов, которые совместно использовать те же атрибуты шрифта. Только для чтения.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>
+          <para>, Если указан Start и длину, возвращенный диапазон начинается с первого потока и заканчивается на последнем абзаце в указанном диапазоне.  </para>
+          <para>Если <paramref name="Start" /> указано, но <paramref name="Length" /> — этот параметр опущен, возвращенный диапазон содержит один run.</para>
+          <para>Если <paramref name="Length" /> указано, но <paramref name="Start" /> — этот параметр опущен, возвращенный диапазон начинается с первого потока в указанном диапазоне.</para>
+          <para>Если <paramref name="Start" /> больше, чем количество потоков в указанный текст, возвращенный диапазон начинается с последнего выполнения в указанном диапазоне.</para>
+          <para>Если <paramref name="Length" /> больше, чем количество потоков от указанной даты начала выполнения в конец текста, возвращенный диапазон содержит все фрагменты.</para> Запуск 
+          <para>A состоит из всех символов из первого знака после изменения шрифта для второго последним символом те же атрибуты шрифта. Например, рассмотрим следующее предложение:</para><para>это <paramref name="italic" /> word не полужирным шрифтом.</para><para>В предыдущем предложении первого потока состоит из слово «Этот» только если пространство после слова «Это» не в формате курсив (если курсивом дискового пространства, первого потока — только первый трех символов, или «Этом»). Аналогичным образом, второй выполнения содержит слово «курсив» только в том случае, если пространства после слова представлен в формате курсив.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public void Select ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Select() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Select" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Выбирает <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sentences">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Sentences[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Sentences(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Sentences(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sentences(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Sentences[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">Первое предложение возвращаемого диапазона.</param>
+        <param name="Length">Количество предложений должно быть возвращено.</param>
+        <summary>Возвращает заданное подмножество предложений текста. Только для чтения.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>
+          <para>Если оба <paramref name="Start" /> и <paramref name="Length" /> , этот параметр опущен, возвращенный диапазон начинается с первого предложения и заканчивается на последнем абзаце в указанном диапазоне.</para>
+          <para>Если <paramref name="Start" /> указано, но <paramref name="Length" /> — этот параметр опущен, возвращенный диапазон содержит одно предложение.</para>
+          <para>Если <paramref name="Length" /> указано, но <paramref name="Start" /> — этот параметр опущен, возвращенный диапазон начинается с первого предложения в указанном диапазоне.</para>
+          <para>Если <paramref name="Start" /> больше, чем количество предложений в указанный текст, возвращенный диапазон начинается с последнего предложение в указанном диапазоне.</para>
+          <para>Если <paramref name="Length" /> больше, чем число предложений из указанного начального предложения в конец текста, возвращенный диапазон содержит все предложения.</para>
+          <para />
+        </remarks>
+        <example>
+          <para>В этом примере форматов как полужирный шрифт второго предложения второго абзаца в фигуры два слайде один активной презентации PowerPoint.</para>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public int Start { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Start" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Start" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Start As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Start { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает начальную точку диапазона указанный текст. Только для чтения.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Text" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Получает или задает значение типа <b>String</b> , представляющий текст в диапазон текста. Для чтения и записи.</summary>
+        <value>
+          <b>Строка</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrimText">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 TrimText ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 TrimText() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.TrimText" />
+      <MemberSignature Language="VB.NET" Value="Public Function TrimText () As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ TrimText();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Возвращает указанный текст без пробелов.</summary>
+        <returns>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Words">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Words[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Words(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Words(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Words(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Words[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">Первое слово возвращаемого диапазона.</param>
+        <param name="Length">Количество слов должно быть возвращено.</param>
+        <summary>Получает указанного подмножества слова. Только для чтения.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>
+          <para>Если оба <paramref name="Start" /> и <paramref name="Length" /> , этот параметр опущен, возвращенный диапазон начинается с первого слова и заканчивается на последнем абзаце в указанном диапазоне.</para>
+          <para>Если <paramref name="Start" /> указано, но <paramref name="Length" /> — этот параметр опущен, возвращенный диапазон содержит одно слово.</para>
+          <para>Если <paramref name="Length" /> указано, но <paramref name="Start" /> — этот параметр опущен, возвращенный диапазон начинается с первого слова в указанном диапазоне.</para>
+          <para>Если <paramref name="Start" /> больше, чем количество слов в указанный текст, возвращенный диапазон начинается с последнего слова в указанном диапазоне.</para>
+          <para>Если <paramref name="Length" /> больше, чем количество слов из указанного начиная word в конец текста, возвращенный диапазон содержит эти слова.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

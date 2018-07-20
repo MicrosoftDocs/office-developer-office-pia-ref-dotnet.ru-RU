@@ -1,0 +1,85 @@
+<Type Name="MsoFontLanguageIndex" FullName="Microsoft.Office.Core.MsoFontLanguageIndex">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2311c06666da216879c4a177b110b60022f0d40d" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662440" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFontLanguageIndex" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFontLanguageIndex extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFontLanguageIndex" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFontLanguageIndex" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFontLanguageIndex" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Представляет один из трех языковых шрифтов, содержащихся в <see cref="T:Microsoft.Office.Core.ThemeFonts" /> семейства сайтов</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoThemeComplexScript">
+      <MemberSignature Language="C#" Value="msoThemeComplexScript" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFontLanguageIndex msoThemeComplexScript = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFontLanguageIndex.msoThemeComplexScript" />
+      <MemberSignature Language="VB.NET" Value="msoThemeComplexScript" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeComplexScript" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFontLanguageIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Представляет шрифт для языков сложных сценариев. Коллекция язык Complex Script поддерживает арабский, грузинский, иврит, Территория в Индийском, тайский и вьетнамский алфавит.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeEastAsian">
+      <MemberSignature Language="C#" Value="msoThemeEastAsian" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFontLanguageIndex msoThemeEastAsian = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFontLanguageIndex.msoThemeEastAsian" />
+      <MemberSignature Language="VB.NET" Value="msoThemeEastAsian" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeEastAsian" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFontLanguageIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Представляет восточно-азиатских шрифта. Восточно-азиатский языки включают китайский, упрощенное письмо, китайский, традиционное письмо, японский и корейский.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeLatin">
+      <MemberSignature Language="C#" Value="msoThemeLatin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFontLanguageIndex msoThemeLatin = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFontLanguageIndex.msoThemeLatin" />
+      <MemberSignature Language="VB.NET" Value="msoThemeLatin" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeLatin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFontLanguageIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Представляет латинский шрифт.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

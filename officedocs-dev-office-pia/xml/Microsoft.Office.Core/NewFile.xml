@@ -1,0 +1,212 @@
+<Type Name="NewFile" FullName="Microsoft.Office.Core.NewFile">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="07407c6dd30110ea03cd474624417ed74fca0047" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662045" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NewFile : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NewFile implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.NewFile" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NewFile&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NewFile : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0936-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Объект <b>NewFile</b> представляет элементы, перечисленные в области задач новый элемент, недоступны в некоторых приложениях Microsoft Office.</summary>
+    <remarks>
+      <para>В следующей таблице показаны свойства, которое должно использовать для доступа к объекту <b>NewFile</b> в каждом из приложений.</para>
+      <list type="table">
+        <item>
+          <description>Microsoft Access</description>
+          <description>
+            <b>NewFileTaskPane</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft Excel</description>
+          <description>
+            <b>NewWorkbook</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft FrontPage</description>
+          <description>
+            <b>NewPageOrWeb</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft PowerPoint</description>
+          <description>
+            <b> NewPresentation</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft Word</description>
+          <description>
+            <b>NewDocument</b>
+          </description>
+        </item>
+      </list>
+      <para>использования <see cref="M:Microsoft.Office.Core.NewFile.Add(System.String,System.Object,System.Object,System.Object)" /> метод для добавления нового элемента в области задач новый элемент. Использование <see cref="M:Microsoft.Office.Core.NewFile.Remove(System.String,System.Object,System.Object,System.Object)" /> метод, чтобы удалить элемент из области задач новый элемент.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public bool Add (string FileName, object Section, object DisplayName, object Action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Add([in]string FileName, [in]object Section, [in]object DisplayName, [in]object Action) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.NewFile.Add(System.String,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (FileName As String, Optional Section As Object, Optional DisplayName As Object, Optional Action As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+        <Parameter Name="Section" Type="System.Object" />
+        <Parameter Name="DisplayName" Type="System.Object" />
+        <Parameter Name="Action" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">
+          <b>Строковое значение.</b> Имя файла для добавления в список файлов на панели задач.</param>
+        <param name="Section">Необязательный элемент <b>Object</b>. Раздел, в которую нужно добавить в файл. Может быть любым <see cref="T:Microsoft.Office.Core.MsoFileNewSection" /> константу.</param>
+        <param name="DisplayName">Необязательный элемент <b>Object</b>. Текст, отображаемый в области задач.</param>
+        <param name="Action">Необязательный элемент <b>Object</b>. Действие, выполняемое, когда пользователь нажимает для элемента. Может быть любым <see cref="T:Microsoft.Office.Core.MsoFileNewAction" /> константу.</param>
+        <summary>Добавляет новый элемент в области задач новый элемент.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Этот метод возвращает <b>значение True,</b> Если элемент был успешно добавлен; <b>Значение false</b> в противном случае.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.NewFile.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.NewFile.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
+          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
+          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.NewFile.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (string FileName, object Section, object DisplayName, object Action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Remove([in]string FileName, [in]object Section, [in]object DisplayName, [in]object Action) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.NewFile.Remove(System.String,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (FileName As String, Optional Section As Object, Optional DisplayName As Object, Optional Action As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+        <Parameter Name="Section" Type="System.Object" />
+        <Parameter Name="DisplayName" Type="System.Object" />
+        <Parameter Name="Action" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">
+          <b>Строковое значение.</b> Имя файла справки.</param>
+        <param name="Section">Необязательный элемент <b>Object</b>. Раздел области задач, где существует ссылка на файл. Может быть любым <see cref="T:Microsoft.Office.Core.MsoFileNewSection" /> константу.</param>
+        <param name="DisplayName">Необязательный элемент <b>Object</b>. Отображаемый текст ссылки на файл.</param>
+        <param name="Action">Необязательный элемент <b>Object</b>. Действие, выполняемое при щелчке элемента. Может быть любым <see cref="T:Microsoft.Office.Core.MsoFileNewAction" /> константу.</param>
+        <summary>Удаляет элемент из области задач новый элемент.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

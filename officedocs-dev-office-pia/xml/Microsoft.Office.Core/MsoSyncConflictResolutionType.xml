@@ -1,0 +1,88 @@
+<Type Name="MsoSyncConflictResolutionType" FullName="Microsoft.Office.Core.MsoSyncConflictResolutionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1492294fd9e26fabd913845a72834f77188eb7c2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662109" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoSyncConflictResolutionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncConflictResolutionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncConflictResolutionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncConflictResolutionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSyncConflictResolutionType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Указывает, как следует разрешать конфликты при синхронизации общих документов.</summary>
+    <remarks>
+      <para>Используется с методом <b>ResolveConflict</b> объекта <b>синхронизации</b> .</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSyncConflictClientWins">
+      <MemberSignature Language="C#" Value="msoSyncConflictClientWins" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncConflictResolutionType msoSyncConflictClientWins = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictClientWins" />
+      <MemberSignature Language="VB.NET" Value="msoSyncConflictClientWins" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncConflictClientWins" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Замените копией на сервере локальной копии.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncConflictMerge">
+      <MemberSignature Language="C#" Value="msoSyncConflictMerge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncConflictResolutionType msoSyncConflictMerge = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictMerge" />
+      <MemberSignature Language="VB.NET" Value="msoSyncConflictMerge" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncConflictMerge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Объединение изменений, внесенных в копию на сервере в локальной копии. Для разрешения конфликтов с объединенными изменениями результирующий, активных документов должен быть сохранен после объединения изменяется, а затем вызвать метод <b>ResolveConflict</b> еще раз с <see cref="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictClientWins" /> вариант.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncConflictServerWins">
+      <MemberSignature Language="C#" Value="msoSyncConflictServerWins" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncConflictResolutionType msoSyncConflictServerWins = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictServerWins" />
+      <MemberSignature Language="VB.NET" Value="msoSyncConflictServerWins" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncConflictServerWins" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Замените локальной копии с копией на сервере.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
