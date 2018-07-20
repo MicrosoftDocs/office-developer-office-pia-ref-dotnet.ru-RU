@@ -1,0 +1,177 @@
+<Type Name="MsoColorType" FullName="Microsoft.Office.Core.MsoColorType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6f54c4082ae0c2d5b9827526d8f204895cc82c09" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662431" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoColorType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoColorType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoColorType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoColorType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoColorType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="de0c5-101">Указывает тип цвета.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="de0c5-101">Specifies the color type.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoColorTypeCMS">
+      <MemberSignature Language="C#" Value="msoColorTypeCMS" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoColorType msoColorTypeCMS = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoColorType.msoColorTypeCMS" />
+      <MemberSignature Language="VB.NET" Value="msoColorTypeCMS" />
+      <MemberSignature Language="C++ CLI" Value="msoColorTypeCMS" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de0c5-102">Тип системы управления цвет цвета.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de0c5-102">Color Management System color type.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoColorTypeCMYK">
+      <MemberSignature Language="C#" Value="msoColorTypeCMYK" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoColorType msoColorTypeCMYK = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoColorType.msoColorTypeCMYK" />
+      <MemberSignature Language="VB.NET" Value="msoColorTypeCMYK" />
+      <MemberSignature Language="C++ CLI" Value="msoColorTypeCMYK" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de0c5-103">Цвет определяется значениями голубой, пурпурный, желтый и черный.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de0c5-103">Color is determined by values of cyan, magenta, yellow, and black.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoColorTypeInk">
+      <MemberSignature Language="C#" Value="msoColorTypeInk" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoColorType msoColorTypeInk = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoColorType.msoColorTypeInk" />
+      <MemberSignature Language="VB.NET" Value="msoColorTypeInk" />
+      <MemberSignature Language="C++ CLI" Value="msoColorTypeInk" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de0c5-104">Не поддерживается.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de0c5-104">Not supported.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoColorTypeMixed">
+      <MemberSignature Language="C#" Value="msoColorTypeMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoColorType msoColorTypeMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoColorType.msoColorTypeMixed" />
+      <MemberSignature Language="VB.NET" Value="msoColorTypeMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoColorTypeMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de0c5-105">Не поддерживается.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de0c5-105">Not supported.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoColorTypeRGB">
+      <MemberSignature Language="C#" Value="msoColorTypeRGB" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoColorType msoColorTypeRGB = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoColorType.msoColorTypeRGB" />
+      <MemberSignature Language="VB.NET" Value="msoColorTypeRGB" />
+      <MemberSignature Language="C++ CLI" Value="msoColorTypeRGB" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de0c5-106">Цвет определяется значения красного, зеленого и синего.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de0c5-106">Color is determined by values of red, green, and blue.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoColorTypeScheme">
+      <MemberSignature Language="C#" Value="msoColorTypeScheme" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoColorType msoColorTypeScheme = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoColorType.msoColorTypeScheme" />
+      <MemberSignature Language="VB.NET" Value="msoColorTypeScheme" />
+      <MemberSignature Language="C++ CLI" Value="msoColorTypeScheme" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="de0c5-107">Цвет определяется схему конкретного приложения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="de0c5-107">Color is defined by an application-specific scheme.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

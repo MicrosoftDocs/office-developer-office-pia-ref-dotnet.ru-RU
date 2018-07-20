@@ -1,0 +1,271 @@
+<Type Name="LanguageSettings" FullName="Microsoft.Office.Core.LanguageSettings">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="eac391c618a6e556482d49e87525e3078cc39a14" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662272" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface LanguageSettings : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract LanguageSettings implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.LanguageSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Interface LanguageSettings&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class LanguageSettings : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0353-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="1f7d4-101">Возвращает сведения о языковых параметров в приложении Microsoft Office.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1f7d4-101">Returns information about the language settings in a Microsoft Office application.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="1f7d4-102">
+        <para>Использование <see cref="P:Microsoft.Office.Core.LanguageSettings.LanguageID(Microsoft.Office.Core.MsoAppLanguageID)" /> свойство возвращает сведения о языковом стандарте идентификатор (LCID) для указанного приложения.</para>
+        <para>Использования <see cref="P:Microsoft.Office.Core.LanguageSettings.LanguagePreferredForEditing(Microsoft.Office.Core.MsoLanguageID)" /> свойство, чтобы определить, какую LCID регистрируются как предпочитаемое языков для приложения редактирования.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1f7d4-102">
+          <para>Use the <see cref="P:Microsoft.Office.Core.LanguageSettings.LanguageID(Microsoft.Office.Core.MsoAppLanguageID)" /> property to return locale identifier (LCID) information to the specified application.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Core.LanguageSettings.LanguagePreferredForEditing(Microsoft.Office.Core.MsoLanguageID)" /> property to determine which LCIDs are registered as preferred editing languages for the application.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LanguageSettings.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1f7d4-103">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1f7d4-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LanguageSettings.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1f7d4-104">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1f7d4-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="1f7d4-105">
+            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
+          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
+          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.LanguageSettings.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1f7d4-105">
+              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.LanguageSettings.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LanguageID">
+      <MemberSignature Language="C#" Value="public int LanguageID[Microsoft.Office.Core.MsoAppLanguageID Id] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LanguageID(valuetype Microsoft.Office.Core.MsoAppLanguageID)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LanguageSettings.LanguageID(Microsoft.Office.Core.MsoAppLanguageID)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LanguageID(Id As MsoAppLanguageID) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LanguageID[Microsoft::Office::Core::MsoAppLanguageID] { int get(Microsoft::Office::Core::MsoAppLanguageID Id); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Id" Type="Microsoft.Office.Core.MsoAppLanguageID" />
+      </Parameters>
+      <Docs>
+        <param name="Id">
+          <span data-ttu-id="1f7d4-106">Требуется <see cref="T:Microsoft.Office.Core.MsoAppLanguageID" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1f7d4-106">Required <see cref="T:Microsoft.Office.Core.MsoAppLanguageID" />.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1f7d4-107">Возвращает идентификатор языка (LCID) для языка установки, язык пользовательского интерфейса или язык справки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1f7d4-107">Returns the locale identifier (LCID) for the install language, the user interface language, or the Help language.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LanguagePreferredForEditing">
+      <MemberSignature Language="C#" Value="public bool LanguagePreferredForEditing[Microsoft.Office.Core.MsoLanguageID lid] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LanguagePreferredForEditing(valuetype Microsoft.Office.Core.MsoLanguageID)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LanguageSettings.LanguagePreferredForEditing(Microsoft.Office.Core.MsoLanguageID)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LanguagePreferredForEditing(lid As MsoLanguageID) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LanguagePreferredForEditing[Microsoft::Office::Core::MsoLanguageID] { bool get(Microsoft::Office::Core::MsoLanguageID lid); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lid" Type="Microsoft.Office.Core.MsoLanguageID" />
+      </Parameters>
+      <Docs>
+        <param name="lid">
+          <span data-ttu-id="1f7d4-108">Требуется <see cref="T:Microsoft.Office.Core.MsoLanguageID" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1f7d4-108">Required <see cref="T:Microsoft.Office.Core.MsoLanguageID" />.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1f7d4-109">Определяет, если значение для <see cref="T:Microsoft.Office.Core.MsoLanguageID" /> константу определено в реестре Windows как предпочитаемый язык для редактирования.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1f7d4-109">Determines if the value for the <see cref="T:Microsoft.Office.Core.MsoLanguageID" /> constant has been identified in the Windows Registry as a preferred language for editing.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="1f7d4-110">
+            <para>Этот метод возвращает <b>значение True,</b> Если значение для константы <b>msoLanguageID</b> определено в реестре Windows как предпочитаемый язык для редактирования; <b>Значение false</b> в противном случае.</para>
+            <para>Необходимо протестировать все допустимого <b>msoLanguageID</b> значения для перечисления набора предпочитаемых языков.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1f7d4-110">
+              <para>This method returns <b>True</b> if the value for the <b>msoLanguageID</b> constant has been identified in the Windows Registry as a preferred language for editing; <b>False</b> otherwise.</para>
+              <para>You must test all valid <b>msoLanguageID</b> values to enumerate the set of preferred languages.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LanguageSettings.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1f7d4-111">Возвращает <b>родительский</b> объект для указанного объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1f7d4-111">Returns the <b>Parent</b> object for the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

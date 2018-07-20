@@ -1,0 +1,694 @@
+<Type Name="IBlogExtensibility" FullName="Microsoft.Office.Core.IBlogExtensibility">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fb00ae654ec9e5663ff48fe1466a8e8b00117ebc" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662506" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IBlogExtensibility" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBlogExtensibility" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IBlogExtensibility" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IBlogExtensibility" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IBlogExtensibility" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03C4-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="6db84-101">Объект, который предоставляет возможность управлять записи в блогах.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6db84-101">An object that provides the ability to manipulate blog entries.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BlogProviderProperties">
+      <MemberSignature Language="C#" Value="public void BlogProviderProperties (out string BlogProvider, out string FriendlyName, out Microsoft.Office.Core.MsoBlogCategorySupport CategorySupport, out bool Padding);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BlogProviderProperties([out] string&amp; BlogProvider, [out] string&amp; FriendlyName, [out] valuetype Microsoft.Office.Core.MsoBlogCategorySupport&amp; CategorySupport, [out] bool&amp; Padding) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.BlogProviderProperties(System.String@,System.String@,Microsoft.Office.Core.MsoBlogCategorySupport@,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BlogProviderProperties (ByRef BlogProvider As String, ByRef FriendlyName As String, ByRef CategorySupport As MsoBlogCategorySupport, ByRef Padding As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BlogProviderProperties([Runtime::InteropServices::Out] System::String ^ % BlogProvider, [Runtime::InteropServices::Out] System::String ^ % FriendlyName, [Runtime::InteropServices::Out] Microsoft::Office::Core::MsoBlogCategorySupport % CategorySupport, [Runtime::InteropServices::Out] bool % Padding);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="BlogProvider" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="FriendlyName" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="CategorySupport" Type="Microsoft.Office.Core.MsoBlogCategorySupport&amp;" RefType="out" />
+        <Parameter Name="Padding" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="BlogProvider">
+          <span data-ttu-id="6db84-102">Имя поставщика блога.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-102">The name of the blog provider.</span>
+          </span>
+        </param>
+        <param name="FriendlyName">
+          <span data-ttu-id="6db84-103">Представляет имя, отображаемое в пользовательском интерфейсе.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-103">Represents the name displayed in the user interface.</span>
+          </span>
+        </param>
+        <param name="CategorySupport">
+          <span data-ttu-id="6db84-104">Представляет, сколько категорий поддерживаются поставщиком.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-104">Represents how many categories are supported by the provider.</span>
+          </span>
+        </param>
+        <param name="Padding">
+          <span data-ttu-id="6db84-105">Указывает, является ли внутренние поля в таблице.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-105">Specifies whether table padding is recognized.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="6db84-106">Содержит сведения о поставщике.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-106">Contains information about the provider.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCategories">
+      <MemberSignature Language="C#" Value="public void GetCategories (string Account, int ParentWindow, object Document, out Array Categories);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetCategories([in]string Account, [in]int32 ParentWindow, [in]object Document, [out] class System.Array&amp; Categories) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.GetCategories(System.String,System.Int32,System.Object,System.Array@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetCategories (Account As String, ParentWindow As Integer, Document As Object, ByRef Categories As Array)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetCategories(System::String ^ Account, int ParentWindow, System::Object ^ Document, [Runtime::InteropServices::Out] Array ^ % Categories);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="Categories" Type="System.Array&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">
+          <span data-ttu-id="6db84-107">Представляет идентификатор GUID в учетной записи реестра.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-107">Represents the GUID of the account registry key.</span>
+          </span>
+        </param>
+        <param name="ParentWindow">
+          <span data-ttu-id="6db84-108">Представляет HWND главного окна.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-108">Represents the HWND of the host window.</span>
+          </span>
+        </param>
+        <param name="Document">
+          <span data-ttu-id="6db84-109">Текущего документа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-109">The current document.</span>
+          </span>
+        </param>
+        <param name="Categories">
+          <span data-ttu-id="6db84-110">Список категорий, поддерживаемых поставщиком.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-110">A list of categories supported by the provider.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="6db84-111">Этот метод возвращает список категорий блога для учетной записи, поэтому Microsoft Office Word можно заполнить в раскрывающемся списке категорий.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-111">This method returns the list of blog categories for an account so Microsoft Office Word can populate the categories dropdown list.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="6db84-112">
+            <para>Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-112">
+              <para>Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRecentPosts">
+      <MemberSignature Language="C#" Value="public void GetRecentPosts (string Account, int ParentWindow, object Document, out Array PostTitles, out Array PostDates, out Array PostIDs);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetRecentPosts([in]string Account, [in]int32 ParentWindow, [in]object Document, [out] class System.Array&amp; PostTitles, [out] class System.Array&amp; PostDates, [out] class System.Array&amp; PostIDs) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.GetRecentPosts(System.String,System.Int32,System.Object,System.Array@,System.Array@,System.Array@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetRecentPosts (Account As String, ParentWindow As Integer, Document As Object, ByRef PostTitles As Array, ByRef PostDates As Array, ByRef PostIDs As Array)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetRecentPosts(System::String ^ Account, int ParentWindow, System::Object ^ Document, [Runtime::InteropServices::Out] Array ^ % PostTitles, [Runtime::InteropServices::Out] Array ^ % PostDates, [Runtime::InteropServices::Out] Array ^ % PostIDs);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="PostTitles" Type="System.Array&amp;" RefType="out" />
+        <Parameter Name="PostDates" Type="System.Array&amp;" RefType="out" />
+        <Parameter Name="PostIDs" Type="System.Array&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">
+          <span data-ttu-id="6db84-113">Представляет идентификатор GUID в учетной записи реестра.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-113">Represents the GUID of the account registry key.</span>
+          </span>
+          <span data-ttu-id="6db84-114">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-114">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
+          </span>
+        </param>
+        <param name="ParentWindow">
+          <span data-ttu-id="6db84-115">Содержит HWND Office Word — это вызов из окна.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-115">Contains the HWND for the window Office Word is calling from.</span>
+          </span>
+        </param>
+        <param name="Document">
+          <span data-ttu-id="6db84-116">Текущего документа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-116">The current document.</span>
+          </span>
+        </param>
+        <param name="PostTitles">
+          <span data-ttu-id="6db84-117">Содержит заголовки последнего пятнадцать публикации.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-117">Contains the titles of the last fifteen posts.</span>
+          </span>
+        </param>
+        <param name="PostDates">
+          <span data-ttu-id="6db84-118">Содержит даты последнего пятнадцать публикации.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-118">Contains the dates of the last fifteen posts.</span>
+          </span>
+        </param>
+        <param name="PostIDs">
+          <span data-ttu-id="6db84-119">Содержит идентификаторы последнего пятнадцать публикации.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-119">Contains the IDs of the last fifteen posts.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="6db84-120">Возвращает список последних пятнадцать блога пользователя публикации, Microsoft Office Word, затем отображается в диалоговом окне Открытие существующей записи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-120">Returns the list of the user’s last fifteen blog posts that Microsoft Office Word then displays in the Open Existing Post dialog.</span>
+          </span>
+          <span data-ttu-id="6db84-121">Этот метод не возвращает фактически содержимое публикация в блоге.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-121">This method does not actually return the blog post contents.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUserBlogs">
+      <MemberSignature Language="C#" Value="public void GetUserBlogs (string Account, int ParentWindow, object Document, out Array BlogNames, out Array BlogIDs, out Array BlogURLs);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetUserBlogs([in]string Account, [in]int32 ParentWindow, [in]object Document, [out] class System.Array&amp; BlogNames, [out] class System.Array&amp; BlogIDs, [out] class System.Array&amp; BlogURLs) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.GetUserBlogs(System.String,System.Int32,System.Object,System.Array@,System.Array@,System.Array@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetUserBlogs (Account As String, ParentWindow As Integer, Document As Object, ByRef BlogNames As Array, ByRef BlogIDs As Array, ByRef BlogURLs As Array)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetUserBlogs(System::String ^ Account, int ParentWindow, System::Object ^ Document, [Runtime::InteropServices::Out] Array ^ % BlogNames, [Runtime::InteropServices::Out] Array ^ % BlogIDs, [Runtime::InteropServices::Out] Array ^ % BlogURLs);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="BlogNames" Type="System.Array&amp;" RefType="out" />
+        <Parameter Name="BlogIDs" Type="System.Array&amp;" RefType="out" />
+        <Parameter Name="BlogURLs" Type="System.Array&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">
+          <span data-ttu-id="6db84-122">Представляет идентификатор GUID в учетной записи реестра.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-122">Represents the GUID of the account registry key.</span>
+          </span>
+          <span data-ttu-id="6db84-123">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-123">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
+          </span>
+        </param>
+        <param name="ParentWindow">
+          <span data-ttu-id="6db84-124">Содержит HWND для Microsoft Office Word — это вызов из окна.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-124">Contains the HWND for the window Microsoft Office Word is calling from.</span>
+          </span>
+        </param>
+        <param name="Document">
+          <span data-ttu-id="6db84-125">Текущего документа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-125">The current document.</span>
+          </span>
+        </param>
+        <param name="BlogNames">
+          <span data-ttu-id="6db84-126">Содержит все имена блога в разделе данная учетная запись.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-126">Contains all blog names under the current account.</span>
+          </span>
+        </param>
+        <param name="BlogIDs">
+          <span data-ttu-id="6db84-127">Содержит все идентификаторы блога в разделе данная учетная запись.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-127">Contains all blog IDs under the current account.</span>
+          </span>
+        </param>
+        <param name="BlogURLs">
+          <span data-ttu-id="6db84-128">Содержит все URL-адреса блога в разделе данная учетная запись.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-128">Contains all blog URLs under the current account.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="6db84-129">Возвращает список и сведения о блогов пользователя, связанные с указанной учетной записи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-129">Returns the list and details of user blogs associated with the specified account.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public void Open (string Account, string PostID, int ParentWindow, out string xHTML, out string Title, out string DatePosted, out Array Categories);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Open([in]string Account, [in]string PostID, [in]int32 ParentWindow, [out] string&amp; xHTML, [out] string&amp; Title, [out] string&amp; DatePosted, [out] class System.Array&amp; Categories) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.Open(System.String,System.String,System.Int32,System.String@,System.String@,System.String@,System.Array@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Open (Account As String, PostID As String, ParentWindow As Integer, ByRef xHTML As String, ByRef Title As String, ByRef DatePosted As String, ByRef Categories As Array)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Open(System::String ^ Account, System::String ^ PostID, int ParentWindow, [Runtime::InteropServices::Out] System::String ^ % xHTML, [Runtime::InteropServices::Out] System::String ^ % Title, [Runtime::InteropServices::Out] System::String ^ % DatePosted, [Runtime::InteropServices::Out] Array ^ % Categories);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="PostID" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="xHTML" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Title" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="DatePosted" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Categories" Type="System.Array&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">
+          <span data-ttu-id="6db84-130">Представляет идентификатор GUID в учетной записи реестра.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-130">Represents the GUID of the account registry key.</span>
+          </span>
+          <span data-ttu-id="6db84-131">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-131">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
+          </span>
+        </param>
+        <param name="PostID">
+          <span data-ttu-id="6db84-132">Идентификатор записи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-132">The ID of the post.</span>
+          </span>
+        </param>
+        <param name="ParentWindow">
+          <span data-ttu-id="6db84-133">Содержит HWND для Microsoft Office Word — это вызов из окна.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-133">Contains the HWND for the window Microsoft Office Word is calling from.</span>
+          </span>
+        </param>
+        <param name="xHTML">
+          <span data-ttu-id="6db84-134">Представляет xHTML текущего документа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-134">Represents the xHTML of the current document.</span>
+          </span>
+        </param>
+        <param name="Title">
+          <span data-ttu-id="6db84-135">Заголовок post.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-135">The title of the post.</span>
+          </span>
+        </param>
+        <param name="DatePosted">
+          <span data-ttu-id="6db84-136">Дата учета операции.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-136">The date the entry was posted.</span>
+          </span>
+        </param>
+        <param name="Categories">
+          <span data-ttu-id="6db84-137">Список категорий, поддерживаемых поставщиком.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-137">A list of categories supported by the provider.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="6db84-138">Открывает блога, заданную идентификатором блог (en)</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-138">Opens the blog specified by the blog ID.</span>
+          </span>
+          <span data-ttu-id="6db84-139">Он вызывает диалоговое окно Открытие существующей записи, на основе выбранного пользователем элемента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-139">It is called by the Open Existing Post dialog based on the item selected by the user.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishPost">
+      <MemberSignature Language="C#" Value="public void PublishPost (string Account, int ParentWindow, object Document, string xHTML, string Title, string DateTime, Array Categories, bool Draft, out string PostID, out string PublishMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PublishPost([in]string Account, [in]int32 ParentWindow, [in]object Document, [in]string xHTML, [in]string Title, [in]string DateTime, [in]class System.Array Categories, [in]bool Draft, [out] string&amp; PostID, [out] string&amp; PublishMessage) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.PublishPost(System.String,System.Int32,System.Object,System.String,System.String,System.String,System.Array,System.Boolean,System.String@,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PublishPost (Account As String, ParentWindow As Integer, Document As Object, xHTML As String, Title As String, DateTime As String, Categories As Array, Draft As Boolean, ByRef PostID As String, ByRef PublishMessage As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PublishPost(System::String ^ Account, int ParentWindow, System::Object ^ Document, System::String ^ xHTML, System::String ^ Title, System::String ^ DateTime, Array ^ Categories, bool Draft, [Runtime::InteropServices::Out] System::String ^ % PostID, [Runtime::InteropServices::Out] System::String ^ % PublishMessage);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="xHTML" Type="System.String" />
+        <Parameter Name="Title" Type="System.String" />
+        <Parameter Name="DateTime" Type="System.String" />
+        <Parameter Name="Categories" Type="System.Array" />
+        <Parameter Name="Draft" Type="System.Boolean" />
+        <Parameter Name="PostID" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="PublishMessage" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">
+          <span data-ttu-id="6db84-140">Представляет идентификатор GUID в учетной записи реестра.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-140">Represents the GUID of the account registry key.</span>
+          </span>
+          <span data-ttu-id="6db84-141">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-141">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
+          </span>
+        </param>
+        <param name="ParentWindow">
+          <span data-ttu-id="6db84-142">Содержит HWND для Microsoft Office Word — это вызов из окна.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-142">Contains the HWND for the window Microsoft Office Word is calling from.</span>
+          </span>
+        </param>
+        <param name="Document">
+          <span data-ttu-id="6db84-143">Текущего документа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-143">The current document.</span>
+          </span>
+        </param>
+        <param name="xHTML">
+          <span data-ttu-id="6db84-144">Представляет xHTML текущего документа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-144">Represents the xHTML of the current document.</span>
+          </span>
+        </param>
+        <param name="Title">
+          <span data-ttu-id="6db84-145">Заголовок post.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-145">The title of the post.</span>
+          </span>
+        </param>
+        <param name="DateTime">
+          <span data-ttu-id="6db84-146">Дата учета операции.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-146">The date the entry was posted.</span>
+          </span>
+        </param>
+        <param name="Categories">
+          <span data-ttu-id="6db84-147">Список категорий, поддерживаемых поставщиком.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-147">A list of categories supported by the provider.</span>
+          </span>
+        </param>
+        <param name="Draft">
+          <span data-ttu-id="6db84-148">Указывает, является ли данный черновик post.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-148">Specifies whether this is a draft version of the post.</span>
+          </span>
+        </param>
+        <param name="PostID">
+          <span data-ttu-id="6db84-149">Идентификатор исходного сообщения при повторной публикации этой записи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-149">The ID of the original post if this post has been republished.</span>
+          </span>
+        </param>
+        <param name="PublishMessage">
+          <span data-ttu-id="6db84-150">Указывает, что отображается в строке опубликовать.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-150">Specifies what is displayed in the publish bar.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="6db84-151">Руки off текущего post, поэтому он может быть опубликована поставщиком.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-151">Hands off the current post so it can be published by the provider.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RepublishPost">
+      <MemberSignature Language="C#" Value="public void RepublishPost (string Account, int ParentWindow, object Document, string PostID, string xHTML, string Title, string DateTime, Array Categories, bool Draft, out string PublishMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RepublishPost([in]string Account, [in]int32 ParentWindow, [in]object Document, [in]string PostID, [in]string xHTML, [in]string Title, [in]string DateTime, [in]class System.Array Categories, [in]bool Draft, [out] string&amp; PublishMessage) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.RepublishPost(System.String,System.Int32,System.Object,System.String,System.String,System.String,System.String,System.Array,System.Boolean,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RepublishPost (Account As String, ParentWindow As Integer, Document As Object, PostID As String, xHTML As String, Title As String, DateTime As String, Categories As Array, Draft As Boolean, ByRef PublishMessage As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RepublishPost(System::String ^ Account, int ParentWindow, System::Object ^ Document, System::String ^ PostID, System::String ^ xHTML, System::String ^ Title, System::String ^ DateTime, Array ^ Categories, bool Draft, [Runtime::InteropServices::Out] System::String ^ % PublishMessage);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="PostID" Type="System.String" />
+        <Parameter Name="xHTML" Type="System.String" />
+        <Parameter Name="Title" Type="System.String" />
+        <Parameter Name="DateTime" Type="System.String" />
+        <Parameter Name="Categories" Type="System.Array" />
+        <Parameter Name="Draft" Type="System.Boolean" />
+        <Parameter Name="PublishMessage" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">
+          <span data-ttu-id="6db84-152">Представляет идентификатор GUID в учетной записи реестра.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-152">Represents the GUID of the account registry key.</span>
+          </span>
+          <span data-ttu-id="6db84-153">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-153">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
+          </span>
+        </param>
+        <param name="ParentWindow">
+          <span data-ttu-id="6db84-154">Содержит HWND для Microsoft Office Word — это вызов из окна.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-154">Contains the HWND for the window Microsoft Office Word is calling from.</span>
+          </span>
+        </param>
+        <param name="Document">
+          <span data-ttu-id="6db84-155">Текущего документа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-155">The current document.</span>
+          </span>
+        </param>
+        <param name="PostID">
+          <span data-ttu-id="6db84-156">Идентификатор исходного сообщения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-156">The ID of the original post.</span>
+          </span>
+        </param>
+        <param name="xHTML">
+          <span data-ttu-id="6db84-157">Представляет xHTML текущего документа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-157">Represents the xHTML of the current document.</span>
+          </span>
+        </param>
+        <param name="Title">
+          <span data-ttu-id="6db84-158">Заголовок post.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-158">The title of the post.</span>
+          </span>
+        </param>
+        <param name="DateTime">
+          <span data-ttu-id="6db84-159">Дата учета операции.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-159">The date the entry was posted.</span>
+          </span>
+        </param>
+        <param name="Categories">
+          <span data-ttu-id="6db84-160">Список категорий, поддерживаемых поставщиком.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-160">A list of categories supported by the provider.</span>
+          </span>
+        </param>
+        <param name="Draft">
+          <span data-ttu-id="6db84-161">Указывает, является ли данный черновик post.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-161">Specifies whether this is a draft version of the post.</span>
+          </span>
+        </param>
+        <param name="PublishMessage">
+          <span data-ttu-id="6db84-162">Указывает, что отображается в строке опубликовать.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-162">Specifies what is displayed in the publish bar.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="6db84-163">Руки off текущего post, необходимо заново опубликовать поставщиком.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-163">Hands off the current post so it can be republished by the provider.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetupBlogAccount">
+      <MemberSignature Language="C#" Value="public void SetupBlogAccount (string Account, int ParentWindow, object Document, bool NewAccount, out bool ShowPictureUI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetupBlogAccount([in]string Account, [in]int32 ParentWindow, [in]object Document, [in]bool NewAccount, [out] bool&amp; ShowPictureUI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.SetupBlogAccount(System.String,System.Int32,System.Object,System.Boolean,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetupBlogAccount (Account As String, ParentWindow As Integer, Document As Object, NewAccount As Boolean, ByRef ShowPictureUI As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetupBlogAccount(System::String ^ Account, int ParentWindow, System::Object ^ Document, bool NewAccount, [Runtime::InteropServices::Out] bool % ShowPictureUI);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="NewAccount" Type="System.Boolean" />
+        <Parameter Name="ShowPictureUI" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">
+          <span data-ttu-id="6db84-164">Представляет идентификатор GUID в учетной записи реестра.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-164">Represents the GUID of the account registry key.</span>
+          </span>
+          <span data-ttu-id="6db84-165">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-165">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
+          </span>
+        </param>
+        <param name="ParentWindow">
+          <span data-ttu-id="6db84-166">Содержит HWND для Microsoft Word — это вызов из окна.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-166">Contains the HWND for the window Microsoft Word is calling from.</span>
+          </span>
+        </param>
+        <param name="Document">
+          <span data-ttu-id="6db84-167">Текущего документа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-167">The current document.</span>
+          </span>
+        </param>
+        <param name="NewAccount">
+          <span data-ttu-id="6db84-168">Указывает, является ли новую учетную запись.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-168">Indicates whether this is a new account.</span>
+          </span>
+        </param>
+        <param name="ShowPictureUI">
+          <span data-ttu-id="6db84-169">Указывает, должна ли отображаться пользовательский интерфейс Microsoft Office Word рисунков.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-169">Indicates whether Microsoft Office Word’s picture user interface needs to be displayed.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="6db84-170">Вызывается из диалогового окна выберите учетную запись, при выборе имя поставщика в раскрывающемся списке узла блога или когда пользователь запрашивает изменение учетной записи поставщика в диалоговом окне учетные записи блога.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6db84-170">Called from the Choose Account dialog when the provider’s name is chosen in the Blog Host dropdown or when the user requests to change a provider’s account in the Blog Accounts dialog box.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

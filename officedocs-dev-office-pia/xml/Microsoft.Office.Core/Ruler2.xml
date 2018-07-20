@@ -1,0 +1,280 @@
+<Type Name="Ruler2" FullName="Microsoft.Office.Core.Ruler2">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="111b0e33812d355fe81dc566f2fca82d8fd3a7ce" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662041" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Ruler2 : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Ruler2 implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Ruler2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Ruler2&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Ruler2 : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03C1-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0489c-101">Представляет линейки для текста в указанные форму или весь текст в стиле указанный текст.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0489c-101">Represents the ruler for the text in the specified shape or for all text in the specified text style.</span>
+      </span>
+      <span data-ttu-id="0489c-102">Содержит параметры отступа для уровней структуры текста и табуляции.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0489c-102">Contains tab stops and the indentation settings for text outline levels.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="0489c-103">
+        <para>Использование <see cref="P:Microsoft.Office.Core.TextFrame2.Ruler" /> свойства <see cref="T:Microsoft.Office.Core.TextFrame2" /> для возвращаемого объекта <see cref="T:Microsoft.Office.Core.Ruler2" /> объект, представляющий линейки для текста в указанном фигуры. Использование <see cref="P:Microsoft.Office.Core.Ruler2.TabStops" /> свойство для возвращения <see cref="T:Microsoft.Office.Core.TabStops2" /> объект, содержащий вкладке останавливается на линейке. Использование <see cref="P:Microsoft.Office.Core.Ruler2.Levels" /> свойство для возвращения <see cref="T:Microsoft.Office.Core.RulerLevels2" /> объект, который содержит параметры отступов для уровней структуры текста.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0489c-103">
+          <para>Use the <see cref="P:Microsoft.Office.Core.TextFrame2.Ruler" /> property of the <see cref="T:Microsoft.Office.Core.TextFrame2" /> object to return the <see cref="T:Microsoft.Office.Core.Ruler2" /> object that represents the ruler for the text in the specified shape. Use the <see cref="P:Microsoft.Office.Core.Ruler2.TabStops" /> property to return the <see cref="T:Microsoft.Office.Core.TabStops2" /> object that contains the tab stops on the ruler. Use the <see cref="P:Microsoft.Office.Core.Ruler2.Levels" /> property to return the <see cref="T:Microsoft.Office.Core.RulerLevels2" /> object that contains the indentation settings for text outline levels.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Ruler2.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0489c-104">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.Ruler2" /> объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-104">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.Ruler2" /> object.</span>
+          </span>
+          <span data-ttu-id="0489c-105">Только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-105">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0489c-106">
+            <b>Объект</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-106">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Ruler2.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0489c-107">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.Ruler2" /> был создан объект.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-107">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.Ruler2" /> object was created.</span>
+          </span>
+          <span data-ttu-id="0489c-108">Только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-108">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0489c-109">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-109">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Levels">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.RulerLevels2 Levels { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.RulerLevels2 Levels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Ruler2.Levels" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Levels As RulerLevels2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::RulerLevels2 ^ Levels { Microsoft::Office::Core::RulerLevels2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.RulerLevels2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0489c-110">Получает <see cref="T:Microsoft.Office.Core.RulerLevels2" /> объект, представляющий структуры форматирование текста.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-110">Gets a <see cref="T:Microsoft.Office.Core.RulerLevels2" /> object that represents outline text formatting.</span>
+          </span>
+          <span data-ttu-id="0489c-111">Только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-111">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.RulerLevels2" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Ruler2.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0489c-112">Получает родительский объект для <see cref="T:Microsoft.Office.Core.Ruler2" /> объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-112">Gets the parent object for the <see cref="T:Microsoft.Office.Core.Ruler2" /> object.</span>
+          </span>
+          <span data-ttu-id="0489c-113">Только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-113">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0489c-114">
+            <b>Объект</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-114">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabStops">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TabStops2 TabStops { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TabStops2 TabStops" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Ruler2.TabStops" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TabStops As TabStops2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TabStops2 ^ TabStops { Microsoft::Office::Core::TabStops2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TabStops2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0489c-115">Получает <see cref="T:Microsoft.Office.Core.TabStops2" /> коллекции, представляющей вкладке Останавливает указанный текст.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-115">Gets a <see cref="T:Microsoft.Office.Core.TabStops2" /> collection that represents the tab stops for the specified text.</span>
+          </span>
+          <span data-ttu-id="0489c-116">Только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0489c-116">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TabStops2" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

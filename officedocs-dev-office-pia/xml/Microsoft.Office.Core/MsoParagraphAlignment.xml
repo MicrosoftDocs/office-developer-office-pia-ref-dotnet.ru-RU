@@ -1,0 +1,249 @@
+<Type Name="MsoParagraphAlignment" FullName="Microsoft.Office.Core.MsoParagraphAlignment">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="302463a2e372ad7553a9c35d1dace27842916c91" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662446" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoParagraphAlignment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoParagraphAlignment extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoParagraphAlignment" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoParagraphAlignment" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoParagraphAlignment" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c4dc5-101">Задает выравнивание абзаца для блока текста.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c4dc5-101">Specifies paragraph alignment for a text block.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAlignCenter">
+      <MemberSignature Language="C#" Value="msoAlignCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignCenter = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignCenter" />
+      <MemberSignature Language="VB.NET" Value="msoAlignCenter" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4dc5-102">Указывает, что центр каждой строки текста выравнивается по центру правая и левая текстовые поля и влево и вправо края каждой строки переменной длины.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-102">Specifies that the center of each line of text is aligned to the midpoint of the right and left text box margins, and the left and right edges of each line are ragged.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignDistribute">
+      <MemberSignature Language="C#" Value="msoAlignDistribute" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignDistribute = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignDistribute" />
+      <MemberSignature Language="VB.NET" Value="msoAlignDistribute" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignDistribute" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4dc5-103">Указывает, что имя и фамилию каждой строки (кроме последней) выравнивается по левое и правое поля, а в строках путем увеличения или уменьшения справа каждый символ.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-103">Specifies that the first and last characters of each line (except the last) are aligned to the left and right margins, and lines are filled by adding or subtracting the same amount from each character.</span>
+          </span>
+          <span data-ttu-id="c4dc5-104">Последняя строка абзаца выравнивается по левому краю, если направление текста справа налево, или правого поля если направление текста справа налево.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-104">The last line of the paragraph is aligned to the left margin if text direction is left-to-right, or to the right margin if text direction is right-to-left.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignJustify">
+      <MemberSignature Language="C#" Value="msoAlignJustify" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignJustify = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignJustify" />
+      <MemberSignature Language="VB.NET" Value="msoAlignJustify" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignJustify" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4dc5-105">Указывает, что имя и фамилию каждой строки (кроме последней) выравнивается по левое и правое поля, и по увеличения или уменьшения интервала между и внутри слов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-105">Specifies that the first and last characters of each line (except the last) are aligned to the left and right margins, and lines are filled by adding or subtracting space between and within words.</span>
+          </span>
+          <span data-ttu-id="c4dc5-106">Последняя строка абзаца выравнивается по левому краю, если направление текста справа налево, или правого поля если направление текста справа налево.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-106">The last line of the paragraph is aligned to the left margin if text direction is left-to-right, or to the right margin if text direction is right-to-left.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignJustifyLow">
+      <MemberSignature Language="C#" Value="msoAlignJustifyLow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignJustifyLow = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignJustifyLow" />
+      <MemberSignature Language="VB.NET" Value="msoAlignJustifyLow" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignJustifyLow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4dc5-107">Указывает выравнивание или корректировка длину кашиды в арабский текст.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-107">Specifies the alignment or adjustment of  kashida length in Arabic text.</span>
+          </span>
+          <span data-ttu-id="c4dc5-108">Кашиды, специальные знаки, используемые для расширения соединения между двумя знаков арабского языка.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-108">Kashida are special characters used to extend the joiner between two Arabic characters.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignLeft">
+      <MemberSignature Language="C#" Value="msoAlignLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignLeft = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignLeft" />
+      <MemberSignature Language="VB.NET" Value="msoAlignLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4dc5-109">Указывает, что самые левые символ каждой строки выравнивается по левому краю и правому краю каждой строки переменной длины.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-109">Specifies that the leftmost character of each line is aligned to the left margin, and the right edge of each line is ragged.</span>
+          </span>
+          <span data-ttu-id="c4dc5-110">Это выравнивание по умолчанию для абзацев с направлением письма справа налево.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-110">This is the default alignment for paragraphs with left-to-right text direction.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignMixed">
+      <MemberSignature Language="C#" Value="msoAlignMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignMixed" />
+      <MemberSignature Language="VB.NET" Value="msoAlignMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4dc5-111">Используйте сочетание стилей выравнивания.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-111">Use a combination of alignment styles.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignRight">
+      <MemberSignature Language="C#" Value="msoAlignRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignRight = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignRight" />
+      <MemberSignature Language="VB.NET" Value="msoAlignRight" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4dc5-112">Указывает, что самый правый знак каждой строки выравнивается по правому полю, а левого края каждой строки переменной длины.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-112">Specifies that the rightmost character of each line is aligned to the right margin, and the left edge of each line is ragged.</span>
+          </span>
+          <span data-ttu-id="c4dc5-113">Это выравнивание по умолчанию для абзацев с направлением письма справа налево.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-113">This is the default alignment for paragraphs with right-to-left text direction.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlignThaiDistribute">
+      <MemberSignature Language="C#" Value="msoAlignThaiDistribute" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoParagraphAlignment msoAlignThaiDistribute = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoParagraphAlignment.msoAlignThaiDistribute" />
+      <MemberSignature Language="VB.NET" Value="msoAlignThaiDistribute" />
+      <MemberSignature Language="C++ CLI" Value="msoAlignThaiDistribute" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoParagraphAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4dc5-114">Указывает, что имя и фамилию каждой строки (кроме последней) выравнивается по левое и правое поля, и по увеличения или уменьшения слова пространство между (но не в пределах).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-114">Specifies that the first and last characters of each line (except the last) are aligned to the left and right margins, and lines are filled by adding or subtracting space between (but not within) words.</span>
+          </span>
+          <span data-ttu-id="c4dc5-115">Последняя строка абзаца выравнивается по левому краю.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4dc5-115">The last line of the paragraph is aligned to the left margin.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

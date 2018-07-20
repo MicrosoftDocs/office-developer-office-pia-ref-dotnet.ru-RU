@@ -1,0 +1,48 @@
+<Type Name="IMsoEnvelopeVBEvents_EnvelopeHideEventHandler" FullName="Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a0c0c433ce7b4a84556b8bb83acd325d1b5a798b" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662306" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void IMsoEnvelopeVBEvents_EnvelopeHideEventHandler();" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed IMsoEnvelopeVBEvents_EnvelopeHideEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub IMsoEnvelopeVBEvents_EnvelopeHideEventHandler()" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void IMsoEnvelopeVBEvents_EnvelopeHideEventHandler();" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters />
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <summary>
+      <span data-ttu-id="9d563-101">Тип <b>делегата</b> , используемый для добавления обработчика события для <see cref="E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeHide" /> события.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9d563-101">A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeHide" /> event.</span>
+      </span>
+      <span data-ttu-id="9d563-102">
+        <b>EnvelopeHide</b> событие происходит, когда пользовательского интерфейса (UI), который соответствует <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объект является скрытым.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9d563-102">The <b>EnvelopeHide</b> event occurs when the user interface (UI) that corresponds to the <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object is hidden.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

@@ -1,0 +1,327 @@
+<Type Name="WebPageFont" FullName="Microsoft.Office.Core.WebPageFont">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9986cfe6a568f6dc708c8c83727a0c222e2cc078" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20661711" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface WebPageFont : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract WebPageFont implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.WebPageFont" />
+  <TypeSignature Language="VB.NET" Value="Public Interface WebPageFont&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class WebPageFont : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0913-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c4973-101">Представляет шрифта по умолчанию, используемого при сохранении документов в виде веб-страниц для конкретной кодировки.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c4973-101">Represents the default font used when documents are saved as Web pages for a particular character set.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="c4973-102">
+        <para>Используйте объект <b>WebPageFont</b> для описания пропорциональный, размер пропорциональный, фиксированного размера шрифта и размер шрифта половинной ширины для любого набора доступных символов.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c4973-102">
+          <para>Use the <b>WebPageFont</b> object to describe the proportional font, proportional font size, fixed-width font, and fixed-width font size for any available character set.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebPageFont.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4973-103">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4973-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebPageFont.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4973-104">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4973-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c4973-105">
+            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
+          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
+          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.WebPageFont.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4973-105">
+              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.WebPageFont.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FixedWidthFont">
+      <MemberSignature Language="C#" Value="public string FixedWidthFont { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FixedWidthFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebPageFont.FixedWidthFont" />
+      <MemberSignature Language="VB.NET" Value="Public Property FixedWidthFont As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FixedWidthFont { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4973-106">Возвращает или задает параметр фиксированного размера шрифта в ведущем приложении.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4973-106">Returns or sets the fixed-width font setting in the host application.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c4973-107">
+            <para>Если свойство <b>FixedWidthFont</b> ведущее приложение не проверяет, значение на допустимость.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4973-107">
+              <para>When you set the <b>FixedWidthFont</b> property, the host application does not check the value for validity.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FixedWidthFontSize">
+      <MemberSignature Language="C#" Value="public float FixedWidthFontSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 FixedWidthFontSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebPageFont.FixedWidthFontSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property FixedWidthFontSize As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float FixedWidthFontSize { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4973-108">Возвращает или задает параметра размер шрифта половинной ширины в ведущем приложении в пунктах.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4973-108">Returns or sets the fixed-width font size setting in the host application in points.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c4973-109">
+            <para>Если свойство <b>FixedWidthFontSize</b> ведущее приложение не проверяет, значение на допустимость. Если ввести недопустимое значение, например, не являющиеся номер, ведущее приложение задает размер на 0 точек. Можно ввести наполовину размеров; Если ввести другие дробная размеров они округляется вверх или вниз до ближайшего наполовину точки.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4973-109">
+              <para>When you set the <b>FixedWidthFontSize</b> property, the host application does not check the value for validity. If you enter an invalid value, such as a non-number, the host application sets the size to 0 points. You can enter half-point sizes; if you enter other fractional point sizes, they are rounded up or down to the nearest half-point.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProportionalFont">
+      <MemberSignature Language="C#" Value="public string ProportionalFont { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ProportionalFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebPageFont.ProportionalFont" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProportionalFont As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ProportionalFont { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4973-110">Возвращает или задает параметр пропорциональный в ведущем приложении.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4973-110">Returns or sets the proportional font setting in the host application.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c4973-111">
+            <para>Если свойство <b>ProportionalFont</b> ведущее приложение не проверяет, значение на допустимость.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4973-111">
+              <para>When you set the <b>ProportionalFont</b> property, the host application does not check the value for validity.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProportionalFontSize">
+      <MemberSignature Language="C#" Value="public float ProportionalFontSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ProportionalFontSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebPageFont.ProportionalFontSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProportionalFontSize As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ProportionalFontSize { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4973-112">Возвращает или задает значение размера пропорциональный в ведущем приложении в пунктах.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4973-112">Returns or sets the proportional font size setting in the host application in points.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c4973-113">
+            <para>Если свойство <b>ProportionalFontSize</b> ведущее приложение не проверяет, значение на допустимость. Если ввести недопустимое значение, например, не являющиеся номер, ведущее приложение задает размер на 0 точек. Можно ввести наполовину размеров; Если ввести другие дробная размеров они округляется вверх или вниз до ближайшего наполовину точки.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4973-113">
+              <para>When you set the <b>ProportionalFontSize</b> property, the host application does not check the value for validity. If you enter an invalid value, such as a non-number, the host application sets the size to 0 points. You can enter half-point sizes; if you enter other fractional point sizes, they are rounded up or down to the nearest half-point.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

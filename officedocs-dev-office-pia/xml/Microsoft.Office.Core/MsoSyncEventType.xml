@@ -1,0 +1,240 @@
+<Type Name="MsoSyncEventType" FullName="Microsoft.Office.Core.MsoSyncEventType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="935359cb6e63378d9d75902e72fe64103a6b7919" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20661874" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoSyncEventType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncEventType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncEventType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncEventType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSyncEventType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="39514-101">Задает значение, возвращаемое события <b>синхронизации</b> .</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="39514-101">Specifies the return value of a <b>Sync</b> event.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="39514-102">
+        <para>В Microsoft Word используется с <b>синхронизации</b> объекта <b>Document</b> или <b>DocumentSync</b> события объекта <b>Application</b> .</para>
+        <para>В Microsoft Excel, используется с <b>синхронизации</b> объекта <b>книги</b> или <b>WorkbookSync</b> события объекта <b>Application</b> .</para>
+        <para>В Microsoft PowerPoint, используемые с событием <b>PresentationSync</b> объекта <b>Application</b> .</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="39514-102">
+          <para>In Microsoft Word, used with the <b>Sync</b> event of the <b>Document</b> object or the <b>DocumentSync</b> event of the <b>Application</b> object.</para>
+          <para>In Microsoft Excel, used with the <b>Sync</b> event of the <b>Workbook</b> object or the <b>WorkbookSync</b> event of the <b>Application</b> object.</para>
+          <para>In Microsoft PowerPoint, used with the <b>PresentationSync</b> event of the <b>Application</b> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSyncEventDownloadFailed">
+      <MemberSignature Language="C#" Value="msoSyncEventDownloadFailed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncEventType msoSyncEventDownloadFailed = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncEventType.msoSyncEventDownloadFailed" />
+      <MemberSignature Language="VB.NET" Value="msoSyncEventDownloadFailed" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncEventDownloadFailed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncEventType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="39514-103">Ошибка загрузки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="39514-103">Download failed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncEventDownloadInitiated">
+      <MemberSignature Language="C#" Value="msoSyncEventDownloadInitiated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncEventType msoSyncEventDownloadInitiated = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncEventType.msoSyncEventDownloadInitiated" />
+      <MemberSignature Language="VB.NET" Value="msoSyncEventDownloadInitiated" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncEventDownloadInitiated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncEventType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="39514-104">Файл для загрузки запускаются.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="39514-104">Download initiated.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncEventDownloadNoChange">
+      <MemberSignature Language="C#" Value="msoSyncEventDownloadNoChange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncEventType msoSyncEventDownloadNoChange = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncEventType.msoSyncEventDownloadNoChange" />
+      <MemberSignature Language="VB.NET" Value="msoSyncEventDownloadNoChange" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncEventDownloadNoChange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncEventType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="39514-105">Не обнаружено изменение.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="39514-105">No change detected.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncEventDownloadSucceeded">
+      <MemberSignature Language="C#" Value="msoSyncEventDownloadSucceeded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncEventType msoSyncEventDownloadSucceeded = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncEventType.msoSyncEventDownloadSucceeded" />
+      <MemberSignature Language="VB.NET" Value="msoSyncEventDownloadSucceeded" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncEventDownloadSucceeded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncEventType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="39514-106">Файл для загрузки выполнено успешно.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="39514-106">Download succeeded.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncEventOffline">
+      <MemberSignature Language="C#" Value="msoSyncEventOffline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncEventType msoSyncEventOffline = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncEventType.msoSyncEventOffline" />
+      <MemberSignature Language="VB.NET" Value="msoSyncEventOffline" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncEventOffline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncEventType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="39514-107">Автономный режим.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="39514-107">Offline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncEventUploadFailed">
+      <MemberSignature Language="C#" Value="msoSyncEventUploadFailed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncEventType msoSyncEventUploadFailed = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncEventType.msoSyncEventUploadFailed" />
+      <MemberSignature Language="VB.NET" Value="msoSyncEventUploadFailed" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncEventUploadFailed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncEventType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="39514-108">Ошибка при отправке.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="39514-108">Upload failed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncEventUploadInitiated">
+      <MemberSignature Language="C#" Value="msoSyncEventUploadInitiated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncEventType msoSyncEventUploadInitiated = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncEventType.msoSyncEventUploadInitiated" />
+      <MemberSignature Language="VB.NET" Value="msoSyncEventUploadInitiated" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncEventUploadInitiated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncEventType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="39514-109">Отправка инициировал.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="39514-109">Upload initiated.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncEventUploadSucceeded">
+      <MemberSignature Language="C#" Value="msoSyncEventUploadSucceeded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncEventType msoSyncEventUploadSucceeded = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncEventType.msoSyncEventUploadSucceeded" />
+      <MemberSignature Language="VB.NET" Value="msoSyncEventUploadSucceeded" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncEventUploadSucceeded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncEventType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="39514-110">Отправка успешно завершена.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="39514-110">Upload succeeded.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

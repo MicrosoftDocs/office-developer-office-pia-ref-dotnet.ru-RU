@@ -1,0 +1,161 @@
+<Type Name="MsoMergeCmd" FullName="Microsoft.Office.Core.MsoMergeCmd">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2217f97a67e967f96c17754da727b165a37258c0" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20661929" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoMergeCmd" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoMergeCmd extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoMergeCmd" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoMergeCmd" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoMergeCmd" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="78060-101">Указывает результат выполнения операции объединения фигур.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="78060-101">Specifies the output of a merge shapes operation.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoMergeCombine">
+      <MemberSignature Language="C#" Value="msoMergeCombine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeCombine = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeCombine" />
+      <MemberSignature Language="VB.NET" Value="msoMergeCombine" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeCombine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="78060-102">Создает новую форму из выделенных фигур.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="78060-102">Creates a new shape from selected shapes.</span>
+          </span>
+          <span data-ttu-id="78060-103">Если накладываются выбранные фигуры, области, где они пересекаются вырежьте, или удалены.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="78060-103">If the selected shapes overlap, the area where they overlap is cut out, or discarded.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMergeFragment">
+      <MemberSignature Language="C#" Value="msoMergeFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeFragment = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeFragment" />
+      <MemberSignature Language="VB.NET" Value="msoMergeFragment" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="78060-104">Разрывы фигуры на части меньшего размера или создать новые фигуры из пересекающихся линий или фигуры, которые пересекаются.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="78060-104">Breaks a shape into smaller parts or create new shapes from intersecting lines or from shapes that overlap.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMergeIntersect">
+      <MemberSignature Language="C#" Value="msoMergeIntersect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeIntersect = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeIntersect" />
+      <MemberSignature Language="VB.NET" Value="msoMergeIntersect" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeIntersect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="78060-105">Новые закрытой фигуру из области перекрытия выделенных фигур, чтобы исключить без перекрытия областей форм.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="78060-105">Forms a new closed shape from the area where selected shapes overlap, eliminating non-overlapping areas.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMergeSubtract">
+      <MemberSignature Language="C#" Value="msoMergeSubtract" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeSubtract = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeSubtract" />
+      <MemberSignature Language="VB.NET" Value="msoMergeSubtract" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeSubtract" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="78060-106">Создает новую форму путем вычитания из основного выделения области перекрытия последующих выбранные элементы.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="78060-106">Creates a new shape by subtracting from the primary selection the areas where subsequent selections overlap.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMergeUnion">
+      <MemberSignature Language="C#" Value="msoMergeUnion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeUnion = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeUnion" />
+      <MemberSignature Language="VB.NET" Value="msoMergeUnion" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeUnion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="78060-107">Создает новую форму из периметра два или более перекрывающимися фигурами.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="78060-107">Creates a new shape from the perimeter of two or more overlapping shapes.</span>
+          </span>
+          <span data-ttu-id="78060-108">Новые фигуры представляют собой набор всех точек из исходной фигуры.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="78060-108">The new shape is a set of all the points from the original shapes.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,2230 @@
+<Type Name="XlChartType" FullName="Microsoft.Office.Core.XlChartType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ab397d47d6db4c04694858a459b8933cfb22a0b0" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20661769" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlChartType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlChartType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlChartType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlChartType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlChartType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c947f-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c947f-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+      </span>
+      <span data-ttu-id="c947f-102">Указывает тип диаграммы.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c947f-102">Specifies the chart type.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xl3DArea">
+      <MemberSignature Language="C#" Value="xl3DArea" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DArea = int32(-4098)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DArea" />
+      <MemberSignature Language="VB.NET" Value="xl3DArea" />
+      <MemberSignature Language="C++ CLI" Value="xl3DArea" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4098</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-104">Трехмерная область</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-104">3D Area</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DAreaStacked">
+      <MemberSignature Language="C#" Value="xl3DAreaStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DAreaStacked = int32(78)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DAreaStacked" />
+      <MemberSignature Language="VB.NET" Value="xl3DAreaStacked" />
+      <MemberSignature Language="C++ CLI" Value="xl3DAreaStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>78</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-106">3D с накоплением</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-106">3D Stacked Area</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DAreaStacked100">
+      <MemberSignature Language="C#" Value="xl3DAreaStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DAreaStacked100 = int32(79)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DAreaStacked100" />
+      <MemberSignature Language="VB.NET" Value="xl3DAreaStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xl3DAreaStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>79</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-108">100% с накоплением</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-108">100% Stacked Area</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DBarClustered">
+      <MemberSignature Language="C#" Value="xl3DBarClustered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DBarClustered = int32(60)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DBarClustered" />
+      <MemberSignature Language="VB.NET" Value="xl3DBarClustered" />
+      <MemberSignature Language="C++ CLI" Value="xl3DBarClustered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>60</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-110">3D линейчатая диаграмма</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-110">3D Clustered Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DBarStacked">
+      <MemberSignature Language="C#" Value="xl3DBarStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DBarStacked = int32(61)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DBarStacked" />
+      <MemberSignature Language="VB.NET" Value="xl3DBarStacked" />
+      <MemberSignature Language="C++ CLI" Value="xl3DBarStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>61</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-112">Линейчатая диаграмма с 3D</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-112">3D Stacked Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DBarStacked100">
+      <MemberSignature Language="C#" Value="xl3DBarStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DBarStacked100 = int32(62)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DBarStacked100" />
+      <MemberSignature Language="VB.NET" Value="xl3DBarStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xl3DBarStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>62</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-113">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-113">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-114">Линейчатая диаграмма с 3D 100%</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-114">3D 100% Stacked Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DColumn">
+      <MemberSignature Language="C#" Value="xl3DColumn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DColumn = int32(-4100)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DColumn" />
+      <MemberSignature Language="VB.NET" Value="xl3DColumn" />
+      <MemberSignature Language="C++ CLI" Value="xl3DColumn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4100</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-115">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-115">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-116">3D столбца</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-116">3D Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DColumnClustered">
+      <MemberSignature Language="C#" Value="xl3DColumnClustered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DColumnClustered = int32(54)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DColumnClustered" />
+      <MemberSignature Language="VB.NET" Value="xl3DColumnClustered" />
+      <MemberSignature Language="C++ CLI" Value="xl3DColumnClustered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>54</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-117">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-117">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-118">3D Гистограмма</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-118">3D Clustered Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DColumnStacked">
+      <MemberSignature Language="C#" Value="xl3DColumnStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DColumnStacked = int32(55)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DColumnStacked" />
+      <MemberSignature Language="VB.NET" Value="xl3DColumnStacked" />
+      <MemberSignature Language="C++ CLI" Value="xl3DColumnStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>55</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-119">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-119">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-120">Трехмерные гистограмма с накоплением</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-120">3D Stacked Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DColumnStacked100">
+      <MemberSignature Language="C#" Value="xl3DColumnStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DColumnStacked100 = int32(56)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DColumnStacked100" />
+      <MemberSignature Language="VB.NET" Value="xl3DColumnStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xl3DColumnStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>56</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-121">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-121">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-122">Линейчатая диаграмма с 3D 100%</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-122">3D 100% Stacked Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DLine">
+      <MemberSignature Language="C#" Value="xl3DLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DLine = int32(-4101)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DLine" />
+      <MemberSignature Language="VB.NET" Value="xl3DLine" />
+      <MemberSignature Language="C++ CLI" Value="xl3DLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4101</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-123">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-123">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-124">3D строки</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-124">3D Line</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DPie">
+      <MemberSignature Language="C#" Value="xl3DPie" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DPie = int32(-4102)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DPie" />
+      <MemberSignature Language="VB.NET" Value="xl3DPie" />
+      <MemberSignature Language="C++ CLI" Value="xl3DPie" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4102</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-125">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-125">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-126">3D круговая</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-126">3D Pie</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DPieExploded">
+      <MemberSignature Language="C#" Value="xl3DPieExploded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xl3DPieExploded = int32(70)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xl3DPieExploded" />
+      <MemberSignature Language="VB.NET" Value="xl3DPieExploded" />
+      <MemberSignature Language="C++ CLI" Value="xl3DPieExploded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>70</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-127">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-127">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-128">Развернутая круговая 3D</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-128">Exploded 3D Pie</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlArea">
+      <MemberSignature Language="C#" Value="xlArea" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlArea = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlArea" />
+      <MemberSignature Language="VB.NET" Value="xlArea" />
+      <MemberSignature Language="C++ CLI" Value="xlArea" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-129">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-129">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-130">Область</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-130">Area</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlAreaStacked">
+      <MemberSignature Language="C#" Value="xlAreaStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlAreaStacked = int32(76)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlAreaStacked" />
+      <MemberSignature Language="VB.NET" Value="xlAreaStacked" />
+      <MemberSignature Language="C++ CLI" Value="xlAreaStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>76</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-131">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-131">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-132">С накоплением</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-132">Stacked Area</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlAreaStacked100">
+      <MemberSignature Language="C#" Value="xlAreaStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlAreaStacked100 = int32(77)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlAreaStacked100" />
+      <MemberSignature Language="VB.NET" Value="xlAreaStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xlAreaStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>77</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-133">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-133">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-134">100% с накоплением</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-134">100% Stacked Area</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlBarClustered">
+      <MemberSignature Language="C#" Value="xlBarClustered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlBarClustered = int32(57)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlBarClustered" />
+      <MemberSignature Language="VB.NET" Value="xlBarClustered" />
+      <MemberSignature Language="C++ CLI" Value="xlBarClustered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>57</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-135">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-135">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-136">Линейчатая диаграмма</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-136">Clustered Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlBarOfPie">
+      <MemberSignature Language="C#" Value="xlBarOfPie" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlBarOfPie = int32(71)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlBarOfPie" />
+      <MemberSignature Language="VB.NET" Value="xlBarOfPie" />
+      <MemberSignature Language="C++ CLI" Value="xlBarOfPie" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>71</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-137">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-137">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-138">Линия круговой диаграммы</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-138">Bar of Pie</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlBarStacked">
+      <MemberSignature Language="C#" Value="xlBarStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlBarStacked = int32(58)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlBarStacked" />
+      <MemberSignature Language="VB.NET" Value="xlBarStacked" />
+      <MemberSignature Language="C++ CLI" Value="xlBarStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>58</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-139">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-139">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-140">Линейчатая диаграмма</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-140">Stacked Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlBarStacked100">
+      <MemberSignature Language="C#" Value="xlBarStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlBarStacked100 = int32(59)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlBarStacked100" />
+      <MemberSignature Language="VB.NET" Value="xlBarStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xlBarStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>59</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-141">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-141">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-142">Линейчатая диаграмма с 100%</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-142">100% Stacked Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlBubble">
+      <MemberSignature Language="C#" Value="xlBubble" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlBubble = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlBubble" />
+      <MemberSignature Language="VB.NET" Value="xlBubble" />
+      <MemberSignature Language="C++ CLI" Value="xlBubble" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-143">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-143">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-144">Пузырьковой</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-144">Bubble</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlBubble3DEffect">
+      <MemberSignature Language="C#" Value="xlBubble3DEffect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlBubble3DEffect = int32(87)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlBubble3DEffect" />
+      <MemberSignature Language="VB.NET" Value="xlBubble3DEffect" />
+      <MemberSignature Language="C++ CLI" Value="xlBubble3DEffect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>87</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-145">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-145">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-146">Передача с объемный</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-146">Bubble with 3D effects</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlColumnClustered">
+      <MemberSignature Language="C#" Value="xlColumnClustered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlColumnClustered = int32(51)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlColumnClustered" />
+      <MemberSignature Language="VB.NET" Value="xlColumnClustered" />
+      <MemberSignature Language="C++ CLI" Value="xlColumnClustered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>51</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-147">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-147">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-148">3D Гистограмма</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-148">3D Clustered Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlColumnStacked">
+      <MemberSignature Language="C#" Value="xlColumnStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlColumnStacked = int32(52)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlColumnStacked" />
+      <MemberSignature Language="VB.NET" Value="xlColumnStacked" />
+      <MemberSignature Language="C++ CLI" Value="xlColumnStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>52</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-149">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-149">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-150">Гистограмма</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-150">Stacked Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlColumnStacked100">
+      <MemberSignature Language="C#" Value="xlColumnStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlColumnStacked100 = int32(53)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlColumnStacked100" />
+      <MemberSignature Language="VB.NET" Value="xlColumnStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xlColumnStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>53</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-151">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-151">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-152">100% гистограмма с накоплением</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-152">100% Stacked Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCombo">
+      <MemberSignature Language="C#" Value="xlCombo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlCombo = int32(-4152)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlCombo" />
+      <MemberSignature Language="VB.NET" Value="xlCombo" />
+      <MemberSignature Language="C++ CLI" Value="xlCombo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4152</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-153">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-153">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlComboAreaStackedColumnClustered">
+      <MemberSignature Language="C#" Value="xlComboAreaStackedColumnClustered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlComboAreaStackedColumnClustered = int32(115)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlComboAreaStackedColumnClustered" />
+      <MemberSignature Language="VB.NET" Value="xlComboAreaStackedColumnClustered" />
+      <MemberSignature Language="C++ CLI" Value="xlComboAreaStackedColumnClustered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>115</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-154">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-154">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlComboColumnClusteredLine">
+      <MemberSignature Language="C#" Value="xlComboColumnClusteredLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlComboColumnClusteredLine = int32(113)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlComboColumnClusteredLine" />
+      <MemberSignature Language="VB.NET" Value="xlComboColumnClusteredLine" />
+      <MemberSignature Language="C++ CLI" Value="xlComboColumnClusteredLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>113</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-155">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-155">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlComboColumnClusteredLineSecondaryAxis">
+      <MemberSignature Language="C#" Value="xlComboColumnClusteredLineSecondaryAxis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlComboColumnClusteredLineSecondaryAxis = int32(114)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlComboColumnClusteredLineSecondaryAxis" />
+      <MemberSignature Language="VB.NET" Value="xlComboColumnClusteredLineSecondaryAxis" />
+      <MemberSignature Language="C++ CLI" Value="xlComboColumnClusteredLineSecondaryAxis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>114</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-156">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-156">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlConeBarClustered">
+      <MemberSignature Language="C#" Value="xlConeBarClustered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlConeBarClustered = int32(102)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlConeBarClustered" />
+      <MemberSignature Language="VB.NET" Value="xlConeBarClustered" />
+      <MemberSignature Language="C++ CLI" Value="xlConeBarClustered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>102</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-157">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-157">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-158">Линейчатая диаграмма конические</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-158">Clustered Cone Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlConeBarStacked">
+      <MemberSignature Language="C#" Value="xlConeBarStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlConeBarStacked = int32(103)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlConeBarStacked" />
+      <MemberSignature Language="VB.NET" Value="xlConeBarStacked" />
+      <MemberSignature Language="C++ CLI" Value="xlConeBarStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>103</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-159">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-159">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-160">Линейчатая диаграмма конические</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-160">Stacked Cone Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlConeBarStacked100">
+      <MemberSignature Language="C#" Value="xlConeBarStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlConeBarStacked100 = int32(104)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlConeBarStacked100" />
+      <MemberSignature Language="VB.NET" Value="xlConeBarStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xlConeBarStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>104</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-161">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-161">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-162">Линейчатая диаграмма 100% конические</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-162">100% Stacked Cone Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlConeCol">
+      <MemberSignature Language="C#" Value="xlConeCol" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlConeCol = int32(105)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlConeCol" />
+      <MemberSignature Language="VB.NET" Value="xlConeCol" />
+      <MemberSignature Language="C++ CLI" Value="xlConeCol" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>105</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-163">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-163">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-164">Столбец трехмерной конической</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-164">3D Cone Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlConeColClustered">
+      <MemberSignature Language="C#" Value="xlConeColClustered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlConeColClustered = int32(99)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlConeColClustered" />
+      <MemberSignature Language="VB.NET" Value="xlConeColClustered" />
+      <MemberSignature Language="C++ CLI" Value="xlConeColClustered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>99</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-165">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-165">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-166">Кластерные конические столбца</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-166">Clustered Cone Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlConeColStacked">
+      <MemberSignature Language="C#" Value="xlConeColStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlConeColStacked = int32(100)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlConeColStacked" />
+      <MemberSignature Language="VB.NET" Value="xlConeColStacked" />
+      <MemberSignature Language="C++ CLI" Value="xlConeColStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>100</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-167">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-167">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-168">Столбец с накоплением конические</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-168">Stacked Cone Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlConeColStacked100">
+      <MemberSignature Language="C#" Value="xlConeColStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlConeColStacked100 = int32(101)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlConeColStacked100" />
+      <MemberSignature Language="VB.NET" Value="xlConeColStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xlConeColStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>101</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-169">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-169">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-170">Столбец с накоплением конические 100%</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-170">100% Stacked Cone Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCylinderBarClustered">
+      <MemberSignature Language="C#" Value="xlCylinderBarClustered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlCylinderBarClustered = int32(95)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlCylinderBarClustered" />
+      <MemberSignature Language="VB.NET" Value="xlCylinderBarClustered" />
+      <MemberSignature Language="C++ CLI" Value="xlCylinderBarClustered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>95</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-171">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-171">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-172">Линейчатая диаграмма цилиндрической</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-172">Clustered Cylinder Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCylinderBarStacked">
+      <MemberSignature Language="C#" Value="xlCylinderBarStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlCylinderBarStacked = int32(96)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlCylinderBarStacked" />
+      <MemberSignature Language="VB.NET" Value="xlCylinderBarStacked" />
+      <MemberSignature Language="C++ CLI" Value="xlCylinderBarStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>96</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-173">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-173">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-174">Линейчатая диаграмма цилиндрической</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-174">Stacked Cylinder Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCylinderBarStacked100">
+      <MemberSignature Language="C#" Value="xlCylinderBarStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlCylinderBarStacked100 = int32(97)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlCylinderBarStacked100" />
+      <MemberSignature Language="VB.NET" Value="xlCylinderBarStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xlCylinderBarStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>97</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-175">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-175">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-176">Линейчатая диаграмма 100% цилиндрической</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-176">100% Stacked Cylinder Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCylinderCol">
+      <MemberSignature Language="C#" Value="xlCylinderCol" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlCylinderCol = int32(98)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlCylinderCol" />
+      <MemberSignature Language="VB.NET" Value="xlCylinderCol" />
+      <MemberSignature Language="C++ CLI" Value="xlCylinderCol" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>98</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-177">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-177">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-178">Столбец 3D цилиндрической</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-178">3D Cylinder Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCylinderColClustered">
+      <MemberSignature Language="C#" Value="xlCylinderColClustered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlCylinderColClustered = int32(92)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlCylinderColClustered" />
+      <MemberSignature Language="VB.NET" Value="xlCylinderColClustered" />
+      <MemberSignature Language="C++ CLI" Value="xlCylinderColClustered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>92</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-179">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-179">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-180">Кластерные конические столбца</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-180">Clustered Cone Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCylinderColStacked">
+      <MemberSignature Language="C#" Value="xlCylinderColStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlCylinderColStacked = int32(93)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlCylinderColStacked" />
+      <MemberSignature Language="VB.NET" Value="xlCylinderColStacked" />
+      <MemberSignature Language="C++ CLI" Value="xlCylinderColStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>93</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-181">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-181">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-182">Линейчатая диаграмма цилиндрической</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-182">Stacked Cylinder Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCylinderColStacked100">
+      <MemberSignature Language="C#" Value="xlCylinderColStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlCylinderColStacked100 = int32(94)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlCylinderColStacked100" />
+      <MemberSignature Language="VB.NET" Value="xlCylinderColStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xlCylinderColStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>94</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-183">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-183">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-184">Столбец с накоплением цилиндрической 100%</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-184">100% Stacked Cylinder Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDoughnut">
+      <MemberSignature Language="C#" Value="xlDoughnut" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlDoughnut = int32(-4120)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlDoughnut" />
+      <MemberSignature Language="VB.NET" Value="xlDoughnut" />
+      <MemberSignature Language="C++ CLI" Value="xlDoughnut" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4120</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-185">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-185">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-186">Кольцевая</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-186">Doughnut</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDoughnutExploded">
+      <MemberSignature Language="C#" Value="xlDoughnutExploded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlDoughnutExploded = int32(80)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlDoughnutExploded" />
+      <MemberSignature Language="VB.NET" Value="xlDoughnutExploded" />
+      <MemberSignature Language="C++ CLI" Value="xlDoughnutExploded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>80</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-187">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-187">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-188">Развернутая кольцевых</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-188">Exploded Doughnut</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLine">
+      <MemberSignature Language="C#" Value="xlLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlLine = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlLine" />
+      <MemberSignature Language="VB.NET" Value="xlLine" />
+      <MemberSignature Language="C++ CLI" Value="xlLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-189">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-189">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-190">Строка</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-190">Line</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLineMarkers">
+      <MemberSignature Language="C#" Value="xlLineMarkers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlLineMarkers = int32(65)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlLineMarkers" />
+      <MemberSignature Language="VB.NET" Value="xlLineMarkers" />
+      <MemberSignature Language="C++ CLI" Value="xlLineMarkers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>65</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-191">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-191">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-192">График с маркерами</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-192">Line with Markers</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLineMarkersStacked">
+      <MemberSignature Language="C#" Value="xlLineMarkersStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlLineMarkersStacked = int32(66)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlLineMarkersStacked" />
+      <MemberSignature Language="VB.NET" Value="xlLineMarkersStacked" />
+      <MemberSignature Language="C++ CLI" Value="xlLineMarkersStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>66</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-193">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-193">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-194">График с накоплением с маркерами</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-194">Stacked Line with Markers</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLineMarkersStacked100">
+      <MemberSignature Language="C#" Value="xlLineMarkersStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlLineMarkersStacked100 = int32(67)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlLineMarkersStacked100" />
+      <MemberSignature Language="VB.NET" Value="xlLineMarkersStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xlLineMarkersStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>67</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-195">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-195">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-196">График с маркерами с накоплением 100%</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-196">100% Stacked Line with Markers</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLineStacked">
+      <MemberSignature Language="C#" Value="xlLineStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlLineStacked = int32(63)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlLineStacked" />
+      <MemberSignature Language="VB.NET" Value="xlLineStacked" />
+      <MemberSignature Language="C++ CLI" Value="xlLineStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>63</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-197">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-197">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-198">График с накоплением</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-198">Stacked Line</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLineStacked100">
+      <MemberSignature Language="C#" Value="xlLineStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlLineStacked100 = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlLineStacked100" />
+      <MemberSignature Language="VB.NET" Value="xlLineStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xlLineStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-199">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-199">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-200">График с накоплением 100%</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-200">100% Stacked Line</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlOtherCombinations">
+      <MemberSignature Language="C#" Value="xlOtherCombinations" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlOtherCombinations = int32(116)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlOtherCombinations" />
+      <MemberSignature Language="VB.NET" Value="xlOtherCombinations" />
+      <MemberSignature Language="C++ CLI" Value="xlOtherCombinations" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>116</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-201">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-201">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPie">
+      <MemberSignature Language="C#" Value="xlPie" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlPie = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlPie" />
+      <MemberSignature Language="VB.NET" Value="xlPie" />
+      <MemberSignature Language="C++ CLI" Value="xlPie" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-202">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-202">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-203">Круговая</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-203">Pie</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPieExploded">
+      <MemberSignature Language="C#" Value="xlPieExploded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlPieExploded = int32(69)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlPieExploded" />
+      <MemberSignature Language="VB.NET" Value="xlPieExploded" />
+      <MemberSignature Language="C++ CLI" Value="xlPieExploded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>69</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-204">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-204">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-205">Развернутая круговая</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-205">Exploded Pie</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPieOfPie">
+      <MemberSignature Language="C#" Value="xlPieOfPie" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlPieOfPie = int32(68)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlPieOfPie" />
+      <MemberSignature Language="VB.NET" Value="xlPieOfPie" />
+      <MemberSignature Language="C++ CLI" Value="xlPieOfPie" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>68</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-206">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-206">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-207">Вторичная круговая диаграмма</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-207">Pie of Pie</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPyramidBarClustered">
+      <MemberSignature Language="C#" Value="xlPyramidBarClustered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlPyramidBarClustered = int32(109)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlPyramidBarClustered" />
+      <MemberSignature Language="VB.NET" Value="xlPyramidBarClustered" />
+      <MemberSignature Language="C++ CLI" Value="xlPyramidBarClustered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>109</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-208">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-208">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-209">Линейчатая диаграмма пирамидальной</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-209">Clustered Pyramid Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPyramidBarStacked">
+      <MemberSignature Language="C#" Value="xlPyramidBarStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlPyramidBarStacked = int32(110)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlPyramidBarStacked" />
+      <MemberSignature Language="VB.NET" Value="xlPyramidBarStacked" />
+      <MemberSignature Language="C++ CLI" Value="xlPyramidBarStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>110</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-210">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-210">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-211">Линейчатая диаграмма пирамидальной</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-211">Stacked Pyramid Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPyramidBarStacked100">
+      <MemberSignature Language="C#" Value="xlPyramidBarStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlPyramidBarStacked100 = int32(111)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlPyramidBarStacked100" />
+      <MemberSignature Language="VB.NET" Value="xlPyramidBarStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xlPyramidBarStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>111</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-212">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-212">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-213">Линейчатая диаграмма 100% пирамидальной</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-213">100% Stacked Pyramid Bar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPyramidCol">
+      <MemberSignature Language="C#" Value="xlPyramidCol" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlPyramidCol = int32(112)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlPyramidCol" />
+      <MemberSignature Language="VB.NET" Value="xlPyramidCol" />
+      <MemberSignature Language="C++ CLI" Value="xlPyramidCol" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>112</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-214">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-214">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-215">Столбец 3D пирамидальной</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-215">3D Pyramid Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPyramidColClustered">
+      <MemberSignature Language="C#" Value="xlPyramidColClustered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlPyramidColClustered = int32(106)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlPyramidColClustered" />
+      <MemberSignature Language="VB.NET" Value="xlPyramidColClustered" />
+      <MemberSignature Language="C++ CLI" Value="xlPyramidColClustered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>106</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-216">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-216">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-217">Кластерные пирамидальной столбца</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-217">Clustered Pyramid Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPyramidColStacked">
+      <MemberSignature Language="C#" Value="xlPyramidColStacked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlPyramidColStacked = int32(107)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlPyramidColStacked" />
+      <MemberSignature Language="VB.NET" Value="xlPyramidColStacked" />
+      <MemberSignature Language="C++ CLI" Value="xlPyramidColStacked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>107</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-218">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-218">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-219">Столбец с накоплением пирамидальной</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-219">Stacked Pyramid Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPyramidColStacked100">
+      <MemberSignature Language="C#" Value="xlPyramidColStacked100" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlPyramidColStacked100 = int32(108)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlPyramidColStacked100" />
+      <MemberSignature Language="VB.NET" Value="xlPyramidColStacked100" />
+      <MemberSignature Language="C++ CLI" Value="xlPyramidColStacked100" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>108</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-220">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-220">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-221">Столбец с накоплением пирамидальной 100%</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-221">100% Stacked Pyramid Column</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlRadar">
+      <MemberSignature Language="C#" Value="xlRadar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlRadar = int32(-4151)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlRadar" />
+      <MemberSignature Language="VB.NET" Value="xlRadar" />
+      <MemberSignature Language="C++ CLI" Value="xlRadar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4151</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-222">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-222">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-223">Лепестковые</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-223">Radar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlRadarFilled">
+      <MemberSignature Language="C#" Value="xlRadarFilled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlRadarFilled = int32(82)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlRadarFilled" />
+      <MemberSignature Language="VB.NET" Value="xlRadarFilled" />
+      <MemberSignature Language="C++ CLI" Value="xlRadarFilled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>82</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-224">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-224">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-225">Лепестковые заливкой</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-225">Filled Radar</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlRadarMarkers">
+      <MemberSignature Language="C#" Value="xlRadarMarkers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlRadarMarkers = int32(81)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlRadarMarkers" />
+      <MemberSignature Language="VB.NET" Value="xlRadarMarkers" />
+      <MemberSignature Language="C++ CLI" Value="xlRadarMarkers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>81</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-226">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-226">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-227">Лепестковые с маркерами данных</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-227">Radar with Data Markers</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlStockHLC">
+      <MemberSignature Language="C#" Value="xlStockHLC" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlStockHLC = int32(88)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlStockHLC" />
+      <MemberSignature Language="VB.NET" Value="xlStockHLC" />
+      <MemberSignature Language="C++ CLI" Value="xlStockHLC" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>88</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-228">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-228">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-229">Максимальный-минимальный-закрытие</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-229">High-Low-Close</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlStockOHLC">
+      <MemberSignature Language="C#" Value="xlStockOHLC" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlStockOHLC = int32(89)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlStockOHLC" />
+      <MemberSignature Language="VB.NET" Value="xlStockOHLC" />
+      <MemberSignature Language="C++ CLI" Value="xlStockOHLC" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>89</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-230">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-230">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-231">Open-High-Low-Close</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-231">Open-High-Low-Close</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlStockVHLC">
+      <MemberSignature Language="C#" Value="xlStockVHLC" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlStockVHLC = int32(90)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlStockVHLC" />
+      <MemberSignature Language="VB.NET" Value="xlStockVHLC" />
+      <MemberSignature Language="C++ CLI" Value="xlStockVHLC" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>90</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-232">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-232">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-233">Многопользовательская High-Low-Close</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-233">Volume-High-Low-Close</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlStockVOHLC">
+      <MemberSignature Language="C#" Value="xlStockVOHLC" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlStockVOHLC = int32(91)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlStockVOHLC" />
+      <MemberSignature Language="VB.NET" Value="xlStockVOHLC" />
+      <MemberSignature Language="C++ CLI" Value="xlStockVOHLC" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>91</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-234">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-234">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-235">Многопользовательская Open-High-Low-Close</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-235">Volume-Open-High-Low-Close</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSuggestedChart">
+      <MemberSignature Language="C#" Value="xlSuggestedChart" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlSuggestedChart = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlSuggestedChart" />
+      <MemberSignature Language="VB.NET" Value="xlSuggestedChart" />
+      <MemberSignature Language="C++ CLI" Value="xlSuggestedChart" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-236">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-236">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSurface">
+      <MemberSignature Language="C#" Value="xlSurface" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlSurface = int32(83)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlSurface" />
+      <MemberSignature Language="VB.NET" Value="xlSurface" />
+      <MemberSignature Language="C++ CLI" Value="xlSurface" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>83</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-237">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-237">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-238">Поверхность 3D</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-238">3D Surface</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSurfaceTopView">
+      <MemberSignature Language="C#" Value="xlSurfaceTopView" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlSurfaceTopView = int32(85)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlSurfaceTopView" />
+      <MemberSignature Language="VB.NET" Value="xlSurfaceTopView" />
+      <MemberSignature Language="C++ CLI" Value="xlSurfaceTopView" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>85</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-239">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-239">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-240">Поверхность (вид сверху)</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-240">Surface (Top View)</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSurfaceTopViewWireframe">
+      <MemberSignature Language="C#" Value="xlSurfaceTopViewWireframe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlSurfaceTopViewWireframe = int32(86)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlSurfaceTopViewWireframe" />
+      <MemberSignature Language="VB.NET" Value="xlSurfaceTopViewWireframe" />
+      <MemberSignature Language="C++ CLI" Value="xlSurfaceTopViewWireframe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>86</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-241">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-241">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-242">Поверхность (каркас представления в начало)</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-242">Surface (Top View wireframe)</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSurfaceWireframe">
+      <MemberSignature Language="C#" Value="xlSurfaceWireframe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlSurfaceWireframe = int32(84)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlSurfaceWireframe" />
+      <MemberSignature Language="VB.NET" Value="xlSurfaceWireframe" />
+      <MemberSignature Language="C++ CLI" Value="xlSurfaceWireframe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>84</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-243">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-243">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-244">Поверхность 3D (каркас)</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-244">3D Surface (wireframe)</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlXYScatter">
+      <MemberSignature Language="C#" Value="xlXYScatter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlXYScatter = int32(-4169)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlXYScatter" />
+      <MemberSignature Language="VB.NET" Value="xlXYScatter" />
+      <MemberSignature Language="C++ CLI" Value="xlXYScatter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4169</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-245">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-245">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-246">Точечные</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-246">Scatter</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlXYScatterLines">
+      <MemberSignature Language="C#" Value="xlXYScatterLines" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlXYScatterLines = int32(74)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlXYScatterLines" />
+      <MemberSignature Language="VB.NET" Value="xlXYScatterLines" />
+      <MemberSignature Language="C++ CLI" Value="xlXYScatterLines" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>74</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-247">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-247">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-248">Диаграмма с строк</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-248">Scatter with Lines</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlXYScatterLinesNoMarkers">
+      <MemberSignature Language="C#" Value="xlXYScatterLinesNoMarkers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlXYScatterLinesNoMarkers = int32(75)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlXYScatterLinesNoMarkers" />
+      <MemberSignature Language="VB.NET" Value="xlXYScatterLinesNoMarkers" />
+      <MemberSignature Language="C++ CLI" Value="xlXYScatterLinesNoMarkers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>75</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-249">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-249">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-250">Диаграмма с линии и маркеры нет данных</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-250">Scatter with Lines and No Data Markers</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlXYScatterSmooth">
+      <MemberSignature Language="C#" Value="xlXYScatterSmooth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlXYScatterSmooth = int32(72)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlXYScatterSmooth" />
+      <MemberSignature Language="VB.NET" Value="xlXYScatterSmooth" />
+      <MemberSignature Language="C++ CLI" Value="xlXYScatterSmooth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>72</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-251">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-251">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-252">Диаграмма с представлен строк</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-252">Scatter with Smoothed Lines</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlXYScatterSmoothNoMarkers">
+      <MemberSignature Language="C#" Value="xlXYScatterSmoothNoMarkers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartType xlXYScatterSmoothNoMarkers = int32(73)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartType.xlXYScatterSmoothNoMarkers" />
+      <MemberSignature Language="VB.NET" Value="xlXYScatterSmoothNoMarkers" />
+      <MemberSignature Language="C++ CLI" Value="xlXYScatterSmoothNoMarkers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartType</ReturnType>
+      </ReturnValue>
+      <MemberValue>73</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c947f-253">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-253">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="c947f-254">Диаграмма с представлен линии и маркеры нет данных</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c947f-254">Scatter with Smoothed Lines and No Data Markers</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

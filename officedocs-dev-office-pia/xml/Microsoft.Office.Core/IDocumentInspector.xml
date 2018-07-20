@@ -1,0 +1,259 @@
+<Type Name="IDocumentInspector" FullName="Microsoft.Office.Core.IDocumentInspector">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6dc49c2a97cc771ebddfb7fd2025f06a984df10f" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662297" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IDocumentInspector" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDocumentInspector" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IDocumentInspector" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDocumentInspector" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IDocumentInspector" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000CD706-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(256)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c706e-101">Представляет интерфейс, через который методы <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> доступ к объекту.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c706e-101">Represents the interface through which the methods of a <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> object are accessed.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="c706e-102">
+        <para>
+          <b>Примечание</b>: <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> объект использовать настраиваемые авторов модуля инспектора документов и не может использоваться с помощью Visual Basic для приложений (VBA).</para>
+        <para>
+          <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> предоставляет доступ к <see cref="M:Microsoft.Office.Core.IDocumentInspector.GetInfo(System.String@,System.String@)" />, <see cref="M:Microsoft.Office.Core.IDocumentInspector.Inspect(System.Object,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@,System.String@)" />, и <see cref="M:Microsoft.Office.Core.IDocumentInspector.Fix(System.Object,System.Int32,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> методы. <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> Используется объект с помощью пользовательских модулей инспектора документов. Это необходимо, в отличие от модули, входящие в состав 1st_Office12.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c706e-102">
+          <para>
+            <b>Note</b>: The <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> object is for the exclusive use of custom Document Inspector module authors and cannot be used with Visual Basic for Applications (VBA).</para>
+          <para>
+            <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> provides access to the <see cref="M:Microsoft.Office.Core.IDocumentInspector.GetInfo(System.String@,System.String@)" />, <see cref="M:Microsoft.Office.Core.IDocumentInspector.Inspect(System.Object,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@,System.String@)" />, and <see cref="M:Microsoft.Office.Core.IDocumentInspector.Fix(System.Object,System.Int32,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> methods. The <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> object is used with custom Document Inspector modules. This is in contrast to modules that are shipped with 1st_Office12.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Fix">
+      <MemberSignature Language="C#" Value="public void Fix (object Doc, int hwnd, out Microsoft.Office.Core.MsoDocInspectorStatus Status, out string Result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Fix([in]object Doc, [in]int32 hwnd, [out] valuetype Microsoft.Office.Core.MsoDocInspectorStatus&amp; Status, [out] string&amp; Result) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IDocumentInspector.Fix(System.Object,System.Int32,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Fix (Doc As Object, hwnd As Integer, ByRef Status As MsoDocInspectorStatus, ByRef Result As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Fix(System::Object ^ Doc, int hwnd, [Runtime::InteropServices::Out] Microsoft::Office::Core::MsoDocInspectorStatus % Status, [Runtime::InteropServices::Out] System::String ^ % Result);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="System.Object" />
+        <Parameter Name="hwnd" Type="System.Int32" />
+        <Parameter Name="Status" Type="Microsoft.Office.Core.MsoDocInspectorStatus&amp;" RefType="out" />
+        <Parameter Name="Result" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">
+          <span data-ttu-id="c706e-103">Задает nn, который представляет объект контейнера.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-103">Specifies nn object representing the container object.</span>
+          </span>
+        </param>
+        <param name="hwnd">
+          <span data-ttu-id="c706e-104">Указывает уникальный идентификатор окна активных документов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-104">Specifies the unique identifier of the active document window.</span>
+          </span>
+        </param>
+        <param name="Status">
+          <span data-ttu-id="c706e-105">Определяет перечисление, указывающее состояние действия.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-105">Specifies an enumeration that indicates the status of the action.</span>
+          </span>
+        </param>
+        <param name="Result">
+          <span data-ttu-id="c706e-106">Содержит результаты действия.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-106">Contains the results of the action.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c706e-107">Выполняет какие-либо действия элементов определенные сведения или свойств документа с помощью настраиваемого модуля инспектора документов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-107">Performs some action on specific information items or document properties by using a custom Document Inspector module.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="c706e-108">
+            <para>В следующей таблице описаны <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> члены.</para>
+            <list type="table">
+              <item>
+                <description>
+                  <b>msoDocInspectorStatusIssueFound</b>
+                </description>
+                <description>1</description>
+              </item>
+              <item>
+                <description>
+                  <b>msoDocInspectorStatusDocOk</b>
+                </description>
+                <description>0</description>
+              </item>
+              <item>
+                <description>
+                  <b>msoDocInspectorStatusError</b>
+                </description>
+                <description>2</description>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-108">
+              <para>The following table describes <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> members.</para>
+              <list type="table">
+                <item>
+                  <description>
+                    <b>msoDocInspectorStatusDocOk</b>
+                  </description>
+                  <description>0</description>
+                </item>
+                <item>
+                  <description>
+                    <b>msoDocInspectorStatusIssueFound</b>
+                  </description>
+                  <description>1</description>
+                </item>
+                <item>
+                  <description>
+                    <b>msoDocInspectorStatusError</b>
+                  </description>
+                  <description>2</description>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInfo">
+      <MemberSignature Language="C#" Value="public void GetInfo (out string Name, out string Desc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetInfo([out] string&amp; Name, [out] string&amp; Desc) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IDocumentInspector.GetInfo(System.String@,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetInfo (ByRef Name As String, ByRef Desc As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetInfo([Runtime::InteropServices::Out] System::String ^ % Name, [Runtime::InteropServices::Out] System::String ^ % Desc);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Desc" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Name">
+          <span data-ttu-id="c706e-109">Представляет имя модуля.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-109">Represents the name of the module.</span>
+          </span>
+        </param>
+        <param name="Desc">
+          <span data-ttu-id="c706e-110">Представляет описание модуля.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-110">Represents the description of the module.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c706e-111">Получает сведения о настраиваемых модуля инспектора документов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-111">Gets information about a custom Document Inspector module.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Inspect">
+      <MemberSignature Language="C#" Value="public void Inspect (object Doc, out Microsoft.Office.Core.MsoDocInspectorStatus Status, out string Result, out string Action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Inspect([in]object Doc, [out] valuetype Microsoft.Office.Core.MsoDocInspectorStatus&amp; Status, [out] string&amp; Result, [out] string&amp; Action) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IDocumentInspector.Inspect(System.Object,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Inspect (Doc As Object, ByRef Status As MsoDocInspectorStatus, ByRef Result As String, ByRef Action As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Inspect(System::Object ^ Doc, [Runtime::InteropServices::Out] Microsoft::Office::Core::MsoDocInspectorStatus % Status, [Runtime::InteropServices::Out] System::String ^ % Result, [Runtime::InteropServices::Out] System::String ^ % Action);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="System.Object" />
+        <Parameter Name="Status" Type="Microsoft.Office.Core.MsoDocInspectorStatus&amp;" RefType="out" />
+        <Parameter Name="Result" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Action" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">
+          <span data-ttu-id="c706e-112">Объект, представляющий контейнер документа.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-112">An object representing the container document.</span>
+          </span>
+        </param>
+        <param name="Status">
+          <span data-ttu-id="c706e-113">
+            <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> Значение, которое представляет результаты проверки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-113">An <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> value that represents the results of the inspection.</span>
+          </span>
+        </param>
+        <param name="Result">
+          <span data-ttu-id="c706e-114">Содержит список элементов сведений или свойств документа в документе.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-114">Contains a list of the information items or document properties found in the document.</span>
+          </span>
+        </param>
+        <param name="Action">
+          <span data-ttu-id="c706e-115">Указывается, какое действие, которое выполняется на основе результатов проверки.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-115">Indicates to the user what action to take based on the results of the inspection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c706e-116">Проверка документа для элементов определенные сведения или свойств документа с помощью настраиваемого модуля инспектора документов.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c706e-116">Inspects a document for specific information items or document properties by using a custom Document Inspector module.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,337 @@
+<Type Name="GradientStop" FullName="Microsoft.Office.Core.GradientStop">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bbf70803ac35f5dc5cbb9ae81aa1036807675393" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="ru-RU" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20662003" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface GradientStop : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract GradientStop implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.GradientStop" />
+  <TypeSignature Language="VB.NET" Value="Public Interface GradientStop&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class GradientStop : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03BF-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="1112c-101">Представляет один градиента.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1112c-101">Represents one gradient stop.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="1112c-102">
+        <para>Градиентом — это плавный переход с одного цвета состояний в другое. Конечные точки из следующих разделов, называются останавливается.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1112c-102">
+          <para>Gradients are a smooth transition from one color state to another. The endpoints of these sections are called stops.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.GradientStop.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1112c-103">При использовании без квалификатор объекта, данное свойство возвращает объект <b>приложения</b> , который представляет приложение Microsoft Office.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-103">When used without an object qualifier, this property returns an  <b>Application</b> object that represents the Microsoft Office application.</span>
+          </span>
+          <span data-ttu-id="1112c-104">При использовании с квалификатор объекта, данное свойство возвращает объект <b>приложения</b> , представляющего создателя указанный объект.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-104">When used with an object qualifier, this property returns an <b>Application</b> object that represents the creator of the specified object.</span>
+          </span>
+          <span data-ttu-id="1112c-105">Только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-105">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1112c-106">
+            <b>Объект</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-106">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="1112c-107">
+            <para>Это свойство можно использовать с помощью объекта OLE-автоматизации возвращает приложение этого объекта.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-107">
+              <para>You can use this property with an OLE Automation object to return the application of that object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Color">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ColorFormat Color { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ColorFormat Color" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.GradientStop.Color" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Color As ColorFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ColorFormat ^ Color { Microsoft::Office::Core::ColorFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ColorFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1112c-108">Получает значение, представляющее цвет градиента.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-108">Gets a value representing the color of the gradient stop.</span>
+          </span>
+          <span data-ttu-id="1112c-109">Только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-109">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.ColorFormat" />
+        </value>
+        <remarks>
+          <span data-ttu-id="1112c-110">
+            <para>Градиентом — это плавный переход с одного цвета состояний в другое. Конечные точки из следующих разделов, называются останавливается.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-110">
+              <para>Gradients are a smooth transition from one color state to another. The endpoints of these sections are called stops.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.GradientStop.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1112c-111">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.GradientStop" /> был создан объект.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-111">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.GradientStop" /> object was created.</span>
+          </span>
+          <span data-ttu-id="1112c-112">Только для чтения.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-112">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1112c-113">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-113">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public float Position { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Position" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.GradientStop.Position" />
+      <MemberSignature Language="VB.NET" Value="Public Property Position As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Position { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1112c-114">Получает или задает значение, представляющее положения Стоп в рамках градиентом, выраженная в процентах.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-114">Gets or sets a value representing the position of a stop within the gradient expressed as a percent.</span>
+          </span>
+          <span data-ttu-id="1112c-115">Для чтения и записи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-115">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1112c-116">
+            <b>Single</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-116">
+              <b>Single</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="1112c-117">
+            <para>Градиентом — это плавный переход с одного цвета состояний в другое. Конечные точки из следующих разделов, называются останавливается.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-117">
+              <para>Gradients are a smooth transition from one color state to another. The endpoints of these sections are called stops.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Transparency">
+      <MemberSignature Language="C#" Value="public float Transparency { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Transparency" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.GradientStop.Transparency" />
+      <MemberSignature Language="VB.NET" Value="Public Property Transparency As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Transparency { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1112c-118">Получает или задает значение, представляющее непрозрачность градиентной заливки, выраженная в процентах.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-118">Gets or sets a value representing the opacity of the gradient fill expressed as a percent.</span>
+          </span>
+          <span data-ttu-id="1112c-119">Для чтения и записи.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-119">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1112c-120">
+            <b>Single</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-120">
+              <b>Single</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="1112c-121">
+            <para>Градиентом — это плавный переход с одного цвета состояний в другое. Конечные точки из следующих разделов, называются останавливается.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1112c-121">
+              <para>Gradients are a smooth transition from one color state to another. The endpoints of these sections are called stops.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
