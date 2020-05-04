@@ -1,13 +1,5 @@
 <Type Name="XlErrorBarInclude" FullName="Microsoft.Office.Core.XlErrorBarInclude">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5951b71dc8dd7976f06a20e26a40b198b14205e1" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662488" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlErrorBarInclude" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5951b71dc8dd7976f06a20e26a40b198b14205e1" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662488" /></Metadata><TypeSignature Language="C#" Value="public enum XlErrorBarInclude" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlErrorBarInclude extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlErrorBarInclude" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlErrorBarInclude" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает, какие ошибки панели parts для включения.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает, какие части панели ошибок необходимо включить.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Оба диапазона положительных и отрицательных ошибки.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Положительный и отрицательный диапазон ошибок.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlErrorBarIncludeMinusValues">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Только отрицательные Ошибка диапазона.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Только отрицательные диапазоны ошибок.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlErrorBarIncludeNone">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>-4142</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Диапазон панели без ошибок.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Диапазон погрешностей отсутствует.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlErrorBarIncludePlusValues">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Только диапазон положительных ошибки.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Только положительный диапазон ошибок.</summary>
       </Docs>
     </Member>
   </Members>

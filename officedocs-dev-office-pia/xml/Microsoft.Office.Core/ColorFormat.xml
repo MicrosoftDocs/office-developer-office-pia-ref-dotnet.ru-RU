@@ -1,13 +1,5 @@
 <Type Name="ColorFormat" FullName="Microsoft.Office.Core.ColorFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7606ce9f5adb4f407c26ee68cbaf5b913c76f5cf" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662051" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ColorFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7606ce9f5adb4f407c26ee68cbaf5b913c76f5cf" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662051" /></Metadata><TypeSignature Language="C#" Value="public interface ColorFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ColorFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ColorFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ColorFormat&#xA;Implements _IMsoDispObj" />
@@ -153,10 +145,8 @@
         <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает цвет, сопоставленную с цветовой схемы темы. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoThemeColorIndex" />
-        </value>
+        <summary>Возвращает или задает цвет, сопоставляемый с цветовой схемой темы. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoThemeColorIndex" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

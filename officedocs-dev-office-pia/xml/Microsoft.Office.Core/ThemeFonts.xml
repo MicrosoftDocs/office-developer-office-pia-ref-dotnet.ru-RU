@@ -1,13 +1,5 @@
 <Type Name="ThemeFonts" FullName="Microsoft.Office.Core.ThemeFonts">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5bf3ed1d190df6caa4f91f9cf72b5819f00e08ae" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662541" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ThemeFonts : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5bf3ed1d190df6caa4f91f9cf72b5819f00e08ae" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662541" /></Metadata><TypeSignature Language="C#" Value="public interface ThemeFonts : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ThemeFonts implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ThemeFonts" />
   <TypeSignature Language="VB.NET" Value="Public Interface ThemeFonts&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,7 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет коллекцию основные и вспомогательные шрифты в схеме шрифтов темы Microsoft Office 2007.</summary>
+    <summary>Представляет коллекцию основных и дополнительных шрифтов в схеме шрифтов темы Microsoft Office 2007.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -63,10 +55,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.ThemeFonts" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.ThemeFonts" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,10 +83,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.ThemeFonts" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.ThemeFonts" /> коллекции. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,10 +114,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.ThemeFonts" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.ThemeFonts" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -189,10 +175,8 @@
       </Parameters>
       <Docs>
         <param name="Index">Значение индекса <see cref="T:Microsoft.Office.Core.ThemeFont" /> объекта.</param>
-        <summary>Получает один из трех языковых шрифтов, содержащихся в <see cref="T:Microsoft.Office.Core.ThemeFonts" /> семейства сайтов.</summary>
-        <returns>
-          <b>ThemeFont</b>
-        </returns>
+        <summary>Получает один из трех языковых шрифтов, <see cref="T:Microsoft.Office.Core.ThemeFonts" /> включенных в коллекцию.</summary>
+        <returns><b>ThemeFont</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -220,9 +204,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.ThemeFonts" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

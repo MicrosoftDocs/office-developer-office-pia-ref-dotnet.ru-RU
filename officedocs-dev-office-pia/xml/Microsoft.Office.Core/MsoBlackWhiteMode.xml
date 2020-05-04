@@ -1,13 +1,5 @@
 <Type Name="MsoBlackWhiteMode" FullName="Microsoft.Office.Core.MsoBlackWhiteMode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f0852aff5c375c8efc87350b7676dd624ea519de" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662307" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoBlackWhiteMode" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f0852aff5c375c8efc87350b7676dd624ea519de" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662307" /></Metadata><TypeSignature Language="C#" Value="public enum MsoBlackWhiteMode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBlackWhiteMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBlackWhiteMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoBlackWhiteMode" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, как фигуры отображается при просмотре в черно-белом режиме.</summary>
+    <summary>Указывает, как отображается фигура при просмотре в черно-белом режиме.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Черный.</summary>
+        <summary>Цветов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBlackWhiteBlackTextAndLine">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Технический с заливкой оттенки серого.</summary>
+        <summary>Белый с заливкой в градациях серого.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBlackWhiteDontShow">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Не отображается.</summary>
+        <summary>Не отображаются.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBlackWhiteGrayOutline">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Серый с заливкой белым.</summary>
+        <summary>Серый с белой заливкой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBlackWhiteGrayScale">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Оттенки серого.</summary>
+        <summary>Черн.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBlackWhiteHighContrast">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Черный с заливкой белым.</summary>
+        <summary>Черный с белой заливкой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBlackWhiteInverseGrayScale">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Быстрое оттенки серого.</summary>
+        <summary>Светлые оттенки серого.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBlackWhiteMixed">

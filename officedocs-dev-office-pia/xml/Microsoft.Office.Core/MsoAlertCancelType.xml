@@ -1,13 +1,5 @@
 <Type Name="MsoAlertCancelType" FullName="Microsoft.Office.Core.MsoAlertCancelType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="db062cb165ecd09e8cd44e4af3942c26459a1ca7" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661665" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoAlertCancelType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="db062cb165ecd09e8cd44e4af3942c26459a1ca7" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661665" /></Metadata><TypeSignature Language="C#" Value="public enum MsoAlertCancelType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAlertCancelType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAlertCancelType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoAlertCancelType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает поведение, когда пользователь отменил оповещение. Только <see cref="F:Microsoft.Office.Core.MsoAlertCancelType.msoAlertCancelDefault" /> в настоящее время поддерживается.</summary>
+    <summary>Указывает поведение, при котором пользователь отменяет оповещение. Поддерживается <see cref="F:Microsoft.Office.Core.MsoAlertCancelType.msoAlertCancelDefault" /> только в настоящее время.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>-1</MemberValue>
       <Docs>
-        <summary>Поведение по умолчанию для отмены оповещение.</summary>
+        <summary>Поведение по умолчанию при отмене оповещения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlertCancelFifth">

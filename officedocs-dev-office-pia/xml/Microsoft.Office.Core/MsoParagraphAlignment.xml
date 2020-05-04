@@ -1,13 +1,5 @@
 <Type Name="MsoParagraphAlignment" FullName="Microsoft.Office.Core.MsoParagraphAlignment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="302463a2e372ad7553a9c35d1dace27842916c91" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662446" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoParagraphAlignment" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="302463a2e372ad7553a9c35d1dace27842916c91" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662446" /></Metadata><TypeSignature Language="C#" Value="public enum MsoParagraphAlignment" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoParagraphAlignment extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoParagraphAlignment" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoParagraphAlignment" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает выравнивание абзаца для блока текста.</summary>
+    <summary>Задает выравнивание абзаца для текстового блока.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Указывает, что центр каждой строки текста выравнивается по центру правая и левая текстовые поля и влево и вправо края каждой строки переменной длины.</summary>
+        <summary>Указывает, что центр каждой строки текста выравнивается по средней части полей справа и слева, а левый и правый края каждой строки неровны.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignDistribute">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Указывает, что имя и фамилию каждой строки (кроме последней) выравнивается по левое и правое поля, а в строках путем увеличения или уменьшения справа каждый символ. Последняя строка абзаца выравнивается по левому краю, если направление текста справа налево, или правого поля если направление текста справа налево.</summary>
+        <summary>Указывает, что первый и последний символы каждой строки (кроме последней) выравниваются по левому и правому полям, а линии заполняются путем добавления или вычитания одинаковой суммы из каждого символа. Последняя строка абзаца выравнивается по левому полю, если направление текста — слева направо, или на правое поле, если направление текста справа налево.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignJustify">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Указывает, что имя и фамилию каждой строки (кроме последней) выравнивается по левое и правое поля, и по увеличения или уменьшения интервала между и внутри слов. Последняя строка абзаца выравнивается по левому краю, если направление текста справа налево, или правого поля если направление текста справа налево.</summary>
+        <summary>Указывает, что первый и последний символы каждой строки (кроме последней) выравниваются по левому и правому полям, а линии заполняются путем добавления или вычитания промежутка между словами и между ними. Последняя строка абзаца выравнивается по левому полю, если направление текста — слева направо, или на правое поле, если направление текста справа налево.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignJustifyLow">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Указывает выравнивание или корректировка длину кашиды в арабский текст. Кашиды, специальные знаки, используемые для расширения соединения между двумя знаков арабского языка.</summary>
+        <summary>Задает выравнивание или корректировку длины кашиды в арабском тексте. Кашиды — это специальные символы, используемые для расширения соединения между двумя арабскими символами.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignLeft">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Указывает, что самые левые символ каждой строки выравнивается по левому краю и правому краю каждой строки переменной длины. Это выравнивание по умолчанию для абзацев с направлением письма справа налево.</summary>
+        <summary>Указывает, что крайний левый символ каждой строки выравнивается по левому полю, а правый край каждой линии не является неровным. Это выравнивание по умолчанию для абзацев с направлением текста слева направо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignMixed">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Указывает, что самый правый знак каждой строки выравнивается по правому полю, а левого края каждой строки переменной длины. Это выравнивание по умолчанию для абзацев с направлением письма справа налево.</summary>
+        <summary>Указывает, что крайний правый символ каждой строки выравнивается по правому полю, а левый край каждой линии не является неровным. Это выравнивание по умолчанию для абзацев с направлением текста справа налево.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignThaiDistribute">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Указывает, что имя и фамилию каждой строки (кроме последней) выравнивается по левое и правое поля, и по увеличения или уменьшения слова пространство между (но не в пределах). Последняя строка абзаца выравнивается по левому краю.</summary>
+        <summary>Указывает, что первый и последний символы каждой строки (кроме последней) выравниваются по левому и правому полям, а линии заполняются путем добавления или вычитания пробелов между словами (но не между ними). Последняя строка абзаца выравнивается по левому полю.</summary>
       </Docs>
     </Member>
   </Members>

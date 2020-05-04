@@ -1,13 +1,5 @@
 <Type Name="LanguageSettings" FullName="Microsoft.Office.Core.LanguageSettings">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="eac391c618a6e556482d49e87525e3078cc39a14" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662272" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface LanguageSettings : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="eac391c618a6e556482d49e87525e3078cc39a14" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662272" /></Metadata><TypeSignature Language="C#" Value="public interface LanguageSettings : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract LanguageSettings implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.LanguageSettings" />
   <TypeSignature Language="VB.NET" Value="Public Interface LanguageSettings&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Возвращает сведения о языковых параметров в приложении Microsoft Office.</summary>
-    <remarks>
-      <para>Использование <see cref="P:Microsoft.Office.Core.LanguageSettings.LanguageID(Microsoft.Office.Core.MsoAppLanguageID)" /> свойство возвращает сведения о языковом стандарте идентификатор (LCID) для указанного приложения.</para>
-      <para>Использования <see cref="P:Microsoft.Office.Core.LanguageSettings.LanguagePreferredForEditing(Microsoft.Office.Core.MsoLanguageID)" /> свойство, чтобы определить, какую LCID регистрируются как предпочитаемое языков для приложения редактирования.</para>
-      <para />
-    </remarks>
+    <summary>Возвращает сведения о языковых параметрах в приложении Microsoft Office.</summary>
+    <remarks><para>Используйте <see cref="P:Microsoft.Office.Core.LanguageSettings.LanguageID(Microsoft.Office.Core.MsoAppLanguageID)" /> свойство, чтобы вернуть сведения об идентификаторе языка (LCID) указанному приложению.</para> 
+      <para>Используйте <see cref="P:Microsoft.Office.Core.LanguageSettings.LanguagePreferredForEditing(Microsoft.Office.Core.MsoLanguageID)" /> свойство, чтобы определить, какие LCID зарегистрированы в качестве предпочитаемых языков редактирования для приложения.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -64,7 +54,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -95,12 +85,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.LanguageSettings.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.LanguageSettings.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="LanguageID">
@@ -129,8 +119,8 @@
         <Parameter Name="Id" Type="Microsoft.Office.Core.MsoAppLanguageID" />
       </Parameters>
       <Docs>
-        <param name="Id">Требуется <see cref="T:Microsoft.Office.Core.MsoAppLanguageID" />.</param>
-        <summary>Возвращает идентификатор языка (LCID) для языка установки, язык пользовательского интерфейса или язык справки.</summary>
+        <param name="Id">Обязательный <see cref="T:Microsoft.Office.Core.MsoAppLanguageID" />.</param>
+        <summary>Возвращает идентификатор языкового стандарта (LCID) для языка установки, языка интерфейса пользователя или языка справки.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -161,14 +151,12 @@
         <Parameter Name="lid" Type="Microsoft.Office.Core.MsoLanguageID" />
       </Parameters>
       <Docs>
-        <param name="lid">Требуется <see cref="T:Microsoft.Office.Core.MsoLanguageID" />.</param>
-        <summary>Определяет, если значение для <see cref="T:Microsoft.Office.Core.MsoLanguageID" /> константу определено в реестре Windows как предпочитаемый язык для редактирования.</summary>
+        <param name="lid">Обязательный <see cref="T:Microsoft.Office.Core.MsoLanguageID" />.</param>
+        <summary>Определяет, определено ли значение <see cref="T:Microsoft.Office.Core.MsoLanguageID" /> константы в реестре Windows как предпочитаемый язык для редактирования.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Этот метод возвращает <b>значение True,</b> Если значение для константы <b>msoLanguageID</b> определено в реестре Windows как предпочитаемый язык для редактирования; <b>Значение false</b> в противном случае.</para>
-          <para>Необходимо протестировать все допустимого <b>msoLanguageID</b> значения для перечисления набора предпочитаемых языков.</para>
-          <para />
-        </remarks>
+        <remarks><para>Этот метод возвращает <b>значение true</b> , если значение константы <b>мсолангуажеид</b> определено в реестре Windows как предпочитаемый язык для редактирования; В противном случае — <b>false</b> .</para> 
+          <para>Необходимо протестировать все допустимые значения <b>мсолангуажеид</b> , чтобы перечислить набор предпочтительных языков.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">

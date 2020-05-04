@@ -1,13 +1,5 @@
 <Type Name="MsoEditingType" FullName="Microsoft.Office.Core.MsoEditingType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0e9c463ae0b1c62593de82c47add70a585baf27c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661867" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoEditingType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0e9c463ae0b1c62593de82c47add70a585baf27c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661867" /></Metadata><TypeSignature Language="C#" Value="public enum MsoEditingType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoEditingType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoEditingType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoEditingType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип изменения узла.</summary>
+    <summary>Указывает тип редактирования узла.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Изменение типа подходит в сегменты подключения.</summary>
+        <summary>Тип редактирования подходит для сегментов, к которым выполняется подключение.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEditingCorner">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Узел угла.</summary>
+        <summary>Угловой узел.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEditingSmooth">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Легко узел.</summary>
+        <summary>Гладкий узел.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEditingSymmetric">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Симметричные узел.</summary>
+        <summary>Симметричный узел.</summary>
       </Docs>
     </Member>
   </Members>

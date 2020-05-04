@@ -1,13 +1,5 @@
 <Type Name="XlMarkerStyle" FullName="Microsoft.Office.Core.XlMarkerStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="98d02d5c3f6363e54c3d1493cd75c290d0b33de7" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662009" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlMarkerStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="98d02d5c3f6363e54c3d1493cd75c290d0b33de7" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662009" /></Metadata><TypeSignature Language="C#" Value="public enum XlMarkerStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlMarkerStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlMarkerStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlMarkerStyle" />
@@ -28,7 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает стиль маркера для точки или серии график, диаграмме или лепестковые диаграммы.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает стиль маркера для точки или ряда в графике, точечной диаграмме или лепестковой диаграмме.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
       </ReturnValue>
       <MemberValue>-4105</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Автоматическое маркеры.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Автоматические маркеры.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleCircle">
@@ -67,7 +59,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Циклическая маркеры.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Циклические маркеры.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleDash">
@@ -86,7 +78,7 @@
       </ReturnValue>
       <MemberValue>-4115</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Срок черта маркеры.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Длинные маркеры столбцов.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleDiamond">
@@ -105,7 +97,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Ромб образный маркеры.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Маркеры в форме ромба.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleDot">
@@ -124,7 +116,7 @@
       </ReturnValue>
       <MemberValue>-4118</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Короткая штрих-маркеров.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Короткие маркеры полосы проштриха.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleNone">
@@ -181,7 +173,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Квадратный маркер добавляется знак плюса.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Квадратные маркеры со знаком "плюс".</summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleSquare">
@@ -200,7 +192,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Квадратный маркер.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Квадратные маркеры.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleStar">
@@ -219,7 +211,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Квадратный маркер звездочкой.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Квадратные маркеры со звездочкой.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleTriangle">
@@ -238,7 +230,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехсторонняя маркеры.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Треугольные маркеры.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleX">
@@ -257,7 +249,7 @@
       </ReturnValue>
       <MemberValue>-4168</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Квадратный маркер с X.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Квадратные маркеры с символом X.</summary>
       </Docs>
     </Member>
   </Members>

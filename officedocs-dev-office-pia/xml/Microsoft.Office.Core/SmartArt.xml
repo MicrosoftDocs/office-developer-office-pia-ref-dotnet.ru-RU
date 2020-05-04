@@ -1,13 +1,5 @@
 <Type Name="SmartArt" FullName="Microsoft.Office.Core.SmartArt">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ffa21ced8c5452789aaafea61e588b3e6a37e661" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661681" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartArt : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ffa21ced8c5452789aaafea61e588b3e6a37e661" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661681" /></Metadata><TypeSignature Language="C#" Value="public interface SmartArt : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArt implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArt" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartArt&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Класс верхнего уровня для взаимодействия с рисунка SmartArt. Определяет константы, которые определяют типы узлов SmartArt.</summary>
+    <summary>Класс верхнего уровня для взаимодействия с графическим объектом SmartArt. Задает константы, определяющие типы узлов SmartArt.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -57,17 +49,18 @@
         <ReturnType>Microsoft.Office.Core.SmartArtNodes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.SmartArtNodes" /> object, содержащий все узлы в пределах схемы SmartArt.</summary>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.SmartArtNodes" /> объект, содержащий все узлы в схеме SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Узлы возвращаются в порядке, вне зависимости от модели данных. Например, следующие модели данных будет получать узлов в порядке A, B, C, D, E, F.</para>
-          <list type="bullet">
+        <remarks><para>Узлы извлекаются по порядку независимо от модели данных. Например, следующая модель данных извлекает узлы в порядке A, B, C, D, E, F.</para> 
+          <list type="bullet"> 
             <item>
               <para>A</para>
-            </item>-
-            <item><para>F</para></item></list>
-          <para />
-        </remarks>
+            </item>
+            <item>
+              <para>F</para>
+            </item>
+          </list>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -96,12 +89,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>SmartArt</b> .</summary>
+        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>SmartArt</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Color">
@@ -130,12 +121,10 @@
         <ReturnType>Microsoft.Office.Core.SmartArtColor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает стиль смарт-картинка цвет, применяемый к рисунок SmartArt.</summary>
+        <summary>Получает или задает стиль цвета SmartArt, применяемый к рисунку SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -164,12 +153,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>SmartArt</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>SmartArt</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Layout">
@@ -198,12 +185,10 @@
         <ReturnType>Microsoft.Office.Core.SmartArtLayout</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает макет рисунок, связанный с рисунок SmartArt.</summary>
+        <summary>Получает или задает макет смарт-графики, связанный с рисунком SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Nodes">
@@ -229,17 +214,18 @@
         <ReturnType>Microsoft.Office.Core.SmartArtNodes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дочерние узлы корневого узла диаграмма SmartArt.</summary>
+        <summary>Возвращает дочерние элементы корневого узла схемы SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения. Корневой узел имеет нет родительского узла и содержит дочерние элементы только при наличии дочерних элементов в модели данных графических элементах SmartArt. В следующем примере возвращается узлами A и F.</para>
-          <list type="bullet">
+        <remarks><para>Только для чтения. Корневой узел не имеет родительского узла и содержит только потомки, если в модели данных рисунка SmartArt есть дочерние элементы. В следующем примере будут возвращены узлы A и F.</para> 
+          <list type="bullet"> 
             <item>
               <para>A</para>
-            </item>-
-            <item><para>F</para></item></list>
-          <para />
-        </remarks>
+            </item>
+            <item>
+              <para>F</para>
+            </item>
+          </list>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -265,12 +251,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект, вызывающий.</summary>
+        <summary>Получает вызывающий объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="QuickStyle">
@@ -299,12 +283,10 @@
         <ReturnType>Microsoft.Office.Core.SmartArtQuickStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает SmartArt экспресс-стилей применяется к рисунку SmartArt.</summary>
+        <summary>Получает или задает экспресс – стиль, примененный к графическому элементу SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reset">
@@ -328,11 +310,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Сбрасывает рисунка SmartArt в исходное состояние.</summary>
-        <remarks>
-          <para>Это действие отображают функциональные возможности, доклад Сброс рисунок, связанный с кнопкой в области вкладки "Конструктор" для SmartArt.</para>
-          <para />
-        </remarks>
+        <summary>Сбрасывает графический элемент SmartArt в исходное состояние.</summary>
+        <remarks><para>Это действие отражает функциональные возможности, представленные на кнопке "сбросить изображение" на вкладке "Конструктор" для SmartArt.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reverse">
@@ -361,12 +341,10 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает состояние диаграмма SmartArt по отношению к LTR (слева направо) или справа НАЛЕВО (справа налево), если схема поддерживает обращение.</summary>
+        <summary>Получает или задает состояние схемы SmartArt со статусом слева направо (слева направо) справа налево или (справа налево), если схема поддерживает реверсирование.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

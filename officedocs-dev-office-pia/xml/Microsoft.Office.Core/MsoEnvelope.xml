@@ -1,13 +1,5 @@
 <Type Name="MsoEnvelope" FullName="Microsoft.Office.Core.MsoEnvelope">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6f48f662e595876bf02de079829fddc29f56fb4e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662350" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MsoEnvelope : Microsoft.Office.Core.IMsoEnvelopeVB, Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6f48f662e595876bf02de079829fddc29f56fb4e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662350" /></Metadata><TypeSignature Language="C#" Value="public interface MsoEnvelope : Microsoft.Office.Core.IMsoEnvelopeVB, Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MsoEnvelope implements class Microsoft.Office.Core.IMsoEnvelopeVB, class Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoEnvelope" />
   <TypeSignature Language="VB.NET" Value="Public Interface MsoEnvelope&#xA;Implements IMsoEnvelopeVB, IMsoEnvelopeVBEvents_Event" />
@@ -33,11 +25,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Предоставляет доступ к функциям, позволяющее отправлять документы в виде сообщения электронной почты непосредственно из приложений Microsoft Office.</summary>
-    <remarks>
-      <para>Используйте свойство <b>MailEnvelope</b><see cref="T:Microsoft.Office.Interop.Word.Document" /> объекта, <see cref="T:Microsoft.Office.Interop.Excel.Chart" /> объект или <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> объекта (в зависимости от приложения, вы используете) для возвращения объекта <b>MsoEnvelope</b> .</para>
-      <para />
-    </remarks>
+    <summary>Предоставляет доступ к функциям, позволяющим отправлять документы как сообщения электронной почты непосредственно из приложений Microsoft Office.</summary>
+    <remarks><para>Используйте свойство <b>MailEnvelope</b> <see cref="T:Microsoft.Office.Interop.Word.Document" /> объекта, <see cref="T:Microsoft.Office.Interop.Excel.Chart" /> объекта или <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> объекта (в зависимости от используемого приложения), чтобы возвратить объект <b>MsoEnvelope</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members />
 </Type>

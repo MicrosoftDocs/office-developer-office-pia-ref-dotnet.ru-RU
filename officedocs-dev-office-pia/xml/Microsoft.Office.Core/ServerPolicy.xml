@@ -1,13 +1,5 @@
 <Type Name="ServerPolicy" FullName="Microsoft.Office.Core.ServerPolicy">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="601e5efa006882a5b7213285d3e665c4264311f7" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661928" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ServerPolicy : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="601e5efa006882a5b7213285d3e665c4264311f7" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661928" /></Metadata><TypeSignature Language="C#" Value="public interface ServerPolicy : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ServerPolicy implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ServerPolicy" />
   <TypeSignature Language="VB.NET" Value="Public Interface ServerPolicy&#xA;Implements _IMsoDispObj" />
@@ -30,11 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет политики, указанный для типа документа, хранящимся на сервере под управлением Office SharePoint Server 2007.</summary>
-    <remarks>
-      <para>Объект <b>ServerPolicy</b> состоит из отдельных <see cref="T:Microsoft.Office.Core.PolicyItem" /> объектов, представляющих определения отдельные политики для активных документов.</para>
-      <para />
-    </remarks>
+    <summary>Представляет политику, указанную для типа документа, хранящегося на сервере с Office SharePoint Server 2007.</summary>
+    <remarks><para>Объект <b>ServerPolicy</b> состоит из отдельных <see cref="T:Microsoft.Office.Core.PolicyItem" /> объектов, представляющих индивидуальные определения политик для активного документа.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -63,10 +53,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.ServerPolicy" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.ServerPolicy" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,10 +81,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <b>логическое</b> значение, указывающее, является ли можно выполнить предварительный просмотр элементов с помощью этой политики. Только для чтения.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает <b>логическое</b> значение, указывающее, возможен ли предварительный просмотр элементов с помощью этой политики. Только для чтения.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -123,10 +109,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.ServerPolicy" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.ServerPolicy" /> коллекции. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -156,10 +140,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.ServerPolicy" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.ServerPolicy" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -186,10 +168,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Описание возможности политики сервера и ее назначение. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Описание политики сервера и ее назначения. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -216,10 +196,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор политики на сервере. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает идентификатор политики сервера. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -249,11 +227,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">Имя или номер индекса объекта <b>PolicyItem</b> должно быть возвращено.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.PolicyItem" /> объекта из <see cref="T:Microsoft.Office.Core.ServerPolicy" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>PolicyItem</b>
-        </value>
+        <param name="Index">Имя или номер индекса объекта <b>PolicyItem</b> , который требуется вернуть.</param>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.PolicyItem" /> объект из <see cref="T:Microsoft.Office.Core.ServerPolicy" /> коллекции. Только для чтения.</summary>
+        <value><b>PolicyItem</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -281,9 +257,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает имя <see cref="T:Microsoft.Office.Core.ServerPolicy" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -311,9 +285,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.ServerPolicy" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -340,14 +312,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает сведения, указанные в правила политики. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
-        <remarks>
-          <para>Содержимое правила политики отображается как оно отображается уведомление «business панели» в клиентском приложении Office, когда документ, который содержит политики.</para>
-          <para />
-        </remarks>
+        <summary>Получает сведения, указанные в операторе политики. Только для чтения.</summary>
+        <value><b>Строка</b></value>
+        <remarks><para>При отображении документа, содержащего политику, содержимое оператора политики отображается как уведомление "бизнес-панель" в клиентском приложении Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

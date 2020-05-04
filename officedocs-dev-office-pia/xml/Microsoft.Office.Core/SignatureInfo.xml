@@ -1,13 +1,5 @@
 <Type Name="SignatureInfo" FullName="Microsoft.Office.Core.SignatureInfo">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="506fbda47676aa10f8df2e14632798b442d70752" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661721" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SignatureInfo : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="506fbda47676aa10f8df2e14632798b442d70752" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661721" /></Metadata><TypeSignature Language="C#" Value="public interface SignatureInfo : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SignatureInfo implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureInfo" />
   <TypeSignature Language="VB.NET" Value="Public Interface SignatureInfo&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет данные, используемые для создания в документов или цифровой подписи.</summary>
+    <summary>Представляет сведения, используемые для создания цифровой подписи или подписи в документе.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,10 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.SignatureInfo" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.SignatureInfo" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -90,10 +80,8 @@
         <ReturnType>Microsoft.Office.Core.CertificateVerificationResults</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает результаты из проверки цифрового сертификата. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CertificateVerificationResults" />
-        </value>
+        <summary>Получает результаты из проверки цифрового сертификата. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CertificateVerificationResults" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,10 +108,8 @@
         <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, представляющее результаты проверки хэш содержимое подписанного документа. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ContentVerificationResults" />
-        </value>
+        <summary>Получает значение, представляющее результаты проверки хешированного содержимого подписанного документа. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ContentVerificationResults" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -153,10 +139,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.SignatureInfo" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.SignatureInfo" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,11 +167,9 @@
         <Parameter Name="certdet" Type="Microsoft.Office.Core.CertificateDetail" />
       </Parameters>
       <Docs>
-        <param name="certdet">Перечислимые значение, указывающее какие подробности сертификат для отображения.</param>
-        <summary>Отображает указанный сведений, связанных с цифрового сертификата.</summary>
-        <returns>
-          <b>Объект</b>
-        </returns>
+        <param name="certdet">Перечислимое значение, задающее сведения о сертификате, которые требуется отобразить.</param>
+        <summary>Отображает указанные сведения, связанные с цифровым сертификатом.</summary>
+        <returns><b>Object</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -214,11 +196,9 @@
         <Parameter Name="sigdet" Type="Microsoft.Office.Core.SignatureDetail" />
       </Parameters>
       <Docs>
-        <param name="sigdet">Перечислимые значение, указывающее какие подробности подписи для отображения.</param>
-        <summary>Отображает указанный подробности о подписи.</summary>
-        <returns>
-          <b>Объект</b>
-        </returns>
+        <param name="sigdet">Перечислимое значение, задающее сведения о подписи, которые требуется отобразить.</param>
+        <summary>Отображает указанные сведения, связанные с подписью.</summary>
+        <returns><b>Object</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -245,10 +225,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <b>логическое</b> значение, указывающее, истек срок действия цифрового сертификата. Только для чтения.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает <b>логическое</b> значение, указывающее, истек ли срок действия цифрового сертификата. Только для чтения.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -275,10 +253,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <b>логическое</b> значение, указывающее, является ли цифровой сертификат был отозван. Только для чтения.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает <b>логическое</b> значение, указывающее, отозван ли цифровой сертификат. Только для чтения.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -305,10 +281,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <b>логическое</b> значение, указывающее, является ли цифровой сертификат, используемый для создания цифровой подписи документа, поступающие из надежного источника. Только для чтения.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает <b>логическое</b> значение, указывающее, поступил ли цифровой сертификат, используемый для цифровой подписи документа, из надежного источника. Только для чтения.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -335,10 +309,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <b>логическое</b> значение, указывающее, была ли подпись успешно проверенные следующие проверки подписей. Только для чтения.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает <b>логическое</b> значение, которое указывает, была ли подпись успешно проверена после проверки подписи. Только для чтения.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -365,10 +337,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает значение <b>типа Boolean</b> , указывающее, является ли <see cref="T:Microsoft.Office.Core.SignatureInfo" /> объект доступен только для чтения. Только для чтения.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает <b>логическое</b> значение, указывающее, является <see cref="T:Microsoft.Office.Core.SignatureInfo" /> ли объект доступен только для чтения. Только для чтения.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -395,8 +365,8 @@
         <Parameter Name="bstrThumbprint" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="bstrThumbprint">Содержит сведения о подписывающего лица, обозначенный отпечатком.</param>
-        <summary>Отображает диалоговое окно, содержащий сведения о цифровой сертификат, выполнив vertification пользователя с отпечатком.</summary>
+        <param name="bstrThumbprint">Содержит сведения о подписавшем, идентифицируемом отпечатком.</param>
+        <summary>Отображает диалоговое окно, содержащее сведения о цифровом сертификате, указанном в разделе вертификатион пользователя с отпечатка.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -423,8 +393,8 @@
         <Parameter Name="ParentWindow" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ParentWindow">Содержит дескриптор окна, содержащий диалоговое окно выбора сертификата.</param>
-        <summary>Отображает диалоговое окно, которое позволяет пользователям выбирать сертификат подписи для подписания документа.</summary>
+        <param name="ParentWindow">Содержит дескриптор окна, содержащего диалоговое окно "Выбор сертификата".</param>
+        <summary>Отображает диалоговое окно, которое позволяет пользователям выбрать сертификат подписи, который будет использоваться для подписания документа.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -451,8 +421,8 @@
         <Parameter Name="ParentWindow" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ParentWindow">Содержит дескриптор окна, содержащий диалоговое окно "сертификат".</param>
-        <summary>Отображает выбранный или цифровой сертификат по умолчанию.</summary>
+        <param name="ParentWindow">Содержит дескриптор окна, содержащего диалоговое окно "сертификат".</param>
+        <summary>Отображение выбранного или цифрового сертификата по умолчанию.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -482,10 +452,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, содержащее комментарии, включенных в пакет подписи. Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает значение, содержащее комментарии, включенные в пакет сигнатур. Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -518,10 +486,8 @@
         <ReturnType>stdole.IPictureDisp</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение изображение, используемое для входа в документ. Для чтения и записи.</summary>
-        <value>
-          <b>IPictureDisp</b>
-        </value>
+        <summary>Получает или задает значение, которое используется для подписи документа. Для чтения и записи.</summary>
+        <value><b>ипиктуредисп</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -548,10 +514,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, идентифицирующее установленных подписи поставщика надстройки. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает значение, идентифицирующее установленную надстройку поставщика подписей. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -581,10 +545,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение подписи текст, используемый для подписи в этом документе. Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает значение текста подписи, используемого для подписи этого документа. Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

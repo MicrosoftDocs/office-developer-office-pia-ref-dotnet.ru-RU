@@ -1,13 +1,5 @@
 <Type Name="XlCategoryLabelLevel" FullName="Microsoft.Office.Core.XlCategoryLabelLevel">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6bb19f2cb9db82fb5e15b1c93af5d29c6c365264" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662510" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlCategoryLabelLevel" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6bb19f2cb9db82fb5e15b1c93af5d29c6c365264" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662510" /></Metadata><TypeSignature Language="C#" Value="public enum XlCategoryLabelLevel" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlCategoryLabelLevel extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlCategoryLabelLevel" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlCategoryLabelLevel" />
@@ -28,7 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает категории метки для уровней подписей категории.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает метки категорий для уровней подписей категорий.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
       </ReturnValue>
       <MemberValue>-1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Значение подписи все категории уровни w/в диапазон подписей на диаграмме.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Установка меток категорий для всех уровней подписей категорий в диапазоне на диаграмме.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCategoryLabelLevelCustom">
@@ -67,7 +59,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает литерала в подписи категорий.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает литеральные данные в метках категории.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCategoryLabelLevelNone">
@@ -86,7 +78,7 @@
       </ReturnValue>
       <MemberValue>-3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Установка без меток категории на диаграмме. Параметры по умолчанию для автоматического индексированных метки.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Не задавайте подписи категорий на диаграмме. По умолчанию используется автоматическая индексация меток.</summary>
       </Docs>
     </Member>
   </Members>

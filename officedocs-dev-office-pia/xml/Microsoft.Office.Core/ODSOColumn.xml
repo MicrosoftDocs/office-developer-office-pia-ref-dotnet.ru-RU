@@ -1,13 +1,5 @@
 <Type Name="ODSOColumn" FullName="Microsoft.Office.Core.ODSOColumn">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="201b9aaf1b0f631a45b60bb27fcaf4408e26d202" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661953" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ODSOColumn : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="201b9aaf1b0f631a45b60bb27fcaf4408e26d202" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661953" /></Metadata><TypeSignature Language="C#" Value="public interface ODSOColumn : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ODSOColumn implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ODSOColumn" />
   <TypeSignature Language="VB.NET" Value="Public Interface ODSOColumn&#xA;Implements _IMsoDispObj" />
@@ -31,9 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Представляет поле в источнике данных.</summary>
-    <remarks>
-      <para>Объект <b>ODSOColumn</b> входит в состав <see cref="T:Microsoft.Office.Core.ODSOColumns" /> семейства сайтов. Коллекция <b>ODSOColumns</b> включает все поля данных в источнике данных слияния почты (например, имя, адрес и Город).</para> Использование 
-      <para><see cref="P:Microsoft.Office.Core.OfficeDataSourceObject.Columns" />(<paramref name="index" />), где <paramref name="index" /> — это имя поля данных или порядковый номер, чтобы возвратить объект <b>ODSOColumn</b> . Номер индекса представляет позицию поля данных в источнике данных слияния почты.</para> Не удается добавить поля в коллекцию <b>ODSOColumns</b><para>. Все поля данных в источнике данных, автоматически включается в коллекции <b>ODSOColumns</b> .</para><para /></remarks>
+    <remarks><para>Объект <b>ODSOColumn</b> является членом <see cref="T:Microsoft.Office.Core.ODSOColumns" /> коллекции. Коллекция <b>ODSOColumns</b> включает все поля данных в источнике данных слияния (например, имя, адрес и город).</para> 
+      <para>Используйте <see cref="P:Microsoft.Office.Core.OfficeDataSourceObject.Columns" />(<paramref name="index" />), где <paramref name="index" /> — это имя поля данных или номер индекса, чтобы вернуть один объект <b>ODSOColumn</b> . Номер индекса представляет положение поля данных в источнике данных слияния.</para> 
+      <para>Вы не можете добавлять поля в коллекцию <b>ODSOColumns</b> . Все поля данных в источнике данных автоматически включаются в коллекцию <b>ODSOColumns</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -62,7 +55,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -93,12 +86,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.ODSOColumn.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.ODSOColumn.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -124,12 +117,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>целое число</b> , представляющее номер индекса для объекта в коллекции.</summary>
+        <summary>Возвращает <b>целое</b> число, представляющее номер индекса для объекта в коллекции.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Положение первого элемента управления панели команд — 1. Разделители не учитываются <see cref="T:Microsoft.Office.Core.CommandBarControls" /> семейства сайтов.</para>
-          <para />
-        </remarks>
+        <remarks><para>Положение первого элемента управления "панель команд" равно 1. Разделители не учитываются в <see cref="T:Microsoft.Office.Core.CommandBarControls" /> коллекции.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -157,10 +148,8 @@
       <Docs>
         <summary>Возвращает имя указанного объекта.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Данное свойство возвращает чтение и запись <b>строки</b> для <see cref="T:Microsoft.Office.Core.CommandBar" />, <see cref="T:Microsoft.Office.Core.DocumentProperty" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspace" /> объекты и только для чтения, <b>строки</b> для всех других объектов.</para>
-          <para />
-        </remarks>
+        <remarks><para>Это свойство возвращает <b>строку</b> для чтения и записи для <see cref="T:Microsoft.Office.Core.CommandBar" /> <see cref="T:Microsoft.Office.Core.SharedWorkspace" /> объектов, <see cref="T:Microsoft.Office.Core.DocumentProperty" />и для <b>строк</b> , предназначенных только для чтения, для всех других объектов.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">

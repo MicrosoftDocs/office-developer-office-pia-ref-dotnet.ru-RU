@@ -1,13 +1,5 @@
 <Type Name="XlChartSplitType" FullName="Microsoft.Office.Core.XlChartSplitType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b6203aab9c0090808c3baf06e65bdeba6b66b9f4" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662166" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlChartSplitType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b6203aab9c0090808c3baf06e65bdeba6b66b9f4" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662166" /></Metadata><TypeSignature Language="C#" Value="public enum XlChartSplitType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlChartSplitType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlChartSplitType" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlChartSplitType" />
@@ -28,7 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает значения, отображаемые в второй диаграммы в круговой диаграммы или панели круговой диаграммы.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает значения, отображаемые во второй диаграмме на круговой диаграмме или в линейчатой круговой диаграмме.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Произвольный слайды отображаются в второй диаграммы.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  На второй диаграмме отображаются произвольные слайды.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSplitByPercentValue">
@@ -67,7 +59,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Вторая диаграмма отображает значения меньше, чем некоторые процент Общая стоимость. Процент задается в свойстве <b>SplitValue</b> .</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  На второй диаграмме показаны значения менее чем в процентах от общего значения. Процент задается свойством <b>сплитвалуе</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSplitByPosition">
@@ -86,7 +78,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Второй наименьшего значения отображаются в рядами данных. Количество значений для отображения указан в свойстве <b>SplitValue</b> .</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Вторая диаграмма отображение минимальных значений в рядах данных. Количество отображаемых значений задается свойством <b>сплитвалуе</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSplitByValue">
@@ -105,7 +97,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Вторая диаграмма отображает значения меньше значения, указанного в свойстве <b>SplitValue</b> .</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  На второй диаграмме показаны значения, меньшие, чем значение, указанное в свойстве <b>сплитвалуе</b> .</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="Shape" FullName="Microsoft.Office.Core.Shape">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f419289cc79c6a9461db98494effd4c70b30d03d" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662469" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Shape : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f419289cc79c6a9461db98494effd4c70b30d03d" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662469" /></Metadata><TypeSignature Language="C#" Value="public interface Shape : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Shape implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Shape" />
   <TypeSignature Language="VB.NET" Value="Public Interface Shape&#xA;Implements _IMsoDispObj" />
@@ -206,10 +198,8 @@
         <ReturnType>Microsoft.Office.Core.MsoBackgroundStyleIndex</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает тиль фона. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoBackgroundStyleIndex" />
-        </value>
+        <summary>Возвращает или задает стиль фона. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoBackgroundStyleIndex" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -450,10 +440,8 @@
         <ReturnType>Microsoft.Office.Core.IMsoChart</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает диаграммы, содержащихся в форме. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.IMsoChart" />
-        </value>
+        <summary>Возвращает диаграмму, содержащуюся в фигуре. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.IMsoChart" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -618,7 +606,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Копирование объекта в буфер обмена.</summary>
+        <summary>Копирует объект в буфер обмена.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -674,12 +662,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаление объекта в буфер обмена или вставляет в выбранное место.</summary>
-        <remarks>
-          <para>Вырезать диапазон должен состоять из смежных ячеек.</para>
-          <para>Только встроенные диаграммы можно сократить.</para>
-          <para />
-        </remarks>
+        <summary>Вырезает объект в буфер обмена или вставляет его в указанное место.</summary>
+        <remarks><para>Вырезанный диапазон должен состоять из смежных ячеек.</para> 
+          <para>Только внедренные диаграммы можно вырезать.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -874,14 +860,10 @@
         <ReturnType>Microsoft.Office.Core.GlowFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.GlowFormat" /> объект для указанного фигуры, содержащий свечения параметры форматирования для фигуры. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.GlowFormat" />
-        </value>
-        <remarks>
-          <para>Эффект свечения добавляет живые цветного edge графики.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.GlowFormat" /> объект для указанной фигуры, который содержит свойства форматирования "свечение" для фигуры. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.GlowFormat" /></value>
+        <remarks><para>Эффект свечения добавляет насыщенный цветной край в графические изображения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GroupItems">
@@ -935,10 +917,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает значение, содержит ли фигуры диаграммы. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Возвращает значение, указывающее, содержит ли фигура диаграмму. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1484,10 +1464,8 @@
         <ReturnType>Microsoft.Office.Core.ReflectionFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> объект для указанного фигуры, содержащий отражения параметры форматирования для фигуры. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ReflectionFormat" />
-        </value>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> объект указанной фигуры, которая содержит свойства форматирования отражения для фигуры. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ReflectionFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1777,10 +1755,8 @@
         <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoShapeStyleIndex" /> , который представляет стиль фигуры диапазона фигуры. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoShapeStyleIndex" />
-        </value>
+        <summary>Возвращает или задает значение <see cref="T:Microsoft.Office.Core.MsoShapeStyleIndex" /> , представляющее стиль фигуры диапазона фигуры. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoShapeStyleIndex" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1807,7 +1783,7 @@
         <ReturnType>Microsoft.Office.Core.SmartArt</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает класс верхнего уровня для взаимодействия с рисунка SmartArt.</summary>
+        <summary>Получает класс верхнего уровня для взаимодействия с графическим объектом SmartArt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1835,10 +1811,8 @@
         <ReturnType>Microsoft.Office.Core.SoftEdgeFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> объект для указанного фигуры, который содержит параметры форматирования для фигуры программных пограничного сервера. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" />
-        </value>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> объект для указанной фигуры, который содержит свойства форматирования фигуры с мягким краем. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1921,10 +1895,8 @@
         <ReturnType>Microsoft.Office.Core.TextFrame2</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.TextFrame2" /> объект, содержащий форматирование текста для указанной фигуры. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.TextFrame2" />
-        </value>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.TextFrame2" /> объект, который содержит форматирование текста для указанной фигуры. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.TextFrame2" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1982,7 +1954,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Задает или получает заголовок отображения с использованием диалогового окна файла <see cref="F:Microsoft.SharePoint.SPViewFlags.FileDialog" /> объекта.</summary>
+        <summary>Задает или получает заголовок диалогового окна, отображаемого с помощью <see cref="F:Microsoft.SharePoint.SPViewFlags.FileDialog" /> объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

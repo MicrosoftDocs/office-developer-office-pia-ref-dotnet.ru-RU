@@ -1,13 +1,5 @@
 <Type Name="MsoThemeColorSchemeIndex" FullName="Microsoft.Office.Core.MsoThemeColorSchemeIndex">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fff01d54606ab96c2aaedc3d9c5f2908a01cb140" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662276" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoThemeColorSchemeIndex" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fff01d54606ab96c2aaedc3d9c5f2908a01cb140" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662276" /></Metadata><TypeSignature Language="C#" Value="public enum MsoThemeColorSchemeIndex" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoThemeColorSchemeIndex extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoThemeColorSchemeIndex" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoThemeColorSchemeIndex" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает цвет темы Office.</summary>
+    <summary>Указывает цветовую схему для темы Office.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Задает цветовая схема акцент 1.</summary>
+        <summary>Задает цветовую схему акцент 1.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeAccent2">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Задает цветовая схема 2 диакритических знаков.</summary>
+        <summary>Задает цветовую схему акцент 2.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeAccent3">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Задает цветовая схема Акцент 3.</summary>
+        <summary>Задает цветовую схему акцент 3.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeAccent4">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Задает цветовая схема Акцент 4.</summary>
+        <summary>Задает цветовую схему акцент 4.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeAccent5">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Задает цветовая схема Акцент 5.</summary>
+        <summary>Задает цветовую схему акцент 5.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeAccent6">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Задает цветовая схема 6 диакритических знаков.</summary>
+        <summary>Задает цветовую схему акцент 6.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeDark1">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Задает цветовая схема темный 1.</summary>
+        <summary>Цветовая схема — темный 1.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeDark2">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Задает цветовая схема темный 2.</summary>
+        <summary>Задает цветовую схему темный 2.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeFollowedHyperlink">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Задает цветовой схемы для выбранной гиперссылки.</summary>
+        <summary>Задает цветовую схему для нажатой гиперссылки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeHyperlink">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Определяет цвет гиперссылки.</summary>
+        <summary>Задает цветовую схему для гиперссылки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeLight1">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Задает цветовая схема светлый 1.</summary>
+        <summary>Задает цветовую схему Light 1.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeLight2">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Задает цветовая схема Light 2.</summary>
+        <summary>Задает цветовую схему, светлую на 2.</summary>
       </Docs>
     </Member>
   </Members>

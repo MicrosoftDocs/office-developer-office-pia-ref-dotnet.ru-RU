@@ -1,13 +1,5 @@
 <Type Name="MsoDistributeCmd" FullName="Microsoft.Office.Core.MsoDistributeCmd">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5dea1b6edbd9619309bc8014b03e85a60fb407b2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661913" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoDistributeCmd" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5dea1b6edbd9619309bc8014b03e85a60fb407b2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661913" /></Metadata><TypeSignature Language="C#" Value="public enum MsoDistributeCmd" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoDistributeCmd extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoDistributeCmd" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoDistributeCmd" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, как для равномерного распределения коллекции фигур.</summary>
-    <remarks>
-      <para>Используется с методом <b>распределить</b><b>ShapeRange</b> семейства сайтов.</para>
-      <para />
-    </remarks>
+    <summary>Указывает, как равномерно распределить коллекцию фигур.</summary>
+    <remarks><para>Используется с методом <b>распределения</b> коллекции <b>ShapeRange</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoDistributeHorizontally">
@@ -62,7 +52,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Распределение по вертикали.</summary>
+        <summary>Распределить по вертикали.</summary>
       </Docs>
     </Member>
   </Members>

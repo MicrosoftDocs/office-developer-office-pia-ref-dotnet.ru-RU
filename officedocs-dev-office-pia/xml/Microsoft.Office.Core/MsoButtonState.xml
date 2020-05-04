@@ -1,13 +1,5 @@
 <Type Name="MsoButtonState" FullName="Microsoft.Office.Core.MsoButtonState">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0f799fafba8f2581ff7934441991a7b18b2aad3c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661641" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoButtonState" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0f799fafba8f2581ff7934441991a7b18b2aad3c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661641" /></Metadata><TypeSignature Language="C#" Value="public enum MsoButtonState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoButtonState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoButtonState" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoButtonState" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает внешний вид элемента управления кнопки панели команд.</summary>
+    <summary>Задает внешний вид кнопки панели команд.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>-1</MemberValue>
       <Docs>
-        <summary>Нажата кнопка вниз.</summary>
+        <summary>Нажата кнопка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoButtonMixed">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Нажата кнопка вниз.</summary>
+        <summary>Нажата кнопка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoButtonUp">

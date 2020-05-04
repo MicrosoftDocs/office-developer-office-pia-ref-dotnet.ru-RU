@@ -1,13 +1,5 @@
 <Type Name="CustomXMLPrefixMappings" FullName="Microsoft.Office.Core.CustomXMLPrefixMappings">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="190d48b94af1299572cda2a3fe8441b5a64cbbaf" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661841" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CustomXMLPrefixMappings : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="190d48b94af1299572cda2a3fe8441b5a64cbbaf" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661841" /></Metadata><TypeSignature Language="C#" Value="public interface CustomXMLPrefixMappings : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLPrefixMappings implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLPrefixMappings" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLPrefixMappings&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,7 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет коллекцию объектов <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объектов.</summary>
+    <summary>Представляет коллекцию <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объектов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -61,13 +53,11 @@
         <Parameter Name="NamespaceURI" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Prefix">Содержит префикс для добавления в список сопоставлений префиксов.</param>
-        <param name="NamespaceURI">Содержит пространство имен, чтобы назначить только что добавленный префиксом.</param>
-        <summary>Позволяет добавить сопоставление настраиваемого префикса для использования при запрашивании элемента.</summary>
-        <remarks>
-          <para>Если префикс уже присутствует в диспетчере пространство имен, этот метод будет перезаписывать значение этот префикс, за исключением при префикс — это один добавлена и используются службами хранилище данных (интерфейс<b>IXMLDataStore</b> ) во внутренней сети, в этом случае возвратит ошибку.</para>
-          <para />
-        </remarks>
+        <param name="Prefix">Содержит префикс, добавляемый в список сопоставлений префиксов.</param>
+        <param name="NamespaceURI">Содержит пространство имен, назначаемое новому префиксу.</param>
+        <summary>Позволяет добавить настраиваемое сопоставление пространства имен или префикса для использования при запросе элемента.</summary>
+        <remarks><para>Если префикс уже существует в диспетчере пространств имен, этот метод перезапишет значение этого префикса, кроме случаев, когда префикс добавляется или используется хранилищем данных (интерфейс<b>иксмлдатасторе</b> ), в таком случае он возвратит ошибку.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -96,10 +86,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,10 +114,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> коллекции. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -159,10 +145,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -224,11 +208,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">Имя или номер индекса <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта должно быть возвращено.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта из <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" />
-        </value>
+        <param name="Index">Имя или номер индекса возвращаемого <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта.</param>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объект из <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> коллекции. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -255,15 +237,11 @@
         <Parameter Name="Prefix" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Prefix">Содержит префикс в список сопоставлений префиксов.</param>
-        <summary>Позволяет получить пространство имен, в соответствии с указанным префиксом.</summary>
-        <returns>
-          <b>Строка</b>
-        </returns>
-        <remarks>
-          <para>Если пространство имен не назначено для запрошенного префикса, метод возвращает пустую строку (»»).</para>
-          <para />
-        </remarks>
+        <param name="Prefix">Содержит префикс в списке сопоставлений префиксов.</param>
+        <summary>Позволяет получить пространство имен, соответствующее указанному префиксу.</summary>
+        <returns><b>Строка</b></returns>
+        <remarks><para>Если запрашиваемому префиксу не назначено пространство имен, метод возвращает пустую строку ("").</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="LookupPrefix">
@@ -290,14 +268,10 @@
       </Parameters>
       <Docs>
         <param name="NamespaceURI">Содержит URI пространства имен.</param>
-        <summary>Позволяет получить префикс, соответствующий указанному пространству имен.</summary>
-        <returns>
-          <b>Строка</b>
-        </returns>
-        <remarks>
-          <para>Если префикс не назначен для запрошенного пространство имен, метод возвращает пустую строку (»»). Если существует несколько префиксов, указанных в диспетчер пространства имен, метод возвращает первого префикса, которая соответствует указанного пространства имен.</para>
-          <para />
-        </remarks>
+        <summary>Позволяет получить префикс, соответствующий заданному пространству имен.</summary>
+        <returns><b>Строка</b></returns>
+        <remarks><para>Если запрошенному пространству имен не назначен префикс, метод возвращает пустую строку (""). Если в диспетчере пространств имен указано несколько префиксов, метод возвращает первый префикс, соответствующий предоставленному пространству имен.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -324,9 +298,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

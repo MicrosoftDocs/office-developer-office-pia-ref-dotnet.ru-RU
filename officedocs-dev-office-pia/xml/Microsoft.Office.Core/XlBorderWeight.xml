@@ -1,13 +1,5 @@
 <Type Name="XlBorderWeight" FullName="Microsoft.Office.Core.XlBorderWeight">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="69b82e40df06496c9d32c5c522035746f78ae38b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662221" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlBorderWeight" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="69b82e40df06496c9d32c5c522035746f78ae38b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662221" /></Metadata><TypeSignature Language="C#" Value="public enum XlBorderWeight" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlBorderWeight extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlBorderWeight" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlBorderWeight" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает Вес границы вокруг диапазона.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Определяет толщину границы вокруг диапазона.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Сверхтонкая (тонкой границы).</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Тонкая граница (тонкая).</summary>
       </Docs>
     </Member>
     <Member MemberName="xlMedium">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>-4138</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  От среднего.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Средний.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlThick">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Жирное (широкой границы).</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Толстая (широкая граница).</summary>
       </Docs>
     </Member>
     <Member MemberName="xlThin">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Тонкие.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Узки.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="ICustomTaskPaneConsumer" FullName="Microsoft.Office.Core.ICustomTaskPaneConsumer">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7006e4abea2935ab2dc897e419cfdd046466875c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662302" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ICustomTaskPaneConsumer" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7006e4abea2935ab2dc897e419cfdd046466875c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662302" /></Metadata><TypeSignature Language="C#" Value="public interface ICustomTaskPaneConsumer" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomTaskPaneConsumer" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ICustomTaskPaneConsumer" />
   <TypeSignature Language="VB.NET" Value="Public Interface ICustomTaskPaneConsumer" />
@@ -26,12 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Интерфейс, который предоставляет доступ к <see cref="M:Microsoft.Office.Core.ICustomTaskPaneConsumer.CTPFactoryAvailable(Microsoft.Office.Core.ICTPFactory)" /> метод, используемый для создания экземпляра настраиваемой области задач.</summary>
-    <remarks>
-      <para>
-        <b>Примечание</b>: можно создавать настраиваемые области задач на любом языке, который поддерживает COM и позволяет создавать файлы библиотеки (DLL). Например Microsoft Visual Basic 6.0®, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET и Microsoft Visual C#®. Тем не менее Microsoft Visual Basic для приложений (VBA) не поддерживает создание настраиваемых областей задач.</para>
-      <para />
-    </remarks>
+    <summary>Интерфейс, предоставляющий доступ к <see cref="M:Microsoft.Office.Core.ICustomTaskPaneConsumer.CTPFactoryAvailable(Microsoft.Office.Core.ICTPFactory)" /> методу, используемому для создания экземпляра настраиваемой области задач.</summary>
+    <remarks><para>
+        <b>Примечание</b>: вы можете создавать настраиваемые области задач на любом языке, поддерживающем COM, и позволяет создавать файлы динамической библиотеки (DLL). Например, Microsoft Visual Basic® 6,0, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET и Microsoft Visual C#®. Тем не менее, Microsoft Visual Basic для приложений (VBA) не поддерживает создание настраиваемых областей задач.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="CTPFactoryAvailable">
@@ -57,8 +47,8 @@
         <Parameter Name="CTPFactoryInst" Type="Microsoft.Office.Core.ICTPFactory" />
       </Parameters>
       <Docs>
-        <param name="CTPFactoryInst">Объект используется надстройка для создания области задач.</param>
-        <summary>Передает <see cref="T:Microsoft.Office.Core.ICTPFactory" /> объект, который требуется надстройки Microsoft ActiveX, который затем используется при создании настраиваемой области задач.</summary>
+        <param name="CTPFactoryInst">Объект используется надстройкой для создания области задач.</param>
+        <summary>Передает <see cref="T:Microsoft.Office.Core.ICTPFactory" /> объект в надстройку Microsoft ActiveX, которую можно использовать при создании настраиваемой области задач.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

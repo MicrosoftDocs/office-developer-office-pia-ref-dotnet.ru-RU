@@ -1,13 +1,5 @@
 <Type Name="IMsoEnvelopeVB" FullName="Microsoft.Office.Core.IMsoEnvelopeVB">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3d2ccc6b98abda904a6b0d474382467c29a9851b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662288" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IMsoEnvelopeVB" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3d2ccc6b98abda904a6b0d474382467c29a9851b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662288" /></Metadata><TypeSignature Language="C#" Value="public interface IMsoEnvelopeVB" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoEnvelopeVB" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoEnvelopeVB" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMsoEnvelopeVB" />
@@ -26,11 +18,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Предоставляет доступ к функциям, позволяющее отправлять документы в виде сообщения электронной почты непосредственно из приложений Microsoft Office.</summary>
-    <remarks>
-      <para>Используйте свойство <b>MailEnvelope</b><see cref="T:Microsoft.Office.Interop.Word.Document" /> объекта, <see cref="T:Microsoft.Office.Interop.Excel.Chart" /> объект или <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> объекта (в зависимости от приложения, вы используете) для возвращения объекта <b>MsoEnvelope</b> .</para>
-      <para />
-    </remarks>
+    <summary>Предоставляет доступ к функциям, позволяющим отправлять документы как сообщения электронной почты непосредственно из приложений Microsoft Office.</summary>
+    <remarks><para>Используйте свойство <b>MailEnvelope</b> <see cref="T:Microsoft.Office.Interop.Word.Document" /> объекта, <see cref="T:Microsoft.Office.Interop.Excel.Chart" /> объекта или <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> объекта (в зависимости от используемого приложения), чтобы возвратить объект <b>MsoEnvelope</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="CommandBars">
@@ -56,7 +46,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CommandBars" /> семейства сайтов.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CommandBars" /> коллекцию.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -87,7 +77,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Задает или возвращает вводный текст, который входит в состав документа, отправляемого с помощью объекта <b>MsoEnvelope</b> . Вводный текст включен в верхней части документа в сообщении электронной почты.</summary>
+        <summary>Задает или возвращает вступительный текст, включенный в документ, который отправляется с помощью объекта <b>MsoEnvelope</b> . Вводный текст включается в начало документа электронной почты.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

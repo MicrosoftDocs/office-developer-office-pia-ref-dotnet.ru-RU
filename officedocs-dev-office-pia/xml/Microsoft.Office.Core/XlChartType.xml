@@ -1,13 +1,5 @@
 <Type Name="XlChartType" FullName="Microsoft.Office.Core.XlChartType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ab397d47d6db4c04694858a459b8933cfb22a0b0" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661769" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlChartType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ab397d47d6db4c04694858a459b8933cfb22a0b0" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661769" /></Metadata><TypeSignature Language="C#" Value="public enum XlChartType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlChartType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlChartType" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlChartType" />
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>78</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3D с накоплением</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерная область с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xl3DAreaStacked100">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>79</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% с накоплением</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% с областями с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xl3DBarClustered">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>60</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3D линейчатая диаграмма</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерная кластеризованная линейчатая</summary>
       </Docs>
     </Member>
     <Member MemberName="xl3DBarStacked">
@@ -121,7 +113,7 @@
       </ReturnValue>
       <MemberValue>61</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма с 3D</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерная линейчатая диаграмма</summary>
       </Docs>
     </Member>
     <Member MemberName="xl3DBarStacked100">
@@ -140,7 +132,7 @@
       </ReturnValue>
       <MemberValue>62</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма с 3D 100%</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерная диаграмма с накоплением 100%</summary>
       </Docs>
     </Member>
     <Member MemberName="xl3DColumn">
@@ -159,7 +151,7 @@
       </ReturnValue>
       <MemberValue>-4100</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3D столбца</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерный столбец</summary>
       </Docs>
     </Member>
     <Member MemberName="xl3DColumnClustered">
@@ -178,7 +170,7 @@
       </ReturnValue>
       <MemberValue>54</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3D Гистограмма</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерный кластеризованный столбец</summary>
       </Docs>
     </Member>
     <Member MemberName="xl3DColumnStacked">
@@ -197,7 +189,7 @@
       </ReturnValue>
       <MemberValue>55</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерные гистограмма с накоплением</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерная гистограмма</summary>
       </Docs>
     </Member>
     <Member MemberName="xl3DColumnStacked100">
@@ -216,7 +208,7 @@
       </ReturnValue>
       <MemberValue>56</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма с 3D 100%</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерная диаграмма с накоплением 100%</summary>
       </Docs>
     </Member>
     <Member MemberName="xl3DLine">
@@ -235,7 +227,7 @@
       </ReturnValue>
       <MemberValue>-4101</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3D строки</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерная линия</summary>
       </Docs>
     </Member>
     <Member MemberName="xl3DPie">
@@ -254,7 +246,7 @@
       </ReturnValue>
       <MemberValue>-4102</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3D круговая</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Объемная круговая диаграмма</summary>
       </Docs>
     </Member>
     <Member MemberName="xl3DPieExploded">
@@ -273,7 +265,7 @@
       </ReturnValue>
       <MemberValue>70</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Развернутая круговая 3D</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Развернутая трехмерная круговая диаграмма</summary>
       </Docs>
     </Member>
     <Member MemberName="xlArea">
@@ -311,7 +303,7 @@
       </ReturnValue>
       <MemberValue>76</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  С накоплением</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Область с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlAreaStacked100">
@@ -330,7 +322,7 @@
       </ReturnValue>
       <MemberValue>77</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% с накоплением</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% с областями с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlBarClustered">
@@ -349,7 +341,7 @@
       </ReturnValue>
       <MemberValue>57</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Панель кластера</summary>
       </Docs>
     </Member>
     <Member MemberName="xlBarOfPie">
@@ -368,7 +360,7 @@
       </ReturnValue>
       <MemberValue>71</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линия круговой диаграммы</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Вторичная гистограмма</summary>
       </Docs>
     </Member>
     <Member MemberName="xlBarStacked">
@@ -387,7 +379,7 @@
       </ReturnValue>
       <MemberValue>58</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlBarStacked100">
@@ -406,7 +398,7 @@
       </ReturnValue>
       <MemberValue>59</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма с 100%</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% линейчатой диаграммы с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlBubble">
@@ -425,7 +417,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Пузырьковой</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Плыв</summary>
       </Docs>
     </Member>
     <Member MemberName="xlBubble3DEffect">
@@ -444,7 +436,7 @@
       </ReturnValue>
       <MemberValue>87</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Передача с объемный</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Пузырьковая с трехмерными эффектами</summary>
       </Docs>
     </Member>
     <Member MemberName="xlColumnClustered">
@@ -463,7 +455,7 @@
       </ReturnValue>
       <MemberValue>51</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3D Гистограмма</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерный кластеризованный столбец</summary>
       </Docs>
     </Member>
     <Member MemberName="xlColumnStacked">
@@ -482,7 +474,7 @@
       </ReturnValue>
       <MemberValue>52</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Гистограмма</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Гистограмма с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlColumnStacked100">
@@ -501,7 +493,7 @@
       </ReturnValue>
       <MemberValue>53</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% гистограмма с накоплением</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% гистограммы с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCombo">
@@ -596,7 +588,7 @@
       </ReturnValue>
       <MemberValue>102</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма конические</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Кластеризованная коническая с полосой</summary>
       </Docs>
     </Member>
     <Member MemberName="xlConeBarStacked">
@@ -615,7 +607,7 @@
       </ReturnValue>
       <MemberValue>103</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма конические</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Коническая с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlConeBarStacked100">
@@ -634,7 +626,7 @@
       </ReturnValue>
       <MemberValue>104</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма 100% конические</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% нормированной конусной гистограммы</summary>
       </Docs>
     </Member>
     <Member MemberName="xlConeCol">
@@ -653,7 +645,7 @@
       </ReturnValue>
       <MemberValue>105</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Столбец трехмерной конической</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Столбец объемных конусов</summary>
       </Docs>
     </Member>
     <Member MemberName="xlConeColClustered">
@@ -672,7 +664,7 @@
       </ReturnValue>
       <MemberValue>99</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Кластерные конические столбца</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Кластеризованный конусный столбец</summary>
       </Docs>
     </Member>
     <Member MemberName="xlConeColStacked">
@@ -691,7 +683,7 @@
       </ReturnValue>
       <MemberValue>100</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Столбец с накоплением конические</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Конусный столбец с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlConeColStacked100">
@@ -710,7 +702,7 @@
       </ReturnValue>
       <MemberValue>101</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Столбец с накоплением конические 100%</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% конусного столбца с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCylinderBarClustered">
@@ -729,7 +721,7 @@
       </ReturnValue>
       <MemberValue>95</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма цилиндрической</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Кластеризованная цилиндрическая панель</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCylinderBarStacked">
@@ -748,7 +740,7 @@
       </ReturnValue>
       <MemberValue>96</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма цилиндрической</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Цилиндрическая диаграмма с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCylinderBarStacked100">
@@ -767,7 +759,7 @@
       </ReturnValue>
       <MemberValue>97</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма 100% цилиндрической</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% нормированной цилиндрической панели</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCylinderCol">
@@ -786,7 +778,7 @@
       </ReturnValue>
       <MemberValue>98</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Столбец 3D цилиндрической</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Столбец 3D-цилиндра</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCylinderColClustered">
@@ -805,7 +797,7 @@
       </ReturnValue>
       <MemberValue>92</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Кластерные конические столбца</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Кластеризованный конусный столбец</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCylinderColStacked">
@@ -824,7 +816,7 @@
       </ReturnValue>
       <MemberValue>93</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма цилиндрической</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Цилиндрическая диаграмма с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCylinderColStacked100">
@@ -843,7 +835,7 @@
       </ReturnValue>
       <MemberValue>94</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Столбец с накоплением цилиндрической 100%</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% нормированный столбец цилиндра</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDoughnut">
@@ -862,7 +854,7 @@
       </ReturnValue>
       <MemberValue>-4120</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Кольцевая</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Сектор</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDoughnutExploded">
@@ -881,7 +873,7 @@
       </ReturnValue>
       <MemberValue>80</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Развернутая кольцевых</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Разрезанная кольцевая</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLine">
@@ -900,7 +892,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Строка</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линия</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLineMarkers">
@@ -919,7 +911,7 @@
       </ReturnValue>
       <MemberValue>65</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  График с маркерами</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линия с маркерами</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLineMarkersStacked">
@@ -957,7 +949,7 @@
       </ReturnValue>
       <MemberValue>67</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  График с маркерами с накоплением 100%</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% графика с накоплением с маркерами</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLineStacked">
@@ -995,7 +987,7 @@
       </ReturnValue>
       <MemberValue>64</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  График с накоплением 100%</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% графика с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlOtherCombinations">
@@ -1033,7 +1025,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Круговая</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Кругов</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPieExploded">
@@ -1052,7 +1044,7 @@
       </ReturnValue>
       <MemberValue>69</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Развернутая круговая</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Разрезанная круговая диаграмма</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPieOfPie">
@@ -1090,7 +1082,7 @@
       </ReturnValue>
       <MemberValue>109</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма пирамидальной</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Диаграмма с группировкой</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPyramidBarStacked">
@@ -1109,7 +1101,7 @@
       </ReturnValue>
       <MemberValue>110</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма пирамидальной</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Пирамидальная с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPyramidBarStacked100">
@@ -1128,7 +1120,7 @@
       </ReturnValue>
       <MemberValue>111</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линейчатая диаграмма 100% пирамидальной</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% пирамидальной диаграммы с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPyramidCol">
@@ -1147,7 +1139,7 @@
       </ReturnValue>
       <MemberValue>112</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Столбец 3D пирамидальной</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Столбец "Трехмерная Пирамида"</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPyramidColClustered">
@@ -1166,7 +1158,7 @@
       </ReturnValue>
       <MemberValue>106</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Кластерные пирамидальной столбца</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Кластеризованный столбец пирамиды</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPyramidColStacked">
@@ -1185,7 +1177,7 @@
       </ReturnValue>
       <MemberValue>107</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Столбец с накоплением пирамидальной</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Столбец пирамиды с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPyramidColStacked100">
@@ -1204,7 +1196,7 @@
       </ReturnValue>
       <MemberValue>108</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Столбец с накоплением пирамидальной 100%</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  100% гистограммы с накоплением</summary>
       </Docs>
     </Member>
     <Member MemberName="xlRadar">
@@ -1242,7 +1234,7 @@
       </ReturnValue>
       <MemberValue>82</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Лепестковые заливкой</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Заполненная лепестковая</summary>
       </Docs>
     </Member>
     <Member MemberName="xlRadarMarkers">
@@ -1261,7 +1253,7 @@
       </ReturnValue>
       <MemberValue>81</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Лепестковые с маркерами данных</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Лепестковая диаграмма с маркерами данных</summary>
       </Docs>
     </Member>
     <Member MemberName="xlStockHLC">
@@ -1280,7 +1272,7 @@
       </ReturnValue>
       <MemberValue>88</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Максимальный-минимальный-закрытие</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Высокая — минимум — закрытие</summary>
       </Docs>
     </Member>
     <Member MemberName="xlStockOHLC">
@@ -1299,7 +1291,7 @@
       </ReturnValue>
       <MemberValue>89</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Open-High-Low-Close</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Открытие — высокая — минимум — закрытие</summary>
       </Docs>
     </Member>
     <Member MemberName="xlStockVHLC">
@@ -1318,7 +1310,7 @@
       </ReturnValue>
       <MemberValue>90</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Многопользовательская High-Low-Close</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Объем, максимум, минимум, закрытие</summary>
       </Docs>
     </Member>
     <Member MemberName="xlStockVOHLC">
@@ -1337,7 +1329,7 @@
       </ReturnValue>
       <MemberValue>91</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Многопользовательская Open-High-Low-Close</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Громкость — открытие — максимум, минимум — закрытие</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSuggestedChart">
@@ -1375,7 +1367,7 @@
       </ReturnValue>
       <MemberValue>83</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Поверхность 3D</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерная поверхность</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSurfaceTopView">
@@ -1413,7 +1405,7 @@
       </ReturnValue>
       <MemberValue>86</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Поверхность (каркас представления в начало)</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Поверхность (каркасное представление верхнего уровня)</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSurfaceWireframe">
@@ -1432,7 +1424,7 @@
       </ReturnValue>
       <MemberValue>84</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Поверхность 3D (каркас)</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Трехмерная поверхность (каркасная схема)</summary>
       </Docs>
     </Member>
     <Member MemberName="xlXYScatter">
@@ -1451,7 +1443,7 @@
       </ReturnValue>
       <MemberValue>-4169</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Точечные</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Рабочие</summary>
       </Docs>
     </Member>
     <Member MemberName="xlXYScatterLines">
@@ -1470,7 +1462,7 @@
       </ReturnValue>
       <MemberValue>74</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Диаграмма с строк</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Точечная с линиями</summary>
       </Docs>
     </Member>
     <Member MemberName="xlXYScatterLinesNoMarkers">
@@ -1489,7 +1481,7 @@
       </ReturnValue>
       <MemberValue>75</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Диаграмма с линии и маркеры нет данных</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Точечная диаграмма со строками без маркеров данных</summary>
       </Docs>
     </Member>
     <Member MemberName="xlXYScatterSmooth">
@@ -1508,7 +1500,7 @@
       </ReturnValue>
       <MemberValue>72</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Диаграмма с представлен строк</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Точечная с сглаженными линиями</summary>
       </Docs>
     </Member>
     <Member MemberName="xlXYScatterSmoothNoMarkers">
@@ -1527,7 +1519,7 @@
       </ReturnValue>
       <MemberValue>73</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Диаграмма с представлен линии и маркеры нет данных</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Точечная с сглаженными линиями без маркеров данных</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="FillFormat" FullName="Microsoft.Office.Core.FillFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9d2eb337d8500b4ac89256c383f62c95b419840a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662168" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FillFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9d2eb337d8500b4ac89256c383f62c95b419840a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662168" /></Metadata><TypeSignature Language="C#" Value="public interface FillFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FillFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.FillFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface FillFormat&#xA;Implements _IMsoDispObj" />
@@ -493,7 +485,7 @@
         <ReturnType>Microsoft.Office.Core.PictureEffects</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию <see cref="T:Microsoft.Office.Core.PictureEffects" /> объектов.</summary>
+        <summary>Возвращает коллекцию <see cref="T:Microsoft.Office.Core.PictureEffects" /> объектов.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

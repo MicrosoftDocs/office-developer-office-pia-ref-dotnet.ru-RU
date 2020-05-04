@@ -1,13 +1,5 @@
 <Type Name="SignatureSet" FullName="Microsoft.Office.Core.SignatureSet">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7006f76cd0254449f0e19db46a3a09720e5be962" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662327" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SignatureSet : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7006f76cd0254449f0e19db46a3a09720e5be962" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662327" /></Metadata><TypeSignature Language="C#" Value="public interface SignatureSet : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SignatureSet implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureSet" />
   <TypeSignature Language="VB.NET" Value="Public Interface SignatureSet&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,11 +25,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Коллекцию <see cref="T:Microsoft.Office.Core.Signature" /> объекты, которые соответствуют цифровые подписи, присоединенного к документу.</summary>
-    <remarks>
-      <para>Используйте свойство <b>подписи</b> для объекта <b>Document</b> для возврата коллекции <b>SignatureSet</b> .</para>
-      <para>Примечание изменения, вносимые в коллекцию <b>SignatureSet</b> документа не сохраняет только при вызове <see cref="M:Microsoft.Office.Core.SignatureSet.Commit" /> метод.</para> Можно добавить объект <b>Signature</b> коллекцию <b>SignatureSet</b> с помощью 
-      <para><see cref="M:Microsoft.Office.Core.SignatureSet.Add" /> метода и можно вернуть существующему элементу с помощью <see cref="P:Microsoft.Office.Core.SignatureSet.Item(System.Int32)" /> метод. Чтобы удалить <b>подпись</b> из коллекции <b>SignatureSet</b> , используйте <see cref="M:Microsoft.Office.Core.Signature.Delete" /> метод объекта <b>Signature</b> .</para><para /></remarks>
+    <summary>Коллекция <see cref="T:Microsoft.Office.Core.Signature" /> объектов, соответствующих цифровым подписям, вложенным в документ.</summary>
+    <remarks><para>Используйте свойство <b>Signatures</b> объекта <b>Document</b> , чтобы возвратить коллекцию <b>Signatures</b> .</para> 
+      <para>Обратите внимание, что изменения, внесенные в коллекцию <b>Signatures</b> документа, не будут сохранены, пока <see cref="M:Microsoft.Office.Core.SignatureSet.Commit" /> не будет вызван метод.</para> 
+      <para>Вы можете добавить объект <b>Signature</b> в коллекцию <b>Signatures</b> , используя <see cref="M:Microsoft.Office.Core.SignatureSet.Add" /> метод, и вы можете вернуть существующий элемент с помощью <see cref="P:Microsoft.Office.Core.SignatureSet.Item(System.Int32)" /> метода. Чтобы удалить <b>подпись</b> из коллекции наборов <b>подписей</b> , используйте <see cref="M:Microsoft.Office.Core.Signature.Delete" /> метод объекта <b>Signature</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -91,15 +83,11 @@
         <Parameter Name="varSigProv" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="varSigProv">Представляет идентификатор поставщика подписи.</param>
-        <summary>Создание пакетов подписи при подписании документа.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.Signature" />
-        </returns>
-        <remarks>
-          <para>Чтобы обеспечить точки входа для вызова этого метода, необходимо создать пользовательский интерфейс с надстройкой поставщика подписи. Эта точка входа как правило, предоставляется пользователю, как пункт меню.</para>
-          <para />
-        </remarks>
+        <param name="varSigProv">Представляет идентификатор поставщика подписей.</param>
+        <summary>Создает пакет сигнатур при наличии цифровой подписи документа.</summary>
+        <returns><see cref="T:Microsoft.Office.Core.Signature" /></returns>
+        <remarks><para>Чтобы предоставить точку входа для запуска этого метода, необходимо создать пользовательский интерфейс с надстройкой поставщика подписей. Эта точка входа обычно предоставляется пользователю в виде пункта меню.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddSignatureLine">
@@ -124,13 +112,11 @@
         <Parameter Name="varSigProv" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="varSigProv">Представляет идентификатор поставщика подписи.</param>
-        <summary>Добавляет строки в документ, где сбора подписей.</summary>
+        <param name="varSigProv">Представляет идентификатор поставщика подписей.</param>
+        <summary>Добавляет строки в документ, в котором выполняется сбор подписей.</summary>
         <returns>Подпись</returns>
-        <remarks>
-          <para>После добавления строки автора документа можно добавить сведения, необходимые каждой строки подписи отображает имя и (при необходимости) заголовок человека, который следует подписать. Когда пользователь открывает документ Microsoft Office распознает наличие одного или нескольких строк подписей представить, но пустой. А затем оповещения пользователя, необходимые для входа в этом документе и их поиск where в документе запрошенные подписи расположены Office.</para>
-          <para />
-        </remarks>
+        <remarks><para>После добавления строки автор документа может добавить необходимые сведения, чтобы каждая строка подписи отображала имя и (при необходимости) должность человека, который должен подписать. Когда пользователь открывает документ, Microsoft Office распознает, что у вас есть одна или несколько строк подписи, но они пусты. Затем приложение Office предупреждает пользователя о том, что он должен подписать этот документ, и помогает найти место в документе, в котором находятся запрошенные подписи.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -159,7 +145,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -187,10 +173,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <b>логическое</b> значение, указывающее, является ли можно добавить строки подписи к документу. Только для чтения.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает <b>логическое</b> значение, указывающее, можно ли добавить строку подписи в документ. Только для чтения.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -218,11 +202,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Сохраняет все изменения указанного <see cref="T:Microsoft.Office.Core.SignatureSet" /> семейства сайтов на диске.</summary>
-        <remarks>
-          <para>Пока не выполнен метод <b>фиксации</b> изменений в коллекцию <b>SignatureSet</b> не будут сохранены.</para>
-          <para />
-        </remarks>
+        <summary>Фиксирует все изменения указанной <see cref="T:Microsoft.Office.Core.SignatureSet" /> коллекции на диске.</summary>
+        <remarks><para>Пока не будет выполнен метод <b>commit</b> , все изменения в коллекции <b>Signature</b> не будут сохранены.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -248,7 +230,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>целое число</b> , указывающее количество элементов в указанном семействе сайтов.</summary>
+        <summary>Возвращает <b>целое</b> число, указывающее количество элементов в указанной коллекции.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -279,12 +261,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.SignatureSet.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.SignatureSet.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -345,8 +327,8 @@
         <Parameter Name="iSig" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="iSig">Требуется <b>целое число</b>. Определяет, какие для возвращаемого объекта <b>подписи</b> .</param>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.Signature" /> объекта, который соответствует одному из цифровых подписей, с которыми в данный момент подпись документа.</summary>
+        <param name="iSig">Обязательный атрибут типа <b>Integer</b>. Определяет, какой объект <b>подписи</b> необходимо возвратить.</param>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.Signature" /> объект, соответствующий одной из цифровых подписей, с которыми подписан документ в данный момент.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -402,10 +384,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает <b>логическое</b> значение, указывающее, отображается ли область задач подписи. Для чтения и записи.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает или задает <b>логическое</b> значение, указывающее, следует ли отображать область задач "подпись". Для чтения и записи.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -435,10 +415,8 @@
         <ReturnType>Microsoft.Office.Core.MsoSignatureSubset</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, которое выступает в качестве фильтра на доступные <see cref="T:Microsoft.Office.Core.Signature" /> объекты в документе. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoSignatureSubset" />
-        </value>
+        <summary>Получает или задает значение, которое выступает в роли фильтра по доступным <see cref="T:Microsoft.Office.Core.Signature" /> объектам для документа. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoSignatureSubset" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

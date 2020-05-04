@@ -1,13 +1,5 @@
 <Type Name="PickerResults" FullName="Microsoft.Office.Core.PickerResults">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3819a74c24957f38ef749af9d10e171553755106" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662211" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PickerResults : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3819a74c24957f38ef749af9d10e171553755106" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662211" /></Metadata><TypeSignature Language="C#" Value="public interface PickerResults : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PickerResults implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PickerResults" />
   <TypeSignature Language="VB.NET" Value="Public Interface PickerResults&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,7 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Коллекцию <see cref="T:Microsoft.Office.Core.PickerResult" /> объектов.</summary>
+    <summary>Коллекция <see cref="T:Microsoft.Office.Core.PickerResult" /> объектов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -66,12 +58,12 @@
       <Docs>
         <param name="Id">Задает идентификатор <see cref="T:Microsoft.Office.Core.PickerResult" />.</param>
         <param name="DisplayName">Задает отображаемое имя <see cref="T:Microsoft.Office.Core.PickerResult" />.</param>
-        <param name="Type">Указывает тип <see cref="T:Microsoft.Office.Core.PickerResult" />.</param>
-        <param name="SIPId">В настоящее время не поддерживается. <paramref name="SIPId" /> — Это идентификатор для сервера Office Communication Server. Она используется только для пользователей, комплектации сценария.</param>
-        <param name="ItemData">Указывает, отличные от отображение элементов привязки данных.</param>
-        <param name="SubItems">Отображение данных поля назначения задачи или без отображения из <see cref="T:Microsoft.Office.Core.PickerResult" />. Он используется для передачи значения столбцов в диалоговом окне "Выбор".</param>
+        <param name="Type">Указывает тип файла <see cref="T:Microsoft.Office.Core.PickerResult" />.</param>
+        <param name="SIPId">В настоящее время не поддерживается. <paramref name="SIPId" /> Это идентификатор сервера Office Communication Server. Он используется только для сценария комплектации сотрудников.</param>
+        <param name="ItemData">Задает неотображаемые данные привязки элемента.</param>
+        <param name="SubItems">Отображает данные поля назначения или представления, <see cref="T:Microsoft.Office.Core.PickerResult" />не связанные с отображением. Он используется для передачи значений столбца в диалоговом окне выбора.</param>
         <summary>Добавляет <see cref="T:Microsoft.Office.Core.PickerResult" /> объект в коллекцию <b>PickerResults</b> .</summary>
-        <returns>Возвращает <see cref="T:Microsoft.Office.Core.PickerResult" />.</returns>
+        <returns>Возвращает <see cref="T:Microsoft.Office.Core.PickerResult" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -101,12 +93,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>PickerResults</b> .</summary>
+        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>PickerResults</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -132,7 +122,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество число <see cref="T:Microsoft.Office.Core.PickerResult" /> объектов, содержащихся в коллекции <b>PickerResults</b> .</summary>
+        <summary>Получает количество <see cref="T:Microsoft.Office.Core.PickerResult" /> объектов, содержащихся в коллекции <b>PickerResults</b> .</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -163,12 +153,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>PickerResults</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>PickerResults</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -199,7 +187,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />.</returns>
+        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -229,8 +217,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Указывает целое число, представляющее индекс <see cref="T:Microsoft.Office.Core.PickerResult" /> объекта.</param>
-        <summary>Возвращает объект PickerResult по указанному индексу.</summary>
+        <param name="Index">Задает целое число, представляющее индексируемое расположение <see cref="T:Microsoft.Office.Core.PickerResult" /> объекта.</param>
+        <summary>Получает объект метод pickerresult по указанному индексу.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

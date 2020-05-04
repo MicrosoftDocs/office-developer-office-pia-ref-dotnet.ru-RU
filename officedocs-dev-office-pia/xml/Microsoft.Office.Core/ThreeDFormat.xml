@@ -1,13 +1,5 @@
 <Type Name="ThreeDFormat" FullName="Microsoft.Office.Core.ThreeDFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="829346af5df2e27ab93c08b232e888b5654a0c48" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661964" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ThreeDFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="829346af5df2e27ab93c08b232e888b5654a0c48" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661964" /></Metadata><TypeSignature Language="C#" Value="public interface ThreeDFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ThreeDFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ThreeDFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ThreeDFormat&#xA;Implements _IMsoDispObj" />
@@ -926,10 +918,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает состояние текст проекта для указанного <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> объекта. Чтение и запись</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Возвращает или задает состояние текста проекта для указанного <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> объекта. Чтение и запись</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1192,10 +1182,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает Z-порядка указанного <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> объекта. Для чтения и записи.</summary>
-        <value>
-          <b>Single</b>
-        </value>
+        <summary>Возвращает порядок по оси Z для указанного <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> объекта. Для чтения и записи.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

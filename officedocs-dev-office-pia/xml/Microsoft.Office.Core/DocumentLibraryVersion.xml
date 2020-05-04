@@ -1,13 +1,5 @@
 <Type Name="DocumentLibraryVersion" FullName="Microsoft.Office.Core.DocumentLibraryVersion">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8aa1d25f3420d55e99cefaa13355cb193968865d" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662505" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface DocumentLibraryVersion : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8aa1d25f3420d55e99cefaa13355cb193968865d" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662505" /></Metadata><TypeSignature Language="C#" Value="public interface DocumentLibraryVersion : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentLibraryVersion implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.DocumentLibraryVersion" />
   <TypeSignature Language="VB.NET" Value="Public Interface DocumentLibraryVersion&#xA;Implements _IMsoDispObj" />
@@ -30,28 +22,26 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Объект <b>DocumentLibraryVersion</b> представляет один сохраненной версии общих документов с включено управление версиями, который хранится в библиотеке документов на сервере.</summary>
-    <remarks>
-      <para>Каждый объект <b>DocumentLibraryVersion</b> должна быть членом активных документов <see cref="T:Microsoft.Office.Core.DocumentLibraryVersions" /> семейства.</para>
-      <para>Каждый объект <b>DocumentLibraryVersion</b> представляет одно сохранения версии активных документов. Если включено управление версиями, новая версия создается на сервере, при возникновении перечисленные ниже действия; Дополнительные версии не создаются каждый раз, пользователь сохраняет изменения в открытом документе.</para>
-      <list type="bullet">
+    <summary>Объект <b>DocumentLibraryVersion</b> представляет одну сохраненную версию общего документа с включенной поддержкой управления версиями и которая хранится в библиотеке документов на сервере.</summary>
+    <remarks><para>Каждый объект <b>DocumentLibraryVersion</b> является членом <see cref="T:Microsoft.Office.Core.DocumentLibraryVersions" /> коллекции активных документов.</para> 
+      <para>Каждый объект <b>DocumentLibraryVersion</b> представляет одну сохраненную версию активного документа. Когда управление версиями включено, на сервере создается новая версия, когда выполняются указанные ниже действия. Дополнительные версии не создаются каждый раз, когда пользователь сохраняет изменения в открытом документе.</para> 
+      <list type="bullet"> 
         <item>
-          <para>Проверка дюйма</para>
-        </item>
+          <para>Вернуть.</para>
+        </item> 
         <item>
-          <para>Сохранить - новой версии создается на сервере при пользователя сначала сохраняет документ после его открытия. Дополнительные изменения, сохраненные при открытом документе применяются к той же версии.</para>
-        </item>
+          <para>Сохранить — на сервере создается новая версия, когда пользователь сначала сохраняет документ после его открытия. Дополнительные изменения, сохраненные при открытии документа, применяются к той же версии.</para>
+        </item> 
         <item>
           <para>Восстановление.</para>
-        </item>
+        </item> 
         <item>
           <para>Отправка.</para>
-        </item>
-      </list>
-      <para>Использования <see cref="P:Microsoft.Office.Core.DocumentLibraryVersion.Modified" />, <see cref="P:Microsoft.Office.Core.DocumentLibraryVersion.ModifiedBy" />, и <see cref="P:Microsoft.Office.Core.DocumentLibraryVersion.Comments" /> свойства, чтобы получить сведения о сохраненные версии документа общих.</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core.DocumentLibraryVersion.Open" /> метод, чтобы открыть предыдущей версии, или <see cref="M:Microsoft.Office.Core.DocumentLibraryVersion.Restore" /> метод для восстановления предыдущей версии вместо текущей версии. Использование <see cref="M:Microsoft.Office.Core.DocumentLibraryVersion.Delete" /> метод, чтобы удалить версию.</para>
-      <para />
-    </remarks>
+        </item> 
+      </list> 
+      <para>Используйте свойства <see cref="P:Microsoft.Office.Core.DocumentLibraryVersion.Modified" />, <see cref="P:Microsoft.Office.Core.DocumentLibraryVersion.ModifiedBy" /> <see cref="P:Microsoft.Office.Core.DocumentLibraryVersion.Comments" /> и, чтобы получить сведения о сохраненной версии общего документа.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.DocumentLibraryVersion.Open" /> метод, чтобы открыть предыдущую версию, или <see cref="M:Microsoft.Office.Core.DocumentLibraryVersion.Restore" /> метод для восстановления предыдущей версии вместо текущей версии. Используйте <see cref="M:Microsoft.Office.Core.DocumentLibraryVersion.Delete" /> метод для удаления версии.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -80,7 +70,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -108,12 +98,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает все необязательные комментарии, связанные с указанной версии общих документов.</summary>
+        <summary>Возвращает все необязательные комментарии, связанные с указанной версией общего документа.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Пользователь может добавлять версии посредством пользовательского интерфейса библиотеки документов при возврате документа, который ранее был извлечен.</para>
-          <para />
-        </remarks>
+        <remarks><para>Пользователь может прикреплять комментарии к версии с помощью пользовательского интерфейса библиотеки документов при возврате ранее извлеченного документа.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -142,12 +130,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; в Microsoft Excel данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.DocumentLibraryVersion.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.DocumentLibraryVersion.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -171,7 +159,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет версия библиотеки документов из <see cref="T:Microsoft.Office.Core.DocumentLibraryVersions" /> семейства сайтов.</summary>
+        <summary>Удаляет из <see cref="T:Microsoft.Office.Core.DocumentLibraryVersions" /> коллекции версию библиотеки документов.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -198,12 +186,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>целое число</b> , представляющее номер индекса для объекта в коллекции.</summary>
+        <summary>Возвращает <b>целое</b> число, представляющее номер индекса для объекта в коллекции.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Положение первого элемента управления панели команд — 1. Разделители не учитываются <see cref="T:Microsoft.Office.Core.CommandBarControls" /> семейства сайтов.</para>
-          <para />
-        </remarks>
+        <remarks><para>Положение первого элемента управления "панель команд" равно 1. Разделители не учитываются в <see cref="T:Microsoft.Office.Core.CommandBarControls" /> коллекции.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Modified">
@@ -229,12 +215,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает дату и время, в которой указанную версию общих документов последнего сохранения на сервере.</summary>
+        <summary>Возвращает дату и время последнего сохранения указанной версии общего документа на сервере.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Новая версия создается на сервере при каждом пользователь открывает документ и обновляется, когда пользователь сохраняет изменения; Дополнительные версии не создаются каждый раз, когда пользователь сохраняет изменения в открытом документе. Свойство <b>изменено</b> версии активный документ представляет время последнего изменения сохраненных пользователем в открытый документ.</para>
-          <para />
-        </remarks>
+        <remarks><para>Новая версия создается на сервере каждый раз, когда пользователь открывает документ и обновляется, когда пользователь сохраняет изменения; Дополнительные версии не создаются каждый раз, когда пользователь сохраняет изменения в открытом документе. Свойство <b>Modified</b> активной версии документа представляет время последнего сохранения изменений, внесенных пользователем в открытый документ.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ModifiedBy">
@@ -260,7 +244,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имя пользователя, который в последний раз сохранена указанную версию общих документов на сервере.</summary>
+        <summary>Возвращает имя пользователя, который последним сохранял указанную версию общего документа на сервере.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -286,7 +270,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Открывает указанную версию общих документов из <see cref="T:Microsoft.Office.Core.DocumentLibraryVersions" /> семейства сайтов в режиме только для чтения.</summary>
+        <summary>Открывает указанную версию общего документа из коллекции в режиме <see cref="T:Microsoft.Office.Core.DocumentLibraryVersions" /> "только для чтения".</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -340,24 +324,22 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Восстановление предыдущей версии сохраненного общего документа из <see cref="T:Microsoft.Office.Core.DocumentLibraryVersions" /> семейства сайтов.</summary>
+        <summary>Восстанавливает предыдущую сохраненную версию общего документа из <see cref="T:Microsoft.Office.Core.DocumentLibraryVersions" /> коллекции.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>Используйте метод <b>восстановления</b> для возврата к ранее сохраненный версии активных документов. Метод <b>восстановления</b> выполняет несколько задач:</para>
+        <remarks><para>Используйте метод <b>RESTORE</b> , чтобы вернуться к ранее сохраненной версии активного документа. Метод <b>RESTORE</b> выполняет несколько действий:</para>
           <list type="number">
             <item>
-              <description>изменяет открыть версию общих документов в режиме только для чтения, но оставляет его открытым.</description>
-            </item>
+              <description>он изменяет открытую версию общего документа в режиме только для чтения, но оставляет его открытым.</description>
+            </item> 
             <item>
-              <description>Открывает восстановленных версии в режим чтения и записи.</description>
-            </item>
+              <description>Он открывает восстановленную версию в режиме чтения и записи.</description>
+            </item> 
             <item>
-              <description>Сохраняет восстановленных версии на сервер в новой версии документа, внесения восстановленных версии последней версии.</description>
-            </item>
-          </list>
-          <para>Метод <b>восстановления</b> вызывает ошибку времени выполнения, если активный документ внесены изменения, которые не были сохранены.</para>
-          <para />
-        </remarks>
+              <description>Он сохраняет восстановленную версию на сервере в качестве новой версии документа, делая восстановленную версию последней версией.</description>
+            </item> 
+          </list> 
+          <para>Метод <b>RESTORE</b> вызывает ошибку во время выполнения, если в активном документе есть изменения, которые не были сохранены.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

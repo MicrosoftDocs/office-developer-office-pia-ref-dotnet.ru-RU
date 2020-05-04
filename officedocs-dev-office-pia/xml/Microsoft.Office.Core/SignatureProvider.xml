@@ -1,13 +1,5 @@
 <Type Name="SignatureProvider" FullName="Microsoft.Office.Core.SignatureProvider">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f75e580a44e443c0cdc1870bf2d4671939974dc2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662486" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SignatureProvider" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f75e580a44e443c0cdc1870bf2d4671939974dc2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662486" /></Metadata><TypeSignature Language="C#" Value="public interface SignatureProvider" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SignatureProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureProvider" />
   <TypeSignature Language="VB.NET" Value="Public Interface SignatureProvider" />
@@ -26,12 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет подписи поставщика надстройки.</summary>
-    <remarks>
-      <para>
-        <b>Примечание</b>: поставщики подписи реализуются исключительно в настраиваемой надстройки COM и не может быть реализован в Microsoft Visual Basic для приложений (VBA).</para>
-      <para />
-    </remarks>
+    <summary>Представляет надстройку поставщика подписи.</summary>
+    <remarks><para>
+        <b>Note</b>: поставщики подписей применяются исключительно в пользовательских надстройках COM и не могут быть реализованы в Microsoft Visual Basic для приложений (VBA).</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="GenerateSignatureLineImage">
@@ -65,38 +55,33 @@
         <Parameter Name="XmlDsigStream" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="siglnimg">Содержит имя, если рисунок строку подписи.</param>
-        <param name="psigsetup">Определяет начальные параметры надстройки поставщика подписи.</param>
-        <param name="psiginfo">Задает сведения о подписи поставщика надстройки.</param>
+        <param name="siglnimg">Содержит имя, если рисунок строки подписи.</param>
+        <param name="psigsetup">Задает начальные параметры надстройки поставщика подписей.</param>
+        <param name="psiginfo">Задает сведения о надстройке поставщика подписей.</param>
         <param name="XmlDsigStream">To be added.</param>
-        <summary>Получает строку рисунка подписи.</summary>
-        <returns>
-          <b>IPictureDisp</b>
-        </returns>
-        <remarks>
-          <para>
-            <see cref="T:Microsoft.Office.Core.SignatureProvider" /> Объект используется только в надстройках для поставщика настраиваемых подписи. Этот метод вызывается для каждого изображения, отображаемые в содержимое документа. Метод может быть вызван асинхронно. Метод может вызываться для «Без знака» и напрямую изображения «No software» после настройки подписи. Метод затем может вызываться после входа для образа «Подпись». Четыре изображения, используемые являются: </para>
-          <list type="bullet">
+        <summary>Получает изображение линии подписи.</summary>
+        <returns><b>ипиктуредисп</b></returns>
+        <remarks><para><see cref="T:Microsoft.Office.Core.SignatureProvider" /> Объект используется только в пользовательских надстройках поставщика подписей. Этот метод вызывается для каждого изображения, отображаемого в содержимом документа. Метод может вызываться асинхронно. Например, метод может быть вызван для неподписанного изображения и изображения "No — Software" непосредственно после настройки подписи. После этого метод можно вызвать после подписания образа с подписью. Используются следующие четыре изображения: </para> 
+          <list type="bullet"> 
             <item>
-              <para>
-                <see cref="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSoftwareRequired" />: изображения отображается пользователю, если надстройка поставщика подписи не установлен на компьютере пользователя. Если пользователь попытается войти или просмотреть строку подписи, они перенаправляются на поставщик предоставил гиперссылки, указанного в <see cref="M:Microsoft.Office.Core.SignatureProvider.GetProviderDetail(Microsoft.Office.Core.SignatureProviderDetail)" /> метод.</para>
-            </item>
+              <para> 
+                <see cref="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSoftwareRequired" />: это изображение отображается для пользователя, если надстройка поставщика подписи не установлена на компьютере пользователя. Если пользователь пытается подписать или просмотреть строку подписи, они перенаправлены на предоставленную поставщиком гиперссылку, указанную в <see cref="M:Microsoft.Office.Core.SignatureProvider.GetProviderDetail(Microsoft.Office.Core.SignatureProviderDetail)" /> методе.</para>
+            </item> 
             <item>
-              <para>
-                <see cref="F:Microsoft.Office.Core.SignatureLineImage.siglnimgUnsigned" />: Изображения отображается для неподписанных подписи изображения. По сути, при загрузке документа с неподписанной строки подписи поставщика подписи приглашения для образа актуальных подписи и на этом рисунке показана.</para>
-            </item>
+              <para>: Это изображение отображается для неподписанного изображения подписи. 
+                <see cref="F:Microsoft.Office.Core.SignatureLineImage.siglnimgUnsigned" /> По сути, когда документ загружается с помощью неподписанной строки подписи, поставщик подписи запрашивает актуальное изображение подписи и показывает это изображение.</para>
+            </item> 
             <item>
-              <para>
-                <see cref="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSignedValid" />: Это изображение, которое отображается при строки подписи подписанные и допустимый (или, точнее, подписи и подпись не регистрировать как недопустимый). При открытии документа, предполагается, что все подписанные подписи являются действительными до завершения, после чего изображение «Выполнен вход или недопустимое» отображается для недействительных подписях процесс проверки. Поскольку проверки подписей много времени, проверки подписей выполняется одновременно с помощью приложений Office в фоновом потоке. Поскольку надстройка реализует проверки подписи, кода запускается параллельный с помощью Office и не пытайтесь отображения пользовательского интерфейса во время подписи или проверка.</para>
-            </item>
+              <para>: Это изображение, которое отображается, если строка подписи подписана и действительна (или, если требуется более конкретная подпись, а подпись не зарегистрирована как недопустимая). 
+                <see cref="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSignedValid" /> При открытии документа предполагается, что все подписанные подписи действительны до завершения процесса проверки, при этом для недопустимых подписей отображается изображение "подписанный/недопустимый". Так как проверка подписей занимает много времени, проверка подписи выполняется параллельно с Office в фоновом потоке. Так как надстройка реализует проверку подписи, ваш код работает параллельно с Office и не должен пытаться отображать пользовательский интерфейс во время подписания или проверки.</para>
+            </item> 
             <item>
-              <para>
-                <see cref="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSignedInvalid" />: Это изображение, мы показываем, когда подпись строки подписи, но имеется проблема с подписью, например, изменения документа или пользователя сертификат был отозван. Поскольку надстройка реализует проверки подписи, можно решить, как и когда подпись недействительна.</para>
-            </item>
+              <para>: Это изображение, которое отображается, если строка подписи подписана, но возникла проблема с подписью, например документ был изменен или сертификат пользователя отозван. 
+                <see cref="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSignedInvalid" /> Так как надстройка реализует проверку подписи, вы можете определить, как и когда подпись недействительна.</para>
+            </item> 
           </list>
           <para />
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetProviderDetail">
@@ -122,28 +107,23 @@
         <Parameter Name="sigprovdet" Type="Microsoft.Office.Core.SignatureProviderDetail" />
       </Parameters>
       <Docs>
-        <param name="sigprovdet">Содержит значение перечисления, представляющее тип данных для надстройки для запроса.</param>
-        <summary>Запрос подписи поставщика надстройки для различных сведений.</summary>
-        <returns>
-          <b>Объект</b>
-        </returns>
-        <remarks>
-          <para>
-            <see cref="T:Microsoft.Office.Core.SignatureProvider" /> Объект используется только в надстройках для поставщика настраиваемых подписи. Этот метод используется для запроса надстройки для трех видов информации:</para>
+        <param name="sigprovdet">Содержит перечислимое значение, представляющее тип данных, запрашиваемых надстройкой.</param>
+        <summary>Запрос надстройки поставщика подписей для различных сведений.</summary>
+        <returns><b>Object</b></returns>
+        <remarks><para><see cref="T:Microsoft.Office.Core.SignatureProvider" /> Объект используется только в пользовательских надстройках поставщика подписей. Этот метод используется для запроса надстройки для трех частей информации:</para>
           <list type="bullet">
             <item>
-              <para>какой алгоритм хэширования поддержки надстройки?</para>
-            </item>
+              <para>какой алгоритм хеширования поддерживает надстройку?</para>
+            </item> 
             <item>
-              <para>— Это надстройка только пользовательского интерфейса (UI) или поддерживает хэширования и проверку? Если возвращается <b>значение True</b> , Microsoft Office не вызывает надстройки хэш-или проверка, только для отображения пользовательского интерфейса.</para>
-            </item>
+              <para>Является ли надстройка только пользовательским интерфейсом или поддерживает ли она хеширование и проверку? Если возвращается <b>значение true</b> , Microsoft Office не вызывает надстройку для хеширования или проверки, только для отображения пользовательского интерфейса.</para>
+            </item> 
             <item>
-              <para>Какие URL-адрес должен надстройки предоставляют пользователям отсутствующие надстройки подписи?</para>
-            </item>
+              <para>Какой URL-адрес должен предоставлять надстройке для пользователей, если у них нет надстройки подписи?</para>
+            </item> 
           </list>
           <para />
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="HashStream">
@@ -170,17 +150,12 @@
         <Parameter Name="Stream" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="QueryContinue">Предоставляет способ для запроса у приложения узла для разрешения, чтобы продолжить процесс хэширования.</param>
+        <param name="QueryContinue">Предоставляет способ запроса ведущего приложения для разрешения на продолжение процесса хеширования.</param>
         <param name="Stream">Содержит поток данных.</param>
-        <summary>Разрешает подписи поставщика надстройки для создания значения хэш-функции для документов, которые можно использовать для определения, если содержимое документа были изменены после цифровой подписи.</summary>
-        <returns>
-          <b>Array</b>
-        </returns>
-        <remarks>
-          <para>
-            <see cref="T:Microsoft.Office.Core.SignatureProvider" /> Объект используется только в надстройках для поставщика настраиваемых подписи. Этот метод вызывается один раз для каждого потока данных подписи в документе. Возвращаемое значение представляет собой массив байтов, представляющий значения хэш-функции, с использованием алгоритм хэширования.</para>
-          <para />
-        </remarks>
+        <summary>Позволяет надстройке поставщика подписи создавать хэш-значение для документа, с помощью которого можно определить, были ли содержимое документа подделаны после цифровой подписи.</summary>
+        <returns><b>Array</b></returns>
+        <remarks><para><see cref="T:Microsoft.Office.Core.SignatureProvider" /> Объект используется только в пользовательских надстройках поставщика подписей. Этот метод вызывается один раз для каждого потока данных подписи в документе. Возвращаемое значение — это массив байтов, представляющий хэш-значение, вычисленное с помощью алгоритма хеширования.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotifySignatureAdded">
@@ -208,14 +183,12 @@
         <Parameter Name="psiginfo" Type="Microsoft.Office.Core.SignatureInfo" />
       </Parameters>
       <Docs>
-        <param name="ParentWindow">Разрешает ведущее приложение для получения дескриптора окно, содержащее диалоговое окно отображаемой.</param>
-        <param name="psigsetup">Содержит начальные параметры поставщика подписи.</param>
-        <param name="psiginfo">Содержит сведения о подписи поставщика надстройки.</param>
-        <summary>Используется для отображения диалогового окна сообщая пользователю, что завершения процесса подписи и дополнительные функции для надстройки.</summary>
-        <remarks>
-          <para>Этот метод вызывается после завершения процесса подписи. Разрешает надстройка подписи поставщика возможность добавлять дополнительные функциональные возможности для надстройки. Например если вы хотите предлагать службу архива, где пользователь может отправить их подписанного документа, этот метод можно использовать для запуска этого процесса.</para>
-          <para />
-        </remarks>
+        <param name="ParentWindow">Позволяет ведущему приложению получить дескриптор для окна, содержащего отображаемое диалоговое окно.</param>
+        <param name="psigsetup">Содержит исходные параметры поставщика подписей.</param>
+        <param name="psiginfo">Содержит сведения о надстройке поставщика подписей.</param>
+        <summary>Используется для отображения диалогового окна, которое информирует пользователя о том, что процесс подписания выполнен, и предоставляет дополнительные функции для надстройки.</summary>
+        <remarks><para>Этот метод вызывается при завершении процесса подписания. Позволяет надстройке поставщика подписей добавлять дополнительные функции в надстройку. Например, если вы хотите предоставить архивную службу, в которой пользователь может отправить подписанный документ, можно использовать этот метод для запуска этого процесса.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowSignatureDetails">
@@ -246,13 +219,13 @@
         <Parameter Name="pcertverres" Type="Microsoft.Office.Core.CertificateVerificationResults&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="ParentWindow">Содержит дескриптор окна, содержащий сведения о подписи.</param>
-        <param name="psigsetup">Определяет начальные параметры поставщика подписи.</param>
-        <param name="psiginfo">Задает сведения о строке подпись.</param>
-        <param name="XmlDsigStream">Представляет поток данных или большой двоичный объект XML.</param>
-        <param name="pcontverres">Содержит значение, представляющее результаты verificating содержимое подписи.</param>
-        <param name="pcertverres">Содержит значение, представляющее результаты verificating подписи сертификации.</param>
-        <summary>Предоставляет подписи поставщика надстройки для отображения подробных сведений о строки подписанных подписи и отображения дополнительных хранимых данных, например штамп времени.</summary>
+        <param name="ParentWindow">Содержит дескриптор окна, содержащего сведения о подписи.</param>
+        <param name="psigsetup">Задает начальные параметры поставщика подписи.</param>
+        <param name="psiginfo">Задает сведения о подписанной строке подписи.</param>
+        <param name="XmlDsigStream">Представляет стеам данных или большой двоичный объект XML.</param>
+        <param name="pcontverres">Содержит значение, представляющее результаты верификатинг контента подписи.</param>
+        <param name="pcertverres">Содержит значение, представляющее результаты верификатинг сертификата подписи.</param>
+        <summary>Предоставляет надстройку поставщика подписей возможность отображать сведения о подписанной строке подписи и отображать дополнительные хранящиеся сведения, такие как защищенные штампы времени.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -280,13 +253,11 @@
         <Parameter Name="psigsetup" Type="Microsoft.Office.Core.SignatureSetup" />
       </Parameters>
       <Docs>
-        <param name="ParentWindow">Содержит дескриптор окна, содержащий диалоговое окно Настройка подписи.</param>
-        <param name="psigsetup">Определяет начальные параметры поставщика подписи.</param>
-        <summary>Подпись поставщика надстройки с предоставляет возможности, чтобы открыть диалоговое окно Настройка подписи для пользователя.</summary>
-        <remarks>
-          <para>Этот метод используется для обеих вставки времени процесс настройки и если позднее пользователю необходимо повторно настройте строки подписи. Отображение диалогового окна настройки подписи во время этого обратного вызова и дождитесь пользователю нажмите ОК, или Отмена. Необязательно для отображения диалогового окна для настройки подписи, если сведения о строке подписи автора. Если имеются все необходимые данные обратно в Microsoft Office без участия пользователя, диалоговые окна не требуется.</para>
-          <para />
-        </remarks>
+        <param name="ParentWindow">Содержит дескриптор окна, содержащего диалоговое окно "Настройка подписи".</param>
+        <param name="psigsetup">Задает начальные параметры поставщика подписи.</param>
+        <summary>Предоставляет надстройке поставщика подписи возможность отобразить диалоговое окно "Настройка подписи" для пользователя.</summary>
+        <remarks><para>Этот метод используется как для процесса настройки времени вставки, так и в случае, если пользователь позже хочет повторно настроить строку подписи. Во время этого обратного вызова отображается диалоговое окно "Настройка подписи" и дождитесь, пока пользователь нажимает кнопку ОК или Отмена. Нет необходимости отображать диалоговое окно для настройки подписи, если вам не нужны сведения от автора к строке подписи. Если вы можете предоставить все необходимые сведения обратно в Microsoft Office без участия пользователя, диалоговое окно не требуется.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowSigningCeremony">
@@ -314,14 +285,12 @@
         <Parameter Name="psiginfo" Type="Microsoft.Office.Core.SignatureInfo" />
       </Parameters>
       <Docs>
-        <param name="ParentWindow">Содержит дескриптор окна, содержащий диалоговое окно подпись.</param>
-        <param name="psigsetup">Определяет начальные параметры поставщика подписи.</param>
-        <param name="psiginfo">Задает сведения о поставщике подписи.</param>
-        <summary>Подпись поставщика надстройки с предоставляет возможности, чтобы открыть диалоговое окно подпись для пользователей, позволяя указать свои удостоверения и затем проходить проверку подлинности.</summary>
-        <remarks>
-          <para>Этот метод во внутренней сети вызывается приложения Microsoft Office, когда пользователь пытается выполнить вход строку подписи или надстройки называется <see cref="M:Microsoft.Office.Core.Signature.Sign(System.Object,System.Object,System.Object,System.Object)" /> метода в объектной модели приложения Office на <see cref="T:Microsoft.Office.Core.Signature" /> объекта.</para>
-          <para />
-        </remarks>
+        <param name="ParentWindow">Содержит дескриптор окна, содержащего диалоговое окно подпись.</param>
+        <param name="psigsetup">Задает начальные параметры поставщика подписи.</param>
+        <param name="psiginfo">Задает сведения о поставщике подписей.</param>
+        <summary>Предоставляет надстройке поставщика подписей возможность отображать диалоговое окно подписи для пользователей, позволяя им указать их удостоверение, а затем проверить подлинность.</summary>
+        <remarks><para>Этот метод внутренне вызывается приложением Microsoft Office, когда пользователь пытается подписать строку подписи или если надстройка вызвала <see cref="M:Microsoft.Office.Core.Signature.Sign(System.Object,System.Object,System.Object,System.Object)" /> метод в объектной модели приложения Office для <see cref="T:Microsoft.Office.Core.Signature" /> объекта.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SignXmlDsig">
@@ -350,15 +319,13 @@
         <Parameter Name="XmlDsigStream" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="QueryContinue">Предоставляет способ для запроса у приложения узла для разрешения, чтобы продолжить выполнение операции проверки.</param>
-        <param name="psigsetup">Задает сведения о конфигурации о строку подписи.</param>
-        <param name="psiginfo">Задает данные из подписи Церемония.</param>
-        <param name="XmlDsigStream">Представляет поток данных, содержащий XML, который представляет объект <b>XMLDSIG</b> .</param>
-        <summary>Используется для подписывания шаблона XMLDSIG.</summary>
-        <remarks>
-          <para>XMLDSIG имеет формат signature, основанный на стандартах<a href="http://www.w3.org/TR/xmldsig-core/">http://www.w3.org/TR/xmldsig-core/</a></para>
-          <para />
-        </remarks>
+        <param name="QueryContinue">Предоставляет способ запроса ведущего приложения для разрешения на продолжение операции проверки.</param>
+        <param name="psigsetup">Задает сведения о конфигурации для строки подписи.</param>
+        <param name="psiginfo">Задает сведения, полученные от подписи церемони.</param>
+        <param name="XmlDsigStream">Представляет стеам данных, содержащих XML, который представляет объект <b>XMLDSIG</b> .</param>
+        <summary>Используется для подписи шаблона XMLDSIG.</summary>
+        <remarks><para>XMLDSIG — это основанный на стандартах формат сигнатур<a href="http://www.w3.org/TR/xmldsig-core/">http://www.w3.org/TR/xmldsig-core/</a></para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="VerifyXmlDsig">
@@ -389,17 +356,15 @@
         <Parameter Name="pcertverres" Type="Microsoft.Office.Core.CertificateVerificationResults&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="QueryContinue">Предоставляет способ для запроса у приложения узла для разрешения, чтобы продолжить выполнение операции проверки.</param>
-        <param name="psigsetup">Задает сведения о конфигурации о строку подписи.</param>
-        <param name="psiginfo">Задает данные из подписи Церемония.</param>
-        <param name="XmlDsigStream">Представляет поток данных, содержащий XML, который представляет объект <b>XMLDSIG</b> .</param>
-        <param name="pcontverres">Указывает состояние проверки действие подписи.</param>
+        <param name="QueryContinue">Предоставляет способ запроса ведущего приложения для разрешения на продолжение операции проверки.</param>
+        <param name="psigsetup">Задает сведения о конфигурации для строки подписи.</param>
+        <param name="psiginfo">Задает сведения, полученные от подписи церемони.</param>
+        <param name="XmlDsigStream">Представляет стеам данных, содержащих XML, который представляет объект <b>XMLDSIG</b> .</param>
+        <param name="pcontverres">Указывает состояние действия проверки подписи.</param>
         <param name="pcertverres">Указывает состояние проверки сертификата подписи.</param>
-        <summary>Проверяет подпись на основе подписанных состояние документа и правильный сертификат, используемый для подписи.</summary>
-        <remarks>
-          <para>XMLDSIG является (формат signature, основанный на стандартах)<a href="http://www.w3.org/TR/xmldsig-core/">http://www.w3.org/TR/xmldsig-core/</a></para>
-          <para />
-        </remarks>
+        <summary>Проверяет подпись на основе состояния подписанного документа и законности сертификата, используемого для подписи.</summary>
+        <remarks><para>XMLDSIG — это основанный на стандартах формат подписи (<a href="http://www.w3.org/TR/xmldsig-core/">http://www.w3.org/TR/xmldsig-core/</a></para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="ContactCard" FullName="Microsoft.Office.Core.ContactCard">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="99033d2f07fcec33468fb1d3f2f87463c4e23cb8" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662568" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ContactCard : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="99033d2f07fcec33468fb1d3f2f87463c4e23cb8" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662568" /></Metadata><TypeSignature Language="C#" Value="public interface ContactCard : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ContactCard implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ContactCard" />
   <TypeSignature Language="VB.NET" Value="Public Interface ContactCard&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет карточки контакта системы Microsoft Office.</summary>
+    <summary>Представляет карточку контакта системы Microsoft Office.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,12 +52,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , который представляет родительский объект приложения Office для объекта <b>ContactCard</b> .</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий родительское приложение Office для объекта <b>ContactCard</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -89,11 +79,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Закрытие карточки контакта.</summary>
-        <remarks>
-          <para>Вы можете закрыть карточку контакта в пользовательском интерфейсе или программным путем с помощью этого метода.</para>
-          <para />
-        </remarks>
+        <summary>Закрывает карточку контакта.</summary>
+        <remarks><para>Вы можете закрыть карточку контакта в пользовательском интерфейсе или программным путем, вызвав этот метод.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -122,12 +110,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:System.Long" /> , которая указывает приложения, в котором был создан объект <b>ContactCard</b> .</summary>
+        <summary>Возвращает объект <see cref="T:System.Long" /> , указывающий приложение, в котором был создан объект <b>ContactCard</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Show">
@@ -158,59 +144,54 @@
         <Parameter Name="ShowWithDelay" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="CardStyle">
-          <see cref="T:Microsoft.Office.Core.MsoContactCardStyle" />который определяет отображение карточку как меняющейся карточки или полностью расширенную карточку.</param>
-        <param name="RectangleLeft">Задает оси x в левой части прямоугольника, где карточки не отображается.</param>
-        <param name="RectangleRight">Задает оси x в правой части прямоугольника, где карточки не отображается.</param>
-        <param name="RectangleTop">Задает Координата в верхней части прямоугольника, где карточки не отображается.</param>
-        <param name="RectangleBottom">Задает Координата в нижней части прямоугольника, где карточки не отображается.</param>
-        <param name="HorizontalPosition">Задает положение по оси x левого края карточки.</param>
-        <param name="ShowWithDelay">Определяет, есть ли задержку перед отображением карты.</param>
-        <summary>Отображение карточки контакта в заданной позиции оси x вне заданного прямоугольника.</summary>
-        <remarks>
-          <para>
-            <paramref name="Style" /> Параметра должно быть одно из <see cref="T:Microsoft.Office.Core.MsoContactCardStyle" /> значения в следующей таблице.</para>
-          <list type="table">
-            <item>
+        <param name="CardStyle"><see cref="T:Microsoft.Office.Core.MsoContactCardStyle" />Определяет, отображается ли карточка как меняющаяся карта или как полностью развернутая карта.</param>
+        <param name="RectangleLeft">Указывает координату x левой стороны прямоугольника, где карточка не отображается.</param>
+        <param name="RectangleRight">Указывает координату x правой стороны прямоугольника, где карточка не отображается.</param>
+        <param name="RectangleTop">Указывает координату y верхней стороны прямоугольника, в котором карта не отображается.</param>
+        <param name="RectangleBottom">Указывает координату y нижней стороны прямоугольника, в котором карта не отображается.</param>
+        <param name="HorizontalPosition">Указывает положение по оси x левого края карточки.</param>
+        <param name="ShowWithDelay">Определяет, есть ли задержка перед отображением карточки.</param>
+        <summary>Отображает карточку контакта по указанному координате x за преположениями указанного прямоугольника.</summary>
+        <remarks><para>Параметр должен иметь одно из значений, <see cref="T:Microsoft.Office.Core.MsoContactCardStyle" /> указанных в следующей таблице. <paramref name="Style" /> </para> 
+          <list type="table"> 
+            <item> 
               <description>
-                <b>msoContactCardTypeEnterpriseContact</b>
+                <b>мсоконтакткардтипинтерприсеконтакт</b>
               </description>
               <description>0</description>
-              <description>представляет карточки контакта для адреса контакта корпоративных.</description>
-            </item>
-            <item>
+              <description>представляет карточку контакта для адреса корпоративного контакта.</description> 
+            </item> 
+            <item> 
               <description>
-                <b>msoContactCardTypePersonalContact</b>
+                <b>мсоконтакткардтипеперсоналконтакт</b>
               </description>
               <description>1</description>
-              <description>представляет карточку контакта для контакта адресной.</description>
-            </item>
-            <item>
+              <description>представляет карточку контакта для личного адреса контакта.</description> 
+            </item> 
+            <item> 
               <description>
-                <b>msoContactCardTypeUnknownContact</b>
+                <b>мсоконтакткардтипеункновнконтакт</b>
               </description>
               <description>2</description>
-              <description>представляет карточку контакта для Неизвестный контакта адрес.</description>
-            </item>
-            <item>
+              <description>представляет карточку контакта для неизвестного контактного адреса.</description> 
+            </item> 
+            <item> 
               <description>
-                <b>msoContactCardTypeEnterpriseGroup</b>
+                <b>мсоконтакткардтипинтерприсеграуп</b>
               </description>
               <description>3</description>
-              <description>представляет карточку контакта для контакта адрес списка рассылки корпоративных.</description>
-            </item>
-            <item>
+              <description>представляет карточку контакта для адреса контакта корпоративного списка рассылки.</description> 
+            </item> 
+            <item> 
               <description>
-                <b>msoContactCardTypePersonalDistributionList</b>
+                <b>мсоконтакткардтипеперсоналдистрибутионлист</b>
               </description>
               <description>4</description>
-              <description>представляет карточку контакта для адреса контакта списка рассылки.</description>
-            </item>
-          </list>
-          <para>
-            <paramref name="fDelay" /> Параметр применяется только в том случае, если <paramref name="Style" /> задано значение «msoContactCardStyleHover». Для других стилей карточки игнорируется fDelay.</para>
-          <para />
-        </remarks>
+              <description>представляет карточку контакта для личного адреса контакта в списке рассылки.</description> 
+            </item> 
+          </list> 
+          <para>Параметр применяется только в том <paramref name="Style" /> случае, если задано значение "мсоконтакткардстилеховер". <paramref name="fDelay" /> Для всех остальных стилей карточек Фделай игнорируется.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

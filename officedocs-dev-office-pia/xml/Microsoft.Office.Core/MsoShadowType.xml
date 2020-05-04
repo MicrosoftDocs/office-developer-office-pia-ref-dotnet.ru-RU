@@ -1,13 +1,5 @@
 <Type Name="MsoShadowType" FullName="Microsoft.Office.Core.MsoShadowType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="576aa6c216690d0c1182f75e590a0828e6efe990" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662037" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoShadowType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="576aa6c216690d0c1182f75e590a0828e6efe990" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662037" /></Metadata><TypeSignature Language="C#" Value="public enum MsoShadowType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoShadowType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoShadowType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoShadowType" />
@@ -20,12 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип тени, отображаемые с фигурой.</summary>
-    <remarks>
-      <para>
-        <see cref="T:Microsoft.Office.Core.MsoShadowType" /> Константы нумеруются в соответствии с порядком (слева направо, сверху вниз) внутри стиль тени, набор отображается в панели инструментов Рисование.</para>
-      <para />
-    </remarks>
+    <summary>Указывает тип тени, отображаемой с фигурой.</summary>
+    <remarks><para><see cref="T:Microsoft.Office.Core.MsoShadowType" /> Константы пронумерованы в соответствии с их порядком (слева направо, сверху вниз) в наборе стилей тени, который отображается на панели инструментов Рисование.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoShadow1">
@@ -63,7 +52,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Тип десятой теневой.</summary>
+        <summary>Десятый тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow11">
@@ -82,7 +71,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Тип одиннадцатого теневой.</summary>
+        <summary>Одиннадцатый тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow12">
@@ -101,7 +90,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Тип двенадцатого теневой.</summary>
+        <summary>Двенадцатый тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow13">
@@ -120,7 +109,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Тринадцатый тип тени.</summary>
+        <summary>Тип тени сиртинс.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow14">
@@ -139,7 +128,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Тип четырнадцатого теневой.</summary>
+        <summary>Тип тени фауртинс.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow15">
@@ -158,7 +147,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Пятнадцатый тип тени.</summary>
+        <summary>Тип пятнадцатой тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow16">
@@ -177,7 +166,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Тип находится 16-й теневой.</summary>
+        <summary>Тип шестнадцатой тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow17">
@@ -196,7 +185,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Семнадцатый тип тени.</summary>
+        <summary>Тип тени севентинс.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow18">
@@ -215,7 +204,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>18 тип тени.</summary>
+        <summary>Тип тени еигхтинс.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow19">
@@ -234,7 +223,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Девятнадцатый тип тени.</summary>
+        <summary>Тип тени нинетинс.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow2">
@@ -253,7 +242,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Второй тип тени.</summary>
+        <summary>Второй тип теневой копии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow20">
@@ -272,7 +261,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Тип двадцатый теневой.</summary>
+        <summary>Тип двадцатой тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow21">
@@ -291,7 +280,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Тип первого двадцати теневой.</summary>
+        <summary>Двадцать первый тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow22">
@@ -310,7 +299,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>Второй двадцати скрывать типа.</summary>
+        <summary>Двадцать второй тип теневой копии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow23">
@@ -329,7 +318,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>Тип третьего двадцати теневой.</summary>
+        <summary>Двадцать третий тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow24">
@@ -348,7 +337,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>Twenty скрывать указанного типа.</summary>
+        <summary>Тип "двадцать вперед".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow25">
@@ -367,7 +356,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>Тип пятого двадцати теневой.</summary>
+        <summary>Двадцать пятый тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow26">
@@ -386,7 +375,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>Тип теневой шестой двадцати.</summary>
+        <summary>Двадцать шестой тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow27">
@@ -405,7 +394,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>Тип теневой седьмой двадцати.</summary>
+        <summary>Двадцать седьмая теневой тип.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow28">
@@ -424,7 +413,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>Тип восьмого двадцати теневой.</summary>
+        <summary>Двадцать восьмой тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow29">
@@ -443,7 +432,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>Тип теневой девятая двадцати.</summary>
+        <summary>Двадцать девятый тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow3">
@@ -481,7 +470,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>Тип теневой тридцатый.</summary>
+        <summary>Тип тени сиртиес.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow31">
@@ -500,7 +489,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>Тип теневой первоначального 30.</summary>
+        <summary>30 первый тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow32">
@@ -519,7 +508,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>30 второго скрывать типа.</summary>
+        <summary>30 — второй тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow33">
@@ -538,7 +527,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>Тип теневой третьего 30.</summary>
+        <summary>30 – третий тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow34">
@@ -557,7 +546,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>30 скрывать указанного типа.</summary>
+        <summary>Тип тени (по 30).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow35">
@@ -576,7 +565,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>Тип теневой пятый 30.</summary>
+        <summary>Половина пятого типа тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow36">
@@ -595,7 +584,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>Тип теневой шестой 30.</summary>
+        <summary>30 – шестой теневой тип.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow37">
@@ -614,7 +603,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>Тип теневой седьмой 30.</summary>
+        <summary>30 седьмая теневой тип.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow38">
@@ -633,7 +622,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>Тип восьмого 30 теневой.</summary>
+        <summary>30 — восьмой тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow39">
@@ -652,7 +641,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>Тип теневой девятая 30.</summary>
+        <summary>Половина девятого типа тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow4">
@@ -690,7 +679,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>Fortieth тип тени.</summary>
+        <summary>Тип тени фортиес.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow41">
@@ -709,7 +698,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>Тип первого сорока теневой.</summary>
+        <summary>40. Первый тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow42">
@@ -728,7 +717,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>Второй сорока скрывать типа.</summary>
+        <summary>40 тип второй теневой копии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow43">
@@ -747,7 +736,7 @@
       </ReturnValue>
       <MemberValue>43</MemberValue>
       <Docs>
-        <summary>Тип третьего сорока теневой.</summary>
+        <summary>40 — третий тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow5">
@@ -766,7 +755,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Тип пятого теневой.</summary>
+        <summary>Пятый тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow6">
@@ -804,7 +793,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Седьмой тип тени.</summary>
+        <summary>Седьмая теневой тип.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow8">
@@ -823,7 +812,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Восьмому тип тени.</summary>
+        <summary>Тип восьмой тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow9">
@@ -842,7 +831,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Тип девятого теневой.</summary>
+        <summary>Девятый тип тени.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadowMixed">

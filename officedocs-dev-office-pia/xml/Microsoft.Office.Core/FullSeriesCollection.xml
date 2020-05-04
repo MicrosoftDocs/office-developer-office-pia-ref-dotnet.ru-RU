@@ -1,13 +1,5 @@
 <Type Name="FullSeriesCollection" FullName="Microsoft.Office.Core.FullSeriesCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="108f01641a6a74054b99cb28f72a87fc3a57bb55" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662086" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FullSeriesCollection : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="108f01641a6a74054b99cb28f72a87fc3a57bb55" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662086" /></Metadata><TypeSignature Language="C#" Value="public interface FullSeriesCollection : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FullSeriesCollection implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.FullSeriesCollection" />
   <TypeSignature Language="VB.NET" Value="Public Interface FullSeriesCollection&#xA;Implements IEnumerable" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет полный набор объектов серии на диаграмме.</summary>
+    <summary>Представляет полный набор объектов Series на диаграмме.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -61,7 +53,7 @@
       </Parameters>
       <Docs>
         <param name="Index">Номер индекса для объекта.</param>
-        <summary>Серия по умолчанию.</summary>
+        <summary>Ряд по умолчанию.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -86,7 +78,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект приложения, который представляет приложение Microsoft Office.</summary>
+        <summary>Возвращает объект Application, представляющий приложение Microsoft Office.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -111,8 +103,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает значение типа Integer (целое в C#), который представляет число объектов в <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> (Возвращает число категорий отображается на диаграмме).</summary>
-        <value>Возвращает значение типа Integer (целое в C#)</value>
+        <summary>Возвращает значение типа Integer (int в C#), представляющее число объектов в диаграмме <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> (Возвращает число категорий, отображаемых на диаграмме).</summary>
+        <value>Возвращает целое число (int в C#)</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -136,7 +128,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -189,7 +181,7 @@
       </Parameters>
       <Docs>
         <param name="Index">Номер индекса объекта.</param>
-        <summary>Возвращает объект из <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> объекта.</summary>
+        <summary>Возвращает один объект из <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> объекта.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

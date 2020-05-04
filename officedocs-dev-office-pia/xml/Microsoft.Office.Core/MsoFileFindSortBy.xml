@@ -1,13 +1,5 @@
 <Type Name="MsoFileFindSortBy" FullName="Microsoft.Office.Core.MsoFileFindSortBy">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6dcbbc71b95f1d8b120d1edd48a7bca5d413fff3" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661897" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFileFindSortBy" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6dcbbc71b95f1d8b120d1edd48a7bca5d413fff3" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661897" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFileFindSortBy" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileFindSortBy extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileFindSortBy" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFileFindSortBy" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Это перечисление применяется только для Macintosh и не должен использоваться.</summary>
+    <summary>Это перечисление применяется только к Macintosh и не должно использоваться.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

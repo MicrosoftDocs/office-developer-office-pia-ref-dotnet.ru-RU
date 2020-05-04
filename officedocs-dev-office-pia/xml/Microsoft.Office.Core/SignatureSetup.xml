@@ -1,13 +1,5 @@
 <Type Name="SignatureSetup" FullName="Microsoft.Office.Core.SignatureSetup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fc4c3508be8168ff85d7b6cf5478616ba862803a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661714" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SignatureSetup : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fc4c3508be8168ff85d7b6cf5478616ba862803a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661714" /></Metadata><TypeSignature Language="C#" Value="public interface SignatureSetup : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SignatureSetup implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureSetup" />
   <TypeSignature Language="VB.NET" Value="Public Interface SignatureSetup&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет данные, используемые для настройки пакетов подписи.</summary>
+    <summary>Представляет сведения, используемые для настройки пакета сигнатур.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,10 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает дополнительные сведения XML, добавлена к подписи, во время установки. Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает дополнительные XML-данные, добавленные в подпись во время установки. Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,10 +83,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает <b>логическое</b> значение, указывающее, является ли подписи можно ввести комментарии в диалоговом окне входа. Для чтения и записи.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает или задает <b>логическое</b> значение, указывающее, может ли подписывающий ввести комментарии в диалоговом окне Подпись. Для чтения и записи.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,10 +114,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.SignatureSetup" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.SignatureSetup" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -159,10 +145,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.SignatureSetup" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.SignatureSetup" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -190,9 +174,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает идентификатор поставщика подписи для документа. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -219,10 +201,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает значение <b>типа Boolean</b> , указывающее, является ли <see cref="T:Microsoft.Office.Core.SignatureSetup" /> объект доступен только для чтения. Только для чтения.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает <b>логическое</b> значение, указывающее, является <see cref="T:Microsoft.Office.Core.SignatureSetup" /> ли объект доступен только для чтения. Только для чтения.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -252,10 +232,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает <b>логическое</b> значение, указывающее, отображаются ли дата подписания документа. Для чтения и записи.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает или задает <b>логическое</b> значение, указывающее, должна ли отображаться Дата подписания документа. Для чтения и записи.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -282,10 +260,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, идентифицирующее установленных подписи поставщика надстройки. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает значение, идентифицирующее установленную надстройку поставщика подписей. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -315,10 +291,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает инструкции для подписания документа. Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает инструкции по подписыванию документа. Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -348,10 +322,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает имя подписывающего лица принцип документа. Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает имя участника, подписавшего документ. Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -381,10 +353,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает адрес электронной почты подписывающего лица документа. Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает адрес электронной почты подписавшего документ. Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -414,10 +384,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает во второй строке предложенного подписывающего лица сведения (например, заголовок). Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает вторую строку предложенных сведений о подписавшем (например, Title). Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="PictureEffect" FullName="Microsoft.Office.Core.PictureEffect">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="82936f05d96543d5f720440c9fbab60da8dd9d0f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662466" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PictureEffect : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="82936f05d96543d5f720440c9fbab60da8dd9d0f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662466" /></Metadata><TypeSignature Language="C#" Value="public interface PictureEffect : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PictureEffect implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PictureEffect" />
   <TypeSignature Language="VB.NET" Value="Public Interface PictureEffect&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет эффекта рисунка.</summary>
+    <summary>Представляет графический объект.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,12 +52,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>PictureEffect</b> .</summary>
+        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>PictureEffect</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -94,12 +84,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>PictureEffect</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>PictureEffect</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -123,7 +111,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаление эффекта рисунка.</summary>
+        <summary>Удаляет графический объект.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -150,12 +138,10 @@
         <ReturnType>Microsoft.Office.Core.EffectParameters</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.EffectParameter" /> объекта.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.EffectParameter" /> объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись. Эффекты рисунков обрабатываются как цепочка состоит из отдельных элементов, которые применяются в последовательности для создания конечного составных изображения. В цепочке эффекты позволяет эффект, добавляемого в цепочку, переупорядочиваться или удалены из цепочки. Влияние параметры определяют свойства эти проблемы.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись. Эффекты рисунков обрабатываются как цепочка, состоящая из отдельных элементов, которые применяются последовательно, чтобы создать итоговое составное изображение. Цепочка эффектов позволяет добавлять эффект в цепочку, переупорядочивать их или удалять из нее. Параметры эффектов задают свойства этих эффектов.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Position">
@@ -184,12 +170,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает положение эффекта рисунка в цепочку составного эффекты.</summary>
+        <summary>Получает или задает положение эффекта изображения в цепочке составных эффектов.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись. Эффекты рисунков обрабатываются как цепочка состоит из отдельных элементов, которые применяются в последовательности для создания конечного составных изображения. В цепочке эффекты позволяет эффект, добавляемого в цепочку, переупорядочиваться или удалены из цепочки.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись. Эффекты рисунков обрабатываются как цепочка, состоящая из отдельных элементов, которые применяются последовательно, чтобы создать итоговое составное изображение. Цепочка эффектов позволяет добавлять эффект в цепочку, переупорядочивать их или удалять из нее.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -215,12 +199,10 @@
         <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип влияние рисунков.</summary>
+        <summary>Получает тип рисунка.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -249,12 +231,10 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает логическое значение, представляющее видимое состояние влияние рисунков.</summary>
+        <summary>Получает или задает логическое значение, представляющее видимое состояние видеоизображения.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

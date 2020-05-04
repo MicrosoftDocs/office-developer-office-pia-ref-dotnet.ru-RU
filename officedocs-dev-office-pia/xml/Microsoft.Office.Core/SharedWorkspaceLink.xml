@@ -1,13 +1,5 @@
 <Type Name="SharedWorkspaceLink" FullName="Microsoft.Office.Core.SharedWorkspaceLink">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="390051eef4132ee6c7674832f7fe84b88d7ca173" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661704" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SharedWorkspaceLink : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="390051eef4132ee6c7674832f7fe84b88d7ca173" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661704" /></Metadata><TypeSignature Language="C#" Value="public interface SharedWorkspaceLink : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SharedWorkspaceLink implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SharedWorkspaceLink" />
   <TypeSignature Language="VB.NET" Value="Public Interface SharedWorkspaceLink&#xA;Implements _IMsoDispObj" />
@@ -30,16 +22,14 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Этот объект, член или перечисление относятся к числу нерекомендуемых и не предназначен для использования в вашем коде. Объект <b>SharedWorkspaceLink</b> представляет URL-адрес ссылки, сохраненные в рабочей области для общих документов.</summary>
-    <remarks>
-      <para>Этот объект является членом <see cref="T:Microsoft.Office.Core.SharedWorkspaceLinks" /> семейства.</para>
-      <para>Объект <b>SharedWorkspaceLink</b> используется для управления ссылками на дополнительные документы и сведения, интересующие элементы, которые совместная работа на документы в общей рабочей области.</para>
-      <para>Использование <b>элемента</b>(<paramref name="index" />) методу коллекции <b>SharedWorkspaceLinks</b> для получения определенного объекта <b>SharedWorkspaceLink</b> .</para>
-      <para>Использования <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.Description" /> свойство, чтобы задать описание ссылки, которое будет отображаться на вкладке "ссылки" Общая рабочая область и на веб-странице рабочей области. Использование <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.URL" /> свойство, чтобы задать конечный адрес ссылки. Использование <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.Notes" /> свойство, чтобы предоставить дополнительные сведения о ссылке.</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core.SharedWorkspaceLink.Save" /> метод для отправки изменений на сервер после изменения свойства объекта <b>SharedWorkspaceLink</b> .</para>
-      <para>Использования <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.CreatedBy" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.CreatedDate" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.ModifiedBy" />, и <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.ModifiedDate" /> свойства, чтобы получить сведения об истории каждая из ссылок.</para>
-      <para />
-    </remarks>
+    <summary>Этот объект, элемент или перечисление устарели и не предназначены для использования в вашем коде. Объект <b>SharedWorkspaceLink</b> представляет URL-ссылку, сохраненную в общей рабочей области для документов.</summary>
+    <remarks><para>Этот объект является элементом <see cref="T:Microsoft.Office.Core.SharedWorkspaceLinks" /> коллекции.</para> 
+      <para>Используйте объект <b>SharedWorkspaceLink</b> для управления ссылками на дополнительные документы и интересующие вас сведения для участников, совместно использующих документы в общей рабочей области.</para> 
+      <para>Используйте метод <b>Item</b>(<paramref name="index" />) коллекции <b>SharedWorkspaceLinks</b> , чтобы возвратить определенный объект <b>SharedWorkspaceLink</b> .</para> 
+      <para>Используйте <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.Description" /> свойство, чтобы задать описание ссылки, которое будет отображаться на вкладке ссылки в области Общая рабочая область и на веб-странице рабочей области. Используйте <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.URL" /> свойство, чтобы задать адрес назначения ссылки. Используйте <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.Notes" /> свойство, чтобы указать дополнительные сведения о ссылке.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.SharedWorkspaceLink.Save" /> метод для отправки изменений на сервер после изменения свойств объекта <b>SharedWorkspaceLink</b> .</para> 
+      <para>Используйте свойства <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.CreatedBy" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.CreatedDate" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.ModifiedBy" />и <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.ModifiedDate" /> , чтобы получить сведения о журнале каждой ссылки.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -68,7 +58,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -96,14 +86,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает понятное имя участника, создавшее этот объект общей рабочей области.</summary>
+        <summary>Возвращает понятное имя участника, создавшего объект общей рабочей области.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Свойство <b>Кем создано</b> Возвращает понятное имя, хранящиеся в свойство <b>Name</b> объекта <b>DWSMember</b> .</para>
-          <para>
-            <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> И <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> объекты не имеют свойство <b>Кем создано</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Свойство <b>CreatedBy</b> возвращает понятное имя, хранящееся в свойстве <b>Name</b> объекта <b>двсмембер</b> .</para> 
+          <para>Объекты <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> и <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> не имеют свойства <b>CreatedBy</b> .</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreatedDate">
@@ -131,11 +118,8 @@
       <Docs>
         <summary>Возвращает дату и время создания объекта общей рабочей области.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> И <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> объекты не имеют свойство <b>Дата создания</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Объекты <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> и <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> не имеют свойства <b>CreatedDate</b> .</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -164,12 +148,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -194,10 +178,8 @@
       <Parameters />
       <Docs>
         <summary>Удаляет текущий объект.</summary>
-        <remarks>
-          <para>Этот метод завершится ошибкой, если пользователь не имеет разрешения на удаление текущего объекта из общей рабочей области.</para>
-          <para />
-        </remarks>
+        <remarks><para>Этот метод завершится с ошибками, если у пользователя нет разрешения на удаление текущего объекта из общей рабочей области.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Description">
@@ -226,12 +208,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает описательный <b>строковое</b> значение для указанного <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" /> объекта.</summary>
+        <summary>Возвращает или задает <b>строковое</b> значение с описанием для указанного <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" /> объекта.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Свойство <b>Description</b> является необязательным, когда новой ссылки общей рабочей области или задачи создается и может быть пустым.</para>
-          <para />
-        </remarks>
+        <remarks><para>Свойство <b>Description</b> является необязательным при создании новой ссылки на общую рабочую область или задачи, и может быть пустым.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ModifiedBy">
@@ -257,14 +237,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имя пользователя, который последнего изменения объекта.</summary>
+        <summary>Возвращает имя пользователя, который последним изменил объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Для объектов общей рабочей области, свойство <b>ModifiedBy</b> Возвращает понятное имя, хранящиеся в свойство <b>Name</b> объекта <b>DWSMember</b> .</para>
-          <para>
-            <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> И <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> объекты не имеют свойство <b>ModifiedBy</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Для объектов общих рабочих областей свойство <b>модифиедби</b> возвращает понятное имя, хранящееся в свойстве <b>Name</b> объекта <b>двсмембер</b> .</para> 
+          <para>Объекты <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> и <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> не имеют свойства <b>модифиедби</b> .</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ModifiedDate">
@@ -292,11 +269,8 @@
       <Docs>
         <summary>Возвращает дату и время последнего изменения объекта общей рабочей области.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> И <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> объекты не имеют свойство <b>ModifiedDate</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Объекты <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> и <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> не имеют свойства <b>ModifiedDate</b> .</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Notes">
@@ -325,7 +299,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает необязательный заметки, связанные со ссылкой на общей рабочей области.</summary>
+        <summary>Возвращает или задает дополнительные примечания, связанные с ссылкой на общую рабочую область.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -379,11 +353,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отправляет изменения, внесенные программным способом, чтобы <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" /> на сервере.</summary>
-        <remarks>
-          <para>Используйте метод <b>Save</b> для отправки изменений на сервер после изменения свойств ссылок общей рабочей области или задач.</para>
-          <para />
-        </remarks>
+        <summary>Отправляет изменения, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" /> внесенные программным способом, на сервер.</summary>
+        <remarks><para>Используйте метод <b>Save</b> для отправки изменений на сервер после изменения свойств ссылки на общую рабочую область или задачи.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="URL">
@@ -412,13 +384,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает универсальный код ресурса URL-адреса ссылки, сохраненных в общей рабочей области.</summary>
+        <summary>Возвращает или задает URL-адрес ссылки, сохраненной в общей рабочей области.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Используйте свойство <b>URL-адрес</b> объекта <b>SharedWorkspaceLink</b> для получения веб-адрес, сохранено в общей рабочей области ссылок. Дополнительно <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.Description" /> и <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.Notes" /> свойства, чтобы получить дополнительные сведения о ссылке.</para>
-          <para>Свойство <b>URL-адрес</b> возвращает URL-кодированной строки. Например пространства в поле имя папки представляется на % 20. Простая функция для замены этой escape-знаков должен быть пробел.</para>
-          <para />
-        </remarks>
+        <remarks><para>Используйте свойство <b>URL</b> объекта <b>SharedWorkspaceLink</b> для получения веб-адреса, сохраненного в ссылке Общая рабочая область. Используйте <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.Description" /> необязательные <see cref="P:Microsoft.Office.Core.SharedWorkspaceLink.Notes" /> свойства и, чтобы получить дополнительные сведения о ссылке.</para> 
+          <para>Свойство <b>URL</b> возвращает строку, закодированную в URL-адресе. Например, пробел в имени папки представлен %20. Используйте простую функцию, чтобы заменить этот escape-символ пробелом.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

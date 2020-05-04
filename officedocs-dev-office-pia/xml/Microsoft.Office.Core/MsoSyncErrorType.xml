@@ -1,13 +1,5 @@
 <Type Name="MsoSyncErrorType" FullName="Microsoft.Office.Core.MsoSyncErrorType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0bf744061efc805fbf1e67a45069aefd4727ad75" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662277" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoSyncErrorType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0bf744061efc805fbf1e67a45069aefd4727ad75" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662277" /></Metadata><TypeSignature Language="C#" Value="public enum MsoSyncErrorType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncErrorType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncErrorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncErrorType" />
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Не удается сравнить файлы источника и назначения.</summary>
+        <summary>Не удалось сравнить исходные и конечные файлы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorCouldNotConnect">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Не удалось обновить файл назначения.</summary>
+        <summary>Не удалось обновить конечный файл.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorFileInUse">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Целевой файл не найден.</summary>
+        <summary>Конечный файл не найден.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorFileTooLarge">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Файл слишком велик для синхронизации.</summary>
+        <summary>Слишком большой файл для синхронизации.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorNone">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Без ошибки.</summary>
+        <summary>Нет ошибок.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorNoNetwork">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Сеть недоступны.</summary>
+        <summary>Сеть недоступна.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorOutOfSpace">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Недостаточно места.</summary>
+        <summary>Недостаточно места на диске.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorUnauthorizedUser">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Неавторизованных пользователей.</summary>
+        <summary>Неавторизованный пользователь.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorUnknown">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Ошибка при загрузке.</summary>
+        <summary>Ошибка скачивания.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorUnknownUpload">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Ошибка при отправке.</summary>
+        <summary>Ошибка отправки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorVirusDownload">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Загрузить от вирусов.</summary>
+        <summary>Вирус загружен.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorVirusUpload">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Отправить от вирусов.</summary>
+        <summary>Вирус отправлен.</summary>
       </Docs>
     </Member>
   </Members>

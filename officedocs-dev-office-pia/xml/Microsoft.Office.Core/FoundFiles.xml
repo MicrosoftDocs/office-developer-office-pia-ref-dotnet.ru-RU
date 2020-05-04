@@ -1,13 +1,5 @@
 <Type Name="FoundFiles" FullName="Microsoft.Office.Core.FoundFiles">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="158c35dc102dfdf34a8129bc703b9f66832a0736" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661694" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FoundFiles : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="158c35dc102dfdf34a8129bc703b9f66832a0736" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661694" /></Metadata><TypeSignature Language="C#" Value="public interface FoundFiles : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FoundFiles implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.FoundFiles" />
   <TypeSignature Language="VB.NET" Value="Public Interface FoundFiles&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,12 +25,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет список файлов, возвращаемые поиск файлов.</summary>
-    <remarks>
-      <para>Использование <see cref="P:Microsoft.Office.Core.FileSearch.FoundFiles" /> свойство для возврата объекта <b>FoundFiles</b> . Используйте <b>FoundFiles</b>(<paramref name="index" />), где <paramref name="index" /> — номер индекса для возврата имени файла и путь к конкретному файлу, обнаруженные во время поиска.</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core.FileSearch.Execute(Microsoft.Office.Core.MsoSortBy,Microsoft.Office.Core.MsoSortOrder,System.Boolean)" /> метод, чтобы начать поиск файлов и обновление объекта <b>FoundFiles</b> .</para>
-      <para />
-    </remarks>
+    <summary>Представляет список файлов, возвращенных при поиске файлов.</summary>
+    <remarks><para>Используйте <see cref="P:Microsoft.Office.Core.FileSearch.FoundFiles" /> свойство, чтобы возвратить объект <b>фаундфилес</b> . Используйте <b>фаундфилес</b>(<paramref name="index" />), где <paramref name="index" /> — это номер индекса, чтобы возвратить путь и имя файла определенного файла, найденного во время поиска.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.FileSearch.Execute(Microsoft.Office.Core.MsoSortBy,Microsoft.Office.Core.MsoSortOrder,System.Boolean)" /> метод для запуска поиска файла и обновления объекта <b>фаундфилес</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -67,7 +57,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -95,7 +85,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>целое число</b> , указывающее количество элементов в указанном семействе сайтов.</summary>
+        <summary>Возвращает <b>целое</b> число, указывающее количество элементов в указанной коллекции.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -126,11 +116,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Свойство <b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.FoundFiles.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.FoundFiles.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -194,8 +184,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Требуется <b>целое число</b>. Номер индекса строки с названием файла ответов мастер или имя файла которого требуется получить.</param>
-        <summary>Возвращает имя файла в списке имена файлов, представленного <see cref="T:Microsoft.Office.Core.FoundFiles" /> объекта.</summary>
+        <param name="Index">Обязательный атрибут типа <b>Integer</b>. Номер индекса строки имени файла мастера ответов или возвращаемого имени файла.</param>
+        <summary>Возвращает имя файла из списка имен файлов, представленного <see cref="T:Microsoft.Office.Core.FoundFiles" /> объектом.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

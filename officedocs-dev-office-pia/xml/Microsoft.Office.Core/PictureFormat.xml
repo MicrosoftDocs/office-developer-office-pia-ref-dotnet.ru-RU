@@ -1,13 +1,5 @@
 <Type Name="PictureFormat" FullName="Microsoft.Office.Core.PictureFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e99e0fc170996fe60b5f031f2b26519d9ca2c032" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661695" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PictureFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e99e0fc170996fe60b5f031f2b26519d9ca2c032" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661695" /></Metadata><TypeSignature Language="C#" Value="public interface PictureFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PictureFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PictureFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface PictureFormat&#xA;Implements _IMsoDispObj" />
@@ -213,7 +205,7 @@
       </ReturnValue>
       <Docs>
         <summary>Объект, используемый для удаления части изображения.</summary>
-        <value>Возвращает <see cref="T:Microsoft.Office.Core.Crop" />.</value>
+        <value>Возвращает <see cref="T:Microsoft.Office.Core.Crop" />значение.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

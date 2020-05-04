@@ -1,13 +1,5 @@
 <Type Name="XlPivotFieldOrientation" FullName="Microsoft.Office.Core.XlPivotFieldOrientation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="110e9c55a6e9affdb18eaa97a8e3a251d08f7eab" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662222" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlPivotFieldOrientation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="110e9c55a6e9affdb18eaa97a8e3a251d08f7eab" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662222" /></Metadata><TypeSignature Language="C#" Value="public enum XlPivotFieldOrientation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlPivotFieldOrientation extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlPivotFieldOrientation" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlPivotFieldOrientation" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает расположение поля в отчет сводной таблицы.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает расположение поля в отчете сводной таблицы.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает поля данных.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает поле данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlHidden">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает, что это поле скрыто.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает, что поле скрыто.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPageField">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает поля страницы.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает поле страницы.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlRowField">

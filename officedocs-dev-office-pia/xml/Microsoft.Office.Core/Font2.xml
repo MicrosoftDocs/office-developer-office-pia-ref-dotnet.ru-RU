@@ -1,13 +1,5 @@
 <Type Name="Font2" FullName="Microsoft.Office.Core.Font2">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5dfaa0196963bf6ab693c10f1fe8bcd8153a6491" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662430" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Font2 : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5dfaa0196963bf6ab693c10f1fe8bcd8153a6491" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662430" /></Metadata><TypeSignature Language="C#" Value="public interface Font2 : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Font2 implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Font2" />
   <TypeSignature Language="VB.NET" Value="Public Interface Font2&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Содержит атрибуты шрифта (например, шрифт, размер шрифта и цвет) для объекта.</summary>
+    <summary>Содержит атрибуты шрифтов (например, имя, размер и цвет шрифта) для объекта.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,11 +52,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если шрифт отформатированы как прописных букв. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><b>Значение true</b> , если шрифт отформатирован как прописные буквы. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -94,7 +83,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект, представляющий приложение <see cref="T:Microsoft.Office.Core.Font2" /> объект используется в. Только для чтения.</summary>
+        <summary>Получает объект, представляющий приложение, в котором <see cref="T:Microsoft.Office.Core.Font2" /> используется объект. Только для чтения.</summary>
         <value>Объект</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -125,10 +114,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, следует ли вращаться номера в нумерованный список, когда вращаться текст. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Получает или задает значение, указывающее, следует ли поворачивать числа в нумерованном списке при вращении текста. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -159,7 +146,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает значение, указывающее горизонтальное смещение выбранного шрифта. Для чтения и записи.</summary>
-        <value>Single</value>
+        <value>Одинарное</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -189,10 +176,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, следует ли полужирный шрифт. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Получает или задает значение, указывающее, должен ли шрифт отображаться полужирным шрифтом. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -222,10 +207,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTextCaps</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, что текст следует прописной. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Получает или задает значение, указывающее, что текст должен быть прописным. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -255,10 +238,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, приложения, в которой был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает значение, указывающее приложение, в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -288,11 +269,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если указанный шрифт отформатированы как двойное зачеркивание текста. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><b>Значение true</b> , если указанный шрифт отформатирован в виде двойного зачеркивания текста. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -319,10 +297,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли шрифт можно встраивать в страницы. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Получает значение, указывающее, можно ли внедрять шрифт на страницу. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -349,10 +325,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли шрифт внедрен на странице. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Получает значение, указывающее, внедрен ли шрифт на страницу. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -382,10 +356,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, следует ли текст для выбора расстоянии друг от друга равно расстоянии друг от друга. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Получает или задает значение, указывающее, следует ли разделить текст для выделенного фрагмента на одинаковое расстояние. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -441,9 +413,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает значение, указывающее, отображается ли шрифт как эффект свечения.  Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.GlowFormat" />
-        </value>
+        <value><see cref="T:Microsoft.Office.Core.GlowFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -470,10 +440,8 @@
         <ReturnType>Microsoft.Office.Core.ColorFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, отображается ли шрифт как с выделением. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ColorFormat" />
-        </value>
+        <summary>Получает значение, указывающее, отображается ли шрифт как выделенный. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ColorFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -503,10 +471,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, является ли текст для выделения курсивом. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Получает или задает значение, указывающее, является ли текст для выделенного фрагмента курсивом. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -536,10 +502,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее расстояние между текстовых символов. Для чтения и записи.</summary>
-        <value>
-          <b>Single</b>
-        </value>
+        <summary>Получает или задает значение, указывающее расстояние между текстовыми символами. Для чтения и записи.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -566,10 +530,8 @@
         <ReturnType>Microsoft.Office.Core.LineFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение указанием формат строки. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.LineFormat" />
-        </value>
+        <summary>Получает значение, указанием формат строки. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.LineFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -599,10 +561,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее шрифт, используемый для выбора.  Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает значение, указывающее шрифт, используемый для выделения.  Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -632,10 +592,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает шрифт, используемый для английского текста (символы с кодами знаков из нуль (0) до 127).  Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает шрифт, используемый для латиницы-текста (символов с кодами символов от 0 (от 0 до 127).  Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -665,10 +623,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает имя шрифта сложных скриптов. Используется для смешанные языковые текста. Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает имя шрифта со сложным набором символов. Используется для текста на смешанном языке. Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -698,10 +654,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает восточно-азиатский шрифт. Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает имя восточно-азиатского шрифта. Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -731,10 +685,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает шрифт, используемый для которого кодировка числа символов, больше, чем 127. Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает шрифт, используемый для тех символов, значения которых больше 127. Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -761,10 +713,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает родительский <see cref="T:Microsoft.Office.Core.Font2" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Получает родительский <see cref="T:Microsoft.Office.Core.Font2" /> объект для объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -791,10 +741,8 @@
         <ReturnType>Microsoft.Office.Core.ReflectionFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее тип формата отражения для выбора текста. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ReflectionFormat" />
-        </value>
+        <summary>Получает значение, задающее тип формата отражения для выделенного текста. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ReflectionFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -821,10 +769,8 @@
         <ReturnType>Microsoft.Office.Core.ShadowFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, определяющее тип тень для выбора текста.  Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ShadowFormat" />
-        </value>
+        <summary>Получает значение, задающее тип тени для выделенного текста.  Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ShadowFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -855,9 +801,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает значение, указывающее размер шрифта. Для чтения и записи.</summary>
-        <value>
-          <b>Single</b>
-        </value>
+        <value><b>Одинарное с плавающей точкой</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -887,10 +831,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, следует ли использовать малые прописные с выделенного текста. Малые прописные являются одной высоты с использованием нижнего регистра выделенного текста. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Получает или задает значение, указывающее, следует ли использовать малые прописные буквы с выделенным текстом. Малые прописные буквы имеют ту же высоту, что и буквы нижнего регистра в выделенном тексте. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -920,10 +862,8 @@
         <ReturnType>Microsoft.Office.Core.MsoSoftEdgeType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее тип программных влияние пограничного сервера, используемые в выделенный текст. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoSoftEdgeType" />
-        </value>
+        <summary>Получает или задает значение, определяющее тип эффектов с мягким краем, используемых в выделении текста. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoSoftEdgeType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -953,10 +893,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее расстояние между символами в выделенный текст. Для чтения и записи.</summary>
-        <value>
-          <b>Single</b>
-        </value>
+        <summary>Получает или задает значение, указывающее расстояние между символами в выделении текста. Для чтения и записи.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -986,10 +924,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTextStrike</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее формат черту, используемый для выбора текста. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTextStrike" />
-        </value>
+        <summary>Получает или задает значение, указывающее формат зачеркивания, используемый для выделения текста. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTextStrike" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1019,10 +955,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, что внешний зачеркивание должно составлять текст. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Получает или задает значение, указывающее текст, который должен отображаться в виде зачеркивания. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1052,10 +986,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, что выделенный текст должен отображаться как индекс. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Получает или задает значение, указывающее, что выбранный текст должен отображаться как подстрочный. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1085,10 +1017,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, что выделенный текст должен отображаться как надстрочный знак. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Получает или задает значение, указывающее, что выбранный текст должен отображаться в виде надстрочного знака. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1115,10 +1045,8 @@
         <ReturnType>Microsoft.Office.Core.ColorFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее цвет подчеркивания для выделенного текста. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ColorFormat" />
-        </value>
+        <summary>Получает значение, задающее цвет подчеркивания для выбранного текста. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ColorFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1148,10 +1076,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее стиль подчеркивания для выделенного текста. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTextUnderlineType" />
-        </value>
+        <summary>Получает или задает значение, задающее стиль подчеркивания для выбранного текста. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTextUnderlineType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1181,10 +1107,8 @@
         <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее влияние текст для выбранного текста. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoPresetTextEffect" />
-        </value>
+        <summary>Получает или задает значение, указывающее текст для выбранного текста. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoPresetTextEffect" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

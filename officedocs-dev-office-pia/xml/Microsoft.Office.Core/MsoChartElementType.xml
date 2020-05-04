@@ -1,13 +1,5 @@
 <Type Name="MsoChartElementType" FullName="Microsoft.Office.Core.MsoChartElementType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3bebe9aa264e01910ff2f4fbf8e3188bad0a2729" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662281" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoChartElementType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3bebe9aa264e01910ff2f4fbf8e3188bad0a2729" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662281" /></Metadata><TypeSignature Language="C#" Value="public enum MsoChartElementType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoChartElementType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoChartElementType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoChartElementType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, является ли и как для отображения элементов диаграммы.</summary>
+    <summary>Указывает, следует ли отображать элементы диаграммы.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1200</MemberValue>
       <Docs>
-        <summary>Не отображать диаграммы этажа.</summary>
+        <summary>Не отображать основание диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementChartFloorShow">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1201</MemberValue>
       <Docs>
-        <summary>Отображение Основание диаграммы.</summary>
+        <summary>Отображение основания диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementChartTitleAboveChart">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Отображение заголовка над диаграммы.</summary>
+        <summary>Отображение заголовка над диаграммой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementChartTitleCenteredOverlay">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Отображение заголовка в виде по центру с перекрытием.</summary>
+        <summary>Отображение заголовка в виде перекрытия по центру.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementChartTitleNone">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Не отображать диаграммы этажа.</summary>
+        <summary>Не отображать основание диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementChartWallNone">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>1100</MemberValue>
       <Docs>
-        <summary>Не отображать стенку диаграммы.</summary>
+        <summary>Не отображать стену диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementChartWallShow">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>1101</MemberValue>
       <Docs>
-        <summary>Отображение стенку диаграммы.</summary>
+        <summary>Отображение стены диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelBestFit">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>210</MemberValue>
       <Docs>
-        <summary>Использование наиболее подходит для метки данных.</summary>
+        <summary>Использовать оптимальный размер для подписи данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelBottom">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>209</MemberValue>
       <Docs>
-        <summary>Отобразить метки данных нижней.</summary>
+        <summary>Отображать подпись данных внизу.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelCallout">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>204</MemberValue>
       <Docs>
-        <summary>Отображение метки данных внутри на основании.</summary>
+        <summary>Отображение метки данных внутри базы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelInsideEnd">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>203</MemberValue>
       <Docs>
-        <summary>Отображение метки данных внутри в конце.</summary>
+        <summary>Отображение метки данных в конце.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelLeft">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>200</MemberValue>
       <Docs>
-        <summary>Не отображаются метки данных.</summary>
+        <summary>Не отображать метку данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelOutSideEnd">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>205</MemberValue>
       <Docs>
-        <summary>Отображение метки данных за пределами в конце.</summary>
+        <summary>Отображение метки данных снаружи в конце.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelRight">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>208</MemberValue>
       <Docs>
-        <summary>Отображение метки данных вверху.</summary>
+        <summary>Отображать подпись данных вверху.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataTableNone">
@@ -401,7 +393,7 @@
       </ReturnValue>
       <MemberValue>500</MemberValue>
       <Docs>
-        <summary>Не отображаются в таблице данных.</summary>
+        <summary>Не отображать таблицу данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataTableShow">
@@ -420,7 +412,7 @@
       </ReturnValue>
       <MemberValue>501</MemberValue>
       <Docs>
-        <summary>Отображение данных в таблице.</summary>
+        <summary>Отображение таблицы данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataTableWithLegendKeys">
@@ -439,7 +431,7 @@
       </ReturnValue>
       <MemberValue>502</MemberValue>
       <Docs>
-        <summary>Отображение данных в таблице с ключи легенды.</summary>
+        <summary>Отображение таблицы данных с ключами легенды.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementErrorBarNone">
@@ -458,7 +450,7 @@
       </ReturnValue>
       <MemberValue>700</MemberValue>
       <Docs>
-        <summary>Планки погрешностей не отображаются.</summary>
+        <summary>Не отображать панель погрешностей.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementErrorBarPercentage">
@@ -477,7 +469,7 @@
       </ReturnValue>
       <MemberValue>702</MemberValue>
       <Docs>
-        <summary>Отображение панели ошибка процентное отношение.</summary>
+        <summary>Процент погрешностей отображения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementErrorBarStandardDeviation">
@@ -496,7 +488,7 @@
       </ReturnValue>
       <MemberValue>703</MemberValue>
       <Docs>
-        <summary>Отображение панели ошибка стандартное отклонение.</summary>
+        <summary>Отображение стандартного отклонения об ошибках.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementErrorBarStandardError">
@@ -515,7 +507,7 @@
       </ReturnValue>
       <MemberValue>701</MemberValue>
       <Docs>
-        <summary>Отображение панели стандартного сообщения об ошибке.</summary>
+        <summary>Отображение стандартной панели погрешностей.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLegendBottom">
@@ -534,7 +526,7 @@
       </ReturnValue>
       <MemberValue>104</MemberValue>
       <Docs>
-        <summary>Отображение условных обозначений в нижней.</summary>
+        <summary>Отображение условных обозначений внизу.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLegendLeft">
@@ -572,7 +564,7 @@
       </ReturnValue>
       <MemberValue>106</MemberValue>
       <Docs>
-        <summary>Перекрытие условных обозначений слева.</summary>
+        <summary>Наложение условных обозначений слева.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLegendNone">
@@ -629,7 +621,7 @@
       </ReturnValue>
       <MemberValue>105</MemberValue>
       <Docs>
-        <summary>Перекрытие условных обозначений справа.</summary>
+        <summary>Наложение условных обозначений справа.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLegendTop">
@@ -648,7 +640,7 @@
       </ReturnValue>
       <MemberValue>102</MemberValue>
       <Docs>
-        <summary>Отображение условных обозначений в верхней.</summary>
+        <summary>Отображение условных обозначений сверху.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLineDropHiLoLine">
@@ -667,7 +659,7 @@
       </ReturnValue>
       <MemberValue>804</MemberValue>
       <Docs>
-        <summary>Экран строку высокой и низкой размещения сообщений.</summary>
+        <summary>Отображение высокой и нижней линии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLineDropLine">
@@ -686,7 +678,7 @@
       </ReturnValue>
       <MemberValue>801</MemberValue>
       <Docs>
-        <summary>Экран строку размещения сообщений.</summary>
+        <summary>Отображение линии проекции.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLineHiLoLine">
@@ -705,7 +697,7 @@
       </ReturnValue>
       <MemberValue>802</MemberValue>
       <Docs>
-        <summary>Отображение строки высокой и низкой.</summary>
+        <summary>Отображение высокой/нижней линии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLineNone">
@@ -724,7 +716,7 @@
       </ReturnValue>
       <MemberValue>800</MemberValue>
       <Docs>
-        <summary>Линия не отображается.</summary>
+        <summary>Не отображать линию.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLineSeriesLine">
@@ -743,7 +735,7 @@
       </ReturnValue>
       <MemberValue>803</MemberValue>
       <Docs>
-        <summary>Отображение строки серии.</summary>
+        <summary>Отображение линии ряда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPlotAreaNone">
@@ -800,7 +792,7 @@
       </ReturnValue>
       <MemberValue>374</MemberValue>
       <Docs>
-        <summary>Используйте миллиардов единиц ось основных категории.</summary>
+        <summary>Использование миллиардов для единиц основной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisLogScale">
@@ -819,7 +811,7 @@
       </ReturnValue>
       <MemberValue>375</MemberValue>
       <Docs>
-        <summary>Используйте журнал масштабирования для основной оси.</summary>
+        <summary>Используйте шкалу журнала для основной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisMillions">
@@ -838,7 +830,7 @@
       </ReturnValue>
       <MemberValue>373</MemberValue>
       <Docs>
-        <summary>Используйте миллионов единиц ось основных категории.</summary>
+        <summary>Используйте миллионы для единиц основной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisNone">
@@ -857,7 +849,7 @@
       </ReturnValue>
       <MemberValue>348</MemberValue>
       <Docs>
-        <summary>Не отображать основной оси.</summary>
+        <summary>Не отображать основную ось категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisReverse">
@@ -876,7 +868,7 @@
       </ReturnValue>
       <MemberValue>351</MemberValue>
       <Docs>
-        <summary>Обратный основной оси.</summary>
+        <summary>Обратная основная ось категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisShow">
@@ -895,7 +887,7 @@
       </ReturnValue>
       <MemberValue>349</MemberValue>
       <Docs>
-        <summary>Показать основной оси.</summary>
+        <summary>Отображение основной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisThousands">
@@ -914,7 +906,7 @@
       </ReturnValue>
       <MemberValue>372</MemberValue>
       <Docs>
-        <summary>С помощью тысяч для единиц измерения ось основных категории.</summary>
+        <summary>Используйте тысячи для основных единиц оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisTitleAdjacentToAxis">
@@ -933,7 +925,7 @@
       </ReturnValue>
       <MemberValue>301</MemberValue>
       <Docs>
-        <summary>Для отображения основных категории оси рядом с оси.</summary>
+        <summary>Отображение заголовка основной оси категорий, примыкающей к оси.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisTitleBelowAxis">
@@ -952,7 +944,7 @@
       </ReturnValue>
       <MemberValue>302</MemberValue>
       <Docs>
-        <summary>Для отображения основных категории оси ниже оси.</summary>
+        <summary>Отображение заголовка основной оси категорий под осью.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisTitleHorizontal">
@@ -971,7 +963,7 @@
       </ReturnValue>
       <MemberValue>305</MemberValue>
       <Docs>
-        <summary>Отображение заголовка оси основных категории по горизонтали.</summary>
+        <summary>Отображение заголовка основной оси категорий по горизонтали.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisTitleNone">
@@ -990,7 +982,7 @@
       </ReturnValue>
       <MemberValue>300</MemberValue>
       <Docs>
-        <summary>Не отображать заголовок оси основных категорий.</summary>
+        <summary>Не отображать название основной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisTitleRotated">
@@ -1009,7 +1001,7 @@
       </ReturnValue>
       <MemberValue>303</MemberValue>
       <Docs>
-        <summary>Поворот название оси основных категорий.</summary>
+        <summary>Поворачивайте название основной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisTitleVertical">
@@ -1028,7 +1020,7 @@
       </ReturnValue>
       <MemberValue>304</MemberValue>
       <Docs>
-        <summary>Отображение заголовка оси основных категории по вертикали.</summary>
+        <summary>Отображение заголовка основной оси категорий по вертикали.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisWithoutLabels">
@@ -1047,7 +1039,7 @@
       </ReturnValue>
       <MemberValue>350</MemberValue>
       <Docs>
-        <summary>Отображение основной оси без метки.</summary>
+        <summary>Отображение основной оси категорий без меток.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryGridLinesMajor">
@@ -1066,7 +1058,7 @@
       </ReturnValue>
       <MemberValue>334</MemberValue>
       <Docs>
-        <summary>Отображение основные линии сетки оси основных категории.</summary>
+        <summary>Отображать основные линии сетки вдоль основной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryGridLinesMinor">
@@ -1085,7 +1077,7 @@
       </ReturnValue>
       <MemberValue>333</MemberValue>
       <Docs>
-        <summary>Отображение вспомогательные линии сетки оси основных категории.</summary>
+        <summary>Отображение вспомогательных линий сетки вдоль основной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryGridLinesMinorMajor">
@@ -1104,7 +1096,7 @@
       </ReturnValue>
       <MemberValue>335</MemberValue>
       <Docs>
-        <summary>Отображение основной и дополнительной линии сетки оси основных категории.</summary>
+        <summary>Отображать как основные, так и вспомогательные линии сетки, а также основные оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryGridLinesNone">
@@ -1123,7 +1115,7 @@
       </ReturnValue>
       <MemberValue>332</MemberValue>
       <Docs>
-        <summary>Не отображать линии сетки оси основных категории.</summary>
+        <summary>Не отображать линии сетки вдоль основной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisBillions">
@@ -1142,7 +1134,7 @@
       </ReturnValue>
       <MemberValue>356</MemberValue>
       <Docs>
-        <summary>Используйте миллиардов для основной единицы измерения оси.</summary>
+        <summary>Использование миллиардов для единиц основной оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisLogScale">
@@ -1161,7 +1153,7 @@
       </ReturnValue>
       <MemberValue>357</MemberValue>
       <Docs>
-        <summary>Используйте журнал масштабирования для основной оси.</summary>
+        <summary>Используйте шкалу журналов для основной оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisMillions">
@@ -1180,7 +1172,7 @@
       </ReturnValue>
       <MemberValue>355</MemberValue>
       <Docs>
-        <summary>Используйте миллионов для основной единицы измерения оси.</summary>
+        <summary>Использование миллионов для единиц измерения "основные оси значений".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisNone">
@@ -1199,7 +1191,7 @@
       </ReturnValue>
       <MemberValue>352</MemberValue>
       <Docs>
-        <summary>Не отображать основной оси.</summary>
+        <summary>Не отображать ось основных значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisShow">
@@ -1218,7 +1210,7 @@
       </ReturnValue>
       <MemberValue>353</MemberValue>
       <Docs>
-        <summary>Показать основной оси.</summary>
+        <summary>Отображение основной оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisThousands">
@@ -1237,7 +1229,7 @@
       </ReturnValue>
       <MemberValue>354</MemberValue>
       <Docs>
-        <summary>С помощью тысяч для основной единицы измерения оси.</summary>
+        <summary>Использование тысяч для единиц измерения "основные оси значений".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisTitleAdjacentToAxis">
@@ -1256,7 +1248,7 @@
       </ReturnValue>
       <MemberValue>306</MemberValue>
       <Docs>
-        <summary>Поместите основной название оси рядом с оси.</summary>
+        <summary>Разместите заголовок основной оси значений возле оси.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisTitleBelowAxis">
@@ -1275,7 +1267,7 @@
       </ReturnValue>
       <MemberValue>308</MemberValue>
       <Docs>
-        <summary>Поместите основной название оси ниже оси.</summary>
+        <summary>Разместите заголовок основной оси значений под осью.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisTitleHorizontal">
@@ -1294,7 +1286,7 @@
       </ReturnValue>
       <MemberValue>311</MemberValue>
       <Docs>
-        <summary>Отображение основной название оси по горизонтали.</summary>
+        <summary>Отображение заголовка основной оси значений по горизонтали.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisTitleNone">
@@ -1313,7 +1305,7 @@
       </ReturnValue>
       <MemberValue>306</MemberValue>
       <Docs>
-        <summary>Не отображать основной оси.</summary>
+        <summary>Не отображать ось основных значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisTitleRotated">
@@ -1332,7 +1324,7 @@
       </ReturnValue>
       <MemberValue>309</MemberValue>
       <Docs>
-        <summary>Поворот основной название оси.</summary>
+        <summary>Поворот основного заголовка оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisTitleVertical">
@@ -1351,7 +1343,7 @@
       </ReturnValue>
       <MemberValue>310</MemberValue>
       <Docs>
-        <summary>Отображение основной название оси по вертикали.</summary>
+        <summary>Отображение заголовка основной оси значений по вертикали.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueGridLinesMajor">
@@ -1370,7 +1362,7 @@
       </ReturnValue>
       <MemberValue>330</MemberValue>
       <Docs>
-        <summary>Отображение основные линии сетки основной оси.</summary>
+        <summary>Отображение основных линий сетки вдоль основной оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueGridLinesMinor">
@@ -1389,7 +1381,7 @@
       </ReturnValue>
       <MemberValue>329</MemberValue>
       <Docs>
-        <summary>Отображение вспомогательные линии сетки основной оси.</summary>
+        <summary>Отображение вспомогательных линий сетки вдоль основной оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueGridLinesMinorMajor">
@@ -1408,7 +1400,7 @@
       </ReturnValue>
       <MemberValue>331</MemberValue>
       <Docs>
-        <summary>Отображение линии сетки основной и дополнительной основной оси.</summary>
+        <summary>Отображать как основные, так и вспомогательные линии сетки вдоль основной оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueGridLinesNone">
@@ -1427,7 +1419,7 @@
       </ReturnValue>
       <MemberValue>328</MemberValue>
       <Docs>
-        <summary>Не отображать линии сетки основной оси.</summary>
+        <summary>Не отображать линии сетки вдоль основной оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisBillions">
@@ -1446,7 +1438,7 @@
       </ReturnValue>
       <MemberValue>378</MemberValue>
       <Docs>
-        <summary>Используйте миллиардов для дополнительного категории оси единиц измерения.</summary>
+        <summary>Использование миллиардов для дополнительных единиц оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisLogScale">
@@ -1465,7 +1457,7 @@
       </ReturnValue>
       <MemberValue>379</MemberValue>
       <Docs>
-        <summary>Используйте журнал масштабирования для дополнительного оси.</summary>
+        <summary>Используйте шкалу журналов для дополнительной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisMillions">
@@ -1484,7 +1476,7 @@
       </ReturnValue>
       <MemberValue>377</MemberValue>
       <Docs>
-        <summary>Используйте миллионов для дополнительного категории оси единиц измерения.</summary>
+        <summary>Используйте миллионы для дополнительных единиц оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisNone">
@@ -1503,7 +1495,7 @@
       </ReturnValue>
       <MemberValue>358</MemberValue>
       <Docs>
-        <summary>Не отображать дополнительного оси.</summary>
+        <summary>Не отображать вторичную ось категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisReverse">
@@ -1522,7 +1514,7 @@
       </ReturnValue>
       <MemberValue>361</MemberValue>
       <Docs>
-        <summary>Обратный дополнительного оси.</summary>
+        <summary>Обратная дополнительная ось категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisShow">
@@ -1541,7 +1533,7 @@
       </ReturnValue>
       <MemberValue>359</MemberValue>
       <Docs>
-        <summary>Отображение дополнительного оси.</summary>
+        <summary>Отображение дополнительной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisThousands">
@@ -1560,7 +1552,7 @@
       </ReturnValue>
       <MemberValue>376</MemberValue>
       <Docs>
-        <summary>С помощью тысяч для дополнительного категории оси единиц измерения.</summary>
+        <summary>Используйте тысячи для дополнительных единиц оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisTitleAdjacentToAxis">
@@ -1579,7 +1571,7 @@
       </ReturnValue>
       <MemberValue>313</MemberValue>
       <Docs>
-        <summary>Отображение Название вспомогательной оси категорий рядом с оси.</summary>
+        <summary>Отображение заголовка дополнительной оси категорий рядом с осью.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisTitleBelowAxis">
@@ -1598,7 +1590,7 @@
       </ReturnValue>
       <MemberValue>314</MemberValue>
       <Docs>
-        <summary>Отображение Название вспомогательной оси категорий ниже оси.</summary>
+        <summary>Отображение названия вторичной оси категорий под осью.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisTitleHorizontal">
@@ -1617,7 +1609,7 @@
       </ReturnValue>
       <MemberValue>317</MemberValue>
       <Docs>
-        <summary>Отображение Название вспомогательной оси категорий по горизонтали.</summary>
+        <summary>Отображение заголовка дополнительной оси категорий по горизонтали.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisTitleNone">
@@ -1636,7 +1628,7 @@
       </ReturnValue>
       <MemberValue>312</MemberValue>
       <Docs>
-        <summary>Не отображать дополнительного оси.</summary>
+        <summary>Не отображать вторичную ось категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisTitleRotated">
@@ -1655,7 +1647,7 @@
       </ReturnValue>
       <MemberValue>315</MemberValue>
       <Docs>
-        <summary>Поворот Название вспомогательной оси категорий.</summary>
+        <summary>Поверните дополнительное название оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisTitleVertical">
@@ -1674,7 +1666,7 @@
       </ReturnValue>
       <MemberValue>316</MemberValue>
       <Docs>
-        <summary>Отображение Название вспомогательной оси категорий по вертикали.</summary>
+        <summary>Отображение заголовка вспомогательной оси категорий по вертикали.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisWithoutLabels">
@@ -1693,7 +1685,7 @@
       </ReturnValue>
       <MemberValue>360</MemberValue>
       <Docs>
-        <summary>Отображение дополнительного оси без метки.</summary>
+        <summary>Отображение дополнительной оси категорий без меток.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryGridLinesMajor">
@@ -1712,7 +1704,7 @@
       </ReturnValue>
       <MemberValue>342</MemberValue>
       <Docs>
-        <summary>Отображение основные линии сетки оси дополнительного категории.</summary>
+        <summary>Показывать основные линии сетки вдоль дополнительной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryGridLinesMinor">
@@ -1731,7 +1723,7 @@
       </ReturnValue>
       <MemberValue>341</MemberValue>
       <Docs>
-        <summary>Отображение вспомогательные линии сетки оси дополнительного категории.</summary>
+        <summary>Отображение вспомогательных линий сетки вдоль дополнительной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryGridLinesMinorMajor">
@@ -1750,7 +1742,7 @@
       </ReturnValue>
       <MemberValue>343</MemberValue>
       <Docs>
-        <summary>Отображение основной и дополнительной линии сетки оси дополнительного категории.</summary>
+        <summary>Отображать как основные, так и вспомогательные линии сетки, а также дополнительные оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryGridLinesNone">
@@ -1769,7 +1761,7 @@
       </ReturnValue>
       <MemberValue>340</MemberValue>
       <Docs>
-        <summary>Не отображать линии сетки оси дополнительного категории.</summary>
+        <summary>Не отображать линии сетки вдоль дополнительной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisBillions">
@@ -1788,7 +1780,7 @@
       </ReturnValue>
       <MemberValue>366</MemberValue>
       <Docs>
-        <summary>Используйте миллиардов для дополнительного единицы измерения оси.</summary>
+        <summary>Использовать выставляемые счета для единиц измерения дополнительной оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisLogScale">
@@ -1807,7 +1799,7 @@
       </ReturnValue>
       <MemberValue>367</MemberValue>
       <Docs>
-        <summary>Используйте журнал масштабирования для вспомогательной оси значений.</summary>
+        <summary>Используйте шкалу журналов для дополнительной оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisMillions">
@@ -1826,7 +1818,7 @@
       </ReturnValue>
       <MemberValue>365</MemberValue>
       <Docs>
-        <summary>Используйте миллионов для дополнительного категории оси единиц измерения.</summary>
+        <summary>Используйте миллионы для дополнительных единиц оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisNone">
@@ -1845,7 +1837,7 @@
       </ReturnValue>
       <MemberValue>362</MemberValue>
       <Docs>
-        <summary>Не отображать дополнительного оси.</summary>
+        <summary>Не отображать вторичную ось категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisShow">
@@ -1864,7 +1856,7 @@
       </ReturnValue>
       <MemberValue>363</MemberValue>
       <Docs>
-        <summary>Отображение дополнительного оси.</summary>
+        <summary>Отображение дополнительной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisThousands">
@@ -1883,7 +1875,7 @@
       </ReturnValue>
       <MemberValue>364</MemberValue>
       <Docs>
-        <summary>С помощью тысяч для дополнительного категории оси единиц измерения.</summary>
+        <summary>Используйте тысячи для дополнительных единиц оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisTitleAdjacentToAxis">
@@ -1902,7 +1894,7 @@
       </ReturnValue>
       <MemberValue>319</MemberValue>
       <Docs>
-        <summary>Отображение Название вспомогательной оси категорий рядом с оси.</summary>
+        <summary>Отображение заголовка дополнительной оси категорий рядом с осью.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisTitleBelowAxis">
@@ -1921,7 +1913,7 @@
       </ReturnValue>
       <MemberValue>320</MemberValue>
       <Docs>
-        <summary>Отображение Название вспомогательной оси категорий ниже оси.</summary>
+        <summary>Отображение названия вторичной оси категорий под осью.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisTitleHorizontal">
@@ -1940,7 +1932,7 @@
       </ReturnValue>
       <MemberValue>323</MemberValue>
       <Docs>
-        <summary>Отображение Название вспомогательной оси категорий по горизонтали.</summary>
+        <summary>Отображение заголовка дополнительной оси категорий по горизонтали.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisTitleNone">
@@ -1959,7 +1951,7 @@
       </ReturnValue>
       <MemberValue>318</MemberValue>
       <Docs>
-        <summary>Название вспомогательной оси категорий не отображаются.</summary>
+        <summary>Не отображать название вспомогательной оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisTitleRotated">
@@ -1978,7 +1970,7 @@
       </ReturnValue>
       <MemberValue>321</MemberValue>
       <Docs>
-        <summary>Поворот Название вспомогательной оси категорий.</summary>
+        <summary>Поверните дополнительное название оси категорий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisTitleVertical">
@@ -1997,7 +1989,7 @@
       </ReturnValue>
       <MemberValue>322</MemberValue>
       <Docs>
-        <summary>Отображение Название вспомогательной оси категорий по вертикали.</summary>
+        <summary>Отображение заголовка вспомогательной оси категорий по вертикали.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueGridLinesMajor">
@@ -2016,7 +2008,7 @@
       </ReturnValue>
       <MemberValue>338</MemberValue>
       <Docs>
-        <summary>Отображение основные линии сетки вспомогательной оси.</summary>
+        <summary>Отображение основных линий сетки вдоль дополнительной оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueGridLinesMinor">
@@ -2035,7 +2027,7 @@
       </ReturnValue>
       <MemberValue>337</MemberValue>
       <Docs>
-        <summary>Отображение вспомогательные линии сетки вспомогательной оси.</summary>
+        <summary>Отображение вспомогательных линий сетки и дополнительной оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueGridLinesMinorMajor">
@@ -2054,7 +2046,7 @@
       </ReturnValue>
       <MemberValue>339</MemberValue>
       <Docs>
-        <summary>Отображение линии сетки основной и дополнительный номер вспомогательной оси.</summary>
+        <summary>Отображать как основные, так и вспомогательные линии сетки, а также дополнительные оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueGridLinesNone">
@@ -2073,7 +2065,7 @@
       </ReturnValue>
       <MemberValue>336</MemberValue>
       <Docs>
-        <summary>Не отображать линии сетки вспомогательной оси.</summary>
+        <summary>Не отображать линии сетки вдоль дополнительной оси значений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisGridLinesMajor">
@@ -2092,7 +2084,7 @@
       </ReturnValue>
       <MemberValue>346</MemberValue>
       <Docs>
-        <summary>Отображение основные линии сетки оси ряда.</summary>
+        <summary>Отображение основных линий сетки вдоль оси ряда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisGridLinesMinor">
@@ -2111,7 +2103,7 @@
       </ReturnValue>
       <MemberValue>345</MemberValue>
       <Docs>
-        <summary>Отображение вспомогательные линии сетки оси ряда.</summary>
+        <summary>Отображение вспомогательных линий сетки вдоль оси ряда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisGridLinesMinorMajor">
@@ -2130,7 +2122,7 @@
       </ReturnValue>
       <MemberValue>347</MemberValue>
       <Docs>
-        <summary>Отображение основной и дополнительной линии сетки оси ряда.</summary>
+        <summary>Отображать как основные, так и вспомогательные линии сетки вдоль оси ряда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisGridLinesNone">
@@ -2149,7 +2141,7 @@
       </ReturnValue>
       <MemberValue>344</MemberValue>
       <Docs>
-        <summary>Не отображать линии сетки оси ряда.</summary>
+        <summary>Не отображать линии сетки вдоль оси ряда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisNone">
@@ -2168,7 +2160,7 @@
       </ReturnValue>
       <MemberValue>368</MemberValue>
       <Docs>
-        <summary>Не показывать ось серии.</summary>
+        <summary>Не отображать ось ряда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisReverse">
@@ -2187,7 +2179,7 @@
       </ReturnValue>
       <MemberValue>371</MemberValue>
       <Docs>
-        <summary>Обратный серии оси.</summary>
+        <summary>Обратная ось ряда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisShow">
@@ -2206,7 +2198,7 @@
       </ReturnValue>
       <MemberValue>369</MemberValue>
       <Docs>
-        <summary>Отображение серии оси.</summary>
+        <summary>Отображение оси ряда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisTitleHorizontal">
@@ -2225,7 +2217,7 @@
       </ReturnValue>
       <MemberValue>327</MemberValue>
       <Docs>
-        <summary>Отображение название оси ряда по горизонтали.</summary>
+        <summary>Горизонтальное отображение заголовка оси ряда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisTitleNone">
@@ -2244,7 +2236,7 @@
       </ReturnValue>
       <MemberValue>324</MemberValue>
       <Docs>
-        <summary>Название оси ряда не отображаются.</summary>
+        <summary>Не отображать название оси ряда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisTitleRotated">
@@ -2263,7 +2255,7 @@
       </ReturnValue>
       <MemberValue>325</MemberValue>
       <Docs>
-        <summary>Поворот название оси ряда.</summary>
+        <summary>Поворачивает название оси ряда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisTitleVertical">
@@ -2282,7 +2274,7 @@
       </ReturnValue>
       <MemberValue>326</MemberValue>
       <Docs>
-        <summary>Отображение название оси ряда по вертикали.</summary>
+        <summary>Вертикальное отображение заголовка оси ряда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisWithoutLabeling">
@@ -2301,7 +2293,7 @@
       </ReturnValue>
       <MemberValue>370</MemberValue>
       <Docs>
-        <summary>Отображение название оси ряда без подписей.</summary>
+        <summary>Отображение названия оси ряда без указания меток.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementTrendlineAddExponential">
@@ -2320,7 +2312,7 @@
       </ReturnValue>
       <MemberValue>602</MemberValue>
       <Docs>
-        <summary>Добавьте экспоненциальное приближение.</summary>
+        <summary>Добавление экспоненциальной линии тренда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementTrendlineAddLinear">
@@ -2339,7 +2331,7 @@
       </ReturnValue>
       <MemberValue>601</MemberValue>
       <Docs>
-        <summary>Добавление линии тренда.</summary>
+        <summary>Добавление линейной линии тренда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementTrendlineAddLinearForecast">
@@ -2358,7 +2350,7 @@
       </ReturnValue>
       <MemberValue>603</MemberValue>
       <Docs>
-        <summary>Добавьте линейная прогноз.</summary>
+        <summary>Добавление линейного прогноза.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementTrendlineAddTwoPeriodMovingAverage">
@@ -2377,7 +2369,7 @@
       </ReturnValue>
       <MemberValue>604</MemberValue>
       <Docs>
-        <summary>Добавьте два периода перемещение среднего значения.</summary>
+        <summary>Добавление скользящего среднего значения в два периода.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementTrendlineNone">
@@ -2396,7 +2388,7 @@
       </ReturnValue>
       <MemberValue>600</MemberValue>
       <Docs>
-        <summary>Не отображать линии тренда.</summary>
+        <summary>Не отображать линию тренда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementUpDownBarsNone">
@@ -2415,7 +2407,7 @@
       </ReturnValue>
       <MemberValue>900</MemberValue>
       <Docs>
-        <summary>Не отображать полосы вверх или вниз.</summary>
+        <summary>Не отображать полосы повышения и понижения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementUpDownBarsShow">
@@ -2434,7 +2426,7 @@
       </ReturnValue>
       <MemberValue>901</MemberValue>
       <Docs>
-        <summary>Отображение панели вверх или вниз.</summary>
+        <summary>Отображение полос повышения и понижения.</summary>
       </Docs>
     </Member>
   </Members>

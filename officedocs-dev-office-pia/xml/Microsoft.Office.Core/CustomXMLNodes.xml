@@ -1,13 +1,5 @@
 <Type Name="CustomXMLNodes" FullName="Microsoft.Office.Core.CustomXMLNodes">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5ca40e749ed84df19b8e32283317b35c40438e5d" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661848" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CustomXMLNodes : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5ca40e749ed84df19b8e32283317b35c40438e5d" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661848" /></Metadata><TypeSignature Language="C#" Value="public interface CustomXMLNodes : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLNodes implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLNodes" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLNodes&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -34,11 +26,8 @@
   </Attributes>
   <Docs>
     <summary>Содержит коллекцию <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объектов, представляющих узлы XML в документе.</summary>
-    <remarks>
-      <para>
-        <see cref="P:Microsoft.Office.Core.CustomXMLNode.Attributes" /> И <see cref="P:Microsoft.Office.Core.CustomXMLNode.ChildNodes" /> свойства возвращают семейств узлов этого типа.</para>
-      <para />
-    </remarks>
+    <remarks><para><see cref="P:Microsoft.Office.Core.CustomXMLNode.ChildNodes" /> Свойства <see cref="P:Microsoft.Office.Core.CustomXMLNode.Attributes" /> и свойства возвращают коллекции узлов этого типа.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -67,10 +56,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,10 +84,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает число число <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объектов в <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает число <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объектов в <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> коллекции. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -130,10 +115,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -195,11 +178,9 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Номер индекса <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объекта должно быть возвращено.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объекта из <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNode" />
-        </value>
+        <param name="Index">Номер индекса возвращаемого <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объекта.</param>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объект из <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> коллекции. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLNode" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -227,9 +208,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

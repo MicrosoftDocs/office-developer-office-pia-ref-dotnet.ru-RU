@@ -1,13 +1,5 @@
 <Type Name="TabStop2" FullName="Microsoft.Office.Core.TabStop2">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="815c35b276f202b12a668f90c3866a9fd108ca18" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661685" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface TabStop2 : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="815c35b276f202b12a668f90c3866a9fd108ca18" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661685" /></Metadata><TypeSignature Language="C#" Value="public interface TabStop2 : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TabStop2 implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.TabStop2" />
   <TypeSignature Language="VB.NET" Value="Public Interface TabStop2&#xA;Implements _IMsoDispObj" />
@@ -30,11 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет один позиции табуляции. Объект <b>TabStop2</b> входит в состав <see cref="T:Microsoft.Office.Core.TabStops2" /> семейства сайтов.</summary>
-    <remarks>
-      <para>Табуляции, индексируются числовым слева направо на линейке.</para>
-      <para />
-    </remarks>
+    <summary>Представляет одну позицию табуляции. Объект <b>TabStop2</b> является членом <see cref="T:Microsoft.Office.Core.TabStops2" /> коллекции.</summary>
+    <remarks><para>Позиции табуляции индексируются в числовом виде слева направо вдоль линейки.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -63,10 +53,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.TabStop2" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.TabStop2" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -91,10 +79,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет указанный настраиваемых позиции табуляции</summary>
+        <summary>Удаляет указанную настраиваемую позицию табуляции</summary>
         <remarks>To be added.</remarks>
-        <example>
-          <para>В этом примере очищается первого пользовательская вкладка в первый абзац активного документа Microsoft Office Word.</para>
+        <example><para>В этом примере первая пользовательская вкладка удаляется из первого абзаца активного документа Microsoft Office Word.</para>
           <code>&lt;span class="label"&gt;ActiveDocument.Paragraphs(1).TabStops2(1).Clear 
 
 
@@ -351,8 +338,7 @@
 
 
 
-&lt;/span&gt;</code>
-        </example>
+&lt;/span&gt;</code></example>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -381,10 +367,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, представляющий приложение Microsoft Office, в котором <see cref="T:Microsoft.Office.Core.TabStop2" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, представляющее приложение Microsoft Office, <see cref="T:Microsoft.Office.Core.TabStop2" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -411,11 +395,9 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает родительский <see cref="T:Microsoft.Office.Core.TabStop2" /> объекта. 
+        <summary>Получает родительский <see cref="T:Microsoft.Office.Core.TabStop2" /> объект для объекта. 
 Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -445,10 +427,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает позиции табуляции относительно левого поля. Для чтения и записи.</summary>
-        <value>
-          <b>Single</b>
-        </value>
+        <summary>Возвращает или задает позицию табуляции относительно левого поля. Для чтения и записи.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -479,13 +459,9 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает тип <see cref="T:Microsoft.Office.Core.TabStop2" /> объекта. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTabStopType" />
-        </value>
-        <remarks>
-          <para>Примеры <see cref="T:Microsoft.Office.Core.MsoTabStopType" /> типы: <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />, <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />, и <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" />.</para>
-          <para />
-        </remarks>
+        <value><see cref="T:Microsoft.Office.Core.MsoTabStopType" /></value>
+        <remarks><para>Примеры <see cref="T:Microsoft.Office.Core.MsoTabStopType" /> типов: <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />, <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />и. <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" /></para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

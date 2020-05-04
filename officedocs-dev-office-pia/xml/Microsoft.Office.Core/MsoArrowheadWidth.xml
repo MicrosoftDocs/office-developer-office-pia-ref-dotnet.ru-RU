@@ -1,13 +1,5 @@
 <Type Name="MsoArrowheadWidth" FullName="Microsoft.Office.Core.MsoArrowheadWidth">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="38be53a07411baaea9f3dcbe66f3ab44682a03dd" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661851" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoArrowheadWidth" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="38be53a07411baaea9f3dcbe66f3ab44682a03dd" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661851" /></Metadata><TypeSignature Language="C#" Value="public enum MsoArrowheadWidth" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoArrowheadWidth extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoArrowheadWidth" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoArrowheadWidth" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает ширину стрелки в конце строки.</summary>
+    <summary>Задает ширину наконечника в конце строки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Узкий.</summary>
+        <summary>Сократить.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadWide">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Широкий.</summary>
+        <summary>Уровне.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadWidthMedium">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>От среднего.</summary>
+        <summary>Средний.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadWidthMixed">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Возвращаемое значение. Указывает сочетание других состояний.</summary>
+        <summary>Только возвращаемое значение; Указывает комбинацию других состояний.</summary>
       </Docs>
     </Member>
   </Members>

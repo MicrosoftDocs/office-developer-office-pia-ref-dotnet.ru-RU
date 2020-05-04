@@ -1,13 +1,5 @@
 <Type Name="CommandBarButton" FullName="Microsoft.Office.Core.CommandBarButton">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8a323d33ed481b78aa646053f90724e1ee0c3b5a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662559" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CommandBarButton : Microsoft.Office.Core._CommandBarButton, Microsoft.Office.Core._CommandBarButtonEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8a323d33ed481b78aa646053f90724e1ee0c3b5a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662559" /></Metadata><TypeSignature Language="C#" Value="public interface CommandBarButton : Microsoft.Office.Core._CommandBarButton, Microsoft.Office.Core._CommandBarButtonEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CommandBarButton implements class Microsoft.Office.Core._CommandBarButton, class Microsoft.Office.Core._CommandBarButtonEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBarButton" />
   <TypeSignature Language="VB.NET" Value="Public Interface CommandBarButton&#xA;Implements _CommandBarButton, _CommandBarButtonEvents_Event" />
@@ -33,12 +25,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет элемент управления кнопки на панели команд.</summary>
-    <remarks>
-      <para>Использование <b>элементов управления</b>(<paramref name="index" />), где <paramref name="index" /> — номер индекса элемента управления, чтобы возвратить объект <b>CommandBarButton</b> . ( <see cref="P:Microsoft.Office.Core._CommandBarButton.Type" /> Свойства элемента управления должны быть <b>msoControlButton</b>.)</para>
-      <para>Вы также можете использовать <see cref="M:Microsoft.Office.Core._CommandBars.FindControl(System.Object,System.Object,System.Object,System.Object)" /> метод возвращает объект <b>CommandBarButton</b> .</para>
-      <para />
-    </remarks>
+    <summary>Представляет элемент управления "Кнопка" на панели команд.</summary>
+    <remarks><para>Используйте <b>элементы управления</b>(<paramref name="index" />), <paramref name="index" /> где — это номер индекса элемента управления, чтобы возвратить объект <b>CommandBarButton</b> . ( <see cref="P:Microsoft.Office.Core._CommandBarButton.Type" /> Свойство элемента управления должно быть <b>мсоконтролбуттон</b>.)</para> 
+      <para>Вы также можете использовать <see cref="M:Microsoft.Office.Core._CommandBars.FindControl(System.Object,System.Object,System.Object,System.Object)" /> метод для возврата объекта <b>CommandBarButton</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members />
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="SmartArtNode" FullName="Microsoft.Office.Core.SmartArtNode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4a10f538dc53dcbd7190b050e96ba06931c977fc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662123" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartArtNode : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4a10f538dc53dcbd7190b050e96ba06931c977fc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662123" /></Metadata><TypeSignature Language="C#" Value="public interface SmartArtNode : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArtNode implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArtNode" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartArtNode&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Один семантических узел в модели данных графических элементах SmartArt.</summary>
+    <summary>Один семантический узел в модели данных для рисунка SmartArt.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -57,9 +49,9 @@
         <Parameter Name="Type" Type="Microsoft.Office.Core.MsoSmartArtNodeType" />
       </Parameters>
       <Docs>
-        <param name="Position">Указывает расположение <b>SmartArtNode</b> в модели данных. Например <see cref="F:Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeAbove" /> или <see cref="F:Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeAfter" />.</param>
-        <param name="Type">Указывает тип добавлены <b>SmartArtNode</b>. Например <see cref="F:Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeAssistant" /> или <see cref="F:Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeDefault" />.</param>
-        <summary>Добавляет новый узел SmartArt в модель данных, как указано с <paramref name="Position" /> значение, и <paramref name="Type" />.</summary>
+        <param name="Position">Указывает расположение <b>SmartArtNode</b> в модели данных. Например, <see cref="F:Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeAbove" /> или <see cref="F:Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeAfter" />.</param>
+        <param name="Type">Указывает тип добавленного <b>SmartArtNode</b>. Например, <see cref="F:Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeAssistant" /> или <see cref="F:Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeDefault" />.</param>
+        <summary>Добавляет новый узел SmartArt в модель данных в соответствии с указанным <paramref name="Position" /> значением и. <paramref name="Type" /></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -90,12 +82,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для объекта <b>SmartArtNode</b> .</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта <b>SmartArtNode</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -124,12 +114,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>SmartArtNode</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>SmartArtNode</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -154,27 +142,25 @@
       <Parameters />
       <Docs>
         <summary>Удаляет текущий узел SmartArt.</summary>
-        <remarks>
-          <para>При удалении узла первого потомка получает повышенного уровня. В следующем модели данных:</para>
+        <remarks><para>При удалении узла первый дочерний элемент становится повышенным. В следующей модели данных:</para>
           <list type="bullet">
             <item>
               <para>A</para>
             </item>
             <item>
-              <para>D</para>
+              <para>d</para>
             </item>
           </list>
-          <para>при удалении B модель данных, а затем выглядит следующим образом:</para>
+          <para>при удалении B модель данных выглядит следующим образом:</para>
           <list type="bullet">
             <item>
               <para>A</para>
             </item>
             <item>
-              <para>D</para>
-            </item>
+              <para>d</para>
+            </item> 
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Demote">
@@ -198,31 +184,29 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает текущий узел одного уровня в модели данных.</summary>
-        <remarks>
-          <para>Эту функцию напоминающего кнопка понизить уровень в пользовательском Интерфейсе Microsoft Office Fluent ленты при работе в области содержимого. Рассмотрим следующие модели данных:</para>
+        <summary>Понизить уровень текущего узла на один уровень в модели данных.</summary>
+        <remarks><para>Эта функция имитирует кнопку понижения в пользовательском интерфейсе ленты Microsoft Office Fluent при работе в области содержимого. Например, если задана следующая модель данных:</para>
           <list type="bullet">
             <item>
-              <para>A</para>
+              <para>a</para>
             </item>
             <item>
-              <para>B</para>
+              <para>b</para>
             </item>
             <item>
               <para>D</para>
             </item>
           </list>
-          <para>Если понижен B, результирующий модели данных выглядел следующим образом:</para>
+          <para>при понижении роли b, полученная модель данных выглядит примерно так:</para>
           <list type="bullet">
             <item>
               <para>A</para>
             </item>
             <item>
               <para>D</para>
-            </item>
+            </item> 
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Hidden">
@@ -248,12 +232,10 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>значение true</b> , если узел является скрытым узел в модели данных.</summary>
+        <summary>Возвращает <b>значение true</b> , если узел является скрытым узлом в модели данных.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Larger">
@@ -277,11 +259,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Увеличение размера SmartArt. Механизму увеличенное кнопки на вкладке формат Microsoft Office Fluent ленты для SmartArt.</summary>
-        <remarks>
-          <para>Фактическое увеличение зависит от макета по узлам.</para>
-          <para />
-        </remarks>
+        <summary>Увеличение размера элемента SmartArt. Имитирует поведение кнопки "крупнее" на вкладке "формат ленты Microsoft Office Fluent" для SmartArt.</summary>
+        <remarks><para>Фактический объем увеличения зависит от структуры узлов.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Level">
@@ -307,10 +287,18 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает узел уровень в иерархии.</summary>
+        <summary>Возвращает уровень узла в иерархии.</summary>
         <value>To be added.</value>
-        <remarks>Уровни <para>начинаются с 1 и увеличить вверх. Если узел имеет уровень без, возвращается значение 0. К примеру, следующие модели данных A и F с уровнем 1, B и D иметь уровень 2 и C и E имеют уровень 3.</para><list type="bullet"><item><para>A</para></item>-
-            <item><para>F</para></item></list><para /></remarks>
+        <remarks><para>Уровни начинаются с 1 и увеличиваются вверх. Если узел не имеет уровня, возвращается 0. Например, в следующей модели данных "A" и "F" имеют уровень 1, B и D имеют уровень 2, а C и E имеют уровень 3.</para> 
+          <list type="bullet"> 
+            <item>
+              <para>A</para>
+            </item>
+            <item>
+              <para>F</para>
+            </item>
+          </list>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Nodes">
@@ -338,10 +326,8 @@
       <Docs>
         <summary>Возвращает дочерние узлы, связанные с этим узлом SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="OrgChartLayout">
@@ -370,32 +356,30 @@
         <ReturnType>Microsoft.Office.Core.MsoOrgChartLayoutType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoOrgChartLayoutType" /> связанного с этим узлом, если он существует.</summary>
+        <summary>Возвращает или задает значение <see cref="T:Microsoft.Office.Core.MsoOrgChartLayoutType" /> , связанное с этим узлом, если таковое имеется.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Возможных члены являются:</para>
-          <item>
-            <para>msoOrgChartLayoutStandard</para>
-          </item>
-          <list type="bullet">
+        <remarks><para>Возможные элементы: </para> 
+          <list type="bullet"> 
             <item>
-              <para>msoOrgChartLayoutBothHanging</para>
+              <para>мсургчартлайаутбосхангинг</para>
             </item>
             <item>
-              <para>msoOrgChartLayoutDefault </para>
-            </item>
+              <para>мсургчартлайаутдефаулт </para>
+            </item> 
             <item>
-              <para>msoOrgChartLayoutLeftHanging </para>
-            </item>
+              <para>мсургчартлайаутлефсангинг </para>
+            </item> 
             <item>
               <para>msoOrgChartLayoutMixed </para>
-            </item>
+            </item> 
             <item>
               <para>msoOrgChartLayoutRightHanging </para>
+            </item> 
+            <item>
+              <para>msoOrgChartLayoutStandard</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -421,7 +405,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект, вызывающий.</summary>
+        <summary>Получает вызывающий объект.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -449,12 +433,10 @@
         <ReturnType>Microsoft.Office.Core.SmartArtNode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает родительский <b>SmartArtNode</b> этой <b>SmartArtNode</b>.</summary>
+        <summary>Возвращает родительский <b>SmartArtNode</b> этого <b>SmartArtNode</b>.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения. Если узел является корневой узел, возвращается ошибка.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения. Если этот узел является корневым узлом, возвращается ошибка.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Promote">
@@ -478,18 +460,17 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Повышение текущего узла (и всех его дочерних элементов) одного уровня в модели данных.</summary>
-        <remarks>
-          <para>Эту функцию напоминающего кнопку повысить уровень на Microsoft Office Fluent Ленты при работе в области содержимого. Рассмотрим следующие модели данных:</para>
+        <summary>Распространяет текущий узел (и все его дочерние элементы) на один уровень в модели данных.</summary>
+        <remarks><para>Эта функция имитирует кнопку продвижения в пользовательском интерфейсе ленты Microsoft Office Fluent при работе в области содержимого. Например, при наличии следующей модели данных:</para>
           <list type="bullet">
             <item>
-              <para>A</para>
+              <para>элемент</para>
             </item>
             <item>
               <para>D</para>
             </item>
           </list>
-          <para>Если повышен B, результирующую модель данных выглядит следующим образом:</para>
+          <para>если B повышен, полученная модель данных выглядит следующим образом:</para>
           <list type="bullet">
             <item>
               <para>A</para>
@@ -499,10 +480,9 @@
             </item>
             <item>
               <para>D</para>
-            </item>
+            </item> 
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReorderDown">
@@ -526,11 +506,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Меняет местами узел с следующий узел в маркированный список. Этот метод переупорядочивает целого семейства узлов.</summary>
-        <remarks>
-          <para>Этот метод моделирует кнопки изменение порядка вниз в пользовательском интерфейсе ленты Microsoft Office Fluent, которая находится на вкладке Работа с SmartArt в группе разработки на изменение порядка вниз.</para>
-          <para />
-        </remarks>
+        <summary>Замена узла на следующий узел в маркированном списке. Этот метод переупорядочивает все семейство узла.</summary>
+        <remarks><para>Этот метод имитирует нажатие кнопок "переупорядочить вниз" в пользовательском интерфейсе ленты Microsoft Office Fluent, расположенном на вкладке Инструменты SmartArt, в группе Макет при переупорядочении вниз.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReorderUp">
@@ -554,11 +532,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Меняет местами узел с предыдущего узла в маркированный список. Этот метод переупорядочивает целого семейства узлов.</summary>
-        <remarks>
-          <para>Этот метод моделирует, нажав кнопку Изменить порядок копирования в пользовательском интерфейсе ленты Microsoft Office Fluent, которая находится на вкладке Работа с SmartArt в группе разработки на изменение порядка копирования.</para>
-          <para />
-        </remarks>
+        <summary>Замена узла на предыдущий узел в маркированном списке. Этот метод переупорядочивает все семейство узла.</summary>
+        <remarks><para>Этот метод имитирует нажатие кнопки "переупорядочить вверх" в пользовательском интерфейсе ленты Microsoft Office Fluent, расположенной на вкладке Инструменты SmartArt, в группе Макет при переупорядочении.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Shapes">
@@ -584,12 +560,10 @@
         <ReturnType>Microsoft.Office.Core.ShapeRange</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает диапазона фигуры, связанное с объектом <b>SmartArtNode</b> .</summary>
+        <summary>Возвращает диапазон фигур, связанный с этим объектом <b>SmartArtNode</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтобы найти диапазон, используйте <see cref="P:Microsoft.Office.Core.Shapes.Count" /> свойство.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтобы найти диапазон, используйте <see cref="P:Microsoft.Office.Core.Shapes.Count" /> свойство.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Smaller">
@@ -613,11 +587,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Уменьшение размера SmartArt. Механизму меньшего размера кнопки на вкладке Формат пользовательский Интерфейс Fluent ленты Microsoft Office для SmartArt.</summary>
-        <remarks>
-          <para>Объем уменьшение зависит от размера макет узла.</para>
-          <para />
-        </remarks>
+        <summary>Уменьшает размер элемента SmartArt. Имитирует поведение кнопки "уменьшить" на вкладке "формат пользовательского интерфейса" ленты Microsoft Office Fluent для SmartArt.</summary>
+        <remarks><para>Объем снижения зависит от размера макета узла.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextFrame2">
@@ -644,11 +616,9 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает текст, связанный с объектом <b>SmartArtNode</b> .</summary>
-        <value>Возвращает <see cref="T:Microsoft.Office.Core.TextFrame2" />.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <value>Возвращает значение <see cref="T:Microsoft.Office.Core.TextFrame2" />типа.</value>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -676,10 +646,8 @@
       <Docs>
         <summary>Возвращает тип узла SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения. Возможные значения: <see cref="F:Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeAssistant" /> или <see cref="F:Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeDefault" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения. Возможные значения: <see cref="F:Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeAssistant" /> или <see cref="F:Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeDefault" />.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

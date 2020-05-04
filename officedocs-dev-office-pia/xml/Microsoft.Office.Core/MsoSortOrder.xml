@@ -1,13 +1,5 @@
 <Type Name="MsoSortOrder" FullName="Microsoft.Office.Core.MsoSortOrder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1ba29819e59a5caa86d8e2e42c9cfc71bb0e023e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662538" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoSortOrder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1ba29819e59a5caa86d8e2e42c9cfc71bb0e023e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662538" /></Metadata><TypeSignature Language="C#" Value="public enum MsoSortOrder" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSortOrder extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSortOrder" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoSortOrder" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Указывает, будет ли файлы в коллекции объектов <b>FileSearch</b><b>FoundFiles</b> будут сортироваться по возрастанию или убыванию.</summary>
+    <summary>Указывает, следует ли сортировать файлы в семействе <b>фаундфилес</b> объекта <b>FileSearch</b> по возрастанию или убыванию.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>По возрастанию.</summary>
+        <summary>Возрастающем порядке.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSortOrderDescending">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>По убыванию.</summary>
+        <summary>Убывающий порядок.</summary>
       </Docs>
     </Member>
   </Members>

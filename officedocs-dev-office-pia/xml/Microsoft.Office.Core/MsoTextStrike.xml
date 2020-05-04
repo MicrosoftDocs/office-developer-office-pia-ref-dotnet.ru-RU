@@ -1,13 +1,5 @@
 <Type Name="MsoTextStrike" FullName="Microsoft.Office.Core.MsoTextStrike">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="21c2747587e8e94bbe610beda156e00e29dad12d" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661903" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoTextStrike" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="21c2747587e8e94bbe610beda156e00e29dad12d" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661903" /></Metadata><TypeSignature Language="C#" Value="public enum MsoTextStrike" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextStrike extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextStrike" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoTextStrike" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, сколько раз знак выводятся изображение.</summary>
+    <summary>Указывает, сколько раз печатается символ, чтобы затемнить изображение.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Указывает, что знак печатается дважды.</summary>
+        <summary>Указывает, что символ печатается дважды.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoNoStrike">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Указывает, что знаков не печатается.</summary>
+        <summary>Указывает, что символ не печатается.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSingleStrike">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Задает один раз печать знаков.</summary>
+        <summary>Указывает, что символ печатается один раз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoStrikeMixed">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Указывает, что текст может содержать сочетание типа double черту и одним черту символов.</summary>
+        <summary>Указывает, что текст может содержать сочетания символов двойной и одинарной зачеркивания.</summary>
       </Docs>
     </Member>
   </Members>

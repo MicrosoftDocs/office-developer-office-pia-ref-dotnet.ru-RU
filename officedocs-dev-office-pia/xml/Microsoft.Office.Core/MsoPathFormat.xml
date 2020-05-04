@@ -1,13 +1,5 @@
 <Type Name="MsoPathFormat" FullName="Microsoft.Office.Core.MsoPathFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="aa6fbf922b2bea75ea5807fdc25a78abe0ab6bb8" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661894" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPathFormat" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="aa6fbf922b2bea75ea5807fdc25a78abe0ab6bb8" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661894" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPathFormat" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPathFormat extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPathFormat" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPathFormat" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает формат пути файла или папки.</summary>
+    <summary>Задает формат пути к файлу или папке.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Представляет тип 1 формата.</summary>
+        <summary>Представляет формат Type1.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPathType2">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Представляет тип 2 формата.</summary>
+        <summary>Представляет формат тип2.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPathType3">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Представляет формат не.</summary>
+        <summary>Не представляет формат.</summary>
       </Docs>
     </Member>
   </Members>

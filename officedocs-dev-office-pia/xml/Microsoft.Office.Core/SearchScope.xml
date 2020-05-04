@@ -1,13 +1,5 @@
 <Type Name="SearchScope" FullName="Microsoft.Office.Core.SearchScope">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="81e4a6e84cfecdb010ed3d55dafab420b37e96c9" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661709" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SearchScope : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="81e4a6e84cfecdb010ed3d55dafab420b37e96c9" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661709" /></Metadata><TypeSignature Language="C#" Value="public interface SearchScope : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SearchScope implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SearchScope" />
   <TypeSignature Language="VB.NET" Value="Public Interface SearchScope&#xA;Implements _IMsoDispObj" />
@@ -30,13 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Соответствует типу дерева папок, который может быть выполнен с помощью <see cref="T:Microsoft.Office.Core.FileSearch" /> объекта.</summary>
-    <remarks>
-      <para>Пример области одного поиска — это локальные диски на этом компьютере. Сетевой папки и папки Microsoft Outlook могут быть также области отдельные поиска, которые могут быть недоступны. Каждый объект <b>область поиска</b> , содержащего одно <see cref="T:Microsoft.Office.Core.ScopeFolder" /> объекта, который соответствует в корневую папку области поиска.</para>
-      <para>Использования <see cref="P:Microsoft.Office.Core.SearchScopes.Item(System.Int32)" /> свойства <see cref="T:Microsoft.Office.Core.SearchScopes" /> коллекции для получения объекта <b>область поиска</b> .</para>
-      <para>В конечном счете, объект <b>область поиска</b> предназначен для предоставления доступа к объектам <b>ScopeFolder</b> , которые можно добавить в <see cref="T:Microsoft.Office.Core.SearchFolders" /> семейства.</para>
-      <para />
-    </remarks>
+    <summary>Соответствует типу дерева папок, в котором можно выполнять поиск с помощью <see cref="T:Microsoft.Office.Core.FileSearch" /> объекта.</summary>
+    <remarks><para>Примером одной области поиска является локальный диск на этом компьютере. Сетевые папки и папки Microsoft Outlook также являются отдельными областями поиска, которые могут быть доступны. Каждый объект <b>SearchScope</b> <see cref="T:Microsoft.Office.Core.ScopeFolder" /> содержит один объект, соответствующий корневой папке области поиска.</para> 
+      <para> <see cref="P:Microsoft.Office.Core.SearchScopes.Item(System.Int32)" /> <see cref="T:Microsoft.Office.Core.SearchScopes" /> Используйте свойство коллекции для возврата объекта <b>SearchScope</b> .</para> В 
+      <para>конечном итоге объект <b>SearchScope</b> предназначен для предоставления доступа к объектам <b>ScopeFolder</b> , которые можно добавить в <see cref="T:Microsoft.Office.Core.SearchFolders" /> коллекцию.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -65,12 +55,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Это свойство можно использовать с помощью объекта <b>автоматизации</b> для возврата приложения этот объект контейнера.</para>
-          <para />
-        </remarks>
+        <remarks><para>Это свойство можно использовать с объектом <b>Automation</b> для возврата приложения контейнера этого объекта.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -99,12 +87,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.SearchScope.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.SearchScope.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ScopeFolder">
@@ -130,7 +118,7 @@
         <ReturnType>Microsoft.Office.Core.ScopeFolder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.ScopeFolder" /> объекта.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.ScopeFolder" /> объект.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -160,10 +148,8 @@
       <Docs>
         <summary>Возвращает значение, соответствующее типу <see cref="T:Microsoft.Office.Core.SearchScope" /> объекта.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Тип указывает область, в которой <see cref="M:Microsoft.Office.Core.FileSearch.Execute(Microsoft.Office.Core.MsoSortBy,Microsoft.Office.Core.MsoSortOrder,System.Boolean)" /> метод <see cref="T:Microsoft.Office.Core.FileSearch" /> объекта будет искать файлы.</para>
-          <para />
-        </remarks>
+        <remarks><para>Тип указывает область, в которой <see cref="M:Microsoft.Office.Core.FileSearch.Execute(Microsoft.Office.Core.MsoSortBy,Microsoft.Office.Core.MsoSortOrder,System.Boolean)" /> метод <see cref="T:Microsoft.Office.Core.FileSearch" /> объекта будет выполнять поиск файлов.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

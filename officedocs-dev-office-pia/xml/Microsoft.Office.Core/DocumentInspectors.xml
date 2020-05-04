@@ -1,13 +1,5 @@
 <Type Name="DocumentInspectors" FullName="Microsoft.Office.Core.DocumentInspectors">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7e7884df3d75392a1ba84c0f7132229ae769b2a8" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661715" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface DocumentInspectors : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7e7884df3d75392a1ba84c0f7132229ae769b2a8" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661715" /></Metadata><TypeSignature Language="C#" Value="public interface DocumentInspectors : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentInspectors implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.DocumentInspectors" />
   <TypeSignature Language="VB.NET" Value="Public Interface DocumentInspectors&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,11 +25,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет коллекцию объектов <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объектов.</summary>
-    <remarks>
-      <para>Коллекция <b>DocumentInspectors</b> является частью <see cref="T:Microsoft.Office.Interop.Word._Document" /> объект в Microsoft Office Word <see cref="T:Microsoft.Office.Interop.Excel._Workbook" /> объект в Microsoft Office Excel и <see cref="T:Microsoft.Office.Interop.PowerPoint._Presentation" /> объект в Microsoft Office PowerPoint. A <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> коллекция содержит несколько объектов <b>DocumentInspector</b> , установлена одна для некоторых встроенных возможностей и каждого настраиваемого модуля инспектора документов. Дополнительные сведения можно <see cref="F:Microsoft.Office.Core.DocumentInspectors.ofobjDocumentInspector_HV10096488#DocumentInspector#SameCHM" /> раздел справки.</para>
-      <para />
-    </remarks>
+    <summary>Представляет коллекцию <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объектов.</summary>
+    <remarks><para>Коллекция <b>DocumentInspectors</b> является частью <see cref="T:Microsoft.Office.Interop.Word._Document" /> объекта в Microsoft Office Word, <see cref="T:Microsoft.Office.Interop.Excel._Workbook" /> объекта в Microsoft Office Excel и <see cref="T:Microsoft.Office.Interop.PowerPoint._Presentation" /> объекта в Microsoft Office PowerPoint. <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> Коллекция содержит несколько объектов <b>DocumentInspector</b> , один для некоторых встроенных параметров и для каждого установленного настраиваемого модуля инспектора документов. Дополнительные сведения см. в <see cref="F:Microsoft.Office.Core.DocumentInspectors.ofobjDocumentInspector_HV10096488#DocumentInspector#SameCHM" /> разделе справки.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -66,10 +56,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющего создателя <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий создателя <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,10 +84,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> объекте. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -129,10 +115,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -195,10 +179,8 @@
       </Parameters>
       <Docs>
         <param name="Index">Номер индекса объекта.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> объекта, заданного с помощью индекса. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.DocumentInspector" />
-        </value>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> объект, заданный индексом. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.DocumentInspector" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -225,10 +207,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект, представляющий родительский <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Получает объект, представляющий родительский объект <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

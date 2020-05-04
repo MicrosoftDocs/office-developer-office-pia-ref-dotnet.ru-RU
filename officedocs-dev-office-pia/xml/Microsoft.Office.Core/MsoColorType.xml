@@ -1,13 +1,5 @@
 <Type Name="MsoColorType" FullName="Microsoft.Office.Core.MsoColorType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6f54c4082ae0c2d5b9827526d8f204895cc82c09" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662431" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoColorType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6f54c4082ae0c2d5b9827526d8f204895cc82c09" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662431" /></Metadata><TypeSignature Language="C#" Value="public enum MsoColorType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoColorType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoColorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoColorType" />
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Тип системы управления цвет цвета.</summary>
+        <summary>Тип цвета системы управления цветом.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoColorTypeCMYK">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Цвет определяется значениями голубой, пурпурный, желтый и черный.</summary>
+        <summary>Цвет определяется значениями "голубой", "пурпурный", "желтый" и "черный".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoColorTypeInk">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Цвет определяется значения красного, зеленого и синего.</summary>
+        <summary>Цвет определяется по значениям красного, зеленого и синего.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoColorTypeScheme">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Цвет определяется схему конкретного приложения.</summary>
+        <summary>Цвет определяется схемой, зависящей от приложения.</summary>
       </Docs>
     </Member>
   </Members>

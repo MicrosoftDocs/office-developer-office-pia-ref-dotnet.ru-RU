@@ -1,13 +1,5 @@
 <Type Name="PickerProperties" FullName="Microsoft.Office.Core.PickerProperties">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6afe0a8dde00da40e9c69c6ef02d207366e90bd4" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662551" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PickerProperties : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6afe0a8dde00da40e9c69c6ef02d207366e90bd4" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662551" /></Metadata><TypeSignature Language="C#" Value="public interface PickerProperties : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PickerProperties implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PickerProperties" />
   <TypeSignature Language="VB.NET" Value="Public Interface PickerProperties&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,7 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Коллекцию <see cref="T:Microsoft.Office.Core.PickerProperty" /> объектов.</summary>
+    <summary>Коллекция <see cref="T:Microsoft.Office.Core.PickerProperty" /> объектов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -63,11 +55,10 @@
       </Parameters>
       <Docs>
         <param name="Id">Задает имя ключа свойства.</param>
-        <param name="Value">Задает значение свойства.</param>
-        <param name="Type">
-          <see cref="T:Microsoft.Office.Core.MsoPickerField" />который указывает тип свойства.</param>
+        <param name="Value">Указывает значение свойства.</param>
+        <param name="Type"><see cref="T:Microsoft.Office.Core.MsoPickerField" />, задающий тип свойства.</param>
         <summary>Добавляет <see cref="T:Microsoft.Office.Core.PickerProperty" /> объект в коллекцию.</summary>
-        <returns>Возвращает <see cref="T:Microsoft.Office.Core.PickerProperty" />.</returns>
+        <returns>Возвращает <see cref="T:Microsoft.Office.Core.PickerProperty" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,12 +88,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>PickerProperties</b> .</summary>
+        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>PickerProperties</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -128,12 +117,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает количество число <see cref="T:Microsoft.Office.Core.PickerProperty" /> объектов, содержащихся в коллекции <b>PickerProperties</b> .</summary>
+        <summary>Получает количество <see cref="T:Microsoft.Office.Core.PickerProperty" /> объектов, содержащихся в коллекции <b>PickerProperties</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -162,12 +149,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>PickerProperties</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>PickerProperties</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -198,7 +183,7 @@
       <Parameters />
       <Docs>
         <summary>Возвращает перечислитель, который выполняет итерацию по коллекции.</summary>
-        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />.</returns>
+        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -228,8 +213,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Указывает целое число, представляющее индекс <see cref="T:Microsoft.Office.Core.PickerProperty" /> объекта.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.PickerProperty" /> объекта по указанному индексу.</summary>
+        <param name="Index">Задает целое число, представляющее индекс <see cref="T:Microsoft.Office.Core.PickerProperty" /> объекта.</param>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.PickerProperty" /> объект по указанному индексу.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -257,8 +242,8 @@
         <Parameter Name="Id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Id">Задает идентификатор <see cref="T:Microsoft.Office.Core.PickerProperty" /> для удаления.</param>
-        <summary>Удаляет <see cref="T:Microsoft.Office.Core.PickerProperty" /> из коллекции.</summary>
+        <param name="Id">Указывает идентификатор удаляемого объекта <see cref="T:Microsoft.Office.Core.PickerProperty" /> .</param>
+        <summary>Удаляет объект <see cref="T:Microsoft.Office.Core.PickerProperty" /> из коллекции.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

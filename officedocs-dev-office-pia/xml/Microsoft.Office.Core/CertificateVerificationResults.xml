@@ -1,13 +1,5 @@
 <Type Name="CertificateVerificationResults" FullName="Microsoft.Office.Core.CertificateVerificationResults">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="26d8bca54b199d666d4bff30555318b4e9d6d345" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662561" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum CertificateVerificationResults" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="26d8bca54b199d666d4bff30555318b4e9d6d345" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662561" /></Metadata><TypeSignature Language="C#" Value="public enum CertificateVerificationResults" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CertificateVerificationResults extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CertificateVerificationResults" />
   <TypeSignature Language="VB.NET" Value="Public Enum CertificateVerificationResults" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Предоставляет результат проверки цифрового сертификата.</summary>
+    <summary>Предоставляет результаты проверки цифрового сертификата.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Проверка возникла ошибка.</summary>
+        <summary>Проверка привела к ошибке.</summary>
       </Docs>
     </Member>
     <Member MemberName="certverresExpired">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Истек срок действия сертификатов.</summary>
+        <summary>Срок действия сертификата истек.</summary>
       </Docs>
     </Member>
     <Member MemberName="certverresInvalid">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Сертификация является недопустимым.</summary>
+        <summary>Недопустимый сертификат.</summary>
       </Docs>
     </Member>
     <Member MemberName="certverresRevoked">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Сертификация был отозван.</summary>
+        <summary>Сертификат отозван.</summary>
       </Docs>
     </Member>
     <Member MemberName="certverresUntrusted">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Сертификация — от ненадежных источников.</summary>
+        <summary>Сертификация из ненадежного источника.</summary>
       </Docs>
     </Member>
     <Member MemberName="certverresUnverified">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>В настоящее время непроверенные сертификации.</summary>
+        <summary>В настоящее время сертификат не проверен.</summary>
       </Docs>
     </Member>
     <Member MemberName="certverresValid">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Сертификация является допустимым.</summary>
+        <summary>Сертификация действительна.</summary>
       </Docs>
     </Member>
     <Member MemberName="certverresVerifying">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>В настоящее время выполняется проверка сертификата.</summary>
+        <summary>В настоящее время проверяется подлинность сертификата.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="CommandBarButtonClass" FullName="Microsoft.Office.Core.CommandBarButtonClass">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8b3e7fc397c554c922459191bea11d96a5bfd07f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661838" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class CommandBarButtonClass : Microsoft.Office.Core.CommandBarButton" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8b3e7fc397c554c922459191bea11d96a5bfd07f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661838" /></Metadata><TypeSignature Language="C#" Value="public class CommandBarButtonClass : Microsoft.Office.Core.CommandBarButton" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi CommandBarButtonClass extends System.Object implements class Microsoft.Office.Core._CommandBarButton, class Microsoft.Office.Core._CommandBarButtonEvents_Event, class Microsoft.Office.Core.CommandBarButton" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBarButtonClass" />
   <TypeSignature Language="VB.NET" Value="Public Class CommandBarButtonClass&#xA;Implements CommandBarButton" />
@@ -877,15 +869,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Имеет <b>значение True</b> , при исходной встроенных поверхность рабочего элемента управления кнопки панели команд. Для чтения и записи.</summary>
+        <summary>Имеет <b>значение true</b> , если гранью элемента управления "Кнопка" панели команд является ее первоначальный встроенный рисунок. Для чтения и записи.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Это свойство можно задать только <b>значение True</b>, что приведет к сбросу лицевой встроенных лиц. Чтение и запись <b>типа Boolean</b>.</para>
-          <para />
-        </remarks>
-        <example>
-          <para>В этом примере определяет, является ли лицо первый элемент управления на панели именованные «Custom» команд его встроенных кнопка. Если он установлен, в примере копируется поверхность кнопки в буфер обмена.</para>
-        </example>
+        <remarks><para>Этому свойству можно присвоить значение <b>true</b>, чтобы сбросить начертание к встроенному фрагменту. <b>Логический</b>доступ для чтения и записи.</para>
+          <para /></remarks>
+        <example><para>В этом примере определяется, является ли значок первого элемента управления на панели команд именем "Custom" встроенным лицом кнопки. Если это так, в примере в буфер обмена копируется грань кнопки.</para></example>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -1035,14 +1023,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Копирует лицевой панели элемента управления Кнопка команд в буфер обмена.</summary>
-        <remarks>
-          <para>Используйте метод <b>PasteFace</b> Вставка содержимого буфера обмена на поверхность кнопки.</para>
-          <para />
-        </remarks>
-        <example>
-          <para>В этом примере выполняется поиск встроенных кнопку Открыть, копирует поверхность кнопки в буфер обмена и вставляет вставлялись на кнопку «правописание».</para>
-        </example>
+        <summary>Копирует значок элемента управления кнопка панели команд в буфер обмена.</summary>
+        <remarks><para>Используйте метод <b>PasteFace</b> , чтобы вставить содержимое буфера обмена на поверхность кнопки.</para>
+          <para /></remarks>
+        <example><para>В этом примере выполняется поиск встроенной кнопки "Открыть", копирование лицевой стороны кнопки в буфер обмена, после чего она будет вставлена на кнопку правописания и грамматики.</para></example>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -1231,17 +1215,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор для грани <b>CommandBarButton</b> управления. Для чтения и записи.</summary>
+        <summary>Получает или задает идентификационный номер грани элемента управления <b>CommandBarButton</b> . Для чтения и записи.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Свойство <b>FaceId</b> определяет внешний вид, не функции, кнопки панели команд. Свойство <b>Id</b> объекта <b>CommandBarControl</b> определяет функции кнопки.</para>
-          <para />
-          <para>Нуль (0) — это значение свойства <b>FaceId</b> для кнопки командной строки с помощью настраиваемого лицевой.</para>
-          <para />
-        </remarks>
-        <example>
-          <para>В этом примере добавляется кнопки панели команд пользовательской панели команд. При нажатии этой кнопки эквивалент щелчка мыши в меню Файл команду Открыть, так как идентификатор является 23, но кнопка имеет же кнопка как встроенную кнопку диаграммы.</para>
-        </example>
+        <remarks><para>Свойство <b>FaceId</b> определяет внешний вид кнопки панели команд, а не функции. Свойство <b>ID</b> объекта <b>CommandBarControl</b> определяет функцию кнопки.</para> 
+          <para /> 
+          <para>Значение свойства <b>FaceId</b> для кнопки панели команд с произвольным лицом — 0 (ноль).</para>
+          <para /></remarks>
+        <example><para>В этом примере на настраиваемую панель команд добавляется кнопка панели команд. Нажатие этой кнопки эквивалентно нажатию команды открыть в меню файл, так как номер ID равен 23, но кнопка имеет ту же самую кнопку, что и встроенная кнопка диаграммы.</para></example>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -1375,12 +1355,10 @@
         <ReturnType>Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Задает или возвращает константу <b>MsoCommandBarButtonHyperlinkType</b> , представляющий тип гиперссылки, связанной с указанной кнопки панели. Для чтения и записи.</summary>
+        <summary>Задает или получает константу <b>мсокоммандбарбуттонхиперлинктипе</b> , представляющую тип гиперссылки, связанной с указанной кнопкой панели команд. Для чтения и записи.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <example>
-          <para>В этом примере проверяется свойство <b>HyperlinkType</b> для кнопки указанного командной строки на панели команд, с именем «Custom».. Если <b>HyperlinkType</b><b>msoCommandBarButtonHyperlinkNone</b>, в примере присваивает свойству значение <b>msoCommandBarButtonHyperlinkOpen</b> и задает URL-адрес www.microsoft.com.</para>
-        </example>
+        <example><para>В этом примере проверяется свойство <b>хиперлинктипе</b> для указанной кнопки панели команд на панели команд с именем "Custom.". Если для <b>хиперлинктипе</b> задано значение <b>мсокоммандбарбуттонхиперлинкноне</b>, для свойства задается значение <b>мсокоммандбарбуттонхиперлинкопен</b> , и URL-адресу присваивается значение www.Microsoft.com.</para></example>
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -1607,18 +1585,14 @@
         <ReturnType>stdole.IPictureDisp</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает объект <b>IPictureDisp</b> , представляющий изображение маска <b>CommandBarButton</b> объекта. Изображение маска определяет, какие части изображения кнопки прозрачны. Для чтения и записи.</summary>
+        <summary>Получает или задает объект <b>ипиктуредисп</b> , представляющий изображение маски объекта <b>CommandBarButton</b> . Изображение маски определяет, какие части изображения кнопки будут прозрачными. Для чтения и записи.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>При создании изображения, которое планируется использовать как изображение маска, все области, которые необходимо объединить прозрачной должен быть белым и все области, чтобы показать должен быть черным.</para>
-          <para />
-          <para>Всегда Установка маски после установки изображение для объекта <b>CommandBarButton</b> .</para>
-          <para />
-        </remarks>
-        <example>
-          <para>В следующем примере задается изображения и маска первого <b>CommandBarButton</b> , которое возвращает код. Для этого, создать изображения маски и изображения кнопки и sustitute пути в пример пути к изображениям.</para>
-          <para>В следующем примере получается изображения и маска первого <b>CommandBarButton</b> , что возвращаются и выводит каждого из них в файл. Чтобы выполнить эту операцию, укажите путь для выходные файлы.</para>
-        </example>
+        <remarks><para>При создании изображения, которое планируется использовать в качестве маски, все области, которые должны быть прозрачными, должны быть белыми, а все области, которые необходимо отобразить, должны быть черными.</para> 
+          <para /> 
+          <para>Всегда задавайте маску после того, как вы задаете изображение для объекта <b>CommandBarButton</b> .</para>
+          <para /></remarks>
+        <example><para>В приведенном ниже примере задаются изображение и маска первого <b>CommandBarButton</b> , возвращаемого кодом. Чтобы сделать это, создайте изображение маски и значок кнопки и суституте пути в примере с путями к изображениям.</para> 
+          <para>В следующем примере показано, как получить изображение и маску первого <b>CommandBarButton</b> , которые код возвращает и выводит каждое из них в файл. Чтобы выполнить эту работу, укажите путь к выходным файлам.</para></example>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -1811,11 +1785,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Вставка содержимого буфера обмена <b>CommandBarButton</b>.</summary>
+        <summary>Вставит содержимое буфера обмена на <b>CommandBarButton</b>.</summary>
         <remarks>To be added.</remarks>
-        <example>
-          <para>В этом примере выполняется поиск встроенную кнопку FileOpen и вставляет грани из проверки орфографии и грамматики кнопка на него из буфера обмена.</para>
-        </example>
+        <example><para>В этом примере выполняется поиск встроенной кнопки FileOpen и ее вставки из буфера обмена на кнопку правописания и грамматики.</para></example>
       </Docs>
     </Member>
     <Member MemberName="Picture">
@@ -1850,19 +1822,15 @@
         <ReturnType>stdole.IPictureDisp</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает объект <b>IPictureDisp</b> , представляющий изображение <b>CommandBarButton</b> объекта. Для чтения и записи.</summary>
+        <summary>Получает или задает объект <b>ипиктуредисп</b> , представляющий изображение объекта <b>CommandBarButton</b> . Для чтения и записи.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>При внесении изменений изображение на кнопке, необходимо также использовать свойство <b>Маска</b> для определения маска изображения. Изображение маска определяет, какие части изображения кнопки прозрачны. Задавайте набор маски после установки изображение для объекта <b>CommandBarButton</b> .</para>
-          <para />
-          <para>
-            <b>Примечание</b>: изображения для представления Microsoft<paramref name="Application" /> и вставка			<paramref name="Item" /> кнопки на панели инструментов Стандартная в редакторе Visual Basic не может быть изменен.</para>
-          <para />
-        </remarks>
-        <example>
-          <para>В следующем примере задается изображения и маска первого <b>CommandBarButton</b> , которое возвращает код. Этой функции необходимо выполнение, Создание изображения маски и изображение кнопки и заменить пути в образце пути к изображениям.</para>
-          <para>В следующем примере получается изображения и маска первого <b>CommandBarButton</b> , что возвращаются и выводит каждого из них в файл. Чтобы выполнить эту операцию, укажите путь для выходные файлы.</para>
-        </example>
+        <remarks><para>При изменении изображения на кнопке также необходимо использовать свойство <b>Mask</b> , чтобы задать изображение маски. Изображение маски определяет, какая часть изображения кнопки является прозрачной. Всегда задавайте маску после того, как вы задаете изображение для объекта <b>CommandBarButton</b> .</para> 
+          <para /> 
+          <para> 
+            <b>Note</b>: изображения для кнопок "Просмотреть Майкрософт<paramref name="Application" /> " и			<paramref name="Item" /> "вставить" на панели инструментов "Стандартная" в редакторе Visual Basic изменить нельзя.</para>
+          <para /></remarks>
+        <example><para>В приведенном ниже примере задаются изображение и маска первого <b>CommandBarButton</b> , возвращаемого кодом. Чтобы сделать это, создайте изображение маски и значок на кнопке и замените пути в примере на пути к изображениям.</para> 
+          <para>В следующем примере показано, как получить изображение и маску первого <b>CommandBarButton</b> , которые код возвращает и выводит каждое из них в файл. Чтобы выполнить эту работу, укажите путь к выходным файлам.</para></example>
       </Docs>
     </Member>
     <Member MemberName="Priority">
@@ -2201,15 +2169,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает текст клавиши быстрого отображаться рядом с элементом управления <b>CommandBarButton</b> , когда кнопка появляется в меню, подменю или контекстное меню. Для чтения и записи.</summary>
+        <summary>Получает или задает текст сочетания клавиш, отображаемый рядом с элементом управления <b>CommandBarButton</b> при отображении кнопки в меню, подменю или в контекстном меню. Для чтения и записи.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Можно задать это свойство только для кнопки панели команд, содержащих макросе <b>OnAction</b> .</para>
-          <para />
-        </remarks>
-        <example>
-          <para>В этом примере отображается текст ярлык для команды Open (меню "файл") в строке меню лист Microsoft Excel, в окне сообщения.</para>
-        </example>
+        <remarks><para>Это свойство можно задать только для кнопок панели команд, содержащих макрос <b>onAction</b> .</para>
+          <para /></remarks>
+        <example><para>В этом примере отображается контекстный текст команды Открыть (меню "файл") в строке меню листа Microsoft Excel в окне сообщения.</para></example>
       </Docs>
     </Member>
     <Member MemberName="State">

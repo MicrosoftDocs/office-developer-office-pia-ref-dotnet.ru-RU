@@ -1,13 +1,5 @@
 <Type Name="TabStops2" FullName="Microsoft.Office.Core.TabStops2">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b7c5cf74b5472134b3c34bfa1189e70197dc485" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662326" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface TabStops2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9b7c5cf74b5472134b3c34bfa1189e70197dc485" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662326" /></Metadata><TypeSignature Language="C#" Value="public interface TabStops2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TabStops2 implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.TabStops2" />
   <TypeSignature Language="VB.NET" Value="Public Interface TabStops2&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -34,10 +26,8 @@
   </Attributes>
   <Docs>
     <summary>Коллекция <see cref="T:Microsoft.Office.Core.TabStop2" /> объектов.</summary>
-    <remarks>
-      <para>Табуляции, индексируются числовым слева направо на линейке.</para>
-      <para />
-    </remarks>
+    <remarks><para>Позиции табуляции индексируются в числовом виде слева направо вдоль линейки.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -64,16 +54,12 @@
         <Parameter Name="Position" Type="System.Single" />
       </Parameters>
       <Docs>
-        <param name="Type">Тип для добавления позиции табуляции.</param>
-        <param name="Position">Горизонтальную позицию новой позиции табуляции относительно левого края рамки. Числовые значения вычисляются в точках; строки вычисляются в единицах, заданных и может быть в любой единицы измерения, поддерживаемые по продукту Microsoft Office.</param>
-        <summary>Добавляет новый табуляции в указанный <see cref="T:Microsoft.Office.Core.TabStops2" /> объекта.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.TabStop2" />
-        </returns>
-        <remarks>
-          <para>Примеры <see cref="T:Microsoft.Office.Core.MsoTabStopType" /> типы: <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />, <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />, и <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" />.</para>
-          <para />
-        </remarks>
+        <param name="Type">Тип позиции табуляции, которую необходимо добавить.</param>
+        <param name="Position">Горизонтальное положение новой табуляции относительно левого края текстового фрейма. Числовые значения оцениваются в точках; строки оцениваются в указанных единицах измерения и могут быть любыми единицами измерения, поддерживаемыми продуктом Microsoft Office.</param>
+        <summary>Добавление новой позиции табуляции в указанный <see cref="T:Microsoft.Office.Core.TabStops2" /> объект.</summary>
+        <returns><see cref="T:Microsoft.Office.Core.TabStop2" /></returns>
+        <remarks><para>Примеры <see cref="T:Microsoft.Office.Core.MsoTabStopType" /> типов: <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />, <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />и. <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" /></para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -102,10 +88,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.TabStops2" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.TabStops2" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -132,10 +116,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.TabStops2" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.TabStops2" /> коллекции. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -165,10 +147,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, представляющий приложение Microsoft Office, в котором <see cref="T:Microsoft.Office.Core.TabStops2" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, представляющее приложение Microsoft Office, <see cref="T:Microsoft.Office.Core.TabStops2" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -199,9 +179,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает интервал по умолчанию между позициями табуляции. Для чтения и записи.</summary>
-        <value>
-          <b>Single</b>
-        </value>
+        <value><b>Одинарное с плавающей точкой</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -260,11 +238,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">Количество для возвращаемого объекта.</param>
-        <summary>Получает объект отдельных из <see cref="T:Microsoft.Office.Core.TabStops2" /> семейства сайтов.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.TabStop2" />
-        </returns>
+        <param name="Index">Число возвращаемых объектов.</param>
+        <summary>Получает отдельный объект из <see cref="T:Microsoft.Office.Core.TabStops2" /> коллекции.</summary>
+        <returns><see cref="T:Microsoft.Office.Core.TabStop2" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -291,10 +267,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает родительский элемент указанного <see cref="T:Microsoft.Office.Core.TabStops2" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Получает родительский объект указанного <see cref="T:Microsoft.Office.Core.TabStops2" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

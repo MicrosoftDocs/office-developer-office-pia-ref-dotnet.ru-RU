@@ -1,13 +1,5 @@
 <Type Name="XlSeriesNameLevel" FullName="Microsoft.Office.Core.XlSeriesNameLevel">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4a23b9311629d8d8ddef211492e16299c6942534" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662558" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlSeriesNameLevel" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4a23b9311629d8d8ddef211492e16299c6942534" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662558" /></Metadata><TypeSignature Language="C#" Value="public enum XlSeriesNameLevel" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlSeriesNameLevel extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlSeriesNameLevel" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlSeriesNameLevel" />
@@ -28,7 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает метки серии для уровней подписей серии.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает метки рядов для уровней подписей ряда.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
       </ReturnValue>
       <MemberValue>-1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задание имен серии на всех уровнях имя серии w/в диапазоне на диаграмме.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задайте имена рядов для всех уровней имени ряда в диапазоне на диаграмме.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSeriesNameLevelCustom">
@@ -67,7 +59,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает литерала в именах серии.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает литералы в именах рядов.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSeriesNameLevelNone">
@@ -86,7 +78,7 @@
       </ReturnValue>
       <MemberValue>-3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Установка без меток категории в диаграмме. Вместо этого по умолчанию установлено равным автоматическая индексированных метки.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Не задавайте метки категорий на диаграмме; по умолчанию используется автоматическое индексирование подписей.</summary>
       </Docs>
     </Member>
   </Members>

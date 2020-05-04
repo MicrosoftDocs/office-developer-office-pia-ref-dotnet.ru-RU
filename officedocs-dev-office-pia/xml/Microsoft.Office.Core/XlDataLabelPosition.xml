@@ -1,13 +1,5 @@
 <Type Name="XlDataLabelPosition" FullName="Microsoft.Office.Core.XlDataLabelPosition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="74973526cc49e18b708f0af7cc41f4e67f822040" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662165" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlDataLabelPosition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="74973526cc49e18b708f0af7cc41f4e67f822040" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662165" /></Metadata><TypeSignature Language="C#" Value="public enum XlDataLabelPosition" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlDataLabelPosition extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlDataLabelPosition" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlDataLabelPosition" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Определяет положение метки данных относительно маркеров данных.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает положение меток данных относительно маркеров данных.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Подпись находится выше точки.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метка данных, расположенная выше точки.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionBelow">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метки данных, расположенный ниже точки.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метка данных, расположенная ниже точки.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionBestFit">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Приложение Office определяет положение метки данных.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Положение метки данных для элементов управления приложением Office.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionCenter">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>-4108</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  По центру в строке точка или внутри данных или Круговая метки данных.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метка данных центрирована на точке данных или в круговой или круговой диаграмме.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionCustom">
@@ -121,7 +113,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  По центру в строке точка или внутри данных или Круговая метки данных.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метка данных центрирована на точке данных или в круговой или круговой диаграмме.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionInsideBase">
@@ -140,7 +132,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метки данных, размещенный произвольно.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метка данных с произвольным расположением.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionInsideEnd">
@@ -159,7 +151,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метки данных, размещенный произвольно.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метка данных с произвольным расположением.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionLeft">
@@ -178,7 +170,7 @@
       </ReturnValue>
       <MemberValue>-4131</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метки данных, расположенный в нижней части панели или круговой.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метка данных, расположенная в нижней части гистограммы или круговой диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionMixed">
@@ -197,7 +189,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метки данных, расположенный в нижней части панели или круговой.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метка данных, расположенная в нижней части гистограммы или круговой диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionOutsideEnd">
@@ -216,7 +208,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метки данных, расположенный в верхней части панели или круговой.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метка данных располагается поверх полосы или круговой диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionRight">
@@ -235,7 +227,7 @@
       </ReturnValue>
       <MemberValue>-4152</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метки данных, расположенный в верхней части панели или круговой.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метка данных располагается поверх полосы или круговой диаграммы.</summary>
       </Docs>
     </Member>
   </Members>

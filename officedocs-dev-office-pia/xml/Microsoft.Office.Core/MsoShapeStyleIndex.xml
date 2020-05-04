@@ -1,13 +1,5 @@
 <Type Name="MsoShapeStyleIndex" FullName="Microsoft.Office.Core.MsoShapeStyleIndex">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="73952d719101d6af2eea2bfec105279d3e1dceae" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662603" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoShapeStyleIndex" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="73952d719101d6af2eea2bfec105279d3e1dceae" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662603" /></Metadata><TypeSignature Language="C#" Value="public enum MsoShapeStyleIndex" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoShapeStyleIndex extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoShapeStyleIndex" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoShapeStyleIndex" />
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>10001</MemberValue>
       <Docs>
-        <summary>Линия стиль 1.</summary>
+        <summary>Стиль линии 1.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset10">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>10010</MemberValue>
       <Docs>
-        <summary>Линия стиль 10.</summary>
+        <summary>Тип линии 10.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset11">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>10011</MemberValue>
       <Docs>
-        <summary>Линия стиль 11.</summary>
+        <summary>Тип линии 11.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset12">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>10012</MemberValue>
       <Docs>
-        <summary>Линия стиль 12.</summary>
+        <summary>Тип линии 12.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset13">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>10013</MemberValue>
       <Docs>
-        <summary>Линия стиль 13.</summary>
+        <summary>Тип линии 13.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset14">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>10014</MemberValue>
       <Docs>
-        <summary>Линия стиль 14.</summary>
+        <summary>Тип линии 14.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset15">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>10015</MemberValue>
       <Docs>
-        <summary>Линия стиль 15.</summary>
+        <summary>Тип линии 15.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset16">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>10016</MemberValue>
       <Docs>
-        <summary>Линия стиль 16.</summary>
+        <summary>Тип линии 16.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset17">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>10017</MemberValue>
       <Docs>
-        <summary>Линия стиль 17.</summary>
+        <summary>Тип линии 17.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset18">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>10018</MemberValue>
       <Docs>
-        <summary>Линия стиль 18.</summary>
+        <summary>Тип линии 18.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset19">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>10019</MemberValue>
       <Docs>
-        <summary>Линия стиль 19.</summary>
+        <summary>Тип линии 19.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset2">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>10002</MemberValue>
       <Docs>
-        <summary>Линия стиль 2.</summary>
+        <summary>Тип линии 2.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset20">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>10020</MemberValue>
       <Docs>
-        <summary>Линия стиль 20.</summary>
+        <summary>Тип линии 20.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset21">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>10021</MemberValue>
       <Docs>
-        <summary>Тип 21 линии.</summary>
+        <summary>Тип линии 21.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset3">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>10003</MemberValue>
       <Docs>
-        <summary>Линия стиль 3.</summary>
+        <summary>Тип линии 3.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset4">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>10004</MemberValue>
       <Docs>
-        <summary>Линия стиль 4.</summary>
+        <summary>Тип линии 4.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset5">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>10005</MemberValue>
       <Docs>
-        <summary>Линия стиль 5.</summary>
+        <summary>Тип линии 5.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset6">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>10006</MemberValue>
       <Docs>
-        <summary>Линия стиль 6.</summary>
+        <summary>Тип линии 6.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset7">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>10007</MemberValue>
       <Docs>
-        <summary>Линия стиль 7.</summary>
+        <summary>Тип линии 7.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset8">
@@ -401,7 +393,7 @@
       </ReturnValue>
       <MemberValue>10008</MemberValue>
       <Docs>
-        <summary>Линия стиль 8.</summary>
+        <summary>Тип линии 8.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStylePreset9">
@@ -420,7 +412,7 @@
       </ReturnValue>
       <MemberValue>10009</MemberValue>
       <Docs>
-        <summary>Линия стиль 9.</summary>
+        <summary>Тип линии 9.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeStyleMixed">
@@ -439,7 +431,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Сочетание стили фигур.</summary>
+        <summary>Смесь стилей фигур.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeStyleNotAPreset">
@@ -458,7 +450,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Нет Стиль фигуры.</summary>
+        <summary>Стиль фигуры отсутствует.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeStylePreset1">
@@ -1142,7 +1134,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>Стиль 41 фигуры.</summary>
+        <summary>Стиль фигуры 41.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeStylePreset42">
@@ -1161,7 +1153,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>Стиль 42 фигуры.</summary>
+        <summary>Стиль фигуры 42.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeStylePreset5">

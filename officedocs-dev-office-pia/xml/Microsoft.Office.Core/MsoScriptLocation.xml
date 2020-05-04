@@ -1,13 +1,5 @@
 <Type Name="MsoScriptLocation" FullName="Microsoft.Office.Core.MsoScriptLocation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="54a0bca97659e9330be6c1adbe261c4244c6ce1f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662190" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoScriptLocation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="54a0bca97659e9330be6c1adbe261c4244c6ce1f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662190" /></Metadata><TypeSignature Language="C#" Value="public enum MsoScriptLocation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoScriptLocation extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoScriptLocation" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoScriptLocation" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Указывает расположение привязку в документе.</summary>
+    <summary>Задает расположение привязки сценария в документе.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Привязку — в тело документа.</summary>
+        <summary>Элемент привязки скрипта находится в тексте документа.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoScriptLocationInHead">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Привязку находится в заголовке документа.</summary>
+        <summary>Привязка скрипта находится в заголовке документа.</summary>
       </Docs>
     </Member>
   </Members>

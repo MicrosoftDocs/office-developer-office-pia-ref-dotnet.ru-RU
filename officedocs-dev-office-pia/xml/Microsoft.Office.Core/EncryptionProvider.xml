@@ -1,13 +1,5 @@
 <Type Name="EncryptionProvider" FullName="Microsoft.Office.Core.EncryptionProvider">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d47f94e5632932307e068c56805ab362f5180bfc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662159" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface EncryptionProvider" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d47f94e5632932307e068c56805ab362f5180bfc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662159" /></Metadata><TypeSignature Language="C#" Value="public interface EncryptionProvider" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract EncryptionProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.EncryptionProvider" />
   <TypeSignature Language="VB.NET" Value="Public Interface EncryptionProvider" />
@@ -26,11 +18,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Предоставляет методы для установки разрешений, применение криптографии базовым шифрования и расшифровки и проверки подлинности пользователей.</summary>
-    <remarks>
-      <para>Поставщики шифрования реализуются посредством настраиваемой COM-надстроек. Можно настроить с использованием хранилища в документах Office для определенных сведения о надстройке хранятся сведения, необходимые для шифрования, расшифровки, применяются права и разрешения установки или проверки подлинности пользовательского интерфейса.</para>
-      <para />
-    </remarks>
+    <summary>Предоставляет методы для настройки разрешений, применения шифрования базового шифрования и расшифровки, а также проверки подлинности пользователей.</summary>
+    <remarks><para>Поставщики шифрования реализуются с помощью настраиваемых надстроек COM. Вы обладаете хранилищем в документах Office, чтобы получить сведения о надстройках для хранения любых сведений, необходимых для шифрования, расшифровки, применения прав, а также для отображения настроек разрешений и пользовательских интерфейсов проверки подлинности.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Authenticate">
@@ -58,17 +48,13 @@
         <Parameter Name="PermissionsMask" Type="System.UInt32&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="ParentWindow">Задает окна, который будет вызываться для отображения параметров шифрования.</param>
+        <param name="ParentWindow">Указывает окно, которое вызывается для отображения параметров шифрования.</param>
         <param name="EncryptionData">Содержит зашифрованные данные для текущего документа.</param>
-        <param name="PermissionsMask">Пользовательский интерфейс, отображаемые надстройки поставщика шифрования.</param>
-        <summary>Используется для определения, является ли пользователь имеет соответствующие разрешения на открытие зашифрованного документа.</summary>
-        <returns>
-          <b>Integer</b>
-        </returns>
-        <remarks>
-          <para>Это, в которых поставщик шифрования надстройки COM отображаются независимо от пользовательского интерфейса используется для применения шифрования. К примеру поставщика шифрования пароля будет запрашивать пароль пользователя.</para>
-          <para />
-        </remarks>
+        <param name="PermissionsMask">Пользовательский интерфейс, отображаемый надстройкой поставщика шифрования.</param>
+        <summary>Используется для определения наличия у пользователя необходимых разрешений на открытие зашифрованного документа.</summary>
+        <returns><b>Integer</b></returns>
+        <remarks><para>В этом случае поставщик шифрования надстроек COM отображает любой пользовательский интерфейс, применимый для применения шифрования. Например, поставщик шифрования паролей будет запрашивать пароль пользователя.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="CloneSession">
@@ -94,15 +80,11 @@
         <Parameter Name="SessionHandle" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="SessionHandle">Идентификатор клонирования сеанса.</param>
-        <summary>Создает второй, рабочую копию <see cref="T:Microsoft.Office.Core.EncryptionProvider" /> объекта шифрование сеанса для файла, который должен быть сохранен.</summary>
-        <returns>
-          <b>Integer</b>
-        </returns>
-        <remarks>
-          <para>Этот метод является другой маркер сеанса те же параметры шифрования. При появлении операции автоматического сохранения имеются дескриптора этого сеанса.</para>
-          <para />
-        </remarks>
+        <param name="SessionHandle">Идентификатор клонированного сеанса.</param>
+        <summary>Создает вторую рабочую копию сеанса шифрования <see cref="T:Microsoft.Office.Core.EncryptionProvider" /> объекта для файла, который будет сохранен.</summary>
+        <returns><b>Integer</b></returns>
+        <remarks><para>Результатом этого метода является другой дескриптор сеанса с теми же параметрами шифрования. При выполнении операции автосохранения вы предоставляете этот дескриптор сеанса.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DecryptStream">
@@ -133,13 +115,11 @@
       <Docs>
         <param name="SessionHandle">Идентификатор текущего сеанса.</param>
         <param name="StreamName">Идентификатор потока данных.</param>
-        <param name="EncryptedStream">Поток зашифрованные данные.</param>
-        <param name="UnencryptedStream">Поток данных, прежде чем расшифровки.</param>
-        <summary>Расшифровывает и возвращает поток зашифрованные данные в документе.</summary>
-        <remarks>
-          <para>Этот метод вызывается надстройки COM при открытии документа, а после добавления в проверит, что выполняется проверка подлинности пользователей, открыв документ. Этот метод является обратной <see cref="M:Microsoft.Office.Core.EncryptionProvider.EncryptStream(System.Int32,System.String,System.Object,System.Object)" /> метод и преобразовывает зашифрованные данные обратно в чисто (без зашифрованных) данных.</para>
-          <para />
-        </remarks>
+        <param name="EncryptedStream">Зашифрованный поток данных.</param>
+        <param name="UnencryptedStream">Поток данных перед расшифровкой.</param>
+        <summary>Расшифровывает и возвращает поток зашифрованных данных для документа.</summary>
+        <remarks><para>Этот метод вызывается надстройкой COM при открытии документа, после чего надстройка проверяет, что пользователь открывает документ. Этот метод является обратным <see cref="M:Microsoft.Office.Core.EncryptionProvider.EncryptStream(System.Int32,System.String,System.Object,System.Object)" /> методом и преобразует зашифрованные данные обратно в чистые (незашифрованные) данные.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="EncryptStream">
@@ -169,14 +149,12 @@
       </Parameters>
       <Docs>
         <param name="SessionHandle">Идентификатор текущего сеанса.</param>
-        <param name="StreamName">Имя зашифрованный поток данных документа.</param>
-        <param name="UnencryptedStream">Поток данных, прежде чем шифрования.</param>
-        <param name="EncryptedStream">Сведения о поток данных после шифрования.</param>
-        <summary>Выполняет шифрование и возвращает поток данных в документе.</summary>
-        <remarks>
-          <para>Этот метод обычно вызывается надстройки COM во время сохранения операции.</para>
-          <para />
-        </remarks>
+        <param name="StreamName">Имя зашифрованного потока данных документа.</param>
+        <param name="UnencryptedStream">Поток данных перед шифрованием.</param>
+        <param name="EncryptedStream">Сведения о потоке данных после его шифрования.</param>
+        <summary>Шифрует и возвращает поток данных для документа.</summary>
+        <remarks><para>Этот метод обычно вызывается надстройкой COM во время операции сохранения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="EndSession">
@@ -204,10 +182,8 @@
       <Docs>
         <param name="SessionHandle">Идентификатор текущего сеанса.</param>
         <summary>Завершает текущий сеанс шифрования.</summary>
-        <remarks>
-          <para>Во время сохранения операции, <see cref="M:Microsoft.Office.Core.EncryptionProvider.CloneSession(System.Int32)" /> вызов метода надстройки COM для создания второй, рабочую копию <see cref="T:Microsoft.Office.Core.EncryptionProvider" /> объекта шифрование сеанса для файла, который должен быть сохранен. Далее <see cref="M:Microsoft.Office.Core.EncryptionProvider.Save(System.Int32,System.Object)" /> вызывается метод для получения настраиваемые сведения, которые будут для сохранения о параметров шифрования. Эта информация будет доступна после позднее повторно открыть этот документ. Затем <see cref="M:Microsoft.Office.Core.EncryptionProvider.EncryptStream(System.Int32,System.String,System.Object,System.Object)" /> вызывается метод, который дает поставщик все содержимое документа. И, наконец чтобы завершить процесс, <see cref="M:Microsoft.Office.Core.EncryptionProvider.EndSession(System.Int32)" /> метод для дескриптора клонирования сеанса.</para>
-          <para />
-        </remarks>
+        <remarks><para>Во время операции сохранения <see cref="M:Microsoft.Office.Core.EncryptionProvider.CloneSession(System.Int32)" /> метод вызывается надстройкой COM для создания второй рабочей копии сеанса шифрования <see cref="T:Microsoft.Office.Core.EncryptionProvider" /> объекта для файла, который должен быть сохранен. Затем вызывается <see cref="M:Microsoft.Office.Core.EncryptionProvider.Save(System.Int32,System.Object)" /> метод, чтобы получить все настраиваемые сведения о параметрах шифрования, которые необходимо оставить. Эти сведения доступны при повторном открытии документа позже. Затем вызывается <see cref="M:Microsoft.Office.Core.EncryptionProvider.EncryptStream(System.Int32,System.String,System.Object,System.Object)" /> метод, который предоставляет поставщику все содержимое документа. И, наконец, для завершения процесса — <see cref="M:Microsoft.Office.Core.EncryptionProvider.EndSession(System.Int32)" /> метод для клонированного дескриптора сеанса.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetProviderDetail">
@@ -233,13 +209,11 @@
         <Parameter Name="encprovdet" Type="Microsoft.Office.Core.EncryptionProviderDetail" />
       </Parameters>
       <Docs>
-        <param name="encprovdet">Задает сведения о шифрования, который будет.</param>
+        <param name="encprovdet">Задает необходимые сведения о шифровании.</param>
         <summary>Отображает сведения о шифровании текущего документа.</summary>
         <returns>объект</returns>
-        <remarks>
-          <para>Этот метод позволяет запросов <see cref="T:Microsoft.Office.Core.EncryptionProvider" /> объекта сведения, например, что такое URL-адрес загрузки для пользователей без вашего настраиваемой надстройки COM установлены, какой алгоритм вы внедрение и использование какой режим шифрования.</para>
-          <para />
-        </remarks>
+        <remarks><para>Этот метод позволяет запросить <see cref="T:Microsoft.Office.Core.EncryptionProvider" /> объект для получения таких сведений, как URL-адрес скачивания для пользователей, на которых не установлена настраиваемая надстройка COM, какой алгоритм реализуется, и используемый режим шифрования.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="NewSession">
@@ -265,15 +239,11 @@
         <Parameter Name="ParentWindow" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ParentWindow">Задает окна, который будет вызываться для отображения параметров шифрования.</param>
-        <summary>Используемые <see cref="T:Microsoft.Office.Core.EncryptionProvider" /> объект, который требуется создать новый сеанс шифрования. Этот сеанс используется поставщиком кэширования данных конкретного документа шифрования, пользователи и права, когда документ открыт в памяти.</summary>
-        <returns>
-          <b>Integer</b>
-        </returns>
-        <remarks>
-          <para>Этот метод вызывается надстройки COM.</para>
-          <para />
-        </remarks>
+        <param name="ParentWindow">Указывает окно, которое вызывается для отображения параметров шифрования.</param>
+        <summary>Используется <see cref="T:Microsoft.Office.Core.EncryptionProvider" /> объектом для создания нового сеанса шифрования. Этот сеанс используется поставщиком для кэширования сведений о шифровании, пользователях и правах, относящихся к документу, в том случае, если документ находится в памяти.</summary>
+        <returns><b>Integer</b></returns>
+        <remarks><para>Этот метод вызывается надстройкой COM.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -302,14 +272,10 @@
       <Docs>
         <param name="SessionHandle">Идентификатор текущего сеанса.</param>
         <param name="EncryptionData">Содержит сведения о шифровании.</param>
-        <summary>Сохраняет зашифрованного документа.</summary>
-        <returns>
-          <b>Integer</b>
-        </returns>
-        <remarks>
-          <para>При сохранении файла в Office Open XML формат файлов (который является единственным форматом, поддерживающий шифрование пользовательский файл) поставщик вызывается с надстройки COM для шифрования документов. Если пользователь пытается сохранить в формат, который не поддерживает шифрование пользовательский файл и у вас есть соответствующие права для этого, Microsoft Office сохраните документ без шифрования. Это позволяет документов для экспорта в форматы, которые не поддерживают шифрования или управления правами.</para>
-          <para />
-        </remarks>
+        <summary>Сохраняет зашифрованный документ.</summary>
+        <returns><b>Integer</b></returns>
+        <remarks><para>При сохранении файла в формате Office Open XML (то есть в единственном формате, поддерживающем настраиваемое шифрование файлов) поставщик вызывается надстройкой COM для шифрования документа. Если вы попытаетесь сохранить файл в формате, который не поддерживает настраиваемое шифрование файлов и у вас есть соответствующие права, то Microsoft Office сохранит документ без шифрования. Это позволяет экспортировать документы в форматы, которые не поддерживают шифрование или управление правами.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowSettings">
@@ -339,14 +305,12 @@
       </Parameters>
       <Docs>
         <param name="SessionHandle">Идентификатор текущего сеанса.</param>
-        <param name="ParentWindow">Задает окна, который будет вызываться для отображения параметров шифрования.</param>
-        <param name="ReadOnly">Указывает, следует ли пользователям изменять параметры шифрования.</param>
-        <param name="Remove">Если <b>значение True</b>, шифрования для документа будут удалены при следующей операции сохранения.</param>
-        <summary>Используется для отображения диалогового окна Параметры шифрования для текущего документа.</summary>
-        <remarks>
-          <para>Этот метод можно вызывать только на уже зашифрованного документа. Этот метод можно использовать в надстройки COM для отображения любое взаимодействие с пользователем желаете на основании миссии пользователя. Например в сценарии чисто шифрования, можно отобразить диалоговое окно изменения пароля документа. В сценарии управления правами могут принять решение о Отображение диалогового окна Изменение разрешений и Показать разрешения пользователя.</para>
-          <para />
-        </remarks>
+        <param name="ParentWindow">Указывает окно, которое вызывается для отображения параметров шифрования.</param>
+        <param name="ReadOnly">Указывает, будет ли пользователь иметь возможность изменять параметры шифрования.</param>
+        <param name="Remove">Если этот параметр <b>имеет значение true</b>, шифрование документа будет удалено во время следующей операции сохранения.</param>
+        <summary>Используется для отображения диалогового окна параметров шифрования для текущего документа.</summary>
+        <remarks><para>Этот метод может вызываться только для уже зашифрованного документа. Этот метод можно использовать в надстройке COM для отображения любых пользовательских интерфейсов, в зависимости от миссии пользователя. Например, в сценарии чистого шифрования можно отобразить диалоговое окно, чтобы изменить пароль документа. В сценарии управления правами вы можете определить, следует ли отображать диалоговое окно для изменения разрешений или отображения разрешений пользователя.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

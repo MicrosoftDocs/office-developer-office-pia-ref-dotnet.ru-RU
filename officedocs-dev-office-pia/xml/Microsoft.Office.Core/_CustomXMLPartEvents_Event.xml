@@ -1,13 +1,5 @@
 <Type Name="_CustomXMLPartEvents_Event" FullName="Microsoft.Office.Core._CustomXMLPartEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="288de8d25064212269e03f6466fa1d1b34040cd5" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662629" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CustomXMLPartEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="288de8d25064212269e03f6466fa1d1b34040cd5" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662629" /></Metadata><TypeSignature Language="C#" Value="public interface _CustomXMLPartEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomXMLPartEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLPartEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CustomXMLPartEvents_Event" />
@@ -29,7 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Интерфейс события для Microsoft Office <see cref="T:Microsoft.Office.Core.CustomXMLPart" /> объекта события.</summary>
+    <summary>Интерфейс событий для событий объектов <see cref="T:Microsoft.Office.Core.CustomXMLPart" /> Microsoft Office.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
         <ReturnType>Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterDeleteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возникает после удалении узла в <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</summary>
+        <summary>Возникает после удаления узла в <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекте.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -67,7 +59,7 @@
         <ReturnType>Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterInsertEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возникает после вставки узла в <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</summary>
+        <summary>Возникает после вставки узла в <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объект.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -86,7 +78,7 @@
         <ReturnType>Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterReplaceEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Происходит после замене узла в <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</summary>
+        <summary>Возникает сразу после замены узла в <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекте.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="UserPermission" FullName="Microsoft.Office.Core.UserPermission">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ff15509d065f51ea294d05c3618fe720cd2f4bdf" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662116" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface UserPermission : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ff15509d065f51ea294d05c3618fe720cd2f4bdf" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662116" /></Metadata><TypeSignature Language="C#" Value="public interface UserPermission : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserPermission implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.UserPermission" />
   <TypeSignature Language="VB.NET" Value="Public Interface UserPermission&#xA;Implements _IMsoDispObj" />
@@ -30,13 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Объект <b>UserPermission</b> связывает набор разрешений на активном документе с одним пользователем и необязательные срока.</summary>
-    <remarks>
-      <para>Представляет элемент активных документов <see cref="T:Microsoft.Office.Core.Permission" /> семейства.</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core.Permission.Add(System.String,System.Object,System.Object)" /> метод объекта <b>разрешения</b> предоставить соответствующие разрешения на активного документа для нового пользователя, со сроком необязательно. Использование <see cref="M:Microsoft.Office.Core.UserPermission.Remove" /> метод объекта <b>UserPermission</b> для удаления пользователя и разрешения пользователя.</para>
-      <para>Во время некоторые разрешения, предоставленные через пользовательский интерфейс (например, <b>msoPermissionPrint</b>) применяются ко всем пользователям, можно использовать объект <b>UserPermission</b> для назначения их на основе пользователя с датами окончания срока действия пользователя.</para>
-      <para />
-    </remarks>
+    <summary>Объект <b>UserPermission</b> связывает набор разрешений для активного документа с одним пользователем и дополнительным сроком действия.</summary>
+    <remarks><para>Представляет члена <see cref="T:Microsoft.Office.Core.Permission" /> коллекции активных документов.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.Permission.Add(System.String,System.Object,System.Object)" /> метод объекта <b>Permission</b> для предоставления определенным разрешениям для активного документа новому пользователю с необязательным сроком действия. Используйте <see cref="M:Microsoft.Office.Core.UserPermission.Remove" /> метод объекта <b>UserPermission</b> для удаления пользователя и разрешений пользователя.</para> В 
+      <para>то время как некоторые разрешения, предоставленные через пользовательский интерфейс (например, <b>мсопермиссионпринт</b>), применяются ко всем пользователям, можно использовать объект <b>UserPermission</b> , чтобы назначать их для каждого пользователя с датами истечения срока действия на уровне пользователя.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -65,7 +55,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -96,12 +86,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.Sync.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.Sync.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExpirationDate">
@@ -130,12 +120,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает необязательный срок действия разрешений для активных документов, назначенных пользователю, связанному с указанным <see cref="T:Microsoft.Office.Core.UserPermission" /> объекта.</summary>
+        <summary>Возвращает или задает необязательный срок действия разрешений для активного документа, назначенного пользователю, связанному с указанным <see cref="T:Microsoft.Office.Core.UserPermission" /> объектом.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Объект <b>UserPermission</b> связывает набор разрешений на активном документе с одним пользователем и необязательные срока. Свойство <b>ExpirationDate</b> Возвращает или задает необязательный срок действия указанного объекта <b>UserPermission</b> с использованием местного времени.</para>
-          <para />
-        </remarks>
+        <remarks><para>Объект <b>UserPermission</b> связывает набор разрешений для активного документа с одним пользователем и дополнительным сроком действия. Свойство <b>ExpirationDate</b> Возвращает или задает необязательный срок действия указанного объекта <b>UserPermission</b> с использованием местного часового пояса.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -192,12 +180,28 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <b>целое число</b> , представляющее разрешения для активных документов, назначенных пользователю, связанному с указанным <see cref="T:Microsoft.Office.Core.UserPermission" /> объекта.</summary>
+        <summary>Возвращает или задает <b>целое</b> значение, представляющее разрешения для активного документа, назначенного пользователю, связанному с <see cref="T:Microsoft.Office.Core.UserPermission" /> указанным объектом.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Свойство <b>разрешений</b> может быть один или сочетание <see cref="T:Microsoft.Office.Core.MsoPermission" /> константы.</para> Объект 
-          <para><b>UserPermission</b> связывает набор разрешений на активном документе с одним пользователем и необязательные срока. Свойство <b>Permission</b> возвращает набор разрешений определяются указанным объектом <b>UserPermission</b> . Хотя некоторые разрешения, предоставленные через пользовательский интерфейс (например, <b>msoPermissionPrint</b>) применяются ко всем пользователям, можно использовать объект <b>UserPermission</b> для назначения их на основе пользователя с датами окончания срока действия пользователя.</para><list type="bullet"><item><para><b>MsoPermissionView</b> или <b>msoPermissionRead</b> параметр соответствует параметру чтения в пользовательском интерфейсе.</para></item><item><para><b>MsoPermissionExtract</b> параметр соответствует параметру Разрешить пользователям с доступ для чтения, чтобы скопировать содержимое параметра в пользовательском интерфейсе.</para></item> Параметр 
-            <item><para><b>msoPermissionChange</b> соответствует параметру изменения в пользовательском интерфейсе. Параметр <b>msoPermissionChange</b> представляет суммы <b>msoPermissionView</b> + <b>msoPermissionEdit</b> + <b>msoPermissionSave</b> + <b>msoPermissionExtract</b> и позволяет пользователям просматривать , изменение, копирование и сохранить, но не печати документа.</para></item><item><para><b>MsoPermissionPrint</b> параметр соответствует параметру thePrint контента в пользовательском интерфейсе.</para></item> Параметр <b>msoPermissionObjectModel</b><item><para>соответствующий доступ к программным способом контента параметра в пользовательском интерфейсе и позволяет пользователям открывать документ программным способом через соответствующей объектной модели. Пользователям без <b>msoPermissionObjectModel</b> нельзя использовать объектную модель для определить собственные права, так, как отключить программный доступ к.</para></item></list><para /></remarks>
+        <remarks><para>Свойство <b>Permission</b> может быть одной или комбинацией <see cref="T:Microsoft.Office.Core.MsoPermission" /> констант.</para> 
+          <para>Объект <b>UserPermission</b> связывает набор разрешений для активного документа с одним пользователем и дополнительным сроком действия. Свойство <b>Permission</b> возвращает набор разрешений пользователя, определенных указанным объектом <b>UserPermission</b> . В то время как некоторые разрешения, предоставленные через пользовательский интерфейс (например, <b>мсопермиссионпринт</b>), применяются ко всем пользователям, можно использовать объект <b>UserPermission</b> , чтобы назначать их для каждого пользователя с датами истечения срока действия на уровне пользователя.</para> 
+          <list type="bullet"> 
+            <item>
+              <para>Параметр <b>мсопермиссионвиев</b> или <b>мсопермиссионреад</b> соответствует параметру Read в пользовательском интерфейсе.</para>
+            </item> 
+            <item>
+              <para>Параметр <b>мсопермиссионекстракт</b> соответствует параметру Разрешить пользователям с доступом на чтение для копирования содержимого в пользовательском интерфейсе.</para>
+            </item> 
+            <item>
+              <para>Параметр <b>мсопермиссиончанже</b> соответствует параметру Change в пользовательском интерфейсе. Параметр <b>мсопермиссиончанже</b> представляет сумму <b>мсопермиссионвиев</b> + <b>мсопермиссионедит</b> + <b>мсопермиссионсаве</b> + <b>мсопермиссионекстракт</b> и позволяет пользователям просматривать, редактировать, копировать и сохранять документы, но не печатать их.</para>
+            </item> 
+            <item>
+              <para>Параметр <b>мсопермиссионпринт</b> соответствует параметру содержимого сепринт в пользовательском интерфейсе.</para>
+            </item> 
+            <item>
+              <para>Параметр <b>мсопермиссионобжектмодел</b> соответствует программному средству доступа к контенту в пользовательском интерфейсе и позволяет пользователям получать доступ к документам программным способом через его объектную модель. Пользователи без <b>мсопермиссионобжектмодел</b> не могут использовать объектную модель для определения собственных прав, так как программный доступ отключен.</para>
+            </item> 
+          </list>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Remove">
@@ -221,11 +225,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет указанный <see cref="T:Microsoft.Office.Core.UserPermission" /> объекта из <see cref="T:Microsoft.Office.Core.Permission" /> коллекцию активных документов.</summary>
-        <remarks>
-          <para>Объект <b>UserPermission</b> связывает набор разрешений на активном документе с одним пользователем и необязательные срока. Метод <b>Remove</b> удаляет пользователя и набор разрешений определяются указанным объектом <b>UserPermission</b> .</para>
-          <para />
-        </remarks>
+        <summary>Удаляет указанный <see cref="T:Microsoft.Office.Core.UserPermission" /> объект из <see cref="T:Microsoft.Office.Core.Permission" /> коллекции активного документа.</summary>
+        <remarks><para>Объект <b>UserPermission</b> связывает набор разрешений для активного документа с одним пользователем и дополнительным сроком действия. Метод <b>Remove</b> удаляет пользователя и набор разрешений пользователя, определенных указанным объектом <b>UserPermission</b> .</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="UserId">
@@ -251,12 +253,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имя электронной почты пользователя, разрешения которого на активном документе определяются указанным <see cref="T:Microsoft.Office.Core.UserPermission" /> объекта.</summary>
+        <summary>Возвращает имя электронной почты пользователя, разрешения на активный документ которого определяются указанным <see cref="T:Microsoft.Office.Core.UserPermission" /> объектом.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Объект <b>UserPermission</b> связывает набор разрешений на активном документе с одним пользователем и необязательные срока. Свойство <b>UserID</b> возвращает имя в виде электронной почты пользователя, разрешения которого определяются указанным объектом <b>UserPermission</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Объект <b>UserPermission</b> связывает набор разрешений для активного документа с одним пользователем и дополнительным сроком действия. Свойство <b>UserID</b> возвращает имя в форме электронной почты пользователя, разрешения которого определяются указанным объектом <b>UserPermission</b> .</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

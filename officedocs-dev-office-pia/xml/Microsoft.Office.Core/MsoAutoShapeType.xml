@@ -1,13 +1,5 @@
 <Type Name="MsoAutoShapeType" FullName="Microsoft.Office.Core.MsoAutoShapeType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a05ac2c8ecb9d1c218001213b2128f8761649120" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662036" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoAutoShapeType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a05ac2c8ecb9d1c218001213b2128f8761649120" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662036" /></Metadata><TypeSignature Language="C#" Value="public enum MsoAutoShapeType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAutoShapeType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAutoShapeType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoAutoShapeType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип фигуры для объекта <b>автофигуры</b> .</summary>
+    <summary>Задает тип фигуры для объекта <b>автофигуры</b> .</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>94</MemberValue>
       <Docs>
-        <summary>16-конечная звезда.</summary>
+        <summary>16 – звезда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShape24pointStar">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>95</MemberValue>
       <Docs>
-        <summary>24-конечная звезда.</summary>
+        <summary>24 пт, звезда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShape32pointStar">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>96</MemberValue>
       <Docs>
-        <summary>32-конечная звезда.</summary>
+        <summary>32 – точка звезда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShape4pointStar">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>91</MemberValue>
       <Docs>
-        <summary>4-конечная звезда.</summary>
+        <summary>4 Пт: звезда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShape5pointStar">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>92</MemberValue>
       <Docs>
-        <summary>5-конечная звезда.</summary>
+        <summary>5 пт, звезда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShape6pointStar">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>93</MemberValue>
       <Docs>
-        <summary>8-конечная звезда.</summary>
+        <summary>8 – звезда.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonBackorPrevious">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>129</MemberValue>
       <Docs>
-        <summary>Назад или кнопка Назад. Поддерживает мышью и наведите указатель мыши на действия.</summary>
+        <summary>Кнопка "назад" или "назад". Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonBeginning">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>131</MemberValue>
       <Docs>
-        <summary>Кнопка начала. Поддерживает мышью и наведите указатель мыши на действия.</summary>
+        <summary>Кнопка "начало". Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonCustom">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>125</MemberValue>
       <Docs>
-        <summary>Кнопка без изображений по умолчанию и текст. Поддерживает мышью и наведите указатель мыши на действия.</summary>
+        <summary>Кнопка без рисунка или текста, используемого по умолчанию. Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonDocument">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>134</MemberValue>
       <Docs>
-        <summary>Кнопка документа. Поддерживает мышью и наведите указатель мыши на действия.</summary>
+        <summary>Кнопка "документ". Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonEnd">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>132</MemberValue>
       <Docs>
-        <summary>Кнопка плана. Поддерживает мышью и наведите указатель мыши на действия.</summary>
+        <summary>Кнопка "завершить". Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonForwardorNext">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>130</MemberValue>
       <Docs>
-        <summary>Переадресация или Далее. Поддерживает мышью и наведите указатель мыши на действия.</summary>
+        <summary>Кнопка "вперед" или "Далее". Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonHelp">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>127</MemberValue>
       <Docs>
-        <summary>Кнопка "Справка". Поддерживает мышью и наведите указатель мыши на действия.</summary>
+        <summary>Кнопка "Справка". Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonHome">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>126</MemberValue>
       <Docs>
-        <summary>Домашняя страница кнопка. Поддерживает мышью и наведите указатель мыши на действия.</summary>
+        <summary>Кнопка "домой". Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonInformation">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>128</MemberValue>
       <Docs>
-        <summary>Кнопка сведений. Поддерживает мышью и наведите указатель мыши на действия.</summary>
+        <summary>Информационная кнопка. Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonMovie">
@@ -401,7 +393,7 @@
       </ReturnValue>
       <MemberValue>136</MemberValue>
       <Docs>
-        <summary>Кнопка фильма. Поддерживает мышью и наведите указатель мыши на действия.</summary>
+        <summary>Кнопка "фильм". Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonReturn">
@@ -420,7 +412,7 @@
       </ReturnValue>
       <MemberValue>133</MemberValue>
       <Docs>
-        <summary>Кнопка возврата. Поддерживает мышью и наведите указатель мыши на действия.</summary>
+        <summary>Кнопка возврата. Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonSound">
@@ -439,7 +431,7 @@
       </ReturnValue>
       <MemberValue>135</MemberValue>
       <Docs>
-        <summary>При нажатии кнопки звук. Поддерживает мышью и наведите указатель мыши на действия.</summary>
+        <summary>Кнопка "звук". Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeArc">
@@ -458,7 +450,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>ARC.</summary>
+        <summary>Гипербол.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeBalloon">
@@ -477,7 +469,7 @@
       </ReturnValue>
       <MemberValue>137</MemberValue>
       <Docs>
-        <summary>В документе.</summary>
+        <summary>Видно.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeBentArrow">
@@ -496,7 +488,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>Стрелка блокировки, исходя из кривой угол 90 градусов.</summary>
+        <summary>Стрелка блокировки, которая следует за изогнутым углом 90 градусов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeBentUpArrow">
@@ -515,7 +507,7 @@
       </ReturnValue>
       <MemberValue>44</MemberValue>
       <Docs>
-        <summary>Стрелка блокировки, исходя из четкие угол 90 градусов. Точки вверх по умолчанию.</summary>
+        <summary>Блок "стрелка" следует за острым углом 90 градусов. Указывает по умолчанию.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeBevel">
@@ -534,7 +526,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Багетная рамка.</summary>
+        <summary>Конус.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeBlockArc">
@@ -553,7 +545,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Арку.</summary>
+        <summary>Блокировать дугу.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCan">
@@ -572,7 +564,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>CAN.</summary>
+        <summary>Можно.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeChartPlus">
@@ -686,7 +678,7 @@
       </ReturnValue>
       <MemberValue>60</MemberValue>
       <Docs>
-        <summary>Стрелка блокировки, исходя из кривой 180-градусов.</summary>
+        <summary>Стрелка блокировки, которая следует за изогнутым углом 180 градусов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCloud">
@@ -724,7 +716,7 @@
       </ReturnValue>
       <MemberValue>108</MemberValue>
       <Docs>
-        <summary>Выноска-облако.</summary>
+        <summary>Выноска облачного облака.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCorner">
@@ -781,7 +773,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Кросс.</summary>
+        <summary>Состав.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCube">
@@ -800,7 +792,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Куб.</summary>
+        <summary>Куба.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCurvedDownArrow">
@@ -819,7 +811,7 @@
       </ReturnValue>
       <MemberValue>48</MemberValue>
       <Docs>
-        <summary>Стрелка блокировки, закругленная вниз.</summary>
+        <summary>Блочная стрелка, которая изогнута вниз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCurvedDownRibbon">
@@ -838,7 +830,7 @@
       </ReturnValue>
       <MemberValue>100</MemberValue>
       <Docs>
-        <summary>Баннер ленты, закругленная вниз.</summary>
+        <summary>Баннер ленты, которая изогнута вниз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCurvedLeftArrow">
@@ -857,7 +849,7 @@
       </ReturnValue>
       <MemberValue>46</MemberValue>
       <Docs>
-        <summary>Блокировать появившуюся стрелку влево кривых.</summary>
+        <summary>Блок направленной влево линии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCurvedRightArrow">
@@ -876,7 +868,7 @@
       </ReturnValue>
       <MemberValue>45</MemberValue>
       <Docs>
-        <summary>Стрелка блокировки, закругленная справа.</summary>
+        <summary>Прямоугольная стрелка, которая имеет право на кривую.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCurvedUpArrow">
@@ -895,7 +887,7 @@
       </ReturnValue>
       <MemberValue>47</MemberValue>
       <Docs>
-        <summary>Блокировать появившуюся стрелку закругляется вверх.</summary>
+        <summary>Блоковая стрелка, которая раскривой вверх.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCurvedUpRibbon">
@@ -914,7 +906,7 @@
       </ReturnValue>
       <MemberValue>99</MemberValue>
       <Docs>
-        <summary>Баннер ленты, которая закругляется вверх.</summary>
+        <summary>Баннер ленты, которая раскривой вверх.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDecagon">
@@ -1009,7 +1001,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Пончик.</summary>
+        <summary>Кольцо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDoubleBrace">
@@ -1028,7 +1020,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>Двойные фигурные скобки.</summary>
+        <summary>Двойная фигурная скобка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDoubleBracket">
@@ -1047,7 +1039,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>Двойные круглые скобки.</summary>
+        <summary>Двойная скобка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDoubleWave">
@@ -1066,7 +1058,7 @@
       </ReturnValue>
       <MemberValue>104</MemberValue>
       <Docs>
-        <summary>Двойная звукового файла.</summary>
+        <summary>Двойная волна.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDownArrow">
@@ -1085,7 +1077,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>Блокировать стрелка, указывающая вниз.</summary>
+        <summary>Блоковая стрелка, указывающая вниз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDownArrowCallout">
@@ -1123,7 +1115,7 @@
       </ReturnValue>
       <MemberValue>98</MemberValue>
       <Docs>
-        <summary>Баннер ленты с помощью центра область под ленты завершается.</summary>
+        <summary>Баннер ленты с расположенной под ней центральной областью.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeExplosion1">
@@ -1142,7 +1134,7 @@
       </ReturnValue>
       <MemberValue>89</MemberValue>
       <Docs>
-        <summary>Развертывание.</summary>
+        <summary>Развертывани.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeExplosion2">
@@ -1161,7 +1153,7 @@
       </ReturnValue>
       <MemberValue>90</MemberValue>
       <Docs>
-        <summary>Развертывание.</summary>
+        <summary>Развертывани.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartAlternateProcess">
@@ -1180,7 +1172,7 @@
       </ReturnValue>
       <MemberValue>62</MemberValue>
       <Docs>
-        <summary>Альтернативный процесс блок-схемы.</summary>
+        <summary>Альтернативный символ блок-схемы процесса.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartCard">
@@ -1199,7 +1191,7 @@
       </ReturnValue>
       <MemberValue>75</MemberValue>
       <Docs>
-        <summary>Блок-схемы карточки.</summary>
+        <summary>Символ блок-схемы карты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartCollate">
@@ -1218,7 +1210,7 @@
       </ReturnValue>
       <MemberValue>79</MemberValue>
       <Docs>
-        <summary>Сопоставление блок-схемы.</summary>
+        <summary>Символ блок-схемы сортировки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartConnector">
@@ -1237,7 +1229,7 @@
       </ReturnValue>
       <MemberValue>73</MemberValue>
       <Docs>
-        <summary>Блок-схемы соединителя.</summary>
+        <summary>Символ блок-схемы Connector.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartData">
@@ -1256,7 +1248,7 @@
       </ReturnValue>
       <MemberValue>64</MemberValue>
       <Docs>
-        <summary>Блок-схемы данных.</summary>
+        <summary>Символ блок-схемы данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartDecision">
@@ -1275,7 +1267,7 @@
       </ReturnValue>
       <MemberValue>63</MemberValue>
       <Docs>
-        <summary>Символ блок-схема принятия решений.</summary>
+        <summary>Символ блок-схемы решения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartDelay">
@@ -1294,7 +1286,7 @@
       </ReturnValue>
       <MemberValue>84</MemberValue>
       <Docs>
-        <summary>Задержка блок-схемы.</summary>
+        <summary>Символ блок-схемы задержки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartDirectAccessStorage">
@@ -1313,7 +1305,7 @@
       </ReturnValue>
       <MemberValue>87</MemberValue>
       <Docs>
-        <summary>Блок-схемы прямого доступа хранилища.</summary>
+        <summary>Символ блок-схемы хранилища прямого доступа.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartDisplay">
@@ -1332,7 +1324,7 @@
       </ReturnValue>
       <MemberValue>88</MemberValue>
       <Docs>
-        <summary>Отображение блок-схемы.</summary>
+        <summary>Отобразить символ блок-схемы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartDocument">
@@ -1351,7 +1343,7 @@
       </ReturnValue>
       <MemberValue>67</MemberValue>
       <Docs>
-        <summary>Блок-схемы документа.</summary>
+        <summary>Символ блок-схемы документа.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartExtract">
@@ -1370,7 +1362,7 @@
       </ReturnValue>
       <MemberValue>81</MemberValue>
       <Docs>
-        <summary>Извлеките блок-схемы.</summary>
+        <summary>Извлеките символ блок-схемы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartInternalStorage">
@@ -1389,7 +1381,7 @@
       </ReturnValue>
       <MemberValue>66</MemberValue>
       <Docs>
-        <summary>Внутреннее хранилище блок-схемы.</summary>
+        <summary>Внутренний символ блок-схемы хранилища.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartMagneticDisk">
@@ -1408,7 +1400,7 @@
       </ReturnValue>
       <MemberValue>86</MemberValue>
       <Docs>
-        <summary>Блок-схемы магнитным диска.</summary>
+        <summary>Символ блок-схемы магнитного диска.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartManualInput">
@@ -1427,7 +1419,7 @@
       </ReturnValue>
       <MemberValue>71</MemberValue>
       <Docs>
-        <summary>Символ ручного ввода блок-схема.</summary>
+        <summary>Символ блок-схемы ввода вручную.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartManualOperation">
@@ -1446,7 +1438,7 @@
       </ReturnValue>
       <MemberValue>72</MemberValue>
       <Docs>
-        <summary>Блок-схемы ручные операции.</summary>
+        <summary>Символ блок-схемы ручного действия.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartMerge">
@@ -1465,7 +1457,7 @@
       </ReturnValue>
       <MemberValue>82</MemberValue>
       <Docs>
-        <summary>Объединение блок-схемы.</summary>
+        <summary>Символ блок-схемы слияния.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartMultidocument">
@@ -1484,7 +1476,7 @@
       </ReturnValue>
       <MemberValue>68</MemberValue>
       <Docs>
-        <summary>Блок-схема несколькими документами символа.</summary>
+        <summary>Символ многодокументной блок-схемы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartOfflineStorage">
@@ -1522,7 +1514,7 @@
       </ReturnValue>
       <MemberValue>74</MemberValue>
       <Docs>
-        <summary>Блок-схемы страницу соединителя.</summary>
+        <summary>Символ блок-схемы для автономной страницы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartOr">
@@ -1541,7 +1533,7 @@
       </ReturnValue>
       <MemberValue>78</MemberValue>
       <Docs>
-        <summary>Блок-схема символ «Или».</summary>
+        <summary>"Или" символ блок-схемы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartPredefinedProcess">
@@ -1560,7 +1552,7 @@
       </ReturnValue>
       <MemberValue>65</MemberValue>
       <Docs>
-        <summary>Типовой процесс блок-схемы.</summary>
+        <summary>Предварительно определенный символ блок-схемы процесса.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartPreparation">
@@ -1579,7 +1571,7 @@
       </ReturnValue>
       <MemberValue>70</MemberValue>
       <Docs>
-        <summary>Блок-схемы подготовки.</summary>
+        <summary>Символ "Подготовка блок-схемы".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartProcess">
@@ -1598,7 +1590,7 @@
       </ReturnValue>
       <MemberValue>61</MemberValue>
       <Docs>
-        <summary>Символ блок-схема процесса.</summary>
+        <summary>Символ блок-схемы процесса.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartPunchedTape">
@@ -1617,7 +1609,7 @@
       </ReturnValue>
       <MemberValue>76</MemberValue>
       <Docs>
-        <summary>Блок-схемы перфорированными ленты.</summary>
+        <summary>Символ блок-схемы с перфорацией.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartSequentialAccessStorage">
@@ -1636,7 +1628,7 @@
       </ReturnValue>
       <MemberValue>85</MemberValue>
       <Docs>
-        <summary>Последовательный доступ хранилища блок-схемы.</summary>
+        <summary>Символ блок-схемы хранилища последовательного доступа.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartSort">
@@ -1655,7 +1647,7 @@
       </ReturnValue>
       <MemberValue>80</MemberValue>
       <Docs>
-        <summary>Символ блок-схема сортировки.</summary>
+        <summary>Символ схемы сортировки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartStoredData">
@@ -1674,7 +1666,7 @@
       </ReturnValue>
       <MemberValue>83</MemberValue>
       <Docs>
-        <summary>Блок-схемы сохраненных данных.</summary>
+        <summary>Сохраненный символ блок-схемы данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartSummingJunction">
@@ -1693,7 +1685,7 @@
       </ReturnValue>
       <MemberValue>77</MemberValue>
       <Docs>
-        <summary>Суммирование соединения блок-схемы.</summary>
+        <summary>Символ блок-схемы соединения с суммированием.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartTerminator">
@@ -1712,7 +1704,7 @@
       </ReturnValue>
       <MemberValue>69</MemberValue>
       <Docs>
-        <summary>Блок-схема символа конца.</summary>
+        <summary>Символ блок-схемы терминатора.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFoldedCorner">
@@ -1731,7 +1723,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Загнутый угол.</summary>
+        <summary>Угол с сгибом.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFrame">
@@ -1845,7 +1837,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Основа.</summary>
+        <summary>Основе.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeHeptagon">
@@ -1902,7 +1894,7 @@
       </ReturnValue>
       <MemberValue>102</MemberValue>
       <Docs>
-        <summary>Горизонтальные полосы прокрутки.</summary>
+        <summary>Горизонтальная полоса прокрутки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeIsoscelesTriangle">
@@ -1921,7 +1913,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Равнобедренный.</summary>
+        <summary>Исосцелес треугольник.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftArrow">
@@ -1940,7 +1932,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>Блокировать стрелки, направленные влево.</summary>
+        <summary>Блок стрелка, указывающая влево.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftArrowCallout">
@@ -1959,7 +1951,7 @@
       </ReturnValue>
       <MemberValue>54</MemberValue>
       <Docs>
-        <summary>Выноска с стрелки, направленные влево.</summary>
+        <summary>Выноска со стрелкой влево.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftBrace">
@@ -1997,7 +1989,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>Левую скобку.</summary>
+        <summary>Левая скобка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftCircularArrow">
@@ -2035,7 +2027,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>Стрелка блока с стрелки, указывающие влево и вправо.</summary>
+        <summary>Фигурная стрелка с наконечниками стрелок, указывающих влево и вправо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftRightArrowCallout">
@@ -2054,7 +2046,7 @@
       </ReturnValue>
       <MemberValue>57</MemberValue>
       <Docs>
-        <summary>Выноска со стрелками, которые указывают слева и справа.</summary>
+        <summary>Выноска со стрелками влево и вправо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftRightCircularArrow">
@@ -2111,7 +2103,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>Блокировать стрелка вверх и с помощью стрелок, указывающих слева, справа.</summary>
+        <summary>Блокировка стрелки, указывающей влево, вправо и вверх.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftUpArrow">
@@ -2130,7 +2122,7 @@
       </ReturnValue>
       <MemberValue>43</MemberValue>
       <Docs>
-        <summary>Стрелка блок со стрелками, выберите слева и вверх.</summary>
+        <summary>Блок стрелка с наконечниками, указывающей влево и вверх.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLightningBolt">
@@ -2168,7 +2160,7 @@
       </ReturnValue>
       <MemberValue>109</MemberValue>
       <Docs>
-        <summary>Выноска с границы и линии горизонтальной выноску.</summary>
+        <summary>Выноска с границей и горизонтальной чертой выноски.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout1AccentBar">
@@ -2187,7 +2179,7 @@
       </ReturnValue>
       <MemberValue>113</MemberValue>
       <Docs>
-        <summary>Выноска с горизонтальная черта.</summary>
+        <summary>Выноска с горизонтальной контрастной полосой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout1BorderandAccentBar">
@@ -2206,7 +2198,7 @@
       </ReturnValue>
       <MemberValue>121</MemberValue>
       <Docs>
-        <summary>Выноска с границы и горизонтальная черта.</summary>
+        <summary>Выноска с границей и горизонтальной чертой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout1NoBorder">
@@ -2225,7 +2217,7 @@
       </ReturnValue>
       <MemberValue>117</MemberValue>
       <Docs>
-        <summary>Выноска с горизонтальной линии.</summary>
+        <summary>Выноска с горизонтальной строкой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout2">
@@ -2244,7 +2236,7 @@
       </ReturnValue>
       <MemberValue>110</MemberValue>
       <Docs>
-        <summary>Выноска с диагональной прямой.</summary>
+        <summary>Выноска с диагональной прямой строкой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout2AccentBar">
@@ -2263,7 +2255,7 @@
       </ReturnValue>
       <MemberValue>114</MemberValue>
       <Docs>
-        <summary>Выноска с диагональной выноски строки и вертикальной чертой.</summary>
+        <summary>Выноска с диагональной линией выноски и чертой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout2BorderandAccentBar">
@@ -2282,7 +2274,7 @@
       </ReturnValue>
       <MemberValue>122</MemberValue>
       <Docs>
-        <summary>Выноска с границы, диагональные прямой и черта.</summary>
+        <summary>Выноска с границей, диагональной линией и чертой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout2NoBorder">
@@ -2301,7 +2293,7 @@
       </ReturnValue>
       <MemberValue>118</MemberValue>
       <Docs>
-        <summary>Выноска без выноски линии границы и вправо.</summary>
+        <summary>Выноска без границы и диагональной линии выноски.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout3">
@@ -2320,7 +2312,7 @@
       </ReturnValue>
       <MemberValue>111</MemberValue>
       <Docs>
-        <summary>Выноска с угловые строки.</summary>
+        <summary>Выноска со угловой строкой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout3AccentBar">
@@ -2339,7 +2331,7 @@
       </ReturnValue>
       <MemberValue>115</MemberValue>
       <Docs>
-        <summary>Выноска с угловые выноски строки и вертикальной чертой.</summary>
+        <summary>Выноска с угловой линией выноски и чертой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout3BorderandAccentBar">
@@ -2358,7 +2350,7 @@
       </ReturnValue>
       <MemberValue>123</MemberValue>
       <Docs>
-        <summary>Выноска с границы, линии угловые выноски и черта.</summary>
+        <summary>Выноска с границей, угловой линией выноски и чертой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout3NoBorder">
@@ -2377,7 +2369,7 @@
       </ReturnValue>
       <MemberValue>119</MemberValue>
       <Docs>
-        <summary>Выноска с нет границы и линии угловые выноски.</summary>
+        <summary>Выноска без границы и угловой линии выноски.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout4">
@@ -2396,7 +2388,7 @@
       </ReturnValue>
       <MemberValue>112</MemberValue>
       <Docs>
-        <summary>Выноска с выноски отрезков формирование U фигуры.</summary>
+        <summary>Выноска с сегментами линии выноски, формирующими U фигуру.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout4AccentBar">
@@ -2415,7 +2407,7 @@
       </ReturnValue>
       <MemberValue>116</MemberValue>
       <Docs>
-        <summary>Выноска с черта и выноски линия сегменты формирование U фигуры.</summary>
+        <summary>Выноска с контрастными линиями и линиями выноски, формирующими форму U.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout4BorderandAccentBar">
@@ -2434,7 +2426,7 @@
       </ReturnValue>
       <MemberValue>124</MemberValue>
       <Docs>
-        <summary>Выноска с границы, черта и выноски отрезков формирование U фигуры.</summary>
+        <summary>Выноска с границей, контрастной линией и линиями выноски, формирующими форму U.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout4NoBorder">
@@ -2453,7 +2445,7 @@
       </ReturnValue>
       <MemberValue>120</MemberValue>
       <Docs>
-        <summary>Выноска с без границ и выноски отрезков формирование U фигуры.</summary>
+        <summary>Выноска без границ и сегментов линии выноски, образующих форму U.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineInverse">
@@ -2605,7 +2597,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Возвращаемое значение. Указывает сочетание других состояний.</summary>
+        <summary>Только возвращаемое значение; Указывает комбинацию других состояний.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeMoon">
@@ -2624,7 +2616,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>Луна.</summary>
+        <summary>Moon.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeNonIsoscelesTrapezoid">
@@ -2662,7 +2654,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Символ «Нет».</summary>
+        <summary>Символ "No".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeNotchedRightArrow">
@@ -2681,7 +2673,7 @@
       </ReturnValue>
       <MemberValue>50</MemberValue>
       <Docs>
-        <summary>Стрелка с вырезом блока, который указывает справа.</summary>
+        <summary>Прямоугольная стрелка с высечками, указывающая вправо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeNotPrimitive">
@@ -2719,7 +2711,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Восьмиугольник.</summary>
+        <summary>Октагон.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeOval">
@@ -2738,7 +2730,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Овал.</summary>
+        <summary>Где.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeOvalCallout">
@@ -2757,7 +2749,7 @@
       </ReturnValue>
       <MemberValue>107</MemberValue>
       <Docs>
-        <summary>Овальная выноска.</summary>
+        <summary>Выноска в форме овалов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeParallelogram">
@@ -2776,7 +2768,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Параллелограмм.</summary>
+        <summary>Вправо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapePentagon">
@@ -2852,7 +2844,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>Табличку.</summary>
+        <summary>Плакуе.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapePlaqueTabs">
@@ -2890,7 +2882,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>Блокировать стрелок, указывающих вверх, вниз, влево и правой кнопкой.</summary>
+        <summary>Фигурные стрелки, указывающие вверх, вниз, влево и вправо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeQuadArrowCallout">
@@ -2909,7 +2901,7 @@
       </ReturnValue>
       <MemberValue>59</MemberValue>
       <Docs>
-        <summary>Выноска со стрелками, выберите пункт вверх, вниз, слева и правой кнопкой.</summary>
+        <summary>Выноска со стрелками, указывающими вверх, вниз, влево и вправо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRectangle">
@@ -2928,7 +2920,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Прямоугольник.</summary>
+        <summary>Раскрашива.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRectangularCallout">
@@ -2947,7 +2939,7 @@
       </ReturnValue>
       <MemberValue>105</MemberValue>
       <Docs>
-        <summary>Прямоугольный выноски.</summary>
+        <summary>Прямоугольная выноска.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRegularPentagon">
@@ -2985,7 +2977,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>Стрелка блока, который указывает справа.</summary>
+        <summary>Блоковая стрелка, указывающая вправо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRightArrowCallout">
@@ -3004,7 +2996,7 @@
       </ReturnValue>
       <MemberValue>53</MemberValue>
       <Docs>
-        <summary>Выноска с стрелка, указывающая вправо.</summary>
+        <summary>Выноска со стрелкой, указывающей вправо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRightBrace">
@@ -3023,7 +3015,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>Закрывающая фигурная скобка.</summary>
+        <summary>Правая фигурная скобка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRightBracket">
@@ -3042,7 +3034,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>Правая квадратная скобка.</summary>
+        <summary>Правая скобка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRightTriangle">
@@ -3061,7 +3053,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Треугольник вправо.</summary>
+        <summary>Правый треугольник.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRound1Rectangle">
@@ -3137,7 +3129,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Скругленными углами.</summary>
+        <summary>Скругленный прямоугольник.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRoundedRectangularCallout">
@@ -3156,7 +3148,7 @@
       </ReturnValue>
       <MemberValue>106</MemberValue>
       <Docs>
-        <summary>Округленный прямоугольник образный выноски.</summary>
+        <summary>Скругленная выноска в форме прямоугольника.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeSmileyFace">
@@ -3289,7 +3281,7 @@
       </ReturnValue>
       <MemberValue>49</MemberValue>
       <Docs>
-        <summary>Блокировать стрелка, указывающая вправо с полосы в оконечных.</summary>
+        <summary>Блоковая стрелка, указывающая вправо с использованием полос на хвосте.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeSun">
@@ -3365,7 +3357,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Трапеции.</summary>
+        <summary>Трапеци.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeUpArrow">
@@ -3384,7 +3376,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>Блокировать стрелка, указывающая вверх.</summary>
+        <summary>Заблокирующая стрелка, указывающая вверх.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeUpArrowCallout">
@@ -3422,7 +3414,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>Блок стрелка, указывающая вверх и вниз.</summary>
+        <summary>Фигурная стрелка, указывающая вверх и вниз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeUpDownArrowCallout">
@@ -3441,7 +3433,7 @@
       </ReturnValue>
       <MemberValue>58</MemberValue>
       <Docs>
-        <summary>Выноска с помощью кнопок со стрелками вверх и вниз выберите команду.</summary>
+        <summary>Выноска со стрелками, указывающими вверх и вниз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeUpRibbon">
@@ -3460,7 +3452,7 @@
       </ReturnValue>
       <MemberValue>97</MemberValue>
       <Docs>
-        <summary>Баннер ленты с областью центр над ленты завершается.</summary>
+        <summary>Заголовок ленты с областью, расположенной выше ленты, в конце концов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeUTurnArrow">
@@ -3479,7 +3471,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>Блокировать стрелка формирование U фигуры.</summary>
+        <summary>Блочная стрелка, образующая фигуру U.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeVerticalScroll">
@@ -3498,7 +3490,7 @@
       </ReturnValue>
       <MemberValue>101</MemberValue>
       <Docs>
-        <summary>Прокрутки по вертикали.</summary>
+        <summary>Вертикальная прокрутка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeWave">
@@ -3517,7 +3509,7 @@
       </ReturnValue>
       <MemberValue>103</MemberValue>
       <Docs>
-        <summary>Звукового файла.</summary>
+        <summary>WAV.</summary>
       </Docs>
     </Member>
   </Members>

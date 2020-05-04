@@ -1,13 +1,5 @@
 <Type Name="DocumentInspector" FullName="Microsoft.Office.Core.DocumentInspector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="83d3ba4e05e70ecef5955ebfa926e5bec596db14" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662095" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface DocumentInspector : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="83d3ba4e05e70ecef5955ebfa926e5bec596db14" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662095" /></Metadata><TypeSignature Language="C#" Value="public interface DocumentInspector : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentInspector implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.DocumentInspector" />
   <TypeSignature Language="VB.NET" Value="Public Interface DocumentInspector&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет модуль инспектора документов в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> семейства сайтов.</summary>
-    <remarks>
-      <para>Объект 
-        <b>DocumentInspector</b> предоставляет доступ к <see cref="M:Microsoft.Office.Core.DocumentInspector.Inspect(Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> и <see cref="M:Microsoft.Office.Core.DocumentInspector.Fix(Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> методы.  <see cref="T:Microsoft.Office.Core.DocumentInspector" /> Представляет объект пользовательских модулей инспектора документов и некоторые параметры «встроенные».    Чтобы просмотреть список встроенных параметров, откройте диалоговое окно Инспектор документов в меню файл. Первые два параметра (<b>примечания, исправления, версии и примечания</b>; <b>Свойства документа и персональные данные</b>) не указана в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> коллекции;  Вместо этого их функциональных возможностей доступна через метод <b>RemoveDocumentInformation</b> . Остальные параметры в диалоговом окне и все установленные пользовательские модули, разработанный источников сторонних производителей доступны из коллекции <b>DocumentInspectors</b> , указав значение индекса.</para>
-      <para />
-    </remarks>
+    <summary>Представляет модуль инспектора документов в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> коллекции.</summary>
+    <remarks><para>Объект 
+        <b>DocumentInspector</b> предоставляет доступ к методам <see cref="M:Microsoft.Office.Core.DocumentInspector.Inspect(Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> и <see cref="M:Microsoft.Office.Core.DocumentInspector.Fix(Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> .  <see cref="T:Microsoft.Office.Core.DocumentInspector" /> Объект представляет настраиваемые модули инспектора документов и некоторые встроенные параметры.    Чтобы просмотреть список встроенных параметров, откройте диалоговое окно Инспектор документов из меню файл. Первые два параметра (<b>комментарии, исправления, версии и заметки</b>; <b>Свойства документа и личные сведения</b>) не указаны в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> коллекции;  Вместо этого их функции можно получить с помощью метода <b>ремоведокументинформатион</b> . Остальные параметры в диалоговом окне и все установленные настраиваемые модули, разработанные сторонними источниками, доступны из коллекции <b>DocumentInspectors</b> путем указания значения индекса.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -64,7 +54,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:Microsoft.Office.Interop.Word._Application" /> объекта, представляющего создателя <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объекта. Только для чтения.</summary>
+        <summary>Получает <see cref="T:Microsoft.Office.Interop.Word._Application" /> объект, представляющий создателя <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объекта. Только для чтения.</summary>
         <value>Объект</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -95,10 +85,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.DocumentInspector" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.DocumentInspector" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,9 +114,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает описание <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -156,13 +142,11 @@
         <Parameter Name="Results" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Status">Перечисление, представляющее этого staus документа. Состояние — это выходной параметр, это означает, что возвращается значение после завершения метода его назначение.</param>
-        <param name="Results">Содержит результаты действия. Результаты является выходного параметра.</param>
-        <summary>Выполняет действие на конкретные сведения элементов или свойств документа в зависимости от инспектора документов в модуль, указанный.</summary>
-        <remarks>
-          <para>Существует два модулей инспектора документов, включенных в версии 2007 системы Microsoft Office. Это модуль комментариев и исправлений и метод свойства документа. Далее представлены первые два параметра, которые отображаются в диалоговом окне "Инспектор документов", но не доступны в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> семейства сайтов.</para>
-          <para />
-        </remarks>
+        <param name="Status">Перечисление, представляющее стаус документа. Status — это выходной параметр, который означает, что его значение возвращается при завершении выполнения метода.</param>
+        <param name="Results">Содержит результаты действия. Results является выходным параметром.</param>
+        <summary>Выполняет действие с определенными элементами сведений или свойствами документа в зависимости от указанного модуля инспектора документов.</summary>
+        <remarks><para>Существует два модуля инспектора документов, включенных в систему Microsoft Office 2007. Это модули комментариев и исправлений, а также метод Document Properties. Это первые два параметра, которые отображаются в диалоговом окне Инспектор документов, но недоступны в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> коллекции.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Inspect">
@@ -189,9 +173,9 @@
         <Parameter Name="Results" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Status">Перечисление, представляющее статус документа. <paramref name="Status" />что означает, что возвращается значение после завершения метода ее назначение — это выходной параметр.</param>
-        <param name="Results">Содержит списки, элементы сведений или свойств документа в документе.</param>
-        <summary>Проверка документа для конкретного свойства информации или документов.</summary>
+        <param name="Status">Перечисление, представляющее этот статус документа. <paramref name="Status" />— Это выходной параметр, который означает, что его значение возвращается при завершении выполнения метода.</param>
+        <param name="Results">Содержит список элементов сведений или свойств документа, найденных в документе.</param>
+        <summary>Проверка документа на наличие определенных сведений или свойств документа.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -218,10 +202,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя модуля, представленного <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает имя модуля, представленного <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объектом. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -248,10 +230,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект, представляющий родительский <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Получает объект, представляющий родительский <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объект. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="MsoPresetLightingDirection" FullName="Microsoft.Office.Core.MsoPresetLightingDirection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9552305628cd503ccfae92d92a2f397c80cda572" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661690" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetLightingDirection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9552305628cd503ccfae92d92a2f397c80cda572" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661690" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetLightingDirection" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetLightingDirection extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetLightingDirection" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetLightingDirection" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает расположение освещения на вытянутый (трехмерную) фигуры относительно фигуры.</summary>
+    <summary>Задает расположение освещения на вытянутой (трехмерной) фигуре относительно фигуры.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Освещение, поступающие в нижней части.</summary>
+        <summary>Освещение поступает из нижней части.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingBottomLeft">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Освещение, поступающие из внизу слева.</summary>
+        <summary>Освещение поступает из нижнего левого угла.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingBottomRight">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Освещение, поступающие из внизу справа.</summary>
+        <summary>Освещение поступает из правого нижнего края.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingLeft">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Освещение, поступающие из слева.</summary>
+        <summary>Освещение поступает из левой части.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingNone">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Освещение, поступающие из вправо.</summary>
+        <summary>Освещение поступает из правой части.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingTop">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Освещение, поступающие из верхней.</summary>
+        <summary>Освещение поступает сверху.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingTopLeft">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Освещение, поступающие из сверху слева.</summary>
+        <summary>Освещение поступает из левого верхнего угла.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingTopRight">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Освещение, поступающие в верхнем правом углу.</summary>
+        <summary>Освещение поступает из правого верхнего края.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPresetLightingDirectionMixed">

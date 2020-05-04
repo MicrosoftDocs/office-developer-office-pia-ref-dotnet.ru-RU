@@ -1,13 +1,5 @@
 <Type Name="PropertyTest" FullName="Microsoft.Office.Core.PropertyTest">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f764086e6f1824daea90bf9fdb728d785b86cd2a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662465" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PropertyTest : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f764086e6f1824daea90bf9fdb728d785b86cd2a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662465" /></Metadata><TypeSignature Language="C#" Value="public interface PropertyTest : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyTest implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PropertyTest" />
   <TypeSignature Language="VB.NET" Value="Public Interface PropertyTest&#xA;Implements _IMsoDispObj" />
@@ -30,11 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет условие поиска одного файла.</summary>
-    <remarks>
-      <para>Условия поиска, перечислены в диалоговом окне Расширенный поиск (меню файл, открыть командное, расширенный поиск кнопки). Объект <b>PropertyTest</b> входит в состав <see cref="T:Microsoft.Office.Core.PropertyTests" /> семейства сайтов.</para>
-      <para />
-    </remarks>
+    <summary>Представляет одно условие поиска файла.</summary>
+    <remarks><para>Условия поиска отображаются в диалоговом окне Расширенный поиск (меню файл, команда Открыть, Кнопка расширенного поиска). Объект <b>пропертитест</b> является членом <see cref="T:Microsoft.Office.Core.PropertyTests" /> коллекции.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -63,7 +53,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -91,7 +81,7 @@
         <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает условие заданным критериям поиска.</summary>
+        <summary>Возвращает условие заданных условий поиска.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -119,13 +109,11 @@
         <ReturnType>Microsoft.Office.Core.MsoConnector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает соединитель между двумя значениями аналогичные свойства теста.</summary>
+        <summary>Возвращает соединитель между двумя похожими значениями свойства.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>По умолчанию возвращаемое значение — <b>msoConnectorAnd</b>.</para>
-          <para>Соединитель указывает, будет ли два следующего условия поиска объединять тест одно свойство формы (как и в <b>msoConnectorAnd</b>) или рассматриваться независимо друг от друга (как и в <b>msoConnectorOr</b>).</para>
-          <para />
-        </remarks>
+        <remarks><para>Возвращаемое значение по умолчанию — <b>мсоконнекторанд</b>.</para> 
+          <para>Соединитель указывает, будут ли два похожих условия поиска объединяться в один тест (как в случае с <b>мсоконнекторанд</b>) или обрабатываться независимо (как в <b>мсоконнекторор</b>).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -154,12 +142,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.PropertyTest.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.PropertyTest.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -213,12 +201,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает значение необязательно второе значение свойство test (как и в диапазоне) для поиска файлов.</summary>
+        <summary>Возвращает необязательное второе значение свойства Value (как в диапазоне) для поиска файла.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Это свойство предназначено для использования в диапазон, и его можно использовать только с <see cref="T:Microsoft.Office.Core.MsoCondition" /> константы <b>msoConditionAnyTimeBetween</b> и <b>msoConditionAnyNumberBetween</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Это свойство предназначено для указания диапазона, и его можно использовать только с <see cref="T:Microsoft.Office.Core.MsoCondition" /> константами <b>мсокондитионанитимебетвин</b> и <b>мсокондитионанинумбербетвин</b>.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -244,7 +230,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает значение свойства теста для поиска файлов.</summary>
+        <summary>Возвращает значение проверки свойства для поиска файла.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

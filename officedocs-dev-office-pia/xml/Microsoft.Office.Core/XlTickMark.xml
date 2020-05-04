@@ -1,13 +1,5 @@
 <Type Name="XlTickMark" FullName="Microsoft.Office.Core.XlTickMark">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ca49c7a3bdfd149a8243416e65ea2a0e4c7052b6" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662552" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlTickMark" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ca49c7a3bdfd149a8243416e65ea2a0e4c7052b6" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662552" /></Metadata><TypeSignature Language="C#" Value="public enum XlTickMark" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlTickMark extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlTickMark" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlTickMark" />
@@ -28,7 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает положение основные и вспомогательные деления для оси.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает положение основных и дополнительных делений для оси.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Пересечение оси.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Пересекает ось.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlTickMarkInside">
@@ -86,7 +78,7 @@
       </ReturnValue>
       <MemberValue>-4142</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Не установлен.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Без метки.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlTickMarkOutside">
@@ -105,7 +97,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Вне оси.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  За преходящей осью.</summary>
       </Docs>
     </Member>
   </Members>

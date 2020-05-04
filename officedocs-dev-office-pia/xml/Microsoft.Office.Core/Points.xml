@@ -1,13 +1,5 @@
 <Type Name="Points" FullName="Microsoft.Office.Core.Points">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="abec55c336a4df4adc8d912389047506d0ffa584" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662216" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Points : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="abec55c336a4df4adc8d912389047506d0ffa584" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662216" /></Metadata><TypeSignature Language="C#" Value="public interface Points : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Points implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Points" />
   <TypeSignature Language="VB.NET" Value="Public Interface Points&#xA;Implements IEnumerable" />
@@ -30,11 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Коллекция всех <see cref="T:Microsoft.Office.Core.ChartPoint" /> объекты в указанной последовательности на диаграмме.</summary>
-    <remarks>
-      <para>Использование <see cref="M:Microsoft.Office.Core.Points.Item(System.Int32)" />, где <paramref name="Index" /> — номер индекса точки, чтобы вернуть объект <see cref="T:Microsoft.Office.Core.ChartPoint" /> объекта. Точки нумеруются слева направо по ряду. 1 — это самые левые точка и <see cref="P:Microsoft.Office.Core.Points.Count" /> является крайней правой точки.</para>
-      <para />
-    </remarks>
+    <summary>Коллекция всех <see cref="T:Microsoft.Office.Core.ChartPoint" /> объектов в указанном ряду на диаграмме.</summary>
+    <remarks><para>Используйте <see cref="M:Microsoft.Office.Core.Points.Item(System.Int32)" />, где <paramref name="Index" /> — это номер индекса точки, чтобы вернуть один <see cref="T:Microsoft.Office.Core.ChartPoint" /> объект. Точки нумеруются слева направо для ряда. 1 — левая точка, а <see cref="P:Microsoft.Office.Core.Points.Count" /> — крайняя точка.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="_Default">
@@ -89,10 +79,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , в котором был создан этот объект. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , в котором был создан этот объект. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,8 +105,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает число объектов в коллекции.</summary>
-        <value>
-          <b>Целое число</b>.</value>
+        <value><b>Целое число</b>.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,9 +130,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает идентификатор приложения, в котором был создан этот объект.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -174,7 +159,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />.</returns>
+        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -198,7 +183,7 @@
       <Docs>
         <param name="Index">Номер индекса для объекта.</param>
         <summary>Возвращает один объект из коллекции.</summary>
-        <returns>A <see cref="T:Microsoft.Office.Core.ChartPoint" /> объектов, содержащихся в коллекции.</returns>
+        <returns><see cref="T:Microsoft.Office.Core.ChartPoint" /> Объект, содержащийся в коллекции.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -223,7 +208,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает родительский объект для указанного объекта. Только для чтения.</summary>
-        <value>Возвращает <see cref="T:System.Object" />.</value>
+        <value>Возвращает <see cref="T:System.Object" />значение.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

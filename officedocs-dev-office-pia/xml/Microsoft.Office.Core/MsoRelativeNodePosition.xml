@@ -1,13 +1,5 @@
 <Type Name="MsoRelativeNodePosition" FullName="Microsoft.Office.Core.MsoRelativeNodePosition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d376a5cadab15de637c4cbe3fbf2146e3ba43bb5" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662191" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoRelativeNodePosition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d376a5cadab15de637c4cbe3fbf2146e3ba43bb5" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662191" /></Metadata><TypeSignature Language="C#" Value="public enum MsoRelativeNodePosition" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoRelativeNodePosition extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoRelativeNodePosition" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoRelativeNodePosition" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, где узел добавляется схема относительно существующих узлов.</summary>
+    <summary>Указывает место добавления узла на схему относительно существующих узлов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>После последний элемент добавить узел.</summary>
+        <summary>Узел добавляется после последнего элемента того же уровня.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAfterNode">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Прежде чем первый элемент добавляется узел.</summary>
+        <summary>Узел добавляется перед первым элементом того же уровня.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBeforeNode">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Прежде чем текущий узел добавляется узел.</summary>
+        <summary>Узел добавляется перед текущим узлом.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="MsoChartFieldType" FullName="Microsoft.Office.Core.MsoChartFieldType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bb6d974f05d5f14523d8ba8725d459e8b71241ce" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662192" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoChartFieldType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bb6d974f05d5f14523d8ba8725d459e8b71241ce" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662192" /></Metadata><TypeSignature Language="C#" Value="public enum MsoChartFieldType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoChartFieldType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoChartFieldType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoChartFieldType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип данных поля для вставки в метки данных на диаграмме.</summary>
+    <summary>Указывает тип поля данных, которое будет вставлено в подпись данных диаграммы.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Указывает размер пузырьковой точки данных.</summary>
+        <summary>Задает размер пузырька точки данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoChartFieldCategoryName">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Указывает размер имя категории точки данных.</summary>
+        <summary>Задает размер имени категории точки данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoChartFieldFormula">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Задает формулу, используемую в точку данных.</summary>
+        <summary>Задает формулу, используемую в точке данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoChartFieldPercentage">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Указывает значение диапазон данных.</summary>
+        <summary>Задает значение диапазона данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoChartFieldSeriesName">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Указывает имя ряда данных.</summary>
+        <summary>Задает имя ряда данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoChartFieldValue">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Указывает значение поля данных.</summary>
+        <summary>Задает значение поля данных.</summary>
       </Docs>
     </Member>
   </Members>

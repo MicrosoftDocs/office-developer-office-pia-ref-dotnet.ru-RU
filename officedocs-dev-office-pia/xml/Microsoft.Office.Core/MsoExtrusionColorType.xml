@@ -1,13 +1,5 @@
 <Type Name="MsoExtrusionColorType" FullName="Microsoft.Office.Core.MsoExtrusionColorType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="73cfa31b0d1231fa4371724bdfd4fb31dd2b2168" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662533" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoExtrusionColorType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="73cfa31b0d1231fa4371724bdfd4fb31dd2b2168" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662533" /></Metadata><TypeSignature Language="C#" Value="public enum MsoExtrusionColorType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoExtrusionColorType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoExtrusionColorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoExtrusionColorType" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, будет ли цвет объемной фигуры основано на вытянутый фигуры заливки (лицевой из изменяется) и устанавливается автоматически при изменении заливки фигуры или ли цвет объемной фигуры не зависит от заливки фигуры.</summary>
-    <remarks>
-      <para>Используется совместно со свойством <b>ExtrusionColorType</b> объекта <b>ThreeDFormat</b> .</para>
-      <para />
-    </remarks>
+    <summary>Указывает, является ли цвет объемной фигуры на основе заливки вытянутой фигуры (лицевой стороны) и автоматически изменяется при изменении заливки фигуры, а также от того, является ли цвет объема независимым от заливки фигуры.</summary>
+    <remarks><para>Используется со свойством <b>екструсионколортипе</b> объекта <b>ThreeDFormat</b></para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoExtrusionColorAutomatic">
@@ -43,7 +33,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Цвет объемной фигуры основано на заливки фигуры.</summary>
+        <summary>Цвет объема на основе заливки фигуры.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionColorCustom">
@@ -81,7 +71,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Возвращаемое значение. Указывает сочетание других состояний.</summary>
+        <summary>Только возвращаемое значение; Указывает комбинацию других состояний.</summary>
       </Docs>
     </Member>
   </Members>

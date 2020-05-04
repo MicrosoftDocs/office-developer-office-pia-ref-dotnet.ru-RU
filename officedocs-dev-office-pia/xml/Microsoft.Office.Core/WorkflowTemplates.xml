@@ -1,13 +1,5 @@
 <Type Name="WorkflowTemplates" FullName="Microsoft.Office.Core.WorkflowTemplates">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6335f5f613620ac3f1b03528dcde31dd4c835f97" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662127" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface WorkflowTemplates : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6335f5f613620ac3f1b03528dcde31dd4c835f97" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662127" /></Metadata><TypeSignature Language="C#" Value="public interface WorkflowTemplates : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract WorkflowTemplates implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.WorkflowTemplates" />
   <TypeSignature Language="VB.NET" Value="Public Interface WorkflowTemplates&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,7 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет коллекцию объектов <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объектов.</summary>
+    <summary>Представляет коллекцию <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объектов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -63,10 +55,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.WorkflowTemplates" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.WorkflowTemplates" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,8 +83,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает значение типа <b>Long</b> , указывающее количество элементов в коллекции <b>WorkflowTemplates</b> . Только для чтения.</summary>
-        <value>Long</value>
+        <summary>Получает значение <b>типа Long</b> , указывающее количество элементов в коллекции <b>WorkflowTemplates</b> . Только для чтения.</summary>
+        <value>Длинное целое</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -124,10 +114,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.WorkflowTemplates" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.WorkflowTemplates" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -189,11 +177,9 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Номер индекса объекта <b>рабочего процесса со</b> должно быть возвращено.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объекта из <see cref="T:Microsoft.Office.Core.WorkflowTemplates" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Рабочего процесса со</b>
-        </value>
+        <param name="Index">Номер индекса возвращаемого объекта <b>WorkflowTemplate</b> .</param>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объект из <see cref="T:Microsoft.Office.Core.WorkflowTemplates" /> коллекции. Только для чтения.</summary>
+        <value><b>WorkflowTemplate</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

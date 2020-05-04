@@ -1,13 +1,5 @@
 <Type Name="IMsoEnvelopeVBEvents_EnvelopeHideEventHandler" FullName="Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a0c0c433ce7b4a84556b8bb83acd325d1b5a798b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662306" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void IMsoEnvelopeVBEvents_EnvelopeHideEventHandler();" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a0c0c433ce7b4a84556b8bb83acd325d1b5a798b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662306" /></Metadata><TypeSignature Language="C#" Value="public delegate void IMsoEnvelopeVBEvents_EnvelopeHideEventHandler();" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed IMsoEnvelopeVBEvents_EnvelopeHideEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub IMsoEnvelopeVBEvents_EnvelopeHideEventHandler()" />
@@ -32,7 +24,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <summary>Тип <b>делегата</b> , используемый для добавления обработчика события для <see cref="E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeHide" /> события. <b>EnvelopeHide</b> событие происходит, когда пользовательского интерфейса (UI), который соответствует <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объект является скрытым.</summary>
+    <summary>Тип <b>делегата</b> , который используется для добавления обработчика событий <see cref="E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeHide" /> для события. Событие <b>енвелопехиде</b> возникает при скрытом пользовательском интерфейсе, соответствующем <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объекту.</summary>
     <remarks>To be added.</remarks>
   </Docs>
 </Type>

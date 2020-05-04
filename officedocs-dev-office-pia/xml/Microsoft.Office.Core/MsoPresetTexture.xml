@@ -1,13 +1,5 @@
 <Type Name="MsoPresetTexture" FullName="Microsoft.Office.Core.MsoPresetTexture">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f356886af2e2d0a2f370bc85be3671fe42d17d9a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661672" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetTexture" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f356886af2e2d0a2f370bc85be3671fe42d17d9a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661672" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetTexture" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetTexture extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetTexture" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetTexture" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает текстур, которые будут использоваться для заполнения фигуры.</summary>
+    <summary>Задает текстуру, используемую для заливки фигуры.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Синий тисненая бумага текстуры.</summary>
+        <summary>Текстура тиссуеной бумаги.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureBouquet">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Букет текстуры.</summary>
+        <summary>Текстура баукует.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureBrownMarble">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Коричневая мрамора текстур.</summary>
+        <summary>Текстура коричневи мраморов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureCanvas">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Полотно текстуры.</summary>
+        <summary>Текстура полотна.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureCork">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Пробки текстуры.</summary>
+        <summary>Текстура Корк.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureDenim">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Джинсовая ткань текстуры.</summary>
+        <summary>Текстура деним.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureFishFossil">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Текстуры органического рыбы.</summary>
+        <summary>Текстура Фоссила рыба.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureGranite">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Гранитного текстур.</summary>
+        <summary>Текстура граните.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureGreenMarble">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Зеленый мрамора текстур.</summary>
+        <summary>Текстура "зеленый мрамор".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureMediumWood">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>Средний деревянного текстуры.</summary>
+        <summary>Текстура с умеренным деревяном.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureNewsprint">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Газетной текстуры.</summary>
+        <summary>Текстура невспринт.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureOak">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>Oak текстур.</summary>
+        <summary>Текстура дуб.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTexturePaperBag">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Контейнер текстуры документ.</summary>
+        <summary>Текстура набора бумажных лотков.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTexturePapyrus">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Papyrus текстур.</summary>
+        <summary>Текстура папирус.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureParchment">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Пергамента текстур.</summary>
+        <summary>Текстура Парчмент.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTexturePinkTissuePaper">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Выделен розовым тисненая бумага текстуры.</summary>
+        <summary>Розовая тиссуе бумага.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTexturePurpleMesh">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Лиловый сетки текстуры.</summary>
+        <summary>Фиолетовая текстура сетки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureRecycledPaper">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Текстуры перезапущен документ.</summary>
+        <summary>Резамкнутая текстура бумаги.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureSand">
@@ -401,7 +393,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Песка текстуры.</summary>
+        <summary>Текстура Санд.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureStationery">
@@ -420,7 +412,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Бланки текстуры.</summary>
+        <summary>Текстура Бланка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureWalnut">
@@ -439,7 +431,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>Орех текстуры.</summary>
+        <summary>Текстура Валнут.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureWaterDroplets">
@@ -458,7 +450,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Текстуры капли воды.</summary>
+        <summary>Текстурирование воды.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureWhiteMarble">
@@ -477,7 +469,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Белый мрамора текстур.</summary>
+        <summary>Текстура белого мрамора.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureWovenMat">
@@ -496,7 +488,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Сплетенные внешние текстуры.</summary>
+        <summary>Вписываетсяная текстура.</summary>
       </Docs>
     </Member>
   </Members>

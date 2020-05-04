@@ -1,13 +1,5 @@
 <Type Name="PropertyTests" FullName="Microsoft.Office.Core.PropertyTests">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e80dd14606ca45495e1040d6d4b851b7262a059e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662215" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PropertyTests : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e80dd14606ca45495e1040d6d4b851b7262a059e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662215" /></Metadata><TypeSignature Language="C#" Value="public interface PropertyTests : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyTests implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PropertyTests" />
   <TypeSignature Language="VB.NET" Value="Public Interface PropertyTests&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,13 +25,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Коллекцию <see cref="T:Microsoft.Office.Core.PropertyTest" /> объекты, которые представляют все условия поиска поиска файлов. Условия поиска, перечислены в диалоговом окне Расширенный поиск (меню файл, открыть командное, расширенный поиск кнопки).</summary>
-    <remarks>
-      <para>Использование <see cref="P:Microsoft.Office.Core.FileSearch.PropertyTests" /> свойство для возврата коллекции <b>PropertyTests</b> .</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core.PropertyTests.Add(System.String,Microsoft.Office.Core.MsoCondition,System.Object,System.Object,Microsoft.Office.Core.MsoConnector)" /> метод для добавления нового объекта <b>PropertyTest</b> в коллекцию <b>PropertyTests</b> .</para>
-      <para>Использования <b>PropertyTests</b>(<paramref name="index" />), где <paramref name="index" /> — номер индекса для возврата объекта <b>PropertyTest</b> .</para>
-      <para />
-    </remarks>
+    <summary>Коллекция <see cref="T:Microsoft.Office.Core.PropertyTest" /> объектов, представляющих все условия поиска файлов. Условия поиска отображаются в диалоговом окне Расширенный поиск (меню файл, команда Открыть, Кнопка расширенного поиска).</summary>
+    <remarks><para>Используйте <see cref="P:Microsoft.Office.Core.FileSearch.PropertyTests" /> свойство, чтобы возвратить коллекцию <b>пропертитестс</b> .</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.PropertyTests.Add(System.String,Microsoft.Office.Core.MsoCondition,System.Object,System.Object,Microsoft.Office.Core.MsoConnector)" /> метод для добавления нового объекта <b>пропертитест</b> в коллекцию <b>пропертитестс</b> .</para> 
+      <para>Используйте <b>пропертитестс</b>(<paramref name="index" />), где <paramref name="index" /> — это номер индекса, чтобы вернуть один объект <b>пропертитест</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -68,13 +58,12 @@
         <Parameter Name="Connector" Type="Microsoft.Office.Core.MsoConnector" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <b>Строковое значение.</b> Имя объекта <b>PropertyTest</b> .</param>
-        <param name="Condition">Требуется <see cref="T:Microsoft.Office.Core.MsoCondition" />. Константа, представляющая условие, используемое для поиска.</param>
-        <param name="Value">Необязательный элемент <b>Object</b>. Значение, используемое по <paramref name="condition" />.</param>
-        <param name="SecondValue">Необязательный элемент <b>Object</b>. Второе значение, используемое по <paramref name="condition" />.</param>
-        <param name="Connector">Необязательные <b>MsoCondition</b>. Константы representinat соединителя <b>или</b> или <b>и</b> используется в критерий.</param>
-        <summary>Добавьте новый <see cref="T:Microsoft.Office.Core.PropertyTest" /> объект <see cref="T:Microsoft.Office.Core.PropertyTests" /> семейства сайтов, представляющее условий поиска поиск файлов.</summary>
+        <param name="Name">Обязательный атрибут типа <b>String</b>. Имя объекта <b>пропертитест</b> .</param>
+        <param name="Condition">Обязательный <see cref="T:Microsoft.Office.Core.MsoCondition" />. Константа, представляющая условие, используемое для поиска.</param>
+        <param name="Value">Необязательный <b>объект</b>. Значение, используемое <paramref name="condition" />параметром.</param>
+        <param name="SecondValue">Необязательный <b>объект</b>. Второе значение, используемое <paramref name="condition" />в параметре.</param>
+        <param name="Connector">Необязательный <b>мсокондитион</b>. Константа репресентинат соединителя, например, <b>или</b> или <b>, и</b> используется в этом условии.</param>
+        <summary>Добавление в <see cref="T:Microsoft.Office.Core.PropertyTests" /> коллекцию <see cref="T:Microsoft.Office.Core.PropertyTest" /> нового объекта, представляющего критерии поиска файла.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -104,7 +93,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -132,7 +121,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>целое число</b> , указывающее количество элементов в указанном семействе сайтов.</summary>
+        <summary>Возвращает <b>целое</b> число, указывающее количество элементов в указанной коллекции.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -163,12 +152,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.PropertyTests.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.PropertyTests.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -232,8 +221,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Необязательный атрибут типа <b>Integer</b>. Номер индекса тестирования свойства которого требуется получить.</param>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.PropertyTest" /> объекта из <see cref="T:Microsoft.Office.Core.PropertyTests" /> семейства сайтов.</summary>
+        <param name="Index">Необязательное <b>целое число</b>. Номер индекса возвращаемого проверки свойства.</param>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.PropertyTest" /> объект из <see cref="T:Microsoft.Office.Core.PropertyTests" /> коллекции.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -261,7 +250,7 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Требуется <b>целое число</b>. Номер индекса тестирования свойство требуется удалить.</param>
+        <param name="Index">Обязательный атрибут типа <b>Integer</b>. Номер индекса удаляемого теста свойства.</param>
         <summary>Удаляет указанный объект из коллекции.</summary>
         <remarks>To be added.</remarks>
       </Docs>

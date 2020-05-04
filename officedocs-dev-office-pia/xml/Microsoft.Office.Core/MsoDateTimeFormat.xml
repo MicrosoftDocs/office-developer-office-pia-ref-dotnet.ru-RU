@@ -1,13 +1,5 @@
 <Type Name="MsoDateTimeFormat" FullName="Microsoft.Office.Core.MsoDateTimeFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f6d0aea56f1d091fd15d2ca8a4acc7206eba2b8d" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662439" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoDateTimeFormat" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f6d0aea56f1d091fd15d2ca8a4acc7206eba2b8d" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662439" /></Metadata><TypeSignature Language="C#" Value="public enum MsoDateTimeFormat" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoDateTimeFormat extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoDateTimeFormat" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoDateTimeFormat" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает формат данных даты и времени типа.</summary>
+    <summary>Задает формат данных даты и времени.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Задает формат ddddMMMMddyyyy.</summary>
+        <summary>Указывает формат Ддддммммддииии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimedMMMMyyyy">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Задает формат MMMMyyyy.</summary>
+        <summary>Указывает формат Ммммииии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimedMMMyy">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Задает формат MMMyy.</summary>
+        <summary>Указывает формат Мммии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeFigureOut">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Указывает, что приложение Office определяет формат.</summary>
+        <summary>Указывает, что приложение Office определит формат.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeFormatMixed">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Задает формат Hmm.</summary>
+        <summary>Указывает формат Хмм.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimehmmAMPM">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Задает формат hmmAMPM.</summary>
+        <summary>Указывает формат Хммампм.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeHmmss">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Задает формат Hmmss.</summary>
+        <summary>Указывает формат Хммсс.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimehmmssAMPM">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Задает формат hmmssAMPM.</summary>
+        <summary>Указывает формат Хммссампм.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeMdyy">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Задает формат Mdyy.</summary>
+        <summary>Указывает формат Мдии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeMMddyyHmm">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Задает формат MMddyyHmm.</summary>
+        <summary>Указывает формат Ммддиихмм.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeMMddyyhmmAMPM">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Задает формат MMddyyhmmAMPM.</summary>
+        <summary>Указывает формат Ммддиихммампм.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeMMMMdyyyy">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Задает формат MMMMdyyyy.</summary>
+        <summary>Указывает формат Ммммдииии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeMMMMyy">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Задает формат MMMMyy.</summary>
+        <summary>Указывает формат Ммммии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeMMyy">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Задает формат MMyy.</summary>
+        <summary>Указывает формат Ммии.</summary>
       </Docs>
     </Member>
   </Members>

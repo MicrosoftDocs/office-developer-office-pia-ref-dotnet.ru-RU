@@ -1,13 +1,5 @@
 <Type Name="BalloonLabel" FullName="Microsoft.Office.Core.BalloonLabel">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a57d4e5bb667290e6d62c97e518cc65e7199a90a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662407" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface BalloonLabel : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a57d4e5bb667290e6d62c97e518cc65e7199a90a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662407" /></Metadata><TypeSignature Language="C#" Value="public interface BalloonLabel : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract BalloonLabel implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.BalloonLabel" />
   <TypeSignature Language="VB.NET" Value="Public Interface BalloonLabel&#xA;Implements _IMsoDispObj" />
@@ -30,11 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет элемент label в окне помощника Microsoft Office.</summary>
-    <remarks>
-      <para>Объект <b>BalloonLabel</b> входит в состав <see cref="T:Microsoft.Office.Core.BalloonLabels" /> семейства.</para>
-      <para>Использования <b>меток</b>(<paramref name="index" />), где <paramref name="index" /> — это число от 1 до 5, чтобы возвратить объект <b>BalloonLabel</b> . Может существовать до пяти меток на один в документе; каждой метки отображается, когда значение назначается его <see cref="P:Microsoft.Office.Core.BalloonLabel.Text" /> свойство.</para> Флажки в документе 
-      <para>Отображение решения пользователя, пока он или она закрывает выноске. Возвращает число, соответствующее выбора пользователя в поле <b>Выбор</b> метода, как только пользователь нажимает кнопку рядом с меткой можно использовать метки в документе. Чтобы передать значения на основании выбора пользователя <b>Выбор</b> метода, должны иметь тип выноски иметь значение <b>msoBalloonTypeButtons</b>.</para><para /></remarks>
+    <summary>Представляет метку в выноске помощника по Office.</summary>
+    <remarks><para>Объект <b>баллунлабел</b> является членом <see cref="T:Microsoft.Office.Core.BalloonLabels" /> коллекции.</para> 
+      <para>USE <b>Labels</b>(<paramref name="index" />), <paramref name="index" /> где — это число от 1 до 5, которое возвращает объект <b>баллунлабел</b> . В одном подсказке может быть до пяти меток; Каждая подпись отображается, когда значение присваивается <see cref="P:Microsoft.Office.Core.BalloonLabel.Text" /> свойству.</para> 
+      <para>Флажки отображаются в диалоговом окне, пока не закрывается Подсказка пользователю. Можно использовать метки выносок, чтобы возвратить число, соответствующее выбору пользователя в методе <b>SELECT</b> , как только пользователь нажимает кнопку рядом с меткой. Чтобы передать значения в метод <b>SELECT</b> в зависимости от выбора пользователя, необходимо задать для типа выноски значение <b>мсобаллунтипебуттонс</b>.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -63,7 +55,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -94,13 +86,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку «MSWD»; в созданную в Microsoft Excel данное свойство возвращает 1480803660. Это значение может быть также представлены константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel. </para>
-          <para>
-            <b>Создателя</b> свойство в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.BalloonLabel.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку "МСВД"; в созданном в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel. </para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.BalloonLabel.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -126,7 +117,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает текст, связанного с объектом.</summary>
+        <summary>Возвращает текст, связанный с объектом.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -156,10 +147,8 @@
       <Docs>
         <summary>Возвращает имя указанного объекта.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Данное свойство возвращает чтение и запись <b>строки</b> для <see cref="T:Microsoft.Office.Core.CommandBar" />, <see cref="T:Microsoft.Office.Core.DocumentProperty" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspace" /> объектов; только для чтения, <b>строки</b> для всех других объектов.</para>
-          <para />
-        </remarks>
+        <remarks><para>Это свойство возвращает <b>строку</b> для чтения и записи для объектов <see cref="T:Microsoft.Office.Core.CommandBar" />, <see cref="T:Microsoft.Office.Core.DocumentProperty" />и, <see cref="T:Microsoft.Office.Core.SharedWorkspace" /> и. доступная только для чтения <b>строка</b> для всех других объектов.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -216,13 +205,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает текст, отображаемый рядом с элементом флажок или метки в окне помощника Microsoft Office.</summary>
+        <summary>Возвращает или задает текст, отображаемый рядом с флажком или меткой в выноске помощника по Office.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-          <para>, Можно указать, что определенный график отображаться, используя следующий синтаксис: {<paramref name="type location sizing_factor" />}, где <paramref name="type" /> bmp (точечный рисунок) или wmf (метафайл Windows); <paramref name="location" /> является ресурсом идентификатор или путь и имя файла; и <paramref name="sizing_factor" /> обозначает ширину WMF-файл (<paramref name="sizing_factor" /> опускается в BMP-файлы).</para>
-          <para />
-        </remarks>
+        <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Вы можете указать, что определенная графика будет отображаться с помощью следующего синтаксиса:<paramref name="type location sizing_factor" />{}, <paramref name="type" /> где BMP (точечный рисунок) или WMF (метафайл Windows); <paramref name="location" /> — это идентификатор ресурса, а также путь и имя файла; и <paramref name="sizing_factor" /> обозначает ширину файла WMF (<paramref name="sizing_factor" /> не указывается для BMP-файлов).</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

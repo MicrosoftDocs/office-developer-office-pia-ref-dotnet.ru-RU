@@ -1,13 +1,5 @@
 <Type Name="SignatureType" FullName="Microsoft.Office.Core.SignatureType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cebd8722a7dd2fbf44b68e6ef78709f91547e5be" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661952" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum SignatureType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cebd8722a7dd2fbf44b68e6ef78709f91547e5be" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661952" /></Metadata><TypeSignature Language="C#" Value="public enum SignatureType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SignatureType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureType" />
   <TypeSignature Language="VB.NET" Value="Public Enum SignatureType" />
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Указывает максимальное количество типы подписи, доступные в текущей версии Office.</summary>
+        <summary>Задает максимальное число типов подписей, доступных в текущей версии Office.</summary>
       </Docs>
     </Member>
     <Member MemberName="sigtypeNonVisible">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Подпись, которое будет отображаться в содержимом документа.</summary>
+        <summary>Подпись, которая отображается в содержимом документа.</summary>
       </Docs>
     </Member>
     <Member MemberName="sigtypeUnknown">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Подписи не создан с Office.</summary>
+        <summary>Подпись, не созданная в Office.</summary>
       </Docs>
     </Member>
   </Members>

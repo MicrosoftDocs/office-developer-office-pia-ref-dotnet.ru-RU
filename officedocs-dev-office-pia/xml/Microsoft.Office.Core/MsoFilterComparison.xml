@@ -1,13 +1,5 @@
 <Type Name="MsoFilterComparison" FullName="Microsoft.Office.Core.MsoFilterComparison">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="634d4beca5f7a2a67a60ac3b558731e084992f23" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662106" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFilterComparison" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="634d4beca5f7a2a67a60ac3b558731e084992f23" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662106" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFilterComparison" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFilterComparison extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFilterComparison" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFilterComparison" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает способ сравнения свойства <b>столбца</b> и <b>CompareTo</b> для объекта <b>ODSOFilter</b> .</summary>
+    <summary>Указывает способ сравнения свойств <b>Column</b> и <b>CompareTo</b> для объекта <b>ODSOFilter</b> .</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,8 +32,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <b>Столбец</b> сопоставляется <b>CompareTo</b> , если любой части строки <b>CompareTo</b> содержится в <b>столбце</b> значение.</summary>
+        <summary><b>Столбец</b> соответствует <b>CompareTo</b> , если какая-либо часть строки <b>CompareTo</b> находится в значении <b>столбца</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonEqual">
@@ -60,8 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <b>Столбец</b> сопоставляется <b>CompareTo</b> , если значение <b>CompareTo</b> — то же, что значение <b>столбца</b> .</summary>
+        <summary><b>Столбец</b> соответствует <b>CompareTo</b> , если значение <b>CompareTo</b> совпадает со значением <b>столбца</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonGreaterThan">
@@ -80,8 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <b>Столбец</b> сопоставляется <b>CompareTo</b> , если значение <b>столбца</b> больше, чем значение <b>CompareTo</b> .</summary>
+        <summary><b>Столбец</b> соответствует <b>CompareTo</b> , если значение <b>столбца</b> больше значения параметра <b>CompareTo</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonGreaterThanEqual">
@@ -100,8 +89,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <b>Столбец</b> сопоставляется <b>CompareTo</b> , если значение <b>столбца</b> больше или равно значению <b>CompareTo</b> .</summary>
+        <summary><b>Столбец</b> соответствует <b>CompareTo</b> , если значение в <b>столбце</b> больше или равно значению <b>CompareTo</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonIsBlank">
@@ -120,8 +108,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <b>Столбец</b> передает фильтра, если <b>столбец</b> является пустым.</summary>
+        <summary><b>Столбец</b> передает фильтр, если <b>столбец</b> пуст.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonIsNotBlank">
@@ -140,8 +127,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <b>Столбец</b> передает фильтра, если <b>столбец</b> является пустым.</summary>
+        <summary><b>Столбец</b> передает фильтр, если <b>столбец</b> пуст.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonLessThan">
@@ -160,8 +146,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <b>Столбец</b> сопоставляется <b>CompareTo</b> , если значение <b>столбца</b> меньше, чем значение <b>CompareTo</b> .</summary>
+        <summary><b>Столбец</b> соответствует <b>CompareTo</b> , если значение <b>столбца</b> меньше значения свойства <b>CompareTo</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonLessThanEqual">
@@ -180,8 +165,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <b>Столбец</b> сопоставляется <b>CompareTo</b> , если значение <b>столбца</b> меньше или равно значению <b>CompareTo</b> .</summary>
+        <summary><b>Столбец</b> соответствует <b>CompareTo</b> , если значение в <b>столбце</b> меньше или равно значению <b>CompareTo</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonNotContains">
@@ -200,8 +184,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <b>Столбец</b> сопоставляется <b>CompareTo</b> , если любой части строки <b>CompareTo</b> не содержится в <b>столбце</b> значение.</summary>
+        <summary><b>Столбец</b> соответствует <b>CompareTo</b> , если какая-либо часть строки <b>CompareTo</b> не содержит значение <b>столбца</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonNotEqual">
@@ -220,8 +203,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <b>Столбец</b> сопоставляется <b>CompareTo</b> , если значение <b>CompareTo</b> не равны значениям <b>столбцов</b> .</summary>
+        <summary><b>Столбец</b> соответствует <b>CompareTo</b> , если значение <b>CompareTo</b> не равно значению <b>столбца</b> .</summary>
       </Docs>
     </Member>
   </Members>

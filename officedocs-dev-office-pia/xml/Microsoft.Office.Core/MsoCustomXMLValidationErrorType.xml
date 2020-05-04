@@ -1,13 +1,5 @@
 <Type Name="MsoCustomXMLValidationErrorType" FullName="Microsoft.Office.Core.MsoCustomXMLValidationErrorType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d79d773c902dd0b290353d858f36f6478905d4bc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661895" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoCustomXMLValidationErrorType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d79d773c902dd0b290353d858f36f6478905d4bc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661895" /></Metadata><TypeSignature Language="C#" Value="public enum MsoCustomXMLValidationErrorType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCustomXMLValidationErrorType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCustomXMLValidationErrorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoCustomXMLValidationErrorType" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, как очистить или созданных ошибок проверки.</summary>
-    <remarks>
-      <para>Ссылки на DTD из настраиваемых XML-частей, не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-      <para />
-    </remarks>
+    <summary>Указывает, как будут очищаться или создаваться ошибки проверки.</summary>
+    <remarks><para>Ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoCustomXMLValidationErrorAutomaticallyCleared">
@@ -43,7 +33,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Указывает, что ошибки будут снимите флажок самого при каждом изменении в узел, с которым он связан.</summary>
+        <summary>Указывает, что ошибка будет очищаться при каждом изменении узла, к которому она привязана.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCustomXMLValidationErrorManual">
@@ -62,7 +52,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Указывает, что ошибки не удалось очистить до <see cref="M:Microsoft.Office.Core.CustomXMLValidationError.Delete" /> вызывается метод.</summary>
+        <summary>Указывает, что ошибка не будет очищена, пока <see cref="M:Microsoft.Office.Core.CustomXMLValidationError.Delete" /> не будет вызван метод.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCustomXMLValidationErrorSchemaGenerated">
@@ -81,7 +71,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Указывает, что которых существует коллекции непустые схемы для настраиваемой XML-части и проверки действует, все изменения в часть приведет к ошибкам проверки.</summary>
+        <summary>Указывает, что при наличии непустой коллекции схемы, доступной для пользовательской XML-части и проверки, любые изменения части приведут к ошибкам проверки.</summary>
       </Docs>
     </Member>
   </Members>

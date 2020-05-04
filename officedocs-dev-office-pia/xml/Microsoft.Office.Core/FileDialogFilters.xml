@@ -1,13 +1,5 @@
 <Type Name="FileDialogFilters" FullName="Microsoft.Office.Core.FileDialogFilters">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="02be4993f6a7f44a27c6aff6cd74a89f8bb767a0" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662590" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FileDialogFilters : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="02be4993f6a7f44a27c6aff6cd74a89f8bb767a0" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662590" /></Metadata><TypeSignature Language="C#" Value="public interface FileDialogFilters : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FileDialogFilters implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.FileDialogFilters" />
   <TypeSignature Language="VB.NET" Value="Public Interface FileDialogFilters&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,14 +25,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Коллекцию <see cref="T:Microsoft.Office.Core.FileDialogFilter" /> объектов, представляющих типы файлов, которые могут быть выбраны в диалогового окна файла, который отображается с помощью <see cref="T:Microsoft.Office.Core.FileDialog" /> объекта.</summary>
-    <remarks>
-      <para>Использование <see cref="P:Microsoft.Office.Core.FileDialog.Filters" /> свойства <see cref="T:Microsoft.Office.Core.FileDialog" /> object для возвращения коллекции <b>FileDialogFilters</b> .</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core.FileDialogFilters.Add(System.String,System.String,System.Object)" /> метод, чтобы добавить <b>FileDialogFilter</b> объекты в коллекцию <b>FileDialogFilters</b> .</para>
-      <para>При изменении коллекции <b>FileDialogFilters</b> , не забывайте, что каждое приложение можно создать только один объект <b>классов FileDialog</b> . Это означает, что коллекции <b>FileDialogFilters</b> приведет к сбросу его фильтры по умолчанию при вызове метода <b>классов FileDialog</b> с новым типом поля диалогового окна.</para>
-      <para>Примечание во время выполнения ошибка возникает, если свойство <b>фильтров</b> используется в сочетании с <see cref="M:Microsoft.Office.Core.FileDialogFilters.Clear" />, <b>Добавить</b>или <see cref="M:Microsoft.Office.Core.FileDialogFilters.Delete(System.Object)" /> методы при применении к объекту Сохранить как <b>классов FileDialog</b> .</para>
-      <para />
-    </remarks>
+    <summary>Коллекция <see cref="T:Microsoft.Office.Core.FileDialogFilter" /> объектов, представляющих типы файлов, которые могут быть выбраны в диалоговом окне, которое отображается с помощью <see cref="T:Microsoft.Office.Core.FileDialog" /> объекта.</summary>
+    <remarks><para>Используйте <see cref="P:Microsoft.Office.Core.FileDialog.Filters" /> свойство <see cref="T:Microsoft.Office.Core.FileDialog" /> объекта, чтобы вернуть коллекцию <b>FileDialogFilters</b> .</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.FileDialogFilters.Add(System.String,System.String,System.Object)" /> метод, чтобы добавить объекты <b>FileDialogFilter</b> в коллекцию <b>FileDialogFilters</b> .</para> 
+      <para>При изменении коллекции <b>FileDialogFilters</b> Помните, что каждое приложение может создавать только один объект <b>FileDialog</b> . Это означает, что коллекция <b>FileDialogFilters</b> будет восстановлена по умолчанию при каждом вызове метода <b>FileDialog</b> с новым типом диалогового окна.</para> 
+      <para>Примечание Если свойство <b>Filters</b> используется совместно с объектом FileDialog <see cref="M:Microsoft.Office.Core.FileDialogFilters.Clear" />, к которому применяется <see cref="M:Microsoft.Office.Core.FileDialogFilters.Delete(System.Object)" /> метод Save в качестве объекта <b>FileDialog</b> <b>, то</b>возникает ошибка времени выполнения.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -67,19 +57,17 @@
         <Parameter Name="Position" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Description">
-          <b>Строковое значение.</b> Текст, представляющий описание расширения файла, добавляемого в список фильтров.</param>
-        <param name="Extensions">
-          <b>Строковое значение.</b> Текст, представляющий расширения файла, добавляемого в список фильтров. Может быть указано более одного расширения и каждого разделяются точкой с запятой (;). Например <paramref name="Extensions" /> аргумент могут быть назначены строки: «*.txt; *.htm». Обратите внимание, что скобки не нужно добавить вокруг расширения. Office автоматически добавляет строку расширений в круглые скобки при описание и расширения строки объединяются в один фильтр файлов.</param>
-        <param name="Position">Необязательный элемент <b>Object</b>. Число, указывающее положение нового элемента управления в список фильтра. Создание фильтра будет вставлена до фильтра в этой позиции. Если этот аргумент задан, фильтр добавляется в конец списка.</param>
-        <summary>Добавляет новый фильтр файлов в список фильтров в файлах тип списка в диалоговом окне файла и возвращает объект <b>FileDialogFilter</b> , представляющий добавленный файл фильтра.</summary>
+        <param name="Description">Обязательный атрибут типа <b>String</b>. Текст, представляющий описание расширения файла, которое требуется добавить в список фильтров.</param>
+        <param name="Extensions">Обязательный атрибут типа <b>String</b>. Текст, представляющий расширение файла, которое вы хотите добавить в список фильтров. Можно указать несколько добавочных номеров, которые должны разделяться точкой с запятой (;). Например, <paramref name="Extensions" /> аргумент можно присвоить строке: "*. txt; *. htm ". Скобки заметок не нужно добавлять вокруг расширений. Office автоматически добавит круглые скобки вокруг строки Extensions, когда строки Description и Extensions объединены в один элемент фильтра файлов.</param>
+        <param name="Position">Необязательный <b>объект</b>. Число, указывающее положение нового элемента управления в списке фильтров. Новый фильтр будет вставлен перед фильтром в этой позиции. Если этот аргумент не указан, то фильтр добавляется в конец списка.</param>
+        <summary>Добавляет новый фильтр файлов в список фильтров в поле "тип файлов" диалогового окна "файл" и возвращает объект <b>FileDialogFilter</b> , представляющий недавно добавленный фильтр файлов.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>Каждый фильтр в списке состоит из двух частей: расширение файла (например .txt) и текстовое описание расширение файла (например, текстовые файлы). Друг с другом, фильтр файлов будет отображаться в файлы из раскрывающегося списка тип как: текстовые файлы (*.txt).</para>
-          <para>Обратите внимание на то, что при добавлении в список фильтра фильтры по умолчанию не удаляются.</para>
-          <para>Фильтры отображаются только в том случае, если установлен флажок Windows.</para>
-          <para>Если <paramref name="Position" /> — недопустимый, отображается сообщение о диапазоне ошибку времени выполнения. Если <paramref name="Description" /> и <paramref name="Extensions" /> недопустимое, отображается ошибка выполнения (обработки).</para> Диалоговые окна выбора папки 
-          <para>Нет фильтров. Таким образом, методы фильтра не применяются к Выбор папки.</para><para /></remarks>
+        <remarks><para>Каждый фильтр в списке состоит из двух частей: расширения файла (например, txt) и текстового описания расширения файла (например, текстовые файлы). В совокупности фильтр файлов будет отображаться в списке Тип файлов: текстовые файлы (*. txt).</para> 
+          <para>Обратите внимание, что при добавлении фильтра в список фильтры по умолчанию не удаляются.</para> 
+          <para>Фильтры отображаются только при установленном флажке Windows.</para> 
+          <para>Если <paramref name="Position" /> это недопустимо, отображается ошибка времени выполнения вне диапазона. Если значения <paramref name="Description" /> и <paramref name="Extensions" /> и являются недопустимыми, отображается ошибка среды выполнения (Parse).</para> 
+          <para>Диалоговые окна средства выбора папок не имеют фильтров. Поэтому методы фильтрации не применяются к средству выбора папок.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -108,7 +96,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -134,11 +122,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет все элементы списка из командной строки поле со списком (раскрывающемся списке или поле со списком) и очищает текстовое поле (поле ввода или поле со списком).</summary>
-        <remarks>
-          <para>Этот метод завершится ошибкой, если оно применяется для элемента управления панели встроенных команд.</para>
-          <para />
-        </remarks>
+        <summary>Удаляет все элементы списка из элемента управления "поле со списком" панели команд (раскрывающийся список или поле со списком) и очищает текстовое поле (поле редактирования или поле со списком).</summary>
+        <remarks><para>Этот метод завершится с ошибками, если он применяется к встроенному элементу управления "панель команд".</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -164,7 +150,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>целое число</b> , указывающее количество элементов в указанном семействе сайтов.</summary>
+        <summary>Возвращает <b>целое</b> число, указывающее количество элементов в указанной коллекции.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -195,12 +181,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.FileDialogFilters.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.FileDialogFilters.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -225,8 +211,8 @@
         <Parameter Name="filter" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="filter">Необязательный элемент <b>Object</b>. Фильтр, который требуется удалить.</param>
-        <summary>Удаляет фильтр диалогового окна файла.</summary>
+        <param name="filter">Необязательный <b>объект</b>. Удаляемый фильтр.</param>
+        <summary>Удаляет фильтр диалогового окна с файлами.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -285,8 +271,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Требуется <b>целое число</b>. Номер индекса объекта <b>FileDialogFilter</b> должно быть возвращено.</param>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.FileDialogFilter" /> объект, который является членом указанной <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> семейства сайтов.</summary>
+        <param name="Index">Обязательный атрибут типа <b>Integer</b>. Номер индекса возвращаемого объекта <b>FileDialogFilter</b> .</param>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.FileDialogFilter" /> объект, который является членом заданной <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> коллекции.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

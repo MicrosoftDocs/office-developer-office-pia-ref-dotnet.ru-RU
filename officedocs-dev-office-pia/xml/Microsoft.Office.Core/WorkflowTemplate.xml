@@ -1,13 +1,5 @@
 <Type Name="WorkflowTemplate" FullName="Microsoft.Office.Core.WorkflowTemplate">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="504925d0b2994ff9ce1bda3bf82bd77ace041e6b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662368" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface WorkflowTemplate : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="504925d0b2994ff9ce1bda3bf82bd77ace041e6b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662368" /></Metadata><TypeSignature Language="C#" Value="public interface WorkflowTemplate : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract WorkflowTemplate implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.WorkflowTemplate" />
   <TypeSignature Language="VB.NET" Value="Public Interface WorkflowTemplate&#xA;Implements _IMsoDispObj" />
@@ -31,10 +23,8 @@
   </Attributes>
   <Docs>
     <summary>Представляет один из рабочих процессов, доступных для текущего документа.</summary>
-    <remarks>
-      <para>Объект <b>рабочего процесса со</b> соответствует один из вариантов, отображаемые в диалоговом окне Запуск нового рабочего процесса. На веб-странице шаблонов рабочих процессов отображаются в виде списка параметров.</para>
-      <para />
-    </remarks>
+    <remarks><para>Объект <b>WorkflowTemplate</b> соответствует одному из параметров, отображаемых в диалоговом окне "Запуск нового рабочего процесса". На веб-странице шаблоны рабочих процессов отображаются в виде списка параметров.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -63,10 +53,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,10 +84,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -127,9 +113,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает описание шаблона рабочего процесса. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -156,10 +140,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имя библиотеки документов, связанные с шаблоном рабочего процесса. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает имя библиотеки документов, связанной с шаблоном рабочего процесса. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -186,10 +168,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает URL-адрес библиотеки документов, где хранятся шаблоны рабочих процессов. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает URL-адрес библиотеки документов, в которой хранятся шаблоны рабочих процессов. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -217,9 +197,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает идентификатор шаблона, используемого для создания экземпляра рабочего процесса. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -247,9 +225,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает имя <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -274,10 +250,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отображает пользовательский интерфейс определенной конфигурации рабочего процесса для указанного <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объекта.</summary>
-        <returns>
-          <b>Integer</b>
-        </returns>
+        <summary>Отображает пользовательский интерфейс для определенного <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объекта конфигурации рабочего процесса.</summary>
+        <returns><b>Integer</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

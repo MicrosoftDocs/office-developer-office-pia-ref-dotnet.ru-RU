@@ -1,13 +1,5 @@
 <Type Name="MsoFileType" FullName="Microsoft.Office.Core.MsoFileType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="533362f711283922d02f855e9674a085b97623ca" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662443" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFileType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="533362f711283922d02f855e9674a085b97623ca" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662443" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFileType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFileType" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Задает тип файла.</summary>
+    <summary>Указывает тип файла.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Файл Microsoft Binder (*.obd).</summary>
+        <summary>Файл Microsoft Binder (*. ОБД).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeCalendarItem">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Файл элементов календаря (*.ics или *.vsc).</summary>
+        <summary>Файл элемента календаря (*. ICS или *. VSC).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeContactItem">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Файл элемента контакта (*.vcf).</summary>
+        <summary>Файл элемента контакта (*. vcf).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeDatabases">
@@ -121,7 +113,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Файл базы данных (*.mdb).</summary>
+        <summary>Файл базы данных (*. mdb).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeDataConnectionFiles">
@@ -140,7 +132,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Файл подключения к данным (нужный MDF).</summary>
+        <summary>Файл подключения к данным (MDF).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeDesignerFiles">
@@ -159,7 +151,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>Файл Active конструктора Visual Basic (*.dsr).</summary>
+        <summary>Файл активного конструктора Visual Basic (*. DSR).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeDocumentImagingFiles">
@@ -178,7 +170,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Microsoft Document Imaging файл (*.mdi).</summary>
+        <summary>Файл Microsoft Document Imaging (*. MDI).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeExcelWorkbooks">
@@ -197,7 +189,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Книга Microsoft Excel (*.wbk).</summary>
+        <summary>Книга Microsoft Excel (*. WBK).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeJournalItem">
@@ -216,7 +208,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Элемент "Дневник" Microsoft Outlook</summary>
+        <summary>Элемент журнала Microsoft Outlook</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeMailItem">
@@ -235,7 +227,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Файл почтового элемента (* MSG-файл).</summary>
+        <summary>Файл почтового элемента (MSG).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeNoteItem">
@@ -254,7 +246,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Элемент Microsoft Outlook заметки.</summary>
+        <summary>Элемент заметки Microsoft Outlook.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeOfficeFiles">
@@ -273,7 +265,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Файлы с любым из следующих расширений: * .doc, *.xls, * PPT, *.pps, *.obd, *.mdb, *.mpd, * .dot, *.xlt, * pot, *.obt, *.htm, или * .html.</summary>
+        <summary>Файлы с любым из следующих расширений: *. doc, *. xls, *. ppt, *. PPS, *. ОБД, *. mdb, *. mpd, *. dot, *. xlt, *. pot, *. ОБТ, *. htm или *. HTML.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeOutlookItems">
@@ -292,7 +284,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Любого файла элемента Microsoft Outlook.</summary>
+        <summary>Любой файл элемента Microsoft Outlook.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypePhotoDrawFiles">
@@ -311,7 +303,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Файл элементов PhotoDraw (* .mix).</summary>
+        <summary>Файл элемента PhotoDraw (*. Mix).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypePowerPointPresentations">
@@ -330,7 +322,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Файл презентации PowerPoint (*.ppt), файл шаблона PowerPoint (*.pot), или файл показа слайдов PowerPoint (*.pps).</summary>
+        <summary>Файл презентации PowerPoint (*PPT), файл шаблона PowerPoint (* Pot) или файл слайд-шоу PowerPoint (*. PPS).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeProjectFiles">
@@ -349,7 +341,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Файл проекта (*.mpd).</summary>
+        <summary>Файл проекта (*. MPD).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypePublisherFiles">
@@ -368,7 +360,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Файл Microsoft Publisher (* в формате PUB)</summary>
+        <summary>Файл Microsoft Publisher (PUB)</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeTaskItem">
@@ -406,7 +398,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Шаблон Microsoft PowerPoint (*.pot), шаблон Word (*.dot), Microsoft Excel шаблон (*.xlt).</summary>
+        <summary>Шаблон Microsoft PowerPoint (*Pot), шаблон Word (*. dot), шаблон Excel (*. xlt).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeVisioFiles">
@@ -425,7 +417,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Файл Microsoft Visio (*.vsd).</summary>
+        <summary>Файл Microsoft Visio (*. VSD).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeWebPages">
@@ -444,7 +436,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>HTML-файл (*.htm или * .html).</summary>
+        <summary>HTML-файл (*. htm или *. HTML).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileTypeWordDocuments">
@@ -463,7 +455,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Файл документа Microsoft Word (* .doc).</summary>
+        <summary>Файл документа Microsoft Word (doc).</summary>
       </Docs>
     </Member>
   </Members>

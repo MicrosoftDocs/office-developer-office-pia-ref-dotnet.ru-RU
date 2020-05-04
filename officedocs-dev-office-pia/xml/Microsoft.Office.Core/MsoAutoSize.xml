@@ -1,13 +1,5 @@
 <Type Name="MsoAutoSize" FullName="Microsoft.Office.Core.MsoAutoSize">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="335e8215c06037293af694d35a88e850b22494f6" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662069" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoAutoSize" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="335e8215c06037293af694d35a88e850b22494f6" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662069" /></Metadata><TypeSignature Language="C#" Value="public enum MsoAutoSize" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAutoSize extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAutoSize" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoAutoSize" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет тип автоматического изменения размеров разрешены.</summary>
+    <summary>Определяет тип разрешенного автоматического изменения размера.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Сочетание схемы автоматического изменения размеров используются.</summary>
+        <summary>Используется комбинация схем автоматического изменения размера.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAutoSizeNone">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Нет автоматическое масштабирование.</summary>
+        <summary>Без автоподбора размера.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAutoSizeShapeToFitText">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Фигура, корректируется в соответствии с текстом.</summary>
+        <summary>Фигура корректируется по размеру текста.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAutoSizeTextToFitShape">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Текст, корректируется в соответствии со фигуры.</summary>
+        <summary>Текст изменяется в соответствии с фигурой.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="MsoTriState" FullName="Microsoft.Office.Core.MsoTriState">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bf31b193dfd9e09e78ed4387493375a6fb02fe77" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662040" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoTriState" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bf31b193dfd9e09e78ed4387493375a6fb02fe77" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662040" /></Metadata><TypeSignature Language="C#" Value="public enum MsoTriState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTriState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTriState" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoTriState" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает логическое значение три состояния.</summary>
+    <summary>Задает логическое значение с тремя состояниями.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>false</summary>
+        <summary>Неверно.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTriStateMixed">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>-1</MemberValue>
       <Docs>
-        <summary>Значение true.</summary>
+        <summary>Верно.</summary>
       </Docs>
     </Member>
   </Members>

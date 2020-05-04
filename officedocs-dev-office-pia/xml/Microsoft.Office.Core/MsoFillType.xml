@@ -1,13 +1,5 @@
 <Type Name="MsoFillType" FullName="Microsoft.Office.Core.MsoFillType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="49d1acb8b23c1debaddc9cea3890a7e2b9b0d1ff" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661891" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFillType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="49d1acb8b23c1debaddc9cea3890a7e2b9b0d1ff" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661891" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFillType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFillType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFillType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFillType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип заливки фигуры.</summary>
+    <summary>Задает тип заливки фигуры.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Заливка – то же, что фон.</summary>
+        <summary>Заливка — это то же самое, что и фон.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFillGradient">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Градиентной заливки.</summary>
+        <summary>Градиентная заливка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFillMixed">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Смешанные заливки.</summary>
+        <summary>Смешанная заливка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFillPatterned">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Сплошной заливки.</summary>
+        <summary>Сплошная заливка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFillTextured">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Текстуры заливки.</summary>
+        <summary>Текстурная заливка.</summary>
       </Docs>
     </Member>
   </Members>

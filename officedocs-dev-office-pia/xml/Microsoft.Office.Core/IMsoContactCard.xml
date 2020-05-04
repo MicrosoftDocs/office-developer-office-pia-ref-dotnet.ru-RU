@@ -1,13 +1,5 @@
 <Type Name="IMsoContactCard" FullName="Microsoft.Office.Core.IMsoContactCard">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d33f860c5ea7267c48fb34aa430e28ff8c392dc3" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661722" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IMsoContactCard : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d33f860c5ea7267c48fb34aa430e28ff8c392dc3" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661722" /></Metadata><TypeSignature Language="C#" Value="public interface IMsoContactCard : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoContactCard implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoContactCard" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMsoContactCard&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет карточки контакта.</summary>
+    <summary>Представляет карточку контакта.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,10 +51,8 @@
       <Docs>
         <summary>Получает адрес в карточке контакта.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressType">
@@ -88,32 +78,30 @@
         <ReturnType>Microsoft.Office.Core.MsoContactCardAddressType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.MsoContactCardAddressType" /> значение, представляющее тип адреса для объекта карточку контакта.</summary>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.MsoContactCardAddressType" /> значение, представляющее тип адреса для объекта карточки контакта.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения. Перечисление <b>MsoContactCardAddressType</b> состоит из элементов в следующей таблице.</para>
-          <list type="table">
-            <item>
+        <remarks><para>Только для чтения. Перечисление <b>мсоконтакткардаддресстипе</b> состоит из элементов, приведенных в следующей таблице.</para> 
+          <list type="table"> 
+            <item> 
               <description>
-                <b>msoContactCardAddressTypeOutlook</b>
+                <b>мсоконтакткардаддресстипеаутлук</b>
               </description>
-              <description>представляет уникальный идентификатор для адреса Microsoft Outlook.</description>
-            </item>
-            <item>
+              <description>представляет уникальный идентификатор адреса Microsoft Outlook.</description> 
+            </item> 
+            <item> 
               <description>
-                <b>msoContactCardAddressTypeSMTP</b>
+                <b>мсоконтакткардаддресстипесмтп</b>
               </description>
-              <description>представляет уникальный идентификатор для SMTP-адрес.</description>
-            </item>
-            <item>
+              <description>представляет уникальный идентификатор SMTP-адреса.</description> 
+            </item> 
+            <item> 
               <description>
-                <b>msoContactCardAddressTypeIM</b>
+                <b>мсоконтакткардаддресстипеим</b>
               </description>
-              <description>представляет уникальный идентификатор для адреса обмена мгновенными Сообщениями.</description>
-            </item>
+              <description>представляет уникальный идентификатор для адреса для обмена мгновенными сообщениями.</description> 
+            </item> 
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -142,12 +130,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для объекта <b>IMsoContactCard</b> .</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта <b>IMsoContactCard</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="CardType">
@@ -175,42 +161,40 @@
       <Docs>
         <summary>Получает <see cref="T:Microsoft.Office.Core.MsoContactCardType" /> значение, представляющее тип карточки контакта.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения. <see cref="T:Microsoft.Office.Core.MsoContactCardType" /> Перечисление состоит из элементов в следующей таблице.</para>
-          <list type="table">
-            <item>
+        <remarks><para>Только для чтения. <see cref="T:Microsoft.Office.Core.MsoContactCardType" /> Перечисление состоит из элементов, приведенных в следующей таблице.</para> 
+          <list type="table"> 
+            <item> 
               <description>
-                <b>msoContactCardTypeEnterpriseContact</b>
+                <b>мсоконтакткардтипинтерприсеконтакт</b>
               </description>
-              <description>представляет карточки контакта для адреса контакта корпоративных.</description>
-            </item>
-            <item>
+              <description>представляет карточку контакта для адреса корпоративного контакта.</description> 
+            </item> 
+            <item> 
               <description>
-                <b>msoContactCardTypeEnterpriseGroup</b>
+                <b>мсоконтакткардтипинтерприсеграуп</b>
               </description>
-              <description>представляет карточку контакта для адреса списка рассылки корпоративных.</description>
-            </item>
-            <item>
+              <description>представляет карточку контакта для адреса корпоративного списка рассылки.</description> 
+            </item> 
+            <item> 
               <description>
-                <b>msoContactCardTypePersonalContact</b>
+                <b>мсоконтакткардтипеперсоналконтакт</b>
               </description>
-              <description>представляет карточку контакта для контакта адресной.</description>
-            </item>
-            <item>
+              <description>представляет карточку контакта для личного адреса контакта.</description> 
+            </item> 
+            <item> 
               <description>
-                <b>msoContactCardTypePersonalDistributionList</b>
+                <b>мсоконтакткардтипеперсоналдистрибутионлист</b>
               </description>
-              <description>представляет адреса контакта списка рассылки.</description>
-            </item>
-            <item>
+              <description>представляет личный адрес контакта в списке рассылки.</description> 
+            </item> 
+            <item> 
               <description>
-                <b>msoContactCardTypeUnknownContact</b>
+                <b>мсоконтакткардтипеункновнконтакт</b>
               </description>
-              <description>представляет карточку контакта для Неизвестный контакта адрес.</description>
-            </item>
+              <description>представляет карточку контакта для неизвестного контактного адреса.</description> 
+            </item> 
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -239,12 +223,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>IMsoContactCard</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>IMsoContactCard</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -270,12 +252,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект, вызывающий.</summary>
+        <summary>Возвращает вызывающий объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

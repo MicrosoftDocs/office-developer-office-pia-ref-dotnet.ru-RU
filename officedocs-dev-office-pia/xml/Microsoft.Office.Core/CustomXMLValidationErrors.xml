@@ -1,13 +1,5 @@
 <Type Name="CustomXMLValidationErrors" FullName="Microsoft.Office.Core.CustomXMLValidationErrors">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c776681c7c831f4789515a2436bf2e39e3efd499" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662268" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CustomXMLValidationErrors : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c776681c7c831f4789515a2436bf2e39e3efd499" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662268" /></Metadata><TypeSignature Language="C#" Value="public interface CustomXMLValidationErrors : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLValidationErrors implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLValidationErrors" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLValidationErrors&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,7 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет коллекцию объектов <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объектов.</summary>
+    <summary>Представляет коллекцию <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объектов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -62,11 +54,11 @@
         <Parameter Name="ClearedOnUpdate" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="Node">Представляет узел, где произошла ошибка.</param>
+        <param name="Node">Представляет узел, на котором возникла ошибка.</param>
         <param name="ErrorName">Содержит имя ошибки.</param>
-        <param name="ErrorText">Содержит текст описания ошибки.</param>
-        <param name="ClearedOnUpdate">Указывает, является ли ошибки необходимо выполнить очистку от <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> семейства сайтов при исправляются и обновляются XML-код.</param>
-        <summary>Добавляет <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> object, содержащий ошибка проверки XML для <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> семейства сайтов.</summary>
+        <param name="ErrorText">Содержит описательный текст ошибки.</param>
+        <param name="ClearedOnUpdate">Указывает, следует ли удалить ошибку из <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> коллекции при исправлении и обновлении XML-кода.</param>
+        <summary>Добавляет в <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> коллекцию объект, содержащий ошибку проверки XML.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,10 +88,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,10 +116,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> коллекции. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -159,10 +147,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -224,11 +210,9 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Имя или номер индекса <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта должно быть возвращено.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта из <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" />
-        </value>
+        <param name="Index">Имя или номер индекса возвращаемого <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта.</param>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объект из <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> коллекции. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -256,9 +240,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

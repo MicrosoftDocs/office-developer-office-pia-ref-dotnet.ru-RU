@@ -1,13 +1,5 @@
 <Type Name="GradientStop" FullName="Microsoft.Office.Core.GradientStop">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bbf70803ac35f5dc5cbb9ae81aa1036807675393" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662003" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface GradientStop : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bbf70803ac35f5dc5cbb9ae81aa1036807675393" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662003" /></Metadata><TypeSignature Language="C#" Value="public interface GradientStop : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract GradientStop implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.GradientStop" />
   <TypeSignature Language="VB.NET" Value="Public Interface GradientStop&#xA;Implements _IMsoDispObj" />
@@ -30,11 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет один градиента.</summary>
-    <remarks>
-      <para>Градиентом — это плавный переход с одного цвета состояний в другое. Конечные точки из следующих разделов, называются останавливается.</para>
-      <para />
-    </remarks>
+    <summary>Представляет одну точку градиента.</summary>
+    <remarks><para>Градиенты — это плавный переход от одного состояния цвета к другому. Конечные точки этих разделов называются остановленными.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -63,14 +53,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>При использовании без квалификатор объекта, данное свойство возвращает объект <b>приложения</b> , который представляет приложение Microsoft Office. При использовании с квалификатор объекта, данное свойство возвращает объект <b>приложения</b> , представляющего создателя указанный объект. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
-        <remarks>
-          <para>Это свойство можно использовать с помощью объекта OLE-автоматизации возвращает приложение этого объекта.</para>
-          <para />
-        </remarks>
+        <summary>Если используется без квалификатора объекта, это свойство возвращает объект <b>Application</b> , который представляет приложение Microsoft Office. При использовании с квалификатором объекта это свойство возвращает объект <b>Application</b> , представляющий создателя указанного объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
+        <remarks><para>Это свойство можно использовать с объектом OLE Automation, чтобы возвратить приложение этого объекта.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Color">
@@ -96,14 +82,10 @@
         <ReturnType>Microsoft.Office.Core.ColorFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, представляющее цвет градиента. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ColorFormat" />
-        </value>
-        <remarks>
-          <para>Градиентом — это плавный переход с одного цвета состояний в другое. Конечные точки из следующих разделов, называются останавливается.</para>
-          <para />
-        </remarks>
+        <summary>Получает значение, представляющее цвет остановки градиента. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ColorFormat" /></value>
+        <remarks><para>Градиенты — это плавный переход от одного состояния цвета к другому. Конечные точки этих разделов называются остановленными.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -132,10 +114,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.GradientStop" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.GradientStop" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -165,14 +145,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, представляющее положения Стоп в рамках градиентом, выраженная в процентах. Для чтения и записи.</summary>
-        <value>
-          <b>Single</b>
-        </value>
-        <remarks>
-          <para>Градиентом — это плавный переход с одного цвета состояний в другое. Конечные точки из следующих разделов, называются останавливается.</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает значение, представляющее положение остановки в градиенте, выраженное в виде процента. Для чтения и записи.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
+        <remarks><para>Градиенты — это плавный переход от одного состояния цвета к другому. Конечные точки этих разделов называются остановленными.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Transparency">
@@ -201,14 +177,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, представляющее непрозрачность градиентной заливки, выраженная в процентах. Для чтения и записи.</summary>
-        <value>
-          <b>Single</b>
-        </value>
-        <remarks>
-          <para>Градиентом — это плавный переход с одного цвета состояний в другое. Конечные точки из следующих разделов, называются останавливается.</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает значение, представляющее прозрачность градиентной заливки, выраженная в виде процента. Для чтения и записи.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
+        <remarks><para>Градиенты — это плавный переход от одного состояния цвета к другому. Конечные точки этих разделов называются остановленными.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

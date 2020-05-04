@@ -1,13 +1,5 @@
 <Type Name="MsoThemeColorIndex" FullName="Microsoft.Office.Core.MsoThemeColorIndex">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="253b7dd6843bc7f5682d75997cebfce9fe74a03e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662468" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoThemeColorIndex" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="253b7dd6843bc7f5682d75997cebfce9fe74a03e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662468" /></Metadata><TypeSignature Language="C#" Value="public enum MsoThemeColorIndex" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoThemeColorIndex extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoThemeColorIndex" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoThemeColorIndex" />
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Указывает не цвет темы.</summary>
+        <summary>Указывает, что цвет темы отсутствует.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorAccent1">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы акцент 1.</summary>
+        <summary>Задает цвет темы "акцент 1".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorAccent2">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы 2 диакритических знаков.</summary>
+        <summary>Задает цвет темы "акцент 2".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorAccent3">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы Акцент 3.</summary>
+        <summary>Задает цвет темы "акцент 3".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorAccent4">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы Акцент 4.</summary>
+        <summary>Задает цвет темы "акцент 4".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorAccent5">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы Акцент 5.</summary>
+        <summary>Задает цвет темы "акцент 5".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorAccent6">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы акцент 6.</summary>
+        <summary>Задает цвет темы "акцент 6".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorBackground1">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы фона 1.</summary>
+        <summary>Задает цвет темы "фон 1".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorBackground2">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы фона 2.</summary>
+        <summary>Задает цвет темы "фон 2".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorDark1">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы темный 1.</summary>
+        <summary>Задает цвет темы "темный 1".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorDark2">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы темный 2.</summary>
+        <summary>Задает темный цвет темы 2.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorFollowedHyperlink">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы для выбранной гиперссылки.</summary>
+        <summary>Задает цвет темы для гиперссылки, выбранной по щелчку мыши.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorHyperlink">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы гиперссылки.</summary>
+        <summary>Задает цвет темы для гиперссылки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorLight1">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы светлый 1.</summary>
+        <summary>Задает цвет темы Light 1.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorLight2">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы Light 2.</summary>
+        <summary>Задает цвет темы Light 2.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorMixed">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Указывает тему смешанный цвет.</summary>
+        <summary>Задает смешанную цветовую тему.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorText1">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы текст 1.</summary>
+        <summary>Задает цвет темы "текст 1".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorText2">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Указывает цвет темы текст 2.</summary>
+        <summary>Задает цвет темы Text 2.</summary>
       </Docs>
     </Member>
   </Members>

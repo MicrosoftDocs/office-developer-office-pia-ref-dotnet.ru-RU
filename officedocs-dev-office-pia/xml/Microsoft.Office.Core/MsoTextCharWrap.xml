@@ -1,13 +1,5 @@
 <Type Name="MsoTextCharWrap" FullName="Microsoft.Office.Core.MsoTextCharWrap">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4fdb158dc59e62b72fb2bdf64d4ca5a262880b8c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662194" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoTextCharWrap" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4fdb158dc59e62b72fb2bdf64d4ca5a262880b8c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662194" /></Metadata><TypeSignature Language="C#" Value="public enum MsoTextCharWrap" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextCharWrap extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextCharWrap" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoTextCharWrap" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип перенос текста.</summary>
+    <summary>Указывает тип переноса текста.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Задает перенос смешанных текста.</summary>
+        <summary>Задает перенос текста в смешанном режиме.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCustomCharWrap">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Указывает схему переноса настраиваемого текста.</summary>
+        <summary>Задает настраиваемую схему переноса текста.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoNoCharWrap">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Задает без обтекания текста.</summary>
+        <summary>Обозначает отсутствие обтекания текстом.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoStandardCharWrap">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Задает обтекания текста вокруг стандартных boundry объекта.</summary>
+        <summary>Задает обтекание текста вокруг стандартной границы объекта.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoStrictCharWrap">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Указывает, что обтекания, соответствующий ограничений, накладываемых на некоторых языках, таких как китайский и японский алфавит.</summary>
+        <summary>Обозначает перенос текста, который соответствует ограничениям, накладываемым на некоторые языки, такие как китайские и японские алфавиты.</summary>
       </Docs>
     </Member>
   </Members>

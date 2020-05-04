@@ -1,13 +1,5 @@
 <Type Name="MsoSyncEventType" FullName="Microsoft.Office.Core.MsoSyncEventType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="935359cb6e63378d9d75902e72fe64103a6b7919" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661874" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoSyncEventType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="935359cb6e63378d9d75902e72fe64103a6b7919" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661874" /></Metadata><TypeSignature Language="C#" Value="public enum MsoSyncEventType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncEventType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncEventType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncEventType" />
@@ -20,13 +12,11 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает значение, возвращаемое события <b>синхронизации</b> .</summary>
-    <remarks>
-      <para>В Microsoft Word используется с <b>синхронизации</b> объекта <b>Document</b> или <b>DocumentSync</b> события объекта <b>Application</b> .</para>
-      <para>В Microsoft Excel, используется с <b>синхронизации</b> объекта <b>книги</b> или <b>WorkbookSync</b> события объекта <b>Application</b> .</para>
-      <para>В Microsoft PowerPoint, используемые с событием <b>PresentationSync</b> объекта <b>Application</b> .</para>
-      <para />
-    </remarks>
+    <summary>Задает возвращаемое значение события <b>синхронизации</b> .</summary>
+    <remarks><para>В Microsoft Word используется с событием <b>синхронизации</b> объекта <b>Document</b> или события <b>документсинк</b> объекта <b>Application</b> .</para> 
+      <para>В Microsoft Excel используется с событием <b>синхронизации</b> объекта <b>Workbook</b> или события <b>воркбуксинк</b> объекта <b>Application</b> .</para> 
+      <para>В Microsoft PowerPoint используется с событием <b>Пресентатионсинк</b> объекта <b>Application</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoSyncEventDownloadFailed">
@@ -45,7 +35,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Ошибка загрузки.</summary>
+        <summary>Ошибка скачивания.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncEventDownloadInitiated">
@@ -64,7 +54,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Файл для загрузки запускаются.</summary>
+        <summary>Скачивание начато.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncEventDownloadNoChange">
@@ -83,7 +73,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Не обнаружено изменение.</summary>
+        <summary>Изменения не обнаружены.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncEventDownloadSucceeded">
@@ -102,7 +92,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Файл для загрузки выполнено успешно.</summary>
+        <summary>Загрузка выполнена успешно.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncEventOffline">
@@ -121,7 +111,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Автономный режим.</summary>
+        <summary>Содержание.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncEventUploadFailed">
@@ -140,7 +130,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Ошибка при отправке.</summary>
+        <summary>Не удалось выполнить отправку.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncEventUploadInitiated">
@@ -159,7 +149,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Отправка инициировал.</summary>
+        <summary>Отправка начата.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncEventUploadSucceeded">
@@ -178,7 +168,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Отправка успешно завершена.</summary>
+        <summary>Отправка выполнена успешно.</summary>
       </Docs>
     </Member>
   </Members>

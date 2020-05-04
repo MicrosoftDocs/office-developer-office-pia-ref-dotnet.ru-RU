@@ -1,13 +1,5 @@
 <Type Name="MsoTextChangeCase" FullName="Microsoft.Office.Core.MsoTextChangeCase">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3150c9e4c3ba3817f2b6c192fa26d7907b4feb1a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661857" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoTextChangeCase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3150c9e4c3ba3817f2b6c192fa26d7907b4feb1a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661857" /></Metadata><TypeSignature Language="C#" Value="public enum MsoTextChangeCase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextChangeCase extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextChangeCase" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoTextChangeCase" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает заглавные буквы текста.</summary>
+    <summary>Задает регистр текста.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Отображение текста в виде символы в нижнем регистре.</summary>
+        <summary>Отображение текста в виде символов нижнего регистра.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCaseSentence">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Отображение текста в виде предложение регистра символов. Прописная указывает, что первая буква предложения становится прописной и, что все остальные должно быть нижнем регистре (с некоторыми исключениями, таких как имена собственные и сокращения).</summary>
+        <summary>Отображение текста в виде символов прописных букв. Case Case указывает, что первая буква в выражении является прописной и все остальные должны быть строчными (с некоторыми исключениями, такими как правильные существительные и акронимами).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCaseTitle">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Отображение текста в виде заголовка регистра символов. Заглавные буквы указывает, что становится прописной первую букву каждого слова и, что все остальные должно быть нижнего регистра. В некоторых случаях короткий статьи, предлогов и conjunctions не заданы.</summary>
+        <summary>Отображение текста в виде символов заголовков. Case указывает, что первая буква каждого слова является прописной и все остальные должны быть строчными. В некоторых случаях короткие статьи, перед положениями и в сочетании не заменяются прописными буквами.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCaseToggle">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Указывает, что строчные буквы текста должны быть преобразованы в верхний регистр и что прописные буквы должны быть преобразованы в нижний регистр текста.</summary>
+        <summary>Указывает, что текст в нижнем регистре должен быть преобразован в верхний регистр и текст в верхнем регистре должен быть преобразован в текст в нижнем регистре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCaseUpper">

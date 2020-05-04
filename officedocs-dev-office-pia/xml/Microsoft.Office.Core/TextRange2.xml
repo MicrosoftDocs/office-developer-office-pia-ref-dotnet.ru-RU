@@ -1,13 +1,5 @@
 <Type Name="TextRange2" FullName="Microsoft.Office.Core.TextRange2">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e13cb597db4d10f29174ed725d2871ab3848976a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662646" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface TextRange2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e13cb597db4d10f29174ed725d2871ab3848976a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662646" /></Metadata><TypeSignature Language="C#" Value="public interface TextRange2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextRange2 implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.TextRange2" />
   <TypeSignature Language="VB.NET" Value="Public Interface TextRange2&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,11 +25,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет кадр текст в <b>фигуру</b> или <b>ShapeRange</b> объектов.</summary>
-    <remarks>
-      <para>Этот объект содержит текст надписи, а также свойства и методы, которые управляют выравнивания и привязка текстового фрейма. Свойство <b>TextFrame2</b> возвращает <see cref="T:Microsoft.Office.Core.TextFrame2" /> объекта.</para>
-      <para />
-    </remarks>
+    <summary>Представляет текстовый фрейм в объектах <b>Shape</b> или <b>ShapeRange</b> .</summary>
+    <remarks><para>Этот объект содержит текст в текстовом фрейме, а также свойства и методы, которые управляют выравниванием и закреплением текстового фрейма. Чтобы вернуть <b>TextFrame2</b> <see cref="T:Microsoft.Office.Core.TextFrame2" /> объект, используйте свойство TextFrame2.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="AddPeriods">
@@ -61,7 +51,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Добавляет знаков препинания точкой (.) в правой части текст, содержащийся в <see cref="T:Microsoft.Office.Core.TextFrame2" /> объекта для языков слева направо и в левой части для языков для письма справа налево.</summary>
+        <summary>Добавляет знак точки (.) в правую часть текста, содержащегося в <see cref="T:Microsoft.Office.Core.TextFrame2" /> объекте, для языков с письмом слева направо и слева для языков с письмом справа налево.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -91,10 +81,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>При использовании без квалификатор объекта, данное свойство возвращает объект <b>приложения</b> , который представляет текущего экземпляра приложения Microsoft Office. Используется квалификатор объекта, данное свойство возвращает объект <b>приложения</b> , представляющего создателя <see cref="T:Microsoft.Office.Core.TextFrame2" /> объекта. При использовании с помощью объекта OLE-автоматизации возвращает объект приложения. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Если используется без квалификатора объекта, это свойство возвращает объект <b>Application</b> , который представляет текущий экземпляр приложения Microsoft Office. При использовании с квалификатором объекта это свойство возвращает объект <b>Application</b> , представляющий создателя <see cref="T:Microsoft.Office.Core.TextFrame2" /> объекта. При использовании с объектом OLE Automation возвращает приложение объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -121,14 +109,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает высоту, в точках текста, ограничивающих поля для указанного текста. Только для чтения.</summary>
-        <value>
-          <b>Single</b>
-        </value>
-        <remarks>
-          <para>Текст, ограничивающий прямоугольник не совпадает с <see cref="T:Microsoft.Office.Core.TextFrame" /> объекта.  Объект <b>TextFrame</b> представляет контейнер, в котором могут храниться текст.  Ограничивающий текстовое поле представляет демилитаризованной зоны, сразу же окружающим текстом.</para>
-          <para />
-        </remarks>
+        <summary>Получает высоту (в пунктах) ограничительной рамки текста для указанного текста. Только для чтения.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
+        <remarks><para>Ограничительная рамка текста — это не то же самое <see cref="T:Microsoft.Office.Core.TextFrame" /> , что и объект.  Объект <b>TextFrame</b> представляет контейнер, в котором может находиться текст.  Ограничительная рамка текста представляет периметр, непосредственно окружающий текст.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="BoundLeft">
@@ -154,14 +138,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает левой координат в точках текста, ограничивающих поля для указанного текста. Только для чтения.</summary>
-        <value>
-          <b>Single</b>
-        </value>
-        <remarks>
-          <para>Текст, ограничивающий прямоугольник не совпадает с <see cref="T:Microsoft.Office.Core.TextFrame" /> объекта.  Объект <b>TextFrame</b> представляет контейнер, в котором могут храниться текст.  Ограничивающий текстовое поле представляет демилитаризованной зоны, сразу же окружающим текстом.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает левую координату прямоугольника текста для указанного текста в пунктах. Только для чтения.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
+        <remarks><para>Ограничительная рамка текста — это не то же самое <see cref="T:Microsoft.Office.Core.TextFrame" /> , что и объект.  Объект <b>TextFrame</b> представляет контейнер, в котором может находиться текст.  Ограничительная рамка текста представляет периметр, непосредственно окружающий текст.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="BoundTop">
@@ -187,14 +167,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает Верхняя координата в пунктах, ограничивающий текстового поля для указанного текста. Только для чтения.</summary>
-        <value>
-          <b>Single</b>
-        </value>
-        <remarks>
-          <para>Текст, ограничивающий прямоугольник не совпадает с <see cref="T:Microsoft.Office.Core.TextFrame" /> объекта.  Объект <b>TextFrame</b> представляет контейнер, в котором могут храниться текст.  Ограничивающий текстовое поле представляет демилитаризованной зоны, сразу же окружающим текстом.</para>
-          <para />
-        </remarks>
+        <summary>Получает верхнюю координату (в пунктах) ограничительной рамки текста для указанного текста. Только для чтения.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
+        <remarks><para>Ограничительная рамка текста — это не то же самое <see cref="T:Microsoft.Office.Core.TextFrame" /> , что и объект.  Объект <b>TextFrame</b> представляет контейнер, в котором может находиться текст.  Ограничительная рамка текста представляет периметр, непосредственно окружающий текст.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="BoundWidth">
@@ -220,14 +196,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает ширину в точках текста, ограничивающих поля для указанного текста. Только для чтения.</summary>
-        <value>
-          <b>Single</b>
-        </value>
-        <remarks>
-          <para>Текст, ограничивающий прямоугольник не совпадает с <see cref="T:Microsoft.Office.Core.TextFrame" /> объекта.  Объект <b>TextFrame</b> представляет контейнер, в котором могут храниться текст.  Ограничивающий текстовое поле представляет демилитаризованной зоны, сразу же окружающим текстом.</para>
-          <para />
-        </remarks>
+        <summary>Получает ширину (в пунктах) ограничительной рамки текста для указанного текста. Только для чтения.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
+        <remarks><para>Ограничительная рамка текста — это не то же самое <see cref="T:Microsoft.Office.Core.TextFrame" /> , что и объект.  Объект <b>TextFrame</b> представляет контейнер, в котором может находиться текст.  Ограничительная рамка текста представляет периметр, непосредственно окружающий текст.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ChangeCase">
@@ -253,12 +225,10 @@
         <Parameter Name="Type" Type="Microsoft.Office.Core.MsoTextChangeCase" />
       </Parameters>
       <Docs>
-        <param name="Type">Указывает тип изменения для текста.</param>
-        <summary>Изменяет регистр <see cref="T:Microsoft.Office.Core.TextRange2" /> объект, который требуется одно из значений в <see cref="T:Microsoft.Office.Core.MsoTextChangeCase" /> перечисления.</summary>
-        <remarks>
-          <para>Примеры перечисление <b>MsoTextChangeCase</b><see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseLower" />, <see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseUpper" />, и <see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseTitle" />.</para>
-          <para />
-        </remarks>
+        <param name="Type">Указывает тип изменений, которые необходимо внести в текст.</param>
+        <summary>Изменяет регистр <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта на одно из значений в <see cref="T:Microsoft.Office.Core.MsoTextChangeCase" /> перечислении.</summary>
+        <remarks><para>Примеры перечисления <b>мсотекстчанжекасе</b> include <see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseLower" />, <see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseUpper" />и <see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseTitle" />.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Characters">
@@ -288,23 +258,17 @@
         <Parameter Name="Length" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Start">Первый символ возвращаемого диапазона.</param>
-        <param name="Length">Число символов, которые будут возвращены.</param>
+        <param name="Start">Первый символ в возвращенном диапазоне.</param>
+        <param name="Length">Число возвращаемых символов.</param>
         <summary>Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.TextRange2" />
-        </value>
-        <remarks>
-          <para>Если оба <paramref name="Start" /> и <paramref name="Length" /> , этот параметр опущен, возвращенный диапазон начинается с первого знака и заканчивается на последнем абзаце в указанном диапазоне.</para>
-          <para>Если <paramref name="Start" /> указано, но <paramref name="Length" /> — этот параметр опущен, возвращенный диапазон содержит один символ.</para>
-          <para>Если <paramref name="Length" /> указано, но <paramref name="Start" /> — этот параметр опущен, возвращенный диапазон начинается с первого знака в указанном диапазоне.</para>
-          <para>Если <paramref name="Start" /> больше, чем количество символов в указанный текст, возвращенный диапазон начинается с последнего символа в указанном диапазоне.</para>
-          <para>Если <paramref name="Length" /> больше, чем количество символов из указанного начиная символов в конец текста, возвращенный диапазон содержит все символы.</para>
-          <para />
-        </remarks>
-        <example>
-          <para>В этом примере задает текст для двух фигуры на один слайд активной презентации и затем делает второй символ нижнего индекса символ со смещением 20 процентов.</para>
-        </example>
+        <value><see cref="T:Microsoft.Office.Core.TextRange2" /></value>
+        <remarks><para>Если оба <paramref name="Start" /> <paramref name="Length" /> параметра опущены, возвращаемый диапазон начинается с первого символа и заканчивается последним абзацем в указанном диапазоне.</para> 
+          <para>Если <paramref name="Start" /> он указан, <paramref name="Length" /> но опущен, возвращаемый диапазон содержит один символ.</para> 
+          <para>Если <paramref name="Length" /> он указан, <paramref name="Start" /> но опущен, возвращаемый диапазон начинается с первого символа в указанном диапазоне.</para> 
+          <para>Если <paramref name="Start" /> значение больше, чем число символов в указанном тексте, возвращаемый диапазон начинается с последнего символа в указанном диапазоне.</para> 
+          <para>Если <paramref name="Length" /> значение больше, чем число символов от указанного начального знака до конца текста, возвращаемый диапазон содержит все эти символы.</para>
+          <para /></remarks>
+        <example><para>В этом примере задается текст для фигуры две на слайде 1 в активной презентации, а второй символ преобразуется в знак подстрочного индекса с 20 процентным смещением.</para></example>
       </Docs>
     </Member>
     <Member MemberName="Copy">
@@ -328,7 +292,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Копирует <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <summary>Копирует <see cref="T:Microsoft.Office.Core.TextRange2" /> объект.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -355,10 +319,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.TextRange2" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.TextRange2" /> коллекции. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -388,10 +350,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.TextRange2" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.TextRange2" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -416,7 +376,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет часть или весь текст из диапазон текста.</summary>
+        <summary>Удаляет часть текста или весь текст из диапазона текста.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -441,7 +401,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <summary>Удаляет <see cref="T:Microsoft.Office.Core.TextRange2" /> объект.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -470,14 +430,12 @@
         <Parameter Name="WholeWords" Type="Microsoft.Office.Core.MsoTriState" />
       </Parameters>
       <Docs>
-        <param name="FindWhat">Содержит текст для поиска.</param>
-        <param name="After">Указывает точку в диапазон текста для запуска службы поиска.</param>
-        <param name="MatchCase">Указывает, если текст конечного должен полностью совпадать регистр текста поиска.</param>
-        <param name="WholeWords">Указывает, что будет осуществляться только слово целиком.</param>
-        <summary>Поиск <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта для подмножества текста.</summary>
-        <returns>
-          <b>TextRange2</b>
-        </returns>
+        <param name="FindWhat">Содержит текст, который требуется найти.</param>
+        <param name="After">Задает точку в диапазоне текста для запуска поиска.</param>
+        <param name="MatchCase">Указывает, должен ли целевой текст точно совпадать с регистром искомого текста.</param>
+        <param name="WholeWords">Указывает, что поиск выполняется только для целых слов.</param>
+        <summary>Выполняет поиск <see cref="T:Microsoft.Office.Core.TextRange2" /> подмножества текста в объекте.</summary>
+        <returns><b>TextRange2</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -504,10 +462,8 @@
         <ReturnType>Microsoft.Office.Core.Font2</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>Font</b> форматирование знаков, представляющую для <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Шрифт</b>
-        </value>
+        <summary>Возвращает объект <b>Font</b> , представляющий форматирование символов для <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта. Только для чтения.</summary>
+        <value><b>Font</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -565,11 +521,9 @@
         <Parameter Name="NewText" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="NewText">Содержит текст для вставки.</param>
-        <summary>Вставка текста справа от существующий текст в <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
-        <returns>
-          <b>TextRange2</b>
-        </returns>
+        <param name="NewText">Содержит текст, который необходимо вставить.</param>
+        <summary>Вставляет текст справа от существующего текста в <see cref="T:Microsoft.Office.Core.TextRange2" /> объект.</summary>
+        <returns><b>TextRange2</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -595,11 +549,9 @@
         <Parameter Name="NewText" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="NewText">Содержит текст для вставки.</param>
-        <summary>Вставка текста слева от существующий текст в <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
-        <returns>
-          <b>TextRange2</b>
-        </returns>
+        <param name="NewText">Содержит текст, который необходимо вставить.</param>
+        <summary>Вставляет текст слева от существующего текста в <see cref="T:Microsoft.Office.Core.TextRange2" /> объект.</summary>
+        <returns><b>TextRange2</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -627,17 +579,13 @@
         <Parameter Name="Position" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="ChartFieldType">Содержит текст для вставки.</param>
-        <param name="Formula">Указывает на ячейки (или диапазон), если <see cref="Microsoft.Office.Core.MsoChartFieldFormula" /> константу передается в <paramref name="ChartFieldType" /> параметр.</param>
-        <param name="Position">Задает положение знака вставки в поле диаграммы. По умолчанию используется для добавления поля к завершению теста. Если значение позиции находится вне диапазона, используется значение по умолчанию.</param>
-        <summary>Добавляет поле в текст метки данных на диаграмме.</summary>
-        <returns>
-          <b>TextRange2</b>
-        </returns>
-        <remarks>
-          <para>Этот метод применяется только к метки данных на диаграмме. Вызов этого метода для любого другого типа <a href="a6a59c9b-9b64-c1e2-2e98-a1f99025c877.htm">Microsoft.Office.Core.TextRange2</a></para>
-          <para />
-        </remarks>
+        <param name="ChartFieldType">Содержит текст, который необходимо вставить.</param>
+        <param name="Formula">Указывает ячейку (или диапазон), если <see cref="Microsoft.Office.Core.MsoChartFieldFormula" /> константа передается в <paramref name="ChartFieldType" /> параметре.</param>
+        <param name="Position">Указывает положение символа, в который вставляется поле диаграммы. По умолчанию поле добавляется в конец текста. Если значение позиции находится вне диапазона, используется значение по умолчанию.</param>
+        <summary>Вставляет поле в текст метки данных на диаграмме.</summary>
+        <returns><b>TextRange2</b></returns>
+        <remarks><para>Этот метод применяется только к меткам данных на диаграмме. Вызов этого метода для любого другого типа <a href="a6a59c9b-9b64-c1e2-2e98-a1f99025c877.htm">Microsoft. Office. Core. TextRange2</a></para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="InsertSymbol">
@@ -664,13 +612,11 @@
         <Parameter Name="Unicode" Type="Microsoft.Office.Core.MsoTriState" />
       </Parameters>
       <Docs>
-        <param name="FontName">Задайте имя шрифта.</param>
-        <param name="CharNumber">Число символов.</param>
-        <param name="Unicode">Указывает, будет ли значение символа указано как значение Юникод.</param>
-        <summary>Вставляет символ из указанного шрифт, установленный в диапазон текста, представленного <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
-        <returns>
-          <b>TextRange2</b>
-        </returns>
+        <param name="FontName">Имя набора шрифтов.</param>
+        <param name="CharNumber">Номер символа.</param>
+        <param name="Unicode">Указывает, задается ли значение символа в виде значения Юникода.</param>
+        <summary>Вставляет символ из указанного набора шрифтов в диапазон текста, представленного <see cref="T:Microsoft.Office.Core.TextRange2" /> объектом.</summary>
+        <returns><b>TextRange2</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -697,11 +643,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">Номер индекса диапазон текста.</param>
-        <summary>Получает диапазон текста, указанного идентификатором номер индекса из <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
-        <returns>
-          <b>TextRange2</b>
-        </returns>
+        <param name="Index">Номер индекса текстового диапазона.</param>
+        <summary>Получает диапазон текста, заданный с помощью номера индекса из <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <returns><b>TextRange2</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -732,9 +676,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает <see cref="T:Microsoft.Office.Core.MsoLanguageID" /> значение <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта. Для чтения и записи.</summary>
-        <value>
-          <b>MsoLanguageID</b>
-        </value>
+        <value><b>MsoLanguageID</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -761,10 +703,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает длину диапазон текста. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает длину диапазона текста. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -795,20 +735,16 @@
         <Parameter Name="Length" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Start">Первая строка возвращаемого диапазона.</param>
-        <param name="Length">Число строк должно быть возвращено.</param>
-        <summary>Возвращает указанный набор строк текста. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.TextRange2" />
-        </value>
-        <remarks>
-          <para>Если оба <paramref name="Start" /> и <paramref name="Length" /> , этот параметр опущен, возвращенный диапазон начинается с первой строки и заканчивается на последнем абзаце в указанном диапазоне.</para>
-          <para>Если <paramref name="Start" /> указано, но <paramref name="Length" /> — этот параметр опущен, возвращенный диапазон содержит одну строку.</para>
-          <para>Если <paramref name="Length" /> указано, но <paramref name="Start" /> — этот параметр опущен, возвращенный диапазон начинается с первой строки в указанном диапазоне.</para>
-          <para>Если <paramref name="Start" /> больше, чем количество строк в указанный текст, возвращенный диапазон начинается с последней строки в указанном диапазоне.</para>
-          <para>Если <paramref name="Length" /> больше, чем число строк из указанного начальную строку в конец текста, возвращенный диапазон содержит все строки.</para>
-          <para />
-        </remarks>
+        <param name="Start">Первая строка в возвращенном диапазоне.</param>
+        <param name="Length">Число возвращаемых строк.</param>
+        <summary>Возвращает заданное подмножество текстовых строк. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.TextRange2" /></value>
+        <remarks><para>Если оба <paramref name="Start" /> <paramref name="Length" /> параметра опущены, возвращаемый диапазон начинается с первой строки и заканчивается последним абзацем в указанном диапазоне.</para> 
+          <para>Если <paramref name="Start" /> он указан, <paramref name="Length" /> но опущен, возвращаемый диапазон содержит одну строку.</para> 
+          <para>Если <paramref name="Length" /> он указан, <paramref name="Start" /> но опущен, возвращаемый диапазон начинается с первой строки в указанном диапазоне.</para> 
+          <para>Если <paramref name="Start" /> значение больше, чем число строк в указанном тексте, возвращаемый диапазон начинается с последней строки в указанном диапазоне.</para> 
+          <para>Если <paramref name="Length" /> значение больше, чем число строк с заданной начальной строки до конца текста, возвращенный диапазон содержит все эти строки.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="LtrRun">
@@ -832,7 +768,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.TextRange2" /> запускает объект, представляющий указанного подмножества текста справа налево. Текстовый поток состоит из набора символов, которые совместно использовать те же атрибуты шрифта.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.TextRange2" /> объект, представляющий заданное подмножество текста слева направо. Текстовый тест состоит из диапазона символов, которые используют одни и те же атрибуты шрифта.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -894,9 +830,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает форматирование абзаца для указанного текста. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ParagraphFormat2" />
-        </value>
+        <value><see cref="T:Microsoft.Office.Core.ParagraphFormat2" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -927,20 +861,16 @@
         <Parameter Name="Length" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Start">Первый абзац возвращаемого диапазона.</param>
-        <param name="Length">Число абзацев которого требуется получить.</param>
-        <summary>Получает указанного подмножества параграфов текста. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.TextRange2" />
-        </value>
-        <remarks>
-          <para>Если оба <paramref name="Start" /> и <paramref name="Length" /> , этот параметр опущен, возвращенный диапазон начинается с первого абзаца и заканчивается на последнем абзаце в указанном диапазоне.</para>
-          <para>Если <paramref name="Start" /> указано, но <paramref name="Length" /> — этот параметр опущен, возвращенный диапазон содержит один абзац.</para>
-          <para>Если <paramref name="Length" /> указано, но <paramref name="Start" /> — этот параметр опущен, возвращенный диапазон начинается с первого абзаца в указанном диапазоне.</para>
-          <para>Если <paramref name="Start" /> больше, чем количество абзацев в указанный текст, возвращенный диапазон начинается с последнего абзаца в указанном диапазоне.</para>
-          <para>Если <paramref name="Length" /> больше, чем номер абзацев из указанного начального абзаца в конец текста, возвращенный диапазон содержит все абзацы.</para>
-          <para />
-        </remarks>
+        <param name="Start">Первый абзац в возвращенном диапазоне.</param>
+        <param name="Length">Число возвращаемых абзацев.</param>
+        <summary>Получает заданное подмножество текстовых абзацев. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.TextRange2" /></value>
+        <remarks><para>Если оба <paramref name="Start" /> <paramref name="Length" /> параметра опущены, возвращаемый диапазон начинается с первого абзаца и заканчивается последним абзацем в указанном диапазоне.</para> 
+          <para>Если <paramref name="Start" /> он указан, <paramref name="Length" /> но опущен, возвращаемый диапазон содержит один абзац.</para> 
+          <para>Если <paramref name="Length" /> он указан, <paramref name="Start" /> но опущен, возвращаемый диапазон начинается с первого абзаца в указанном диапазоне.</para> 
+          <para>Если <paramref name="Start" /> значение больше, чем число абзацев в указанном тексте, возвращаемый диапазон начинается с последнего абзаца в указанном диапазоне.</para> 
+          <para>Если <paramref name="Length" /> значение больше, чем число абзацев указанного начального абзаца до конца текста, возвращенный диапазон содержит все эти абзацы.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -968,9 +898,7 @@
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта. 
 Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -995,10 +923,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Вставка содержимого буфера обмена в <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
-        <returns>
-          <b>TextRange2</b>
-        </returns>
+        <summary>Вставляет содержимое буфера обмена в <see cref="T:Microsoft.Office.Core.TextRange2" /> объект.</summary>
+        <returns><b>TextRange2</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1025,11 +951,9 @@
         <Parameter Name="Format" Type="Microsoft.Office.Core.MsoClipboardFormat" />
       </Parameters>
       <Docs>
-        <param name="Format">Определяет формат для содержимого буфера обмена при их вставки в документ.</param>
-        <summary>Заменяет содержимое буфера обмена в формате, указанном диапазон текста. Если вставка прошла успешно, этот метод возвращает <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта, включая диапазон текста, который был вставлен.</summary>
-        <returns>
-          <b>TextRange2</b>
-        </returns>
+        <param name="Format">Определяет формат содержимого буфера обмена при вставке в документ.</param>
+        <summary>Заменяет текстовый диапазон содержимым буфера обмена в указанном формате. Если вставка выполнена успешно, этот метод возвращает <see cref="T:Microsoft.Office.Core.TextRange2" /> объект, включающий вставленный диапазон текста.</summary>
+        <returns><b>TextRange2</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1054,7 +978,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет все точки (.) знаков препинания из текста в <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <summary>Удаляет все знаки пунктуации (.) из текста в <see cref="T:Microsoft.Office.Core.TextRange2" /> объекте.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1084,15 +1008,13 @@
         <Parameter Name="WholeWords" Type="Microsoft.Office.Core.MsoTriState" />
       </Parameters>
       <Docs>
-        <param name="FindWhat">Текст для поиска.</param>
-        <param name="ReplaceWhat">Текст, который вы хотите заменить найденный текст с.</param>
-        <param name="After">Позиция символа (в диапазоне указанный текст), после которого нужно найти следующее вхождение <paramref name="FindWhat" />. Например, если нужно найти с пятого символа диапазон текста, укажите 4 для <paramref name="After" />. Если этот аргумент задан, первым символом диапазон текста используется в качестве отправной точки для поиска.</param>
-        <param name="MatchCase">Определяет, будет ли различие выполняется на основе case.</param>
-        <param name="WholeWords">Определяет, выполняется ли поиск только целых слов.</param>
-        <summary>Поиск определенного текста в диапазон текста, заменяет найденный текст с указанной строки и возвращает <see cref="T:Microsoft.Office.Core.TextRange2" /> объект, представляющий первого появления найденный текст. Возвращает <b>значение Nothing</b> , если совпадение не найдено.</summary>
-        <returns>
-          <b>TextRange2</b>
-        </returns>
+        <param name="FindWhat">Искомый текст.</param>
+        <param name="ReplaceWhat">Текст, в котором нужно заменить найденный текст.</param>
+        <param name="After">Позиция символа (в указанном диапазоне текста), после которой необходимо выполнить поиск следующего вхождения <paramref name="FindWhat" />. Например, если вы хотите выполнить поиск из пятого знака текстового диапазона, укажите 4 для <paramref name="After" />. Если этот аргумент опущен, в качестве начальной точки для поиска используется первый символ диапазона текста.</param>
+        <param name="MatchCase">Определяет, выполняется ли различие на основе этого случая.</param>
+        <param name="WholeWords">Определяет, выполняется ли поиск только полных слов.</param>
+        <summary>Находит определенный текст в диапазоне текста, заменяет найденный текст указанной строкой и возвращает <see cref="T:Microsoft.Office.Core.TextRange2" /> объект, представляющий первое вхождение найденного текста. Возвращает <b>значение Nothing</b> , если совпадения не найдены.</summary>
+        <returns><b>TextRange2</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1126,19 +1048,17 @@
         <Parameter Name="y4" Type="System.Single&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="X1">Возвращает положение (в пунктах) по оси X первой вершины прямоугольника для текста в диапазоне указанный текст.</param>
-        <param name="Y1">Возвращает положение (в пунктах) оси Y первой вершины прямоугольника для текста в диапазоне указанный текст.</param>
-        <param name="X2">Возвращает положение (в пунктах) оси X второй вершины прямоугольника для текста в диапазоне указанный текст.</param>
-        <param name="Y2">Возвращает положение (в пунктах) оси Y второй вершины прямоугольника для текста в диапазоне указанный текст.</param>
-        <param name="X3">Возвращает положение третьей вершины прямоугольника для текста в диапазоне указанный текст по оси X (в точках).</param>
-        <param name="Y3">Возвращает положение третьей вершины прямоугольника для текста в диапазоне указанный текст по оси Y (в точках).</param>
-        <param name="x4">Возвращает положение (в пунктах) координаты X четвертый вершины прямоугольника для текста в диапазоне указанный текст.</param>
-        <param name="y4">Возвращает положение (в пунктах) оси Y четвертый вершин прямоугольника для текста в диапазоне указанный текст.</param>
-        <summary>Получает координаты грани ограничивающего текстовое поле для диапазона указанный текст. Только для чтения.</summary>
-        <remarks>
-          <para>Текст, ограничивающий прямоугольник не совпадает с <see cref="T:Microsoft.Office.Core.TextFrame2" /> объекта.  Объект <b>TextFrame2</b> представляет контейнер, в котором могут храниться текст.  Ограничивающий текстовое поле представляет демилитаризованной зоны, сразу же окружающим текстом.</para>
-          <para />
-        </remarks>
+        <param name="X1">Возвращает позицию (в пунктах) координату X первой вершины ограничивающего прямоугольника для текста в указанном диапазоне текста.</param>
+        <param name="Y1">Возвращает позицию (в точках) координаты Y первой вершины ограничивающего прямоугольника для текста в указанном диапазоне текста.</param>
+        <param name="X2">Возвращает позицию (в пунктах) координаты X второй вершины ограничивающего прямоугольника для текста в указанном диапазоне текста.</param>
+        <param name="Y2">Возвращает позицию (в пунктах) координаты Y второй вершины ограничивающего прямоугольника для текста в указанном диапазоне текста.</param>
+        <param name="X3">Возвращает позицию (в пунктах) координаты X третьей вершины ограничивающего прямоугольника для текста в указанном диапазоне текста.</param>
+        <param name="Y3">Возвращает позицию (в точках) координаты Y третьей вершины ограничивающего прямоугольника для текста в указанном диапазоне текста.</param>
+        <param name="x4">Возвращает позицию (в пунктах) координаты X четвертой вершины ограничивающего прямоугольника для текста в указанном диапазоне текста.</param>
+        <param name="y4">Возвращает позицию (в точках) координаты Y четвертой вершины ограничивающего прямоугольника для текста в указанном диапазоне текста.</param>
+        <summary>Получает координаты вершин ограничительной рамки текста для указанного диапазона текста. Только для чтения.</summary>
+        <remarks><para>Ограничительная рамка текста — это не то же самое <see cref="T:Microsoft.Office.Core.TextFrame2" /> , что и объект.  Объект <b>TextFrame2</b> представляет контейнер, в котором может находиться текст.  Ограничительная рамка текста представляет периметр, непосредственно окружающий текст.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="RtlRun">
@@ -1162,7 +1082,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.TextRange2" /> запускает объект, представляющий указанного подмножества текста справа налево. Текстовый поток состоит из набора символов, которые совместно использовать те же атрибуты шрифта.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.TextRange2" /> объект, представляющий заданное подмножество текста справа налево. Текстовый тест состоит из диапазона символов, которые используют одни и те же атрибуты шрифта.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1193,19 +1113,19 @@
         <Parameter Name="Length" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Start">Первый запуск возвращаемого диапазона.</param>
-        <param name="Length">Число потоков должно быть возвращено.</param>
-        <summary>Возвращает указанный набор текстовых потоков. Текстовый поток состоит из набора символов, которые совместно использовать те же атрибуты шрифта. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.TextRange2" />
-        </value>
-        <remarks>
-          <para>, Если указан Start и длину, возвращенный диапазон начинается с первого потока и заканчивается на последнем абзаце в указанном диапазоне.  </para>
-          <para>Если <paramref name="Start" /> указано, но <paramref name="Length" /> — этот параметр опущен, возвращенный диапазон содержит один run.</para>
-          <para>Если <paramref name="Length" /> указано, но <paramref name="Start" /> — этот параметр опущен, возвращенный диапазон начинается с первого потока в указанном диапазоне.</para>
-          <para>Если <paramref name="Start" /> больше, чем количество потоков в указанный текст, возвращенный диапазон начинается с последнего выполнения в указанном диапазоне.</para>
-          <para>Если <paramref name="Length" /> больше, чем количество потоков от указанной даты начала выполнения в конец текста, возвращенный диапазон содержит все фрагменты.</para> Запуск 
-          <para>A состоит из всех символов из первого знака после изменения шрифта для второго последним символом те же атрибуты шрифта. Например, рассмотрим следующее предложение:</para><para>это <paramref name="italic" /> word не полужирным шрифтом.</para><para>В предыдущем предложении первого потока состоит из слово «Этот» только если пространство после слова «Это» не в формате курсив (если курсивом дискового пространства, первого потока — только первый трех символов, или «Этом»). Аналогичным образом, второй выполнения содержит слово «курсив» только в том случае, если пространства после слова представлен в формате курсив.</para><para /></remarks>
+        <param name="Start">Первый запуск в возвращенном диапазоне.</param>
+        <param name="Length">Число возвращаемых запусков.</param>
+        <summary>Получает заданное подмножество текстовых запусков. Текстовый тест состоит из диапазона символов, которые используют одни и те же атрибуты шрифта. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.TextRange2" /></value>
+        <remarks><para>Если начало и длина опущены, возвращаемый диапазон начинается с первого запуска и заканчивается последним абзацем в указанном диапазоне.  </para> 
+          <para>Если <paramref name="Start" /> он указан, <paramref name="Length" /> но опущен, возвращаемый диапазон содержит один запуск.</para> 
+          <para>Если <paramref name="Length" /> он указан, <paramref name="Start" /> но опущен, возвращаемый диапазон начинается с первого запуска в указанном диапазоне.</para> 
+          <para>Если <paramref name="Start" /> значение больше, чем число выполняемых в указанном тексте, возвращаемый диапазон начинается с последнего запуска в указанном диапазоне.</para> 
+          <para>Если <paramref name="Length" /> значение превышает количество запусков, начиная с указанного запуска до конца текста, возвращенный диапазон содержит все выполняемые данные.</para> 
+          <para>Выполнение состоит из всех символов из первого символа после изменения шрифта на второй символ с теми же атрибутами шрифта. Например, рассмотрим следующее предложение:</para>
+          <para>это <paramref name="italic" /> слово не отображается полужирным шрифтом.</para> 
+          <para>В предыдущем выражении первый запуск состоит из слова "this" только в том случае, если пространство после слова "this" не отформатировано как курсив (если пространство имеет курсив, первый запуск состоит только из первых трех символов или "Си"). Аналогично, второй запуск содержит слово "italic" только в том случае, если пространство после слова отформатировано как курсив.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Select">
@@ -1229,7 +1149,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Выбирает <see cref="T:Microsoft.Office.Core.TextRange2" /> объекта.</summary>
+        <summary>Выбирает <see cref="T:Microsoft.Office.Core.TextRange2" /> объект.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1260,23 +1180,17 @@
         <Parameter Name="Length" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Start">Первое предложение возвращаемого диапазона.</param>
-        <param name="Length">Количество предложений должно быть возвращено.</param>
-        <summary>Возвращает заданное подмножество предложений текста. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.TextRange2" />
-        </value>
-        <remarks>
-          <para>Если оба <paramref name="Start" /> и <paramref name="Length" /> , этот параметр опущен, возвращенный диапазон начинается с первого предложения и заканчивается на последнем абзаце в указанном диапазоне.</para>
-          <para>Если <paramref name="Start" /> указано, но <paramref name="Length" /> — этот параметр опущен, возвращенный диапазон содержит одно предложение.</para>
-          <para>Если <paramref name="Length" /> указано, но <paramref name="Start" /> — этот параметр опущен, возвращенный диапазон начинается с первого предложения в указанном диапазоне.</para>
-          <para>Если <paramref name="Start" /> больше, чем количество предложений в указанный текст, возвращенный диапазон начинается с последнего предложение в указанном диапазоне.</para>
-          <para>Если <paramref name="Length" /> больше, чем число предложений из указанного начального предложения в конец текста, возвращенный диапазон содержит все предложения.</para>
-          <para />
-        </remarks>
-        <example>
-          <para>В этом примере форматов как полужирный шрифт второго предложения второго абзаца в фигуры два слайде один активной презентации PowerPoint.</para>
-        </example>
+        <param name="Start">Первое предложение в возвращенном диапазоне.</param>
+        <param name="Length">Количество возвращаемых предложений.</param>
+        <summary>Возвращает заданное подмножество текстовых предложений. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.TextRange2" /></value>
+        <remarks><para>Если оба <paramref name="Start" /> <paramref name="Length" /> параметра опущены, возвращаемый диапазон начинается с первого предложения и заканчивается последним абзацем в указанном диапазоне.</para> 
+          <para>Если <paramref name="Start" /> он указан, <paramref name="Length" /> но опущен, возвращаемый диапазон содержит одно предложение.</para> 
+          <para>Если <paramref name="Length" /> он указан, <paramref name="Start" /> но опущен, возвращаемый диапазон начинается с первого предложения в указанном диапазоне.</para> 
+          <para>Если <paramref name="Start" /> значение больше, чем число предложений в указанном тексте, возвращаемый диапазон начинается с последнего предложения в указанном диапазоне.</para> 
+          <para>Если <paramref name="Length" /> значение больше, чем число предложений от указанного начального предложения до конца текста, возвращаемый диапазон содержит все эти предложения.</para>
+          <para /></remarks>
+        <example><para>В этом примере в качестве полужирного начертания второго предложения во втором абзаце фигуры два на слайде в активной презентации PowerPoint форматируется полужирным шрифтом.</para></example>
       </Docs>
     </Member>
     <Member MemberName="Start">
@@ -1302,10 +1216,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает начальную точку диапазона указанный текст. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает начальную точку указанного диапазона текста. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1335,10 +1247,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение типа <b>String</b> , представляющий текст в диапазон текста. Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает или задает <b>строковое</b> значение, представляющее текст в диапазоне текста. Для чтения и записи.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1363,10 +1273,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает указанный текст без пробелов.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.TextRange2" />
-        </returns>
+        <summary>Возвращает указанный текст минус все замыкающие пробелы.</summary>
+        <returns><see cref="T:Microsoft.Office.Core.TextRange2" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1397,20 +1305,16 @@
         <Parameter Name="Length" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Start">Первое слово возвращаемого диапазона.</param>
-        <param name="Length">Количество слов должно быть возвращено.</param>
-        <summary>Получает указанного подмножества слова. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.TextRange2" />
-        </value>
-        <remarks>
-          <para>Если оба <paramref name="Start" /> и <paramref name="Length" /> , этот параметр опущен, возвращенный диапазон начинается с первого слова и заканчивается на последнем абзаце в указанном диапазоне.</para>
-          <para>Если <paramref name="Start" /> указано, но <paramref name="Length" /> — этот параметр опущен, возвращенный диапазон содержит одно слово.</para>
-          <para>Если <paramref name="Length" /> указано, но <paramref name="Start" /> — этот параметр опущен, возвращенный диапазон начинается с первого слова в указанном диапазоне.</para>
-          <para>Если <paramref name="Start" /> больше, чем количество слов в указанный текст, возвращенный диапазон начинается с последнего слова в указанном диапазоне.</para>
-          <para>Если <paramref name="Length" /> больше, чем количество слов из указанного начиная word в конец текста, возвращенный диапазон содержит эти слова.</para>
-          <para />
-        </remarks>
+        <param name="Start">Первое слово в возвращенном диапазоне.</param>
+        <param name="Length">Число возвращаемых слов.</param>
+        <summary>Получает заданное подмножество текстовых слов. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.TextRange2" /></value>
+        <remarks><para>Если оба <paramref name="Start" /> <paramref name="Length" /> параметра опущены, возвращаемый диапазон начинается с первого слова и заканчивается последним абзацем в указанном диапазоне.</para> 
+          <para>Если <paramref name="Start" /> он указан, <paramref name="Length" /> но опущен, возвращаемый диапазон содержит одно слово.</para> 
+          <para>Если <paramref name="Length" /> он указан, <paramref name="Start" /> но опущен, возвращаемый диапазон начинается с первого слова в указанном диапазоне.</para> 
+          <para>Если <paramref name="Start" /> значение больше, чем число слов в указанном тексте, возвращаемый диапазон начинается с последнего слова в указанном диапазоне.</para> 
+          <para>Если <paramref name="Length" /> значение больше, чем число слов от указанного начального слова до конца текста, возвращаемый диапазон содержит все эти слова.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

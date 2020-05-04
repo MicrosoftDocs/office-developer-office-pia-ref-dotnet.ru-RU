@@ -1,13 +1,5 @@
 <Type Name="_CommandBarButtonEvents_ClickEventHandler" FullName="Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="961501ea02409e9d3b18ababb20d6a625b4cfa10" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662633" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void _CommandBarButtonEvents_ClickEventHandler(CommandBarButton Ctrl, out bool CancelDefault);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="961501ea02409e9d3b18ababb20d6a625b4cfa10" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662633" /></Metadata><TypeSignature Language="C#" Value="public delegate void _CommandBarButtonEvents_ClickEventHandler(CommandBarButton Ctrl, out bool CancelDefault);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _CommandBarButtonEvents_ClickEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub _CommandBarButtonEvents_ClickEventHandler(Ctrl As CommandBarButton, ByRef CancelDefault As Boolean)" />
@@ -35,9 +27,9 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Ctrl">Требуется <b>CommandBarButton</b>. Обозначает управления <b>CommandBarButton</b> , который инициировал событие.</param>
-    <param name="CancelDefault">Требуется <b>Boolean</b>. <b>Значение false,</b> Если поведение по умолчанию, связанное с элементом управления <b>CommandBarButton</b> возникает, если не отменяется другим процессом или надстройки.</param>
-    <summary>Тип <b>делегата</b> , используемый для добавления обработчика события для <see cref="E:Microsoft.Office.Core._CommandBarButtonEvents_Event.Click" /> события. <b>Щелкните</b> событие происходит, когда пользователь щелкает <see cref="T:Microsoft.Office.Core.CommandBarButton" /> объекта.</summary>
+    <param name="Ctrl">Обязательный <b>CommandBarButton</b>. Обозначает элемент управления <b>CommandBarButton</b> , который инициировал событие.</param>
+    <param name="CancelDefault">Обязательный атрибут типа <b>Boolean</b>. <b>False</b> , если происходит поведение по умолчанию, связанное с элементом управления <b>CommandBarButton</b> , если оно не отменено другим процессом или надстройкой.</param>
+    <summary>Тип <b>делегата</b> , который используется для добавления обработчика событий <see cref="E:Microsoft.Office.Core._CommandBarButtonEvents_Event.Click" /> для события. Событие <b>Click</b> возникает, когда пользователь щелкает <see cref="T:Microsoft.Office.Core.CommandBarButton" /> объект.</summary>
     <remarks>To be added.</remarks>
   </Docs>
 </Type>

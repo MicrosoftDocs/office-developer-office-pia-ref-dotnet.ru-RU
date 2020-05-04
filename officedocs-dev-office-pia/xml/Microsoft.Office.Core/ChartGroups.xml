@@ -1,13 +1,5 @@
 <Type Name="ChartGroups" FullName="Microsoft.Office.Core.ChartGroups">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="74025ca948bccfd78c5bcc16b03c8dbad92f6564" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662246" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ChartGroups : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="74025ca948bccfd78c5bcc16b03c8dbad92f6564" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662246" /></Metadata><TypeSignature Language="C#" Value="public interface ChartGroups : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartGroups implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ChartGroups" />
   <TypeSignature Language="VB.NET" Value="Public Interface ChartGroups&#xA;Implements IEnumerable" />
@@ -30,11 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Коллекция всех объектов <b>ChartGroup</b> в указанную диаграмму.</summary>
-    <remarks>
-      <para>Каждый объект <b>ChartGroup</b> представляет один или несколько рядов на диаграмме с тот же формат. Диаграмма содержит одну или несколько групп диаграммы, каждой группе диаграммы содержит один или несколько рядов и ряды содержит одну или несколько точек. К примеру отдельных диаграмм может содержать группу диаграммы строк, содержащий все ряд, отложенный с формат линейной диаграммы и группа линейчатая диаграмма, содержащий все ряд, отложенный с помощью формата линейчатая диаграмма.</para>
-      <para />
-    </remarks>
+    <summary>Коллекция всех объектов <b>свойство ChartGroup</b> в указанной диаграмме.</summary>
+    <remarks><para>Каждый объект <b>свойство ChartGroup</b> представляет один или несколько рядов, построенных на диаграмме с одинаковым форматом. Диаграмма содержит одну или несколько групп диаграмм, каждая группа диаграммы содержит один или несколько рядов, а каждый ряд содержит одну или несколько точек. Например, одна диаграмма может содержать как группу графиков, содержащую все ряды, построенные с помощью линейного формата диаграммы, так и группу линейчатой диаграммы, содержащую все ряды, построенные с помощью формата линейчатой диаграммы.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -60,10 +50,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -91,9 +79,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает число объектов в коллекции. Только для чтения</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -121,9 +107,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -155,7 +139,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />.</returns>
+        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -182,11 +166,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">Требуется <b>объект</b>. Имя или номер индекса для объекта.</param>
+        <param name="Index">Обязательный <b>объект</b>. Имя или номер индекса для объекта.</param>
         <summary>Возвращает один объект из коллекции.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.IMsoChartGroup" />
-        </returns>
+        <returns><see cref="T:Microsoft.Office.Core.IMsoChartGroup" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -214,9 +196,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает родительский объект для указанного объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

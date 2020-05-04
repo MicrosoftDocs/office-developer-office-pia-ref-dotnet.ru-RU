@@ -1,13 +1,5 @@
 <Type Name="ODSOFilter" FullName="Microsoft.Office.Core.ODSOFilter">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="222879bda708eb482fe02b23fbba82f6f2344080" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662193" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ODSOFilter : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="222879bda708eb482fe02b23fbba82f6f2344080" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662193" /></Metadata><TypeSignature Language="C#" Value="public interface ODSOFilter : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ODSOFilter implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ODSOFilter" />
   <TypeSignature Language="VB.NET" Value="Public Interface ODSOFilter&#xA;Implements _IMsoDispObj" />
@@ -30,13 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет фильтр для применения к источнику данных вложенные слияния почты.</summary>
-    <remarks>
-      <para>Объект <b>ODSOFilter</b> входит в состав <see cref="T:Microsoft.Office.Core.ODSOFilters" /> объект.</para>
-      <para>Каждый фильтр — это строка в строке запроса. Использование <see cref="P:Microsoft.Office.Core.ODSOFilter.Column" />, <see cref="P:Microsoft.Office.Core.ODSOFilter.Comparison" />, <see cref="P:Microsoft.Office.Core.ODSOFilter.CompareTo" />, и <see cref="P:Microsoft.Office.Core.ODSOFilter.Conjunction" /> свойства для возвращения или задания условия запроса источника данных.</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core.ODSOFilters.Add(System.String,Microsoft.Office.Core.MsoFilterComparison,Microsoft.Office.Core.MsoFilterConjunction,System.String,System.Boolean)" /> метод объекта <b>ODSOFilters</b> для добавления нового условия фильтра к запросу.</para>
-      <para />
-    </remarks>
+    <summary>Представляет фильтр, применяемый к связанному источнику данных слияния.</summary>
+    <remarks><para>Объект <b>ODSOFilter</b> является членом <see cref="T:Microsoft.Office.Core.ODSOFilters" /> объекта.</para> 
+      <para>Каждый фильтр является строкой в строке запроса. Для возврата <see cref="P:Microsoft.Office.Core.ODSOFilter.Column" />или <see cref="P:Microsoft.Office.Core.ODSOFilter.Comparison" />задания <see cref="P:Microsoft.Office.Core.ODSOFilter.CompareTo" />условия запроса <see cref="P:Microsoft.Office.Core.ODSOFilter.Conjunction" /> источника данных используются свойства,, и.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.ODSOFilters.Add(System.String,Microsoft.Office.Core.MsoFilterComparison,Microsoft.Office.Core.MsoFilterConjunction,System.String,System.Boolean)" /> метод объекта <b>ODSOFilters</b> , чтобы добавить в запрос новое условие фильтра.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -65,7 +55,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -96,7 +86,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <b>строку</b> , представляющую имя поля в источнике данных слияния почты для использования в фильтре.</summary>
+        <summary>Возвращает или задает <b>строку</b> , представляющую имя поля в источнике данных слияния, которое будет использоваться в фильтре.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -127,7 +117,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <b>строку</b> , представляющую текст для сравнения в критерий фильтра запроса.</summary>
+        <summary>Возвращает или задает <b>строку</b> , представляющую текст, который необходимо сравнить в условии фильтра запроса.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -158,7 +148,7 @@
         <ReturnType>Microsoft.Office.Core.MsoFilterComparison</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoFilterComparison" /> константа, представляющий сравнение <see cref="P:Microsoft.Office.Core.ODSOFilter.Column" /> и <see cref="P:Microsoft.Office.Core.ODSOFilter.CompareTo" /> свойства.</summary>
+        <summary>Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoFilterComparison" /> константу, представляющую способ сравнения свойств <see cref="P:Microsoft.Office.Core.ODSOFilter.Column" /> и <see cref="P:Microsoft.Office.Core.ODSOFilter.CompareTo" /> .</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -189,7 +179,7 @@
         <ReturnType>Microsoft.Office.Core.MsoFilterConjunction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoFilterConjunction" /> константа, которая представляет как условиям фильтра относится к других критериев фильтрации в <see cref="T:Microsoft.Office.Core.ODSOFilters" /> объекта.</summary>
+        <summary>Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoFilterConjunction" /> константу, представляющую отношение условия фильтра к другим условиям фильтра в <see cref="T:Microsoft.Office.Core.ODSOFilters" /> объекте.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -220,12 +210,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.ODSOFilter.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.ODSOFilter.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -251,12 +241,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>целое число</b> , представляющее номер индекса для объекта в коллекции.</summary>
+        <summary>Возвращает <b>целое</b> число, представляющее номер индекса для объекта в коллекции.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Положение первого элемента управления панели команд — 1. Разделители не учитываются <see cref="T:Microsoft.Office.Core.CommandBarControls" /> семейства сайтов.</para>
-          <para />
-        </remarks>
+        <remarks><para>Положение первого элемента управления "панель команд" равно 1. Разделители не учитываются в <see cref="T:Microsoft.Office.Core.CommandBarControls" /> коллекции.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">

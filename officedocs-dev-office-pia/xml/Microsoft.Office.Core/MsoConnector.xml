@@ -1,13 +1,5 @@
 <Type Name="MsoConnector" FullName="Microsoft.Office.Core.MsoConnector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d1b76e35cf6bb0c7656f45ee92d42208df7eeb94" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662319" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoConnector" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d1b76e35cf6bb0c7656f45ee92d42208df7eeb94" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662319" /></Metadata><TypeSignature Language="C#" Value="public enum MsoConnector" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoConnector extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoConnector" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoConnector" />
@@ -25,11 +17,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Указывает соединитель между двумя значениями аналогичные свойства теста.</summary>
-    <remarks>
-      <para>Используется со свойством <b>соединителя</b> объекта <b>PropertyTest</b> .</para>
-      <para />
-    </remarks>
+    <summary>Задает соединитель между двумя похожими значениями свойства.</summary>
+    <remarks><para>Используется с свойством <b>Connector</b> объекта <b>пропертитест</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoConnectorAnd">
@@ -48,7 +38,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Объединить тестовые значения свойства для формирования одно свойство тестирование.</summary>
+        <summary>Объединение значений проверки свойств для создания одного теста свойства.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConnectorOr">
@@ -67,7 +57,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Значения свойств тестирования считать отдельных условий.</summary>
+        <summary>Проверяйте значения свойств как отдельные условия.</summary>
       </Docs>
     </Member>
   </Members>

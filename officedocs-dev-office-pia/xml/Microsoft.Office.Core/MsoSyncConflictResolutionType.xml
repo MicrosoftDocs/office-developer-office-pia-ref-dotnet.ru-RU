@@ -1,13 +1,5 @@
 <Type Name="MsoSyncConflictResolutionType" FullName="Microsoft.Office.Core.MsoSyncConflictResolutionType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1492294fd9e26fabd913845a72834f77188eb7c2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662109" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoSyncConflictResolutionType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1492294fd9e26fabd913845a72834f77188eb7c2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662109" /></Metadata><TypeSignature Language="C#" Value="public enum MsoSyncConflictResolutionType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncConflictResolutionType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncConflictResolutionType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncConflictResolutionType" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, как следует разрешать конфликты при синхронизации общих документов.</summary>
-    <remarks>
-      <para>Используется с методом <b>ResolveConflict</b> объекта <b>синхронизации</b> .</para>
-      <para />
-    </remarks>
+    <summary>Определяет способ разрешения конфликтов при синхронизации общего документа.</summary>
+    <remarks><para>Используется с методом <b>ресолвеконфликт</b> объекта <b>Sync</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoSyncConflictClientWins">
@@ -43,7 +33,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Замените копией на сервере локальной копии.</summary>
+        <summary>Замените копию на сервере локальной копией.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncConflictMerge">
@@ -62,7 +52,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Объединение изменений, внесенных в копию на сервере в локальной копии. Для разрешения конфликтов с объединенными изменениями результирующий, активных документов должен быть сохранен после объединения изменяется, а затем вызвать метод <b>ResolveConflict</b> еще раз с <see cref="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictClientWins" /> вариант.</summary>
+        <summary>Объединение изменений, внесенных в копию на сервере, в локальную копию. Чтобы устранить конфликт с использованием Объединенных изменений, необходимо сохранить активный документ после слияния изменений, а затем снова вызвать метод <b>ресолвеконфликт</b> с <see cref="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictClientWins" /> параметром.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncConflictServerWins">
@@ -81,7 +71,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Замените локальной копии с копией на сервере.</summary>
+        <summary>Замените локальную копию копией сервера.</summary>
       </Docs>
     </Member>
   </Members>

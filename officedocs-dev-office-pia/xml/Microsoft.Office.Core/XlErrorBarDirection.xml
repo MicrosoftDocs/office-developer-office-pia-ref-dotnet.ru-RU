@@ -1,13 +1,5 @@
 <Type Name="XlErrorBarDirection" FullName="Microsoft.Office.Core.XlErrorBarDirection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2cbff1f7ff5293454ba3def4e861b40ab46ebbdf" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661697" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlErrorBarDirection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2cbff1f7ff5293454ba3def4e861b40ab46ebbdf" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661697" /></Metadata><TypeSignature Language="C#" Value="public enum XlErrorBarDirection" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlErrorBarDirection extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlErrorBarDirection" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlErrorBarDirection" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает, какие оси значений, чтобы получать планки погрешностей.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает, какие значения оси будут получать панели погрешностей.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>-4168</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Панелей запустите параллельный оси Y для значений оси x.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Полосы работают параллельно с осью Y для значений оси X.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlChartY">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Панелей запустите параллельного ось X для оси значений.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Полосы работают параллельно с осью X для значений оси Y.</summary>
       </Docs>
     </Member>
   </Members>

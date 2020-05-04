@@ -1,13 +1,5 @@
 <Type Name="ContentVerificationResults" FullName="Microsoft.Office.Core.ContentVerificationResults">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="eb575f3c321cb3f9fbf9e8799863265db1be34ff" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662425" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ContentVerificationResults" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="eb575f3c321cb3f9fbf9e8799863265db1be34ff" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662425" /></Metadata><TypeSignature Language="C#" Value="public enum ContentVerificationResults" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContentVerificationResults extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ContentVerificationResults" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContentVerificationResults" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Предоставляет сведения о состоянии проверить, было ли изменено содержимое документа.</summary>
+    <summary>Предоставляет состояние проверки, изменилось ли содержимое документа.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Проверка возникла ошибка.</summary>
+        <summary>Проверка привела к ошибке.</summary>
       </Docs>
     </Member>
     <Member MemberName="contverresModified">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Содержимое документа был изменен после его цифровой подписи.</summary>
+        <summary>Содержимое документа было изменено, так как оно было снабжено цифровой подписью.</summary>
       </Docs>
     </Member>
     <Member MemberName="contverresUnverified">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Документ не было проверено.</summary>
+        <summary>Документ не проверен.</summary>
       </Docs>
     </Member>
     <Member MemberName="contverresValid">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Содержимое проверена и является допустимым.</summary>
+        <summary>Содержимое проверено и является допустимым.</summary>
       </Docs>
     </Member>
     <Member MemberName="contverresVerifying">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>В настоящее время выполняется проверка содержимого документа.</summary>
+        <summary>В настоящее время проверяется содержимое документа.</summary>
       </Docs>
     </Member>
   </Members>

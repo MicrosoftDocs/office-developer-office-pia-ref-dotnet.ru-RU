@@ -1,13 +1,5 @@
 <Type Name="MsoScaleFrom" FullName="Microsoft.Office.Core.MsoScaleFrom">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a8f70b3d897a8801538150d2d4d0781b56e90ba4" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662437" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoScaleFrom" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a8f70b3d897a8801538150d2d4d0781b56e90ba4" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662437" /></Metadata><TypeSignature Language="C#" Value="public enum MsoScaleFrom" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoScaleFrom extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoScaleFrom" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoScaleFrom" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, какие части фигуры сохраняет положение при масштабировании фигуры.</summary>
+    <summary>Указывает, какая часть фигуры сохраняет свое положение при масштабировании фигуры.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Фигуры в правом нижнем углу сохраняет положение.</summary>
+        <summary>Положение нижнего правого угла для фигуры сохраняется.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoScaleFromMiddle">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Средняя точка фигуры сохраняет положение.</summary>
+        <summary>В средней точке фигуры сохраняется ее положение.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoScaleFromTopLeft">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Верхний левый угол фигуры сохраняет положение.</summary>
+        <summary>Положение верхнего левого угла фигуры сохраняется.</summary>
       </Docs>
     </Member>
   </Members>

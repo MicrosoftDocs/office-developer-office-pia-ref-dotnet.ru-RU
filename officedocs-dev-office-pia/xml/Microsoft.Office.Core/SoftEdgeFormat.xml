@@ -1,13 +1,5 @@
 <Type Name="SoftEdgeFormat" FullName="Microsoft.Office.Core.SoftEdgeFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="592eb0dc9b2b779c2540c9d6c859552db4d9c27a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661660" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SoftEdgeFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="592eb0dc9b2b779c2540c9d6c859552db4d9c27a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661660" /></Metadata><TypeSignature Language="C#" Value="public interface SoftEdgeFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SoftEdgeFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SoftEdgeFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface SoftEdgeFormat&#xA;Implements _IMsoDispObj" />
@@ -30,11 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет эффект сглаживание в графика Office.</summary>
-    <remarks>
-      <para>Влияние мягкий край создает маска вокруг объекта и сочетает объект с прозрачной пограничного сервера.  Результатом является «растушеванного» или Проявление с пограничного сервера.</para>
-      <para />
-    </remarks>
+    <summary>Представляет эффекты сглаженных краев в графике Office.</summary>
+    <remarks><para>Побочный край создает маску вокруг края объекта и смешивает объект с прозрачным краем.  В результате получается «Растушевка» или «растушевка» граница.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -63,10 +53,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,10 +84,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -129,12 +115,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает размер, измеряемую в точках эффекта программных край фигуры.</summary>
+        <summary>Получает или задает размер, измеряемый в пунктах, для эффектов мягкого края фигуры.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -164,9 +148,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает тип <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> объекта. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoSoftEdgeType" />
-        </value>
+        <value><see cref="T:Microsoft.Office.Core.MsoSoftEdgeType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

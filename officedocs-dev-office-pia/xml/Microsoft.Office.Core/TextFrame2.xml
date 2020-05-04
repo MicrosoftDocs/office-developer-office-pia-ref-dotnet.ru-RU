@@ -1,13 +1,5 @@
 <Type Name="TextFrame2" FullName="Microsoft.Office.Core.TextFrame2">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5314633137478d8349480d5ade3d81b493b98c1a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662128" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface TextFrame2 : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5314633137478d8349480d5ade3d81b493b98c1a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662128" /></Metadata><TypeSignature Language="C#" Value="public interface TextFrame2 : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextFrame2 implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.TextFrame2" />
   <TypeSignature Language="VB.NET" Value="Public Interface TextFrame2&#xA;Implements _IMsoDispObj" />
@@ -389,39 +381,37 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает значение, указывающее, если текст в фигуру является вращаться Если поворот самой фигуре.</summary>
+        <summary>Возвращает или задает значение, указывающее, вращается ли текст на фигуре при вращении самой фигуры.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Возвращает или задает один из следующих <see cref="T:Microsoft.Office.Core.MsoTriState" /> значений перечисления:</para>
+        <remarks><para>Возвращает или <see cref="T:Microsoft.Office.Core.MsoTriState" /> задает одно из следующих значений перечисления:</para>
           <list type="bullet">
             <item>
               <para>
-                <b>msoCTrue</b>
+                <b>мсоктруе</b>
               </para>
             </item>
             <item>
               <para>
-                <b>msoFalse</b>
+                <b>мсофалсе</b>
               </para>
             </item>
             <item>
               <para>
-                <b>msoTriStateMixed</b>
+                <b>мсотристатемиксед</b>
               </para>
             </item>
             <item>
               <para>
-                <b>msoTriStateToggle</b>
+                <b>мсотристатетоггле</b>
               </para>
             </item>
             <item>
               <para>
-                <b>msoTrue</b>
+                <b>мсотруе</b>
               </para>
-            </item>
+            </item> 
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Orientation">

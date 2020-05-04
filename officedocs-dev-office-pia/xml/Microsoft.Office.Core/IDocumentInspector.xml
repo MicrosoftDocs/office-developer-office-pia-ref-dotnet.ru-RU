@@ -1,13 +1,5 @@
 <Type Name="IDocumentInspector" FullName="Microsoft.Office.Core.IDocumentInspector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6dc49c2a97cc771ebddfb7fd2025f06a984df10f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662297" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IDocumentInspector" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6dc49c2a97cc771ebddfb7fd2025f06a984df10f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662297" /></Metadata><TypeSignature Language="C#" Value="public interface IDocumentInspector" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDocumentInspector" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IDocumentInspector" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDocumentInspector" />
@@ -29,14 +21,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет интерфейс, через который методы <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> доступ к объекту.</summary>
-    <remarks>
-      <para>
-        <b>Примечание</b>: <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> объект использовать настраиваемые авторов модуля инспектора документов и не может использоваться с помощью Visual Basic для приложений (VBA).</para>
-      <para>
-        <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> предоставляет доступ к <see cref="M:Microsoft.Office.Core.IDocumentInspector.GetInfo(System.String@,System.String@)" />, <see cref="M:Microsoft.Office.Core.IDocumentInspector.Inspect(System.Object,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@,System.String@)" />, и <see cref="M:Microsoft.Office.Core.IDocumentInspector.Fix(System.Object,System.Int32,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> методы. <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> Используется объект с помощью пользовательских модулей инспектора документов. Это необходимо, в отличие от модули, входящие в состав 1st_Office12.</para>
-      <para />
-    </remarks>
+    <summary>Представляет интерфейс, с помощью которого осуществляется доступ к <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> методам объекта.</summary>
+    <remarks><para>
+        <b>Note</b> <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> : объект предназначен для монопольного использования настраиваемых авторов модулей инспектора документов и не может использоваться с Visual Basic для приложений (VBA).</para> 
+      <para>предоставляет доступ <see cref="M:Microsoft.Office.Core.IDocumentInspector.GetInfo(System.String@,System.String@)" />к методам <see cref="M:Microsoft.Office.Core.IDocumentInspector.Inspect(System.Object,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@,System.String@)" />, и, и. <see cref="M:Microsoft.Office.Core.IDocumentInspector.Fix(System.Object,System.Int32,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> 
+        <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> Объект используется с настраиваемыми модулями инспектора документов. Это отличается от модулей, поставляемых с 1st_Office12.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Fix">
@@ -60,35 +50,33 @@
         <Parameter Name="Result" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Doc">Задает nn, который представляет объект контейнера.</param>
-        <param name="hwnd">Указывает уникальный идентификатор окна активных документов.</param>
-        <param name="Status">Определяет перечисление, указывающее состояние действия.</param>
+        <param name="Doc">Задает объект NN, представляющий объект Container.</param>
+        <param name="hwnd">Задает уникальный идентификатор активного окна документа.</param>
+        <param name="Status">Задает перечисление, указывающее состояние действия.</param>
         <param name="Result">Содержит результаты действия.</param>
-        <summary>Выполняет какие-либо действия элементов определенные сведения или свойств документа с помощью настраиваемого модуля инспектора документов.</summary>
-        <remarks>
-          <para>В следующей таблице описаны <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> члены.</para>
-          <list type="table">
-            <item>
+        <summary>Выполняет некоторые действия с определенными элементами сведений или свойствами документа с помощью настраиваемого модуля инспектора документов.</summary>
+        <remarks><para>В следующей таблице описываются <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> элементы.</para> 
+          <list type="table"> 
+            <item> 
               <description>
-                <b>msoDocInspectorStatusIssueFound</b>
-              </description>
-              <description>1</description>
-            </item>
-            <item>
-              <description>
-                <b>msoDocInspectorStatusDocOk</b>
+                <b>мсодоЦинспекторстатусдокок</b>
               </description>
               <description>0</description>
             </item>
             <item>
               <description>
-                <b>msoDocInspectorStatusError</b>
+                <b>мсодоЦинспекторстатусиссуефаунд</b>
               </description>
-              <description>2</description>
+              <description>1</description>
             </item>
+            <item>
+              <description>
+                <b>мсодоЦинспекторстатусеррор</b>
+              </description>
+              <description>2</description> 
+            </item> 
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInfo">
@@ -112,7 +100,7 @@
       <Docs>
         <param name="Name">Представляет имя модуля.</param>
         <param name="Desc">Представляет описание модуля.</param>
-        <summary>Получает сведения о настраиваемых модуля инспектора документов.</summary>
+        <summary>Получает сведения о настраиваемом модуле инспектора документов.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,12 +125,11 @@
         <Parameter Name="Action" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Doc">Объект, представляющий контейнер документа.</param>
-        <param name="Status">
-          <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> Значение, которое представляет результаты проверки.</param>
-        <param name="Result">Содержит список элементов сведений или свойств документа в документе.</param>
-        <param name="Action">Указывается, какое действие, которое выполняется на основе результатов проверки.</param>
-        <summary>Проверка документа для элементов определенные сведения или свойств документа с помощью настраиваемого модуля инспектора документов.</summary>
+        <param name="Doc">Объект, представляющий документ контейнера.</param>
+        <param name="Status"><see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> Значение, представляющее результаты проверки.</param>
+        <param name="Result">Содержит список элементов сведений или свойств документа, найденных в документе.</param>
+        <param name="Action">Показывает пользователю, какие действия необходимо выполнить в зависимости от результатов проверки.</param>
+        <summary>Проверяет документ на наличие определенных элементов информации или свойств документа с помощью настраиваемого модуля инспектора документов.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

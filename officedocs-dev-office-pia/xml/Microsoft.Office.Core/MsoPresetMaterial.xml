@@ -1,13 +1,5 @@
 <Type Name="MsoPresetMaterial" FullName="Microsoft.Office.Core.MsoPresetMaterial">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d6eb19e6c9819ce4625ff4ab7abeabb24151de72" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662460" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetMaterial" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d6eb19e6c9819ce4625ff4ab7abeabb24151de72" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662460" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetMaterial" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetMaterial extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetMaterial" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetMaterial" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает материал поверхности придания объема.</summary>
-    <remarks>
-      <para>Используется с <see cref="P:Microsoft.Office.Core.ThreeDFormat.PresetMaterial" /> свойства <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> объекта.</para>
-      <para />
-    </remarks>
+    <summary>Указывает материал поверхности для объема.</summary>
+    <remarks><para>Используется со <see cref="P:Microsoft.Office.Core.ThreeDFormat.PresetMaterial" /> свойством <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> объекта.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoMaterialClear">
@@ -43,7 +33,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Очистить</summary>
+        <summary>Очистка</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMaterialDarkEdge">
@@ -62,7 +52,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>DarkEdge</summary>
+        <summary>даркедже</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMaterialFlat">
@@ -81,7 +71,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Плоский</summary>
+        <summary>Обычно</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMaterialMatte">
@@ -100,7 +90,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Подложки.</summary>
+        <summary>Матовая.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMaterialMatte2">
@@ -176,7 +166,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Пластик.</summary>
+        <summary>PPGA.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMaterialPlastic2">
@@ -214,7 +204,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Порошок</summary>
+        <summary>Туманно</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMaterialSoftEdge">
@@ -233,7 +223,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Мягкий край</summary>
+        <summary>Мягкая пограничная</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMaterialSoftMetal">
@@ -252,7 +242,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Программных системы</summary>
+        <summary>Мягкий металл</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMaterialTranslucentPowder">
@@ -271,7 +261,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Прозрачные порошок</summary>
+        <summary>Полупрозрачный порошок</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMaterialWarmMatte">
@@ -290,7 +280,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Горячего подложки</summary>
+        <summary>Теплый матовый</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMaterialWireFrame">
@@ -309,7 +299,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Каркас.</summary>
+        <summary>Кадры провода.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPresetMaterialMixed">
@@ -328,7 +318,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Возвращаемое значение. Указывает сочетание других состояний.</summary>
+        <summary>Только возвращаемое значение; Указывает комбинацию других состояний.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="IRibbonControl" FullName="Microsoft.Office.Core.IRibbonControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="68773fd86e42dc3132be028386c9b8eeaf465f51" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662399" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IRibbonControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="68773fd86e42dc3132be028386c9b8eeaf465f51" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662399" /></Metadata><TypeSignature Language="C#" Value="public interface IRibbonControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRibbonControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IRibbonControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface IRibbonControl" />
@@ -26,13 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет объект, который был передан в процедуру обратного вызова каждые ленты пользовательского интерфейса (UI) элемента управления.</summary>
-    <remarks>
-      <para>Объект <b>IRibbonControl</b> содержит имя (идентификатор) элемента управления и текущего объекта <b>Window</b> для элемента управления пользовательского интерфейса ленты.</para>
-      <para />
-    </remarks>
-    <example>
-      <para>В следующем примере, написанном на языке C# показаны две процедуры, вызов выполняется из процедуру события <b>onAction</b> элемента управления Button и элемент управления ToggleButton. В первой процедуре <b>IRibbonControl</b> объект, представляющий элемент управления передается в процедуру и отображается окно сообщения, указывающего на то, что кнопка была нажата клавиша совместно с Идентификатором кнопки. Во второй процедуре аналогичен первому с добавлением <b>логический</b> параметр, указывающего на то, что кнопка была нажата.</para>
+    <summary>Представляет объект, передаваемый в каждую процедуру обратного вызова элемента управления ПОЛЬЗОВАТЕЛЬСКОГО интерфейса ленты.</summary>
+    <remarks><para>Объект <b>IRibbonControl</b> содержит имя (ID) элемента управления и текущий объект <b>Window</b> для элемента управления пользовательского интерфейса ленты.</para>
+      <para /></remarks>
+    <example><para>В следующем примере, написанном на языке C#, показаны две процедуры, вызываемые из процедуры события <b>onAction</b> элемента управления "Кнопка" и элемента управления ToggleButton. В первой процедуре объект <b>IRibbonControl</b> , представляющий элемент управления, передается в процедуру, и отображается окно сообщения с указанием на то, что кнопка нажата, а также идентификатор кнопки. Вторая процедура аналогична первой, с добавлением <b>логического</b> параметра, указывающим, что нажата кнопка.</para>
       <code>&lt;span class="label"&gt;public void ButtonOnAction(IRibbonControl control) 
    MessageBox.Show("Button clicked: " + control.Id); 
 } 
@@ -49,8 +38,7 @@ public void ToggleButtonOnAction(IRibbonControl control, bool pressed)
    else 
       MessageBox.Show("ToggleButton was switched off."); 
  
-}&lt;/span&gt;</code>
-    </example>
+}&lt;/span&gt;</code></example>
   </Docs>
   <Members>
     <Member MemberName="Context">
@@ -76,7 +64,7 @@ public void ToggleButtonOnAction(IRibbonControl control, bool pressed)
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Представляет активное окно, содержащий пользовательский интерфейс ленты, который запускает процедуру обратного вызова. Только для чтения.</summary>
+        <summary>Представляет активное окно, содержащее пользовательский интерфейс ленты, который запускает процедуру обратного вызова. Только для чтения.</summary>
         <value>Объект</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -104,7 +92,7 @@ public void ToggleButtonOnAction(IRibbonControl control, bool pressed)
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор элемента управления, указанных в файле параметров разметки XML-ленты. Только для чтения.</summary>
+        <summary>Получает идентификатор элемента управления, указанного в файле настройки разметки XML ленты. Только для чтения.</summary>
         <value>String</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -132,25 +120,21 @@ public void ToggleButtonOnAction(IRibbonControl control, bool pressed)
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Используется для хранения произвольных строк и извлечь их во время выполнения. Только для чтения</summary>
+        <summary>Используется для хранения произвольных строк и их извлечения во время выполнения. Только для чтения</summary>
         <value>String</value>
-        <remarks>
-          <para>Обычно может различать элементы управления в ленте пользовательского интерфейса файл настройки XML с помощью свойства <b>Id</b> . Тем не менее, существуют ограничения на идентификаторы, которые могут содержать (отсутствуют не являющиеся буквенно-цифровых символов и они должны быть уникальным).  Свойство <b>Tag</b> не имеет следующие ограничения и поэтому его можно использовать в следующих ситуациях, где идентификатор не работает:</para>
+        <remarks><para>Как правило, вы можете отличать элементы управления в файле настройки XML пользовательского интерфейса ленты с помощью свойства <b>ID</b> . Тем не менее, существуют ограничения на идентификаторы, которые могут содержаться (без буквенно-цифровых символов, и все они должны быть уникальными).  У свойства <b>Tag</b> нет этих ограничений, поэтому его можно использовать в следующих ситуациях, где идентификатор не работает:</para>
           <list type="bullet">
             <item>
-              <para>, если необходимо сохранить специальные строку с элементом управления, такие как имя файла.  Например: tag="C:\path\file.xlsm.»</para>
-            </item>
+              <para>Если вам нужно сохранить специальную строку с элементом управления, например именем файла.  Например: TAG = "К:\пас\филе.кслсм."</para>
+            </item> 
             <item>
-              <para>, Если вы хотите, чтобы несколько элементов управления могут быть обрабатываются так же, как с вашей процедуры обратного вызова, но вы не хотите поддерживать список всех своих идентификаторы (которые должно быть уникальным).  К примеру, может иметь кнопок на различных вкладок на ленте, с tag = «blue» и только проверка свойство <b>Tag</b> вместо свойства <b>ID</b> при perfroming некоторых распространенных операций.</para>
-            </item>
+              <para>Если требуется, чтобы несколько элементов управления считались процедурами обратного вызова одним и тем же способом, но не нужно поддерживать список всех их идентификаторов (которые должны быть уникальными).  Например, можно использовать кнопки на разных вкладках ленты, все с тегом "Blue", а затем просто проверить свойство <b>Tag</b> , а не свойство <b>ID</b> при перфроминг некоторых типовых действий.</para>
+            </item> 
           </list>
           <para />
-          <para />
-        </remarks>
-        <example>
-          <para>В XML, используемый для настройки пользовательского интерфейса ленты можно задать тег следующим образом. При вызове действие MyFunction могут читать свойства <b>Tag</b> , которое будет равен «некоторые string».</para>
-          <code>&lt;span class="label"&gt;&amp;lt;button id=”mybutton” tag=”some string” onAction=”MyFunction”/&amp;gt;&lt;/span&gt;</code>
-        </example>
+          <para /></remarks>
+        <example><para>В XML-коде, используемом для настройки пользовательского интерфейса ленты, можно установить тег следующим образом. При вызове действия MyFunction можно прочитать свойство <b>Tag</b> , которое будет равно "some String".</para>
+          <code>&lt;span class="label"&gt;&amp;lt;button id=”mybutton” tag=”some string” onAction=”MyFunction”/&amp;gt;&lt;/span&gt;</code></example>
       </Docs>
     </Member>
   </Members>

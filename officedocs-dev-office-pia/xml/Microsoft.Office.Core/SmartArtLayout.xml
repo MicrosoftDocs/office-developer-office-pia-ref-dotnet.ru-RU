@@ -1,13 +1,5 @@
 <Type Name="SmartArtLayout" FullName="Microsoft.Office.Core.SmartArtLayout">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3697b4ab3fb205f8b07d8e1b2d2fd37688d633e2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661958" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartArtLayout : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3697b4ab3fb205f8b07d8e1b2d2fd37688d633e2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661958" /></Metadata><TypeSignature Language="C#" Value="public interface SmartArtLayout : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArtLayout implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArtLayout" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartArtLayout&#xA;Implements _IMsoDispObj" />
@@ -30,11 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет диаграмма SmartArt.</summary>
-    <remarks>
-      <para>Варианты включают простой блочный список изображений подпись список вертикальной маркированный список и т. д.</para>
-      <para />
-    </remarks>
+    <summary>Представляет схему SmartArt.</summary>
+    <remarks><para>Возможные варианты: базовый список блокировок, список названий рисунков, вертикальный маркированный список и т. д.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -63,12 +53,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>SmartArtLayout</b> .</summary>
+        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>SmartArtLayout</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Category">
@@ -94,12 +82,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя основного категории, связанное с макета SmartArt.</summary>
+        <summary>Получает имя основной категории, связанной с макетом SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -128,12 +114,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>SmartArtLayout</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>SmartArtLayout</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Description">
@@ -161,10 +145,8 @@
       <Docs>
         <summary>Получает описание макета SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -192,10 +174,8 @@
       <Docs>
         <summary>Получает уникальный идентификатор связанного макета SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -221,12 +201,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает строковое имя макета SmartArt.</summary>
+        <summary>Получает имя строки макета SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -252,12 +230,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект, вызывающий.</summary>
+        <summary>Получает вызывающий объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

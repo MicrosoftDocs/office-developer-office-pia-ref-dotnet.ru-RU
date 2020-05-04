@@ -1,13 +1,5 @@
 <Type Name="MsoPictureColorType" FullName="Microsoft.Office.Core.MsoPictureColorType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="83d95c3683ddb986431a26845b7af9945d0926c0" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661656" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPictureColorType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="83d95c3683ddb986431a26845b7af9945d0926c0" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661656" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPictureColorType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPictureColorType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPictureColorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPictureColorType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает цвет преобразование, применяемое к изображению.</summary>
+    <summary>Задает преобразование цвета, примененное к изображению.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Преобразования цветов по умолчанию.</summary>
+        <summary>Преобразование цвета по умолчанию.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPictureBlackAndWhite">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Черно-белый преобразования.</summary>
+        <summary>Преобразование "черно-белый".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPictureGrayscale">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Преобразование оттенки серого.</summary>
+        <summary>Преобразование в градациях серого.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPictureMixed">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Смешанные преобразования.</summary>
+        <summary>Смешанное преобразование.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPictureWatermark">

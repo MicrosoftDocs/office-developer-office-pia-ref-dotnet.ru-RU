@@ -1,13 +1,5 @@
 <Type Name="XlDataLabelsType" FullName="Microsoft.Office.Core.XlDataLabelsType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c40056d28af725f781f18c2576e71755cd231d57" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662223" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlDataLabelsType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c40056d28af725f781f18c2576e71755cd231d57" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662223" /></Metadata><TypeSignature Language="C#" Value="public enum XlDataLabelsType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlDataLabelsType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlDataLabelsType" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlDataLabelsType" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает тип подписи данных. Значение по умолчанию — обычно <see cref="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue" />.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает тип применяемой метки данных. Как правило <see cref="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue" />, используется значение по умолчанию.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Показать размер маркера относительно абсолютного значения.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Показывает размер пузырька в ссылке на абсолютное значение.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDataLabelsShowLabel">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Процент от итога и категории точки. Доступно только для круговых и кольцевых диаграммах.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Процент от общего числа и категория для точки. Доступно только для круговых и кольцевых диаграмм.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDataLabelsShowNone">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>-4142</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Нет метки данных.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Нет меток данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDataLabelsShowPercent">
@@ -121,7 +113,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Процент от итога. Доступно только для круговых и кольцевых диаграммах.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Процент от общего числа. Доступно только для круговых и кольцевых диаграмм.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDataLabelsShowValue">
@@ -140,7 +132,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Значение точки (предполагается, что если этот аргумент не указан).</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Значение точки (предполагается, если этот аргумент не указан).</summary>
       </Docs>
     </Member>
   </Members>

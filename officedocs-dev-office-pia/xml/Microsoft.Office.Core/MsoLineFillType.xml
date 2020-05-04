@@ -1,13 +1,5 @@
 <Type Name="MsoLineFillType" FullName="Microsoft.Office.Core.MsoLineFillType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8a3d9192b5b70ac4ab84f70c5a28d52c08c5e4ce" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662530" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoLineFillType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8a3d9192b5b70ac4ab84f70c5a28d52c08c5e4ce" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662530" /></Metadata><TypeSignature Language="C#" Value="public enum MsoLineFillType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLineFillType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLineFillType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoLineFillType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип заливки для строки.</summary>
+    <summary>Задает тип заполнения для линии.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Задает же заливки фона.</summary>
+        <summary>Задает ту же заливку, что и фон.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineFillGradient">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Задает заполнение линии градиента.</summary>
+        <summary>Задает заливку градиентной линии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineFillMixed">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Указывает, как типы заливки строк.</summary>
+        <summary>Задает смесь типов линий заливки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineFillNone">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Заполнение строки.</summary>
+        <summary>Без заливки линий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineFillPatterned">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Указывает строку узорную заливку.</summary>
+        <summary>Задает заливку узором.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineFillPicture">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Задает заполнение строки рисунков.</summary>
+        <summary>Задает заливку для строки изображения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineFillSolid">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Указывает строку сплошной цвет заливки.</summary>
+        <summary>Задает заливку сплошным цветом.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineFillTextured">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Указывает заполнение текстуры строки.</summary>
+        <summary>Задает текстурированную линию заливки.</summary>
       </Docs>
     </Member>
   </Members>

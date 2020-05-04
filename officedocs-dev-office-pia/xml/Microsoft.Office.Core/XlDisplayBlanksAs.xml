@@ -1,13 +1,5 @@
 <Type Name="XlDisplayBlanksAs" FullName="Microsoft.Office.Core.XlDisplayBlanksAs">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e8ef54ef286cb2ae40d49e662c1a789258461fe1" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661684" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlDisplayBlanksAs" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e8ef54ef286cb2ae40d49e662c1a789258461fe1" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661684" /></Metadata><TypeSignature Language="C#" Value="public enum XlDisplayBlanksAs" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlDisplayBlanksAs extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlDisplayBlanksAs" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlDisplayBlanksAs" />
@@ -28,7 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает, как пустые ячейки будут отображаться на диаграмме.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает, как на диаграмме отображаются пустые ячейки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  В диаграмму интерполяции значений.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Значения интерполируются в диаграмме.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlNotPlotted">
@@ -86,7 +78,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Пустые ячейки отображаются как ноль.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Пустые ячейки отображаются как нулевые.</summary>
       </Docs>
     </Member>
   </Members>

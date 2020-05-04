@@ -1,13 +1,5 @@
 <Type Name="MsoAutomationSecurity" FullName="Microsoft.Office.Core.MsoAutomationSecurity">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c92dc32bbd577b26430e2b8d93e0617d6c648dd7" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662270" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoAutomationSecurity" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c92dc32bbd577b26430e2b8d93e0617d6c648dd7" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662270" /></Metadata><TypeSignature Language="C#" Value="public enum MsoAutomationSecurity" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAutomationSecurity extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAutomationSecurity" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoAutomationSecurity" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает режим безопасности, используемый приложения при открытии файлов программными средствами.</summary>
+    <summary>Указывает режим безопасности, используемый приложением при открытии файлов программными средствами.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Использует параметры безопасности, указанные в диалоговом окне "Безопасность".</summary>
+        <summary>Использует параметр безопасности, указанный в диалоговом окне "безопасность".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAutomationSecurityForceDisable">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Отключает все макросы в все файлы, открытые программным способом, без отображения любой оповещение системы безопасности.</summary>
+        <summary>Отключает все макросы во всех файлах, открытых программным способом без отображения оповещений системы безопасности.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAutomationSecurityLow">

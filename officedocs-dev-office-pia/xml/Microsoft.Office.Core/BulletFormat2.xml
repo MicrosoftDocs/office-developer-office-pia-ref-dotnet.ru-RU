@@ -1,13 +1,5 @@
 <Type Name="BulletFormat2" FullName="Microsoft.Office.Core.BulletFormat2">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f3cd2628e85bd1f0b8294eaa192a5d986b4b319e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661724" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface BulletFormat2 : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f3cd2628e85bd1f0b8294eaa192a5d986b4b319e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661724" /></Metadata><TypeSignature Language="C#" Value="public interface BulletFormat2 : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract BulletFormat2 implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.BulletFormat2" />
   <TypeSignature Language="VB.NET" Value="Public Interface BulletFormat2&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет маркер форматирования.</summary>
+    <summary>Представляет форматирование маркеров.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,10 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект, представляющий <see cref="T:Microsoft.Office.Core.BulletFormat2" /> объекта.  Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Получает объект, представляющий <see cref="T:Microsoft.Office.Core.BulletFormat2" /> объект.  Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,10 +83,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение символ Unicode, используемый для маркеров в указанный текст. Для чтения и записи.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает или задает значение символа Юникода, используемое для маркеров в указанном тексте. Для чтения и записи.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,10 +114,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.BulletFormat2" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.BulletFormat2" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -156,10 +142,8 @@
         <ReturnType>Microsoft.Office.Core.Font2</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает шрифт, который представляет параметры форматирования для <see cref="T:Microsoft.Office.Core.BulletFormat2" /> объекта. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.Font2" />
-        </value>
+        <summary>Получает шрифт, представляющий форматирование <see cref="T:Microsoft.Office.Core.BulletFormat2" /> объекта. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.Font2" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -186,10 +170,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает номер маркера абзаца. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает номер маркера абзаца. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -216,10 +198,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает родительский <see cref="T:Microsoft.Office.Core.BulletFormat2" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Получает родительский <see cref="T:Microsoft.Office.Core.BulletFormat2" /> объект для объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -247,11 +227,9 @@
       </Parameters>
       <Docs>
         <param name="FileName">Имя файла допустимого графического файла.</param>
-        <summary>Задает графического файла, которое будет использоваться для маркеров маркированного списка.</summary>
-        <remarks>
-          <para>Допустимый графических файлов включают файлов со следующими расширениями: .bmp, .cdr, .cgm, .drw, .dxf, .emf, получение, .gif, .jpg, .jpeg, .pcd, .pct, .pcx, .pict, .png, фотографического, TIFF., .wmf и определения размера.</para>
-          <para />
-        </remarks>
+        <summary>Задает графический файл, который будет использоваться для маркеров в маркированном списке.</summary>
+        <remarks><para>Допустимые графические файлы включают файлы со следующими расширениями:. bmp,. cdr,. CGM,. ДРВ,. DXF,. EMF,. EPS,. jpg,. JPEG,. PCD,. PCT,. gif,. WMF,. ТГА,. TIFF,. WMF и. ВПГ.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="RelativeSize">
@@ -280,10 +258,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает размер маркера относительно размера первого знака текста в абзаце. Для чтения и записи.</summary>
-        <value>
-          <b>Single</b>
-        </value>
+        <summary>Возвращает или задает размер маркера относительно размера первого текстового символа в абзаце. Для чтения и записи.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -313,10 +289,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение начала маркированный список.  Для чтения и записи.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает или задает начальное значение маркированного списка.  Для чтения и записи.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -346,10 +320,8 @@
         <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает значение константы, представляющий стиль маркера. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoNumberedBulletStyle" />
-        </value>
+        <summary>Возвращает или задает константу, представляющую стиль маркера. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoNumberedBulletStyle" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -379,10 +351,8 @@
         <ReturnType>Microsoft.Office.Core.MsoBulletType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение константы, представляющий тип маркера. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoBulletType" />
-        </value>
+        <summary>Получает или задает константу, представляющую тип маркера. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoBulletType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -412,10 +382,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет, установил ли указанный маркеры цвет первого знака абзаца текст. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Определяет, установлены ли для заданных маркеров цвет первого текстового символа абзаца. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -445,10 +413,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет, установил ли указанный маркеры шрифта первого знака абзаца текст. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Определяет, установлены ли для заданных маркеров шрифт первого текстового символа в абзаце. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -478,10 +444,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, отображается ли маркера. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Получает или задает значение, указывающее, отображается ли маркер. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

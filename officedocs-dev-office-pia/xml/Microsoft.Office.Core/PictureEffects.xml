@@ -1,13 +1,5 @@
 <Type Name="PictureEffects" FullName="Microsoft.Office.Core.PictureEffects">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ab08b7d5a0324a8889bb498ee7353bb1026b18dc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662537" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PictureEffects : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ab08b7d5a0324a8889bb498ee7353bb1026b18dc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662537" /></Metadata><TypeSignature Language="C#" Value="public interface PictureEffects : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PictureEffects implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PictureEffects" />
   <TypeSignature Language="VB.NET" Value="Public Interface PictureEffects&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,7 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет коллекцию объектов <see cref="T:Microsoft.Office.Core.PictureEffect" /> объектов.</summary>
+    <summary>Представляет коллекцию <see cref="T:Microsoft.Office.Core.PictureEffect" /> объектов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -63,12 +55,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>PictureEffects</b> .</summary>
+        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>PictureEffects</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -94,12 +84,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает количество число <see cref="T:Microsoft.Office.Core.PictureEffect" /> объектов, содержащихся в коллекции <b>PictureEffects</b> .</summary>
+        <summary>Получает количество <see cref="T:Microsoft.Office.Core.PictureEffect" /> объектов, содержащихся в коллекции <b>PictureEffects</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -128,12 +116,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>PictureEffects</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>PictureEffects</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -158,7 +144,7 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Указывает номер индекса <see cref="T:Microsoft.Office.Core.PictureEffect" /> объект, который требуется удалить.</param>
+        <param name="Index">Указывает номер индекса <see cref="T:Microsoft.Office.Core.PictureEffect" /> объекта, который требуется удалить.</param>
         <summary>Удаляет <see cref="T:Microsoft.Office.Core.PictureEffect" /> объект из коллекции.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,7 +177,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />.</returns>
+        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -218,15 +204,12 @@
         <Parameter Name="Position" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="EffectType">
-          <see cref="T:Microsoft.Office.Core.MsoPictureEffectType" /> Перечисление, определяющее тип эффекта рисунков.</param>
-        <param name="Position">Задает положение эффекта в цепочке составного эффекты для рисунков.</param>
-        <summary>Вставляет эффекта рисунка в цепочке составного эффекты.</summary>
-        <returns>Возвращает <see cref="T:Microsoft.Office.Core.PictureEffect" />.</returns>
-        <remarks>
-          <para>Эффекты рисунков обрабатываются как цепочка состоит из отдельных элементов, которые применяются в последовательности для создания конечного составных изображения. В цепочке эффекты позволяет эффект, добавляемого в цепочку, переупорядочиваться или удалены из цепочки.</para>
-          <para />
-        </remarks>
+        <param name="EffectType"><see cref="T:Microsoft.Office.Core.MsoPictureEffectType" /> Перечисление, определяющее тип рисунка.</param>
+        <param name="Position">Указывает положение эффекта в составной цепочке эффектов рисунков.</param>
+        <summary>Вставляет эффект изображения в цепочку составных эффектов.</summary>
+        <returns>Возвращает значение <see cref="T:Microsoft.Office.Core.PictureEffect" />типа.</returns>
+        <remarks><para>Эффекты рисунков обрабатываются как цепочка, состоящая из отдельных элементов, которые применяются последовательно, чтобы создать итоговое составное изображение. Цепочка эффектов позволяет добавлять эффект в цепочку, переупорядочивать их или удалять из нее.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -255,8 +238,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Указывает целое число, представляющее индекс <see cref="T:Microsoft.Office.Core.PictureEffect" /> объекта.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.PictureEffect" /> объекта по указанному индексу.</summary>
+        <param name="Index">Задает целое число, представляющее индексируемое расположение <see cref="T:Microsoft.Office.Core.PictureEffect" /> объекта.</param>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.PictureEffect" /> объект по указанному индексу.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

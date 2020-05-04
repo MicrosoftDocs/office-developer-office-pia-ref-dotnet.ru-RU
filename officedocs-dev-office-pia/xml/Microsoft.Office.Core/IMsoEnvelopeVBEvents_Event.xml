@@ -1,13 +1,5 @@
 <Type Name="IMsoEnvelopeVBEvents_Event" FullName="Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="312ad566ad0b39ee1685b5349094170ee9f19bdc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662172" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IMsoEnvelopeVBEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="312ad566ad0b39ee1685b5349094170ee9f19bdc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662172" /></Metadata><TypeSignature Language="C#" Value="public interface IMsoEnvelopeVBEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoEnvelopeVBEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMsoEnvelopeVBEvents_Event" />
@@ -29,7 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Интерфейс события для Microsoft Office <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объекта события.</summary>
+    <summary>Интерфейс событий для событий объектов <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> Microsoft Office.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
         <ReturnType>Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Происходит, когда пользовательского интерфейса (UI), который соответствует <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объект является скрытым.</summary>
+        <summary>Происходит, когда пользовательский интерфейс, соответствующий <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объекту, скрыт.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -67,7 +59,7 @@
         <ReturnType>Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Происходит, когда пользовательского интерфейса (UI), который соответствует <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объект отображается.</summary>
+        <summary>Возникает при отображении пользовательского интерфейса, соответствующего <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объекту.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

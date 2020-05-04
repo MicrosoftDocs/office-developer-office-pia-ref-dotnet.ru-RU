@@ -1,13 +1,5 @@
 <Type Name="MsoPresetTextEffectShape" FullName="Microsoft.Office.Core.MsoPresetTextEffectShape">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bee40dbc31fedc3bd31730bbb5ee29cb9f48d258" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661727" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetTextEffectShape" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bee40dbc31fedc3bd31730bbb5ee29cb9f48d258" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661727" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetTextEffectShape" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetTextEffectShape extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetTextEffectShape" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetTextEffectShape" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает фигуры WordArt текст.</summary>
-    <remarks>
-      <para>При выборе WordArt фигуры на панели инструментов WordArt можно просмотреть Предварительный просмотр каждой фигуры влияние текста.</para>
-      <para />
-    </remarks>
+    <summary>Задает форму текста WordArt.</summary>
+    <remarks><para>Вы можете увидеть предварительный просмотр каждой фигуры с текстом, выбрав фигуру WordArt на панели инструментов WordArt.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoTextEffectShapeArchDownCurve">
@@ -43,7 +33,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Текст — архитектура, закругленная вниз.</summary>
+        <summary>Текст — это Arch, который изогнут вниз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeArchDownPour">
@@ -62,7 +52,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Текст — трехмерной архитектуры, закругленная вниз.</summary>
+        <summary>Текст — трехмерная дуга, которая изогнута вниз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeArchUpCurve">
@@ -81,7 +71,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Текст — архитектура, которая закругляется вверх.</summary>
+        <summary>Текст — это дуга, которая раскривой вверх.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeArchUpPour">
@@ -100,7 +90,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Текст — трехмерной архитектуры, которая закругляется вверх.</summary>
+        <summary>Текст — трехмерная дуга, которая раскривой вверх.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeButtonCurve">
@@ -119,7 +109,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Текст — это круглая вокруг центр «кнопка».</summary>
+        <summary>Текст изогнут вокруг центральной кнопки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeButtonPour">
@@ -138,7 +128,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Текст будет отображаться в объемных круглая вокруг центр «кнопка».</summary>
+        <summary>Текст отображается в трехмерной, изогнут вокруг центра "Кнопка".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCanDown">
@@ -157,7 +147,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Текст растягивается для заполнения высоту фигуры, только незначительные график работы.</summary>
+        <summary>Текст растягивается, чтобы заполнить высоту фигуры, с небольшой кривизной.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCanUp">
@@ -176,7 +166,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Текст растягивается для заполнения высота формы, с помощью только незначительные график.</summary>
+        <summary>Текст растягивается, чтобы заполнить высоту фигуры, с небольшой изгибной.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCascadeDown">
@@ -195,7 +185,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>Текст отклоняются относительно запущено и справа как уменьшается размер шрифта.</summary>
+        <summary>Уменьшается наклон текста вверх и вправо, чем уменьшается размер шрифта.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCascadeUp">
@@ -214,7 +204,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>Текст отклоняются относительно вниз и вправо при увеличении размера шрифта.</summary>
+        <summary>При увеличении размера шрифта текст становится наклоненным и вправо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeChevronDown">
@@ -233,7 +223,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Текст, отклоняются относительно до его центральной точки и затем отклоняются относительно вниз.</summary>
+        <summary>Текст будет наклонен до центральной точки, а затем наклонен вниз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeChevronUp">
@@ -252,7 +242,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Текст, отклоняются относительно вниз до его центральной точки и затем отклоняются относительно копирования.</summary>
+        <summary>Текст наклонен до центральной точки, а затем наклонен вверх.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCircleCurve">
@@ -271,7 +261,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Текст следует круг, чтение стрелке.</summary>
+        <summary>Текст следует за кружком, прочитав по часовой стрелке.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCirclePour">
@@ -290,7 +280,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Текст имеет объема и соответствует круг, чтение стрелке.</summary>
+        <summary>В тексте используется объемный, а затем — круг, который просматривается по часовой стрелке.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCurveDown">
@@ -309,7 +299,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Уменьшение кривые текст вниз и вправо размером шрифта.</summary>
+        <summary>Уменьшается кривая текста вниз и вправо, чем уменьшается размер шрифта.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCurveUp">
@@ -328,7 +318,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Увеличивает кривые текст вниз и вправо размером шрифта.</summary>
+        <summary>Кривая текста вниз и вправо по мере увеличения размера шрифта.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDeflate">
@@ -347,7 +337,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>Размер шрифта снижает по центру текст, а затем увеличивается до начала размера.</summary>
+        <summary>Размер шрифта уменьшается до средней точки текста, а затем увеличивается до начального размера.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDeflateBottom">
@@ -366,7 +356,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>Размер шрифта уменьшается по центру текст, а затем увеличивается до начала размера, сохраняя в верхней части текст по одной график.</summary>
+        <summary>Размер шрифта уменьшается до средней точки текста, а затем увеличивается до начального размера, сохраняя при этом верхнюю часть текста в той же кривой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDeflateInflate">
@@ -385,7 +375,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>Размер шрифта увеличивается по центру текст, а затем снижает начальный размер.</summary>
+        <summary>Размер шрифта увеличивается до средней точки текста, а затем уменьшается до начального размера.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDeflateInflateDeflate">
@@ -404,7 +394,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>Размер шрифта снижает, увеличивает и уменьшает еще раз через текст.</summary>
+        <summary>Размер шрифта уменьшается, увеличивается и уменьшается в тексте.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDeflateTop">
@@ -423,7 +413,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>Размер шрифта уменьшается по центру текст, а затем увеличивается до начала размера, сохраняя в нижней части текст по одной график.</summary>
+        <summary>Размер шрифта уменьшается до средней точки текста, а затем увеличивается до начального размера, а нижняя часть текста — с той же кривой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDoubleWave1">
@@ -442,7 +432,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>Текст исходя из строки, закругленная еще раз, а затем вниз, а затем вверх и вниз.</summary>
+        <summary>Текст следует за строкой, которая раскривой вверх, вниз, вверх и вниз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDoubleWave2">
@@ -461,7 +451,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>Следующий текст кривой линии вниз, а затем вверх, затем вниз и копирование еще раз.</summary>
+        <summary>Текст — это строка, которая раскривой вниз, затем вверх, затем вверх и вверх.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeFadeDown">
@@ -480,7 +470,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>В начало текста видимому, должен быть ближе к пользователю, чем текст вниз.</summary>
+        <summary>Верхняя часть текста отображается ближе к средству просмотра, чем нижняя часть текста.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeFadeLeft">
@@ -499,7 +489,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>-Видимому ближе к пользователю, чем правой части левой части текста.</summary>
+        <summary>Левая часть текста отображается ближе к средству просмотра по сравнению с правой стороны.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeFadeRight">
@@ -518,7 +508,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>Справа от текста видимому, должен быть ближе к пользователю, чем левой части.</summary>
+        <summary>Область справа от текста отображается ближе к средству просмотра, а не по левому краю.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeFadeUp">
@@ -537,7 +527,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>В нижней части текста видимому, должен быть ближе к пользователю, чем в начало.</summary>
+        <summary>Нижняя часть текста отображается ближе к средству просмотра, чем Top.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeInflate">
@@ -556,7 +546,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>Размер шрифта текста увеличивается до его центральной точки, а затем уменьшается. В той же строке прямой — центральной точки каждой буквы.</summary>
+        <summary>Размер шрифта текста увеличивается до центральной точки, а затем уменьшается. Центральная точка каждой буквы находится на одной прямой линии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeInflateBottom">
@@ -575,7 +565,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>Размер шрифта текста увеличивается до его центральной точки, а затем уменьшается. Центральной точки каждого письма следует архитектуры, закругленная вниз.</summary>
+        <summary>Размер шрифта текста увеличивается до центральной точки, а затем уменьшается. Центральная точка каждой буквы соответствует дуге, который изогнут вниз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeInflateTop">
@@ -594,7 +584,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>Размер шрифта текста увеличивается до его центральной точки, а затем уменьшается. Архитектура, закругленная вверх исходя из центральной точки каждого письма.</summary>
+        <summary>Размер шрифта текста увеличивается до центральной точки, а затем уменьшается. Центральная точка каждой буквы соответствует Arch, который изогнут вверх.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeMixed">
@@ -632,7 +622,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Фигура не применяется.</summary>
+        <summary>Фигура не применена.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeRingInside">
@@ -651,7 +641,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Для записи внутри трехмерной звонка отображается текст.</summary>
+        <summary>Текст будет записан на внутреннем трехмерном кольцах.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeRingOutside">
@@ -670,7 +660,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Для записи вне трехмерной звонка отображается текст.</summary>
+        <summary>Текст будет записан на внешнем трехмерном кольцах.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeSlantDown">
@@ -689,7 +679,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>Текст отклоняются относительно вниз и вправо.</summary>
+        <summary>Текст наклонен вниз и вправо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeSlantUp">
@@ -708,7 +698,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>Текст отклоняются относительно вверх и вправо.</summary>
+        <summary>Текст наклонен вверх и вправо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeStop">
@@ -727,7 +717,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Текст следует фигуры Стоп.</summary>
+        <summary>Текст, который следует за формой знака остановки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeTriangleDown">
@@ -746,7 +736,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Текст отклоняются относительно вверх и вниз.</summary>
+        <summary>Текст будет наклонен вверх, а затем вниз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeTriangleUp">
@@ -765,7 +755,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Текст отклоняются относительно вниз, а затем копирование.</summary>
+        <summary>Текст наклонен вниз, а затем вверх.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeWave1">
@@ -784,7 +774,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Текст следуют волнистая, затем вниз и копирование еще раз.</summary>
+        <summary>Текст подключается к волнам, а затем вверх и вверх.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeWave2">
@@ -803,7 +793,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>Текст следует волнистая вниз, затем вверх и вниз еще раз.</summary>
+        <summary>Текст находится в волне, а затем вверх и вниз.</summary>
       </Docs>
     </Member>
   </Members>

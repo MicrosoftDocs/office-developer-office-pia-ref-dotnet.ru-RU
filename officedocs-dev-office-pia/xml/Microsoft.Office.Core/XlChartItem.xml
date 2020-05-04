@@ -1,13 +1,5 @@
 <Type Name="XlChartItem" FullName="Microsoft.Office.Core.XlChartItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="baef3ff7569009e12e8d19fd36e16012cfc7dff3" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662241" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlChartItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="baef3ff7569009e12e8d19fd36e16012cfc7dff3" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662241" /></Metadata><TypeSignature Language="C#" Value="public enum XlChartItem" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlChartItem extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlChartItem" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlChartItem" />
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Ось.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Вдоль.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlAxisTitle">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  В области диаграммы.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Область диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlChartTitle">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Название диаграммы.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Заголовок диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCorners">
@@ -121,7 +113,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Углы.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Уголк.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDataLabel">
@@ -140,7 +132,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метки данных.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метка данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDataTable">
@@ -159,7 +151,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  В таблице данных.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Таблица данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDisplayUnitLabel">
@@ -178,7 +170,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Отображение единицу измерения.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Подпись единицы отображения.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDownBars">
@@ -197,7 +189,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Закрытие.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Полосы понижения.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDropLines">
@@ -216,7 +208,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Удаление строк.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линии проекции.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlErrorBars">
@@ -254,7 +246,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Этажа.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Кухон.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlHiLoLines">
@@ -273,7 +265,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линии HiLo.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линии Хило.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLeaderLines">
@@ -292,7 +284,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линии заполнителей.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линии выноски.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLegend">
@@ -311,7 +303,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Условные обозначения.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Списком.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLegendEntry">
@@ -330,7 +322,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Элементы легенды.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Элемент условных обозначений.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLegendKey">
@@ -406,7 +398,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Значение Nothing.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Ничего не.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPivotChartDropZone">
@@ -425,7 +417,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Зона перетаскивания сводной диаграммы.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Зона сброса сводной диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPivotChartFieldButton">
@@ -482,7 +474,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метки осей.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Метки осей лепестковой диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSeries">
@@ -501,7 +493,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Серия.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Series.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSeriesLines">
@@ -539,7 +531,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Фигуры.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Всплывающ.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlTrendline">
@@ -558,7 +550,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линия тренда.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Линия тенденции.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlUpBars">
@@ -577,7 +569,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Полос.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Полосы повышения.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlWalls">
@@ -596,7 +588,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Границ.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Лабиринт.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlXErrorBars">
@@ -615,7 +607,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Планки погрешностей по x.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Планки погрешностей X.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlYErrorBars">

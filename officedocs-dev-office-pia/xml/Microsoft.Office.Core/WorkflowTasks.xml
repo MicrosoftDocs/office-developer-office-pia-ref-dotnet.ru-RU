@@ -1,13 +1,5 @@
 <Type Name="WorkflowTasks" FullName="Microsoft.Office.Core.WorkflowTasks">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fee084926fc2f1c00479f8f4000c6a370ff90add" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661971" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface WorkflowTasks : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fee084926fc2f1c00479f8f4000c6a370ff90add" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661971" /></Metadata><TypeSignature Language="C#" Value="public interface WorkflowTasks : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract WorkflowTasks implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.WorkflowTasks" />
   <TypeSignature Language="VB.NET" Value="Public Interface WorkflowTasks&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,7 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет коллекцию объектов <see cref="T:Microsoft.Office.Core.WorkflowTask" /> объектов.</summary>
+    <summary>Представляет коллекцию <see cref="T:Microsoft.Office.Core.WorkflowTask" /> объектов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -63,10 +55,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.WorkflowTasks" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.WorkflowTasks" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,10 +83,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.WorkflowTasks" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.WorkflowTasks" /> коллекции. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,10 +114,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.WorkflowTasks" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.WorkflowTasks" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -191,11 +177,9 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Номер индекса объекта <b>WorkflowTask</b> должно быть возвращено.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.WorkflowTask" /> объекта из <see cref="T:Microsoft.Office.Core.WorkflowTasks" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>WorkflowTask</b>
-        </value>
+        <param name="Index">Номер индекса возвращаемого объекта <b>WorkflowTask</b> .</param>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.WorkflowTask" /> объект из <see cref="T:Microsoft.Office.Core.WorkflowTasks" /> коллекции. Только для чтения.</summary>
+        <value><b>WorkflowTask</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

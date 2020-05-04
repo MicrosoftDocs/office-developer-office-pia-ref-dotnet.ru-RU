@@ -1,13 +1,5 @@
 <Type Name="MsoTextureType" FullName="Microsoft.Office.Core.MsoTextureType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a0d3e25e187c66593e59f725d2b503635071f36a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662536" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoTextureType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a0d3e25e187c66593e59f725d2b503635071f36a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662536" /></Metadata><TypeSignature Language="C#" Value="public enum MsoTextureType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextureType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextureType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoTextureType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип текстуры для выбранного заполнения.</summary>
+    <summary>Задает тип текстуры для выбранной заливки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Предварительно типа текстуры.</summary>
+        <summary>Предварительно заданный тип текстуры.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureTypeMixed">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Возвращаемое значение. Указывает сочетание других состояний.</summary>
+        <summary>Только возвращаемое значение; Указывает комбинацию других состояний.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextureUserDefined">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Текстуры определенный пользователем тип.</summary>
+        <summary>Определяемый пользователем тип текстуры.</summary>
       </Docs>
     </Member>
   </Members>

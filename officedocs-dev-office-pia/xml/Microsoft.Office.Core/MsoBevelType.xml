@@ -1,13 +1,5 @@
 <Type Name="MsoBevelType" FullName="Microsoft.Office.Core.MsoBevelType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ce758eaf7231c985113b26a07b31dacc053d1209" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662344" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoBevelType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ce758eaf7231c985113b26a07b31dacc053d1209" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662344" /></Metadata><TypeSignature Language="C#" Value="public enum MsoBevelType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBevelType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBevelType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoBevelType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип рельефов <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> объектов.</summary>
+    <summary>Указывает тип скоса <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> объекта.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Указывает рельефов угол.</summary>
+        <summary>Указывает угол фаски.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelArtDeco">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Указывает рельефов ArtDeco.</summary>
+        <summary>Указывает багетную рамку Артдеко.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelCircle">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Указывает рельефов круг.</summary>
+        <summary>Указывает круг скоса.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelConvex">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Задает выпуклая рельефов.</summary>
+        <summary>Указывает багетную рамку Конвекс.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelCoolSlant">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Указывает рельефов CoolSlant.</summary>
+        <summary>Указывает багетную рамку Кулслант.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelCross">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Задает перекрестные рельефов.</summary>
+        <summary>Задает перекрестие.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelDivot">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Указывает рельефов Divot.</summary>
+        <summary>Указывает багетную рамку Дивот.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelHardEdge">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Указывает рельефов HardEdge.</summary>
+        <summary>Указывает багетную рамку Хардедже.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelNone">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Указывает не рельефов.</summary>
+        <summary>Указывает, что Багетная рамка отсутствует.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelRelaxedInset">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Указывает рельефов RelaxedInset.</summary>
+        <summary>Указывает багетную рамку Релаксединсет.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelRiblet">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Указывает рельефов Riblet.</summary>
+        <summary>Указывает багетную рамку Риблет.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelSlope">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Указывает рельефов Уклона.</summary>
+        <summary>Указывает наклонный скос.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelSoftRound">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Указывает рельефов SoftRound.</summary>
+        <summary>Указывает багетную рамку Софтраунд.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBevelTypeMixed">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Указывает рельефов смешанного типа.</summary>
+        <summary>Указывает смешанный тип багетной рамки.</summary>
       </Docs>
     </Member>
   </Members>

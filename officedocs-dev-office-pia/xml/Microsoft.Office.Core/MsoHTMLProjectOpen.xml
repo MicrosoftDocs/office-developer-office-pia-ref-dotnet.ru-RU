@@ -1,13 +1,5 @@
 <Type Name="MsoHTMLProjectOpen" FullName="Microsoft.Office.Core.MsoHTMLProjectOpen">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9afe5f50cab20a9adc12741dee6abdd732d0a454" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661640" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoHTMLProjectOpen" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9afe5f50cab20a9adc12741dee6abdd732d0a454" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661640" /></Metadata><TypeSignature Language="C#" Value="public enum MsoHTMLProjectOpen" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoHTMLProjectOpen extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoHTMLProjectOpen" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoHTMLProjectOpen" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Указывает представление, в котором открывается HTML-проект или элемент проекта.</summary>
+    <summary>Указывает представление, в котором открывается проект HTML или элемент проекта.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Открытие проекта в представлении источника.</summary>
+        <summary>Откройте проект в представлении исходного кода.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoHTMLProjectOpenTextView">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Открытие проекта в представлении текста.</summary>
+        <summary>Откройте проект в текстовом представлении.</summary>
       </Docs>
     </Member>
   </Members>

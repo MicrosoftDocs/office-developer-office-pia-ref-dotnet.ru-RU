@@ -1,13 +1,5 @@
 <Type Name="CustomXMLPrefixMapping" FullName="Microsoft.Office.Core.CustomXMLPrefixMapping">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2c8eb1b72807ad328cc68962a90359a571d8a2da" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661674" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CustomXMLPrefixMapping : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2c8eb1b72807ad328cc68962a90359a571d8a2da" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661674" /></Metadata><TypeSignature Language="C#" Value="public interface CustomXMLPrefixMapping : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLPrefixMapping implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLPrefixMapping" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLPrefixMapping&#xA;Implements _IMsoDispObj" />
@@ -60,10 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,10 +83,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -123,10 +111,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор уникальный адрес для пространства имен <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает уникальный идентификатор пространства имен <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -153,10 +139,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает родительский объект <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает родительский объект <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -184,9 +168,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает префикс для <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="MsoCTPDockPositionRestrict" FullName="Microsoft.Office.Core.MsoCTPDockPositionRestrict">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="33f60cf498fd6061c02bb76a6d2bc49371f61353" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661970" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoCTPDockPositionRestrict" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="33f60cf498fd6061c02bb76a6d2bc49371f61353" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661970" /></Metadata><TypeSignature Language="C#" Value="public enum MsoCTPDockPositionRestrict" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCTPDockPositionRestrict extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCTPDockPositionRestrict" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoCTPDockPositionRestrict" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает retrictions закрепления настраиваемой области задач.</summary>
+    <summary>Указывает ретриктионс для режима стыковки настраиваемой области задач.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Нет никаких изменений из текущего значения ограничения области задач.</summary>
+        <summary>В области задач не изменяется текущий параметр ограничения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCTPDockPositionRestrictNoHorizontal">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Область задач нельзя закрепить вправо или в левой части окна документа.</summary>
+        <summary>Область задач не может быть закреплена в правой или левой части окна документа.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCTPDockPositionRestrictNone">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Отсутствуют ограничения на закрепление области задач.</summary>
+        <summary>Нет ограничений на прикрепление области задач.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCTPDockPositionRestrictNoVertical">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Область задач нельзя закрепить в верхней или нижней части окна документа.</summary>
+        <summary>Область задач не может быть закреплена в верхней или нижней части окна документа.</summary>
       </Docs>
     </Member>
   </Members>

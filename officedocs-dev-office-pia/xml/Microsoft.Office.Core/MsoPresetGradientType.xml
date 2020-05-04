@@ -1,13 +1,5 @@
 <Type Name="MsoPresetGradientType" FullName="Microsoft.Office.Core.MsoPresetGradientType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a8e898a5e2998b80fa69f0c1373fafdec1aa2a63" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661870" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetGradientType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a8e898a5e2998b80fa69f0c1373fafdec1aa2a63" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661870" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetGradientType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetGradientType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetGradientType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetGradientType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, которой предопределенное градиента для заливки фигуры.</summary>
+    <summary>Указывает, какой предопределенный градиент используется для заливки фигуры.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Градиентные латунным.</summary>
+        <summary>Брасс градиент.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientCalmWater">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Покой градиентной воды.</summary>
+        <summary>КАЛМ воды.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientChrome">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Chrome градиент.</summary>
+        <summary>Градиент хрома.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientChromeII">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>Градиентные II хрома.</summary>
+        <summary>Градиент Chrome II.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientDaybreak">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Градиентные восходе.</summary>
+        <summary>Дайбреак градиент.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientDesert">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Где в градиент.</summary>
+        <summary>Градиентная заливка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientEarlySunset">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Первых Закат градиент.</summary>
+        <summary>Ранний градиент с закатом.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientFire">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Градиентные пожарной.</summary>
+        <summary>Порождает градиентную заливку.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientFog">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Градиентные тумана.</summary>
+        <summary>Градиент тумана.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientGold">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Градиентные уровня Gold.</summary>
+        <summary>Золотой градиент.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientGoldII">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Градиентные II уровня Gold.</summary>
+        <summary>Градиент Gold II.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientHorizon">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Градиентные горизонта.</summary>
+        <summary>Градиентная шкала горизонта.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientLateSunset">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Градиентные Закат позднее.</summary>
+        <summary>Градиент с поздним закатом.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientMahogany">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Градиентные Красное дерево.</summary>
+        <summary>Махогани градиент.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientMoss">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Градиентные MOSS.</summary>
+        <summary>Градиента MOSS.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientNightfall">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Градиентные наступления сумерек.</summary>
+        <summary>Нигхтфалл градиент.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientOcean">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Градиентные океане.</summary>
+        <summary>Градиент морской цветности.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientParchment">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Градиентные пергамента.</summary>
+        <summary>Парчмент градиент.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientPeacock">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Градиентные Петров.</summary>
+        <summary>Петровым градиентом.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientRainbow">
@@ -401,7 +393,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Радуга градиент.</summary>
+        <summary>Градиент Радуга.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientRainbowII">
@@ -420,7 +412,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Градиентные II Радуга.</summary>
+        <summary>Градиент Радуга II.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientSapphire">
@@ -439,7 +431,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>Градиентные сапфир.</summary>
+        <summary>Сапфире градиент.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientSilver">
@@ -458,7 +450,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>Серебр градиент.</summary>
+        <summary>Серебристый градиент.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientWheat">
@@ -477,7 +469,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Градиентные зерна.</summary>
+        <summary>Вхеат градиент.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPresetGradientMixed">
@@ -496,7 +488,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Смешанные градиент.</summary>
+        <summary>Смешанный градиент.</summary>
       </Docs>
     </Member>
   </Members>

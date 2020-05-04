@@ -1,13 +1,5 @@
 <Type Name="MsoCalloutDropType" FullName="Microsoft.Office.Core.MsoCalloutDropType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6448af2d2cd6642e1967fff38285cb5115428e82" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662577" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoCalloutDropType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6448af2d2cd6642e1967fff38285cb5115428e82" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662577" /></Metadata><TypeSignature Language="C#" Value="public enum MsoCalloutDropType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCalloutDropType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCalloutDropType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoCalloutDropType" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает начальную позицию линии выноски по отношению к тексту, ограничивающий прямоугольник.</summary>
-    <remarks>
-      <para>Используется с методом <b>PresetDrop</b> объекта <b>CalloutFormat</b> .</para>
-      <para />
-    </remarks>
+    <summary>Задает начальное положение линии выноски относительно ограничительной рамки текста.</summary>
+    <remarks><para>Используется с методом <b>пресетдроп</b> объекта <b>CalloutFormat</b></para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoCalloutDropBottom">
@@ -43,7 +33,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Внизу.</summary>
+        <summary>Конец.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCalloutDropCenter">
@@ -62,7 +52,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Центр.</summary>
+        <summary>Располагает.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCalloutDropCustom">
@@ -81,7 +71,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Пользовательская. Если это значение используется в качестве значения для свойства <b>PresetDrop</b> , <b>удалять</b> и <b>AutoAttach</b> свойства объекта <b>CalloutFormat</b> используются для определения, где линии выноски подключает текстовое поле.</summary>
+        <summary>Собственный. Если это значение используется в качестве значения для свойства <b>пресетдроп</b> , то свойства <b>Drop</b> и <b>автоattach</b> объекта <b>CalloutFormat</b> используются для определения места присоединения линии выноски к текстовому полю.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCalloutDropMixed">
@@ -100,7 +90,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Возвращаемое значение. Указывает сочетание других состояний.</summary>
+        <summary>Только возвращаемое значение; Указывает комбинацию других состояний.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCalloutDropTop">

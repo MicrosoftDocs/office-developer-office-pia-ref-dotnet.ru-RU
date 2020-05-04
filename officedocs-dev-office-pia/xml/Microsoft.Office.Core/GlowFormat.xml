@@ -1,13 +1,5 @@
 <Type Name="GlowFormat" FullName="Microsoft.Office.Core.GlowFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3e0dfbf946f304d9e495b1ad6b20b36bb7dec7c2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662588" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface GlowFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3e0dfbf946f304d9e495b1ad6b20b36bb7dec7c2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662588" /></Metadata><TypeSignature Language="C#" Value="public interface GlowFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract GlowFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.GlowFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface GlowFormat&#xA;Implements _IMsoDispObj" />
@@ -60,10 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.GlowFormat" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.GlowFormat" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -90,10 +80,8 @@
         <ReturnType>Microsoft.Office.Core.ColorFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает цвет текста в формате свечения. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ColorFormat" />
-        </value>
+        <summary>Получает цвет текста, отформатированного как свечение. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ColorFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -123,10 +111,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.GlowFormat" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.GlowFormat" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -156,10 +142,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение radius эффект свечения для <see cref="T:Microsoft.Office.Core.GlowFormat" /> объекта. Для чтения и записи.</summary>
-        <value>
-          <b>Single</b>
-        </value>
+        <summary>Возвращает или задает значение радиуса для <see cref="T:Microsoft.Office.Core.GlowFormat" /> объекта. Для чтения и записи.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -189,12 +173,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает степень прозрачности указанного свечения значение между 0.0 (Непрозрачный) и 1.0 (Очистить).</summary>
+        <summary>Возвращает или задает степень прозрачности указанного свечения в виде значения между 0,0 (непрозрачность) и 1,0 (Clear).</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

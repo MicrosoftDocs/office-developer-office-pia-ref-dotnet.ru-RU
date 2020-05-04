@@ -1,13 +1,5 @@
 <Type Name="OfficeDataSourceObject" FullName="Microsoft.Office.Core.OfficeDataSourceObject">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f7a7993dfa02a8e524fe1d5f38ac42df92252892" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662609" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OfficeDataSourceObject" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f7a7993dfa02a8e524fe1d5f38ac42df92252892" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662609" /></Metadata><TypeSignature Language="C#" Value="public interface OfficeDataSourceObject" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OfficeDataSourceObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.OfficeDataSourceObject" />
   <TypeSignature Language="VB.NET" Value="Public Interface OfficeDataSourceObject" />
@@ -26,12 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет источник данных слияния почты в ходе операции слияния почты.</summary>
-    <remarks>
-      <para>Для работы с объектом <b>OfficeDataSourceObject</b> аналитики переменную как объект <b>OfficeDataSourceObject</b> . Затем можно работать с различные свойства и методы, связанные с объектом.</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core.OfficeDataSourceObject.SetSortOrder(System.String,System.Boolean,System.String,System.Boolean,System.String,System.Boolean)" /> метод, чтобы указать порядок сортировки записей в источнике данных. Использование <see cref="P:Microsoft.Office.Core.ODSOFilter.Column" />, <see cref="P:Microsoft.Office.Core.ODSOFilter.Comparison" />, <see cref="P:Microsoft.Office.Core.ODSOFilter.CompareTo" />, и <see cref="P:Microsoft.Office.Core.ODSOFilter.Conjunction" /> свойства для возвращения или задания условия запроса источника данных.</para>
-      <para />
-    </remarks>
+    <summary>Представляет источник данных слияния почты в операции слияния почты.</summary>
+    <remarks><para>Для работы с объектом <b>OfficeDataSourceObject</b> измерение a переменная в качестве объекта <b>OfficeDataSourceObject</b> . Затем можно работать с различными свойствами и методами, связанными с объектом.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.OfficeDataSourceObject.SetSortOrder(System.String,System.Boolean,System.String,System.Boolean,System.String,System.Boolean)" /> метод, чтобы указать способ сортировки записей в источнике данных. Для возврата <see cref="P:Microsoft.Office.Core.ODSOFilter.Column" />или <see cref="P:Microsoft.Office.Core.ODSOFilter.Comparison" />задания <see cref="P:Microsoft.Office.Core.ODSOFilter.CompareTo" />условия запроса <see cref="P:Microsoft.Office.Core.ODSOFilter.Conjunction" /> источника данных используются свойства,, и.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="ApplyFilter">
@@ -55,7 +45,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Применение фильтра к источнику данных слияния почты для фильтрации указанной записи, удовлетворяющие заданным критериям.</summary>
+        <summary>Применяет фильтр к источнику данных слияния, чтобы отфильтровать указанные записи, удовлетворяющие заданным условиям.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -113,7 +103,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <b>строку</b> , представляющую подключения для указанного источника данных.</summary>
+        <summary>Возвращает или задает <b>строку</b> , которая представляет подключение к указанному источнику данных слияния.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,7 +134,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <b>строку</b> , представляющую имя источника данных.</summary>
+        <summary>Возвращает или задает <b>строку</b> , представляющую имя присоединенного источника данных.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,7 +162,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> семейства сайтов.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> коллекцию.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -199,14 +189,12 @@
         <Parameter Name="RowNbr" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="MsoMoveRow">Требуется <see cref="T:Microsoft.Office.Core.MsoMoveRow" />. Строка, которая получает фокус.</param>
-        <param name="RowNbr">Необязательный атрибут типа <b>Integer</b>. Номер строки строку, в которой установлен фокус.</param>
-        <summary>Перемещает фокус указанной строки в источнике данных.</summary>
+        <param name="MsoMoveRow">Обязательный <see cref="T:Microsoft.Office.Core.MsoMoveRow" />. Строка, которая получает фокус.</param>
+        <param name="RowNbr">Необязательное <b>целое число</b>. Номер строки, которая получает фокус.</param>
+        <summary>Перемещает фокус на указанную строку в источнике данных слияния.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-          <para />
-        </remarks>
+        <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Open">
@@ -235,12 +223,12 @@
         <Parameter Name="fNeverPrompt" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="bstrSrc">Необязательный атрибут типа <b>String</b>.  Имя источника данных.</param>
-        <param name="bstrConnect">Необязательный атрибут типа <b>String</b>.  Строка подключения к источнику данных.</param>
-        <param name="bstrTable">Необязательный атрибут типа <b>String</b>.  Имя таблицы в источнике данных.</param>
-        <param name="fOpenExclusive">Необязательный атрибут типа <b>Integer</b>. Задает источник данных открыт для исключительных доступа.</param>
-        <param name="fNeverPrompt">Необязательный атрибут типа <b>Integer</b>. Задает отображения приглашения.</param>
-        <summary>Открывает подключение к источнику данных слияния почты.</summary>
+        <param name="bstrSrc">Необязательная <b>строка</b>. Имя источника данных.</param>
+        <param name="bstrConnect">Необязательная <b>строка</b>. Строка подключения к источнику данных.</param>
+        <param name="bstrTable">Необязательная <b>строка</b>. Имя таблицы в источнике данных.</param>
+        <param name="fOpenExclusive">Необязательное <b>целое число</b>. Указывает, открыт ли источник данных для монопольного доступа.</param>
+        <param name="fNeverPrompt">Необязательное <b>целое число</b>. Указывает, отображаются ли приглашения.</param>
+        <summary>Открывает подключение к источнику данных слияния.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -267,7 +255,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>целое число</b> , представляющее количество записей в источнике данных.</summary>
+        <summary>Возвращает <b>целое</b> число, представляющее количество записей в указанном источнике данных.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -299,14 +287,13 @@
         <Parameter Name="SortAscending3" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="SortField1">
-          <b>Строковое значение.</b> Первое поле, по которому выполняется сортировка данных слияния почты.</param>
-        <param name="SortAscending1">Необязательный атрибут типа <b>Boolean</b>.  <b>Значение true</b> (по умолчанию) для выполнения сортировки по возрастанию для <paramref name="SortField1" />; <b>Значение false</b> для выполнения по убыванию сортировка.</param>
-        <param name="SortField2">Необязательный атрибут типа <b>String</b>.  Второе поле, по которому выполняется сортировка данных слияния почты. Значение по умолчанию — пустая строка.</param>
-        <param name="SortAscending2">Необязательный атрибут типа <b>Boolean</b>.  <b>Значение true</b> (по умолчанию) для выполнения сортировки по возрастанию для <paramref name="SortField2" />; <b>Значение false</b> для выполнения по убыванию сортировка.</param>
-        <param name="SortField3">Необязательный атрибут типа <b>String</b>.  Третий поле, по которому выполняется сортировка данных слияния почты. Значение по умолчанию — пустая строка.</param>
-        <param name="SortAscending3">Необязательный атрибут типа <b>Boolean</b>.  <b>Значение true</b> (по умолчанию) для выполнения сортировки по возрастанию для <paramref name="SortField3" />; <b>Значение false</b> для выполнения по убыванию сортировка.</param>
-        <summary>Задает порядок сортировки для слияния данных.</summary>
+        <param name="SortField1">Обязательный атрибут типа <b>String</b>. Первое поле, по которому выполняется сортировка данных слияния почты.</param>
+        <param name="SortAscending1">Необязательный атрибут типа <b>Boolean</b>. <b>True</b> (по умолчанию), чтобы выполнить сортировку <paramref name="SortField1" />по возрастанию; <b>Значение false</b> , чтобы выполнить сортировку по убыванию.</param>
+        <param name="SortField2">Необязательная <b>строка</b>. Второе поле, по которому выполняется сортировка данных слияния почты. Значение по умолчанию — пустая строка.</param>
+        <param name="SortAscending2">Необязательный атрибут типа <b>Boolean</b>. <b>True</b> (по умолчанию), чтобы выполнить сортировку <paramref name="SortField2" />по возрастанию; <b>Значение false</b> , чтобы выполнить сортировку по убыванию.</param>
+        <param name="SortField3">Необязательная <b>строка</b>. Третье поле, для которого необходимо отсортировать данные слияния почты. Значение по умолчанию — пустая строка.</param>
+        <param name="SortAscending3">Необязательный атрибут типа <b>Boolean</b>. <b>True</b> (по умолчанию), чтобы выполнить сортировку <paramref name="SortField3" />по возрастанию; <b>Значение false</b> , чтобы выполнить сортировку по убыванию.</param>
+        <summary>Задает порядок сортировки данных слияния почты.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -336,12 +323,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>строку</b> , представляющую имя таблицы в данных исходный файл, содержащий записи слияния почты.</summary>
+        <summary>Возвращает <b>строку</b> , представляющую имя таблицы в файле источника данных, которая содержит записи слияния почты.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Возвращаемое значение может быть пустым, если имя таблицы неизвестна или не применим к текущему источнику данных.</para>
-          <para />
-        </remarks>
+        <remarks><para>Возвращаемое значение может быть пустым, если имя таблицы неизвестно или неприменимо к текущему источнику данных.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

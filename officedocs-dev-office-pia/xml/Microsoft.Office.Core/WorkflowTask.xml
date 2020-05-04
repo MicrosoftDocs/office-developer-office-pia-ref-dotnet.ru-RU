@@ -1,13 +1,5 @@
 <Type Name="WorkflowTask" FullName="Microsoft.Office.Core.WorkflowTask">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="147a0e33051821891704109990baf5a5a35551b5" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662048" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface WorkflowTask : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="147a0e33051821891704109990baf5a5a35551b5" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662048" /></Metadata><TypeSignature Language="C#" Value="public interface WorkflowTask : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract WorkflowTask implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.WorkflowTask" />
   <TypeSignature Language="VB.NET" Value="Public Interface WorkflowTask&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет одну задачу рабочего процесса в <see cref="T:Microsoft.Office.Core.WorkflowTasks" /> семейства сайтов.</summary>
+    <summary>Представляет одну задачу рабочего процесса в <see cref="T:Microsoft.Office.Core.WorkflowTasks" /> коллекции.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,10 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.WorkflowTask" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.WorkflowTask" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -90,10 +80,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя человека, который назначается задача рабочего процесса. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает имя человека, которому назначена задача рабочего процесса. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,10 +108,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя человека, создавшего задачу рабочего процесса. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает имя пользователя, создавшего задачу рабочего процесса. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -151,9 +137,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает дату создания задачи рабочего процесса. Только для чтения.</summary>
-        <value>
-          <b>DateTime</b>
-        </value>
+        <value><b>DateTime</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,10 +167,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.WorkflowTask" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.WorkflowTask" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -214,9 +196,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает описание задачи рабочего процесса. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -243,10 +223,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает дату, срок выполнения задач рабочего процесса. Только для чтения.</summary>
-        <value>
-          <b>DateTime</b>
-        </value>
+        <summary>Получает дату выполнения задачи рабочего процесса. Только для чтения.</summary>
+        <value><b>DateTime</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -273,10 +251,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор элемента списка Sharepoint. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает идентификатор элемента списка SharePoint. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -303,10 +279,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор списка, содержащего задачи рабочего процесса. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает идентификатор списка, содержащего задачу рабочего процесса. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -334,9 +308,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает имя <see cref="T:Microsoft.Office.Core.WorkflowTask" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -361,10 +333,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отображение задач рабочего процесса изменения пользовательского интерфейса для указанного <see cref="T:Microsoft.Office.Core.WorkflowTask" /> объекта.</summary>
-        <returns>
-          <b>Integer</b>
-        </returns>
+        <summary>Отображает пользовательский интерфейс изменения задачи рабочего процесса для указанного <see cref="T:Microsoft.Office.Core.WorkflowTask" /> объекта.</summary>
+        <returns><b>Integer</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -391,10 +361,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор рабочего процесса, связанного с задачи рабочего процесса. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает идентификатор рабочего процесса, связанного с задачей рабочего процесса. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

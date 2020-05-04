@@ -1,13 +1,5 @@
 <Type Name="MsoSignatureSubset" FullName="Microsoft.Office.Core.MsoSignatureSubset">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="72610ef6af69b95daeaf81160c28352c460f2211" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662463" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoSignatureSubset" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="72610ef6af69b95daeaf81160c28352c460f2211" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662463" /></Metadata><TypeSignature Language="C#" Value="public enum MsoSignatureSubset" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSignatureSubset extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSignatureSubset" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoSignatureSubset" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает свойства подмножества подписи. Эти параметры используются как фильтры для наборов подписи.</summary>
+    <summary>Задает свойства подмножества подписей. Эти параметры действуют как фильтры для наборов подписей.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Все невидимые Подписи плюс все строки подписи.</summary>
+        <summary>Все невидимые подписи и все строки подписей.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSignatureSubsetSignatureLines">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Все строки подписи.</summary>
+        <summary>Все строки подписей.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSignatureSubsetSignatureLinesSigned">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>А также все строки подпись все невидимые подписи.</summary>
+        <summary>Все невидимые подписи, а также все подписанные строки подписей.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSignatureSubsetSignaturesNonVisible">

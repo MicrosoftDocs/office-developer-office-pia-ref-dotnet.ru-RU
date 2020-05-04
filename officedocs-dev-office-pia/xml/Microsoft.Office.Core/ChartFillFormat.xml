@@ -1,13 +1,5 @@
 <Type Name="ChartFillFormat" FullName="Microsoft.Office.Core.ChartFillFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ad17fe9c58844222d4104928f8ff92c37a542796" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662583" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ChartFillFormat" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ad17fe9c58844222d4104928f8ff92c37a542796" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662583" /></Metadata><TypeSignature Language="C#" Value="public interface ChartFillFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartFillFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ChartFillFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ChartFillFormat" />
@@ -26,11 +18,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Использовать только с диаграммы. Представляет заполнения форматирования для элементов диаграмм.</summary>
-    <remarks>
-      <para>Использование <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> свойство для возвращения <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> объекта.</para>
-      <para />
-    </remarks>
+    <summary>Используется только с диаграммами. Представляет форматирование заливки для элементов диаграммы.</summary>
+    <remarks><para>Используйте <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> свойство, чтобы возвратить <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> объект.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -56,10 +46,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -86,10 +74,8 @@
         <ReturnType>Microsoft.Office.Core.ChartColorFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или устанавливает фоновый цвет заливки.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
-        </value>
+        <summary>Возвращает или задает цвет фона заливки.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ChartColorFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,9 +103,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -146,10 +130,8 @@
         <ReturnType>Microsoft.Office.Core.ChartColorFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает заливки переднего плана или цвета фона.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
-        </value>
+        <summary>Возвращает или задает заливку текста или сплошной цвет.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ChartColorFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -176,15 +158,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает тип градиента для указанного заливки. Только для чтения</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoGradientColorType" />
-        </value>
-        <remarks>
-          <para>
-            <see cref="T:Microsoft.Office.Core.MsoGradientColorType" />— Это значение, возвращаемое только что указывает сочетание другие состояния в указанном диапазоне. Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" />, <see cref="P:Microsoft.Office.Core.ChartFillFormat.PresetGradientType" />, или <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> метод, чтобы задать тип градиента для заполнения.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает тип цвета градиента для заданной заливки. Только для чтения</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoGradientColorType" /></value>
+        <remarks><para>
+            <see cref="T:Microsoft.Office.Core.MsoGradientColorType" />— Это возвращаемое значение, которое указывает комбинацию других состояний в указанном диапазоне. Используйте метод <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" />, <see cref="P:Microsoft.Office.Core.ChartFillFormat.PresetGradientType" />или <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> , чтобы задать тип градиента для заливки.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GradientDegree">
@@ -210,14 +188,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает градиента степень указанного один цвет заливки затемненные как значение с плавающей запятой от 0,0 (темный) до 1.0 (недоступно). Только для чтения.</summary>
-        <value>
-          <b>Single</b>
-        </value>
-        <remarks>
-          <para>Это свойство доступно только для чтения. Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> метод установка градиента степени для заполнения.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает степень градиента указанного одноцветного затененного заливки в виде значения с плавающей запятой от 0,0 (темное) до 1,0 (Light). Только для чтения.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
+        <remarks><para>Это свойство доступно только для чтения. Используйте <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> метод, чтобы задать степень градиента для заливки.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GradientStyle">
@@ -243,10 +217,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает тип градиента для указанного заполнения. Только для чтения</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />
-        </value>
+        <summary>Возвращает стиль градиента для заданной заливки. Только для чтения</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoGradientStyle" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -273,14 +245,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает variant тень для указанного заливки как целое число от 1 до 4. Значения для этого свойства соответствуют градиента вариантов (нумерованные слева направо и сверху вниз) на вкладке градиентной заливки диалоговое окно "". Только для чтения</summary>
-        <value>
-          <b>Integer</b>
-        </value>
-        <remarks>
-          <para>Это свойство доступно только для чтения. Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> или <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> метод, чтобы задать градиента variant для заполнения.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает вариант тени для указанного заполнения в виде целого значения от 1 до 4. Значения этого свойства соответствуют вариантам градиента (пронумерованы слева направо и сверху вниз) на вкладке градиент в диалоговом окне "способы заливки". Только для чтения</summary>
+        <value><b>Integer</b></value>
+        <remarks><para>Это свойство доступно только для чтения. Используйте метод <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> or <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> , чтобы задать вариант градиента для заливки.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="OneColorGradient">
@@ -308,10 +276,10 @@
         <Parameter Name="Degree" Type="System.Single" />
       </Parameters>
       <Docs>
-        <param name="Style">Требуется <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />. Стиль градиента.</param>
-        <param name="Variant">Требуется <b>целое число</b>. Градиентный variant. Может быть в диапазоне от 1 до 4, соответствующее одному из четырех вариантов на вкладке градиентной заливки диалоговое окно "". Если <paramref name="Style" /> — это <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, <paramref name="Variant" /> аргумент может быть только 1 или 2.</param>
-        <param name="Degree">Требуется <b>один</b>. Определяет, насколько градиента. Может быть в диапазоне от 0,0 (темный) до 1.0 (недоступно).</param>
-        <summary>Устанавливает указанный заливки градиентной один цвет.</summary>
+        <param name="Style">Обязательный <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />. Стиль градиента.</param>
+        <param name="Variant">Обязательный атрибут типа <b>Integer</b>. Вариант градиента. Может принимать значения от 1 до 4, соответствующие одному из четырех вариантов на вкладке градиент в диалоговом окне "способы заливки". Если <paramref name="Style" /> параметр <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />имеет значение <paramref name="Variant" /> , аргумент может иметь только значение 1 или 2.</param>
+        <param name="Degree">Обязательное <b>одно</b>. Степень градиента. Может принимать значение от 0,0 (темная) до 1,0 (светло).</param>
+        <summary>Задает Одноцветный градиент для указанной заливки.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -339,9 +307,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает родительский объект для указанного объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -368,10 +334,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает шаблон заполнения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoPatternType" />
-        </value>
+        <summary>Возвращает или задает шаблон заливки.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoPatternType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -398,8 +362,8 @@
         <Parameter Name="Pattern" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Pattern">Требуется <see cref="T:Microsoft.Office.Core.MsoPatternType" />. Тип шаблона.</param>
-        <summary>Устанавливает указанный заливки с шаблоном.</summary>
+        <param name="Pattern">Обязательный <see cref="T:Microsoft.Office.Core.MsoPatternType" />. Тип шаблона.</param>
+        <summary>Задает заданный узор заливки.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -428,10 +392,10 @@
         <Parameter Name="PresetGradientType" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Style">Требуется <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />. Стиль градиента.</param>
-        <param name="Variant">Требуется <b>целое число</b>. Градиентный variant. Может быть в диапазоне от 1 до 4, соответствующее одному из четырех вариантов на вкладке градиентной заливки диалоговое окно "". Если <paramref name="Style" /> — это <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, <paramref name="Variant" /> аргумент может быть только 1 или 2.</param>
+        <param name="Style">Обязательный <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />. Стиль градиента.</param>
+        <param name="Variant">Обязательный атрибут типа <b>Integer</b>. Вариант градиента. Может принимать значения от 1 до 4, соответствующие одному из четырех вариантов на вкладке градиент в диалоговом окне "способы заливки". Если <paramref name="Style" /> параметр <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />имеет значение <paramref name="Variant" /> , аргумент может иметь только значение 1 или 2.</param>
         <param name="PresetGradientType">To be added.</param>
-        <summary>Устанавливает указанный заливки предварительно заданного градиента.</summary>
+        <summary>Задает заданное заполнение заранее заданным градиентом.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -458,14 +422,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает тип предварительно градиента для указанного заполнения. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoPresetGradientType" />
-        </value>
-        <remarks>
-          <para>Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetGradient(System.Int32,System.Int32,System.Int32)" /> метод, чтобы задать тип предварительно градиента для заполнения.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает предварительно заданный тип градиента для заданной заливки. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoPresetGradientType" /></value>
+        <remarks><para>Используйте <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetGradient(System.Int32,System.Int32,System.Int32)" /> метод, чтобы задать предустановленный тип градиента для заливки.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="PresetTexture">
@@ -491,14 +451,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает предварительно текстуры для указанного заполнения. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoPresetTexture" />
-        </value>
-        <remarks>
-          <para>Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetTextured(System.Int32)" /> метод для задания стиля текстуры для заполнения.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает подготовленную текстуру для указанной заливки. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoPresetTexture" /></value>
+        <remarks><para>Используйте <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetTextured(System.Int32)" /> метод для установки заданной текстуры заливки.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="PresetTextured">
@@ -524,8 +480,8 @@
         <Parameter Name="PresetTexture" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="PresetTexture">Требуется <see cref="T:Microsoft.Office.Core.MsoPresetTexture" />. Тип текстуры вступили в силу.</param>
-        <summary>Задает формат указанного заливки предварительно текстуры.</summary>
+        <param name="PresetTexture">Обязательный <see cref="T:Microsoft.Office.Core.MsoPresetTexture" />. Тип применяемой текстуры.</param>
+        <summary>Устанавливает заданный формат заливки в предустановленную текстуру.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -550,7 +506,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Устанавливает указанный заливки единый цвет. Используйте этот метод для преобразования градиент, текстурой, узором или фона заливки обратно в сплошной заливке.</summary>
+        <summary>Задает для заданной заливки одинаковый цвет. Используйте этот метод, чтобы преобразовать градиентную, текстурную, узорную или фоновую заливку обратно к сплошной заливки.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -577,14 +533,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имя файла текстуры для указанного заполнения. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
-        <remarks>
-          <para>Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> или <see cref="M:Microsoft.Office.Core.FillFormat.UserTextured(System.String)" /> метод, чтобы задать файл текстуры для заполнения.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает имя настраиваемого файла текстуры для заданной заливки. Только для чтения.</summary>
+        <value><b>Строка</b></value>
+        <remarks><para>Используйте метод <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> или <see cref="M:Microsoft.Office.Core.FillFormat.UserTextured(System.String)" /> для задания файла текстуры для заполнения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextureType">
@@ -610,14 +562,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает тип текстуры для указанного заливки. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTextureType" />
-        </value>
-        <remarks>
-          <para>Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserTextured(System.String)" /> метод для задания типа текстуры для заполнения.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает тип текстуры для заданной заливки. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTextureType" /></value>
+        <remarks><para>Используйте <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserTextured(System.String)" /> метод, чтобы задать тип текстуры для заливки.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="TwoColorGradient">
@@ -644,9 +592,9 @@
         <Parameter Name="Variant" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Style">Требуется <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />. Стиль градиента.</param>
-        <param name="Variant">Требуется <b>целое число</b>. Градиентный variant. Может быть в диапазоне от 1 до 4, соответствующее одному из четырех вариантов на вкладке градиентной заливки диалоговое окно "". Если <paramref name="Style" /> — это <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, <paramref name="Variant" /> аргумент может быть только 1 или 2.</param>
-        <summary>Устанавливает указанный заливки градиентом двух цветов.</summary>
+        <param name="Style">Обязательный <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />. Стиль градиента.</param>
+        <param name="Variant">Обязательный атрибут типа <b>Integer</b>. Вариант градиента. Может принимать значения от 1 до 4, соответствующие одному из четырех вариантов на вкладке градиент в диалоговом окне "способы заливки". Если <paramref name="Style" /> параметр <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />имеет значение <paramref name="Variant" /> , аргумент может иметь только значение 1 или 2.</param>
+        <summary>Задает для указанного заполнения градиент в два цвета.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -674,13 +622,9 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает тип заливки.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoFillType" />
-        </value>
-        <remarks>
-          <para>Это свойство может также возвращать <see cref="F:Microsoft.Office.Core.XlConstants.xlAutomatic" /> или <see cref="F:Microsoft.Office.Core.XlConstants.xlNone" />.</para>
-          <para />
-        </remarks>
+        <value><see cref="T:Microsoft.Office.Core.MsoFillType" /></value>
+        <remarks><para>Это свойство также может <see cref="F:Microsoft.Office.Core.XlConstants.xlAutomatic" /> возвращать <see cref="F:Microsoft.Office.Core.XlConstants.xlNone" />или.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="UserPicture">
@@ -709,11 +653,11 @@
         <Parameter Name="PicturePlacement" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="PictureFile">Необязательный элемент <b>Object</b>. Имя файла изображения.</param>
-        <param name="PictureFormat">Необязательный элемент <b>Object</b>. <see cref="T:Microsoft.Office.Core.XlChartPictureType" /> Значение, указывающее формат рисунка.</param>
-        <param name="PictureStackUnit">Необязательный элемент <b>Object</b>. Значение <b>типа Double</b> , задающее единицы стека или масштаб изображения (зависит от <paramref name="PictureFormat" /> аргумент).</param>
-        <param name="PicturePlacement">Необязательный элемент <b>Object</b>. Значение <b>XlChartPicturePlacement</b> , указывающее положение изображения.</param>
-        <summary>Заливка указанной фигуры с изображением.</summary>
+        <param name="PictureFile">Необязательный <b>объект</b>. Имя файла изображения.</param>
+        <param name="PictureFormat">Необязательный <b>объект</b>. <see cref="T:Microsoft.Office.Core.XlChartPictureType" /> Значение, указывающее формат изображения.</param>
+        <param name="PictureStackUnit">Необязательный <b>объект</b>. Значение <b>типа Double</b> , задающее стек изображений или единицу измерения (зависит от <paramref name="PictureFormat" /> аргумента).</param>
+        <param name="PicturePlacement">Необязательный <b>объект</b>. Значение <b>кслчартпиктуреплацемент</b> , указывающее расположение изображения.</param>
+        <summary>Заполняет указанную фигуру изображением.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -740,9 +684,8 @@
         <Parameter Name="TextureFile" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="TextureFile">
-          <b>Строковое значение.</b> Имя файла изображения.</param>
-        <summary>Заполняет указанный фигуры малых заголовков изображения. Если необходимо заполнить форму одно большое изображение, используйте <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> метод.</summary>
+        <param name="TextureFile">Обязательный атрибут типа <b>String</b>. Имя файла изображения.</param>
+        <summary>Заполняет указанную фигуру мелкими костями изображения. Если вы хотите заполнить фигуру одним большим изображением, используйте <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> метод.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -772,10 +715,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoTriState" /> значение, которое определяет, является ли объект видимым. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoTriState" /> значение, определяющее, является ли объект видимым. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

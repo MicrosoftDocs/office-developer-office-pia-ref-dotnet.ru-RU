@@ -1,13 +1,5 @@
 <Type Name="MsoPresetLightingSoftness" FullName="Microsoft.Office.Core.MsoPresetLightingSoftness">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="16f5c7d4372ad22512115c6264030573ffc3ccf7" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662278" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetLightingSoftness" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="16f5c7d4372ad22512115c6264030573ffc3ccf7" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662278" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetLightingSoftness" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetLightingSoftness extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetLightingSoftness" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetLightingSoftness" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает интенсивность на фигуры.</summary>
+    <summary>Указывает интенсивность света, используемую для фигуры.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Яркого света.</summary>
+        <summary>Яркий свет.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingDim">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Dim light.</summary>
+        <summary>Светло-светлое.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingNormal">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Обычный light.</summary>
+        <summary>Обычный источник света.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPresetLightingSoftnessMixed">

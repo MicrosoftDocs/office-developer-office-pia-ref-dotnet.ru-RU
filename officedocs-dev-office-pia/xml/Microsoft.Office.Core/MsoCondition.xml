@@ -1,13 +1,5 @@
 <Type Name="MsoCondition" FullName="Microsoft.Office.Core.MsoCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2facec1a7ecb416e3346ffd928fdb23bd39a0f3f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661882" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2facec1a7ecb416e3346ffd928fdb23bd39a0f3f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661882" /></Metadata><TypeSignature Language="C#" Value="public enum MsoCondition" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCondition extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCondition" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoCondition" />
@@ -25,11 +17,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Определяет условие для сравнения файла и указанное свойство в поиск файлов.</summary>
-    <remarks>
-      <para>Используется для получения или задания свойства <b>Condition</b> объекта <b>PropertyTest</b> . <b>PropertyTest</b> является частью <b>FileSearch</b> объектной модели. Поведение <b>FileSearch</b> соответствует интерактивного режима, отображаемые в поле Finddialog, которое можно открыть из меню "Сервис" открыть диалоговое окно "приложения" (меню "файл").</para>
-      <para />
-    </remarks>
+    <summary>Определяет условие сравнения файла и указанного свойства при поиске файла.</summary>
+    <remarks><para>Используется для получения или задания свойства <b>Condition</b> объекта <b>пропертитест</b> . <b>Пропертитест</b> является частью объектной модели <b>FileSearch</b> . Поведение <b>FileSearch</b> соответствует интерактивному поведению, которое отображается в поле финддиалог, которое открывается из меню "Сервис" в диалоговом окне открытия приложения (меню "файл").</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoConditionAnyNumberBetween">
@@ -48,7 +38,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>Любое число между значениями, указанными с помощью свойства <b>значение</b> и <b>SecondValue</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Любое число между значениями, указанными в свойствах <b>value</b> и <b>секондвалуе</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionAnytime">
@@ -67,7 +57,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> может быть любое время.</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , может быть любой раз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionAnytimeBetween">
@@ -86,7 +76,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> находится в пределах даты, указанные с помощью свойства <b>значение</b> и <b>SecondValue</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится в интервале между датами, указанными в свойствах <b>value</b> и <b>секондвалуе</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionAtLeast">
@@ -105,7 +95,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> по крайней мере — значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , равно по крайней мере значению, указанному в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionAtMost">
@@ -124,7 +114,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> максимум — значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , не превышает значение, указанное в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionBeginsWith">
@@ -143,7 +133,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> начинается со значением, указанным в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , начинается со значения, указанного в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionDoesNotEqual">
@@ -162,7 +152,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> не равно значению, указанному в свойства <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , не равно значению, указанному в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEndsWith">
@@ -181,7 +171,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> конечных объектов <b>PropertyTest</b> со значением, указанным в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , заканчивается значением, указанным в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEquals">
@@ -200,7 +190,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>Свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> равно значению, указанных в свойстве <b>значение</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , равно значению, указанному в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsCompleted">
@@ -219,7 +209,7 @@
       </ReturnValue>
       <MemberValue>66</MemberValue>
       <Docs>
-        <summary>Состояние равно «Завершено». Значение свойства <b>Name</b> должно быть <b>состояние</b>.</summary>
+        <summary>Состояние равно "завершено". Значение свойства <b>Name</b> должно быть <b>Status</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsDeferred">
@@ -238,7 +228,7 @@
       </ReturnValue>
       <MemberValue>68</MemberValue>
       <Docs>
-        <summary>Состояние равно «Отложенный». Значение свойства <b>Name</b> должно быть <b>состояние</b>.</summary>
+        <summary>Состояние равно "отложена". Значение свойства <b>Name</b> должно быть <b>Status</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsHigh">
@@ -257,7 +247,7 @@
       </ReturnValue>
       <MemberValue>60</MemberValue>
       <Docs>
-        <summary>Приоритет равен «Высокий». Значение свойства <b>Name</b> должно быть <b>приоритет</b>.</summary>
+        <summary>Приоритет равен "High". Значение свойства <b>Name</b> должно быть <b>Priority</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsInProgress">
@@ -276,7 +266,7 @@
       </ReturnValue>
       <MemberValue>65</MemberValue>
       <Docs>
-        <summary>Состояние равно «Выполняется». Значение свойства <b>Name</b> должно быть <b>состояние</b>.</summary>
+        <summary>Состояние равно "выполняется". Значение свойства <b>Name</b> должно быть <b>Status</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsLow">
@@ -295,7 +285,7 @@
       </ReturnValue>
       <MemberValue>58</MemberValue>
       <Docs>
-        <summary>Приоритет равен «Низкий». Значение свойства <b>Name</b> должно быть <b>приоритет</b>.</summary>
+        <summary>Приоритет равен "низку". Значение свойства <b>Name</b> должно быть <b>Priority</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsNormal">
@@ -314,7 +304,7 @@
       </ReturnValue>
       <MemberValue>59</MemberValue>
       <Docs>
-        <summary>Приоритет равен «Обычный». Значение свойства <b>Name</b> должно быть <b>приоритет</b>.</summary>
+        <summary>Приоритет равен "Normal". Значение свойства <b>Name</b> должно быть <b>Priority</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsNotStarted">
@@ -333,7 +323,7 @@
       </ReturnValue>
       <MemberValue>64</MemberValue>
       <Docs>
-        <summary>Состояние равно «Не удалось запустить». Значение свойства <b>Name</b> должно быть <b>состояние</b>.</summary>
+        <summary>Состояние равно "Not started". Значение свойства <b>Name</b> должно быть <b>Status</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsWaitingForSomeoneElse">
@@ -352,7 +342,7 @@
       </ReturnValue>
       <MemberValue>67</MemberValue>
       <Docs>
-        <summary>Состояние равно «Ожидание для кто-то еще». Значение свойства <b>Name</b> должно быть <b>состояние</b>.</summary>
+        <summary>Состояние равно "ожидает кого-либо другого". Значение свойства <b>Name</b> должно быть <b>Status</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeAllFiles">
@@ -371,7 +361,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Файл может быть любого типа.</summary>
+        <summary>Файл может иметь любой тип.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeBinders">
@@ -390,7 +380,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Файл Binder.</summary>
+        <summary>Файл подшивки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeCalendarItem">
@@ -428,7 +418,7 @@
       </ReturnValue>
       <MemberValue>46</MemberValue>
       <Docs>
-        <summary>Элемента контакта.</summary>
+        <summary>Элемент Contact.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeDatabases">
@@ -447,7 +437,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>База данных.</summary>
+        <summary>Базу.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeDataConnectionFiles">
@@ -504,7 +494,7 @@
       </ReturnValue>
       <MemberValue>54</MemberValue>
       <Docs>
-        <summary>Файл документа обработки изображений.</summary>
+        <summary>Файл Document Imaging.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeExcelWorkbooks">
@@ -542,7 +532,7 @@
       </ReturnValue>
       <MemberValue>48</MemberValue>
       <Docs>
-        <summary>Элемент "Дневник".</summary>
+        <summary>Элемент дневника.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeMailItem">
@@ -561,7 +551,7 @@
       </ReturnValue>
       <MemberValue>44</MemberValue>
       <Docs>
-        <summary>Почтового элемента.</summary>
+        <summary>Почтовый элемент.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeNoteItem">
@@ -580,7 +570,7 @@
       </ReturnValue>
       <MemberValue>47</MemberValue>
       <Docs>
-        <summary>Элемент заметки.</summary>
+        <summary>Элемент заметок.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeOfficeFiles">
@@ -599,7 +589,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Файл может быть любой тип файлов Office.</summary>
+        <summary>Файл может иметь любой тип файлов Office.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeOutlookItems">
@@ -732,7 +722,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Шаблон.</summary>
+        <summary>Шаблонов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeVisioFiles">
@@ -770,7 +760,7 @@
       </ReturnValue>
       <MemberValue>57</MemberValue>
       <Docs>
-        <summary>Веб-страницы.</summary>
+        <summary>Веб-страница.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeWordDocuments">
@@ -808,7 +798,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> соответствует значению, указанных в свойстве <b>значение</b> объекта <b>PropertyTest</b> при использовании FreeText поиска.</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , соответствует значению, указанному в свойстве <b>value</b> объекта <b>пропертитест</b> при использовании поиска FREETEXT.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIncludes">
@@ -827,7 +817,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> содержит значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , включает значение, указанное в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIncludesFormsOf">
@@ -846,7 +836,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> включает в себя форм значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , включает формы значения, указанные в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIncludesNearEachOther">
@@ -865,7 +855,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> и значения, заданного в свойстве <b>Value</b> объекта <b>PropertyTest</b> являются рядом друг с другом.</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , и значение, указанное в свойстве <b>value</b> объекта <b>пропертитест</b> , расположены рядом друг с другом.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIncludesPhrase">
@@ -884,7 +874,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> содержит фразу, указанных в значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , включает фразу, заданную в значении, указанном в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionInTheLast">
@@ -903,7 +893,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — в последний временной интервал, указанный в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится в последнем интервале времени, указанном в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionInTheNext">
@@ -922,7 +912,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>Даты, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> находится следующий интервал времени, заданный в свойства <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится в следующем интервале времени, указанном в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIsExactly">
@@ -941,7 +931,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> — точно значения, указанного в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , равно значению, указанному в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIsNo">
@@ -960,7 +950,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>Свойство файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> значение «False».</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , равно "false".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIsNot">
@@ -979,7 +969,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> не значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , не является значением, указанным в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIsYes">
@@ -998,7 +988,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>Свойство файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> значение «True».</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , равно "true".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionLastMonth">
@@ -1017,7 +1007,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> находится в последний месяц.</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится в прошлом месяце.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionLastWeek">
@@ -1036,7 +1026,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> находится в пределах за прошлую неделю.</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится в течение прошлой недели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionLessThan">
@@ -1055,7 +1045,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> меньше, чем значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , меньше значения, указанного в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionMoreThan">
@@ -1074,7 +1064,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> больше, чем значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , превышает значение, указанное в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNextMonth">
@@ -1093,7 +1083,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — следующего месяца.</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , относится к следующему месяцу.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNextWeek">
@@ -1112,7 +1102,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — следующей недели.</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , относится к следующей неделе.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToCompleted">
@@ -1131,7 +1121,7 @@
       </ReturnValue>
       <MemberValue>71</MemberValue>
       <Docs>
-        <summary>Состояние не равно «Завершено». Значение свойства <b>Name</b> должно быть <b>состояние</b>.</summary>
+        <summary>Состояние не равно "завершено". Значение свойства <b>Name</b> должно быть <b>Status</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToDeferred">
@@ -1150,7 +1140,7 @@
       </ReturnValue>
       <MemberValue>73</MemberValue>
       <Docs>
-        <summary>Состояние не равно «Отложенный». Значение свойства <b>Name</b> должно быть <b>состояние</b>.</summary>
+        <summary>Состояние не равно "отложен". Значение свойства <b>Name</b> должно быть <b>Status</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToHigh">
@@ -1169,7 +1159,7 @@
       </ReturnValue>
       <MemberValue>63</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest </b>не равно «Высокий». Значение свойства <b>Name</b> должно быть <b>приоритет</b> или <b>Установка высокой важности</b>.</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест </b>, не равно "High". Значение свойства <b>Name</b> должно быть <b>приоритетом</b> или <b>важностью</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToInProgress">
@@ -1188,7 +1178,7 @@
       </ReturnValue>
       <MemberValue>70</MemberValue>
       <Docs>
-        <summary>Состояние не равно «Выполняется». Значение свойства <b>Name</b> должно быть <b>состояние</b>.</summary>
+        <summary>Состояние "выполняется" не равно "выполняется". Значение свойства <b>Name</b> должно быть <b>Status</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToLow">
@@ -1207,7 +1197,7 @@
       </ReturnValue>
       <MemberValue>61</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest </b>не равно «Низкий». Значение свойства <b>Name</b> должно быть <b>приоритет</b> или <b>Установка высокой важности</b>.</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест </b>, не равно "низкие". Значение свойства <b>Name</b> должно быть <b>приоритетом</b> или <b>важностью</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToNormal">
@@ -1226,7 +1216,7 @@
       </ReturnValue>
       <MemberValue>62</MemberValue>
       <Docs>
-        <summary>Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest </b>не равно «Обычный». Значение свойства <b>Name</b> должно быть <b>приоритет</b> или <b>Установка высокой важности</b>.</summary>
+        <summary>Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест </b>, не равно "Normal". Значение свойства <b>Name</b> должно быть <b>приоритетом</b> или <b>важностью</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToNotStarted">
@@ -1245,7 +1235,7 @@
       </ReturnValue>
       <MemberValue>69</MemberValue>
       <Docs>
-        <summary>Состояние не равно «Не удалось запустить». Значение свойства <b>Name</b> должно быть <b>состояние</b>.</summary>
+        <summary>Состояние не равно "не началась". Значение свойства <b>Name</b> должно быть <b>Status</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToWaitingForSomeoneElse">
@@ -1264,7 +1254,7 @@
       </ReturnValue>
       <MemberValue>72</MemberValue>
       <Docs>
-        <summary>Состояние не равно «Ожидание для кто-то еще». Значение свойства <b>Name</b> должно быть <b>состояние</b>.</summary>
+        <summary>Состояние не равно "ожидайте кого-либо еще". Значение свойства <b>Name</b> должно быть <b>Status</b>.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionOn">
@@ -1283,7 +1273,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>Даты, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> совпадает с датой, указанной в свойства <b>Value</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , совпадает с датой, указанной в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionOnOrAfter">
@@ -1302,7 +1292,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>Даты, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> не ранее указанной в свойстве <b>Value</b> объекта <b>PropertyTest</b> даты.</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится в или после даты, указанной в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionOnOrBefore">
@@ -1321,7 +1311,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> не позднее даты, указанных в свойстве <b>значение</b> объекта <b>PropertyTest</b> .</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , равна или предшествует дате, указанной в свойстве <b>value</b> объекта <b>пропертитест</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionThisMonth">
@@ -1340,7 +1330,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — этот месяц.</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , относится к этому месяцу.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionThisWeek">
@@ -1359,7 +1349,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — на этой неделе.</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , относится к этой неделе.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionToday">
@@ -1378,7 +1368,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> соответствует текущей дате.</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится на сегодняшний день.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionTomorrow">
@@ -1397,7 +1387,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — завтра.</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , завтра.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionYesterday">
@@ -1416,7 +1406,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — за вчерашний день.</summary>
+        <summary>Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , вчера.</summary>
       </Docs>
     </Member>
   </Members>

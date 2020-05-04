@@ -1,13 +1,5 @@
 <Type Name="HTMLProjectItem" FullName="Microsoft.Office.Core.HTMLProjectItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f5ffa97ea62974bbac8bab5a7335aeb9d432ed6a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661723" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface HTMLProjectItem : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f5ffa97ea62974bbac8bab5a7335aeb9d432ed6a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661723" /></Metadata><TypeSignature Language="C#" Value="public interface HTMLProjectItem : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract HTMLProjectItem implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.HTMLProjectItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface HTMLProjectItem&#xA;Implements _IMsoDispObj" />
@@ -30,9 +22,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет элемент отдельного проекта, который является ветви элемента проекта в обозревателе проектов в редактор сценариев.</summary>
-    <remarks>
-      <para>Объект <b>HTMLProjectItem</b> входит в состав <see cref="T:Microsoft.Office.Core.HTMLProjectItems" /> семейства.</para> Использование <b>HTMLProjectItems</b><para>(<paramref name="index" />), где <paramref name="index" /> — имя или номер индекса элемента проекта, чтобы возвратить объект <b>HTMLProjectItem</b> . Использование <see cref="P:Microsoft.Office.Core.HTMLProjectItem.Name" /> свойство для возвращения отображаемое имя элемента проекта.</para><para>Использовать <see cref="M:Microsoft.Office.Core.HTMLProjectItem.Open(Microsoft.Office.Core.MsoHTMLProjectOpen)" /> метод Открытие элемента проекта в представлении источника или текст и использование <see cref="P:Microsoft.Office.Core.HTMLProjectItem.IsOpen" /> свойство, чтобы определить, является ли элемент проекта открытая в настоящий момент.</para><para>Использования <see cref="M:Microsoft.Office.Core.HTMLProjectItem.SaveCopyAs(System.String)" /> метод, чтобы сохранить элемент проекта с использованием нового имени файла.</para><para /></remarks>
+    <summary>Представляет отдельный элемент проекта, который является ветвь элемента проекта, в обозревателе проектов в редакторе сценариев (Майкрософт).</summary>
+    <remarks><para>Объект <b>хтмлпрожектитем</b> является членом <see cref="T:Microsoft.Office.Core.HTMLProjectItems" /> коллекции.</para> 
+      <para>Используйте <b>хтмлпрожектитемс</b>(<paramref name="index" />), где <paramref name="index" /> — это имя или номер индекса элемента проекта, чтобы вернуть один объект <b>хтмлпрожектитем</b> . Используйте <see cref="P:Microsoft.Office.Core.HTMLProjectItem.Name" /> свойство, чтобы возвратить отображаемое имя элемента проекта.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.HTMLProjectItem.Open(Microsoft.Office.Core.MsoHTMLProjectOpen)" /> метод, чтобы открыть элемент проекта в представлении исходного кода или представлении текста, и используйте <see cref="P:Microsoft.Office.Core.HTMLProjectItem.IsOpen" /> свойство, чтобы определить, открыт ли элемент проекта в данный момент.</para> 
+      <para>С помощью <see cref="M:Microsoft.Office.Core.HTMLProjectItem.SaveCopyAs(System.String)" /> метода сохраните элемент проекта с новым именем файла.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -61,7 +56,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -92,12 +87,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.HTMLProjectItem.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.HTMLProjectItem.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsOpen">
@@ -123,12 +118,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет, является ли указанный элемент проекта HTML откройте редактор сценариев Microsoft.</summary>
+        <summary>Определяет, открыт ли указанный HTML-элемент проекта в редакторе скриптов (Майкрософт).</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Данное свойство возвращает <b>значение True,</b> Если указанный элемент проекта HTML открыта в редактор сценариев Microsoft; <b>Значение false,</b> Если элемент не открыт.</para>
-          <para />
-        </remarks>
+        <remarks><para>Это свойство возвращает <b>значение true</b> , если указанный элемент проекта HTML открыт в редакторе скриптов (Майкрософт); <b>Значение false</b> , если элемент не открыт.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="LoadFromFile">
@@ -154,9 +147,8 @@
         <Parameter Name="FileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="FileName">
-          <b>Строковое значение.</b> Полный путь текстовый файл, который содержит текст для загрузки.</param>
-        <summary>Обновляет текст в редактор сценариев с текстом в указанном файле (на диске).</summary>
+        <param name="FileName">Обязательный атрибут типа <b>String</b>. Полный путь к текстовому файлу, содержащему загружаемый текст.</param>
+        <summary>Обновляет текст в редакторе сценариев (Майкрософт), используя текст из указанного файла (на диске).</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -210,13 +202,11 @@
         <Parameter Name="OpenKind" Type="Microsoft.Office.Core.MsoHTMLProjectOpen" />
       </Parameters>
       <Docs>
-        <param name="OpenKind">Необязательные <see cref="T:Microsoft.Office.Core.MsoHTMLProjectOpen" />. Представление, в котором будет открыта указанный проект или элемент проекта.</param>
-        <summary>Открывает указанный HTML-проект или элемент проекта HTML редактор сценариев Microsoft в одном из представлений, указанного идентификатором Дополнительно <see cref="T:Microsoft.Office.Core.MsoHTMLProjectOpen" /> константы.</summary>
-        <remarks>
-          <para>Если одной из констант не указан, элемента проекта будет открыт в представление по умолчанию.</para>
-          <para>Представление по умолчанию, определяется ли редактор сценариев Microsoft открыт при выполнении метода <b>Open</b> . Если редактор сценариев не открыт, метод <b>Open</b> запускается редактор сценариев в представлении источника. Если редактор сценариев еще открыта, метод <b>Open</b> активирует редактор сценариев и отображает скрипт в текущем представлении.</para>
-          <para />
-        </remarks>
+        <param name="OpenKind">Необязательный <see cref="T:Microsoft.Office.Core.MsoHTMLProjectOpen" />параметр. Представление, в котором открывается указанный проект или элемент проекта.</param>
+        <summary>Открывает указанный проект HTML или HTML-элемент проекта в редакторе Microsoft Scripts в одном из представлений, определенных необязательными <see cref="T:Microsoft.Office.Core.MsoHTMLProjectOpen" /> константами.</summary>
+        <remarks><para>Если не указана одна из констант, элемент проекта открывается в представлении по умолчанию.</para> 
+          <para>Представление по умолчанию определяется независимо от того, открыт ли редактор скриптов (Майкрософт) при выполнении метода <b>Open</b> . Если редактор скриптов не открыт, метод <b>Open</b> запускает редактор скриптов в представлении исходного кода. Если редактор скриптов уже открыт, метод <b>Open</b> активирует редактор скриптов и отображает скрипт в текущем представлении.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -270,9 +260,8 @@
         <Parameter Name="FileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="FileName">
-          <b>Строковое значение.</b> Полный путь к которой вы хотите сохранить элемента проекта HTML-файла.</param>
-        <summary>Сохраняет указанный элемент HTML проекта с использованием нового имени файла.</summary>
+        <param name="FileName">Обязательный атрибут типа <b>String</b>. Полный путь к файлу, в который требуется сохранить HTML-элемент проекта.</param>
+        <summary>Сохраняет заданный HTML-элемент проекта с использованием нового имени файла.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -302,7 +291,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает текст HTML в редакторе HTML.</summary>
+        <summary>Возвращает или задает HTML-текст в редакторе HTML.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

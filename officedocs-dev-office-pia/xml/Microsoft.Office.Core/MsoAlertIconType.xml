@@ -1,13 +1,5 @@
 <Type Name="MsoAlertIconType" FullName="Microsoft.Office.Core.MsoAlertIconType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b713010e9612962369edebf3f8d003240b640162" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662314" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoAlertIconType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b713010e9612962369edebf3f8d003240b640162" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662314" /></Metadata><TypeSignature Language="C#" Value="public enum MsoAlertIconType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAlertIconType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAlertIconType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoAlertIconType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает значка, если какие-либо, для отображения с оповещением.</summary>
+    <summary>Указывает значок, который будет отображаться с оповещением.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Значок важности.</summary>
+        <summary>Отображает значок критический.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlertIconInfo">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Значок Info.</summary>
+        <summary>Отображает значок сведений.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlertIconNoIcon">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Отображает значок не с сообщения оповещения.</summary>
+        <summary>Не отображается значок с сообщением оповещения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlertIconQuery">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Значок запросов.</summary>
+        <summary>Отображает значок запроса.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlertIconWarning">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Значок предупреждения.</summary>
+        <summary>Отображает значок предупреждения.</summary>
       </Docs>
     </Member>
   </Members>

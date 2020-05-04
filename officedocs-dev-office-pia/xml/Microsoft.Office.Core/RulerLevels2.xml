@@ -1,13 +1,5 @@
 <Type Name="RulerLevels2" FullName="Microsoft.Office.Core.RulerLevels2">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="39146bf9bc9bf810f130e2d94177956e415fa60e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661667" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RulerLevels2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="39146bf9bc9bf810f130e2d94177956e415fa60e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661667" /></Metadata><TypeSignature Language="C#" Value="public interface RulerLevels2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RulerLevels2 implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.RulerLevels2" />
   <TypeSignature Language="VB.NET" Value="Public Interface RulerLevels2&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,11 +25,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Коллекция всех <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объектов на указанном линейки.</summary>
-    <remarks>
-      <para>Каждый <see cref="T:Microsoft.Office.Core.RulerLevel2" /> первой строки и левый отступ для текста на уровне конкретной структуры которого представляет объект. Эта коллекция всегда содержит пять элементов — один для каждого из уровней структуры недоступны.</para>
-      <para />
-    </remarks>
+    <summary>Коллекция всех <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объектов на указанной линейке.</summary>
+    <remarks><para>Каждый <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объект представляет отступы первой строки и левого края для текста на определенном уровне структуры. Эта коллекция всегда содержит пять элементов (по одному для каждого из доступных уровней структуры).</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -66,10 +56,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,10 +84,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>целое число</b> , указывающее количество элементов в <see cref="T:Microsoft.Office.Core.RulerLevel2" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Возвращает <b>целое</b> число, указывающее количество элементов в <see cref="T:Microsoft.Office.Core.RulerLevel2" /> коллекции. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -129,10 +115,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.RulerLevel2" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.RulerLevel2" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -191,11 +175,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">Номер индекса объекта должно быть возвращено.</param>
-        <summary>Получает элемент <see cref="T:Microsoft.Office.Core.RulerLevel2" /> семейства сайтов.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.RulerLevel2" />
-        </returns>
+        <param name="Index">Номер индекса возвращаемого объекта.</param>
+        <summary>Получает элемент <see cref="T:Microsoft.Office.Core.RulerLevel2" /> коллекции.</summary>
+        <returns><see cref="T:Microsoft.Office.Core.RulerLevel2" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -223,9 +205,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

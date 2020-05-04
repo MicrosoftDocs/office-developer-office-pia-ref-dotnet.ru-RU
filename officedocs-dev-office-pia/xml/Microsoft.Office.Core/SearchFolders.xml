@@ -1,13 +1,5 @@
 <Type Name="SearchFolders" FullName="Microsoft.Office.Core.SearchFolders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7a476b21fef9f00a9963e00ce596a95e24442282" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661703" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SearchFolders : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7a476b21fef9f00a9963e00ce596a95e24442282" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661703" /></Metadata><TypeSignature Language="C#" Value="public interface SearchFolders : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SearchFolders implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SearchFolders" />
   <TypeSignature Language="VB.NET" Value="Public Interface SearchFolders&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,15 +25,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Коллекцию <see cref="T:Microsoft.Office.Core.ScopeFolder" /> объектов, которые определяет, какие папки поиска при <see cref="M:Microsoft.Office.Core.FileSearch.Execute(Microsoft.Office.Core.MsoSortBy,Microsoft.Office.Core.MsoSortOrder,System.Boolean)" /> метод <see cref="T:Microsoft.Office.Core.FileSearch" /> вызывается объект.</summary>
-    <remarks>
-      <para>Использование <see cref="P:Microsoft.Office.Core.FileSearch.SearchFolders" /> свойства с помощью объекта <b>FileSearch</b> для возврата коллекции <b>SearchFolders</b> .</para>
-      <para>Для каждого приложения существует только одна коллекция <b>SearchFolders</b> . Содержимое коллекции остается после завершения выполнения кода, вызывающего его. Следовательно, не важно очистить коллекцию, если не требуется включать папки из предыдущей поиска в поле поиска.</para>
-      <para>Можно использовать <see cref="M:Microsoft.Office.Core.SearchFolders.Add(Microsoft.Office.Core.ScopeFolder)" /> методу коллекции <b>SearchFolders</b> для добавления <b>ScopeFolder</b> объект в коллекцию <b>SearchFolders</b> ; тем не менее, обычно проще использовать <see cref="M:Microsoft.Office.Core.ScopeFolder.AddToSearchFolders" /> метод <b>ScopeFolder</b> , которые вы необходимо добавить, поскольку существует только одна коллекция <b>SearchFolders</b> для всех поисков.</para>
-      <para>
-        <b>SearchFolders</b> семейства сайтов можно рассматривать как дополнение к <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> свойства объекта <b>FileSearch</b> . Одновременно указать папки для поиска и оба используются при выполнении поиска. Тем не менее если необходимо использовать свойство <b>LookIn</b> , вам следует убедиться, что семейство <b>SearchFolders</b> пустой. С другой стороны, если требуется использовать коллекцию <b>SearchFolders</b> , свойства <b>LookIn</b> пути первый элемент коллекции <b>SearchFolders</b> до вызова метода <b>Execute</b> .</para>
-      <para />
-    </remarks>
+    <summary>Коллекция <see cref="T:Microsoft.Office.Core.ScopeFolder" /> объектов, определяющих, в <see cref="M:Microsoft.Office.Core.FileSearch.Execute(Microsoft.Office.Core.MsoSortBy,Microsoft.Office.Core.MsoSortOrder,System.Boolean)" /> каких папках выполняется поиск при вызове <see cref="T:Microsoft.Office.Core.FileSearch" /> метода объекта.</summary>
+    <remarks><para>Используйте <see cref="P:Microsoft.Office.Core.FileSearch.SearchFolders" /> свойство с объектом <b>FileSearch</b> , чтобы возвратить коллекцию <b>SearchFolders</b> .</para> 
+      <para>Для каждого приложения существует только одна коллекция <b>SearchFolders</b> . Содержимое коллекции остается после завершения выполнения кода, который ее вызывает. Поэтому необходимо очистить коллекцию, если вы не хотите включать в Поиск папки из предыдущих поисков.</para> 
+      <para> <b>SearchFolders</b> <see cref="M:Microsoft.Office.Core.ScopeFolder.AddToSearchFolders" /> <b>SearchFolders</b> <b>ScopeFolder</b> <b>ScopeFolder</b> <b>SearchFolders</b> Метод коллекции SearchFolders можно использовать для добавления объекта ScopeFolder в коллекцию SearchFolders, однако, как правило, проще использовать метод ScopeFolder, который вы хотите добавить, так как для всех операций поиска существует только одна коллекция SearchFolders. <see cref="M:Microsoft.Office.Core.SearchFolders.Add(Microsoft.Office.Core.ScopeFolder)" /> </para> 
+      <para>Коллекция <b>SearchFolders</b> может отображаться как приветственное <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> свойство объекта <b>FileSearch</b> . Укажите папки для поиска, которые будут использоваться при выполнении поиска. Тем не менее, если вы хотите использовать свойство <b>Look</b> , необходимо убедиться в том, что коллекция <b>SearchFolders</b> пуста. И наоборот, если вы хотите использовать только коллекцию <b>SearchFolders</b> , присвойте свойству <b>Look</b> путь к первому элементу коллекции <b>SearchFolders</b> перед вызовом метода <b>EXECUTE</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -66,8 +55,8 @@
         <Parameter Name="ScopeFolder" Type="Microsoft.Office.Core.ScopeFolder" />
       </Parameters>
       <Docs>
-        <param name="ScopeFolder">Требуется <see cref="T:Microsoft.Office.Core.ScopeFolder" />. Папка для добавления в поиск.</param>
-        <summary>Добавление папки поиска для поиска файлов.</summary>
+        <param name="ScopeFolder">Обязательный <see cref="T:Microsoft.Office.Core.ScopeFolder" />. Папка, которую необходимо добавить в поиск.</param>
+        <summary>Добавляет папку поиска в поиск файлов.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,7 +86,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -125,7 +114,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>целое число</b> , указывающее количество элементов в указанном семействе сайтов.</summary>
+        <summary>Возвращает <b>целое</b> число, указывающее количество элементов в указанной коллекции.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -156,12 +145,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.SearchFolders.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.SearchFolders.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -222,8 +211,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Требуется <b>целое число</b>. Определяет, какие вложенную папку для возврата.</param>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.ScopeFolder" /> объект, представляющий вложенной папке родительского объекта.</summary>
+        <param name="Index">Обязательный атрибут типа <b>Integer</b>. Определяет, какую подпапку следует возвратить.</param>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.ScopeFolder" /> объект, представляющий вложенную папку родительского объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -251,7 +240,7 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Требуется <b>целое число</b>. Номер индекса тестирования свойство требуется удалить.</param>
+        <param name="Index">Обязательный атрибут типа <b>Integer</b>. Номер индекса удаляемого теста свойства.</param>
         <summary>Удаляет указанный объект из коллекции.</summary>
         <remarks>To be added.</remarks>
       </Docs>

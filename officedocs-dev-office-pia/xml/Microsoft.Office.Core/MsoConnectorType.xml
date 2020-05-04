@@ -1,13 +1,5 @@
 <Type Name="MsoConnectorType" FullName="Microsoft.Office.Core.MsoConnectorType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fd4d305cabf081250b48e0838cacfc74de34bb43" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662207" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoConnectorType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fd4d305cabf081250b48e0838cacfc74de34bb43" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662207" /></Metadata><TypeSignature Language="C#" Value="public enum MsoConnectorType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoConnectorType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoConnectorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoConnectorType" />
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Изогнутые соединителя.</summary>
+        <summary>Криволинейный соединитель.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConnectorElbow">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Соединитель локтя.</summary>
+        <summary>Уступовый разъем.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConnectorStraight">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Соединитель прямой.</summary>
+        <summary>Соединитель линейной линии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoConnectorTypeMixed">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Возвращаемое значение. Указывает сочетание других состояний.</summary>
+        <summary>Только возвращаемое значение; Указывает комбинацию других состояний.</summary>
       </Docs>
     </Member>
   </Members>

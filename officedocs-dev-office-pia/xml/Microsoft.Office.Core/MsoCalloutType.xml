@@ -1,13 +1,5 @@
 <Type Name="MsoCalloutType" FullName="Microsoft.Office.Core.MsoCalloutType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a289999307c2557cc778ef1eb90a75d5b62bb17f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662347" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoCalloutType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a289999307c2557cc778ef1eb90a75d5b62bb17f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662347" /></Metadata><TypeSignature Language="C#" Value="public enum MsoCalloutType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCalloutType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCalloutType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoCalloutType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип линии выноски.</summary>
+    <summary>Задает тип линии выноски.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Состоит из двух отрезков линии выноски. Справа от надписи ограничивающего присоединена строка выноски.</summary>
+        <summary>Линия выноски состоит из двух отрезков линий. Линия выноски присоединяется с правой стороны ограничительной рамки текста.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCalloutMixed">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Возвращаемое значение. Указывает сочетание других состояний.</summary>
+        <summary>Только возвращаемое значение; Указывает комбинацию других состояний.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCalloutOne">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Выноски Single, горизонтальные линии.</summary>
+        <summary>Одинарная горизонтальная линия выноски.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCalloutThree">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Состоит из двух отрезков линии выноски. Линии выноски присоединяется слева от текста, ограничивающий прямоугольник.</summary>
+        <summary>Линия выноски состоит из двух отрезков линий. Линия выноски присоединяется с левой стороны ограничительной рамки текста.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCalloutTwo">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Single, угловые выноски строки.</summary>
+        <summary>Одинарная угловая линия выноски.</summary>
       </Docs>
     </Member>
   </Members>

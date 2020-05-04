@@ -1,13 +1,5 @@
 <Type Name="MsoFilterConjunction" FullName="Microsoft.Office.Core.MsoFilterConjunction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="648c188356213c39218bacac1b27989a36fc67b3" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662539" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFilterConjunction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="648c188356213c39218bacac1b27989a36fc67b3" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662539" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFilterConjunction" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFilterConjunction extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFilterConjunction" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFilterConjunction" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, как условие фильтра относится к других критериев фильтра.</summary>
-    <remarks>
-      <para>Используется свойство <b>совместно</b> объекта <b>ODSOFilters</b> и с помощью метода <b>Add</b> объекта <b>MailMergeFilters</b> .</para>
-      <para />
-    </remarks>
+    <summary>Определяет, как условие фильтра относится к другим условиям фильтра.</summary>
+    <remarks><para>Используется со свойством <b>союз</b> объекта <b>ODSOFilters</b> и методом <b>Add</b> объекта <b>MailMergeFilters</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoFilterConjunctionAnd">
@@ -43,8 +33,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <b>И</b> совместно.</summary>
+        <summary><b>И</b> сочетается.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterConjunctionOr">
@@ -63,8 +52,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <b>Или</b> совместно.</summary>
+        <summary><b>Или</b> сочетании.</summary>
       </Docs>
     </Member>
   </Members>

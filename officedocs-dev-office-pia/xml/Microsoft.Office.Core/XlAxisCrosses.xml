@@ -1,13 +1,5 @@
 <Type Name="XlAxisCrosses" FullName="Microsoft.Office.Core.XlAxisCrosses">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8c4e37615c84ef5266d8fcce20d139667e456640" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662229" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlAxisCrosses" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8c4e37615c84ef5266d8fcce20d139667e456640" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662229" /></Metadata><TypeSignature Language="C#" Value="public enum XlAxisCrosses" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlAxisCrosses extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlAxisCrosses" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlAxisCrosses" />
@@ -28,7 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает точку на оси указанного пересечения другой оси.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает точку на указанной оси, на которую пересекается другая ось.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
       </ReturnValue>
       <MemberValue>-4105</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Microsoft Excel устанавливает точку пересечения оси.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Microsoft Excel задает точку пересечения осей.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlAxisCrossesCustom">
@@ -67,7 +59,7 @@
       </ReturnValue>
       <MemberValue>-4114</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Свойство <b>CrossesAt</b> указывает точку пересечения оси.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Свойство <b>CrossesAt</b> указывает точку пересечения осей.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlAxisCrossesMaximum">
@@ -86,7 +78,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Максимальное значение пересечение оси.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Ось пересекается с максимальным значением.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlAxisCrossesMinimum">
@@ -105,7 +97,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Ось пересечение в минимальное значение.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Ось пересекается с минимальным значением.</summary>
       </Docs>
     </Member>
   </Members>

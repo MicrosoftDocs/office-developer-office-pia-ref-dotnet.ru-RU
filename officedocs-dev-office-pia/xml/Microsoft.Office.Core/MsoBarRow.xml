@@ -1,13 +1,5 @@
 <Type Name="MsoBarRow" FullName="Microsoft.Office.Core.MsoBarRow">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5650527d79739a971c04ba176445fc7f9efd32fe" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662189" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoBarRow" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5650527d79739a971c04ba176445fc7f9efd32fe" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662189" /></Metadata><TypeSignature Language="C#" Value="public enum MsoBarRow" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBarRow extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBarRow" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoBarRow" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, является ли панель команд в первой строке или последняя строка относительно других панели команд в одной области закрепления.</summary>
+    <summary>Указывает, находится ли панель команд в первой строке или последней строке относительно других панелей команд в той же области закрепления.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Первая строка области закрепления.</summary>
+        <summary>Первая строка закрепляемой области.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBarRowLast">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>-1</MemberValue>
       <Docs>
-        <summary>Последняя строка области закрепления.</summary>
+        <summary>Последняя строка закрепляемой области.</summary>
       </Docs>
     </Member>
   </Members>

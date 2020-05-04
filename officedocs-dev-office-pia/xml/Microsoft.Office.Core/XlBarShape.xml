@@ -1,13 +1,5 @@
 <Type Name="XlBarShape" FullName="Microsoft.Office.Core.XlBarShape">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="13aaf124c61a0d82ed94380fc23eac31f977e6f2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662136" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlBarShape" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="13aaf124c61a0d82ed94380fc23eac31f977e6f2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662136" /></Metadata><TypeSignature Language="C#" Value="public enum XlBarShape" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlBarShape extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlBarShape" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlBarShape" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает форму, используемую для объемной линейчатой диаграммы или гистограммы.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает фигуру, используемую с трехмерной линейчатой или гистограммой.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Поле.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Выберите.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlConeToMax">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Конические усечено до значение.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Конус, усекается по значению.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlConeToPoint">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Конические посещать наведите указатель на значение.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Конус, поступающий в точку по значению.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCylinder">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Цилиндрические.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Конфигураци.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPyramidToMax">
@@ -121,7 +113,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Пирамидальной усечено до значение.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Пирамида, усекается по значению.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPyramidToPoint">
@@ -140,7 +132,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Пирамидальной посещать наведите указатель на значение.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Пирамида, поступающие в точку по значению.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="MsoDocInspectorStatus" FullName="Microsoft.Office.Core.MsoDocInspectorStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3b535cbe17d351cc578508b20974e0308f534c53" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662438" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoDocInspectorStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3b535cbe17d351cc578508b20974e0308f534c53" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662438" /></Metadata><TypeSignature Language="C#" Value="public enum MsoDocInspectorStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoDocInspectorStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoDocInspectorStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoDocInspectorStatus" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Представляет результаты выполнения модуля инспектора документов.</summary>
+    <summary>Представляет результаты запуска модуля инспектора документов.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Указывает, что модуль инспектора документов вернуть не проблемы или ошибки.</summary>
+        <summary>Указывает, что модуль инспектора документов возвратил ошибки или ошибки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDocInspectorStatusError">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Указывает, что модуль инспектора документов найти одно или несколько вхождений условия поиска.</summary>
+        <summary>Указывает, что модуль инспектора документов обнаружил одно или несколько вхождений условий поиска.</summary>
       </Docs>
     </Member>
   </Members>

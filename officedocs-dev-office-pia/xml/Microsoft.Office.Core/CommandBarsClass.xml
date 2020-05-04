@@ -1,13 +1,5 @@
 <Type Name="CommandBarsClass" FullName="Microsoft.Office.Core.CommandBarsClass">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4a41b224ea7d14943e0d0ed2e1c84cc920200087" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662567" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class CommandBarsClass : Microsoft.Office.Core.CommandBars, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4a41b224ea7d14943e0d0ed2e1c84cc920200087" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662567" /></Metadata><TypeSignature Language="C#" Value="public class CommandBarsClass : Microsoft.Office.Core.CommandBars, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi CommandBarsClass extends System.Object implements class Microsoft.Office.Core._CommandBars, class Microsoft.Office.Core._CommandBarsEvents_Event, class Microsoft.Office.Core.CommandBars, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBarsClass" />
   <TypeSignature Language="VB.NET" Value="Public Class CommandBarsClass&#xA;Implements CommandBars, IEnumerable" />
@@ -275,8 +267,8 @@
         <Parameter Name="hwnd" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="hwnd">Задает дескриптор окна, в котором для завершения транзакции визуализации.</param>
-        <summary>Фиксирует транзакцию визуализации. Возвращает <b>значение Nothing</b> (пустая ссылка (Nothing в Visual Basic) в C#).</summary>
+        <param name="hwnd">Задает дескриптор для окна, в котором зафиксирована транзакция отрисовки.</param>
+        <summary>Фиксирует транзакцию отображения. Возвращает <b>Nothing</b> (пустая ссылка (Nothing в Visual Basic) в C#).</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1045,9 +1037,7 @@
       <Docs>
         <summary>Получает коллекцию <b>CommandBars</b> . Только для чтения.</summary>
         <remarks>To be added.</remarks>
-        <example>
-          <para>Следующий пример возвращает коллекцию <b>CommandBars</b> из объекта <b>MsoEnvelope</b> в Microsoft Word.</para>
-        </example>
+        <example><para>Следующий пример возвращает коллекцию <b>CommandBars</b> из объекта <b>MsoEnvelope</b> в Microsoft Word.</para></example>
       </Docs>
     </Member>
     <Member MemberName="Parent">

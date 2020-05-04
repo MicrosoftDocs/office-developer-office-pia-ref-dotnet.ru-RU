@@ -1,13 +1,5 @@
 <Type Name="MsoEncoding" FullName="Microsoft.Office.Core.MsoEncoding">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f98e84ce01068becd642050beb03bfbb03117fe3" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661946" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoEncoding" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f98e84ce01068becd642050beb03bfbb03117fe3" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661946" /></Metadata><TypeSignature Language="C#" Value="public enum MsoEncoding" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoEncoding extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoEncoding" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoEncoding" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет документ, кодировка (кодовая страница или набор знаков) для веб-обозревателя для использования при просмотре сохраненный документ.</summary>
+    <summary>Задает кодировку документа (кодовую страницу или набор знаков) для веб-браузера, который будет использоваться для просмотра сохраненного документа пользователем.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>708</MemberValue>
       <Docs>
-        <summary>Арабский ASMO.</summary>
+        <summary>Арабский АСМО.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingArabicAutoDetect">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>51256</MemberValue>
       <Docs>
-        <summary>Веб-браузер автоматически обнаруживает тип кодировка для арабского языка.</summary>
+        <summary>Веб-браузер автоматически обнаруживает тип используемой Арабской кодировки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingArabicTransparentASMO">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>720</MemberValue>
       <Docs>
-        <summary>Прозрачное арабский.</summary>
+        <summary>Прозрачный арабский язык.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingAutoDetect">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>50001</MemberValue>
       <Docs>
-        <summary>Веб-браузер автоматически обнаруживает тип кодировки следует использовать.</summary>
+        <summary>Веб-браузер автоматически определяет тип используемой кодировки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingBaltic">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>1257</MemberValue>
       <Docs>
-        <summary>Балтийская.</summary>
+        <summary>Балтийский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingCentralEuropean">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>1251</MemberValue>
       <Docs>
-        <summary>(Кириллица).</summary>
+        <summary>Кириллицы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingCyrillicAutoDetect">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>51251</MemberValue>
       <Docs>
-        <summary>Веб-браузер автоматически обнаруживает тип кириллица кодировки для использования.</summary>
+        <summary>Веб-браузер автоматически обнаруживает тип используемой кодировки кириллицы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICArabic">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>20420</MemberValue>
       <Docs>
-        <summary>Арабский (EBCDIC) кода обмена расширенного двоичный десятичного.</summary>
+        <summary>Расширенный двоичный код обмена десятичными кодировками (EBCDIC) Арабский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICDenmarkNorway">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>20277</MemberValue>
       <Docs>
-        <summary>EBCDIC, как используется в Дания и Норвегия.</summary>
+        <summary>EBCDIC в качестве использования в Дании и Норвегии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICFinlandSweden">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>20278</MemberValue>
       <Docs>
-        <summary>EBCDIC, как используется в Финляндия и Швеция.</summary>
+        <summary>EBCDIC, используемая в Финляндии и Швеции.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICFrance">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>20297</MemberValue>
       <Docs>
-        <summary>EBCDIC, используемый во Франции.</summary>
+        <summary>EBCDIC, используемая во Франции.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICGermany">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>20273</MemberValue>
       <Docs>
-        <summary>EBCDIC, используемый в Германии.</summary>
+        <summary>EBCDIC, используемая в Германии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICGreek">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>20423</MemberValue>
       <Docs>
-        <summary>EBCDIC как греческого языка.</summary>
+        <summary>EBCDIC, используемая на греческом языке.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICGreekModern">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>875</MemberValue>
       <Docs>
-        <summary>EBCDIC, как используется в языке греческий (современный).</summary>
+        <summary>EBCDIC, используемая на современном греческом языке.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICHebrew">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>20424</MemberValue>
       <Docs>
-        <summary>EBCDIC, как используется в иврита.</summary>
+        <summary>EBCDIC, используемая на иврите.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICIcelandic">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>20871</MemberValue>
       <Docs>
-        <summary>EBCDIC, как используется в Исландия.</summary>
+        <summary>EBCDIC, используемая в Исландии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICInternational">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>500</MemberValue>
       <Docs>
-        <summary>Международный EBCDIC.</summary>
+        <summary>Международная EBCDIC.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICItaly">
@@ -401,7 +393,7 @@
       </ReturnValue>
       <MemberValue>20280</MemberValue>
       <Docs>
-        <summary>EBCDIC, используемый в Италии.</summary>
+        <summary>EBCDIC как используется в Италии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICJapaneseKatakanaExtended">
@@ -420,7 +412,7 @@
       </ReturnValue>
       <MemberValue>20290</MemberValue>
       <Docs>
-        <summary>EBCDIC, как использовать совместно с Японская (расширенная) катакана.</summary>
+        <summary>EBCDIC как используется с японской азбукой катакана (расширенная).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICJapaneseKatakanaExtendedAndJapanese">
@@ -439,7 +431,7 @@
       </ReturnValue>
       <MemberValue>50930</MemberValue>
       <Docs>
-        <summary>EBCDIC, как использовать совместно с Японская (расширенная) катакана и японский языки.</summary>
+        <summary>EBCDIC как используется с японской азбукой катакана (расширенная) и японская.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICJapaneseLatinExtendedAndJapanese">
@@ -458,7 +450,7 @@
       </ReturnValue>
       <MemberValue>50939</MemberValue>
       <Docs>
-        <summary>EBCDIC, как использовать совместно с японского Латинская (расширенный) и японский.</summary>
+        <summary>EBCDIC как используется с японской Латинской (расширенной) и японской.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICKoreanExtended">
@@ -477,7 +469,7 @@
       </ReturnValue>
       <MemberValue>20833</MemberValue>
       <Docs>
-        <summary>EBCDIC, как использовать совместно с Корейская (расширенная).</summary>
+        <summary>EBCDIC как используется с корейским (расширенная версия).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICKoreanExtendedAndKorean">
@@ -496,7 +488,7 @@
       </ReturnValue>
       <MemberValue>50933</MemberValue>
       <Docs>
-        <summary>EBCDIC, как использовать совместно с Корейская (расширенная) и корейского языка.</summary>
+        <summary>EBCDIC как используется с корейским (расширенным) и корейским.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICLatinAmericaSpain">
@@ -515,7 +507,7 @@
       </ReturnValue>
       <MemberValue>20284</MemberValue>
       <Docs>
-        <summary>EBCDIC, как используется в Латинская Америка и Испании.</summary>
+        <summary>EBCDIC как используется в Латинской Америке и Испании.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICMultilingualROECELatin2">
@@ -534,7 +526,7 @@
       </ReturnValue>
       <MemberValue>870</MemberValue>
       <Docs>
-        <summary>ROECE EBCDIC многоязычных (латиница 2).</summary>
+        <summary>Многоязыковая РОЕЦЕ EBCDIC (латиница 2).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICRussian">
@@ -553,7 +545,7 @@
       </ReturnValue>
       <MemberValue>20880</MemberValue>
       <Docs>
-        <summary>EBCDIC, как использовать совместно с русский.</summary>
+        <summary>EBCDIC, используемая в русском языке.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICSerbianBulgarian">
@@ -572,7 +564,7 @@
       </ReturnValue>
       <MemberValue>21025</MemberValue>
       <Docs>
-        <summary>EBCDIC, как использовать совместно с Сербский и болгарского.</summary>
+        <summary>EBCDIC, используемая с Сербский и болгарской.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICSimplifiedChineseExtendedAndSimplifiedChinese">
@@ -591,7 +583,7 @@
       </ReturnValue>
       <MemberValue>50935</MemberValue>
       <Docs>
-        <summary>EBCDIC, как использовать совместно с упрощенный (расширенный) и упрощенный китайский язык.</summary>
+        <summary>EBCDIC в качестве упрощенного китайского (расширенного) и упрощенного китайского языка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICThai">
@@ -610,7 +602,7 @@
       </ReturnValue>
       <MemberValue>20838</MemberValue>
       <Docs>
-        <summary>EBCDIC, как использовать совместно с тайский.</summary>
+        <summary>EBCDIC используется с тайскими языками.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICTurkish">
@@ -629,7 +621,7 @@
       </ReturnValue>
       <MemberValue>20905</MemberValue>
       <Docs>
-        <summary>EBCDIC, как использовать совместно с турецкого языков.</summary>
+        <summary>EBCDIC, используемая для турецкого языка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICTurkishLatin5">
@@ -648,7 +640,7 @@
       </ReturnValue>
       <MemberValue>1026</MemberValue>
       <Docs>
-        <summary>EBCDIC, как использовать совместно с турецкая (латиница 5).</summary>
+        <summary>EBCDIC как используется со Турецкий (латиница 5).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICUnitedKingdom">
@@ -667,7 +659,7 @@
       </ReturnValue>
       <MemberValue>20285</MemberValue>
       <Docs>
-        <summary>EBCDIC, используемый в Великобритании.</summary>
+        <summary>EBCDIC, используемая в Соединенном Королевстве.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICUSCanada">
@@ -686,7 +678,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>EBCDIC, как используется в США и Канада.</summary>
+        <summary>EBCDIC, используемая в США и Канаде.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICUSCanadaAndJapanese">
@@ -705,7 +697,7 @@
       </ReturnValue>
       <MemberValue>50931</MemberValue>
       <Docs>
-        <summary>EBCDIC, используемый в США и Канада и японского языка.</summary>
+        <summary>EBCDIC, используемая в США и Канаде, а также на японском языке.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICUSCanadaAndTraditionalChinese">
@@ -724,7 +716,7 @@
       </ReturnValue>
       <MemberValue>50937</MemberValue>
       <Docs>
-        <summary>EBCDIC, используемый в США и Канада и с китайский, традиционное письмо.</summary>
+        <summary>EBCDIC как используется в США и Канаде, а также на традиционном китайском языке.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEUCChineseSimplifiedChinese">
@@ -743,7 +735,7 @@
       </ReturnValue>
       <MemberValue>51936</MemberValue>
       <Docs>
-        <summary>Расширенные Unix кода (EUC) при использовании с китайский и китайский, упрощенное письмо.</summary>
+        <summary>Расширенный код UNIX (EUC), используемый для китайского и упрощенного китайского языка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEUCJapanese">
@@ -762,7 +754,7 @@
       </ReturnValue>
       <MemberValue>51932</MemberValue>
       <Docs>
-        <summary>EUC как используется японского языка.</summary>
+        <summary>EUC используется с японским языком.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEUCKorean">
@@ -781,7 +773,7 @@
       </ReturnValue>
       <MemberValue>51949</MemberValue>
       <Docs>
-        <summary>EUC, как использовать совместно с корейского языка.</summary>
+        <summary>EUC используется для корейского языка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEUCTaiwaneseTraditionalChinese">
@@ -800,7 +792,7 @@
       </ReturnValue>
       <MemberValue>51950</MemberValue>
       <Docs>
-        <summary>EUC, как использовать совместно с Тайваня и китайский, традиционное письмо.</summary>
+        <summary>EUC используется с Таиванесе и традиционным китайским письмом.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEuropa3">
@@ -819,7 +811,7 @@
       </ReturnValue>
       <MemberValue>29001</MemberValue>
       <Docs>
-        <summary>Europa.</summary>
+        <summary>Еуропа.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingExtAlphaLowercase">
@@ -838,7 +830,7 @@
       </ReturnValue>
       <MemberValue>21027</MemberValue>
       <Docs>
-        <summary>Расширенные строчная буква.</summary>
+        <summary>Расширенный буквенно-нижний регистр.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingGreek">
@@ -876,7 +868,7 @@
       </ReturnValue>
       <MemberValue>51253</MemberValue>
       <Docs>
-        <summary>Веб-браузер автоматически обнаруживает тип Греческая кодировка.</summary>
+        <summary>Веб-браузер автоматически обнаруживает тип используемой греческой кодировки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingHebrew">
@@ -914,7 +906,7 @@
       </ReturnValue>
       <MemberValue>52936</MemberValue>
       <Docs>
-        <summary>Китайский упрощенный (HZGB).</summary>
+        <summary>Китайский (упрощенное письмо) (ХЗГБ).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingIA5German">
@@ -933,7 +925,7 @@
       </ReturnValue>
       <MemberValue>20106</MemberValue>
       <Docs>
-        <summary>Немецкий (международный алфавит нет. 5 или IA5).</summary>
+        <summary>Немецкий (Международный алфавит No. 5 или IA5).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingIA5IRV">
@@ -952,7 +944,7 @@
       </ReturnValue>
       <MemberValue>20105</MemberValue>
       <Docs>
-        <summary>IA5 международный Справочник версии (IRV).</summary>
+        <summary>IA5, Международная версия справочника (ИРВ).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingIA5Norwegian">
@@ -971,7 +963,7 @@
       </ReturnValue>
       <MemberValue>20108</MemberValue>
       <Docs>
-        <summary>IA5, как использовать совместно с норвежский.</summary>
+        <summary>IA5 используется с норвежским.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingIA5Swedish">
@@ -990,7 +982,7 @@
       </ReturnValue>
       <MemberValue>20107</MemberValue>
       <Docs>
-        <summary>IA5, как использовать совместно с шведский.</summary>
+        <summary>IA5 как используется с шведским.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIAssamese">
@@ -1009,7 +1001,7 @@
       </ReturnValue>
       <MemberValue>57006</MemberValue>
       <Docs>
-        <summary>Код сценария Территория в Индийском для сведения Interchange (ISCII) при использовании с ассамская.</summary>
+        <summary>Код индийского скрипта для обмена данными (ISCII), используемый с Ассамским доступом.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIBengali">
@@ -1028,7 +1020,7 @@
       </ReturnValue>
       <MemberValue>57003</MemberValue>
       <Docs>
-        <summary>ISCII, как использовать совместно с бенгальский.</summary>
+        <summary>ISCII — используется с бенгальский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIDevanagari">
@@ -1047,7 +1039,7 @@
       </ReturnValue>
       <MemberValue>57002</MemberValue>
       <Docs>
-        <summary>ISCII, как использовать совместно с деванагари.</summary>
+        <summary>ISCII — используется с деванагари.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIGujarati">
@@ -1066,7 +1058,7 @@
       </ReturnValue>
       <MemberValue>57010</MemberValue>
       <Docs>
-        <summary>ISCII, как использовать совместно с гуджарати.</summary>
+        <summary>ISCII — используется с гуджарати.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIKannada">
@@ -1085,7 +1077,7 @@
       </ReturnValue>
       <MemberValue>57008</MemberValue>
       <Docs>
-        <summary>ISCII, как использовать совместно с каннада.</summary>
+        <summary>ISCII — используется с каннада.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIMalayalam">
@@ -1104,7 +1096,7 @@
       </ReturnValue>
       <MemberValue>57009</MemberValue>
       <Docs>
-        <summary>ISCII, как использовать совместно с малаялам.</summary>
+        <summary>ISCII — используется с малаялам.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIOriya">
@@ -1123,7 +1115,7 @@
       </ReturnValue>
       <MemberValue>57007</MemberValue>
       <Docs>
-        <summary>ISCII, как использовать совместно с ория.</summary>
+        <summary>ISCII — используется с Ория.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIPunjabi">
@@ -1142,7 +1134,7 @@
       </ReturnValue>
       <MemberValue>57011</MemberValue>
       <Docs>
-        <summary>ISCII, как использовать совместно с панджаби.</summary>
+        <summary>ISCII — используется с панджаби.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIITamil">
@@ -1161,7 +1153,7 @@
       </ReturnValue>
       <MemberValue>57004</MemberValue>
       <Docs>
-        <summary>ISCII, как использовать совместно с тамильский.</summary>
+        <summary>ISCII — используется для тамильского языка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIITelugu">
@@ -1180,7 +1172,7 @@
       </ReturnValue>
       <MemberValue>57005</MemberValue>
       <Docs>
-        <summary>ISCII, как использовать совместно с телугу.</summary>
+        <summary>ISCII — используется с телугу.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO2022CNSimplifiedChinese">
@@ -1199,7 +1191,7 @@
       </ReturnValue>
       <MemberValue>50229</MemberValue>
       <Docs>
-        <summary>Используется с упрощенное кодировка ISO-2022-CN.</summary>
+        <summary>Кодировка ISO 2022-CN, используемая для упрощенного китайского языка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO2022CNTraditionalChinese">
@@ -1218,7 +1210,7 @@
       </ReturnValue>
       <MemberValue>50227</MemberValue>
       <Docs>
-        <summary>Кодировка ISO-2022-CN используется с китайский, традиционное письмо.</summary>
+        <summary>Кодировка ISO 2022-CN, используемая для традиционного китайского языка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO2022JPJISX02011989">
@@ -1237,7 +1229,7 @@
       </ReturnValue>
       <MemberValue>50222</MemberValue>
       <Docs>
-        <summary>ISO-2022-JP</summary>
+        <summary>ISO 2022-JP</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO2022JPJISX02021984">
@@ -1256,7 +1248,7 @@
       </ReturnValue>
       <MemberValue>50221</MemberValue>
       <Docs>
-        <summary>ISO-2022-JP</summary>
+        <summary>ISO 2022-JP</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO2022JPNoHalfwidthKatakana">
@@ -1275,7 +1267,7 @@
       </ReturnValue>
       <MemberValue>50220</MemberValue>
       <Docs>
-        <summary>ISO-2022-JP с не катаканы половинной ширины.</summary>
+        <summary>ISO 2022-JP без катаканы половинной ширины.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO2022KR">
@@ -1294,7 +1286,7 @@
       </ReturnValue>
       <MemberValue>50225</MemberValue>
       <Docs>
-        <summary>ISO-2022-KR.</summary>
+        <summary>ISO 2022-KR.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO6937NonSpacingAccent">
@@ -1313,7 +1305,7 @@
       </ReturnValue>
       <MemberValue>20269</MemberValue>
       <Docs>
-        <summary>ISO 6937-диакритические знаки.</summary>
+        <summary>Несамостоятельный акцент на стандарте ISO 6937.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO885915Latin9">
@@ -1332,7 +1324,7 @@
       </ReturnValue>
       <MemberValue>28605</MemberValue>
       <Docs>
-        <summary>ISO 8859-15 с латинский 9.</summary>
+        <summary>ISO 8859-15 с Латинской 9.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88591Latin1">
@@ -1370,7 +1362,7 @@
       </ReturnValue>
       <MemberValue>28592</MemberValue>
       <Docs>
-        <summary>Центральноевропейская ISO 8859-2.</summary>
+        <summary>ISO 8859-2 Центральная Европа.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88593Latin3">
@@ -1408,7 +1400,7 @@
       </ReturnValue>
       <MemberValue>28594</MemberValue>
       <Docs>
-        <summary>Балтийская ISO 8859-4.</summary>
+        <summary>ISO 8859-4 Балтийская.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88595Cyrillic">
@@ -1427,7 +1419,7 @@
       </ReturnValue>
       <MemberValue>28595</MemberValue>
       <Docs>
-        <summary>Кириллица ISO 8859-5.</summary>
+        <summary>ISO 8859-5 кириллица.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88596Arabic">
@@ -1446,7 +1438,7 @@
       </ReturnValue>
       <MemberValue>28596</MemberValue>
       <Docs>
-        <summary>Арабский ISA 8859-6.</summary>
+        <summary>ISA 8859-6 Арабская.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88597Greek">
@@ -1465,7 +1457,7 @@
       </ReturnValue>
       <MemberValue>28597</MemberValue>
       <Docs>
-        <summary>Греческий ISO 8859-7.</summary>
+        <summary>ISO 8859-7 греческий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88598Hebrew">
@@ -1503,7 +1495,7 @@
       </ReturnValue>
       <MemberValue>38598</MemberValue>
       <Docs>
-        <summary>ISO 8859-8 иврит (логическое).</summary>
+        <summary>ISO 8859-8 иврит (логический).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88599Turkish">
@@ -1522,7 +1514,7 @@
       </ReturnValue>
       <MemberValue>28599</MemberValue>
       <Docs>
-        <summary>Турецкий ISO 8859-9.</summary>
+        <summary>ISO 8859-9 турецкий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingJapaneseAutoDetect">
@@ -1541,7 +1533,7 @@
       </ReturnValue>
       <MemberValue>50932</MemberValue>
       <Docs>
-        <summary>Веб-браузер автоматически обнаруживает тип кодировка для японского языка.</summary>
+        <summary>Веб-браузер автоматически обнаруживает тип используемой японской кодировки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingJapaneseShiftJIS">
@@ -1579,7 +1571,7 @@
       </ReturnValue>
       <MemberValue>20866</MemberValue>
       <Docs>
-        <summary>KOI8-R.</summary>
+        <summary>KOI8 – R.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingKOI8U">
@@ -1598,7 +1590,7 @@
       </ReturnValue>
       <MemberValue>21866</MemberValue>
       <Docs>
-        <summary>K0I8 U.</summary>
+        <summary>K0I8 — U.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingKorean">
@@ -1636,7 +1628,7 @@
       </ReturnValue>
       <MemberValue>50949</MemberValue>
       <Docs>
-        <summary>Веб-браузер автоматически обнаруживает тип кодировка для корейского языка.</summary>
+        <summary>Веб-браузер автоматически обнаруживает тип используемого корейского кодирования.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingKoreanJohab">
@@ -1655,7 +1647,7 @@
       </ReturnValue>
       <MemberValue>1361</MemberValue>
       <Docs>
-        <summary>Корейская (джохаб).</summary>
+        <summary>Корейский (Жохаб).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacArabic">
@@ -1674,7 +1666,7 @@
       </ReturnValue>
       <MemberValue>10004</MemberValue>
       <Docs>
-        <summary>Арабский Macintosh.</summary>
+        <summary>Арабский для Macintosh.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacCroatia">
@@ -1693,7 +1685,7 @@
       </ReturnValue>
       <MemberValue>10082</MemberValue>
       <Docs>
-        <summary>Хорватский Macintosh.</summary>
+        <summary>Для Macintosh хорватский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacCyrillic">
@@ -1712,7 +1704,7 @@
       </ReturnValue>
       <MemberValue>10007</MemberValue>
       <Docs>
-        <summary>Кириллица Macintosh.</summary>
+        <summary>Для Macintosh кириллица.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacGreek1">
@@ -1731,7 +1723,7 @@
       </ReturnValue>
       <MemberValue>10006</MemberValue>
       <Docs>
-        <summary>Греческий Macintosh.</summary>
+        <summary>Macintosh греческий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacHebrew">
@@ -1750,7 +1742,7 @@
       </ReturnValue>
       <MemberValue>10005</MemberValue>
       <Docs>
-        <summary>Иврит Macintosh.</summary>
+        <summary>Иврит для Macintosh.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacIcelandic">
@@ -1769,7 +1761,7 @@
       </ReturnValue>
       <MemberValue>10079</MemberValue>
       <Docs>
-        <summary>Исландский Macintosh.</summary>
+        <summary>"Макинтош Исландский".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacJapanese">
@@ -1788,7 +1780,7 @@
       </ReturnValue>
       <MemberValue>10001</MemberValue>
       <Docs>
-        <summary>Японский Macintosh.</summary>
+        <summary>Японская версия для Macintosh.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacKorean">
@@ -1807,7 +1799,7 @@
       </ReturnValue>
       <MemberValue>10003</MemberValue>
       <Docs>
-        <summary>Корейский Macintosh.</summary>
+        <summary>Корейский (для Macintosh).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacLatin2">
@@ -1826,7 +1818,7 @@
       </ReturnValue>
       <MemberValue>10029</MemberValue>
       <Docs>
-        <summary>Macintosh латиница 2.</summary>
+        <summary>Латиница 2.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacRoman">
@@ -1864,7 +1856,7 @@
       </ReturnValue>
       <MemberValue>10010</MemberValue>
       <Docs>
-        <summary>Румынский Macintosh.</summary>
+        <summary>Macintosh Румынский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacSimplifiedChineseGB2312">
@@ -1883,7 +1875,7 @@
       </ReturnValue>
       <MemberValue>10008</MemberValue>
       <Docs>
-        <summary>Macintosh (упрощенное письмо) (GB 2312).</summary>
+        <summary>Китайская упрощенная (GB 2312).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacTraditionalChineseBig5">
@@ -1902,7 +1894,7 @@
       </ReturnValue>
       <MemberValue>10002</MemberValue>
       <Docs>
-        <summary>Китайский традиционный Macintosh (Big 5).</summary>
+        <summary>Китайский (традиционное письмо) (большой 5).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacTurkish">
@@ -1921,7 +1913,7 @@
       </ReturnValue>
       <MemberValue>10081</MemberValue>
       <Docs>
-        <summary>Турецкий Macintosh.</summary>
+        <summary>Macintosh турецкий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacUkraine">
@@ -1940,7 +1932,7 @@
       </ReturnValue>
       <MemberValue>10017</MemberValue>
       <Docs>
-        <summary>Украинский Macintosh.</summary>
+        <summary>Macintosh украинский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMArabic">
@@ -1959,7 +1951,7 @@
       </ReturnValue>
       <MemberValue>864</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с арабского языка.</summary>
+        <summary>ИВТ, используемые с арабским языком.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMBaltic">
@@ -1978,7 +1970,7 @@
       </ReturnValue>
       <MemberValue>775</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с балтийская.</summary>
+        <summary>ПВТ как используется с Балтийский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMCanadianFrench">
@@ -1997,7 +1989,7 @@
       </ReturnValue>
       <MemberValue>863</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с французский (Канада).</summary>
+        <summary>OEM-компания, используемая с канадским французским.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMCyrillic">
@@ -2016,7 +2008,7 @@
       </ReturnValue>
       <MemberValue>855</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с (кириллица).</summary>
+        <summary>ИВТ, использующие кириллицу.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMCyrillicII">
@@ -2035,7 +2027,7 @@
       </ReturnValue>
       <MemberValue>866</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с II (кириллица).</summary>
+        <summary>ИВТ, использующие кириллицу II.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMGreek437G">
@@ -2054,7 +2046,7 @@
       </ReturnValue>
       <MemberValue>737</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с греческие 437G.</summary>
+        <summary>OEM-компания, используемая в греческом 437G.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMHebrew">
@@ -2073,7 +2065,7 @@
       </ReturnValue>
       <MemberValue>862</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с иврита.</summary>
+        <summary>OEM, используемая для иврита.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMIcelandic">
@@ -2092,7 +2084,7 @@
       </ReturnValue>
       <MemberValue>861</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с Исландский.</summary>
+        <summary>ПВТ в качестве исландского.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMModernGreek">
@@ -2111,7 +2103,7 @@
       </ReturnValue>
       <MemberValue>869</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с греческий (современный).</summary>
+        <summary>ОЕМ-версия, используемая с современным греческий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMMultilingualLatinI">
@@ -2130,7 +2122,7 @@
       </ReturnValue>
       <MemberValue>850</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с многоязычными Latin I.</summary>
+        <summary>OEM-версия, используемая с многоязычной Латинской Латинской I.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMMultilingualLatinII">
@@ -2149,7 +2141,7 @@
       </ReturnValue>
       <MemberValue>852</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с многоязычными латиница II.</summary>
+        <summary>OEM-версия, используемая с многоязычной Латинской Латинской Латинской II.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMNordic">
@@ -2168,7 +2160,7 @@
       </ReturnValue>
       <MemberValue>865</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с Скандинавские языки.</summary>
+        <summary>OEM-версия, используемая с скандинавскими языками.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMPortuguese">
@@ -2187,7 +2179,7 @@
       </ReturnValue>
       <MemberValue>860</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с португальский.</summary>
+        <summary>OEM-версия, используемая с использованием португальского языка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMTurkish">
@@ -2206,7 +2198,7 @@
       </ReturnValue>
       <MemberValue>857</MemberValue>
       <Docs>
-        <summary>OEM, как использовать совместно с турецкого языков.</summary>
+        <summary>OEM, используемая в турецком языке.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMUnitedStates">
@@ -2225,7 +2217,7 @@
       </ReturnValue>
       <MemberValue>437</MemberValue>
       <Docs>
-        <summary>OEM, как используется в США.</summary>
+        <summary>OEM-компания, используемая в США.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingSimplifiedChineseAutoDetect">
@@ -2244,7 +2236,7 @@
       </ReturnValue>
       <MemberValue>50936</MemberValue>
       <Docs>
-        <summary>Веб-браузер автоматически обнаруживает тип упрощенное кодирования для использования.</summary>
+        <summary>Веб-браузер автоматически обнаруживает тип кодировки упрощенного китайского письма, который необходимо использовать.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingSimplifiedChineseGB18030">
@@ -2263,7 +2255,7 @@
       </ReturnValue>
       <MemberValue>54936</MemberValue>
       <Docs>
-        <summary>Китайская упрощенная GB 18030.</summary>
+        <summary>Китайский (упрощенное письмо) 18030.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingSimplifiedChineseGBK">
@@ -2282,7 +2274,7 @@
       </ReturnValue>
       <MemberValue>936</MemberValue>
       <Docs>
-        <summary>Китайская упрощенная GBK.</summary>
+        <summary>Упрощенный китайский ГБК.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingT61">
@@ -2339,7 +2331,7 @@
       </ReturnValue>
       <MemberValue>20002</MemberValue>
       <Docs>
-        <summary>Тайвань Eten.</summary>
+        <summary>Тайваньский етен.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTaiwanIBM5550">
@@ -2396,7 +2388,7 @@
       </ReturnValue>
       <MemberValue>20004</MemberValue>
       <Docs>
-        <summary>Тайвань телетекста.</summary>
+        <summary>Тайваньский телетекст.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTaiwanWang">
@@ -2415,7 +2407,7 @@
       </ReturnValue>
       <MemberValue>20005</MemberValue>
       <Docs>
-        <summary>Тайвань Wang.</summary>
+        <summary>Тайваньский Вонг.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingThai">
@@ -2453,7 +2445,7 @@
       </ReturnValue>
       <MemberValue>50950</MemberValue>
       <Docs>
-        <summary>Веб-браузер автоматически обнаруживает тип китайский, традиционное письмо кодирования для использования.</summary>
+        <summary>Веб-браузер автоматически обнаруживает тип используемого традиционного китайского кодирования.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTraditionalChineseBig5">
@@ -2472,7 +2464,7 @@
       </ReturnValue>
       <MemberValue>950</MemberValue>
       <Docs>
-        <summary>Китайский, традиционное письмо Big 5.</summary>
+        <summary>Традиционное письмо с большим объемом 5.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTurkish">
@@ -2510,7 +2502,7 @@
       </ReturnValue>
       <MemberValue>1201</MemberValue>
       <Docs>
-        <summary>Обратный порядок байтов Юникод.</summary>
+        <summary>Юникод Big endian.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingUnicodeLittleEndian">
@@ -2529,7 +2521,7 @@
       </ReturnValue>
       <MemberValue>1200</MemberValue>
       <Docs>
-        <summary>Прямой Юникод.</summary>
+        <summary>Юникод с прямым порядком байтов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingUSASCII">
@@ -2548,7 +2540,7 @@
       </ReturnValue>
       <MemberValue>20127</MemberValue>
       <Docs>
-        <summary>США ASCII.</summary>
+        <summary>ASCII США.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingUTF7">
@@ -2567,7 +2559,7 @@
       </ReturnValue>
       <MemberValue>65000</MemberValue>
       <Docs>
-        <summary>Кодировка UTF-7.</summary>
+        <summary>Кодировка UTF – 7.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingUTF8">
@@ -2586,7 +2578,7 @@
       </ReturnValue>
       <MemberValue>65001</MemberValue>
       <Docs>
-        <summary>Кодировка UTF-8.</summary>
+        <summary>Кодировка UTF – 8.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingVietnamese">

@@ -1,13 +1,5 @@
 <Type Name="MsoArrowheadStyle" FullName="Microsoft.Office.Core.MsoArrowheadStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="685a90de1312d53a19e528458df5463d448ffc1e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662178" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoArrowheadStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="685a90de1312d53a19e528458df5463d448ffc1e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662178" /></Metadata><TypeSignature Language="C#" Value="public enum MsoArrowheadStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoArrowheadStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoArrowheadStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoArrowheadStyle" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает стиль стрелки в конце строки.</summary>
+    <summary>Задает стиль наконечника в конце строки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Ромб форме.</summary>
+        <summary>Ромб в форме ромба.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadNone">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Не стрелки.</summary>
+        <summary>Без наконечника.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadOpen">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Открыть.</summary>
+        <summary>Окно.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadOval">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Овальная.</summary>
+        <summary>Овал в форме.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadStealth">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Stealth форме.</summary>
+        <summary>Скрытой формы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadStyleMixed">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Возвращаемое значение. Указывает сочетание других состояний.</summary>
+        <summary>Только возвращаемое значение; Указывает комбинацию других состояний.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadTriangle">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Трехсторонняя.</summary>
+        <summary>Сделка.</summary>
       </Docs>
     </Member>
   </Members>

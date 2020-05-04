@@ -1,13 +1,5 @@
 <Type Name="CustomTaskPaneEvents" FullName="Microsoft.Office.Core.CustomTaskPaneEvents">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b85a132bd4116ba717c093a82f45bb33622c43c0" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662253" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CustomTaskPaneEvents" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b85a132bd4116ba717c093a82f45bb33622c43c0" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662253" /></Metadata><TypeSignature Language="C#" Value="public interface CustomTaskPaneEvents" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomTaskPaneEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomTaskPaneEvents" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomTaskPaneEvents" />
@@ -53,8 +45,8 @@
         <Parameter Name="CustomTaskPaneInst" Type="Microsoft.Office.Core.CustomTaskPane" />
       </Parameters>
       <Docs>
-        <param name="CustomTaskPaneInst">Активных настраиваемой области задач.</param>
-        <summary>Происходит, когда пользователь изменяет закрепления положение active настраиваемой области задач.</summary>
+        <param name="CustomTaskPaneInst">Активная настраиваемая область задач.</param>
+        <summary>Происходит, когда пользователь изменяет положение стыковки активной настраиваемой области задач.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,8 +73,8 @@
         <Parameter Name="CustomTaskPaneInst" Type="Microsoft.Office.Core.CustomTaskPane" />
       </Parameters>
       <Docs>
-        <param name="CustomTaskPaneInst">Область активных задач.</param>
-        <summary>Происходит, когда пользователь изменяет видимости настраиваемой области задач.</summary>
+        <param name="CustomTaskPaneInst">Активная область задач.</param>
+        <summary>Происходит, когда пользователь изменяет видимость настраиваемой области задач.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="_CustomTaskPane" FullName="Microsoft.Office.Core._CustomTaskPane">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="54421a9151e347dcd5f463af33539b23e21495a1" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662650" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CustomTaskPane" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="54421a9151e347dcd5f463af33539b23e21495a1" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662650" /></Metadata><TypeSignature Language="C#" Value="public interface _CustomTaskPane" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomTaskPane" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomTaskPane" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CustomTaskPane" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Представляет настраиваемую область задач в приложении контейнера.</summary>
-    <remarks>
-      <para>
-        <b>Примечание</b>: можно создавать настраиваемые области задач на любом языке, который поддерживает COM и позволяет создавать файлы библиотеки (DLL). Например Microsoft Visual Basic 6.0®, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET и Microsoft Visual C#®. Тем не менее Microsoft Visual Basic для приложений (VBA) не поддерживает создание настраиваемых областей задач.</para>
-      <para />
-    </remarks>
+    <remarks><para>
+        <b>Примечание</b>: вы можете создавать настраиваемые области задач на любом языке, поддерживающем COM, и позволяет создавать файлы динамической библиотеки (DLL). Например, Microsoft Visual Basic® 6,0, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET и Microsoft Visual C#®. Тем не менее, Microsoft Visual Basic для приложений (VBA) не поддерживает создание настраиваемых областей задач.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -57,10 +47,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> ведущего приложения. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> ведущего приложения. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -87,14 +75,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает элемент управления Microsoft ActiveX®, отображаемый в рамке пользовательской панели задач. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
-        <remarks>
-          <para>Это свойство имеет значение один раз при его создании.</para>
-          <para />
-        </remarks>
+        <summary>Получает экземпляр элемента управления® Microsoft ActiveX, отображаемый в рамке настраиваемой области задач. Только для чтения.</summary>
+        <value><b>Object</b></value>
+        <remarks><para>Это свойство задается один раз при создании.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -118,7 +102,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет active настраиваемой области задач.</summary>
+        <summary>Удаляет активную настраиваемую область задач.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -148,14 +132,10 @@
         <ReturnType>Microsoft.Office.Core.MsoCTPDockPosition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение перечисления, указывающее положение закрепленного <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoCTPDockPosition" />
-        </value>
-        <remarks>
-          <para>Параметры по умолчанию для <see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionRight" /> для языков для письма справа налево и <see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionLeft" /> для языков toRight слева.</para>
-          <para />
-        </remarks>
+        <summary>Получает или задает перечислимое значение, задающее закрепление позиции <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoCTPDockPosition" /></value>
+        <remarks><para><see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionRight" /> По умолчанию для языков с письмом справа налево <see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionLeft" /> и языков торигхт.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DockPositionRestrict">
@@ -184,10 +164,8 @@
         <ReturnType>Microsoft.Office.Core.MsoCTPDockPositionRestrict</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение перечисления, определяющее ограничение на ориентации <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoCTPDockPositionRestrict" />
-        </value>
+        <summary>Получает или задает перечислимое значение, определяющее ограничение ориентации <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoCTPDockPositionRestrict" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -217,10 +195,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает высоту <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта (в точках). Для чтения и записи.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает или задает высоту <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта (в пунктах). Для чтения и записи.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -248,13 +224,9 @@
       </ReturnValue>
       <Docs>
         <summary>Получает название объекта <b>CustomTaskPane</b> . Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
-        <remarks>
-          <para>Это свойство имеет значение один раз при его создании.</para>
-          <para />
-        </remarks>
+        <value><b>Строка</b></value>
+        <remarks><para>Это свойство задается один раз при создании.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -283,11 +255,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если указанный <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объект является видимым. Для чтения и записи.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary><b>Значение true</b> , если <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> указанный объект является видимым. Для чтения и записи.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -317,10 +286,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ширину области задач, указанного идентификатором <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта. Для чтения и записи.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает или задает ширину области задач, заданной <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объектом. Для чтения и записи.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -347,14 +314,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает родительский объект window <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
-        <remarks>
-          <para>Определенный класс для этого свойства зависит от ведущего приложения.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает объект родительского окна <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
+        <remarks><para>Конкретный класс для этого свойства зависит от ведущего приложения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

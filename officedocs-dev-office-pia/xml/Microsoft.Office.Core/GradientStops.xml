@@ -1,13 +1,5 @@
 <Type Name="GradientStops" FullName="Microsoft.Office.Core.GradientStops">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e4a2f77dd94f89d7e1ee1634165ec5f1faaf578c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662424" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface GradientStops : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e4a2f77dd94f89d7e1ee1634165ec5f1faaf578c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662424" /></Metadata><TypeSignature Language="C#" Value="public interface GradientStops : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract GradientStops implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.GradientStops" />
   <TypeSignature Language="VB.NET" Value="Public Interface GradientStops&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -34,10 +26,8 @@
   </Attributes>
   <Docs>
     <summary>Содержит коллекцию <see cref="T:Microsoft.Office.Core.GradientStop" /> объектов.</summary>
-    <remarks>
-      <para>Градиентом — это плавный переход с одного цвета состояний в другое. Конечные точки из следующих разделов, называются останавливается.</para>
-      <para />
-    </remarks>
+    <remarks><para>Градиенты — это плавный переход от одного состояния цвета к другому. Конечные точки этих разделов называются остановленными.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -66,14 +56,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>При использовании без квалификатор объекта, данное свойство возвращает объект <b>приложения</b> , который представляет приложение Microsoft Office. При использовании с квалификатор объекта, данное свойство возвращает объект <b>приложения</b> , представляющего создателя указанный объект. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
-        <remarks>
-          <para>Это свойство можно использовать с помощью объекта OLE-автоматизации возвращает приложение этого объекта.</para>
-          <para />
-        </remarks>
+        <summary>Если используется без квалификатора объекта, это свойство возвращает объект <b>Application</b> , который представляет приложение Microsoft Office. При использовании с квалификатором объекта это свойство возвращает объект <b>Application</b> , представляющий создателя указанного объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
+        <remarks><para>Это свойство можно использовать с объектом OLE Automation, чтобы возвратить приложение этого объекта.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -99,10 +85,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.GradientStops" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.GradientStops" /> коллекции. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -132,10 +116,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.GradientStops" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.GradientStops" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -161,12 +143,10 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Номер индекса градиента.</param>
-        <summary>Удаляет градиента.</summary>
-        <remarks>
-          <para>Градиентом — это плавный переход с одного цвета состояний в другое. Конечные точки из следующих разделов, называются останавливается.</para>
-          <para />
-        </remarks>
+        <param name="Index">Номер индекса остановки градиента.</param>
+        <summary>Удаляет точку градиента.</summary>
+        <remarks><para>Градиенты — это плавный переход от одного состояния цвета к другому. Конечные точки этих разделов называются остановленными.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -232,15 +212,13 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="RGB">Задает цвет, которая градиента.</param>
-        <param name="Position">Задает положение stop внутри градиента, выраженная в процентах.</param>
-        <param name="Transparency">Определяет непрозрачность цвет градиента.</param>
-        <param name="Index">Номер индекса остановить.</param>
-        <summary>Добавляет stop градиент.</summary>
-        <remarks>
-          <para>Градиентом — это плавный переход с одного цвета состояний в другое. Конечные точки из следующих разделов, называются останавливается.</para>
-          <para />
-        </remarks>
+        <param name="RGB">Задает цвет для остановки градиента.</param>
+        <param name="Position">Указывает положение остановки в градиенте, выраженное в виде процента.</param>
+        <param name="Transparency">Задает уровень прозрачности цвета при остановке градиента.</param>
+        <param name="Index">Номер индекса остановки.</param>
+        <summary>Добавляет точку останова в градиент.</summary>
+        <remarks><para>Градиенты — это плавный переход от одного состояния цвета к другому. Конечные точки этих разделов называются остановленными.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Insert2">
@@ -275,17 +253,15 @@
         <Parameter Name="Brightness" Type="System.Single" />
       </Parameters>
       <Docs>
-        <param name="RGB">Задает цвет, которая градиента.</param>
-        <param name="Position">Задает положение stop внутри градиента, выраженная в процентах.</param>
-        <param name="Transparency">Определяет непрозрачность цвет градиента.</param>
-        <param name="Index">Номер индекса остановить.</param>
-        <param name="Brightness">Задает яркость цвета в градиента.</param>
-        <summary>Добавляет stop градиент и задает яркость, а также прозрачность цвета.</summary>
-        <remarks>
-          <para>Градиентом — это плавный переход с одного цвета состояний в другое. Конечные точки в этих разделах, называются точками градиента.</para>
-          <para>Этот метод отличается от <see cref="M:Microsoft.Office.Core.GradientStops.Insert" /> метода в позволяет указать яркость, а также прозрачность, цвет в градиента.</para>
-          <para />
-        </remarks>
+        <param name="RGB">Задает цвет для остановки градиента.</param>
+        <param name="Position">Указывает положение остановки в градиенте, выраженное в виде процента.</param>
+        <param name="Transparency">Задает уровень прозрачности цвета при остановке градиента.</param>
+        <param name="Index">Номер индекса остановки.</param>
+        <param name="Brightness">Задает яркость цвета при остановке градиента.</param>
+        <summary>Добавляет остановку в градиент и задает яркость, а также прозрачность цвета.</summary>
+        <remarks><para>Градиенты — это плавный переход от одного состояния цвета к другому. Конечные точки этих разделов называются остановленными.</para> 
+          <para>Этот метод отличается от <see cref="M:Microsoft.Office.Core.GradientStops.Insert" /> метода тем, что он позволяет указать яркость, а также прозрачность цвета на остановке градиента.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -314,11 +290,9 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Имя или номер индекса объект, возвращенный.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.GradientStop" /> объекта из <see cref="T:Microsoft.Office.Core.GradientStops" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>GradientStop</b>
-        </value>
+        <param name="Index">Имя или номер индекса возвращаемого объекта.</param>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.GradientStop" /> объект из <see cref="T:Microsoft.Office.Core.GradientStops" /> коллекции. Только для чтения.</summary>
+        <value><b>GradientStop</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

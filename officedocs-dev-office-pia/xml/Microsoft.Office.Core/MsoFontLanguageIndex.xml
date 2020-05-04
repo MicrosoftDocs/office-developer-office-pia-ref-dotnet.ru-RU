@@ -1,13 +1,5 @@
 <Type Name="MsoFontLanguageIndex" FullName="Microsoft.Office.Core.MsoFontLanguageIndex">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2311c06666da216879c4a177b110b60022f0d40d" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662440" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFontLanguageIndex" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2311c06666da216879c4a177b110b60022f0d40d" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662440" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFontLanguageIndex" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFontLanguageIndex extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFontLanguageIndex" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFontLanguageIndex" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Представляет один из трех языковых шрифтов, содержащихся в <see cref="T:Microsoft.Office.Core.ThemeFonts" /> семейства сайтов</summary>
+    <summary>Представляет один из трех языковых шрифтов, <see cref="T:Microsoft.Office.Core.ThemeFonts" /> включенных в коллекцию.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Представляет шрифт для языков сложных сценариев. Коллекция язык Complex Script поддерживает арабский, грузинский, иврит, Территория в Индийском, тайский и вьетнамский алфавит.</summary>
+        <summary>Представляет начертание шрифта для языков со сложными знаками. Коллекция языков со сложными сценариями поддерживает арабский, грузинский, иврит, индийский, тайский и вьетнамский алфавиты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeEastAsian">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Представляет восточно-азиатских шрифта. Восточно-азиатский языки включают китайский, упрощенное письмо, китайский, традиционное письмо, японский и корейский.</summary>
+        <summary>Представляет начертание шрифта для восточноазиатских языков. Восточноазиатские языки: Китайский (упрощенное письмо), китайский (традиционное письмо), японский и корейский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeLatin">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Представляет латинский шрифт.</summary>
+        <summary>Представляет начертание шрифта латиницы.</summary>
       </Docs>
     </Member>
   </Members>

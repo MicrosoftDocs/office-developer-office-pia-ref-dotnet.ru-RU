@@ -1,13 +1,5 @@
 <Type Name="MsoHyperlinkType" FullName="Microsoft.Office.Core.MsoHyperlinkType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ab6a24b4f53bcb864914e146ab9d95cf64964fc9" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662108" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoHyperlinkType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ab6a24b4f53bcb864914e146ab9d95cf64964fc9" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662108" /></Metadata><TypeSignature Language="C#" Value="public enum MsoHyperlinkType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoHyperlinkType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoHyperlinkType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoHyperlinkType" />
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Гиперссылка применяется к встроенная фигура. Использовать только с Microsoft Word.</summary>
+        <summary>Гиперссылка применяется ко встроенной фигуре. Используется только с Microsoft Word.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoHyperlinkRange">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Гиперссылка применяется для объекта <b>Shape</b> .</summary>
+        <summary>Гиперссылка применяется к объекту <b>Shape</b> .</summary>
       </Docs>
     </Member>
   </Members>

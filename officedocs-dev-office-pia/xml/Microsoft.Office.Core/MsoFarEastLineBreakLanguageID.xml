@@ -1,13 +1,5 @@
 <Type Name="MsoFarEastLineBreakLanguageID" FullName="Microsoft.Office.Core.MsoFarEastLineBreakLanguageID">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3b442490c6cff6cdf61d376d5b71318825203873" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661871" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFarEastLineBreakLanguageID" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3b442490c6cff6cdf61d376d5b71318825203873" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661871" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFarEastLineBreakLanguageID" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFarEastLineBreakLanguageID extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFarEastLineBreakLanguageID" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFarEastLineBreakLanguageID" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает язык, используемый для определения, какой уровень разрыв строки используется, когда включен параметр управления разрыв строки.</summary>
+    <summary>Определяет язык, используемый для определения того, какой уровень разрыва строки используется, когда включен параметр управления разрывом строки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2052</MemberValue>
       <Docs>
-        <summary>Китайский (упрощенный).</summary>
+        <summary>Китайский (упрощенное письмо).</summary>
       </Docs>
     </Member>
     <Member MemberName="MsoFarEastLineBreakLanguageTraditionalChinese">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1028</MemberValue>
       <Docs>
-        <summary>Китайский, традиционное письмо.</summary>
+        <summary>Китайский (традиционное письмо).</summary>
       </Docs>
     </Member>
   </Members>

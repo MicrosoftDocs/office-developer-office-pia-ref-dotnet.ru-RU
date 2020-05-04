@@ -1,13 +1,5 @@
 <Type Name="COMAddIn" FullName="Microsoft.Office.Core.COMAddIn">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3744571dfa5c4ddac55f27fd8f4ab6341c9e2f53" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662252" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface COMAddIn : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3744571dfa5c4ddac55f27fd8f4ab6341c9e2f53" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662252" /></Metadata><TypeSignature Language="C#" Value="public interface COMAddIn : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract COMAddIn implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.COMAddIn" />
   <TypeSignature Language="VB.NET" Value="Public Interface COMAddIn&#xA;Implements _IMsoDispObj" />
@@ -30,14 +22,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет надстройки COM в ведущем приложении Microsoft Office.</summary>
-    <remarks>
-      <para>Объект <b>COMAddIn</b> входит в состав <see cref="T:Microsoft.Office.Core.COMAddIns" /> семейства.</para>
-      <para>Использования <b>COMAddIns.Item</b>(<paramref name="index" />), где <paramref name="index" /> порядковый номер, который возвращает надстройки COM в этой позиции в коллекции <b>COMAddIns</b> или <b>строковое</b> значение, представляющее идентификатор ProgID указанного надстройки.</para>
-      <para>Использовать <see cref="P:Microsoft.Office.Core.COMAddIn.ProgId" /> свойства объекта <b>COMAddin</b> возвращает программный идентификатор для надстройки COM и использовать <see cref="P:Microsoft.Office.Core.COMAddIn.Guid" /> свойство для возвращения глобальный уникальный идентификатор (GUID) для надстройки</para>
-      <para>Использования <see cref="P:Microsoft.Office.Core.COMAddIn.Connect" /> свойство задает или возвращает состояние подключения для указанного надстройки.</para>
-      <para />
-    </remarks>
+    <summary>Представляет надстройку COM в ведущем приложении Microsoft Office.</summary>
+    <remarks><para>Объект <b>COMAddIn</b> является членом <see cref="T:Microsoft.Office.Core.COMAddIns" /> коллекции.</para> 
+      <para>Используйте <b>COMAddIns. Item</b>(<paramref name="index" />), где <paramref name="index" /> — это либо порядковое значение, которое возвращает надстройку COM в этой позиции в коллекции <b>COMAddIns</b> , либо <b>строковое</b> значение, представляющее идентификатор ProgID указанной надстройки COM.</para> 
+      <para>Используйте <see cref="P:Microsoft.Office.Core.COMAddIn.ProgId" /> свойство объекта <b>COMAddin</b> , чтобы возвратить программный идентификатор для надстройки COM, и используйте <see cref="P:Microsoft.Office.Core.COMAddIn.Guid" /> свойство, чтобы возвратить глобальный уникальный идентификатор (GUID) для надстройки.</para> 
+      <para>Используйте <see cref="P:Microsoft.Office.Core.COMAddIn.Connect" /> свойство, чтобы задать или вернуть состояние подключения к указанной надстройке COM.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -66,7 +56,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -99,11 +89,8 @@
       <Docs>
         <summary>Возвращает или задает состояние подключения для указанного <see cref="T:Microsoft.Office.Core.COMAddIn" /> объекта.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Подключение</b> возвращает <b>значение True,</b> Если надстройка является активным; возвращается <b>значение False</b> , если надстройка неактивна. Active надстройка зарегистрирована и подключена; Неактивные надстройка зарегистрирована, но не подключен.</para>
-          <para />
-        </remarks>
+        <remarks><para>Свойство <b>Connect</b> возвращает <b>значение true</b> , если надстройка активна; Он возвращает <b>значение false</b> , если надстройка неактивна. Активная надстройка зарегистрирована и подключена; Неактивная надстройка зарегистрирована, но в настоящее время не подключена.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -132,12 +119,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку «MSWD»; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.COMAddIn.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку "МСВД"; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.COMAddIn.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Description">
@@ -166,7 +153,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает описательный <b>строковое</b> значение для указанного <see cref="T:Microsoft.Office.Core.COMAddIn" /> объекта.</summary>
+        <summary>Возвращает или задает <b>строковое</b> значение с описанием для указанного <see cref="T:Microsoft.Office.Core.COMAddIn" /> объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -194,7 +181,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает идентификатор класса глобальный уникальный (идентификатор GUID) для указанного <see cref="T:Microsoft.Office.Core.COMAddIn" /> объекта.</summary>
+        <summary>Возвращает глобальный уникальный идентификатор класса (GUID) для указанного <see cref="T:Microsoft.Office.Core.COMAddIn" /> объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -227,10 +214,8 @@
       <Docs>
         <summary>Возвращает или задает объект, который является основой для указанного <see cref="T:Microsoft.Office.Core.COMAddIn" /> объекта.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Это свойство в основном используется для включения одного <b>COMAddIn</b> для связи с другой <b>COMAddIn</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Это свойство в основном используется для подключения одного <b>COMAddIn</b> к другому <b>COMAddIn</b>.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">

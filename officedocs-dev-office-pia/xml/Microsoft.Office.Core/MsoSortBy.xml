@@ -1,13 +1,5 @@
 <Type Name="MsoSortBy" FullName="Microsoft.Office.Core.MsoSortBy">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2f50795cfe242360e7c68f200c708e08b3b51a7c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661655" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoSortBy" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2f50795cfe242360e7c68f200c708e08b3b51a7c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661655" /></Metadata><TypeSignature Language="C#" Value="public enum MsoSortBy" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSortBy extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSortBy" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoSortBy" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Указывает порядок сортировки для файлов в коллекции объектов <b>FileSearch</b><b>FoundFiles</b> .</summary>
+    <summary>Задает порядок сортировки файлов в коллекции <b>фаундфилес</b> объекта <b>FileSearch</b> .</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Порядок сортировки.</summary>
+        <summary>Без сортировки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSortBySize">

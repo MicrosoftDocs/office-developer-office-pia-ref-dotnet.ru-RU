@@ -1,13 +1,5 @@
 <Type Name="MsoControlOLEUsage" FullName="Microsoft.Office.Core.MsoControlOLEUsage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b02ed8bfb7ad0b3fe9f7fd651f0ac84446eef72" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661907" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoControlOLEUsage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9b02ed8bfb7ad0b3fe9f7fd651f0ac84446eef72" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661907" /></Metadata><TypeSignature Language="C#" Value="public enum MsoControlOLEUsage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoControlOLEUsage extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoControlOLEUsage" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoControlOLEUsage" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает клиента OLE и OLE ролей сервера, в которых используется элемент управления панели команд, время объединения двух приложений Microsoft Office.</summary>
+    <summary>Задает роли клиента OLE и сервера OLE, в которых используется элемент управления "панель команд" при объединении двух приложений Microsoft Office.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Элемент управления работает на клиента и сервера.</summary>
+        <summary>Управление выполняется как на клиенте, так и на сервере.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlOLEUsageClient">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Только для клиентского элемента управления.</summary>
+        <summary>Только клиентский элемент управления.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlOLEUsageNeither">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Элемент управления выполняет ни клиент, ни сервер.</summary>
+        <summary>Управление выполняется не на клиенте и на сервере.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlOLEUsageServer">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Элемент управления только на сервере.</summary>
+        <summary>Элемент управления только для сервера.</summary>
       </Docs>
     </Member>
   </Members>

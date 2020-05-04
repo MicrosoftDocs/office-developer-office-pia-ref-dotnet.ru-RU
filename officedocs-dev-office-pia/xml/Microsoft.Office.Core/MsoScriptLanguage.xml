@@ -1,13 +1,5 @@
 <Type Name="MsoScriptLanguage" FullName="Microsoft.Office.Core.MsoScriptLanguage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="161f07327889201d41baad653e7aa264f8bb5378" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661890" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoScriptLanguage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="161f07327889201d41baad653e7aa264f8bb5378" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661890" /></Metadata><TypeSignature Language="C#" Value="public enum MsoScriptLanguage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoScriptLanguage extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoScriptLanguage" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoScriptLanguage" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Указывает язык сценариев active скрипта.</summary>
+    <summary>Задает язык сценариев для активного скрипта.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Страницы ASP (ASP).</summary>
+        <summary>Страницы Active Server (ASP).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoScriptLanguageJava">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Java.</summary>
+        <summary>Обработка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoScriptLanguageOther">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Языка, отличного от ASP, Java или Visual Basic.</summary>
+        <summary>Язык, отличный от ASP, Java или Visual Basic.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoScriptLanguageVisualBasic">

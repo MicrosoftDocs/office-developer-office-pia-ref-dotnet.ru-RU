@@ -1,13 +1,5 @@
 <Type Name="MsoFileDialogType" FullName="Microsoft.Office.Core.MsoFileDialogType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cc1b50ff92cebdda9c8d65bc3d165ae2280a3da5" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662527" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFileDialogType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cc1b50ff92cebdda9c8d65bc3d165ae2280a3da5" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662527" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFileDialogType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileDialogType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileDialogType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFileDialogType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип объекта <b>классов FileDialog</b> .</summary>
+    <summary>Указывает тип объекта <b>FileDialog</b> .</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Диалоговое окно выбора файла.</summary>
+        <summary>Диалоговое окно "средство выбора файлов".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileDialogFolderPicker">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Диалоговое окно выбора папки.</summary>
+        <summary>Диалоговое окно "Выбор папки".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoFileDialogOpen">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Сохранить как диалоговое окно.</summary>
+        <summary>Диалоговое окно "Сохранить как".</summary>
       </Docs>
     </Member>
   </Members>

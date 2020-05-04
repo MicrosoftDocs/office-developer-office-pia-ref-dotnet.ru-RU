@@ -1,13 +1,5 @@
 <Type Name="OfficeTheme" FullName="Microsoft.Office.Core.OfficeTheme">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="041083289aee84610a850459af3fe55240442f6f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662044" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OfficeTheme : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="041083289aee84610a850459af3fe55240442f6f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662044" /></Metadata><TypeSignature Language="C#" Value="public interface OfficeTheme : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OfficeTheme implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.OfficeTheme" />
   <TypeSignature Language="VB.NET" Value="Public Interface OfficeTheme&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет темы Microsoft Office.</summary>
+    <summary>Представляет тему Microsoft Office.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,10 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.OfficeTheme" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.OfficeTheme" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,10 +83,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.OfficeTheme" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.OfficeTheme" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -124,9 +112,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.OfficeTheme" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -153,10 +139,8 @@
         <ReturnType>Microsoft.Office.Core.ThemeColorScheme</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.ThemeColorScheme" /> объект, представляющий цвет темы Microsoft Office. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ThemeColorScheme" />
-        </value>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.ThemeColorScheme" /> объект, представляющий цветовую схему темы Microsoft Office. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ThemeColorScheme" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,10 +167,8 @@
         <ReturnType>Microsoft.Office.Core.ThemeEffectScheme</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.ThemeEffectScheme" /> объект, представляющий схемы эффекты темы Microsoft Office. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ThemeEffectScheme" />
-        </value>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.ThemeEffectScheme" /> объект, представляющий схему эффектов темы Microsoft Office. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ThemeEffectScheme" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -213,10 +195,8 @@
         <ReturnType>Microsoft.Office.Core.ThemeFontScheme</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.ThemeFontScheme" /> объект, представляющий схемы шрифтов темы Microsoft Office. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ThemeFontScheme" />
-        </value>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.ThemeFontScheme" /> объект, представляющий схему шрифтов темы Microsoft Office. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.ThemeFontScheme" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

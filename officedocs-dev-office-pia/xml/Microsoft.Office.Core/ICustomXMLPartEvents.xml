@@ -1,13 +1,5 @@
 <Type Name="ICustomXMLPartEvents" FullName="Microsoft.Office.Core.ICustomXMLPartEvents">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a242cf67d0014fa63866a36a996fb4cd61c3d0bf" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662055" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ICustomXMLPartEvents" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a242cf67d0014fa63866a36a996fb4cd61c3d0bf" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662055" /></Metadata><TypeSignature Language="C#" Value="public interface ICustomXMLPartEvents" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICustomXMLPartEvents" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ICustomXMLPartEvents" />
   <TypeSignature Language="VB.NET" Value="Public Interface ICustomXMLPartEvents" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Интерфейс события для Microsoft Office <see cref="T:Microsoft.Office.Core.ICustomXMLPart" /> объекта события.</summary>
+    <summary>Интерфейс событий для событий объектов <see cref="T:Microsoft.Office.Core.ICustomXMLPart" /> Microsoft Office.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

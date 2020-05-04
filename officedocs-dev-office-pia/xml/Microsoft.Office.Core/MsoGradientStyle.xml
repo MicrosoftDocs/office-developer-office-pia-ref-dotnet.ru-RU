@@ -1,13 +1,5 @@
 <Type Name="MsoGradientStyle" FullName="Microsoft.Office.Core.MsoGradientStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="aea07fb5a2f4eab60a861f419a278d594d951164" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661862" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoGradientStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="aea07fb5a2f4eab60a861f419a278d594d951164" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661862" /></Metadata><TypeSignature Language="C#" Value="public enum MsoGradientStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoGradientStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoGradientStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoGradientStyle" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает стиль градиентной заливки.</summary>
+    <summary>Задает стиль заливки для градиентной заливки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Диагональный градиент, двигаясь из верхнего угла вниз до положительно углу.</summary>
+        <summary>Диагональный градиент, перемещающийся от верхнего угла вниз до противоположного угла.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientDiagonalUp">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Диагональный градиент, двигаясь из нижнего угла до положительно угла.</summary>
+        <summary>Диагональный градиент, перемещающийся от нижнего угла до противоположного угла.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientFromCenter">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Градиент с от центра к углов.</summary>
+        <summary>Градиентная работа от центра к углам.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientFromCorner">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Градиентные под управлением из угла в трех углы.</summary>
+        <summary>Градиентная работа от угла до других трех углов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientFromTitle">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Запуск из заголовка наружу градиент.</summary>
+        <summary>Градиентная работа от заголовка к внешнему элементу.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientHorizontal">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Градиентные под управлением по горизонтали между фигуры.</summary>
+        <summary>Градиентная работа над фигурой по горизонтали.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientMixed">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Mixed градиента.</summary>
+        <summary>Градиент смешанный.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientVertical">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Градиент переходит по вертикали вниз фигуры.</summary>
+        <summary>Градиент, выполняемый вертикально вниз по фигуре.</summary>
       </Docs>
     </Member>
   </Members>

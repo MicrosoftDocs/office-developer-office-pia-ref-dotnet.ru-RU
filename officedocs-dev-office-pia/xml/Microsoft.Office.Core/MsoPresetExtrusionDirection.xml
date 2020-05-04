@@ -1,13 +1,5 @@
 <Type Name="MsoPresetExtrusionDirection" FullName="Microsoft.Office.Core.MsoPresetExtrusionDirection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="11820a7321d6c0fe55af12aaeb51d20e579cda4e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662445" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetExtrusionDirection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="11820a7321d6c0fe55af12aaeb51d20e579cda4e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662445" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetExtrusionDirection" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetExtrusionDirection extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetExtrusionDirection" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetExtrusionDirection" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Направление пути очистки придания объема принимает от вытянутый фигуры (лицевой из изменяется).</summary>
-    <remarks>
-      <para>Используется совместно со свойством <b>PresetExtrusionDirection</b> объекта <b>ThreeDFormat</b> .</para>
-      <para />
-    </remarks>
+    <summary>Указывает направление, в котором траектория для очистки объема берется из вытянутой фигуры (лицевой стороной на объеме).</summary>
+    <remarks><para>Используется со свойством <b>пресетекструсиондиректион</b> объекта <b>ThreeDFormat</b></para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoExtrusionBottom">
@@ -43,7 +33,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Внизу.</summary>
+        <summary>Конец.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionBottomLeft">
@@ -100,7 +90,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Слева.</summary>
+        <summary>Левый.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionNone">
@@ -119,7 +109,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Нет придания объема.</summary>
+        <summary>Нет объема.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionRight">
@@ -176,7 +166,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Слева сверху.</summary>
+        <summary>Слева вверху.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionTopRight">
@@ -214,7 +204,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Возвращаемое значение. Указывает сочетание других состояний.</summary>
+        <summary>Только возвращаемое значение; Указывает комбинацию других состояний.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="MsoLineStyle" FullName="Microsoft.Office.Core.MsoLineStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="833cc2f5edd228cd54818b9b45712d0018057e1e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661679" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoLineStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="833cc2f5edd228cd54818b9b45712d0018057e1e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661679" /></Metadata><TypeSignature Language="C#" Value="public enum MsoLineStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLineStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLineStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoLineStyle" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает стиль для строки.</summary>
+    <summary>Задает стиль для линии.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Одна строка.</summary>
+        <summary>Отдельная строка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineStyleMixed">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Жирная линия с полоску слева.</summary>
+        <summary>Толстая линия с тонкой линией на каждой стороне.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineThickThin">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Жирная линия рядом с пунктом полоску. Для горизонтальные линии Жирная линия находится выше тонкие линии. Для вертикальной линии Жирная линия — слева от тонкие строки.</summary>
+        <summary>Толстая линия рядом с тонкой линией. Для горизонтальных линий толстая линия находится над тонкой линией. Для вертикальных линий толстая линия отображается слева от тонкой линии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineThinThick">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Жирная линия рядом с пунктом полоску. Для горизонтальные линии Жирная линия меньше полоску. Для вертикальной линии Жирная линия — справа от тонкие строки.</summary>
+        <summary>Толстая линия рядом с тонкой линией. Для горизонтальных линий жирная линия ниже тонкой линии. Для вертикальных линий толстая линия отображается справа от тонкой линии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineThinThin">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Тонкие две строки.</summary>
+        <summary>Две тонкие линии.</summary>
       </Docs>
     </Member>
   </Members>

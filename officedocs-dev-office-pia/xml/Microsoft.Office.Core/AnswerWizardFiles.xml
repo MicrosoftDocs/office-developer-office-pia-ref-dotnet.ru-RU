@@ -1,13 +1,5 @@
 <Type Name="AnswerWizardFiles" FullName="Microsoft.Office.Core.AnswerWizardFiles">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="138d1030f312086960f0709f0f6d779c4ea6c6bb" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662548" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AnswerWizardFiles : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="138d1030f312086960f0709f0f6d779c4ea6c6bb" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662548" /></Metadata><TypeSignature Language="C#" Value="public interface AnswerWizardFiles : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AnswerWizardFiles implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.AnswerWizardFiles" />
   <TypeSignature Language="VB.NET" Value="Public Interface AnswerWizardFiles&#xA;Implements _IMsoDispObj" />
@@ -30,14 +22,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Коллекция <b>AnswerWizardFiles</b> содержит все файлы Мастер ответов (с расширением имени файла. Рабочая станция Администрирования) для активного приложения Microsoft Office.</summary>
-    <remarks>
-      <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-      <para>Использования <see cref="P:Microsoft.Office.Core.AnswerWizard.Files" /> свойство, позволяющее получить коллекцию ссылок файла мастер ответов. Свойство <b>файлы</b> возвращает набор строк, связанные с. Рабочая станция Администрирования файлы.</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core.AnswerWizardFiles.Add(System.String)" /> метод, чтобы создать дополнительные файлы для текущего Мастер ответов.</para>
-      <para>Использования <see cref="P:Microsoft.Office.Core.AnswerWizardFiles.Item(System.Int32)" /> свойство, позволяющее получить имя ссылку на существующий файл ответов мастер.</para>
-      <para />
-    </remarks>
+    <summary>Коллекция <b>ансвервизардфилес</b> содержит все файлы мастера ответов (с расширением имени файла. АВ), доступный для активного приложения Microsoft Office.</summary>
+    <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+      <para>Используйте <see cref="P:Microsoft.Office.Core.AnswerWizard.Files" /> свойство, чтобы получить коллекцию ссылок на файл мастера ответов. Свойство <b>Files</b> Возвращает коллекцию строк, которые ссылаются на. Файлы АВ.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.AnswerWizardFiles.Add(System.String)" /> метод, чтобы сделать дополнительные файлы доступными для текущего мастера ответов.</para> 
+      <para>Используйте <see cref="P:Microsoft.Office.Core.AnswerWizardFiles.Item(System.Int32)" /> свойство, чтобы получить имя существующего справочника по файлу мастера ответов.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -63,9 +53,8 @@
         <Parameter Name="FileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="FileName">
-          <b>Строковое значение.</b> Полный путь к файлу указанного Мастер ответов.</param>
-        <summary>Создает новую ссылку на файл ответов мастер и добавляет его к <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> семейства сайтов.</summary>
+        <param name="FileName">Обязательный атрибут типа <b>String</b>. Полный путь к указанному файлу мастера ответов.</param>
+        <summary>Создает новую ссылку на файл мастера ответов и добавляет его в <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> коллекцию.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -95,7 +84,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -123,7 +112,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <b>целое число</b> , указывающее количество элементов в указанном семействе сайтов.</summary>
+        <summary>Возвращает или задает <b>целое</b> число, указывающее количество элементов в указанной коллекции.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -154,12 +143,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку «MSWD»; Если создан в Microsoft Excel, свойство возвращает 1480803660. Возвращаемое значение могут также быть представлены константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.AnswerWizardFiles.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку "МСВД"; Если он создан в Microsoft Excel, свойство возвращает 1480803660. Возвращаемое значение также может быть представлено константой <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.AnswerWizardFiles.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -185,8 +174,7 @@
         <Parameter Name="FileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="FileName">
-          <b>Строковое значение.</b> Имя файла для удаления, включая полный путь, имя файла и расширение.</param>
+        <param name="FileName">Обязательный атрибут типа <b>String</b>. Имя удаляемого файла, включая полный путь, имя файла и расширение.</param>
         <summary>Удаляет указанный объект из коллекции.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -217,8 +205,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Требуется <b>целое число</b>. Номер индекса строки с названием файла ответов мастер или имя файла, должно быть возвращено.</param>
-        <summary>Возвращает строку имени файла из <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> семейства сайтов.</summary>
+        <param name="Index">Обязательный атрибут типа <b>Integer</b>. Номер индекса в строке имени файла мастера ответов или имя файла, которое необходимо вернуть.</param>
+        <summary>Возвращает строку имени файла из <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> коллекции.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

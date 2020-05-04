@@ -1,13 +1,5 @@
 <Type Name="MsoBackgroundStyleIndex" FullName="Microsoft.Office.Core.MsoBackgroundStyleIndex">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c0567ea83740b6c1b23e955176e52a7da1af86e0" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662359" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoBackgroundStyleIndex" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c0567ea83740b6c1b23e955176e52a7da1af86e0" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662359" /></Metadata><TypeSignature Language="C#" Value="public enum MsoBackgroundStyleIndex" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBackgroundStyleIndex extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBackgroundStyleIndex" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoBackgroundStyleIndex" />
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Сочетание стили.</summary>
+        <summary>Задает комбинацию стилей.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStyleNotAPreset">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Задает стили отсутствуют.</summary>
+        <summary>Задает отсутствие стилей.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStylePreset1">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Определяет стиль 1.</summary>
+        <summary>Задает стиль 1.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStylePreset10">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Определяет стиль 10.</summary>
+        <summary>Задает стиль 10.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStylePreset11">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Определяет стиль 11.</summary>
+        <summary>Задает стиль 11.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStylePreset12">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Определяет стиль 12.</summary>
+        <summary>Задает стиль 12.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStylePreset2">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Определяет стиль 2.</summary>
+        <summary>Задает стиль 2.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStylePreset3">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Определяет стиль 3.</summary>
+        <summary>Задает стиль 3.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStylePreset4">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Определяет стиль 4.</summary>
+        <summary>Задает стиль 4.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStylePreset5">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Определяет стиль 5.</summary>
+        <summary>Задает стиль 5.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStylePreset6">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Определяет стиль 6.</summary>
+        <summary>Задает стиль 6.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStylePreset7">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Определяет стиль 7.</summary>
+        <summary>Задает стиль 7.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStylePreset8">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Определяет стиль 8.</summary>
+        <summary>Задает стиль 8.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBackgroundStylePreset9">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Определяет стиль 9.</summary>
+        <summary>Задает стиль 9.</summary>
       </Docs>
     </Member>
   </Members>

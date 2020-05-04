@@ -1,13 +1,5 @@
 <Type Name="MsoDiagramType" FullName="Microsoft.Office.Core.MsoDiagramType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9c0962f2ce790927974cec18b3fe8031b7ddf504" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662543" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoDiagramType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9c0962f2ce790927974cec18b3fe8031b7ddf504" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662543" /></Metadata><TypeSignature Language="C#" Value="public enum MsoDiagramType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoDiagramType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoDiagramType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoDiagramType" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Указывает тип диаграммы.</summary>
+    <summary>Указывает тип схемы.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Схема цикла.</summary>
+        <summary>Циклическая схема.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagramMixed">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Возвращаемое значение. Указывает сочетание других состояний.</summary>
+        <summary>Только возвращаемое значение; Указывает комбинацию других состояний.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagramOrgChart">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Диаграмма организации.</summary>
+        <summary>Схема организационной диаграммы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagramPyramid">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Пирамидальной диаграммы.</summary>
+        <summary>Пирамидальная схема.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagramRadial">
@@ -121,7 +113,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Радиальное схемы.</summary>
+        <summary>Радиальная схема.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagramTarget">
@@ -140,7 +132,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Целевая диаграмма.</summary>
+        <summary>Целевая схема.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagramVenn">

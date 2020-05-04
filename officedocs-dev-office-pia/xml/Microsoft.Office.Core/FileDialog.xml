@@ -1,13 +1,5 @@
 <Type Name="FileDialog" FullName="Microsoft.Office.Core.FileDialog">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="db6c4516b8b2127a1b83795fb9150768f72ed02c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662148" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FileDialog : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="db6c4516b8b2127a1b83795fb9150768f72ed02c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662148" /></Metadata><TypeSignature Language="C#" Value="public interface FileDialog : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FileDialog implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.FileDialog" />
   <TypeSignature Language="VB.NET" Value="Public Interface FileDialog&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,26 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Содержит файл функциональности диалогового окна аналогичную функциональность стандартной открыть и сохранить диалоговые окна приложения Microsoft Office.</summary>
-    <remarks>
-      <para>С диалоговых окон, этот объект содержит, пользователи решений легко можно указать, файлы и папки, которые следует использовать решение.</para> Свойство 
-      <para>Использование <b>классов FileDialog</b> для возврата объекта <b>классов FileDialog</b> . Свойство <b>классов FileDialog</b> расположен в объект <b>приложения</b> каждого отдельного приложения Office. Свойство принимает один аргумент, <paramref name="DialogType" />, определяющий тип объекта <b>классов FileDialog</b> , возвращаемый свойством. Существует четыре типа объектов <b>классов FileDialog</b> :</para><list type="bullet"><item><para>диалоговым окном Открыть - позволяет пользователям выбрать один или несколько файлов, которые затем можно открыть в ведущем приложении с помощью метода <b>Execute</b> .</para></item><item><para>Диалогового окна Сохранить как - позволяет пользователям выберите одного файла, затем можно сохранить текущий файл как с помощью метода <b>Execute</b> .</para></item> Пользователи 
-        <item><para>диалоговое окно выбора файла - позволяет выбрать один или несколько файлов. Пути к файлам, которые пользователь выбирает регистрируются в <see cref="T:Microsoft.Office.Core.FileDialogSelectedItems" /> семейства.</para></item> Пользователи 
-        <item><para>диалоговое окно "Выбор папки" - позволяет выбрать путь. Путь, который пользователь выбирает записываемые в коллекции <b>FileDialogSelectedItems</b> .</para></item></list><para>Каждого ведущее приложение может создавать только один экземпляр объекта <b>классов FileDialog</b> . Таким образом многие из свойства объекта <b>классов FileDialog</b> сохранение даже в том случае, когда создается несколько <b>классов FileDialog</b> объектов. Таким образом, убедитесь в том, что выбраны все свойства надлежащим образом для вашей цели перед Отображение диалогового окна.</para><para>Для отображения диалогового окна файла укажите с помощью объекта <b>классов FileDialog</b> , необходимо использовать <see cref="M:Microsoft.Office.Core.FileDialog.Show" /> метод. Если отображается диалоговое окно, код не выполняется, пока пользователь не закрывает диалоговое окно.</para><para /></remarks>
+    <summary>Обеспечивает для диалогового окна файлов функциональность, схожую со стандартными диалоговыми окнами Открыть и Сохранить приложений Microsoft Office.</summary>
+    <remarks>В <para>диалоговых окнах, предоставляемых этим объектом, пользователи ваших решений могут легко указать файлы и папки, которые должно использовать ваше решение.</para> 
+      <para>Чтобы вернуть объект <b>FileDialog</b> , используйте свойство <b>FileDialog</b> . Свойство <b>FileDialog</b> расположено в каждом отдельном <b>объекте приложения</b> Office. Свойство принимает один аргумент <paramref name="DialogType" />, который определяет тип объекта <b>FileDialog</b> , возвращаемого свойством. Существует четыре типа объектов <b>FileDialog</b> :</para>
+      <list type="bullet">
+        <item>
+          <para>диалоговое окно "Открыть" — позволяет пользователям выбрать один или несколько файлов, которые можно открыть в ведущем приложении с помощью метода <b>EXECUTE</b> .</para>
+        </item> 
+        <item>
+          <para>Диалоговое окно SaveAs — позволяет пользователям выбрать один файл, который затем можно сохранить с помощью метода <b>EXECUTE</b> .</para>
+        </item> 
+        <item>
+          <para>Диалоговое окно "средство выбора файлов" — позволяет пользователям выбрать один или несколько файлов. Пути к файлам, выбираемые пользователем, фиксируются в <see cref="T:Microsoft.Office.Core.FileDialogSelectedItems" /> коллекции.</para>
+        </item> 
+        <item>
+          <para>Диалоговое окно выбора папки — позволяет пользователям выбирать путь. Путь, который выбирает пользователь, захватывается в коллекции <b>FileDialogSelectedItems</b> .</para>
+        </item> 
+      </list> 
+      <para>Каждое ведущее приложение может создавать только один экземпляр объекта <b>FileDialog</b> . Таким образом, многие свойства объекта <b>FileDialog</b> хранятся даже при создании нескольких объектов <b>FileDialog</b> . Поэтому перед отображением диалогового окна убедитесь, что вы установили все свойства надлежащим образом для своей цели.</para> 
+      <para>Чтобы отобразить диалоговое окно файла с помощью объекта <b>FileDialog</b> , необходимо использовать <see cref="M:Microsoft.Office.Core.FileDialog.Show" /> метод. Когда откроется диалоговое окно, код не будет выполняться до тех пор, пока пользователь не закрывает диалоговое окно.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="AllowMultiSelect">
@@ -64,13 +70,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет, если пользователь может выбрать несколько файлов из диалогового окна файла.</summary>
+        <summary>Определяет, разрешено ли пользователю выбирать несколько файлов в диалоговом окне файла.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Данное свойство возвращает <b>значение True, если пользователь может выбрать несколько файлов из диалогового окна файла;</b><b>Значение false,</b> если они не допускается.</para>
-          <para>Это свойство не оказывает влияния на диалоговые окна выбора папки или диалоговые окна Сохранить как, так как пользователи никогда не должны иметь возможность выбрать несколько файлов в этих типов диалоговых окнах файлов.</para>
-          <para />
-        </remarks>
+        <remarks><para>Это свойство возвращает <b>значение true</b> , если пользователю разрешено выбирать несколько файлов в диалоговом окне файла; <b>Значение false</b> , если они не разрешены.</para> 
+          <para>Это свойство не оказывает никакого действия для диалоговых окон средства выбора папок и диалоговых окон SaveAs, так как пользователи не должны иметь возможность выбирать несколько файлов в диалоговых окнах файлов таких типов.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -99,7 +103,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -130,12 +134,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <b>строку</b> , представляющую текст, отображаемый на кнопке действие диалогового окна файла.</summary>
+        <summary>Возвращает или задает <b>строку</b> , представляющую текст, отображаемый на кнопке "действие" диалогового окна "файл".</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>По умолчанию этому свойству присвоено стандартный текст для типа диалогового окна файла. Например в случае диалоговым окном открыть, свойство — это значение «Открыть» по умолчанию. Эта строка ограничен одним 50 символов.</para>
-          <para />
-        </remarks>
+        <remarks><para>По умолчанию для этого свойства задается стандартный текст для диалогового окна тип файла. Например, в диалоговом окне Открыть свойство по умолчанию имеет значение "Открыть". Эта строка ограничена 51 символами.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -164,12 +166,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.FileDialog.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.FileDialog.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DialogType">
@@ -195,7 +197,7 @@
         <ReturnType>Microsoft.Office.Core.MsoFileDialogType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.MsoFileDialogType" /> константа, представляющий тип файла диалогового окна поле, которое <see cref="T:Microsoft.Office.Core.FileDialog" /> объект настроен для отображения.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.MsoFileDialogType" /> константу, представляющую тип диалогового окна, для <see cref="T:Microsoft.Office.Core.FileDialog" /> которого настроено отображение объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -221,11 +223,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Запускает процедуры или встроенные команды, назначенные для элемента управления панели команд указанного.</summary>
-        <remarks>
-          <para>Для <see cref="T:Microsoft.Office.Core.FileDialog" /> объекты с типом <b>msoFileDialogOpen</b> или <b>msoFileDialogSaveAs</b>выполняет действие право после <see cref="M:Microsoft.Office.Core.FileDialog.Show" /> вызван метод.</para>
-          <para />
-        </remarks>
+        <summary>Запускает процедуру или встроенную команду, назначенную указанному элементу управления "панель команд".</summary>
+        <remarks><para>Для <see cref="T:Microsoft.Office.Core.FileDialog" /> объектов типа <b>мсофиледиалогопен</b> или <b>мсофиледиалогсавеас</b>выполняет действие пользователя сразу после вызова <see cref="M:Microsoft.Office.Core.FileDialog.Show" /> метода.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FilterIndex">
@@ -254,13 +254,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <b>целое число</b> , указывающее, фильтр файлов по умолчанию из диалогового окна файла.</summary>
+        <summary>Возвращает или задает <b>целое число</b> , обозначающее фильтр файлов по умолчанию для диалогового окна файла.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>При попытке установить это свойство больше, чем количество фильтров, будет выбран последний фильтр недоступны.</para>
-          <para>Фильтра по умолчанию определяет типы файлов, которые отображаются при первом открытии диалогового окна файла.</para>
-          <para />
-        </remarks>
+        <remarks><para>Если вы попытаетесь установить для этого свойства число, превышающее число фильтров, будет выбран последний доступный фильтр.</para> 
+          <para>Фильтр по умолчанию определяет типы файлов, которые отображаются при первом открытии диалогового окна "файл".</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Filters">
@@ -286,7 +284,7 @@
         <ReturnType>Microsoft.Office.Core.FileDialogFilters</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> семейства сайтов.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> коллекцию.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -317,17 +315,15 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <b>строку</b> , представляющую имя пути и/или файл, который отображается в диалоговом окне файла.</summary>
+        <summary>Возвращает или задает <b>строку</b> , представляющую путь и/или имя файла, которое изначально отображается в диалоговом окне файла.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Можно использовать «*» и знаки подстановки «?» при указании имени файла, но не в том случае, когда Выбор пути. "*" Представляет любое число последовательности символов, а «?» представляет один символ. Например. InitialFileName = «c:\c*s.txt» возвращает «charts.txt» и «checkregister.txt.»</para>
-          <para>Если укажите путь и имя файла не, а затем в диалоговом окне отображаются все файлы, в которых разрешен фильтром файлов.</para>
-          <para>Если указать файл, который существует в исходной папке, а затем только этот файл будет отображаться в диалоговом окне.</para>
-          <para>При указании имя файла, который не существует в папке начальной, а затем диалоговое окно будет содержать ни одного файла. Тип файла, который указан в свойстве <b>InitialFileName</b> переопределяют параметры фильтра файлов.</para>
-          <para>, Если указан недопустимый путь, путь последний использовавшийся используется. Появится сообщение, предупреждающее пользователей при использовании недопустимый путь.</para>
-          <para>Этого свойства к типу string более 256 символов вызовет ошибку времени выполнения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Можно использовать*подстановочные знаки "и"? "при указании имени файла, но не при указании пути. "" Представляет*любое количество последовательных символов, а "?" представляет отдельный символ. Например. InitialFileName = "к:\к * s. txt" вернет как "Charts. txt", так и "чеккрегистер. txt".</para> 
+          <para>Если указать путь без имени файла, в диалоговом окне будут отображаться все файлы, разрешенные фильтром файлов.</para> 
+          <para>Если указать файл, который находится в исходной папке, в диалоговом окне будет отображаться только этот файл.</para> 
+          <para>Если указать имя файла, которое не существует в исходной папке, диалоговое окно не будет содержать файлов. Тип файла, указанного в свойстве <b>InitialFileName</b> , переопределяет параметры фильтра файлов.</para> 
+          <para>Если указан недопустимый путь, используется последний использованный путь. При использовании недопустимого пути будет выдаваться предупреждение пользователям.</para> 
+          <para>Установка для этого свойства строки длиной более 256 символов приведет к ошибке во время выполнения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="InitialView">
@@ -356,7 +352,7 @@
         <ReturnType>Microsoft.Office.Core.MsoFileDialogView</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoFileDialogView" /> константа, представляющий начальное представление файлов и папок из диалогового окна файла.</summary>
+        <summary>Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoFileDialogView" /> константу, представляющую начальное представление файлов и папок в диалоговом окне файла.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -384,7 +380,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает текст, связанного с объектом.</summary>
+        <summary>Возвращает текст, связанный с объектом.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -440,12 +436,10 @@
         <ReturnType>Microsoft.Office.Core.FileDialogSelectedItems</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.FileDialogSelectedItems" /> семейства сайтов.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.FileDialogSelectedItems" /> коллекцию.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Данную коллекцию список путей файлов, которые пользователь из диалогового окна файла отображения с использованием <see cref="M:Microsoft.Office.Core.FileDialog.Show" /> метод <see cref="T:Microsoft.Office.Core.FileDialog" /> объекта.</para>
-          <para />
-        </remarks>
+        <remarks><para>Эта коллекция содержит список путей к файлам, которые пользователь выбрал в диалоговом окне файла с помощью <see cref="M:Microsoft.Office.Core.FileDialog.Show" /> метода <see cref="T:Microsoft.Office.Core.FileDialog" /> объекта.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Show">
@@ -469,12 +463,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отображение диалогового окна файла и возвращает <b>целое число</b> , указывающее, является ли пользователь нажимает кнопку действие (-1) или нажатии кнопки "Отмена" (0).</summary>
+        <summary>Отображает диалоговое окно файла и возвращает <b>целое число</b> , указывающее, нажал ли пользователь кнопку действия (-1) или кнопку Отмена (0).</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>При вызове метода <b>Show</b> , не более код будет выполняться, пока пользователь не закрывает диалоговое окно "файл". В случае диалоговые окна Открыть "и" Сохранить как, используйте <see cref="M:Microsoft.Office.Core.FileDialog.Execute" /> метод сразу же после метода <b>Show</b> , чтобы выполнить действия пользователя.</para>
-          <para />
-        </remarks>
+        <remarks><para>При вызове метода <b>Show</b> больше не будет выполняться никакого кода, пока пользователь не закрывает диалоговое окно. В случае диалоговых окон Открыть и сохранить как используйте <see cref="M:Microsoft.Office.Core.FileDialog.Execute" /> метод сразу после метода <b>Show</b> , чтобы выполнить действие пользователя.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Title">
@@ -503,7 +495,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает заголовок отображения с использованием диалогового окна файла <see cref="T:Microsoft.Office.Core.FileDialog" /> объекта.</summary>
+        <summary>Возвращает или задает заголовок диалогового окна файла, <see cref="T:Microsoft.Office.Core.FileDialog" /> отображаемого с помощью объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

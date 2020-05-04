@@ -1,13 +1,5 @@
 <Type Name="MsoControlType" FullName="Microsoft.Office.Core.MsoControlType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dc2aea21eab3314ebec7550dde32f66b9caea87b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661717" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoControlType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dc2aea21eab3314ebec7550dde32f66b9caea87b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661717" /></Metadata><TypeSignature Language="C#" Value="public enum MsoControlType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoControlType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoControlType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoControlType" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип элемента управления панели команд.</summary>
-    <remarks>
-      <para>Используется с методом <b>Add</b> объекта <b>CommandBarControls</b> . Только ограниченный набор типов элементов управления можно создать с помощью объектной модели <b>CommandBars</b> : <b>msoControlButton</b>, <b>msoControlEdit</b>, <b>msoControlDropdown</b>, <b>msoControlComboBox</b>, <b>msoControlPopup</b>и <b> msoControlActiveX</b>. Другие типы элементов управления, могут существовать в панели команд встроенные или надстройки, но не может быть создан с помощью объектной модели.</para>
-      <para />
-    </remarks>
+    <summary>Задает тип элемента управления "панель команд".</summary>
+    <remarks><para>Используется с методом <b>Add</b> объекта <b>CommandBarControls</b> . С помощью объектной модели <b>CommandBars</b> можно создать только ограниченный набор типов элементов управления: <b>мсоконтролбуттон</b>, <b>мсоконтроледит</b>, <b>мсоконтролдропдовн</b>, <b>мсоконтролкомбобокс</b>, <b>мсоконтролпопуп</b>и <b>msoControlActiveX</b>. Другие типы элементов управления могут существовать на встроенных панелях команд или в панелях команд надстройки, но не могут создаваться с помощью объектной модели.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoControlActiveX">
@@ -62,7 +52,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>Поле со списком, в котором первый соответствующий вариант автоматически заполняется как введенных пользователем. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Поле со списком, в котором первый подходящий вариант автоматически заполняется в качестве типа пользователя. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlButton">
@@ -81,7 +71,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Кнопки команды.</summary>
+        <summary>Кнопка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlButtonDropdown">
@@ -100,7 +90,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Раскрывающийся список кнопки. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Кнопка раскрывающегося список. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlButtonPopup">
@@ -119,7 +109,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Кнопка всплывающего. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Всплывающая кнопка. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlComboBox">
@@ -214,7 +204,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Развертывание сетки. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Разворачивание сетки. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlGauge">
@@ -233,7 +223,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Оценить допустимое для элемента управления. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Контроль датчика. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlGenericDropdown">
@@ -252,7 +242,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Универсальный раскрывающегося списка. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Общий раскрывающийся список. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlGraphicCombo">
@@ -271,7 +261,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Рисунок, связанный со списком. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Графическое поле со списком. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlGraphicDropdown">
@@ -290,7 +280,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Рисунок, связанный с раскрывающегося списка. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Раскрывающийся список "график". Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlGraphicPopup">
@@ -309,7 +299,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Рисунок, связанный с всплывающего меню. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Всплывающее меню "графика". Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlGrid">
@@ -328,7 +318,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Сетка. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Таблице. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlLabel">
@@ -347,7 +337,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Метки. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Клей. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlLabelEx">
@@ -366,7 +356,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>Расширенные метки. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Расширенная метка. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlOCXDropdown">
@@ -385,7 +375,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>OCX раскрывающегося списка. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Раскрывающийся список OCX. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlPane">
@@ -404,7 +394,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Область. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Панелей. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlPopup">
@@ -442,7 +432,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>Счетчик. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Spinner. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlSplitButtonMRUPopup">
@@ -461,7 +451,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Большинство всплывающее окно недавно использованных файлов (MRU). Невозможно создать с помощью объектной модели.</summary>
+        <summary>Всплывающее окно с последним использованием (MRU). Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlSplitButtonPopup">
@@ -480,7 +470,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Разворачивающаяся кнопка всплывающего. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Всплывающая кнопка "разделить". Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlSplitDropdown">
@@ -499,7 +489,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Разделение раскрывающегося списка. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Раскрывающийся список разделений. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlSplitExpandingGrid">
@@ -518,7 +508,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Разделение расширяющегося сетке. Невозможно создать с помощью объектной модели.</summary>
+        <summary>Разделите развернутую сетку. Невозможно создать с помощью объектной модели.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlWorkPane">

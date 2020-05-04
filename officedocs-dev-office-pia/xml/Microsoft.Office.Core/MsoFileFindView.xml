@@ -1,13 +1,5 @@
 <Type Name="MsoFileFindView" FullName="Microsoft.Office.Core.MsoFileFindView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a471734eb18f174baf4c3a3aa68d273a02ef6e99" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661648" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFileFindView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a471734eb18f174baf4c3a3aa68d273a02ef6e99" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661648" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFileFindView" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileFindView extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileFindView" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFileFindView" />
@@ -25,11 +17,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Указывает представление для процесса поиска файлов.</summary>
-    <remarks>
-      <para>Используется с объектом <b>FileFind</b> . Этот объект больше не поддерживается.</para>
-      <para />
-    </remarks>
+    <summary>Указывает представление, используемое для процесса поиска файлов.</summary>
+    <remarks><para>Используется с объектом <b>филефинд</b> . Этот объект больше не поддерживается.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoViewFileInfo">
@@ -48,7 +38,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Просмотреть сведения о файле.</summary>
+        <summary>Просмотр сведений о файле.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoViewPreview">
@@ -67,7 +57,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Просмотр представления файла.</summary>
+        <summary>Предварительный просмотр файла.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoViewSummaryInfo">
@@ -86,7 +76,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Просмотр сводки.</summary>
+        <summary>Просмотр сводных сведений.</summary>
       </Docs>
     </Member>
   </Members>

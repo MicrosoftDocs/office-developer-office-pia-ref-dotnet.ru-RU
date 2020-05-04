@@ -1,13 +1,5 @@
 <Type Name="_CustomXMLPart" FullName="Microsoft.Office.Core._CustomXMLPart">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="39da742c05be0b18a6b3f5cd128987d38d9112f2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661876" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CustomXMLPart : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="39da742c05be0b18a6b3f5cd128987d38d9112f2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661876" /></Metadata><TypeSignature Language="C#" Value="public interface _CustomXMLPart : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomXMLPart implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLPart" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CustomXMLPart&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет один <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> в <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> семейства сайтов.</summary>
+    <summary>Представляет один <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> элемент в <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> коллекции.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -61,17 +53,15 @@
         <Parameter Name="NodeValue" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Parent">Представляет узел, под которой будет добавлен в этом узле. При добавлении атрибута, параметр определяет элемент, который следует добавить атрибут.</param>
-        <param name="Name">Представляет базовое имя узла будет добавлена.</param>
-        <param name="NamespaceURI">Представляет пространство имен добавляемый элемент. Этот параметр необходим для добавления узлов типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" /> или <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />, в противном случае игнорируется.</param>
-        <param name="NextSibling">Представляет узел, который должен стать следующий одноуровневый новый узел. Если не указан, узел добавляется в конец дочерних элементов родительского узла. Этот параметр игнорируется для добавления типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />. Если узел не является дочерним родительского, выводится сообщение об ошибке.</param>
-        <param name="NodeType">Указывает тип узла для добавления. Если параметр не указан, предполагается иметь тип <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</param>
-        <param name="NodeValue">Используется для задания значения добавленный узел для тех узлов, которые позволяют текста. Если узел не поддерживает текст, параметр игнорируется.</param>
-        <summary>Добавляет узел в дереве XML.</summary>
-        <remarks>
-          <para>Если <see cref="M:Microsoft.Office.Core._CustomXMLPart.AddNode(Microsoft.Office.Core.CustomXMLNode,System.String,System.String,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.MsoCustomXMLNodeType,System.String)" /> операции приведет к недопустимый древовидной структуре, append не выполняется, и отображается сообщение об ошибке.</para>
-          <para />
-        </remarks>
+        <param name="Parent">Представляет узел, в который следует добавить этот узел. При добавлении атрибута этот параметр указывает элемент, к которому должен быть добавлен атрибут.</param>
+        <param name="Name">Представляет базовое имя добавляемого узла.</param>
+        <param name="NamespaceURI">Представляет пространство имен добавляемого элемента. Этот параметр является обязательным для добавления узлов типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" /> или <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />, в противном случае, игнорируется.</param>
+        <param name="NextSibling">Представляет узел, который должен стать следующим одноуровневым элементом нового узла. Если этот параметр не указан, узел добавляется в конец дочерних узлов родительского узла. Этот параметр игнорируется для добавлений типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />. Если узел не является дочерним по отношению к родительскому, отображается сообщение об ошибке.</param>
+        <param name="NodeType">Указывает тип добавляемого узла. Если параметр не указан, предполагается, что он имеет тип <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</param>
+        <param name="NodeValue">Используется для задания значения присоединенного узла для тех узлов, которые разрешают текст. Если узел не поддерживает текст, параметр игнорируется.</param>
+        <summary>Добавляет узел в дерево XML.</summary>
+        <remarks><para>Если <see cref="M:Microsoft.Office.Core._CustomXMLPart.AddNode(Microsoft.Office.Core.CustomXMLNode,System.String,System.String,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.MsoCustomXMLNodeType,System.String)" /> операция приведет к недопустимой древовидной структуре, то добавление не выполняется и отображается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -100,10 +90,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -130,10 +118,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает значение, указывающее, является ли <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> является встроенной. Только для чтения</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает значение, указывающее, является ли <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> элемент встроенным. Только для чтения</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -163,10 +149,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -191,11 +175,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет текущий <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> из хранилища данных (<b>IXMLDataStore</b> интерфейс).</summary>
-        <remarks>
-          <para>При попытке удалить часть, содержащую основные свойства, операция не выполняется, и отображается сообщение об ошибке.</para>
-          <para />
-        </remarks>
+        <summary>Удаляет текущее <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> значение из хранилища данных (интерфейса<b>иксмлдатасторе</b> ).</summary>
+        <remarks><para>При попытке удалить часть, содержащую основные свойства, операция не выполняется и отображается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DocumentElement">
@@ -221,10 +203,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLNode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает корневой элемент привязки области данных в документе. Если область является пустой, это свойство возвращает <b>значение Nothing</b>. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNode" />
-        </value>
+        <summary>Получает корневой элемент связанной области данных в документе. Если область пуста, свойство <b>не возвращает значение Nothing</b>. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLNode" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -251,10 +231,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLValidationErrors</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> объект, предоставляющий доступ к ошибки проверки XML, если какие-либо существует. Если нет ошибки проверки отсутствуют, это свойство возвращает <b>значение Nothing</b>. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" />
-        </value>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> объект, предоставляющий доступ к любым ошибкам проверки XML, если они существуют. Если ошибок проверки не существует, это свойство <b>не возвращает значение Nothing</b>. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -281,10 +259,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <b>строку</b> , содержащую идентификатор GUID, назначенный для текущего <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Возвращает <b>строку</b> , содержащую идентификатор GUID, назначенный текущему <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекту. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -311,11 +287,9 @@
         <Parameter Name="FilePath" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="FilePath">Указывает файл на компьютере пользователя или в сети, содержащей XML-код для загрузки.</param>
-        <summary>Позволяет автору шаблона для заполнения <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> из существующего файла.  Возвращает <b>значение True</b> , если загрузка прошла успешно.</summary>
-        <returns>
-          <b>Boolean</b>
-        </returns>
+        <param name="FilePath">Указывает на файл на компьютере пользователя или в сети, содержащей Загружаемый XML-файл.</param>
+        <summary>Позволяет автору шаблона заполнить <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> существующий файл.  Возвращает <b>значение true</b> , если загрузка выполнена успешно.</summary>
+        <returns><b>Boolean</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -342,11 +316,9 @@
         <Parameter Name="XML" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="XML">Содержит XML-код для загрузки.</param>
-        <summary>Позволяет автору шаблона для заполнения <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объект из XML-строка. Возвращает <b>значение True</b> , если загрузка прошла успешно.</summary>
-        <returns>
-          <b>Boolean</b>
-        </returns>
+        <param name="XML">Содержит загружаемый XML-код.</param>
+        <summary>Позволяет автору шаблона заполнить <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объект из XML-строки. Возвращает <b>значение true</b> , если загрузка выполнена успешно.</summary>
+        <returns><b>Boolean</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -373,10 +345,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLPrefixMappings</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает пространство имен сопоставлений префиксов, используемых для текущего <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" />
-        </value>
+        <summary>Получает набор сопоставлений префиксов пространств имен, используемых для <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> текущего объекта. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -403,10 +373,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор уникальный адрес для пространства имен <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает уникальный идентификатор пространства имен <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -434,9 +402,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -466,10 +432,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLSchemaCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает <see cref="T:Microsoft.Office.Core.CustomXMLSchemaCollection" /> объект, представляющий набор схем, подключенного к связанной области данных в документе. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLSchemaCollection" />
-        </value>
+        <summary>Получает или задает <see cref="T:Microsoft.Office.Core.CustomXMLSchemaCollection" /> объект, представляющий набор схем, вложенных в связанную область данных в документе. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLSchemaCollection" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -497,10 +461,8 @@
       </Parameters>
       <Docs>
         <param name="XPath">Содержит выражение XPath.</param>
-        <summary>Выбор семейства узлов из настраиваемой XML-части.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNodes" />
-        </returns>
+        <summary>Выбирает коллекцию узлов из настраиваемой XML-части.</summary>
+        <returns><see cref="T:Microsoft.Office.Core.CustomXMLNodes" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -528,10 +490,8 @@
       </Parameters>
       <Docs>
         <param name="XPath">Содержит выражение XPath.</param>
-        <summary>Выбирает один узел в пользовательской XML-части, соответствующие выражение XPath.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNodes" />
-        </returns>
+        <summary>Выбирает один узел в пользовательской XML-части, соответствующей выражению XPath.</summary>
+        <returns><see cref="T:Microsoft.Office.Core.CustomXMLNodes" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -559,9 +519,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает XML-представление текущего <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

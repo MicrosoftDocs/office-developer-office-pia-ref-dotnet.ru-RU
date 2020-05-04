@@ -1,13 +1,5 @@
 <Type Name="SmartArtNodes" FullName="Microsoft.Office.Core.SmartArtNodes">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5b97a5fbf8ac632e4f765e2c99e02cd3de432910" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661689" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartArtNodes : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5b97a5fbf8ac632e4f765e2c99e02cd3de432910" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661689" /></Metadata><TypeSignature Language="C#" Value="public interface SmartArtNodes : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArtNodes implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArtNodes" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartArtNodes&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,11 +25,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет коллекцию узлов в пределах схемы SmartArt.</summary>
-    <remarks>
-      <para>Эти узлы напрямую соответствуют семантических элементы в модели данных графического объекта.</para>
-      <para />
-    </remarks>
+    <summary>Представляет коллекцию узлов в схеме SmartArt.</summary>
+    <remarks><para>Эти узлы относятся непосредственно к семантическим элементам в модели данных графического объекта.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -61,7 +51,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Добавляет новый <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объект, который требуется схема с указанный текст.</summary>
+        <summary>Добавляет на схему <see cref="T:Microsoft.Office.Core.SmartArtNode" /> новый объект с указанным текстом.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -92,12 +82,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>SmartArtNodes</b> .</summary>
+        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>SmartArtNodes</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -125,10 +113,8 @@
       <Docs>
         <summary>Получает число <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объектов, содержащихся в коллекции <b>SmartArtNodes</b>.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -157,12 +143,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>SmartArtNodes</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>SmartArtNodes</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -193,7 +177,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />.</returns>
+        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -223,8 +207,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">Указывает расположение индекса или строка <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объекта.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объекта по указанному индексу или с указанным уникальным идентификатором.</summary>
+        <param name="Index">Указывает индекс или строковое расположение <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объекта.</param>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объект по указанному индексу или по указанному уникальному идентификатору.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -252,12 +236,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект, вызывающий.</summary>
+        <summary>Получает вызывающий объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

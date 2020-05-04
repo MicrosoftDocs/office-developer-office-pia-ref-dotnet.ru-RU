@@ -1,13 +1,5 @@
 <Type Name="XlConstants" FullName="Microsoft.Office.Core.XlConstants">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="de846a6c663650f7518b044fd032f3795ac39089" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661742" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlConstants" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="de846a6c663650f7518b044fd032f3795ac39089" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661742" /></Metadata><TypeSignature Language="C#" Value="public enum XlConstants" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlConstants extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlConstants" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlConstants" />
@@ -25,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает глобальные констант, используемых в Microsoft Excel.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Указывает глобальные константы, используемые в Microsoft Excel.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +37,7 @@
       </ReturnValue>
       <MemberValue>-4099</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4099</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4099</summary>
       </Docs>
     </Member>
     <Member MemberName="xl3DSurface">
@@ -64,7 +56,7 @@
       </ReturnValue>
       <MemberValue>-4103</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4103</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4103</summary>
       </Docs>
     </Member>
     <Member MemberName="xlAbove">
@@ -83,7 +75,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  0</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  нуль</summary>
       </Docs>
     </Member>
     <Member MemberName="xlAutomatic">
@@ -102,7 +94,7 @@
       </ReturnValue>
       <MemberValue>-4105</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4105</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4105</summary>
       </Docs>
     </Member>
     <Member MemberName="xlBar">
@@ -140,7 +132,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  1</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  1,1</summary>
       </Docs>
     </Member>
     <Member MemberName="xlBoth">
@@ -159,7 +151,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  1</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  1,1</summary>
       </Docs>
     </Member>
     <Member MemberName="xlBottom">
@@ -178,7 +170,7 @@
       </ReturnValue>
       <MemberValue>-4107</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4017</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4017</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCenter">
@@ -197,7 +189,7 @@
       </ReturnValue>
       <MemberValue>-4108</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4108</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4108</summary>
       </Docs>
     </Member>
     <Member MemberName="xlChecker">
@@ -216,7 +208,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  9</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  9 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlCircle">
@@ -235,7 +227,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  8</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  8 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlColumn">
@@ -254,7 +246,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCombination">
@@ -273,7 +265,7 @@
       </ReturnValue>
       <MemberValue>-4111</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4111</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4111</summary>
       </Docs>
     </Member>
     <Member MemberName="xlCorner">
@@ -311,7 +303,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  16</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  16 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlCross">
@@ -330,7 +322,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlCustom">
@@ -349,7 +341,7 @@
       </ReturnValue>
       <MemberValue>-4114</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4114</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4114</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDefaultAutoFormat">
@@ -368,7 +360,7 @@
       </ReturnValue>
       <MemberValue>-1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -1</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  –1</summary>
       </Docs>
     </Member>
     <Member MemberName="xlDiamond">
@@ -406,7 +398,7 @@
       </ReturnValue>
       <MemberValue>-4117</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4117</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4117</summary>
       </Docs>
     </Member>
     <Member MemberName="xlFill">
@@ -425,7 +417,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  5</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  5 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlFixedValue">
@@ -444,7 +436,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  1</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  1,1</summary>
       </Docs>
     </Member>
     <Member MemberName="xlGeneral">
@@ -463,7 +455,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  1</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  1,1</summary>
       </Docs>
     </Member>
     <Member MemberName="xlGray16">
@@ -482,7 +474,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  17</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  17 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlGray25">
@@ -501,7 +493,7 @@
       </ReturnValue>
       <MemberValue>-4124</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4124</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4124</summary>
       </Docs>
     </Member>
     <Member MemberName="xlGray50">
@@ -520,7 +512,7 @@
       </ReturnValue>
       <MemberValue>-4125</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4125</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4125</summary>
       </Docs>
     </Member>
     <Member MemberName="xlGray75">
@@ -539,7 +531,7 @@
       </ReturnValue>
       <MemberValue>-4126</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4126</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4126</summary>
       </Docs>
     </Member>
     <Member MemberName="xlGray8">
@@ -558,7 +550,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  18</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  18 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlGrid">
@@ -577,7 +569,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  15</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  15 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlHigh">
@@ -596,7 +588,7 @@
       </ReturnValue>
       <MemberValue>-4127</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4127</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4127</summary>
       </Docs>
     </Member>
     <Member MemberName="xlInside">
@@ -634,7 +626,7 @@
       </ReturnValue>
       <MemberValue>-4130</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4130</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4130</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLeft">
@@ -653,7 +645,7 @@
       </ReturnValue>
       <MemberValue>-4131</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4131</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4131</summary>
       </Docs>
     </Member>
     <Member MemberName="xlLightDown">
@@ -691,7 +683,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  11</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  11 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlLightUp">
@@ -710,7 +702,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  14</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  14 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlLightVertical">
@@ -729,7 +721,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  12</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  12 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlLow">
@@ -748,7 +740,7 @@
       </ReturnValue>
       <MemberValue>-4134</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4134</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4134</summary>
       </Docs>
     </Member>
     <Member MemberName="xlMaximum">
@@ -786,7 +778,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlMinusValues">
@@ -805,7 +797,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4</summary>
       </Docs>
     </Member>
     <Member MemberName="xlNextToAxis">
@@ -824,7 +816,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlNone">
@@ -843,7 +835,7 @@
       </ReturnValue>
       <MemberValue>-4142</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4142</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4142</summary>
       </Docs>
     </Member>
     <Member MemberName="xlOpaque">
@@ -862,7 +854,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4</summary>
       </Docs>
     </Member>
     <Member MemberName="xlOutside">
@@ -881,7 +873,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4</summary>
       </Docs>
     </Member>
     <Member MemberName="xlPercent">
@@ -919,7 +911,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  9</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  9 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlPlusValues">
@@ -957,7 +949,7 @@
       </ReturnValue>
       <MemberValue>-4152</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4152</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4152</summary>
       </Docs>
     </Member>
     <Member MemberName="xlScale">
@@ -976,7 +968,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSemiGray75">
@@ -995,7 +987,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  10</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  10 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlShowLabel">
@@ -1014,7 +1006,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlShowLabelAndPercent">
@@ -1033,7 +1025,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  5</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  5 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlShowPercent">
@@ -1052,7 +1044,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4</summary>
       </Docs>
     </Member>
     <Member MemberName="xlShowValue">
@@ -1109,7 +1101,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  1</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  1,1</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSquare">
@@ -1128,7 +1120,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  1</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  1,1</summary>
       </Docs>
     </Member>
     <Member MemberName="xlStar">
@@ -1147,7 +1139,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  5</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  5 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlStError">
@@ -1166,7 +1158,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4 </summary>
       </Docs>
     </Member>
     <Member MemberName="xlTop">
@@ -1185,7 +1177,7 @@
       </ReturnValue>
       <MemberValue>-4160</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  -4160</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  — 4160</summary>
       </Docs>
     </Member>
     <Member MemberName="xlTransparent">
@@ -1223,7 +1215,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  3</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  4</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="MsoPatternType" FullName="Microsoft.Office.Core.MsoPatternType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="02282470a715404cfd5fe1a0a3dee92b2e249707" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662195" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPatternType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="02282470a715404cfd5fe1a0a3dee92b2e249707" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662195" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPatternType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPatternType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPatternType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPatternType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет шаблон заполнения, используемые в фигуры.</summary>
+    <summary>Указывает узор заливки, используемый в фигуре.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>10% цвет переднего плана.</summary>
+        <summary>10% от основного цвета.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern20Percent">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>20% цвет переднего плана.</summary>
+        <summary>20% от основного цвета.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern25Percent">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>25% цвет переднего плана.</summary>
+        <summary>25% от основного цвета.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern30Percent">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>30% цвет переднего плана.</summary>
+        <summary>30% от основного цвета.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern40Percent">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>40% цвет переднего плана.</summary>
+        <summary>40% от основного цвета.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern50Percent">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>50% цвет переднего плана.</summary>
+        <summary>50% от основного цвета.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern5Percent">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>5% цвет переднего плана.</summary>
+        <summary>5% от основного цвета.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern60Percent">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>60% цвет переднего плана.</summary>
+        <summary>60% от основного цвета.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern70Percent">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>70% цвет переднего плана.</summary>
+        <summary>70% от основного цвета.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern75Percent">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>75% цвет переднего плана.</summary>
+        <summary>75% от основного цвета.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern80Percent">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>80% цвет переднего плана.</summary>
+        <summary>80% от основного цвета.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern90Percent">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>90% цвет переднего плана.</summary>
+        <summary>90% от основного цвета.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternCross">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>51</MemberValue>
       <Docs>
-        <summary>Кросс-</summary>
+        <summary>Состав</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDarkDownwardDiagonal">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Толстые линии в цвет переднего плана, запустив из верхней в правой части фигуры.</summary>
+        <summary>Жирные линии в фоновом режиме, расположенном сверху на правой стороне фигуры.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDarkHorizontal">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Жирная горизонтальные линии в цвет переднего плана.</summary>
+        <summary>Толстые горизонтальные линии в основном цвете.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDarkUpwardDiagonal">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Толстые линии в цвет переднего плана, запустив из верхней в левой части фигуры.</summary>
+        <summary>Жирные линии на основном уровне, начиная с верхнего, до левой стороны фигуры.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDarkVertical">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Жирная вертикальной линии в цвет переднего плана.</summary>
+        <summary>Толстые вертикальные линии в основном цвете.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDashedDownwardDiagonal">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>В цвет переднего плана, запустив из верхней в правой части фигуры в виде пунктирной линии.</summary>
+        <summary>Пунктирные линии в цвете переднего плана, начиная с верхнего края и до правого края фигуры.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDashedHorizontal">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>Пунктирная горизонтальные линии в цвет переднего плана.</summary>
+        <summary>Пунктирные горизонтальные линии в основном цвете.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDashedUpwardDiagonal">
@@ -401,7 +393,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>В цвет переднего плана, запустив из верхней в левой части фигуры в виде пунктирной линии.</summary>
+        <summary>Пунктирные линии в цвете переднего плана, начиная с верхнего края и до левой стороны фигуры.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDashedVertical">
@@ -420,7 +412,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>Пунктирная вертикальной линии в цвет переднего плана.</summary>
+        <summary>Пунктирные вертикальные линии в основном цвете.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDiagonalBrick">
@@ -439,7 +431,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>Прямоугольный граница шаблон выполнения диагонали на форме.</summary>
+        <summary>Узор прямоугольного кирпича, выполняемого по диагонали к фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDiagonalCross">
@@ -458,7 +450,7 @@
       </ReturnValue>
       <MemberValue>54</MemberValue>
       <Docs>
-        <summary>Диагональные нескольких</summary>
+        <summary>Диагональный крест</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDivot">
@@ -477,7 +469,7 @@
       </ReturnValue>
       <MemberValue>46</MemberValue>
       <Docs>
-        <summary>Небольшие угловые фигуры в цвет переднего плана, выполняющегося в чередующихся строк вниз фигуры.</summary>
+        <summary>Небольшие повернутые фигуры в цвете переднего плана, выполняемые в чередующихся строках по отношению к фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDottedDiamond">
@@ -496,7 +488,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>Пунктирная перпендикулярных линии в цвет переднего плана с диагонали к ромбы формы в форме.</summary>
+        <summary>Пунктирные перпендикулярные линии в основном цвете заменяются по диагонали, чтобы обменять ромбы в фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDottedGrid">
@@ -515,7 +507,7 @@
       </ReturnValue>
       <MemberValue>45</MemberValue>
       <Docs>
-        <summary>Пунктирной линии перпендикулярная в цвет переднего плана, выполнив по горизонтали и по вертикали на линиях сетки формы в форме.</summary>
+        <summary>Пунктирные перпендикулярные линии в основном цвете выполняются горизонтально и вертикально для формирования линий сетки по всей фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDownwardDiagonal">
@@ -534,7 +526,7 @@
       </ReturnValue>
       <MemberValue>52</MemberValue>
       <Docs>
-        <summary>Вниз вправо</summary>
+        <summary>По диагонали вниз</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternHorizontal">
@@ -553,7 +545,7 @@
       </ReturnValue>
       <MemberValue>49</MemberValue>
       <Docs>
-        <summary>Горизонтальная</summary>
+        <summary>Горизонтальный</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternHorizontalBrick">
@@ -572,7 +564,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>Шаблон прямоугольный граница под управлением по горизонтали между фигуры.</summary>
+        <summary>Узор прямоугольного кирпича, который выполняется горизонтально по отношению к фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLargeCheckerBoard">
@@ -591,7 +583,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>Квадраты в других цвета переднего плана и фона.</summary>
+        <summary>Квадраты в чередующихся цветах переднего плана и фона.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLargeConfetti">
@@ -610,7 +602,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>Крупного размера в цвет переднего плана находятся на форме.</summary>
+        <summary>Крупные точки в основном цвете, разбросанном по всей фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLargeGrid">
@@ -629,7 +621,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>Сплошной, широко расстоянии друг от друга перпендикулярных линии в цвет переднего плана, выполнив по горизонтали и по вертикали на линиях сетки формы в форме.</summary>
+        <summary>Сплошные перпендикулярные линии в фоновом цвете, которые выполняются горизонтально и вертикально для формирования линий сетки по всей фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLightDownwardDiagonal">
@@ -648,7 +640,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Тонкие линии в цвет переднего плана, запустив из верхней в правой части фигуры.</summary>
+        <summary>Тонкие линии в основном цвете, расположенном сверху на правой стороне фигуры.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLightHorizontal">
@@ -667,7 +659,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Тонкие горизонтальные линии в цвет переднего плана.</summary>
+        <summary>Тонкие горизонтальные линии в основном цвете.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLightUpwardDiagonal">
@@ -686,7 +678,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>Тонкие линии в цвет переднего плана, запустив из верхней в левой части фигуры.</summary>
+        <summary>Тонкие линии в основном цвете, начиная с верхнего, до левой стороны фигуры.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLightVertical">
@@ -705,7 +697,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Тонкие вертикальной линии в цвет переднего плана.</summary>
+        <summary>Тонкие вертикальные линии в основном цвете.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternMixed">
@@ -743,7 +735,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>Цвет переднего плана узко расстоянии друг от друга горизонтальные линии.</summary>
+        <summary>Узкие горизонтальные линии в основном цвете.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternNarrowVertical">
@@ -762,7 +754,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>Узко расстоянии друг от друга вертикальной линии в цвет переднего плана.</summary>
+        <summary>Узкие вертикальные линии в основном цвете.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternOutlinedDiamond">
@@ -781,7 +773,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>Сплошной перпендикулярных линии в цвет переднего плана с диагонали к ромбы формы в форме.</summary>
+        <summary>Сплошные перпендикулярные линии в основном цвете заменяются по диагонали, чтобы обменять ромбы в фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternPlaid">
@@ -800,7 +792,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>Очень Жирная линия под управлением по вертикали, цвет переднего плана в сочетании с очень толстые линии и цвета переднего плана, выполнив по горизонтали на 40%.</summary>
+        <summary>Очень толстые сплошные линии фонового цвета, которые выполняются вертикально, вместе с очень толстыми линиями и 40% от основного цвета, запущенного горизонтально.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternShingle">
@@ -819,7 +811,7 @@
       </ReturnValue>
       <MemberValue>47</MemberValue>
       <Docs>
-        <summary>Перекрывающиеся кривой прямоугольники диагонали выполнения на форме.</summary>
+        <summary>Пересекающиеся изогнутые прямоугольники, работающие по диагонали в фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternSmallCheckerBoard">
@@ -838,7 +830,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>Небольшие квадраты в других цвета переднего плана и фона.</summary>
+        <summary>Небольшие квадраты в чередующихся цветах переднего плана и фона.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternSmallConfetti">
@@ -857,7 +849,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>Точки в цвет переднего плана находятся на форме.</summary>
+        <summary>Небольшие точки в основном цвете, разбросанном по фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternSmallGrid">
@@ -876,7 +868,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>Сплошной, близко расположенные перпендикулярных линии в цвет переднего плана, выполнив по горизонтали и по вертикали на линиях сетки формы в форме.</summary>
+        <summary>Однородные перпендикулярные линии в основном цвете, которые выполняются горизонтально и вертикально, для формирования линий сетки по всей фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternSolidDiamond">
@@ -895,7 +887,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>Ромб фигур в чередующихся цвета переднего плана и фона.</summary>
+        <summary>Фигуры ромбов в чередующихся цветах переднего плана и фона.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternSphere">
@@ -914,7 +906,7 @@
       </ReturnValue>
       <MemberValue>43</MemberValue>
       <Docs>
-        <summary>Круга, использующие цвета переднего плана и фона, чтобы они появлялись трехмерную, ориентированного в строках в форме.</summary>
+        <summary>Круги, которые используют цвет переднего плана и фона, чтобы сделать их трехмерными, ориентированными по строкам в фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternTrellis">
@@ -933,7 +925,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Шпалера в цвет переднего плана.</summary>
+        <summary>Шаблон Треллис на основном цвете.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternUpwardDiagonal">
@@ -952,7 +944,7 @@
       </ReturnValue>
       <MemberValue>53</MemberValue>
       <Docs>
-        <summary>Вверх вправо</summary>
+        <summary>По диагонали вверх</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternVertical">
@@ -971,7 +963,7 @@
       </ReturnValue>
       <MemberValue>50</MemberValue>
       <Docs>
-        <summary>По вертикали</summary>
+        <summary>Вертикальный</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternWave">
@@ -990,7 +982,7 @@
       </ReturnValue>
       <MemberValue>48</MemberValue>
       <Docs>
-        <summary>Волнистой линией в цвет переднего плана.</summary>
+        <summary>Волнистые линии на основном цвете.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternWeave">
@@ -1009,7 +1001,7 @@
       </ReturnValue>
       <MemberValue>44</MemberValue>
       <Docs>
-        <summary>Объединить шаблон в цвет переднего плана, выполнения диагонали на форме.</summary>
+        <summary>Шаблон плетения на основном цвете, который используется по диагонали к фигуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternWideDownwardDiagonal">
@@ -1028,7 +1020,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>Широко расстоянии друг от друга линии в цвет переднего плана, запустив из верхней в правой части фигуры.</summary>
+        <summary>Широко зафиксированные линии в фоновом цвете, расположенном сверху на правой стороне фигуры.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternWideUpwardDiagonal">
@@ -1047,7 +1039,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>Широко расстоянии друг от друга линии в цвет переднего плана, запустив из верхней в левой части фигуры.</summary>
+        <summary>Широко зафиксированные линии в фоновом цвете, расположенном сверху в левой части фигуры.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternZigZag">
@@ -1066,7 +1058,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>Под управлением по горизонтали между фигуры зигзаг линии.</summary>
+        <summary>Линии Зигзаг работают горизонтально в фигуре.</summary>
       </Docs>
     </Member>
   </Members>

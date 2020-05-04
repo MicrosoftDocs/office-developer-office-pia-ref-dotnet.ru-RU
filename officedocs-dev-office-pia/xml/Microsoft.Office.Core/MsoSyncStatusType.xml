@@ -1,13 +1,5 @@
 <Type Name="MsoSyncStatusType" FullName="Microsoft.Office.Core.MsoSyncStatusType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="590fab7bdce81914d7571e3ac72c638ba64a316e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661930" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoSyncStatusType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="590fab7bdce81914d7571e3ac72c638ba64a316e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661930" /></Metadata><TypeSignature Language="C#" Value="public enum MsoSyncStatusType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncStatusType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncStatusType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncStatusType" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает состояние синхронизации локальной копии активного документа с копией на сервере.</summary>
-    <remarks>
-      <para>Используется с <see cref="P:Microsoft.Office.Core.Sync.Status" /> свойства <see cref="T:Microsoft.Office.Core.Sync" /> объекта.</para>
-      <para />
-    </remarks>
+    <summary>Задает состояние синхронизации локальной копии активного документа с копией на сервере.</summary>
+    <remarks><para>Используется со <see cref="P:Microsoft.Office.Core.Sync.Status" /> свойством <see cref="T:Microsoft.Office.Core.Sync" /> объекта.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoSyncStatusConflict">
@@ -43,7 +33,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Локальный и копий сервера есть изменения.</summary>
+        <summary>Локальные и серверные копии имеют изменения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncStatusError">
@@ -62,7 +52,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Произошла ошибка. Используйте свойство <b>ErrorType</b> объекта <b>синхронизации</b> для определения точного ошибки.</summary>
+        <summary>Произошла ошибка. Чтобы определить точную ошибку, используйте свойство <b>ErrorType</b> объекта <b>Sync</b> .</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncStatusLatest">
@@ -81,7 +71,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Документы синхронизированы.</summary>
+        <summary>Документы уже синхронизированы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncStatusLocalChanges">
@@ -100,7 +90,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Только локальная копия внесены изменения.</summary>
+        <summary>Только локальная копия содержит изменения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncStatusNewerAvailable">
@@ -119,7 +109,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Только копии на сервере внесены изменения.</summary>
+        <summary>Только копия на сервере содержит изменения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncStatusNoSharedWorkspace">
@@ -138,7 +128,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Общей рабочей области.</summary>
+        <summary>Нет общей рабочей области.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncStatusNotRoaming">
@@ -157,7 +147,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Нет синхронизации не требуется.</summary>
+        <summary>Синкронизатион не требуется.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncStatusSuspended">
@@ -176,7 +166,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Синхронизация был приостановлен. Можно использовать метод <b>Unsuspend</b> объекта <b>синхронизации</b> для продолжения синхронизации.</summary>
+        <summary>Синхронизация приостановлена. Чтобы возобновить синхронизацию, можно использовать метод <b>unsuspend</b> объекта <b>Sync</b> .</summary>
       </Docs>
     </Member>
   </Members>

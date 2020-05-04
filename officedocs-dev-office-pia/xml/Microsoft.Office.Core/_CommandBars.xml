@@ -1,13 +1,5 @@
 <Type Name="_CommandBars" FullName="Microsoft.Office.Core._CommandBars">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3690a288cdc35a5dc583d70da726bfd1516db3f6" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662182" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CommandBars : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3690a288cdc35a5dc583d70da726bfd1516db3f6" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662182" /></Metadata><TypeSignature Language="C#" Value="public interface _CommandBars : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBars implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBars" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CommandBars&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,15 +25,13 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Коллекцию <see cref="T:Microsoft.Office.Core.CommandBar" /> объекты, которые представляют панели команд в приложении контейнера.</summary>
-    <remarks>
-      <para>Использование <see cref="P:Microsoft.Office.Core.MsoEnvelopeClass.CommandBars" /> свойство для возврата коллекции <b>CommandBars</b> .</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core._CommandBars.Add(System.Object,System.Object,System.Object,System.Object)" /> способ добавления новой панели команд в коллекцию.</para>
-      <para>Использования <b>CommandBars</b>(<paramref name="index" />) (на Visual Basic.NET) или <b>CommandBars</b>[<paramref name="index" />] (C#), где <paramref name="index" /> — имя или номер индекса панели команд, чтобы возвратить объект <b>CommandBar</b> .</para>
-      <para>
-        <b>Примечание</b>: имя или номер индекса можно использовать для указания строка меню или панели инструментов в списке Доступные меню и панели инструментов в приложение-контейнер. Тем не менее необходимо использовать имя для указания меню, контекстное меню или подменю (каждый из которых представлены объекты <b>CommandBar</b> ). Если двух или нескольких настраиваемых меню и подменю имеет то же имя, <b>CommandBars</b>(<paramref name="index" />) возвращает первый. Чтобы вернуть правильное меню или подменю, найдите пункта контекстного меню, который отображает этого меню. Применить <see cref="P:Microsoft.Office.Core.CommandBarPopup.CommandBar" /> свойство для пункта контекстного меню для возврата панели команд, который представляет это меню.</para>
-      <para />
-    </remarks>
+    <summary>Коллекция <see cref="T:Microsoft.Office.Core.CommandBar" /> объектов, представляющих панели команд в приложении-контейнере.</summary>
+    <remarks><para>Используйте <see cref="P:Microsoft.Office.Core.MsoEnvelopeClass.CommandBars" /> свойство, чтобы возвратить коллекцию <b>CommandBars</b> .</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core._CommandBars.Add(System.Object,System.Object,System.Object,System.Object)" /> метод, чтобы добавить новую панель команд в коллекцию.</para> 
+      <para>Используйте <b>CommandBars</b>(<paramref name="index" />) (Visual Basic.NET) или <b>CommandBars</b>[<paramref name="index" />] (C#), где <paramref name="index" /> — это имя или номер индекса панели команд, чтобы вернуть один объект <b>CommandBar</b> .</para> 
+      <para> 
+        <b>Note</b>: имя или номер индекса можно использовать для указания строки меню или панели инструментов в списке доступных строк меню и панелей инструментов в приложении контейнера. Однако необходимо использовать имя, чтобы указать меню, контекстное меню или подменю (все из них представлены объектами <b>CommandBar</b> ). Если два или более настраиваемых меню или подменю имеют одно и то же <b>CommandBars</b>имя, CommandBars<paramref name="index" />() возвращает первое из них. Чтобы убедиться, что вы возвращаете нужное меню или подменю, выберите всплывающий элемент управления, который отображает это меню. Затем примените <see cref="P:Microsoft.Office.Core.CommandBarPopup.CommandBar" /> свойство к всплывающему элементу управления, чтобы возвратить панель команд, представляющую меню.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="ActionControl">
@@ -67,13 +57,11 @@
         <ReturnType>Microsoft.Office.Core.CommandBarControl</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CommandBarControl" /> которого <see cref="P:Microsoft.Office.Core.CommandBarControl.OnAction" /> свойству выполнение процедуры.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CommandBarControl" /> объект, свойство <see cref="P:Microsoft.Office.Core.CommandBarControl.OnAction" /> которого задано для выполняемой процедуры.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если выполнение процедуры не была инициирована элемента управления панели команд, данное свойство возвращает <b>значение Nothing</b>.</para>
-          <para>Вызова данного свойства и <see cref="P:Microsoft.Office.Core.CommandBarControl.Tag" /> свойство, чтобы определить, какие кнопки панели команд ранее была нажата.</para>
-          <para />
-        </remarks>
+        <remarks><para>Если выполняемая процедура не была инициирована элементом управления "панель команд", это свойство не возвращает <b>значение Nothing</b>.</para> 
+          <para>Вызовите это свойство и <see cref="P:Microsoft.Office.Core.CommandBarControl.Tag" /> свойство, чтобы определить, какая кнопка панели команд была ранее нажата.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveMenuBar">
@@ -99,7 +87,7 @@
         <ReturnType>Microsoft.Office.Core.CommandBar</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CommandBar" /> объект, представляющий active меню в приложении контейнера.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CommandBar" /> объект, представляющий активную строку меню в приложении контейнера.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -130,24 +118,22 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Установке или управления "флажок" для параметра для отображения меню в Microsoft Office, как полный или личные.</summary>
+        <summary>Устанавливает или снимает флажок рядом с элементом управления "флажок" для отображения меню в Microsoft Office как полных, так и персонализированных.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Данное свойство возвращает <b>значение True,</b> Если адаптивный меню включены для всех приложений в Microsoft Office; <b>Значение false</b> в противном случае.</para>
-          <para>Чтобы установить этот элемент управления в любом приложении, выполните следующие действия:</para>
+        <remarks><para>Это свойство возвращает <b>значение true</b> , если адаптивные меню включены для всех приложений в Microsoft Office; В противном случае — <b>false</b> .</para> 
+          <para>Чтобы задать этот элемент управления в любом приложении, выполните следующие действия:</para>
           <list type="number">
             <item>
-              <description>В меню Сервис выберите команду настроить.</description>
-            </item>
+              <description>в меню Сервис выберите пункт Настройка.</description>
+            </item> 
             <item>
-              <description>Выберите вкладку Параметры</description>
-            </item>
+              <description>Перейдите на вкладку Параметры.</description>
+            </item> 
             <item>
-              <description>Всегда показывать полные меню параметр находится в разделе настраиваемые меню и панели инструментов.</description>
-            </item>
+              <description>Параметр всегда показывать полные меню находится в разделе сокращенные меню и панели инструментов.</description>
+            </item> 
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Add">
@@ -175,11 +161,11 @@
         <Parameter Name="Temporary" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Name">Необязательный элемент <b>Object</b>. Имя новой панели команд. Если этот аргумент указан, имя по умолчанию назначается панели команд (например, метод 1).</param>
-        <param name="Position">Необязательный элемент <b>Object</b>. Положение или тип новой панели команд. Может иметь одно из <see cref="T:Microsoft.Office.Core.MsoBarPosition" /> константы, перечисленные в следующей таблице. ConstantDescription<b>msoBarLeft</b>, <b>msoBarTop</b><b>msoBarRight</b><b>msoBarBottom</b>указывает слева, верхней, правой и нижней координат новые команды панели<b>msoBarFloating</b>указывает, что не может быть новая панель команд закрепленного<b>msoBarPopup</b>означает, что новая панель команд будет контекстное меню<b>msoBarMenuBar</b>Macintosh только</param>
-        <param name="MenuBar">Необязательный элемент <b>Object</b>. <b>Значение true</b> для замены active меню с новой панели команд. Значение по умолчанию — <b>False</b>.</param>
-        <param name="Temporary">Необязательный элемент <b>Object</b>. <b>Значение true,</b> чтобы сделать временные новой панели команд. Панели команд временные удаляются при закрытии приложения контейнера. Значение по умолчанию — <b>False</b>.</param>
-        <summary>Создается новая панель команд и добавляет его к коллекции командных строк.</summary>
+        <param name="Name">Необязательный <b>объект</b>. Имя новой панели команд. Если этот аргумент опущен, панель команд назначается имя по умолчанию (например, Custom 1).</param>
+        <param name="Position">Необязательный <b>объект</b>. Позиция или тип новой панели команд. Может быть одной из констант <see cref="T:Microsoft.Office.Core.MsoBarPosition" /> , перечисленных в следующей таблице. Константдескриптион<b>мсобарлефт</b>, <b>мсобартоп</b>, <b>мсобарригхт</b>, <b>мсобарботтом</b>указывает левое, верхнее, правое и нижнее координаты новой панели команд<b>мсобарфлоатинг</b>указывает, что новая панель команд не будет закреплена<b>MsoBarPopup</b>указывает, что новая панель команд будет контекстным меню<b>msoBarMenuBar</b>только для Macintosh</param>
+        <param name="MenuBar">Необязательный <b>объект</b>. <b>Значение true</b> , чтобы заменить активную строку меню новой панелью команд. Значение по умолчанию — <b>False</b>.</param>
+        <param name="Temporary">Необязательный <b>объект</b>. <b>Значение true</b> , чтобы создать временную панель команд. Временные панели команд удаляются при закрытии приложения контейнера. Значение по умолчанию — <b>False</b>.</param>
+        <summary>Создает новую панель команд и добавляет ее в коллекцию панелей команд.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -249,7 +235,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -278,7 +264,7 @@
       </Parameters>
       <Docs>
         <param name="hwnd">To be added.</param>
-        <summary>Фиксирует транзакцию визуализации. Возвращает <b>значение Nothing</b>.</summary>
+        <summary>Фиксирует транзакцию отображения. <b>Ничего не</b>возвращает.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -305,12 +291,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <b>целое</b> значение, указывающее количество элементов в указанном семействе сайтов.</summary>
+        <summary>Возвращает или задает <b>целое</b> значение, указывающее количество элементов в указанной коллекции.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Подсчет включает в себя только строки меню, панели инструментов и контекстные меню.</para>
-          <para />
-        </remarks>
+        <remarks><para>Счетчик включает только строки меню, панели инструментов и контекстные меню.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -339,12 +323,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку «MSWD»; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как это <b>приложение</b> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку "МСВД"; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, как свойство <b>Application</b> всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisableAskAQuestionDropdown">
@@ -373,12 +357,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет, включена ли в раскрывающемся меню Мастер ответов.</summary>
+        <summary>Определяет, включен ли раскрывающийся меню "Мастер ответов".</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Возвращаемое значение равно <b>True</b> , если включена в раскрывающемся меню Мастер ответов; <b>Значение false,</b> Если этот параметр отключен.</para>
-          <para />
-        </remarks>
+        <remarks><para>Возвращаемое значение — <b>true</b> , если раскрывающееся меню мастера ответов включено; <b>Значение false</b> , если отключено.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisableCustomize">
@@ -407,12 +389,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет, если настройки панели инструментов отключен.</summary>
+        <summary>Определяет, отключена ли Настройка панели инструментов.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Возвращаемое значение равно <b>True</b> , если отключено настройки панели инструментов; <b>Значение false,</b> Если этот параметр включен.</para>
-          <para />
-        </remarks>
+        <remarks><para>Возвращаемое значение — <b>true</b> , если настройка панели инструментов отключена; <b>Значение false</b> , если этот параметр включен.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayFonts">
@@ -441,12 +421,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет, если имена шрифтов в поле «шрифт» отображаются в свои шрифты.</summary>
+        <summary>Определяет, отображаются ли названия шрифтов в поле Шрифт на их реальных шрифтах.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Возвращаемое значение равно <b>True</b> , если имена шрифтов в окне "Шрифт" отображаются в их фактических шрифтов; <b>Значение false,</b> если они не отображаются.</para>
-          <para />
-        </remarks>
+        <remarks><para>Возвращаемое значение равно <b>true</b> , если названия шрифтов в поле Шрифт отображаются в их реальных шрифтах; <b>False</b> , если они не отображаются.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayKeysInTooltips">
@@ -475,13 +453,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет, если сочетания клавиш отображаются во всплывающих подсказках для каждого элемента управления панели команд.</summary>
+        <summary>Определяет, отображаются ли сочетания клавиш в подсказках для каждого элемента управления "панель команд".</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Возвращаемое значение равно <b>True</b> , если сочетания клавиш, отображаются во всплывающих подсказках для каждого элемента управления панели команд; <b>Значение false,</b> если они не отображаются.</para>
-          <para>Для отображения сочетаний клавиш во всплывающих подсказках, необходимо также установить <see cref="P:Microsoft.Office.Core._CommandBars.DisplayTooltips" /> значение <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Возвращаемое значение имеет значение <b>true</b> , если сочетания клавиш отображаются в подсказках для каждого элемента управления "панель команд"; <b>False</b> , если они не отображаются.</para> 
+          <para>Для отображения сочетаний клавиш в подсказках необходимо также задать для <see cref="P:Microsoft.Office.Core._CommandBars.DisplayTooltips" /> свойства <b>значение true</b>.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayTooltips">
@@ -510,13 +486,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет, отображаются Если всплывающие подсказки при наведении указателя мыши на команду Панель элементов управления.</summary>
+        <summary>Определяет, отображаются ли всплывающие подсказки всякий раз, когда пользователь наводит указатель мыши на элементы управления "панель команд".</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Возвращаемое значение равно <b>True</b> , если отображаются всплывающие подсказки при наведении указателя мыши на команду Панель элементов управления; <b>Значение false,</b> если они не отображаются.</para>
-          <para>Свойства <b>DisplayTooltips</b> в приложении контейнера сразу же влияет на каждый панели команд в каждом приложения Microsoft Office и во всех приложениях Office, открыты после набора свойств.</para>
-          <para />
-        </remarks>
+        <remarks><para>Возвращаемое значение имеет значение <b>true</b> , если всплывающие подсказки отображаются, когда пользователь наводит указатель мыши на элементы управления "панель команд"; <b>False</b> , если они не отображаются.</para> 
+          <para>Установка свойства <b>дисплайтултипс</b> в контейнерном приложении сразу влияет на каждую панель команд в каждом работающем приложении Microsoft Office и на каждое приложение Office, открытое после задания этого свойства.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExecuteMso">
@@ -543,13 +517,11 @@
       </Parameters>
       <Docs>
         <param name="idMso">Идентификатор элемента управления.</param>
-        <summary>Выполняет элемент управления определяется <paramref name="idMso" /> параметр.</summary>
-        <remarks>
-          <para>
-            <b>Примечание</b>: Microsoft помощник устарел и в выпуске 2007 системы Microsoft Office.</para>
-          <para>Этот метод может оказаться полезным в тех случаях, где у пользователей нет объектной модели для конкретной команды. Works для элементов управления, которые являются встроенные кнопки, toggleButtons и splitButtons. При сбое <b>E_InvalidArg</b> возвращает для недопустимое <paramref name="idMso" />и <b>E_Fail</b> для элементов управления, которые не включены или не видны.</para>
-          <para />
-        </remarks>
+        <summary>Выполняет элемент управления, определенный <paramref name="idMso" /> параметром.</summary>
+        <remarks><para>
+            <b>Note</b>: помощник по Microsoft Office устарел в версии 2007 системы Microsoft Office.</para> 
+          <para>Этот метод полезен в тех случаях, когда отсутствует объектная модель для определенной команды. Работает с элементами управления, которые являются встроенными кнопками, Тогглебуттонс и Сплитбуттонс. При сбое он возвращает <b>E_InvalidArg</b> для недопустимых <paramref name="idMso" />и <b>E_FAIL</b> элементов управления, которые не включены или не являются видимыми.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindControl">
@@ -577,16 +549,14 @@
         <Parameter Name="Visible" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Type">Необязательные <see cref="T:Microsoft.Office.Core.MsoControlType" />. Тип элемента управления.</param>
-        <param name="Id">Необязательный элемент <b>Object</b>. Идентификатор элемента управления.</param>
-        <param name="Tag">Необязательный элемент <b>Object</b>. Значение тега элемента управления.</param>
-        <param name="Visible">Необязательный элемент <b>Object</b>. <b>Значение true,</b> Чтобы включить только элементы управления видны командной строки в поиск. Значение по умолчанию — <b>False</b>. Панели команд, видны включают все видны панели инструментов и любого меню, которые открыты во время выполнения метода <b>FindControl</b> .</param>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CommandBarControl" /> объекта, соответствующие указанным критериям.</summary>
+        <param name="Type">Необязательный <see cref="T:Microsoft.Office.Core.MsoControlType" />параметр. Тип элемента управления.</param>
+        <param name="Id">Необязательный <b>объект</b>. Идентификатор элемента управления.</param>
+        <param name="Tag">Необязательный <b>объект</b>. Значение тега элемента управления.</param>
+        <param name="Visible">Необязательный <b>объект</b>. <b>Значение true</b> , чтобы включить в поиск только видимые элементы управления "панель команд". Значение по умолчанию — <b>False</b>. К видимым панелям команд относятся все видимые панели инструментов и меню, которые открыты во время выполнения метода <b>финдконтрол</b> .</param>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CommandBarControl" /> объект, соответствующий заданным условиям.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>Если <see cref="T:Microsoft.Office.Core.CommandBars" /> коллекция содержит два или более элементов управления, которые соответствуют условиям поиска, <b>FindControl</b> возвращает первый элемент управления, который выполняется поиск. Если элемент управления, который соответствует критерию обнаружен, <b>FindControl</b> возвращает <b>значение Nothing</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Если <see cref="T:Microsoft.Office.Core.CommandBars" /> коллекция содержит два или более элементов управления, соответствующих условиям поиска, <b>финдконтрол</b> возвращает первый найденный элемент управления. Если элемент управления, соответствующий условиям поиска, не найден, <b>финдконтрол</b> не возвращает <b>ничего</b>.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindControls">
@@ -614,16 +584,14 @@
         <Parameter Name="Visible" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Type">Необязательные <see cref="T:Microsoft.Office.Core.MsoControlType" />. Тип элемента управления.</param>
-        <param name="Id">Необязательный элемент <b>Object</b>. Идентификатор элемента управления.</param>
-        <param name="Tag">Необязательный элемент <b>Object</b>. Значение тега элемента управления.</param>
-        <param name="Visible">Необязательный элемент <b>Object</b>. <b>Значение true,</b> Чтобы включить только элементы управления видны командной строки в поиск. Значение по умолчанию — <b>False</b>.</param>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CommandBarControls" /> коллекции, соответствующий заданным критериям.</summary>
+        <param name="Type">Необязательный <see cref="T:Microsoft.Office.Core.MsoControlType" />параметр. Тип элемента управления.</param>
+        <param name="Id">Необязательный <b>объект</b>. Идентификатор элемента управления.</param>
+        <param name="Tag">Необязательный <b>объект</b>. Значение тега элемента управления.</param>
+        <param name="Visible">Необязательный <b>объект</b>. <b>Значение true</b> , чтобы включить в поиск только видимые элементы управления "панель команд". Значение по умолчанию — <b>False</b>.</param>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CommandBarControls" /> коллекцию, удовлетворяющую указанным условиям.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>Если никакой элемент управления, которые соответствуют критериям не найдено, метод <b>FindControls</b> возвращает <b>значение Nothing</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Если элементы управления, соответствующие условиям поиска, не найдены, метод <b>финдконтролс</b> возвращает <b>значение Nothing</b>.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnabledMso">
@@ -650,10 +618,8 @@
       </Parameters>
       <Docs>
         <param name="idMso">Идентификатор элемента управления.</param>
-        <summary>Возвращает <b>значение True,</b> Если элемент управления определяется <paramref name="idMso" /> параметр включен.</summary>
-        <returns>
-          <b>Boolean</b>
-        </returns>
+        <summary>Возвращает <b>значение true</b> , если элемент управления, <paramref name="idMso" /> определенный параметром, включен.</summary>
+        <returns><b>Boolean</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -722,13 +688,10 @@
         <param name="idMso">Идентификатор элемента управления.</param>
         <param name="Width">Ширина изображения.</param>
         <param name="Height">Высота изображения.</param>
-        <summary>Возвращает объект <b>IPictureDisp</b> изображения элемента управления, определяемую средством <paramref name="idMso" /> параметр Масштаб размерностью, указанной в высоту и ширину.</summary>
-        <returns>IPictureDisp</returns>
-        <remarks>
-          <para>
-            <paramref name="Width" /> И <paramref name="Height" /> параметры должна составлять от 16 и 128.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает объект <b>ипиктуредисп</b> изображения элемента управления, определяемого <paramref name="idMso" /> параметром, масштабированным до размеров, заданных шириной и высотой.</summary>
+        <returns>ипиктуредисп</returns>
+        <remarks><para>Параметры <paramref name="Width" /> и <paramref name="Height" /> должны находиться в пределах от 16 до 128.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLabelMso">
@@ -755,10 +718,8 @@
       </Parameters>
       <Docs>
         <param name="idMso">Идентификатор элемента управления.</param>
-        <summary>Возвращает метку элемента управления, определяемую средством <paramref name="idMso" /> параметра в виде <b>строки</b>.</summary>
-        <returns>
-          <b>Строка</b>
-        </returns>
+        <summary>Возвращает метку элемента управления, идентифицируемого <paramref name="idMso" /> параметром в виде <b>строки</b>.</summary>
+        <returns><b>Строка</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -786,10 +747,8 @@
       </Parameters>
       <Docs>
         <param name="idMso">Идентификатор элемента управления.</param>
-        <summary>Возвращает значение, указывающее, является ли элемент управления toggleButton определяемую средством <paramref name="idMso" /> нажата параметр.</summary>
-        <returns>
-          <b>Boolean</b>
-        </returns>
+        <summary>Возвращает значение, указывающее, нажата ли элемент управления toggleButton <paramref name="idMso" /> , заданный параметром.</summary>
+        <returns><b>Boolean</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -817,10 +776,8 @@
       </Parameters>
       <Docs>
         <param name="idMso">Идентификатор элемента управления.</param>
-        <summary>Возвращает всплывающие подсказки элемента управления, определяемую средством <paramref name="idMso" /> параметра в виде <b>строки</b>.</summary>
-        <returns>
-          <b>Строка</b>
-        </returns>
+        <summary>Возвращает всплывающую подсказку элемента управления, <paramref name="idMso" /> идентифицируемого параметром в виде <b>строки</b>.</summary>
+        <returns><b>Строка</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -848,10 +805,8 @@
       </Parameters>
       <Docs>
         <param name="idMso">Идентификатор элемента управления.</param>
-        <summary>Возвращает supertip элемента управления, определяемую средством <paramref name="idMso" /> параметра в виде <b>строки</b>.</summary>
-        <returns>
-          <b>Строка</b>
-        </returns>
+        <summary>Возвращает SuperTip элемента управления, идентифицируемого <paramref name="idMso" /> параметром в виде <b>строки</b>.</summary>
+        <returns><b>Строка</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -879,10 +834,8 @@
       </Parameters>
       <Docs>
         <param name="idMso">Идентификатор элемента управления.</param>
-        <summary>Возвращает <b>значение True,</b> Если элемент управления определяется <paramref name="idMso" /> параметра.</summary>
-        <returns>
-          <b>Boolean</b>
-        </returns>
+        <summary>Возвращает <b>значение true</b> , если элемент управления, <paramref name="idMso" /> определенный параметром, является видимым.</summary>
+        <returns><b>Boolean</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -949,8 +902,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">Требуется <b>объект</b>. Имя или номер индекса объекта должно быть возвращено.</param>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CommandBar" /> объекта из <see cref="T:Microsoft.Office.Core.CommandBars" /> семейства сайтов.</summary>
+        <param name="Index">Обязательный <b>объект</b>. Имя или номер индекса возвращаемого объекта.</param>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CommandBar" /> объект из <see cref="T:Microsoft.Office.Core.CommandBars" /> коллекции.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -981,12 +934,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Определяет, будут ли больше, чем обычный размер кнопок панели инструментов.</summary>
+        <summary>Определяет, отображаются ли отображаемые кнопки на панели инструментов больше обычного размера.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Возвращаемое значение равно <b>True</b> , если кнопки панели инструментов отображаются их объем превышает обычного размера; <b>Значение false,</b> если они имеют меньший размер.</para>
-          <para />
-        </remarks>
+        <remarks><para>Возвращаемое значение равно <b>true</b> , если отображаемые кнопки панели инструментов больше обычного размера; <b>Значение false</b> , если они меньше.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="MenuAnimationStyle">
@@ -1069,7 +1020,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Освобождает фокус интерфейса пользователя из всех панели команд.</summary>
+        <summary>Снимает фокус пользовательского интерфейса со всех панелей команд.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

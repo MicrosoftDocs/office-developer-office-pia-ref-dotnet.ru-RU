@@ -1,13 +1,5 @@
 <Type Name="PickerDialog" FullName="Microsoft.Office.Core.PickerDialog">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="96779d0c5dd6c298023f061988fdb20861aa7710" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662227" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PickerDialog : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="96779d0c5dd6c298023f061988fdb20861aa7710" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662227" /></Metadata><TypeSignature Language="C#" Value="public interface PickerDialog : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PickerDialog implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PickerDialog" />
   <TypeSignature Language="VB.NET" Value="Public Interface PickerDialog&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Предоставляет функциональность пользовательского интерфейса диалогового окна для выбора людей или подняв данных.</summary>
+    <summary>Предоставляет функциональные возможности пользовательского интерфейса диалогового окна для подбора людей или отбора данных.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,12 +52,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:System.Object" /><b>приложения</b> объект, представляющий приложение-контейнер для объекта <b>PickerDialog</b> .</summary>
+        <summary><see cref="T:System.Object" />Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта <b>PickerDialog</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreatePickerResults">
@@ -89,12 +79,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Создает пустой <see cref="T:Microsoft.Office.Core.PickerResults" /> объекта.</summary>
-        <returns>Возвращает <see cref="T:Microsoft.Office.Core.PickerResults" />.</returns>
-        <remarks>
-          <para>Можно добавить результат выбора возвращенного объекта и указать для второго параметра <see cref="M:Microsoft.Office.Core.PickerDialog.Show" /> метод как уже существующих результаты объекта <b>PickerDialog</b> .</para>
-          <para />
-        </remarks>
+        <summary>Создает пустой <see cref="T:Microsoft.Office.Core.PickerResults" /> объект.</summary>
+        <returns>Возвращает значение <see cref="T:Microsoft.Office.Core.PickerResults" />типа.</returns>
+        <remarks><para>Вы можете добавить результат средства выбора в возвращенный объект и указать его во втором параметре <see cref="M:Microsoft.Office.Core.PickerDialog.Show" /> метода, как уже существующие результаты объекта <b>PickerDialog</b> .</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -123,12 +111,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>PickerDialog</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>PickerDialog</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DataHandlerId">
@@ -157,12 +143,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Задает или получает идентификатор GUID компонента обработчика данных диалогового окна "Выбор".</summary>
+        <summary>Задает или получает GUID компонента обработчика данных диалогового окна средства выбора.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись. Необходимо указать это свойство до вызова диалогового окна "Выбор".</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись. Это свойство необходимо указать до вызова диалогового окна средства выбора.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Properties">
@@ -188,12 +172,10 @@
         <ReturnType>Microsoft.Office.Core.PickerProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.PickerProperties" /> объект, который требуется указать настраиваемые свойства для компонента обработчика данных.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.PickerProperties" /> объект, указывающий настраиваемые свойства компонента обработчика данных.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения. Свойства объекта <b>PickerProperties</b> передается обработчику данных.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения. Свойства объекта <b>PickerProperties</b> будут переданы обработчику данных.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Resolve">
@@ -220,10 +202,10 @@
         <Parameter Name="duplicateDlgMode" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="TokenText">Текстовая строка для решения.</param>
+        <param name="TokenText">Текстовая строка, которую необходимо разрешить.</param>
         <param name="duplicateDlgMode">To be added.</param>
-        <summary>Разрешает маркера с помощью диалогового окна "Выбор" и получает результаты.</summary>
-        <returns>Возвращает <see cref="T:Microsoft.Office.Core.PickerResults" />.</returns>
+        <summary>Разрешает маркер с помощью диалогового окна выбора и получает результаты.</summary>
+        <returns>Возвращает <see cref="T:Microsoft.Office.Core.PickerResults" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -250,10 +232,10 @@
         <Parameter Name="ExistingResults" Type="Microsoft.Office.Core.PickerResults" />
       </Parameters>
       <Docs>
-        <param name="IsMultiSelect">Включение пользовательского интерфейса диалогового окна средства выбора нескольких элементов функции выбора.</param>
-        <param name="ExistingResults">Содержит существующих <see cref="T:Microsoft.Office.Core.PickerResults" /> пользовательского интерфейса диалогового окна "Выбор". Эти результаты отображаются в выбранный элемент управления.</param>
-        <summary>Отображает диалоговое окно "Выбор" с обработчиком уже указанные данные и присваивает параметры.</summary>
-        <returns>Возвращает <see cref="T:Microsoft.Office.Core.PickerResults" />.</returns>
+        <param name="IsMultiSelect">Указывает, предоставляет ли пользовательский интерфейс диалогового окна выбора несколько функций выбора элементов.</param>
+        <param name="ExistingResults">Содержит существующий <see cref="T:Microsoft.Office.Core.PickerResults" /> в пользовательском интерфейсе диалогового окна выбора. Эти результаты отображаются в элементе управления выбранным элементом.</param>
+        <summary>Отображает диалоговое окно средства выбора с уже заданным обработчиком данных и заданными параметрами.</summary>
+        <returns>Возвращает <see cref="T:Microsoft.Office.Core.PickerResults" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -283,12 +265,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает заголовок диалогового окна "Выбор" отображается в диалоговом окне "Выбор".</summary>
+        <summary>Получает или задает заголовок диалогового окна выбора, отображаемого в диалоговом окне выбора.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

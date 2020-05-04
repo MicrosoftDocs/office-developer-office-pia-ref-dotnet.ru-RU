@@ -1,13 +1,5 @@
 <Type Name="SmartArtColor" FullName="Microsoft.Office.Core.SmartArtColor">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="225a5f1cc4ba52ebebdb0fb09999639cea13e011" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662322" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartArtColor : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="225a5f1cc4ba52ebebdb0fb09999639cea13e011" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662322" /></Metadata><TypeSignature Language="C#" Value="public interface SmartArtColor : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArtColor implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArtColor" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartArtColor&#xA;Implements _IMsoDispObj" />
@@ -30,11 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет цветовой схемы для схемы SmartArt.</summary>
-    <remarks>
-      <para>Моделирует команд в пользовательском интерфейсе Microsoft Office Fluent ленты на вкладке Работа SmartArt в группе разработки на команду Изменение цветов.</para>
-      <para />
-    </remarks>
+    <summary>Представляет цветовую схему для схемы SmartArt.</summary>
+    <remarks><para>Имитирует команды в пользовательском интерфейсе ленты Microsoft Office Fluent на вкладке "инструменты SmartArt" в группе "Конструктор" в команде "изменить цвета".</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -63,12 +53,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для объекта <b>SmartArtColor</b> .</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта <b>SmartArtColor</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Category">
@@ -94,12 +82,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя основного категории, связанное с цвет стиль SmartArt.</summary>
+        <summary>Получает имя основной категории, связанной с стилем SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -130,10 +116,8 @@
       <Docs>
         <summary>Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Description">
@@ -159,12 +143,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает описание стиля цветов SmartArt.</summary>
+        <summary>Возвращает описание стиля цвета SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -190,12 +172,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает уникальный идентификатор связанного стиля цветов SmartArt.</summary>
+        <summary>Возвращает уникальный идентификатор связанного стиля SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -221,12 +201,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имя строки стиля цветов SmartArt.</summary>
+        <summary>Возвращает строковое имя стиля цвета SmartArt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -252,12 +230,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект, вызывающий.</summary>
+        <summary>Возвращает вызывающий объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

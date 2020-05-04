@@ -1,13 +1,5 @@
 <Type Name="MsoTextOrientation" FullName="Microsoft.Office.Core.MsoTextOrientation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="89f1ec05b852f55f6f50bf73b521360e1c9f7154" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661661" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoTextOrientation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="89f1ec05b852f55f6f50bf73b521360e1c9f7154" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661661" /></Metadata><TypeSignature Language="C#" Value="public enum MsoTextOrientation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextOrientation extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextOrientation" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoTextOrientation" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает направление для текста.</summary>
+    <summary>Задает ориентацию текста.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Вниз.</summary>
+        <summary>Сторону.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextOrientationHorizontal">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Горизонтальная.</summary>
+        <summary>Полос.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextOrientationHorizontalRotatedFarEast">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Горизонтальная и вращение в соответствии с требованиями для Дальнего Востока языковая поддержка.</summary>
+        <summary>Горизонтально и повернуто по мере необходимости для поддержки Дальнего Востока языков.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextOrientationMixed">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Вверх.</summary>
+        <summary>Диагональ.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextOrientationVertical">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>По вертикали.</summary>
+        <summary>Расположение.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextOrientationVerticalFarEast">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>При необходимости для Дальнего Востока языковая поддержка по вертикали.</summary>
+        <summary>По вертикали в соответствии с поддержкой Дальнего Востока языков.</summary>
       </Docs>
     </Member>
   </Members>

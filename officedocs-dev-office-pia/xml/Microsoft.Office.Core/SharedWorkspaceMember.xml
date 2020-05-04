@@ -1,13 +1,5 @@
 <Type Name="SharedWorkspaceMember" FullName="Microsoft.Office.Core.SharedWorkspaceMember">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="81348dff3f79810cf9474c45d7dcc8897f354247" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662321" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SharedWorkspaceMember : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="81348dff3f79810cf9474c45d7dcc8897f354247" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662321" /></Metadata><TypeSignature Language="C#" Value="public interface SharedWorkspaceMember : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SharedWorkspaceMember implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SharedWorkspaceMember" />
   <TypeSignature Language="VB.NET" Value="Public Interface SharedWorkspaceMember&#xA;Implements _IMsoDispObj" />
@@ -30,30 +22,24 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Этот объект, член или перечисление относятся к числу нерекомендуемых и не предназначен для использования в вашем коде. Объект <b>SharedWorkspaceMember</b> представляет пользователь, имеющий права в рабочей области для общих документов.</summary>
-    <remarks>
-      <para>Этот объект является членом <see cref="T:Microsoft.Office.Core.SharedWorkspaceMembers" /> семейства.</para>
-      <para>Объект <b>SharedWorkspaceMember</b> используется для управления пользователями, имеющие права для участия в общей рабочей области и совместной работы над общих документов, сохраненных в рабочей области.</para>
-      <para>
-        <paramref name="Role" /> Указан при добавлении пользователя как член рабочей области (например, «Чтение» или «Участник») определяет его права в рабочей области и не удается найти или изменен позднее с помощью свойства <b>SharedWorkspaceMember </b>объект.</para>
-      <para>Использование <b>элемента</b>(<paramref name="index" />) методу коллекции <b>SharedWorkspaceMembers</b> для получения определенного объекта <b>SharedWorkspaceMember</b> .</para>
-      <para>Использовать объект <b>SharedWorkspaceMember</b> три различных имя свойства для извлечения информации об элементе:</para>
+    <summary>Этот объект, элемент или перечисление устарели и не предназначены для использования в вашем коде. Объект <b>SharedWorkspaceMember</b> представляет пользователя, имеющего права в общей рабочей области для документов.</summary>
+    <remarks><para>Этот объект является элементом <see cref="T:Microsoft.Office.Core.SharedWorkspaceMembers" /> коллекции.</para> 
+      <para>Используйте объект <b>SharedWorkspaceMember</b> для управления пользователями, имеющими права на участие в общей рабочей области и совместной работе над общими документами, сохраненными в рабочей области.</para> 
+      <para>Указывается, когда пользователь добавляется как участник рабочей области (например, "читатель" или "участник"), определяет, что права пользователя в рабочей области и не могут быть изменены или изменены позже с помощью свойств объекта SharedWorkspaceMember. <b>SharedWorkspaceMember</b> <paramref name="Role" /> </para> 
+      <para>Используйте метод <b>Item</b>(<paramref name="index" />) коллекции <b>SharedWorkspaceMembers</b> , чтобы возвратить определенный объект <b>SharedWorkspaceMember</b> .</para> 
+      <para>Используйте три свойства имени объекта <b>SharedWorkspaceMember</b> для получения идентифицирующих сведений о члене:</para>
       <list type="bullet">
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.Name" /> Свойство Возвращает понятное имя или отображаемое имя участника.</para>
-        </item>
+          <para> <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.Name" /> свойство возвращает отображаемое имя члена или понятное имя.</para>
+        </item> 
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.Email" /> Свойство возвращает адрес электронной почты участника.</para>
-        </item>
+          <para>Свойство возвращает адрес электронной почты участника. <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.Email" /> </para>
+        </item> 
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.DomainName" /> Свойство возвращает член домен и имя пользователя в формате домен\пользователь.</para>
-        </item>
+          <para>Свойство возвращает домен и имя пользователя участника в формате домен \ имя пользователя. <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.DomainName" /> </para>
+        </item> 
       </list>
-      <para />
-    </remarks>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -82,7 +68,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -113,12 +99,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -143,10 +129,8 @@
       <Parameters />
       <Docs>
         <summary>Удаляет текущий объект.</summary>
-        <remarks>
-          <para>Этот метод завершится ошибкой, если пользователь не имеет разрешения на удаление текущего объекта из общей рабочей области.</para>
-          <para />
-        </remarks>
+        <remarks><para>Этот метод завершится с ошибками, если у пользователя нет разрешения на удаление текущего объекта из общей рабочей области.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DomainName">
@@ -172,7 +156,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имя домена и пользователя, указанного <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> в формате "домен\пользователь".</summary>
+        <summary>Возвращает домен и имя пользователя, указанные <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> в формате домен \ пользователь.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -200,7 +184,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает имя электронной почты указанного <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> в формате user@domain.com.</summary>
+        <summary>Возвращает имя электронной почты, указанное <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> в формате user@domain.com.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -261,10 +245,8 @@
       <Docs>
         <summary>Возвращает имя указанного объекта.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Свойство <b>Name</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> объект возвращает понятное имя для элемента общей рабочей области, как указано в <paramref name="DisplayName" /> аргумент <see cref="M:Microsoft.Office.Core.SharedWorkspaceMembers.Add(System.String,System.String,System.String,System.Object)" /> метод <see cref="T:Microsoft.Office.Core.SharedWorkspaceMembers" /> семейства сайтов. Объект <b>SharedWorkspaceMember</b> содержит другие свойства, возвращающие <b>DomainName</b> члена или <b>электронной почты</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Свойство <b>Name</b> <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> объекта возвращает понятное имя для члена общей рабочей области, как указано в <paramref name="DisplayName" /> аргументе <see cref="M:Microsoft.Office.Core.SharedWorkspaceMembers.Add(System.String,System.String,System.String,System.Object)" /> метода в <see cref="T:Microsoft.Office.Core.SharedWorkspaceMembers" /> коллекции. Объект <b>SharedWorkspaceMember</b> содержит другие свойства, возвращающие <b>имя</b> пользователя или <b>адрес электронной почты</b>участника.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">

@@ -1,13 +1,5 @@
 <Type Name="MsoFlipCmd" FullName="Microsoft.Office.Core.MsoFlipCmd">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="65866e4c2db5a26938f3f87a522b42fdb82e7e92" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661861" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFlipCmd" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="65866e4c2db5a26938f3f87a522b42fdb82e7e92" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661861" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFlipCmd" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFlipCmd extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFlipCmd" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFlipCmd" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, следует ли зеркально фигуры, по горизонтали или по вертикали.</summary>
+    <summary>Указывает, должна ли фигура быть зеркально отражена по горизонтали или по вертикали.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Зеркальное отражение по вертикали.</summary>
+        <summary>Отразить вертикально.</summary>
       </Docs>
     </Member>
   </Members>

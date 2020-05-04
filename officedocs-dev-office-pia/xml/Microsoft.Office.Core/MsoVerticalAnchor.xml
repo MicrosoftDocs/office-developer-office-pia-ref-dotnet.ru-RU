@@ -1,13 +1,5 @@
 <Type Name="MsoVerticalAnchor" FullName="Microsoft.Office.Core.MsoVerticalAnchor">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bb57368d4f4f4c0c7aa235d50cd9809d12d59c81" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661693" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoVerticalAnchor" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bb57368d4f4f4c0c7aa235d50cd9809d12d59c81" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661693" /></Metadata><TypeSignature Language="C#" Value="public enum MsoVerticalAnchor" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoVerticalAnchor extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoVerticalAnchor" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoVerticalAnchor" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает вертикальное выравнивание текста в рамке.</summary>
-    <remarks>
-      <para>Используется совместно со свойством <b>VerticalAnchor</b> объекта <b>TextFrame</b> .</para>
-      <para />
-    </remarks>
+    <summary>Задает вертикальное выравнивание текста в текстовом фрейме.</summary>
+    <remarks><para>Используется со свойством <b>вертикаланчор</b> объекта <b>TextFrame</b></para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoAnchorBottom">
@@ -43,7 +33,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Выравнивание текста в нижней части текстового фрейма.</summary>
+        <summary>Выравнивает текст по нижнему краю текстового фрейма.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAnchorBottomBaseLine">
@@ -62,7 +52,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Привязка нижней части текстовой строки в текущей позиции, независимо от того, изменение размеров текста. При изменении размера текста без базового привязки, текст центры самого в предыдущее положение.</summary>
+        <summary>Привязка нижнего края строки текста к текущему положению независимо от изменения размера текста. При изменении размера текста без привязки к базовому и текстовому центру в предыдущей позиции.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAnchorMiddle">
@@ -81,7 +71,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Выравнивание текста по вертикали.</summary>
+        <summary>Вертикальное центрирование текста.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAnchorTop">
@@ -100,7 +90,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Выравнивание текста в верхней части текстового фрейма.</summary>
+        <summary>Выравнивание текста по верхнему краю текстового фрейма.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAnchorTopBaseline">
@@ -119,7 +109,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Привязка нижней части текстовой строки в текущей позиции, независимо от того, изменение размеров текста. При изменении размера текста без базового привязки, текст центры самого в предыдущее положение.</summary>
+        <summary>Привязка нижнего края строки текста к текущему положению независимо от изменения размера текста. При изменении размера текста без привязки к базовому и текстовому центру в предыдущей позиции.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoVerticalAnchorMixed">
@@ -138,7 +128,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Возвращаемое значение. Указывает сочетание других состояний.</summary>
+        <summary>Только возвращаемое значение; Указывает комбинацию других состояний.</summary>
       </Docs>
     </Member>
   </Members>

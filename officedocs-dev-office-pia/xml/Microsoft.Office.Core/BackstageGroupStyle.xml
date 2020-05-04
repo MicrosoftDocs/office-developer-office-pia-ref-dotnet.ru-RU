@@ -1,13 +1,5 @@
 <Type Name="BackstageGroupStyle" FullName="Microsoft.Office.Core.BackstageGroupStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="99e99d3b1dfe023c7f9f2c98db651d0db4296e8b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662279" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum BackstageGroupStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="99e99d3b1dfe023c7f9f2c98db651d0db4296e8b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662279" /></Metadata><TypeSignature Language="C#" Value="public enum BackstageGroupStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BackstageGroupStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.BackstageGroupStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum BackstageGroupStyle" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет константы, которые определяют стили группы на вкладке файл.</summary>
+    <summary>Задает константы, определяющие стили групп на вкладке "файл".</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

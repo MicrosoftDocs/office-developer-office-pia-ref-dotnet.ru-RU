@@ -1,13 +1,5 @@
 <Type Name="IRibbonExtensibility" FullName="Microsoft.Office.Core.IRibbonExtensibility">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2d96e52fd7252b7936c795df835e653a608ad8c1" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662012" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IRibbonExtensibility" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2d96e52fd7252b7936c795df835e653a608ad8c1" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662012" /></Metadata><TypeSignature Language="C#" Value="public interface IRibbonExtensibility" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRibbonExtensibility" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IRibbonExtensibility" />
   <TypeSignature Language="VB.NET" Value="Public Interface IRibbonExtensibility" />
@@ -26,13 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Интерфейс, через который ленты пользовательского интерфейса (UI) взаимодействует с надстройкой COM для настройки пользовательского интерфейса.</summary>
-    <remarks>
-      <para>Этот интерфейс <b>IRibbonExtensibility</b> содержит единственный метод <b>GetCustomUI</b>.</para>
-      <para />
-    </remarks>
-    <example>
-      <para>В следующем примере, написанном на языке C# интерфейс <b>IRibbonExtensibility</b> указана в определение класса. Процедура затем реализует интерфейсы единственный метод, <b>GetCustomUI</b>. Этот метод создает экземпляр объекта <b>SteamReader</b> , который считывает в настраиваемой разметки, хранящиеся во внешнем файле XML.</para>
+    <summary>Интерфейс, с помощью которого пользовательский интерфейс ленты взаимодействуют с надстройкой COM для настройки пользовательского интерфейса.</summary>
+    <remarks><para>Интерфейс <b>IRibbonExtensibility</b> содержит один метод <b>GetCustomUI</b>.</para>
+      <para /></remarks>
+    <example><para>В следующем примере, написанном на языке C#, интерфейс <b>IRibbonExtensibility</b> указан в определении класса. Затем процедура реализует единственный метод interfaces, <b>GetCustomUI</b>. Этот метод создает экземпляр объекта <b>стеамреадер</b> , который считывает настраиваемую разметку, хранящуюся во ВНЕШНЕМ XML-файле.</para>
       <code>public class Connect : Object, Extensibility.IDTExtensibility2, IRibbonExtensibility 
 ... 
  
@@ -44,8 +33,7 @@ public string GetCustomUI(string RibbonID)
    string customUIData = customUIReader.ReadToEnd(); 
  
    return customUIData; 
-}</code>
-    </example>
+}</code></example>
   </Docs>
   <Members>
     <Member MemberName="GetCustomUI">
@@ -72,11 +60,10 @@ public string GetCustomUI(string RibbonID)
       </Parameters>
       <Docs>
         <param name="RibbonID">To be added.</param>
-        <summary>Загружает разметку XML из XML-файла настройки или из XML-разметка, внедренные в процедуре, который настраивает пользовательского интерфейса ленты.</summary>
+        <summary>Загружает XML-разметку либо из XML-файла настройки, либо из разметки XML, встроенной в процедуру, которая настраивает пользовательский интерфейс ленты.</summary>
         <returns>String</returns>
         <remarks>To be added.</remarks>
-        <example>
-          <para>В следующем примере, написанном на языке C# интерфейс <b>IRibbonExtensibility</b> указана в определение класса. Затем в примере реализуется единственный метод интерфейсов, <b>GetCustomUI</b>. Метод создает экземпляр объекта <b>SteamReader</b> , который считывает в разметке настройки внешнего XML-файла.</para>
+        <example><para>В следующем примере, написанном на языке C#, интерфейс <b>IRibbonExtensibility</b> указан в определении класса. Затем в примере реализуется только метод interfaces, <b>GetCustomUI</b>. Метод создает экземпляр объекта <b>стеамреадер</b> , который считывает в разметке настройки во ВНЕШНЕМ XML-файле.</para>
           <code>public class Connect : Object, Extensibility.IDTExtensibility2, IRibbonExtensibility 
 ... 
  
@@ -88,8 +75,7 @@ public string GetCustomUI(string RibbonID)
    string customUIData = customUIReader.ReadToEnd(); 
  
    return customUIData; 
-}</code>
-        </example>
+}</code></example>
       </Docs>
     </Member>
   </Members>

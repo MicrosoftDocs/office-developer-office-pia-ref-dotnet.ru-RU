@@ -1,13 +1,5 @@
 <Type Name="MsoPresetTextEffect" FullName="Microsoft.Office.Core.MsoPresetTextEffect">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ee963c0ed6eeb5898f0ff543fe89764428071412" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661892" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetTextEffect" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ee963c0ed6eeb5898f0ff543fe89764428071412" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661892" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetTextEffect" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetTextEffect extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetTextEffect" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetTextEffect" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, какой эффект текст, используемый для объекта <b>WordArt</b> .</summary>
-    <remarks>
-      <para>Найти в диалоговом окне Коллекция WordArt в любого продукта Microsoft Office, которая поддерживает WordArt для предварительного просмотра каждого эффекта. Значения константы <b>MsoPresetTextEffect</b> соответствуют форматы, перечисленные в диалоговом окне Коллекция WordArt (нумерованные слева направо и сверху вниз).</para>
-      <para />
-    </remarks>
+    <summary>Указывает, какой текст будет использоваться для объекта <b>WordArt</b> .</summary>
+    <remarks><para>Обратитесь к диалоговому окну Коллекция WordArt в любом продукте Microsoft Office, поддерживающем объект WordArt, для предварительного просмотра каждого из них. Значения констант <b>мсопресеттекстеффект</b> соответствуют форматам, перечисленным в диалоговом окне Коллекция WordArt (число слева направо и сверху вниз).</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoTextEffect1">
@@ -43,7 +33,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Первый влияние текста.</summary>
+        <summary>Первый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect10">
@@ -62,7 +52,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Влияние десятой текста.</summary>
+        <summary>Десятый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect11">
@@ -81,7 +71,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Влияние одиннадцатого текста.</summary>
+        <summary>Одиннадцать текстового эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect12">
@@ -100,7 +90,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Влияние двенадцатый текста.</summary>
+        <summary>Двенадцатый текст.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect13">
@@ -119,7 +109,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Влияние тринадцатый текста.</summary>
+        <summary>Текстовый эффекты сиртинс.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect14">
@@ -138,7 +128,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Влияние четырнадцатый текста.</summary>
+        <summary>Текстовый эффекты фауртинс.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect15">
@@ -157,7 +147,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>Влияние пятнадцатый текста.</summary>
+        <summary>Пятнадцатый текст.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect16">
@@ -176,7 +166,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Влияние находится 16-й текст.</summary>
+        <summary>Шестнадцатый эффекты текста.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect17">
@@ -195,7 +185,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Влияние Семнадцатый текста.</summary>
+        <summary>Текстовый эффекты севентинс.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect18">
@@ -214,7 +204,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>18 влияние текста.</summary>
+        <summary>Текстовый эффекты еигхтинс.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect19">
@@ -233,7 +223,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Влияние Девятнадцатый текста.</summary>
+        <summary>Текстовый эффекты нинетинс.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect2">
@@ -252,7 +242,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Второй влияние текста.</summary>
+        <summary>Второй текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect20">
@@ -271,7 +261,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>Влияние двадцатый текста.</summary>
+        <summary>Двадцатый текст.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect21">
@@ -290,7 +280,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>Влияние двадцати первоначального текста.</summary>
+        <summary>Двадцать первого текстового эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect22">
@@ -309,7 +299,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>Влияние наибольшего текста.</summary>
+        <summary>20 секунд текстового результата.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect23">
@@ -328,7 +318,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>Влияние двадцати третьего текста.</summary>
+        <summary>Двадцать третий текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect24">
@@ -347,7 +337,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>Влияние двадцати четвертой текста.</summary>
+        <summary>Двадцать четвертый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect25">
@@ -366,7 +356,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>Влияние 25 текста.</summary>
+        <summary>Двадцать пятый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect26">
@@ -385,7 +375,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>Влияние двадцати шестой текста.</summary>
+        <summary>20 – шестой текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect27">
@@ -404,7 +394,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>Влияние двадцати седьмой текста.</summary>
+        <summary>20 седьмых текстовых эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect28">
@@ -423,7 +413,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>Влияние 28-е текста.</summary>
+        <summary>20 восьмых текстовых эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect29">
@@ -442,7 +432,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>Влияние 29-е текста.</summary>
+        <summary>20 девятый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect3">
@@ -461,7 +451,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Третий влияние текста.</summary>
+        <summary>Третий текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect30">
@@ -480,7 +470,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>Влияние тридцатый текста.</summary>
+        <summary>Текстовый эффекты сиртиес.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect31">
@@ -499,7 +489,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>Влияние 31-м текста.</summary>
+        <summary>30 — первый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect32">
@@ -518,7 +508,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>Влияние текст 30 секунд.</summary>
+        <summary>30 – секундный текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect33">
@@ -537,7 +527,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>Влияние текста третьего 30.</summary>
+        <summary>30 третий текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect34">
@@ -556,7 +546,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>Влияние 30-четвертый — текст.</summary>
+        <summary>30 четвертый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect35">
@@ -575,7 +565,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>Влияние 30 пятой текста.</summary>
+        <summary>30 – пятый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect36">
@@ -594,7 +584,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>Влияние 30 шестой текста.</summary>
+        <summary>30 – шестой текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect37">
@@ -613,7 +603,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>Влияние 30 седьмой текста.</summary>
+        <summary>30 — седьмой текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect38">
@@ -632,7 +622,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>Влияние восьмую 30 текста.</summary>
+        <summary>30 – восьмой текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect39">
@@ -651,7 +641,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>Влияние 30-е текста.</summary>
+        <summary>30 – девятый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect4">
@@ -670,7 +660,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Четвертая влияние текста.</summary>
+        <summary>Четвертый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect40">
@@ -689,7 +679,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>Влияние fortieth текста.</summary>
+        <summary>Текстовый эффекты фортиес.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect41">
@@ -708,7 +698,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>Влияние сорока первоначального текста.</summary>
+        <summary>Более 40 текстовых эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect42">
@@ -727,7 +717,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>Влияние текст 40 секунд.</summary>
+        <summary>40 – секундный текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect43">
@@ -746,7 +736,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>Влияние сорока третьего текста.</summary>
+        <summary>40 – третий текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect44">
@@ -765,7 +755,7 @@
       </ReturnValue>
       <MemberValue>43</MemberValue>
       <Docs>
-        <summary>Влияние сорока четвертой текста.</summary>
+        <summary>40 четвертый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect45">
@@ -784,7 +774,7 @@
       </ReturnValue>
       <MemberValue>44</MemberValue>
       <Docs>
-        <summary>Влияние сорока пятой текста.</summary>
+        <summary>40 – пятый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect46">
@@ -803,7 +793,7 @@
       </ReturnValue>
       <MemberValue>45</MemberValue>
       <Docs>
-        <summary>Влияние сорока шестой текста.</summary>
+        <summary>Более 40 – шестой текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect47">
@@ -822,7 +812,7 @@
       </ReturnValue>
       <MemberValue>46</MemberValue>
       <Docs>
-        <summary>Влияние сорока седьмой текста.</summary>
+        <summary>Перекрестно седьмой текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect48">
@@ -841,7 +831,7 @@
       </ReturnValue>
       <MemberValue>47</MemberValue>
       <Docs>
-        <summary>Влияние восьмую сорока текста.</summary>
+        <summary>40 восьмых текстовых эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect49">
@@ -860,7 +850,7 @@
       </ReturnValue>
       <MemberValue>48</MemberValue>
       <Docs>
-        <summary>Влияние сорока-е текста.</summary>
+        <summary>40 – девятый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect5">
@@ -879,7 +869,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Влияние пятый текста.</summary>
+        <summary>Пятое Оформление текста.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect50">
@@ -898,7 +888,7 @@
       </ReturnValue>
       <MemberValue>49</MemberValue>
       <Docs>
-        <summary>Влияние 50 текста.</summary>
+        <summary>Текстовый эффекты фифтиес.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect6">
@@ -917,7 +907,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Влияние шестой текста.</summary>
+        <summary>Шестой текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect7">
@@ -936,7 +926,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Влияние седьмой текста.</summary>
+        <summary>Седьмая Заливка текста.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect8">
@@ -955,7 +945,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Влияние восьмому текста.</summary>
+        <summary>Восьмой текст.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect9">
@@ -974,7 +964,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Влияние девятого текста.</summary>
+        <summary>Девятый текстовый эффекты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectMixed">

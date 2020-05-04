@@ -1,13 +1,5 @@
 <Type Name="MsoMetaPropertyType" FullName="Microsoft.Office.Core.MsoMetaPropertyType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e85bee5b73f894a21bfac2783d0b13321c8d35c2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662373" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoMetaPropertyType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e85bee5b73f894a21bfac2783d0b13321c8d35c2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662373" /></Metadata><TypeSignature Language="C#" Value="public enum MsoMetaPropertyType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoMetaPropertyType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoMetaPropertyType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoMetaPropertyType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип свойства метаданных.</summary>
+    <summary>Задает тип свойства метаданных.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Представляет значение типа Boolean.</summary>
+        <summary>Представляет логическое значение.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeBusinessData">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Представляет значение вычисляемого.</summary>
+        <summary>Представляет вычисляемое значение.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeChoice">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Представляет значение из одного или более вариантами.</summary>
+        <summary>Представляет значение из одного или нескольких вариантов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeComputed">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Представляет значение вычисляемого.</summary>
+        <summary>Представляет вычисляемое значение.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeCurrency">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Представляет значение из двух или более вариантов, которые записываются в пользователем.</summary>
+        <summary>Представляет значение из двух или нескольких вариантов, записываемых пользователем.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeGuid">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Представляет собой целое значение.</summary>
+        <summary>Представляет целое значение.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeLookup">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>Представляет значение, используемое для поиска другое значение.</summary>
+        <summary>Представляет значение, используемое для поиска другого значения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeMax">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>Представляет максимальное значение диапазона.</summary>
+        <summary>Представляет максимальное значение для диапазона.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeMultiChoice">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Представляет коллекцию вариантов выбора.</summary>
+        <summary>Представляет коллекцию вариантов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeMultiChoiceFillIn">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>Представляет коллекцию параметров, которые требуют, чтобы вписанным значение пользователь.</summary>
+        <summary>Представляет коллекцию вариантов, требующих от пользователя записи значения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeMultiChoiceLookup">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Представляет коллекцию вариантов, используемую для поиска другое значение.</summary>
+        <summary>Представляет коллекцию вариантов, используемых для поиска другого значения.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeNote">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>Представляет универсальный числовой тип данных.</summary>
+        <summary>Представляет тип данных "универсальное число".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeText">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Представляет значение текста.</summary>
+        <summary>Представляет текстовое значение.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeUnknown">
@@ -439,7 +431,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>Представляет категорию пользователей.</summary>
+        <summary>Представляет категорию пользователя.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeUserMulti">

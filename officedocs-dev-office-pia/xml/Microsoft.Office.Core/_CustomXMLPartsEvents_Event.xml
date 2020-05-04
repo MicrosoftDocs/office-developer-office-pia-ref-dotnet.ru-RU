@@ -1,13 +1,5 @@
 <Type Name="_CustomXMLPartsEvents_Event" FullName="Microsoft.Office.Core._CustomXMLPartsEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1e85c0bf810977316dbfbc053c4970c22b6351d2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662232" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CustomXMLPartsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1e85c0bf810977316dbfbc053c4970c22b6351d2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662232" /></Metadata><TypeSignature Language="C#" Value="public interface _CustomXMLPartsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomXMLPartsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLPartsEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CustomXMLPartsEvents_Event" />
@@ -29,7 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Интерфейс события для Microsoft Office <see cref="T:Microsoft.Office.Core.CustomXMLParts" /> объекта события.</summary>
+    <summary>Интерфейс событий для событий объектов <see cref="T:Microsoft.Office.Core.CustomXMLParts" /> Microsoft Office.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
         <ReturnType>Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterAddEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Происходит непосредственно после <see cref="T:Microsoft.Office.Core._CustomXMLPart" />объект добавляется <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> семейства сайтов.</summary>
+        <summary>Возникает сразу после добавления <see cref="T:Microsoft.Office.Core._CustomXMLPart" />объекта в <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> коллекцию.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -67,7 +59,7 @@
         <ReturnType>Microsoft.Office.Core._CustomXMLPartsEvents_PartAfterLoadEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Происходит непосредственно после <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> загрузки объекта.</summary>
+        <summary>Возникает сразу после загрузки <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -86,7 +78,7 @@
         <ReturnType>Microsoft.Office.Core._CustomXMLPartsEvents_PartBeforeDeleteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Происходит непосредственно перед <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объект будет удален из <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> семейства сайтов.</summary>
+        <summary>Происходит непосредственно перед удалением <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта из <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> коллекции.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

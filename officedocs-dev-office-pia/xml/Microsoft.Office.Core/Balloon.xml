@@ -1,13 +1,5 @@
 <Type Name="Balloon" FullName="Microsoft.Office.Core.Balloon">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b978291d98fbee8f572e76ae54e7063dd52fe070" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662273" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Balloon : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b978291d98fbee8f572e76ae54e7063dd52fe070" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662273" /></Metadata><TypeSignature Language="C#" Value="public interface Balloon : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Balloon implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Balloon" />
   <TypeSignature Language="VB.NET" Value="Public Interface Balloon&#xA;Implements _IMsoDispObj" />
@@ -30,15 +22,13 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет выноске, где помощником сведения.</summary>
-    <remarks>
-      <para>Всплывающая подсказка может содержать элементы управления, такие как флажки и метки.</para>
-      <para>Использования <see cref="P:Microsoft.Office.Core.Assistant.NewBalloon" /> свойство возвращает объект <b>в документе</b> . Не коллекцию для объекта <b>в документе</b> . только одна всплывающая могут быть видны за раз. Тем не менее, можно определить несколько выноски и отображать один из них при необходимости.</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core.Balloon.Show" /> метод, чтобы сделать видимой выноске указанного. Использование <see cref="P:Microsoft.Office.Core.Balloon.Callback" /> свойства для выполнения процедур на основе выбранных безрежимным выносках (выноски, которые остаются видимыми, хотя пользователь работает в приложении). Использование <see cref="M:Microsoft.Office.Core.Balloon.Close" /> метод закрытия безрежимным выноски.</para>
-      <para>Можно повторно использовать в документе объектов, которые вы уже создали, назначение объектной переменной и отображение переменной при необходимости его.</para>
-      <para>Кроме того, вместо использования отдельных переменных, вы также можете поместить объект в документе в массив.</para>
-      <para />
-    </remarks>
+    <summary>Представляет подсказку, в которой помощник по Office отображает информацию.</summary>
+    <remarks><para>Всплывающая подсказка может содержать элементы управления, например флажки и метки.</para> 
+      <para> <see cref="P:Microsoft.Office.Core.Assistant.NewBalloon" /> Используйте свойство для возврата объекта <b>подсказки</b> . Отсутствует коллекция для объекта <b>всплывающего</b> окна; в каждый момент времени может отображаться только одно подсказка. Тем не менее, при необходимости можно определить несколько выносок и отображать любой из них.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.Balloon.Show" /> метод, чтобы сделать заданное всплывающее сообщение видимым. Используйте <see cref="P:Microsoft.Office.Core.Balloon.Callback" /> свойство для выполнения процедур на основе выделенных фрагментов в немодальных выносках (всплывающие подсказки, которые отображаются, когда пользователь работает в приложении). Используйте <see cref="M:Microsoft.Office.Core.Balloon.Close" /> метод, чтобы закрыть Немодальные всплывающие подсказки.</para> Вы 
+      <para>можете использовать уже созданные объекты выноски, назначив объект переменной и отображая переменную при необходимости.</para> 
+      <para>Вместо того, чтобы использовать отдельные переменные, можно поместить объект всплывающего окна в массив.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Animation">
@@ -69,34 +59,32 @@
       <Docs>
         <summary>Возвращает или задает действие анимации для помощника по Office.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-          <para>Помощнике выполняется анимация только в том случае, когда отображается сообщение. Помощник по умолчанию является «Скрепыш» и <b>msoAnimationIdle</b> — это тип анимации по умолчанию для помощника.</para>
-          <para>В зависимости от выбранного помощник свойства <b>анимации</b> может отображаться или не может привести к очевидны анимации. Тем не менее все <see cref="T:Microsoft.Office.Core.MsoAnimationType" /> константы допустимы для всех помощников по обслуживанию. Обратите внимание, что различных констант может привести к той же анимации.</para>
-          <para>Следующие константы <b>MsoAnimationType</b> представляют анимация, повторите заданное действие до закрытия помощник или свойство <b>анимации</b> сбрасывается с другой анимации:</para>
+        <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Помощник анимируется только при отображении всплывающего окна. "Клиппит" — помощник по умолчанию, а <b>мсоаниматионидле</b> — это тип анимации для помощника по умолчанию.</para> В 
+          <para>зависимости от выбранного помощника установка свойства <b>анимации</b> может и не привести к очевидной анимации. Однако все <see cref="T:Microsoft.Office.Core.MsoAnimationType" /> константы действительны для всех помощников. Обратите внимание, что разные константы могут создавать одну и ту же анимацию.</para> 
+          <para>Следующие константы <b>мсоаниматионтипе</b> представляют анимацию, которая повторяет указанное действие до закрытия помощника или до сброса свойства <b>анимации</b> с помощью другой анимации:</para>
           <para>
-            <b>msoAnimationCheckingSomething</b>
+            <b>мсоаниматиончеккингсомесинг </b>
+          </para> 
+          <para>
+            <b>мсоаниматионжеттечи</b>
           </para>
           <para>
-            <b>msoAnimationGetTechy</b>
-          </para>
-          <para>
-            <b>msoAnimationListensToComputer</b>
+            <b>мсоаниматионлистенстокомпутер</b>
           </para>
           <para>
             <b>msoAnimationSearching</b>
           </para>
           <para>
-            <b>msoAnimationThinking</b>
-          </para>
+            <b>msoAnimationThinking </b>
+          </para> 
           <para>
             <b>msoAnimationWorkingAtSomething</b>
           </para>
           <para>
             <b>msoAnimationWritingNotingSomething</b>
           </para>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -125,7 +113,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -156,13 +144,11 @@
         <ReturnType>Microsoft.Office.Core.MsoBalloonType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает тип в документе, с помощью помощника по Office.</summary>
+        <summary>Возвращает или задает тип всплывающего напоминания, используемого помощником по Office.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-          <para>При создании <see cref="T:Microsoft.Office.Core.Balloon" /> объекта, это свойство изначально установлено значение <b>msoBalloonTypeButtons</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>При <see cref="T:Microsoft.Office.Core.Balloon" /> создании объекта этому свойству изначально присваивается значение <b>мсобаллунтипебуттонс</b>.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Button">
@@ -191,13 +177,11 @@
         <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает тип кнопки, отображаемые в нижней части помощника Microsoft Office.</summary>
+        <summary>Возвращает или задает тип кнопки, отображаемой в нижней части подсказки помощника Office.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-          <para>При создании <see cref="T:Microsoft.Office.Core.Balloon" /> объекта, это свойство изначально установлено значение <b>msoButtonSetOK</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>При <see cref="T:Microsoft.Office.Core.Balloon" /> создании объекта этому свойству изначально присваивается значение <b>мсобуттонсеток</b>.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Callback">
@@ -226,14 +210,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает имя процедуры, чтобы запускать с безрежимным выноски.</summary>
+        <summary>Возвращает или задает имя процедуры, запускаемой из немодального всплывающего окна.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Процедуры, указанный для <b>обратного вызова</b> свойства должны быть записаны на получение два или три аргумента в зависимости от того, используйте свойство с. Если вы используете свойство <b>обратного вызова</b> с помощью мастера, необходимо создать процедуру, чтобы получать два аргумента: длинное целое, представляющее <see cref="T:Microsoft.Office.Core.MsoBalloonButtonType" /> значения, выбираемого пользователем кнопки и длинное целое число, однозначно идентифицирующее выноске. Если свойство <b>обратного вызова</b> с безрежимным выноски, необходимо создать процедуру, чтобы получать три аргумента: объекта в документе, который вызвал процедуру; длинное целое число, представляющее значение <b>msoBalloonButtonType</b> кнопки выбираемого пользователем; и длинное целое число, однозначно идентифицирующее выноске, вызвавшей процедуру как идентификаторами во всплывающем <see cref="P:Microsoft.Office.Core.Balloon.Private" /> свойство.</para>
-          <para>Процедуру обратного вызова должна содержать по крайней мере один условие, при котором <see cref="M:Microsoft.Office.Core.Balloon.Close" /> метод применяется к <see cref="T:Microsoft.Office.Core.Balloon" /> объекта, передаваемого ему; в противном случае нельзя закрыть выноске безрежимным.</para>
-          <para>При указании процедуры, которые хранятся в отдельный модуль класса, должны включать имя модуля в значение, присваиваемое свойству <b>обратного вызова</b> (например, «Sheet1.MyCallback).</para>
-          <para />
-        </remarks>
+        <remarks><para>Процедура, указанная для свойства <b>callback</b> , должна быть написана для получения двух или трех аргументов в зависимости от того, что используется для свойства. Если вы используете свойство <b>callback</b> с мастером, вам необходимо написать процедуру для получения двух аргументов: длинное целое число, представляющее <see cref="T:Microsoft.Office.Core.MsoBalloonButtonType" /> значение нажатой пользователем кнопки, и длинное целое число, однозначно идентифицирующее всплывающее сообщение. Если вы используете свойство <b>callback</b> с немодальным всплывающим сообщением, необходимо написать процедуру для получения трех аргументов: объект всплывающего окна, который вызвал процедуру; длинное целое число, представляющее значение <b>мсобаллунбуттонтипе</b> кнопки, нажатой пользователем; и длинное целое число, однозначно идентифицирующее подсказку, вызвавшую процедуру, как указано <see cref="P:Microsoft.Office.Core.Balloon.Private" /> в свойстве всплывающего окна.</para> 
+          <para>Процедура обратного вызова должна содержать по крайней мере одно условие <see cref="M:Microsoft.Office.Core.Balloon.Close" /> , при котором метод применяется <see cref="T:Microsoft.Office.Core.Balloon" /> к переданному объекту; в противном случае немодальное всплывающее сообщение не может быть закрыто.</para> 
+          <para>Если вы укажете процедуру, которая хранится в отдельном модуле класса, необходимо включить имя модуля в значение, назначенное свойству <b>callback</b> (например, "Лист1. микаллбакк).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Checkboxes">
@@ -259,7 +241,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.BalloonCheckboxes" /> коллекции, представляющей все флажки, содержащиеся в указанном выноске.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.BalloonCheckboxes" /> коллекцию, которая представляет все флажки, включенные в заданное всплывающее подсказку.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -285,11 +267,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Закрывает выноске active безрежимным.</summary>
-        <remarks>
-          <para>Этот метод следует использовать только в процедуры обратного вызова.</para>
-          <para />
-        </remarks>
+        <summary>Закрывает активное немодальное всплывающее окно.</summary>
+        <remarks><para>Этот метод следует использовать только в процедурах обратного вызова.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -318,12 +298,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>В качестве примера того, как работает данное свойство возвращает 1297307460, который представляет строку «MSWD», если объект был создан в Microsoft Word; Данное свойство возвращает 1480803660, если объект был создан в Microsoft Excel. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя «MSWD». Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.Balloon.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>В качестве примера того, как работает это свойство, возвращается значение 1297307460, которое представляет строку "МСВД", если объект был создан в Microsoft Word; Это свойство возвращает 1480803660, если объект был создан в Microsoft Excel. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word имеется код создателя "МСВД". Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.Balloon.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Heading">
@@ -352,14 +332,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает заголовок, который отображается в окне помощника Microsoft Office.</summary>
+        <summary>Возвращает или задает заголовок, который отображается в выноске помощника по Office.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-          <para>, Можно указать изображение, которое будет отображаться в заголовке в документе, используя следующий синтаксис: {<paramref name="type location sizing_factor" />}, где <paramref name="type" /> bmp (точечный рисунок) или wmf (метафайл Windows), <paramref name="location" /> является ресурсом идентификатор или путь и имя файла, и <paramref name="sizing_factor" /> указывает ширину WMF (указана для bmp).</para>
-          <para>Заголовков в документе также поддерживает подчеркнутый текст и текст, который имеет один из палитры цветов 16 системы применяется к нему. Чтобы отобразить подчеркнутый текст заголовка, используйте синтаксис {<paramref name="ul" />} или {<paramref name="ul 1" />}; Используйте {<paramref name="ul 0" />} Чтобы отключить подчеркивание. Для изменения цвета текст заголовка, предшествовать текстовой строки с последовательности знаков {<paramref name="cf number" />}, где номер — это один из номеров цвет системы, перечисленные в следующей таблице.</para>
-          <list type="table">
-            <item>
+        <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Вы можете указать рисунок, который будет отображаться<paramref name="type location sizing_factor" />в заголовке выноски, с помощью следующего синтаксиса: { <paramref name="type" /> }, где BMP (Bitmap) или WMF (метафайл Windows <paramref name="location" /> ), — это идентификатор ресурса или путь и имя файла, <paramref name="sizing_factor" /> а также задается ширина WMF (опущено для BMP).</para> 
+          <para>Заголовок выноски также поддерживает текст с подчеркиванием и текст, который имеет один из 16 примененных к нему цветов системной палитры. Для отображения подчеркивания текста в заголовке используйте синтаксис {<paramref name="ul" />} или {<paramref name="ul 1" />}; Используйте {<paramref name="ul 0" />}, чтобы отключить подчеркивание. Чтобы изменить цвет текста заголовка, перед строкой текста введите последовательность символов {<paramref name="cf number" />}, где число — это один из системных цветов, перечисленных в следующей таблице.</para> 
+          <list type="table"> 
+            <item> 
               <description>
                 <b>0</b>
               </description>
@@ -369,7 +348,7 @@
               <description>
                 <b>1</b>
               </description>
-              <description>Темно-красный</description>
+              <description>темно-красный</description>
             </item>
             <item>
               <description>
@@ -387,19 +366,19 @@
               <description>
                 <b>4</b>
               </description>
-              <description>Темно-синий</description>
+              <description>темно-голубой</description>
             </item>
             <item>
               <description>
-                <b>5 </b>
+                <b>5</b>
               </description>
-              <description>Фиолетовый</description>
+              <description>темный пурпурный</description>
             </item>
             <item>
               <description>
                 <b>6</b>
               </description>
-              <description>Темно-голубой</description>
+              <description>темно-голубой</description>
             </item>
             <item>
               <description>
@@ -411,19 +390,19 @@
               <description>
                 <b>248</b>
               </description>
-              <description>серого цвета</description>
+              <description>средне серый</description>
             </item>
             <item>
               <description>
                 <b>249</b>
               </description>
-              <description>Красный</description>
+              <description>красный</description>
             </item>
             <item>
               <description>
                 <b>250</b>
               </description>
-              <description>Зеленый</description>
+              <description>зеленый</description>
             </item>
             <item>
               <description>
@@ -435,7 +414,7 @@
               <description>
                 <b>252</b>
               </description>
-              <description>Синий</description>
+              <description>синий</description>
             </item>
             <item>
               <description>
@@ -453,12 +432,11 @@
               <description>
                 <b>255</b>
               </description>
-              <description>Технический</description>
-            </item>
+              <description>White</description>
+            </item>желтый
           </list>
-          <para>При указании номер от одного из предыдущего номера цвет системы, черный текст заголовка.</para>
-          <para />
-        </remarks>
+          <para>, если вы укажете число, отличное от предыдущего, текст заголовка будет черным.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Icon">
@@ -487,12 +465,10 @@
         <ReturnType>Microsoft.Office.Core.MsoIconType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает тип значок, который отображается в левом верхнем часть помощника Microsoft Office.</summary>
+        <summary>Возвращает или задает тип значка, который отображается в левой верхней части подсказки помощника по Office.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-          <para />
-        </remarks>
+        <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Labels">
@@ -518,12 +494,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <see cref="T:Microsoft.Office.Core.BalloonLabels" /> коллекции, представляющей метки кнопок, число меток и подписи маркера, содержащиеся в указанном помощника Microsoft Office.</summary>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.BalloonLabels" /> коллекцию, представляющую метки кнопок, числовые метки и метки маркеров, которые включены в заданную выноску помощника по Office.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-          <para />
-        </remarks>
+        <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mode">
@@ -552,13 +526,13 @@
         <ReturnType>Microsoft.Office.Core.MsoModeType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает модальное поведение помощника Microsoft Office.</summary>
+        <summary>Возвращает или задает модальное поведение подсказки помощника по Office.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-          <para>При создании <see cref="T:Microsoft.Office.Core.Balloon" /> объекта, это свойство изначально установлено значение <b>msoModeModal</b>.</para>
-          <para>, Если свойство <b>режима</b> для всплывающая подсказка имеет значение <b>msoModeModeless</b>, пользователь может работать в приложении, во время выноске будет отображаться. Если задано значение <b>msoModeModal</b>, пользователь должен закрыть выноске перед продолжением работы в приложении. Если задано значение <b>msoModeAutoDown</b>, выноске закрывается при нажатии кнопки в любом месте на экране.</para> Если значение свойства <b>режима</b> для всплывающая подсказка <b>msoModeModeless</b> и значение для 
-          <para><see cref="P:Microsoft.Office.Core.Balloon.Callback" /> свойство не задано, возникает ошибка. <see cref="M:Microsoft.Office.Core.Balloon.Close" /> Метод можно использовать только в процедуре, указанного в свойстве <b>обратного вызова</b> , если свойство <b>Mode</b> имеет значение <b>msoModeModeless</b>.</para><para /></remarks>
+        <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>При <see cref="T:Microsoft.Office.Core.Balloon" /> создании объекта этому свойству изначально присваивается значение <b>мсомодемодал</b>.</para> 
+          <para>Если для свойства <b>mode</b> всплывающего окна задано значение <b>мсомодемоделесс</b>, пользователь может работать в приложении, когда всплывающее сообщение отображается. Если свойству присвоено значение <b>мсомодемодал</b>, пользователь должен закрыть всплывающее сообщение перед продолжением работы в приложении. Если для свойства задано значение <b>мсомодеаутодовн</b>, всплывающее сообщение закрывается, когда пользователь щелкает мышью в любом месте экрана.</para> 
+          <para>Если для свойства <b>mode</b> всплывающего сообщения задано значение <b>мсомодемоделесс</b> , а значение <see cref="P:Microsoft.Office.Core.Balloon.Callback" /> свойства не указано, возникает ошибка. Метод можно использовать только в процедуре, указанной свойством <b>callback</b> , когда для свойства <b>mode</b> задано значение мсомодемоделесс. <b>msoModeModeless</b> <see cref="M:Microsoft.Office.Core.Balloon.Close" /> </para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -643,13 +617,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает целое число, идентифицирующее помощника Microsoft Office, который инициировал процедуру обратного вызова.</summary>
+        <summary>Возвращает или задает целое число, определяющее подсказку помощника по Office, которая инициировала процедуру обратного вызова.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-          <para>Это свойство является полезным, если выполните ту же процедуру обратного вызова из нескольких выноски.</para>
-          <para />
-        </remarks>
+        <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Это свойство полезно, если вы выполняете одну и ту же процедуру обратного вызова из нескольких выносок.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAvoidRectangle">
@@ -678,17 +650,15 @@
         <Parameter Name="Bottom" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Left">Требуется <b>целое число</b>. Координаты (в пунктах и относительно экрана) область экрана, помощника Microsoft Office можно избежать при его отображении.</param>
-        <param name="Top">Требуется <b>целое число</b>. Координаты (в пунктах и относительно экрана) область экрана, помощника Microsoft Office можно избежать при его отображении.</param>
-        <param name="Right">Требуется <b>целое число</b>. Координаты (в пунктах и относительно экрана) область экрана, помощника Microsoft Office можно избежать при его отображении.</param>
-        <param name="Bottom">Требуется <b>целое число</b>. Координаты (в пунктах и относительно экрана) область экрана, помощника Microsoft Office можно избежать при его отображении.</param>
-        <summary>Запрещает отображение в заданную область экрана помощника Microsoft Office.</summary>
-        <remarks>
-          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-          <para>Данное свойство возвращает <see cref="T:Microsoft.Office.Core.Assistant" /> объект.</para>
-          <para>Это свойство предназначено для предотвращения помощника из перекрывающиеся пользовательских диалоговых окон и мастеров.</para>
-          <para />
-        </remarks>
+        <param name="Left">Обязательный атрибут типа <b>Integer</b>. Координаты (в пунктах и относительно экрана) области экрана, в которой всплывающая подсказка помощника по Office не будет отображаться.</param>
+        <param name="Top">Обязательный атрибут типа <b>Integer</b>. Координаты (в пунктах и относительно экрана) области экрана, в которой всплывающая подсказка помощника по Office не будет отображаться.</param>
+        <param name="Right">Обязательный атрибут типа <b>Integer</b>. Координаты (в пунктах и относительно экрана) области экрана, в которой всплывающая подсказка помощника по Office не будет отображаться.</param>
+        <param name="Bottom">Обязательный атрибут типа <b>Integer</b>. Координаты (в пунктах и относительно экрана) области экрана, в которой всплывающая подсказка помощника по Office не будет отображаться.</param>
+        <summary>Запрещает отображать выноску помощника по Office в указанной области экрана.</summary>
+        <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Это свойство возвращает <see cref="T:Microsoft.Office.Core.Assistant" /> объект.</para> 
+          <para>Это свойство предназначено для предотвращения перекрывания всплывающих окон помощника по Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Show">
@@ -712,13 +682,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отображает объект указанного в документе и возвращает <see cref="T:Microsoft.Office.Core.MsoBalloonButtonType" /> константу.</summary>
+        <summary>Отображает указанный объект всплывающего окна и возвращает <see cref="T:Microsoft.Office.Core.MsoBalloonButtonType" /> константу.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>Возвращенные константу указывает, какие кнопки или метки выбираемого пользователем в выноске.</para>
-          <para>Данное свойство возвращает выражение, возвращающее <see cref="T:Microsoft.Office.Core.Balloon" /> объект.</para>
-          <para />
-        </remarks>
+        <remarks><para>Возвращаемая константа указывает на то, какая кнопка или метка была нажата пользователем в выноске.</para> 
+          <para>Это свойство возвращает выражение, возвращающее <see cref="T:Microsoft.Office.Core.Balloon" /> объект.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -747,15 +715,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает текст, отображаемый после заголовка, но до метки или флажки в окне помощника Microsoft Office.</summary>
+        <summary>Возвращает или задает текст, отображаемый после заголовка, но перед метками или флажками в выноске помощника по Office.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-          <para>, Можно указать, что определенный график отображаться, используя следующий синтаксис: {<paramref name="type location sizing_factor" />}, где <paramref name="type" /> bmp (точечный рисунок) или wmf (метафайл Windows); <paramref name="location" /> является ресурсом идентификатор или путь и имя файла; и <paramref name="sizing_factor" /> обозначает ширину WMF-файл (<paramref name="sizing_factor" /> опускается в BMP-файлы).</para>
-          <para>
-            <see cref="T:Microsoft.Office.Core.Balloon" /> Также поддерживает подчеркнутый текст и текст, который имеет один из палитры цветов 16 системы применяется к нему. Чтобы отобразить подчеркнутый текст, используйте следующий синтаксис {<paramref name="ul" />} или {<paramref name="ul 1" />}; Используйте {<paramref name="ul 0" />} Чтобы отключить подчеркивание. Чтобы изменить цвет текста, перед текстовой строки с последовательности знаков {<paramref name="cf number" />}, где номер — это один из номеров цвет системы, перечисленные в следующей таблице.</para>
-          <list type="table">
-            <item>
+        <remarks><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Вы можете указать, что определенная графика будет отображаться с помощью следующего синтаксиса:<paramref name="type location sizing_factor" />{}, <paramref name="type" /> где BMP (точечный рисунок) или WMF (метафайл Windows); <paramref name="location" /> — это идентификатор ресурса, а также путь и имя файла; и <paramref name="sizing_factor" /> обозначает ширину файла WMF (<paramref name="sizing_factor" /> не указывается для BMP-файлов).</para> 
+          <para>Объект также поддерживает текст с подчеркиванием и текст, который имеет один из 16 примененных к нему цветов системной палитры. <see cref="T:Microsoft.Office.Core.Balloon" /> Чтобы отобразить подчеркивание текста, используйте синтаксис {<paramref name="ul" />} или {<paramref name="ul 1" />}; Используйте {<paramref name="ul 0" />}, чтобы отключить подчеркивание. Чтобы изменить цвет текста, перед строкой текста введите последовательность символов {<paramref name="cf number" />}, где число — это один из системных цветов, перечисленных в следующей таблице.</para> 
+          <list type="table"> 
+            <item> 
               <description>
                 <b>0</b>
               </description>
@@ -765,7 +731,7 @@
               <description>
                 <b>1</b>
               </description>
-              <description>Темно-красный</description>
+              <description>темно-красный</description>
             </item>
             <item>
               <description>
@@ -778,24 +744,24 @@
                 <b>3</b>
               </description>
               <description>темно-желтый</description>
-            </item>
+            </item>,
             <item>
               <description>
                 <b>4</b>
               </description>
-              <description>Темно-синий</description>
+              <description>темный синий</description>
             </item>
             <item>
               <description>
-                <b>5 </b>
+                <b>5</b>
               </description>
-              <description>Фиолетовый</description>
+              <description>темный пурпурный</description>
             </item>
             <item>
               <description>
                 <b>6</b>
               </description>
-              <description>Темно-голубой</description>
+              <description>темно-голубой</description>
             </item>
             <item>
               <description>
@@ -807,19 +773,19 @@
               <description>
                 <b>248</b>
               </description>
-              <description>серого цвета</description>
+              <description>средне серый</description>
             </item>
             <item>
               <description>
                 <b>249</b>
               </description>
-              <description>Красный</description>
+              <description>красный</description>
             </item>
             <item>
               <description>
                 <b>250</b>
               </description>
-              <description>Зеленый</description>
+              <description>зеленый</description>
             </item>
             <item>
               <description>
@@ -831,7 +797,7 @@
               <description>
                 <b>252</b>
               </description>
-              <description>Синий</description>
+              <description>голубой</description>
             </item>
             <item>
               <description>
@@ -849,12 +815,11 @@
               <description>
                 <b>255</b>
               </description>
-              <description>Технический</description>
+              <description>White</description>
             </item>
           </list>
-          <para>Если указан номер от одного из предыдущего номера цвет системы текст в выноске помощника по Office черные.</para>
-          <para />
-        </remarks>
+          <para>, если вы укажете число, отличное от предыдущего, текст в выноске помощника по Office будет черным.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

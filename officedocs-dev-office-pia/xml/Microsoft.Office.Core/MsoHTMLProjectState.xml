@@ -1,13 +1,5 @@
 <Type Name="MsoHTMLProjectState" FullName="Microsoft.Office.Core.MsoHTMLProjectState">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2125b8b5e21b2c0d40290d0781c284349ad16238" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662366" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoHTMLProjectState" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2125b8b5e21b2c0d40290d0781c284349ad16238" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662366" /></Metadata><TypeSignature Language="C#" Value="public enum MsoHTMLProjectState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoHTMLProjectState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoHTMLProjectState" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoHTMLProjectState" />
@@ -25,11 +17,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Указывает текущее состояние объекта <b>HTMLProject</b> .</summary>
-    <remarks>
-      <para>Константы <b>MsoHTMLProjectState</b> соответствуют состояние панели обновления в ведущем приложении Microsoft Office или редактор сценариев.</para>
-      <para />
-    </remarks>
+    <summary>Задает текущее состояние объекта <b>хтмлпрожект</b> .</summary>
+    <remarks><para>Константы <b>мсохтмлпрожектстате</b> соответствуют состоянию панели инструментов обновления в ведущем приложении Microsoft Office или в редакторе скриптов (Майкрософт).</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoHTMLProjectStateDocumentLocked">
@@ -48,7 +38,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Документ заблокирован. В приложении Microsoft Office приложение или редактор сценариев означает, что панели обновления в ведущем приложении.</summary>
+        <summary>Документ заблокирован. В ведущем приложении Microsoft Office или в редакторе скриптов (Майкрософт) указывает на то, что панель инструментов обновления отображается в ведущем приложении.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoHTMLProjectStateDocumentProjectUnlocked">
@@ -67,7 +57,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Документ не заблокирована. В приложении Microsoft Office приложение или редактор сценариев, указывает, что панели обновления не отображаются на всех.</summary>
+        <summary>Документ разблокирован. В ведущем приложении Microsoft Office или в редакторе скриптов (Майкрософт) указывает на то, что панель инструментов обновления не отображается вообще.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoHTMLProjectStateProjectLocked">
@@ -86,7 +76,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Проект заблокирован. Редактор сценариев Microsoft означает, что панели обновления.</summary>
+        <summary>Проект заблокирован. В редакторе сценариев (Майкрософт) указывает, что отображается панель инструментов обновление.</summary>
       </Docs>
     </Member>
   </Members>

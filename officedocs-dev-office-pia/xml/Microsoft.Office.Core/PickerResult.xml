@@ -1,13 +1,5 @@
 <Type Name="PickerResult" FullName="Microsoft.Office.Core.PickerResult">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5ef3fda000f93edfce1fbabb836697f720139b92" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662614" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PickerResult : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5ef3fda000f93edfce1fbabb836697f720139b92" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662614" /></Metadata><TypeSignature Language="C#" Value="public interface PickerResult : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PickerResult implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PickerResult" />
   <TypeSignature Language="VB.NET" Value="Public Interface PickerResult&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет элемент разрешенных или выбранных данных.</summary>
+    <summary>Представляет разрешенный или выбранный элемент данных.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,12 +52,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>PickerResult</b> .</summary>
+        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>метод pickerresult</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -94,12 +84,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>PickerResult</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>метод pickerresult</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -128,12 +116,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Представляет отображаемое имя <b>PickerResult</b>.</summary>
+        <summary>Представляет отображаемое имя <b>метод pickerresult</b>.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="DuplicateResults">
@@ -159,12 +145,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает коллекцию <b>PickerResult</b> , если результат результаты для устранения имеет несколько кандидатов.</summary>
+        <summary>Возвращает коллекцию <b>метод pickerresult</b> , если результат разрешения результатов имеет несколько кандидатов.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Fields">
@@ -193,12 +177,10 @@
         <ReturnType>Microsoft.Office.Core.PickerFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает определения полей вложенных элементов в <see cref="T:Microsoft.Office.Core.PickerFields" /> семейства сайтов.</summary>
+        <summary>Получает определения полей для дочерних элементов в <see cref="T:Microsoft.Office.Core.PickerFields" /> коллекции.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -224,12 +206,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает уникальный идентификатор связанного объекта <b>PickerResult</b> .</summary>
+        <summary>Получает уникальный идентификатор связанного объекта <b>метод pickerresult</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ItemData">
@@ -258,12 +238,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает цель без отображения элемента привязки к данным.</summary>
+        <summary>Возвращает или задает привязку элемента, не относящегося к отображению, к данным.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SIPId">
@@ -292,12 +270,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает идентификатор для сервера Office Communication Server. Она используется только для пользователей, комплектации сценария.</summary>
+        <summary>Получает или задает идентификатор для сервера Office Communication Server. Он используется только для сценария комплектации людей.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SubItems">
@@ -326,12 +302,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает отображение задачи или без отображения назначения данных поля объекта <b>PickerResult</b> . Он используется для передачи значения столбцов в диалоговом окне "Выбор".</summary>
+        <summary>Получает или задает отображаемое назначение или данные поля назначения, не связанные с отображением объекта <b>метод pickerresult</b> . Он используется для передачи значений столбца в диалоговом окне выбора.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -360,12 +334,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип объекта <b>PickerResult</b> .</summary>
+        <summary>Получает тип объекта <b>метод pickerresult</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

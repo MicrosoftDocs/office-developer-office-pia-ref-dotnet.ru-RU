@@ -1,13 +1,5 @@
 <Type Name="_CommandBarButtonEvents_Event" FullName="Microsoft.Office.Core._CommandBarButtonEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d01d72734eb26d3f352254d3eab8f275d3dc8871" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662553" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CommandBarButtonEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d01d72734eb26d3f352254d3eab8f275d3dc8871" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662553" /></Metadata><TypeSignature Language="C#" Value="public interface _CommandBarButtonEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBarButtonEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarButtonEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CommandBarButtonEvents_Event" />
@@ -29,7 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Интерфейс события для Microsoft Office <see cref="T:Microsoft.Office.Core.CommandBarButton" /> объекта события.</summary>
+    <summary>Интерфейс событий для событий объектов <see cref="T:Microsoft.Office.Core.CommandBarButton" /> Microsoft Office.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
         <ReturnType>Microsoft.Office.Core._CommandBarButtonEvents_ClickEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Происходит, когда пользователь щелкает <see cref="T:Microsoft.Office.Core.CommandBarButton" /> объекта.</summary>
+        <summary>Происходит, когда пользователь щелкает <see cref="T:Microsoft.Office.Core.CommandBarButton" /> объект.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

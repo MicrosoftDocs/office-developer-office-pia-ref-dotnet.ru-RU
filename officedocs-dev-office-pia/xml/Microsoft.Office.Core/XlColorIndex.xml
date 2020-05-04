@@ -1,13 +1,5 @@
 <Type Name="XlColorIndex" FullName="Microsoft.Office.Core.XlColorIndex">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1aa365493fb2a613ef646c91f13edbf39da58d1a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661657" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlColorIndex" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1aa365493fb2a613ef646c91f13edbf39da58d1a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661657" /></Metadata><TypeSignature Language="C#" Value="public enum XlColorIndex" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlColorIndex extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlColorIndex" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlColorIndex" />
@@ -28,7 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает цвет выбранного компонента, например границы, шрифта или заливки.</summary>
+    <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Задает цвет выбранного компонента, например, границы, шрифта или заливки.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
       </ReturnValue>
       <MemberValue>-4105</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Автоматическое цвет.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Автоматический цвет.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlColorIndexNone">
@@ -67,7 +59,7 @@
       </ReturnValue>
       <MemberValue>-4142</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Без цвета.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Нет цвета.</summary>
       </Docs>
     </Member>
   </Members>

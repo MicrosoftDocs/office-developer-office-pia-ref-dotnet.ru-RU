@@ -1,13 +1,5 @@
 <Type Name="_CustomTaskPaneEvents_Event" FullName="Microsoft.Office.Core._CustomTaskPaneEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dc8f711cb006995f96a1953ee8a03635690bc228" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662247" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CustomTaskPaneEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dc8f711cb006995f96a1953ee8a03635690bc228" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662247" /></Metadata><TypeSignature Language="C#" Value="public interface _CustomTaskPaneEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomTaskPaneEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomTaskPaneEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CustomTaskPaneEvents_Event" />
@@ -29,7 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Интерфейс события для Microsoft Office <see cref="T:Microsoft.Office.Core.CustomTaskPane" /> объектов событий.</summary>
+    <summary>Интерфейс событий для событий объектов <see cref="T:Microsoft.Office.Core.CustomTaskPane" /> Microsoft Office.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +40,7 @@
         <ReturnType>Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Происходит, когда пользователь изменяет закрепления положение active настраиваемой области задач.</summary>
+        <summary>Происходит, когда пользователь изменяет положение стыковки активной настраиваемой области задач.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -67,7 +59,7 @@
         <ReturnType>Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Происходит, когда пользователь изменяет видимости настраиваемой области задач.</summary>
+        <summary>Происходит, когда пользователь изменяет видимость настраиваемой области задач.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

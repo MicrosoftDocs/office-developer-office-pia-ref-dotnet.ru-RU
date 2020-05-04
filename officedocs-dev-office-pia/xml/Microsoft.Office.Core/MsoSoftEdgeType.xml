@@ -1,13 +1,5 @@
 <Type Name="MsoSoftEdgeType" FullName="Microsoft.Office.Core.MsoSoftEdgeType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3f47790a5d6068e80e30673bc69215525344fa2f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661880" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoSoftEdgeType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3f47790a5d6068e80e30673bc69215525344fa2f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661880" /></Metadata><TypeSignature Language="C#" Value="public enum MsoSoftEdgeType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSoftEdgeType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSoftEdgeType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoSoftEdgeType" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает тип программных влияние пограничного сервера.</summary>
+    <summary>Задает тип побочного эффекты.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Тип использования программных пограничного сервера 1</summary>
+        <summary>Тип загружаемого пограничного сервера 1</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSoftEdgeType2">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Тип использования программных край 2</summary>
+        <summary>Тип мягкого пограничного сервера 2</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSoftEdgeType3">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Тип использования программных край 3</summary>
+        <summary>Тип мягкого пограничного сервера 3</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSoftEdgeType4">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Тип использования программных край 4</summary>
+        <summary>Тип "мягкий край" 4</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSoftEdgeType5">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Тип использования программных край 5</summary>
+        <summary>Тип мягкой пограничного сервера 5</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSoftEdgeType6">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Тип использования программных край 6</summary>
+        <summary>Тип мягкой пограничного сервера 6</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSoftEdgeTypeMixed">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>Сочетание типов программных пограничного сервера.</summary>
+        <summary>Смесь типов мягкой пограничного сервера.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSoftEdgeTypeNone">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Программных пограничного сервера.</summary>
+        <summary>Несглаженный край.</summary>
       </Docs>
     </Member>
   </Members>

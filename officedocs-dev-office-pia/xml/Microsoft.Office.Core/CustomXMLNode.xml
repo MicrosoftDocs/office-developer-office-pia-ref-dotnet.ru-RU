@@ -1,13 +1,5 @@
 <Type Name="CustomXMLNode" FullName="Microsoft.Office.Core.CustomXMLNode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bf745aff799d7f2e6ef599bbb549cfbdeb5ce457" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662085" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CustomXMLNode : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bf745aff799d7f2e6ef599bbb549cfbdeb5ce457" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662085" /></Metadata><TypeSignature Language="C#" Value="public interface CustomXMLNode : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLNode implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLNode" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLNode&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет XML-узел в дереве документа. <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> Объект является членом <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> семейства сайтов.</summary>
-    <remarks>
-      <para>
-        <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> Обеспечивает возможности funtional с интерфейсом <b>IXMLDOMNode</b> объекта. Кроме того, он содержит <see cref="P:Microsoft.Office.Core.CustomXMLNode.XPath" /> свойства, являющийся хорошие улучшения через объекты, предоставляемые MSXML.</para>
-      <para />
-    </remarks>
+    <summary>Представляет XML-узел в дереве документа. <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> Объект является членом <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> коллекции.</summary>
+    <remarks><para><see cref="T:Microsoft.Office.Core.CustomXMLNode" /> Объект предназначен для того, чтобы иметь фунтионал четность с интерфейсом <b>IXMLDOMNode</b> . Кроме того, он содержит <see cref="P:Microsoft.Office.Core.CustomXMLNode.XPath" /> свойство, которое является значительным улучшением по сравнению с объектами, предоставленными службой MSXML.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="AppendChildNode">
@@ -63,15 +52,13 @@
         <Parameter Name="NodeValue" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Name">Представляет базовое имя добавляемый элемент.</param>
-        <param name="NamespaceURI">Представляет пространство имен добавляемый элемент. Этот параметр необходим для добавления узлов типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" /> или <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />, в противном случае игнорируется.</param>
-        <param name="NodeType">Указывает тип узла для добавления. Если параметр не указан, предполагается иметь тип <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</param>
-        <param name="NodeValue">Используется для задания значения добавленный узел для тех узлов, которые позволяют текста. Если узел не поддерживает текст, параметр игнорируется.</param>
-        <summary>Добавляет отдельного узла в качестве последнего дочернего элемента в узле контекста элемент в дереве.</summary>
-        <remarks>
-          <para>Если узел контекст является любой тип отличный от <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />, или если операции приведет к недопустимый древовидной структуре, append не выполняется и отображается сообщение об ошибке.</para>
-          <para />
-        </remarks>
+        <param name="Name">Представляет базовое имя добавляемого элемента.</param>
+        <param name="NamespaceURI">Представляет пространство имен добавляемого элемента. Этот параметр является обязательным для добавления узлов типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" /> или <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />, в противном случае, игнорируется.</param>
+        <param name="NodeType">Указывает тип добавляемого узла. Если параметр не указан, предполагается, что он имеет тип <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</param>
+        <param name="NodeValue">Используется для задания значения присоединенного узла для тех узлов, которые разрешают текст. Если узел не поддерживает текст, параметр игнорируется.</param>
+        <summary>Добавляет один узел в качестве последнего дочернего элемента в узле элемента контекста в дереве.</summary>
+        <remarks><para>Если узел контекста имеет любой тип, отличный от <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />, или если операция приведет к недопустимой древовидной структуре, то операция добавления не выполняется и отображается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="AppendChildSubtree">
@@ -97,12 +84,10 @@
         <Parameter Name="XML" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="XML">Представляет поддерево, чтобы добавить.</param>
-        <summary>Добавляет поддерево в качестве последнего дочернего элемента в узле контекста элемент в дереве.</summary>
-        <remarks>
-          <para>Если узел контекст является любой тип отличный от <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />, операции добавления не выполняется, и отображается сообщение об ошибке.  Если <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> проверяется схемы и при операции приведет к недопустимый древовидной структуре, операции добавления не выполняется, и отображается сообщение об ошибке.</para>
-          <para />
-        </remarks>
+        <param name="XML">Представляет поддерево, которое необходимо добавить.</param>
+        <summary>Добавляет поддерево в качестве последнего дочернего элемента в узле элемента контекста в дереве.</summary>
+        <remarks><para>Если узел контекста имеет любой тип, отличный от <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />, операция Append не выполняется и отображается сообщение об ошибке.  Если проверка <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> выполняется для схемы и если операция приведет к недопустимой древовидной структуре, то операция добавления не выполняется и отображается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -131,10 +116,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.CustomXMLNode" />. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта <see cref="T:Microsoft.Office.Core.CustomXMLNode" />. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -161,10 +144,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLNodes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> семейства сайтов, представляющее атрибуты текущего элемента в текущем узле. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNodes" />
-        </value>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> коллекцию, представляющую атрибуты текущего элемента в текущем узле. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLNodes" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -191,14 +172,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает базовое имя узла без префикса пространства имен, если он существует, в модели объектов документа (DOM). Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
-        <remarks>
-          <para>Это элемент по умолчанию <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объекта.</para>
-          <para />
-        </remarks>
+        <summary>Получает базовое имя узла без префикса пространства имен (если оно существует) в объектной модели документов (DOM). Только для чтения.</summary>
+        <value><b>Строка</b></value>
+        <remarks><para>Это член <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объекта по умолчанию.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ChildNodes">
@@ -224,10 +201,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLNodes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> коллекция, содержащая все дочерние элементы текущего узла. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNodes" />
-        </value>
+        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLNodes" /> коллекцию, содержащую все дочерние элементы текущего узла. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLNodes" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -257,10 +232,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -285,11 +258,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет текущий узел в дереве (включая все дочерние элементы, если они существуют).</summary>
-        <remarks>
-          <para>Если операции приведет к недопустимый древовидной структуре, удаление не выполняется, и отображается сообщение об ошибке.</para>
-          <para />
-        </remarks>
+        <summary>Удаляет текущий узел из дерева (в том числе все его дочерние элементы, если таковые имеются).</summary>
+        <remarks><para>Если операция приведет к недопустимой древовидной структуре, удаление не выполняется и отображается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="FirstChild">
@@ -315,10 +286,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLNode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> соответствующий букве первый дочерний элемент текущего узла. Если узел не имеет дочерних элементов (или если она еще не типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />), возвращает <b>значение Nothing</b>. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNode" />
-        </value>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объект, соответствующий первому дочернему элементу текущего узла. Если у узла нет дочерних элементов (или он не является типом <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />), возвращается <b>значение Nothing</b>. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLNode" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -343,14 +312,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Возвращает <b>значение True</b> , если на текущем узле элемент имеет дочерние узлы.</summary>
-        <returns>
-          <b>Boolean</b>
-        </returns>
-        <remarks>
-          <para>Этот метод всегда возвращает <b>значение False,</b> Если <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> не относящееся к типу узла <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает <b>значение true</b> , если узел текущего элемента содержит дочерние узлы элементов.</summary>
+        <returns><b>Boolean</b></returns>
+        <remarks><para>Этот метод всегда возвращает <b>значение false</b> , <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> если тип <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />не является узлом.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="InsertNodeBefore">
@@ -379,16 +344,14 @@
         <Parameter Name="NextSibling" Type="Microsoft.Office.Core.CustomXMLNode" />
       </Parameters>
       <Docs>
-        <param name="Name">Представляет базовое имя узла будет добавлена.</param>
-        <param name="NamespaceURI">Представляет пространство имен из элемента, который требуется добавить. Этот параметр является обязательным, если добавление узлов типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" /> или <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />, в противном случае игнорируется.</param>
-        <param name="NodeType">Указывает тип узла будет добавлена. Если параметр не указан, он считается узел типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</param>
-        <param name="NodeValue">Используется для задания значения узла будет добавлена для тех узлов, которые позволяют текст. Если узел не поддерживает текст, параметр игнорируется.</param>
-        <param name="NextSibling">Представляет узла контекста.</param>
-        <summary>Вставляет новый узел перед контекстного узла в дереве.</summary>
-        <remarks>
-          <para>Если узел контекст отсутствует при добавлении узла типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />, <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeComment" />, или <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeProcessingInstruction" />, добавляется новый узел до последнего дочернего узла контекста. Если операция приведет к недопустимый древовидной структуре, вставка не выполняется и отображается сообщение об ошибке.</para>
-          <para />
-        </remarks>
+        <param name="Name">Представляет базовое имя добавляемого узла.</param>
+        <param name="NamespaceURI">Представляет пространство имен добавляемого элемента. Этот параметр является обязательным при добавлении узлов типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" /> или <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />, в противном случае, игнорируется.</param>
+        <param name="NodeType">Указывает тип добавляемого узла. Если параметр не указан, предполагается, что он является узлом типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</param>
+        <param name="NodeValue">Используется, чтобы задать значение узла, добавляемого для тех узлов, которые разрешают текст. Если узел не поддерживает текст, параметр игнорируется.</param>
+        <param name="NextSibling">Представляет узел контекста.</param>
+        <summary>Вставляет новый узел непосредственно перед контекстным узлом дерева.</summary>
+        <remarks><para>Если узел контекста отсутствует при добавлении узла типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />, <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeComment" />или <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeProcessingInstruction" />новый узел добавляется к последнему дочернему элементу узла контекста. Если операция приведет к недопустимой структуре дерева, вставка не выполняется и отображается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="InsertSubtreeBefore">
@@ -414,13 +377,11 @@
         <Parameter Name="NextSibling" Type="Microsoft.Office.Core.CustomXMLNode" />
       </Parameters>
       <Docs>
-        <param name="XML">Представляет поддерева будет добавлена.</param>
-        <param name="NextSibling">Задает узла контекста.</param>
-        <summary>Вставляет указанный поддерева в расположение перед узла контекста.</summary>
-        <remarks>
-          <para>Если <paramref name="NextSibling" /> параметр не является потомком узла контекста или если операции приведет к недопустимый древовидной структуре, вставка не выполняется и отображается сообщение об ошибке.</para>
-          <para />
-        </remarks>
+        <param name="XML">Представляет поддерево, которое необходимо добавить.</param>
+        <param name="NextSibling">Указывает узел контекста.</param>
+        <summary>Вставляет указанное поддерево в расположение непосредственно перед контекстным узлом.</summary>
+        <remarks><para>Если <paramref name="NextSibling" /> параметр не является дочерним по отношению к узлу контекста или если операция приведет к недопустимой древовидной структуре, то вставка не выполняется и отображается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastChild">
@@ -446,10 +407,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLNode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> к последнему соответствующий дочерний элемент текущего узла. Если узел не имеет дочерних элементов (или не имеет типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />), это свойство возвращает <b>значение Nothing</b>. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNode" />
-        </value>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объект, соответствующий последнему дочернему элементу текущего узла. Если у узла нет дочерних элементов (или он не является типом <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />), свойство не возвращает <b>значение Nothing</b>. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLNode" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -476,10 +435,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор уникальный адрес для пространства имен <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает уникальный идентификатор пространства имен <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объекта. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -506,10 +463,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLNode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает следующий одноуровневый узел (элемент, комментарий или команды обработки) текущего узла. Если узел является последний элемент на уровне, это свойство возвращает <b>значение Nothing</b>. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNode" />
-        </value>
+        <summary>Получает следующий одноуровневый узел (элемент, комментарий или инструкцию обработки) текущего узла. Если узел является последним элементом того же уровня на его уровне, свойство <b>не возвращает значение Nothing</b>. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLNode" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -537,9 +492,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает тип текущего узла. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoCustomXMLNodeType" />
-        </value>
+        <value><see cref="T:Microsoft.Office.Core.MsoCustomXMLNodeType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -570,9 +523,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает значение текущего узла. Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -599,10 +550,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект, представляющий книги Microsoft Office Excel, презентации Microsoft Office PowerPoint или документ Microsoft Office Word, связанный с этим узлом. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Получает объект, представляющий книгу Microsoft Office Excel, презентацию Microsoft Office PowerPoint или документ Microsoft Office Word, связанный с этим узлом. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -629,10 +578,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLPart</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект, представляющий часть, связанного с этим узлом. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core._CustomXMLPart" />
-        </value>
+        <summary>Получает объект, представляющий часть, связанную с этим узлом. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core._CustomXMLPart" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -660,9 +607,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.CustomXMLNode" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -689,10 +634,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLNode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает родительский узел элемента текущего узла. Если текущий узел является на корневом уровне, это свойство возвращает <b>значение Nothing</b>. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNode" />
-        </value>
+        <summary>Возвращает родительский узел элемента текущего узла. Если текущий узел находится на корневом уровне, свойство не возвращает <b>значение Nothing</b>. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLNode" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -719,10 +662,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLNode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает предыдущего одноуровневого узла (элемент, комментарий или команды обработки) текущего узла. Если текущий узел является первым элементом на уровне, это свойство возвращает <b>значение Nothing</b>. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNode" />
-        </value>
+        <summary>Получает предыдущий родственный узел (элемент, комментарий или инструкцию обработки) текущего узла. Если текущий узел является первым элементом того же уровня на его уровне, свойство <b>не возвращает значение Nothing</b>. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLNode" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -749,12 +690,10 @@
         <Parameter Name="Child" Type="Microsoft.Office.Core.CustomXMLNode" />
       </Parameters>
       <Docs>
-        <param name="Child">Представляет узел дочернего узла контекста.</param>
+        <param name="Child">Представляет дочерний узел узла контекста.</param>
         <summary>Удаляет указанный дочерний узел из дерева.</summary>
-        <remarks>
-          <para>Если узел указан в <paramref name="Child" /> параметр не является потомком узла контекста или если действие приведет к недопустимый дерева, удаление не выполняется, и отображается сообщение об ошибке.</para>
-          <para />
-        </remarks>
+        <remarks><para>Если узел, указанный в <paramref name="Child" /> параметре, не является дочерним по отношению к узлу контекста, или если действие приведет к недопустимому дереву, то удаление не выполняется и отображается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplaceChildNode">
@@ -783,16 +722,14 @@
         <Parameter Name="NodeValue" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="OldNode">Представляет дочернего узла для замены.</param>
-        <param name="Name">Представляет базовое имя элемента, который требуется добавить.</param>
-        <param name="NamespaceURI">Представляет пространство имен из элемента, который требуется добавить. Этот параметр является обязательным, если добавление узлов типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" /> или <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />, в противном случае игнорируется.</param>
-        <param name="NodeType">Указывает тип узла для добавления. Если параметр не указан, предполагается иметь тип <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</param>
-        <param name="NodeValue">Используется для задания значения узла будет добавлена для тех узлов, которые позволяют текст. Если узел не поддерживает текст, параметр игнорируется.</param>
-        <summary>Удаляет указанного дочернего узла (и его поддерево) из основного дерева и заменяет его с другой узел в одном месте.</summary>
-        <remarks>
-          <para>Если <paramref name="OldNode" /> параметр не является потомком узла контекста или если операции приведет к недопустимый древовидной структуре, замена не выполняется и отображается сообщение об ошибке. Кроме того в случае, где узел добавляемого уже существует, замена не выполняется и отображается сообщение об ошибке.</para>
-          <para />
-        </remarks>
+        <param name="OldNode">Представляет дочерний узел, который необходимо заменить.</param>
+        <param name="Name">Представляет базовое имя добавляемого элемента.</param>
+        <param name="NamespaceURI">Представляет пространство имен добавляемого элемента. Этот параметр является обязательным при добавлении узлов типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" /> или <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />, в противном случае, игнорируется.</param>
+        <param name="NodeType">Указывает тип добавляемого узла. Если параметр не указан, предполагается, что он имеет тип <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</param>
+        <param name="NodeValue">Используется, чтобы задать значение узла, добавляемого для тех узлов, которые разрешают текст. Если узел не поддерживает текст, параметр игнорируется.</param>
+        <summary>Удаляет указанный дочерний узел (и его поддерево) из основного дерева и заменяет его на другой узел в том же расположении.</summary>
+        <remarks><para>Если <paramref name="OldNode" /> параметр не является дочерним по отношению к узлу контекста или если операция приведет к недопустимой древовидной структуре, замена не выполняется и отображается сообщение об ошибке. Кроме того, если добавляемый узел уже существует, замена не выполняется и отображается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplaceChildSubtree">
@@ -819,13 +756,11 @@
         <Parameter Name="OldNode" Type="Microsoft.Office.Core.CustomXMLNode" />
       </Parameters>
       <Docs>
-        <param name="XML">Представляет поддерева будет добавлена.</param>
-        <param name="OldNode">Представляет дочернего узла для замены.</param>
-        <summary>Удаляет указанный узел (и его поддерево) из основного дерева и заменяет его различных поддерева в ту же папку.</summary>
-        <remarks>
-          <para>Если операция приведет к недопустимый древовидной структуре, не выполняется операция замены и отображается сообщение об ошибке.</para>
-          <para />
-        </remarks>
+        <param name="XML">Представляет поддерево, которое необходимо добавить.</param>
+        <param name="OldNode">Представляет дочерний узел, который необходимо заменить.</param>
+        <summary>Удаляет указанный узел (и его поддерево) из основного дерева и заменяет его другим поддеревом в том же расположении.</summary>
+        <remarks><para>Если операция приведет к недопустимой древовидной структуре, операция замены не выполняется и отображается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectNodes">
@@ -852,10 +787,8 @@
       </Parameters>
       <Docs>
         <param name="XPath">Содержит выражение XPath.</param>
-        <summary>Выбор семейства узлов, соответствующих выражение XPath. Этот метод отличается от <see cref="M:Microsoft.Office.Core._CustomXMLPart.SelectNodes(System.String)" /> метода в том, что выражение XPath вычисляется начинающиеся с «выражение» узлы как контекста.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNodes" />
-        </returns>
+        <summary>Выбирает коллекцию узлов, соответствующую выражению XPath. Этот метод отличается от метода <see cref="M:Microsoft.Office.Core._CustomXMLPart.SelectNodes(System.String)" /> тем, что выражение XPath будет оценено начиная с узла "выражение" в качестве узла контекста.</summary>
+        <returns><see cref="T:Microsoft.Office.Core.CustomXMLNodes" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -883,10 +816,8 @@
       </Parameters>
       <Docs>
         <param name="XPath">Содержит выражение XPath.</param>
-        <summary>Выбирает отдельного узла из коллекции, соответствующий выражение XPath. Этот метод отличается от <see cref="M:Microsoft.Office.Core._CustomXMLPart.SelectSingleNode(System.String)" /> метода в том, что выражение XPath вычисляется начинающиеся с «выражение» узлы как контекста.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNode" />
-        </returns>
+        <summary>Выбирает один узел из коллекции, соответствующей выражению XPath. Этот метод отличается от метода <see cref="M:Microsoft.Office.Core._CustomXMLPart.SelectSingleNode(System.String)" /> тем, что выражение XPath будет оценено начиная с узла "выражение" в качестве узла контекста.</summary>
+        <returns><see cref="T:Microsoft.Office.Core.CustomXMLNode" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -917,9 +848,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает текст для текущего узла. Для чтения и записи.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -946,10 +875,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает XML-представление текущего узла и его дочерних элементов, если они существуют. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Возвращает XML-представление текущего узла и его дочерних элементов, если таковые существуют. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -976,10 +903,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>строку</b> с канонических XPath для текущего узла. Если узел больше не является в модели объектов документа (DOM), это свойство возвращает сообщения об ошибке. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает <b>строку</b> с каноническим выражением XPath для текущего узла. Если узел больше не находится в объектной модели документов (DOM), свойство возвращает сообщение об ошибке. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

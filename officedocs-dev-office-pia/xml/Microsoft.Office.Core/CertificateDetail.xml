@@ -1,13 +1,5 @@
 <Type Name="CertificateDetail" FullName="Microsoft.Office.Core.CertificateDetail">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d2f0f7473476d58595cdb7f03c3544b3565b7b65" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662282" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum CertificateDetail" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d2f0f7473476d58595cdb7f03c3544b3565b7b65" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662282" /></Metadata><TypeSignature Language="C#" Value="public enum CertificateDetail" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CertificateDetail extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CertificateDetail" />
   <TypeSignature Language="VB.NET" Value="Public Enum CertificateDetail" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Предоставляет сведения о цифровой сертификат.</summary>
+    <summary>Предоставляет сведения о цифровом сертификате.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Указывает, что цифровой сертификат для подписи.</summary>
+        <summary>Указывает, что цифровой сертификат доступен для подписания.</summary>
       </Docs>
     </Member>
     <Member MemberName="certdetExpirationDate">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Выдающего центра сертификации.</summary>
+        <summary>Центр сертификации, выдавший сертификат.</summary>
       </Docs>
     </Member>
     <Member MemberName="certdetSubject">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Владелец закрытого ключа, соответствующего открытого ключа.</summary>
+        <summary>Держатель закрытого ключа, соответствующего открытому ключу.</summary>
       </Docs>
     </Member>
     <Member MemberName="certdetThumbprint">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Хэш сертификата все содержимое.</summary>
+        <summary>Хэш полного содержимого сертификата.</summary>
       </Docs>
     </Member>
   </Members>

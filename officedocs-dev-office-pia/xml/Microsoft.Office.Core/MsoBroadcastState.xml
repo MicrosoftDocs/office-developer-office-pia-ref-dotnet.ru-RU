@@ -1,13 +1,5 @@
 <Type Name="MsoBroadcastState" FullName="Microsoft.Office.Core.MsoBroadcastState">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3ee86c245b48413d130cf9d9edb7acb5c3f1fca2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661644" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoBroadcastState" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3ee86c245b48413d130cf9d9edb7acb5c3f1fca2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661644" /></Metadata><TypeSignature Language="C#" Value="public enum MsoBroadcastState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBroadcastState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBroadcastState" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoBroadcastState" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает текущее состояние документа или презентации вещания.</summary>
+    <summary>Указывает текущее состояние вещания документа или презентации.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Приостановлено показа слайдов.</summary>
+        <summary>Вещание приостановлено.</summary>
       </Docs>
     </Member>
     <Member MemberName="BroadcastStarted">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Запущен показа слайдов.</summary>
+        <summary>Трансляция запущена.</summary>
       </Docs>
     </Member>
     <Member MemberName="NoBroadcast">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Файл не является широковещательные.</summary>
+        <summary>Файл не пересылается.</summary>
       </Docs>
     </Member>
   </Members>

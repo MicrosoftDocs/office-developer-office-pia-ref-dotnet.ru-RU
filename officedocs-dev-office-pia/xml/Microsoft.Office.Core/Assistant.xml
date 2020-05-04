@@ -1,13 +1,5 @@
 <Type Name="Assistant" FullName="Microsoft.Office.Core.Assistant">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="61064786eac2bb5900c548fc2646b43d445a5449" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661728" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Assistant : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="61064786eac2bb5900c548fc2646b43d445a5449" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661728" /></Metadata><TypeSignature Language="C#" Value="public interface Assistant : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Assistant implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Assistant" />
   <TypeSignature Language="VB.NET" Value="Public Interface Assistant&#xA;Implements _IMsoDispObj" />
@@ -31,10 +23,8 @@
   </Attributes>
   <Docs>
     <summary>Представляет помощник по Microsoft Office.</summary>
-    <remarks>
-      <para>Свойство <b>Assistant</b> используется для возврата объекта <b>помощника по</b> . Не коллекцию для объекта <b>помощника по</b> ; только один объект <b>помощника по</b> может быть активной за раз. Используйте <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> свойство для отображения помощника и использовать <see cref="P:Microsoft.Office.Core.Assistant.On" /> свойство, чтобы включить помощник по.</para>
-      <para />
-    </remarks>
+    <remarks><para>Используйте свойство <b>Assistant</b> для возврата объекта <b>Assistant</b> . Отсутствует коллекция для объекта <b>Assistant</b> ; в каждый момент времени может быть активен только один объект <b>помощника</b> . Используйте <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> свойство для отображения помощника и используйте <see cref="P:Microsoft.Office.Core.Assistant.On" /> свойство для включения помощника.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="ActivateWizard">
@@ -61,10 +51,10 @@
         <Parameter Name="Animation" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="WizardID">Число, возвращаемое <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> метод.</param>
-        <param name="act">Задает изменения в сеансе помощником справки.</param>
-        <param name="Animation">Анимация помощника Office выполняет при приостановить или возобновить.</param>
-        <summary>Возобновляет или приостанавливает помощником справки во время настраиваемого мастера.</summary>
+        <param name="WizardID">Число, возвращенное <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> методом.</param>
+        <param name="act">Задает изменение сеанса справки помощника по Office.</param>
+        <param name="Animation">Анимация, выполняемая помощником по Office при его остановке или возобновлении.</param>
+        <summary>Возобновляет или приостанавливает работу помощника по Office во время настраиваемого мастера.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,10 +86,8 @@
       <Docs>
         <summary>Возвращает или задает действие анимации для помощника по Office.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Когда это свойство применяется к <see cref="T:Microsoft.Office.Core.Assistant" /> объект и помощник поддерживает указанный анимации, выполняется анимация помощника (если помощник видимы и включены).</para>
-          <para />
-        </remarks>
+        <remarks><para>Когда это свойство применяется к <see cref="T:Microsoft.Office.Core.Assistant" /> объекту, а помощник поддерживает указанную анимацию, помощник анимируется сразу же (если помощник видим и включен).</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -128,7 +116,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -159,8 +147,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если помощника Microsoft Office предоставляет оповещения приложение помощника отображается, когда.</summary>
+        <summary><b>Имеет значение true</b> , если выноска помощника по Office предоставляет оповещения о приложении, когда помощник по Office отображается.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,8 +178,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если помощник появляется, когда пользователь нажимает клавишу F1 для отображения справки.</summary>
+        <summary><b>Имеет значение true</b> , если помощник отображается, когда пользователь нажимает клавишу F1 для отображения справки.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -223,8 +209,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если помощник по Office предоставляет интерактивной справки с помощью мастера.</summary>
+        <summary><b>Имеет значение true</b> , если помощник предоставляет справку в Интернете с помощью мастеров.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -252,7 +237,7 @@
         <ReturnType>Microsoft.Office.Core.MsoBalloonErrorType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает значение, которое указывает последнюю ошибку записанных в документе.</summary>
+        <summary>Возвращает значение, которое указывает на последнюю записанную ошибку всплывающей подсказки.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -283,7 +268,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -317,15 +302,14 @@
         <Parameter Name="varfSysAlert" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="bstrAlertTitle">Задает заголовок оповещения.</param>
+        <param name="bstrAlertTitle">Задает название оповещения.</param>
         <param name="bstrAlertText">Задает текст оповещения.</param>
-        <param name="alb">Определяет кнопки, которые отображаются на оповещение.</param>
-        <param name="alc">Определяет значок, который отображается в оповещении.</param>
-        <param name="ald">Определяет, какие кнопки имеет значение по умолчанию оповещения. Если этот аргумент задано значение больше, чем количество кнопок, возвращается ошибка.</param>
-        <param name="alq">Всегда установите в <b>msoAlertCancelDefault</b>. Любая другая настройка может возвращать ошибку.</param>
-        <param name="varfSysAlert">
-          <b>Значение true,</b> Если это оповещение отображается в окне сообщения, или <b>значение False</b> , если отображается оповещение с помощью помощника по Office.</param>
-        <summary>Появляется сообщение о и возвращает <b>целое число</b> , указывающее, какая кнопка была нажата.</summary>
+        <param name="alb">Определяет, какие кнопки отображаются в оповещении.</param>
+        <param name="alc">Определяет значок, отображаемый в оповещении.</param>
+        <param name="ald">Определяет, какая кнопка задается как кнопка оповещения по умолчанию. Если для этого аргумента задано значение, превышающее количество кнопок, возвращается ошибка.</param>
+        <param name="alq">Всегда присвойте этому параметру значение <b>мсоалертканцелдефаулт</b>. Любой другой параметр может возвращать сообщение об ошибке.</param>
+        <param name="varfSysAlert"><b>Значение true</b> , если предупреждение отображается в окне сообщения, или <b>значение false</b> , если оповещение отображается в помощнике по Office.</param>
+        <summary>Отображает оповещение и возвращает <b>целое число</b> , которое указывает, какая кнопка нажата пользователем.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -354,11 +338,10 @@
         <Parameter Name="Animation" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="WizardID">Число, возвращаемое методом <b>StartWizard</b> .</param>
-        <param name="varfSuccess">
-          <b>Значение true,</b> чтобы указать, что пользователь успешно выполнил мастера.</param>
-        <param name="Animation">Анимация, помощника Office выполняет, если <paramref name="varfSuccess" /> имеет значение <b>True</b>. Значение по умолчанию — <b>msoAnimationCharacterSuccessMajor</b>.</param>
-        <summary>Освобождает переменной, возвращаемые <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> метод.</summary>
+        <param name="WizardID">Число, возвращенное методом <b>стартвизард</b> .</param>
+        <param name="varfSuccess"><b>Значение true</b> указывает, что пользователь успешно завершил работу мастера.</param>
+        <param name="Animation">Анимация, выполняемая помощником по <paramref name="varfSuccess" /> Office, если задано <b>значение true</b>. Значение по умолчанию — <b>мсоаниматиончарактерсукцессмажор</b>.</param>
+        <summary>Освобождает переменную, возвращаемую <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> методом.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -388,8 +371,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если помощник по Office содержит сведения об использовании функции приложения более эффективно.</summary>
+        <summary><b>Имеет значение true</b> , если помощник по Office предоставляет сведения об использовании функций приложений более эффективно.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -420,7 +402,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает путь и имя файла для активной помощника.</summary>
+        <summary>Возвращает или задает путь и имя файла для активного помощника Office.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -451,8 +433,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если помощника Microsoft Office предоставляет список разделов справки по ключевым словам пользователь выбирает до щелчка окно помощника или нажав клавишу F1.</summary>
+        <summary><b>True</b> , если всплывающая подсказка помощника по Office отображает список разделов справки на основе ключевых слов, выбранных пользователем перед щелчком окна помощника или нажатием клавиши F1.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -478,7 +459,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Отображает помощника по Office и встроенные «Что вы хотите сделать?» Помощника для стандартных интерактивной справки Office.</summary>
+        <summary>Отображение помощника по Office и встроенного "что вы хотите сделать?" Выноска помощника для стандартной справки по Office Online.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -508,8 +489,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если помощником советы высокий приоритет.</summary>
+        <summary><b>Имеет значение true</b> , если помощник по Office отображает советы с высоким приоритетом.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -537,7 +517,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает текст, связанного с объектом.</summary>
+        <summary>Возвращает текст, связанный с объектом.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -568,8 +548,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если помощником справки о сочетаниях клавиш.</summary>
+        <summary><b>Имеет значение true</b> , если помощник по Office отображает справку о сочетаниях клавиш.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -600,7 +579,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Задает или возвращает горизонтальную позицию окна помощника по Office (в пунктах) или расстояние (в точках) панели команд от левого края указанный объект относительно экрана.</summary>
+        <summary>Задает или Возвращает горизонтальное положение окна помощника по Office (в пунктах) или расстояние (в пикселях) для панели команд от левого края указанного объекта относительно экрана.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -631,8 +610,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если помощник рекомендации по эффективному с помощью мыши.</summary>
+        <summary><b>Имеет значение true</b> , если помощник по Office предоставляет рекомендации по эффективному использованию мыши.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -661,9 +639,9 @@
         <Parameter Name="yTop" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="xLeft">Слева от окна помощника Office в пунктах.</param>
-        <param name="yTop">Основные положения окна помощника Office в пунктах.</param>
-        <summary>Перемещение помощника в указанном расположении.</summary>
+        <param name="xLeft">Левое положение окна помощника по Office в пунктах.</param>
+        <param name="yTop">Верхняя позиция окна помощника по Office в пунктах.</param>
+        <summary>Перемещает помощника в указанное место.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -693,8 +671,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если окно помощника Office автоматически перемещает при условиях пользователя рабочей области.</summary>
+        <summary><b>Значение true</b> , если окно помощника Office автоматически перемещается, когда оно находится в рабочем месте пользователя.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -750,7 +727,7 @@
         <ReturnType>Microsoft.Office.Core.Balloon</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Создает помощника Microsoft Office.</summary>
+        <summary>Создает выноску помощника по Office.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -781,8 +758,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если включена помощника по Office.</summary>
+        <summary><b>Имеет значение true</b> , если помощник по Office включен.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -841,8 +817,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если окно помощника появляется в его меньший размер.</summary>
+        <summary><b>Значение true</b> , если окно помощника отображается в уменьшенном размере.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -868,7 +843,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Сбрасывает советы приложения, которые отображаются в окне помощника Microsoft Office.</summary>
+        <summary>Сбрасывает подсказки для приложений, которые отображаются в выноске помощника по Office.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -898,8 +873,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если помощником приложения и справки по программирования.</summary>
+        <summary><b>Имеет значение true</b> , если помощник по Office отображает справку по приложениям и программированию.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -930,8 +904,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если помощник создает звуки, которые соответствуют анимации.</summary>
+        <summary><b>Имеет значение true</b> , если помощник создает звуки, соответствующие анимациям.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -966,23 +939,19 @@
         <Parameter Name="Right" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="On">
-          <b>Значение true,</b> чтобы отобразить всплывающие принятия решений Office. Выноске принятия решений Office запрашивает у пользователя ли он или она хочет справки по работе с активной настраиваемого мастера. Нет необходимости использовать <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> свойство для отображения помощника по Office, если указать <b>значение True</b> для этого аргумента.</param>
-        <param name="Callback">Имя процедуры обратного вызова, с помощью всплывающее принятия решений Office и выноске филиала. Выноски филиала пользователь может выбрать одну из подготовили для мастера справки и справки Microsoft Office стандартный.</param>
-        <param name="PrivateX">Номер, идентифицирующий этот значок, который инициировал процедуру обратного вызова.</param>
-        <param name="Animation">Анимация помощника Office выполняет при использовании этого метода. Значение по умолчанию — <b>msoAnimationGetWizardy</b>.</param>
-        <param name="CustomTeaser">
-          <b>Значение false,</b> чтобы отобразить всплывающие принятия решений Office.</param>
-        <param name="Top">Положение углы (в пунктах и относительно экрана) помощника формы настраиваемого мастера помогают предотвратить появление в появившемся помощника по Office.</param>
-        <param name="Left">Положение углы (в пунктах и относительно экрана) помощника формы настраиваемого мастера помогают предотвратить появление в появившемся помощника по Office.</param>
-        <param name="Bottom">Положение углы (в пунктах и относительно экрана) помощника формы настраиваемого мастера помогают предотвратить появление в появившемся помощника по Office.</param>
-        <param name="Right">Положение углы (в пунктах и относительно экрана) помощника формы настраиваемого мастера помогают предотвратить появление в появившемся помощника по Office.</param>
-        <summary>Запуск помощника по Office и возвращает <b>целое число, идентифицирующее сеанса</b> .</summary>
+        <param name="On"><b>Значение true</b> , чтобы отобразить всплывающее подсказку решения Office. Всплывающее подсказка о решении Office запрашивает у пользователя, хочет ли он помочь вам в работе с активным пользовательским мастером. Если для этого аргумента задано <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> <b>значение true</b> , не нужно использовать свойство для отображения помощника по Office.</param>
+        <param name="Callback">Имя процедуры обратного вызова, которое выноски решения Office и подсказки ветви. Подсказка Branch позволяет пользователю выбрать пользовательскую справку, предоставленную для мастера и стандартной справки Office.</param>
+        <param name="PrivateX">Число, определяющее всплывающее сообщение, которое инициировало процедуру обратного вызова.</param>
+        <param name="Animation">Анимация, выполняемая помощником по Office при использовании этого метода. Значение по умолчанию — <b>мсоаниматионжетвизарди</b>.</param>
+        <param name="CustomTeaser"><b>Значение false</b> , чтобы отобразить всплывающее подсказку решения Office.</param>
+        <param name="Top">Положение углов (в пунктах и относительно экрана) формы настраиваемого мастера помощник по Office не будет появляться, когда появится помощник по Office.</param>
+        <param name="Left">Положение углов (в пунктах и относительно экрана) формы настраиваемого мастера помощник по Office не будет появляться, когда появится помощник по Office.</param>
+        <param name="Bottom">Положение углов (в пунктах и относительно экрана) формы настраиваемого мастера помощник по Office не будет появляться, когда появится помощник по Office.</param>
+        <param name="Right">Положение углов (в пунктах и относительно экрана) формы настраиваемого мастера помощник по Office не будет появляться, когда появится помощник по Office.</param>
+        <summary>Запускает помощник по Office и возвращает <b>целое</b> значение, идентифицирующее сеанс.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>Этот метод следует использовать только для запуска помощника в настраиваемого мастера.</para>
-          <para />
-        </remarks>
+        <remarks><para>Этот метод следует использовать только для запуска помощника по Office в настраиваемом мастере.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="TipOfDay">
@@ -1011,8 +980,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если помощником специальный подсказки при каждом открытии приложения Office.</summary>
+        <summary><b>Имеет значение true</b> , если помощник по Office отображает особый Совет при каждом открытии приложения Office.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1043,12 +1011,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Задает или возвращает расстояние (в пунктах) в верхней части помощника по Office или верхнего края панели команд указанного по верхнему краю экрана.</summary>
+        <summary>Задает или возвращает расстояние (в пунктах) от верхнего края помощника или от верхнего края указанной панели команд до верхнего края экрана.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Для панелей команд закрепленного это свойство Возвращает или задает расстояние от панели команд в верхней части области закрепления.</para>
-          <para />
-        </remarks>
+        <remarks><para>Для закрепленных панелей команд это свойство возвращает или задает расстояние от панели команд до верха области стыковки.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -1077,8 +1043,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>Значение true,</b> Если указанный объект является видимым.</summary>
+        <summary><b>Значение true</b> , если указанный объект является видимым.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

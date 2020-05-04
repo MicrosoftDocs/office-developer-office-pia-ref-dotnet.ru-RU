@@ -1,13 +1,5 @@
 <Type Name="ShadowFormat" FullName="Microsoft.Office.Core.ShadowFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fdad9fed327ac6a5b5f63b77d5dc1c2771761177" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661696" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ShadowFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fdad9fed327ac6a5b5f63b77d5dc1c2771761177" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661696" /></Metadata><TypeSignature Language="C#" Value="public interface ShadowFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ShadowFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ShadowFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ShadowFormat&#xA;Implements _IMsoDispObj" />
@@ -91,10 +83,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает степень размытости указанной shadow. Для чтения и записи.</summary>
-        <value>
-          <b>Single</b>
-        </value>
+        <summary>Возвращает или задает степень размытия указанного тени. Для чтения и записи.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -363,10 +353,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoTriState" /> , представляет ли поворот тени, когда Поворот фигуры. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary>Возвращает или задает значение <see cref="T:Microsoft.Office.Core.MsoTriState" /> , указывающее, следует ли повернуть тень при повороте фигуры. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -396,10 +384,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает размер указанного тени. Для чтения и записи.</summary>
-        <value>
-          <b>Single</b>
-        </value>
+        <summary>Возвращает или задает размер указанной теневой копии. Для чтения и записи.</summary>
+        <value><b>Одинарное с плавающей точкой</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -429,10 +415,8 @@
         <ReturnType>Microsoft.Office.Core.MsoShadowStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает или задает стиль указанной shadow. Для чтения и записи.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoShadowStyle" />
-        </value>
+        <summary>Возвращает или задает стиль указанной тени. Для чтения и записи.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoShadowStyle" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="MsoBarProtection" FullName="Microsoft.Office.Core.MsoBarProtection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="df69faf9e7d98ef73be708e9f98496309c213297" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662054" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoBarProtection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="df69faf9e7d98ef73be708e9f98496309c213297" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662054" /></Metadata><TypeSignature Language="C#" Value="public enum MsoBarProtection" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBarProtection extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBarProtection" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoBarProtection" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, как защищены от пользовательские настройки панели команд.</summary>
+    <summary>Указывает, как панель команд будет защищена от настройки пользователя.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>Закрепление параметр нельзя изменить.</summary>
+        <summary>Не удается изменить параметр стыковки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBarNoChangeVisible">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Нельзя скрыть панель команд.</summary>
+        <summary>Панель команд не может быть скрыта.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBarNoCustomize">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Не удается настроить панель команд.</summary>
+        <summary>Панель команд не может быть изменена.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBarNoHorizontalDock">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>64</MemberValue>
       <Docs>
-        <summary>Панель команд нельзя закрепить в верхней или нижней.</summary>
+        <summary>Панель команд не может быть закреплена в верхней или нижней части.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBarNoMove">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Панель команд, нельзя перемещать.</summary>
+        <summary>Не удается переместить панель команд.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBarNoProtection">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Можно настроить все аспекты панель команд пользователем.</summary>
+        <summary>Все аспекты панели команд могут быть изменены пользователем.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBarNoResize">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Нельзя изменить размер панели команд.</summary>
+        <summary>Невозможно изменить размер панели команд.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoBarNoVerticalDock">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>Панель команд нельзя закрепить слева или справа.</summary>
+        <summary>Панель команд не может быть закреплена слева или справа.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_CustomXMLParts" FullName="Microsoft.Office.Core._CustomXMLParts">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="49586b633a91d299f1d1250a573854a0e1eb3f94" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662158" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CustomXMLParts : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="49586b633a91d299f1d1250a573854a0e1eb3f94" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662158" /></Metadata><TypeSignature Language="C#" Value="public interface _CustomXMLParts : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomXMLParts implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLParts" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CustomXMLParts&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,13 +25,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет коллекцию объектов <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объектов.</summary>
-    <remarks>
-      <para>
-        <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-      <para>Состоит из трех частей по умолчанию, всегда создаются с документом. Это «Обложки», «Свойства документа» и «Свойства веб-приложения». Последние два были в предыдущих версиях Microsoft Word, но являются теперь предоставляются в XML-форм в <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> объект коллекции</para>
-      <para />
-    </remarks>
+    <summary>Представляет коллекцию <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объектов.</summary>
+    <remarks><para>
+        <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para> 
+      <para>Существует три стандартные части, которые всегда создаются вместе с документом. Это "титульные страницы", "свойства doc" и "свойства приложения". Последние два из них были в предыдущих версиях Microsoft Word, но теперь представлены в XML-форме в <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> коллекции объектов</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -65,17 +55,13 @@
         <Parameter Name="SchemaCollection" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="XML">Необязательный атрибут типа <b>String</b>.  Содержит XML, который требуется добавить в только что созданный <see cref="T:Microsoft.Office.Core._CustomXMLPart" />.</param>
-        <param name="SchemaCollection">Необязательные <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" />. Представляет набор схем, которые будут использоваться для проверки этого потока.</param>
-        <summary>Можно добавить новый <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> в файл.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.CustomXMLPart" />
-        </returns>
-        <remarks>
-          <para>
-            <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-          <para />
-        </remarks>
+        <param name="XML">Необязательная <b>строка</b>. Содержит XML-код, который добавляется к <see cref="T:Microsoft.Office.Core._CustomXMLPart" />созданному.</param>
+        <param name="SchemaCollection">Необязательный <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" />параметр. Представляет набор схем, которые будут использоваться для проверки этого потока.</param>
+        <summary>Позволяет добавить новый <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> элемент в файл.</summary>
+        <returns><see cref="T:Microsoft.Office.Core.CustomXMLPart" /></returns>
+        <remarks><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -104,15 +90,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
-        <remarks>
-          <para>
-            <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-          <para />
-        </remarks>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
+        <remarks><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -138,15 +120,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
-        <remarks>
-          <para>
-            <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-          <para />
-        </remarks>
+        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> коллекции. Только для чтения.</summary>
+        <value><b>Integer</b></value>
+        <remarks><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -175,15 +153,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
-        <remarks>
-          <para>
-            <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-          <para />
-        </remarks>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
+        <remarks><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -214,7 +188,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />.</returns>
+        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -244,16 +218,12 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">Требуется <b>объект</b>. Имя или номер индекса <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта должно быть возвращено.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта из <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLPart" />
-        </value>
-        <remarks>
-          <para>
-            <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-          <para />
-        </remarks>
+        <param name="Index">Обязательный <b>объект</b>. Имя или номер индекса возвращаемого <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</param>
+        <summary>Получает <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объект из <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> коллекции. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLPart" /></value>
+        <remarks><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -280,14 +250,10 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
-        <remarks>
-          <para>
-            <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-          <para />
-        </remarks>
+        <value><b>Object</b></value>
+        <remarks><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectByID">
@@ -313,17 +279,12 @@
         <Parameter Name="Id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Id">
-          <b>Строковое значение.</b> Содержит идентификатор GUID для настраиваемой XML-части.</param>
-        <summary>Выбирает пользовательской XML-части, соответствующие: идентификатор GUID.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.CustomXMLPart" />
-        </returns>
-        <remarks>
-          <para>
-            <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-          <para />
-        </remarks>
+        <param name="Id">Обязательный атрибут типа <b>String</b>. Содержит GUID настраиваемой XML-части.</param>
+        <summary>Выбирает пользовательскую XML-часть, соответствующую идентификатору GUID.</summary>
+        <returns><see cref="T:Microsoft.Office.Core.CustomXMLPart" /></returns>
+        <remarks><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectByNamespace">
@@ -349,17 +310,12 @@
         <Parameter Name="NamespaceURI" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="NamespaceURI">
-          <b>Строковое значение.</b> Содержит URI пространства имен.</param>
-        <summary>Выбирает коллекцию настраиваемых XML-частей, пространства имен которого соответствует условиям поиска.</summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.CustomXMLParts" />
-        </returns>
-        <remarks>
-          <para>
-            <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-          <para />
-        </remarks>
+        <param name="NamespaceURI">Обязательный атрибут типа <b>String</b>. Содержит URI пространства имен.</param>
+        <summary>Выбирает коллекцию настраиваемых XML-частей, пространство имен которых соответствует условиям поиска.</summary>
+        <returns><see cref="T:Microsoft.Office.Core.CustomXMLParts" /></returns>
+        <remarks><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

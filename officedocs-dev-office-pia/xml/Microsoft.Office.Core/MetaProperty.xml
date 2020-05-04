@@ -1,13 +1,5 @@
 <Type Name="MetaProperty" FullName="Microsoft.Office.Core.MetaProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="781ace65427113f5f00b0085105e67c814865e70" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662547" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MetaProperty : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="781ace65427113f5f00b0085105e67c814865e70" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662547" /></Metadata><TypeSignature Language="C#" Value="public interface MetaProperty : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MetaProperty implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MetaProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface MetaProperty&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет одно свойство в набор свойств, описывающие метаданные, которые хранятся в документе.</summary>
+    <summary>Представляет одно свойство в коллекции свойств, описывающих метаданные, хранящиеся в документе.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,10 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.MetaProperty" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.MetaProperty" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,10 +83,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.MetaProperty" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.MetaProperty" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -124,9 +112,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает идентификатор <see cref="T:Microsoft.Office.Core.MetaProperty" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -153,10 +139,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <b>логическое</b> значение, указывающее, является ли свойство meta только для чтения. Только для чтения.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает <b>логическое</b> значение, указывающее, доступно ли свойство meta только для чтения. Только для чтения.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,10 +167,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <b>логическое</b> значение, указывающее, является ли обязательные свойства метаданных. Только для чтения.</summary>
-        <value>
-          <b>Boolean</b>
-        </value>
+        <summary>Получает <b>логическое</b> значение, указывающее, требуется ли свойство meta. Только для чтения.</summary>
+        <value><b>Boolean</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -214,9 +196,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает имя <see cref="T:Microsoft.Office.Core.MetaProperty" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -244,9 +224,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.MetaProperty" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -273,10 +251,8 @@
         <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип данных <see cref="T:Microsoft.Office.Core.MetaProperty" /> объекта. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoMetaPropertyType" />
-        </value>
+        <summary>Возвращает тип данных <see cref="T:Microsoft.Office.Core.MetaProperty" /> объекта. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoMetaPropertyType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -301,14 +277,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Проверяет <see cref="T:Microsoft.Office.Core.MetaProperty" /> объект, представляющий значения одного свойства по схеме.</summary>
-        <returns>
-          <b>Строка</b>
-        </returns>
-        <remarks>
-          <para>Если свойство является недопустимым, возникает ошибка проверки и возвращается сообщение об ошибке. Схемы, используемой для проверки хранятся как часть профиля документов служб Windows SharePoint Services.</para>
-          <para />
-        </remarks>
+        <summary>Проверяет <see cref="T:Microsoft.Office.Core.MetaProperty" /> объект, представляющий одно значение свойства в соответствии со схемой.</summary>
+        <returns><b>Строка</b></returns>
+        <remarks><para>Если свойство является недопустимым, тест завершается неудачей и возвращается сообщение об ошибке. Схема, используемая для проверки, хранится как часть профиля Windows SharePoint Services в документе.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ValidationError">
@@ -369,9 +341,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает или задает значение <see cref="T:Microsoft.Office.Core.MetaProperty" /> объекта. Для чтения и записи.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

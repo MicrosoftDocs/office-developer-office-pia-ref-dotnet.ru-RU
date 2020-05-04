@@ -1,13 +1,5 @@
 <Type Name="CustomXMLValidationError" FullName="Microsoft.Office.Core.CustomXMLValidationError">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a19ff02c6822af824f3e9957bc4a2aff1896b284" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661844" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CustomXMLValidationError : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a19ff02c6822af824f3e9957bc4a2aff1896b284" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661844" /></Metadata><TypeSignature Language="C#" Value="public interface CustomXMLValidationError : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLValidationError implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLValidationError" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLValidationError&#xA;Implements _IMsoDispObj" />
@@ -30,11 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет ошибку одной проверки в <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> семейства сайтов.</summary>
-    <remarks>
-      <para>Ошибки проверки может быть запущено, либо при проверке операция по схеме, например, при добавлении узла или выполняемого пользователем при несоответствии некоторые условия. Например, если дата начала является более поздней, чем дата окончания.</para>
-      <para />
-    </remarks>
+    <summary>Представляет одну ошибку проверки в <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> коллекции.</summary>
+    <remarks><para>Ошибки проверки могут быть вызваны при проверке операции для схемы, например при добавлении узла или запуске пользователя при несоблюдении какого-либо условия. Например, если дата начала позже даты окончания.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -63,10 +53,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,10 +84,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -124,7 +110,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта, представляющего ошибки проверки данных.</summary>
+        <summary>Удаляет <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объект, представляющий ошибку проверки данных.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -151,10 +137,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает число, представляющее ошибки проверки в <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает число, представляющее ошибку проверки в <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекте. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -181,10 +165,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает имя ошибки в <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта.   Если ошибки не найдены, это свойство возвращает <b>значение Nothing</b>. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает имя ошибки в <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекте.   Если ошибок не существует, свойство возвращает <b>значение Nothing</b>. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -211,10 +193,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLNode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает узел в <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта, если они существуют. Если узлов не существует, это свойство возвращает <b>значение Nothing</b>. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNode" />
-        </value>
+        <summary>Возвращает узел <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта, если он существует. Если узлы не существуют, свойство возвращает <b>Nothing</b>. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLNode" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -242,9 +222,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -271,10 +249,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает текст <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает текст в <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекте. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -301,10 +277,8 @@
         <ReturnType>Microsoft.Office.Core.MsoCustomXMLValidationErrorType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает тип ошибок, вызываемых из <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта. Только для чтения.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoCustomXMLValidationErrorType" />
-        </value>
+        <summary>Получает тип ошибки, созданной на основе <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта. Только для чтения.</summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoCustomXMLValidationErrorType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

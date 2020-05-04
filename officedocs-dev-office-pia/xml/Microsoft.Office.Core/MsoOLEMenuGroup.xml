@@ -1,13 +1,5 @@
 <Type Name="MsoOLEMenuGroup" FullName="Microsoft.Office.Core.MsoOLEMenuGroup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="505b5e38ea2008fd61a7598068a22ce34f3621a8" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661931" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoOLEMenuGroup" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="505b5e38ea2008fd61a7598068a22ce34f3621a8" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661931" /></Metadata><TypeSignature Language="C#" Value="public enum MsoOLEMenuGroup" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoOLEMenuGroup extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoOLEMenuGroup" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoOLEMenuGroup" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает группу меню, к которой принадлежит контекстного меню на панели команд при слиянии меню групп сервера OLE с группами меню клиентом OLE (то есть, когда объект типа приложений контейнер встроена в другом приложении).</summary>
+    <summary>Указывает группу меню, к которой относится всплывающий элемент управления "панель команд" при объединении групп меню на OLE-сервере с группами меню клиента OLE (то есть, если объект типа приложения контейнера внедрен в другое приложение).</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Контейнер меню.</summary>
+        <summary>Меню контейнера.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoOLEMenuGroupEdit">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>В меню Правка.</summary>
+        <summary>Меню "Правка".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoOLEMenuGroupFile">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>-1</MemberValue>
       <Docs>
-        <summary>Не объединяются контекстного меню.</summary>
+        <summary>Всплывающий элемент управления не объединяется.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoOLEMenuGroupObject">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Меню объектов.</summary>
+        <summary>Меню "объект".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoOLEMenuGroupWindow">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Меню окна.</summary>
+        <summary>Меню "окно".</summary>
       </Docs>
     </Member>
   </Members>

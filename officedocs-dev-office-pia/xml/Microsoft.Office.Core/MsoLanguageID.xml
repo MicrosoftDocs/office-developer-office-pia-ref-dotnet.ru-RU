@@ -1,13 +1,5 @@
 <Type Name="MsoLanguageID" FullName="Microsoft.Office.Core.MsoLanguageID">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ac45039c26ec25e3ed8a6fca248d01080bb2c6bd" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661950" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoLanguageID" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ac45039c26ec25e3ed8a6fca248d01080bb2c6bd" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661950" /></Metadata><TypeSignature Language="C#" Value="public enum MsoLanguageID" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLanguageID extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLanguageID" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoLanguageID" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает язык.</summary>
+    <summary>Указывает используемый язык.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>5121</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Алжир.</summary>
+        <summary>Арабский как произнесенный.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicBahrain">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>15361</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Бахрейн.</summary>
+        <summary>Арабский в качестве произнесенного в Бахрейн.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicEgypt">
@@ -154,7 +146,7 @@
       </ReturnValue>
       <MemberValue>3073</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Египет.</summary>
+        <summary>Арабский как произнесенный в Египет.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicIraq">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>2049</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Ирак.</summary>
+        <summary>Арабский в качестве произнесенного в Ирак.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicJordan">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>11265</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Иордания.</summary>
+        <summary>Арабский в качестве произнесенного в Иордания.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicKuwait">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>13313</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Кувейт.</summary>
+        <summary>Арабский, как в Кувейте.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicLebanon">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>12289</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Ливан.</summary>
+        <summary>Арабский в качестве произнесенного в Ливан.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicLibya">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>4097</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Ливия.</summary>
+        <summary>Арабский, как в Ливия.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicMorocco">
@@ -268,7 +260,7 @@
       </ReturnValue>
       <MemberValue>6145</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Марокко.</summary>
+        <summary>Арабский в Марокко.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicOman">
@@ -287,7 +279,7 @@
       </ReturnValue>
       <MemberValue>8193</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Оман.</summary>
+        <summary>Арабский в качестве произнесенного в Оман.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicQatar">
@@ -306,7 +298,7 @@
       </ReturnValue>
       <MemberValue>16385</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Катар.</summary>
+        <summary>Арабский в качестве произнесенного в Катар.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicSyria">
@@ -325,7 +317,7 @@
       </ReturnValue>
       <MemberValue>10241</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Сирия.</summary>
+        <summary>Арабский, как в сирийском формате.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicTunisia">
@@ -344,7 +336,7 @@
       </ReturnValue>
       <MemberValue>7169</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Тунис.</summary>
+        <summary>Арабский, как в Тунис.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicUAE">
@@ -363,7 +355,7 @@
       </ReturnValue>
       <MemberValue>14337</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Объединенные Арабские Эмираты.</summary>
+        <summary>Арабский, как в Объединенные Арабские Эмираты.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicYemen">
@@ -382,7 +374,7 @@
       </ReturnValue>
       <MemberValue>9217</MemberValue>
       <Docs>
-        <summary>Арабский, используемый в Йемен.</summary>
+        <summary>Арабский как в Йемене.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArmenian">
@@ -420,7 +412,7 @@
       </ReturnValue>
       <MemberValue>1101</MemberValue>
       <Docs>
-        <summary>Ассамского.</summary>
+        <summary>Ассамский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDAzeriCyrillic">
@@ -496,7 +488,7 @@
       </ReturnValue>
       <MemberValue>2067</MemberValue>
       <Docs>
-        <summary>Голландский (Бельгия).</summary>
+        <summary>Бельгийский голландский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBelgianFrench">
@@ -515,7 +507,7 @@
       </ReturnValue>
       <MemberValue>2060</MemberValue>
       <Docs>
-        <summary>Бельгия французский.</summary>
+        <summary>Бельгийский французский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBengali">
@@ -572,7 +564,7 @@
       </ReturnValue>
       <MemberValue>8218</MemberValue>
       <Docs>
-        <summary>Язык Герцеговина Босния Боснийский (кириллица).</summary>
+        <summary>Языковой язык для боснийских и Герцеговина, отличный от кириллической.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBosnianBosniaHerzegovinaLatin">
@@ -591,7 +583,7 @@
       </ReturnValue>
       <MemberValue>5146</MemberValue>
       <Docs>
-        <summary>Боснийский Босния Герцеговина Латинская язык.</summary>
+        <summary>Язык, отличный от боснийских, для латиницы и Герцеговина.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBrazilianPortuguese">
@@ -648,7 +640,7 @@
       </ReturnValue>
       <MemberValue>1109</MemberValue>
       <Docs>
-        <summary>Burmese.</summary>
+        <summary>Бурмесе.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDByelorussian">
@@ -724,7 +716,7 @@
       </ReturnValue>
       <MemberValue>3076</MemberValue>
       <Docs>
-        <summary>Китайский, используемый в Гонконг.</summary>
+        <summary>Китайский (традиционное письмо), как в САР Гонконг.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDChineseMacaoSAR">
@@ -743,7 +735,7 @@
       </ReturnValue>
       <MemberValue>5124</MemberValue>
       <Docs>
-        <summary>Китайский, используемый в МАКАО.</summary>
+        <summary>Китайский (традиционное письмо) в Макао (САР).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDChineseSingapore">
@@ -762,7 +754,7 @@
       </ReturnValue>
       <MemberValue>4100</MemberValue>
       <Docs>
-        <summary>Китайский, используемый в Сингапур.</summary>
+        <summary>Китайский язык, как в Сингапуре.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDCroatian">
@@ -881,7 +873,7 @@
       </ReturnValue>
       <MemberValue>2129</MemberValue>
       <Docs>
-        <summary>Бхотия в Бутан.</summary>
+        <summary>Дзонгкха как говорят в Бутан.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEdo">
@@ -900,7 +892,7 @@
       </ReturnValue>
       <MemberValue>1126</MemberValue>
       <Docs>
-        <summary>EDO.</summary>
+        <summary>ЕДО.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishAUS">
@@ -919,7 +911,7 @@
       </ReturnValue>
       <MemberValue>3081</MemberValue>
       <Docs>
-        <summary>Английский разговорный в Австралии.</summary>
+        <summary>Английский в Австралии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishBelize">
@@ -938,7 +930,7 @@
       </ReturnValue>
       <MemberValue>10249</MemberValue>
       <Docs>
-        <summary>Английский разговорный в Белиз.</summary>
+        <summary>Английский в качестве произнесенного в Белиз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishCanadian">
@@ -957,7 +949,7 @@
       </ReturnValue>
       <MemberValue>4105</MemberValue>
       <Docs>
-        <summary>Английский разговорный в Канада.</summary>
+        <summary>Английский, как в Канаде.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishCaribbean">
@@ -976,7 +968,7 @@
       </ReturnValue>
       <MemberValue>9225</MemberValue>
       <Docs>
-        <summary>Английский, используемый в Карибские о-ва.</summary>
+        <summary>Английский в качестве произнесенного в Карибский бассейн.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishIndonesia">
@@ -995,7 +987,7 @@
       </ReturnValue>
       <MemberValue>14345</MemberValue>
       <Docs>
-        <summary>Английский разговорный в Индонезия.</summary>
+        <summary>Английский в формате Индонезия.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishIreland">
@@ -1014,7 +1006,7 @@
       </ReturnValue>
       <MemberValue>6153</MemberValue>
       <Docs>
-        <summary>Английский разговорный в Ирландия.</summary>
+        <summary>Английский, как в Ирландии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishJamaica">
@@ -1033,7 +1025,7 @@
       </ReturnValue>
       <MemberValue>8201</MemberValue>
       <Docs>
-        <summary>Английский разговорный в Ямайка.</summary>
+        <summary>Английский язык, который был бы произнесен в Ямайка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishNewZealand">
@@ -1052,7 +1044,7 @@
       </ReturnValue>
       <MemberValue>5129</MemberValue>
       <Docs>
-        <summary>Английский, используемый в новой Зеландии.</summary>
+        <summary>Английский, как в Новой Зеландии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishPhilippines">
@@ -1071,7 +1063,7 @@
       </ReturnValue>
       <MemberValue>13321</MemberValue>
       <Docs>
-        <summary>Английский, используемый в Филиппины.</summary>
+        <summary>Английский в качестве произнесенного в Филиппины.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishSouthAfrica">
@@ -1090,7 +1082,7 @@
       </ReturnValue>
       <MemberValue>7177</MemberValue>
       <Docs>
-        <summary>Английский, используемый в Южно-Африканская Республика.</summary>
+        <summary>Английский, как в Южной Африке.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishTrinidadTobago">
@@ -1109,7 +1101,7 @@
       </ReturnValue>
       <MemberValue>11273</MemberValue>
       <Docs>
-        <summary>Английский, используемый в Тринидад и Тобаго.</summary>
+        <summary>Английский в формате Тринидад и Тобаго.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishUK">
@@ -1128,7 +1120,7 @@
       </ReturnValue>
       <MemberValue>2057</MemberValue>
       <Docs>
-        <summary>Английский, используемый в Великобритании.</summary>
+        <summary>Английский, как в Великобритании.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishUS">
@@ -1147,7 +1139,7 @@
       </ReturnValue>
       <MemberValue>1033</MemberValue>
       <Docs>
-        <summary>Английский, используемый в США.</summary>
+        <summary>Английский в США.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishZimbabwe">
@@ -1166,7 +1158,7 @@
       </ReturnValue>
       <MemberValue>12297</MemberValue>
       <Docs>
-        <summary>Английский разговорный в Зимбабве.</summary>
+        <summary>Английский в качестве произнесенного в Зимбабве.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEstonian">
@@ -1204,7 +1196,7 @@
       </ReturnValue>
       <MemberValue>1080</MemberValue>
       <Docs>
-        <summary>Фарерский.</summary>
+        <summary>Фаероесе.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFarsi">
@@ -1223,7 +1215,7 @@
       </ReturnValue>
       <MemberValue>1065</MemberValue>
       <Docs>
-        <summary>Фарси.</summary>
+        <summary>Персидский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFilipino">
@@ -1242,7 +1234,7 @@
       </ReturnValue>
       <MemberValue>1124</MemberValue>
       <Docs>
-        <summary>Filipina.</summary>
+        <summary>Филипина.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFinnish">
@@ -1299,7 +1291,7 @@
       </ReturnValue>
       <MemberValue>11276</MemberValue>
       <Docs>
-        <summary>Французский как произносимого в Камерун.</summary>
+        <summary>Французский язык от имени голосового входа в Камерун.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchCanadian">
@@ -1318,7 +1310,7 @@
       </ReturnValue>
       <MemberValue>3084</MemberValue>
       <Docs>
-        <summary>Французский как произносимого в Канада.</summary>
+        <summary>Французский язык с голосом в Канаде.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchCongoDRC">
@@ -1337,7 +1329,7 @@
       </ReturnValue>
       <MemberValue>9228</MemberValue>
       <Docs>
-        <summary>Республика КОНГО Конго французский язык.</summary>
+        <summary>Французский язык (французский, ДРК).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchCotedIvoire">
@@ -1356,7 +1348,7 @@
       </ReturnValue>
       <MemberValue>12300</MemberValue>
       <Docs>
-        <summary>Французский, используемый в Кот д ' Ивуар.</summary>
+        <summary>Французский язык, как в Кот Д'ивуар.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchHaiti">
@@ -1375,7 +1367,7 @@
       </ReturnValue>
       <MemberValue>15372</MemberValue>
       <Docs>
-        <summary>Французский как произносимого в Гаити.</summary>
+        <summary>Французский язык в качестве входных в Гаити.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchLuxembourg">
@@ -1394,7 +1386,7 @@
       </ReturnValue>
       <MemberValue>5132</MemberValue>
       <Docs>
-        <summary>Французский как произносимого в Люксембург.</summary>
+        <summary>Французский язык.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchMali">
@@ -1413,7 +1405,7 @@
       </ReturnValue>
       <MemberValue>13324</MemberValue>
       <Docs>
-        <summary>Французский как произносимого в Мали.</summary>
+        <summary>Французский язык в качестве произнесенного в Мали.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchMonaco">
@@ -1432,7 +1424,7 @@
       </ReturnValue>
       <MemberValue>6156</MemberValue>
       <Docs>
-        <summary>Французский как произносимого в Монако.</summary>
+        <summary>Французский язык с произнесением в Монако.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchMorocco">
@@ -1451,7 +1443,7 @@
       </ReturnValue>
       <MemberValue>14348</MemberValue>
       <Docs>
-        <summary>Французский как произносимого в Марокко.</summary>
+        <summary>Французский язык в Марокко.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchReunion">
@@ -1470,7 +1462,7 @@
       </ReturnValue>
       <MemberValue>8204</MemberValue>
       <Docs>
-        <summary>Французский, используемый в остров французский встречи.</summary>
+        <summary>Французский язык с произнесением для французского союза.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchSenegal">
@@ -1489,7 +1481,7 @@
       </ReturnValue>
       <MemberValue>10252</MemberValue>
       <Docs>
-        <summary>Французский как произносимого в Сенегал.</summary>
+        <summary>Французский язык в формате Сенегал.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchWestIndies">
@@ -1508,7 +1500,7 @@
       </ReturnValue>
       <MemberValue>7180</MemberValue>
       <Docs>
-        <summary>Французский, используемый в Антильские острова.</summary>
+        <summary>Французский язык в Западном Индиес.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchZaire">
@@ -1532,7 +1524,7 @@
       </ReturnValue>
       <MemberValue>9228</MemberValue>
       <Docs>
-        <summary>Французский как произносимого в Заир.</summary>
+        <summary>Французский язык, как в Заире.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrisianNetherlands">
@@ -1551,7 +1543,7 @@
       </ReturnValue>
       <MemberValue>1122</MemberValue>
       <Docs>
-        <summary>Французского в Нидерландах.</summary>
+        <summary>Французский язык в Нидерландов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFulfulde">
@@ -1570,7 +1562,7 @@
       </ReturnValue>
       <MemberValue>1127</MemberValue>
       <Docs>
-        <summary>"Фульфульде".</summary>
+        <summary>Фулфулде.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGaelicIreland">
@@ -1589,7 +1581,7 @@
       </ReturnValue>
       <MemberValue>2108</MemberValue>
       <Docs>
-        <summary>(Гаэльский), используемый в Ирландия.</summary>
+        <summary>Гэльский в Ирландии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGaelicScotland">
@@ -1608,7 +1600,7 @@
       </ReturnValue>
       <MemberValue>1084</MemberValue>
       <Docs>
-        <summary>(Гаэльский), используемый в Шотландии.</summary>
+        <summary>Гэльский, как в Шотландии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGalician">
@@ -1684,7 +1676,7 @@
       </ReturnValue>
       <MemberValue>3079</MemberValue>
       <Docs>
-        <summary>Немецкий, используемый в Австрия.</summary>
+        <summary>Немецкий язык, как в Австрии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGermanLiechtenstein">
@@ -1703,7 +1695,7 @@
       </ReturnValue>
       <MemberValue>5127</MemberValue>
       <Docs>
-        <summary>Немецкий, используемый в Лихтенштейн.</summary>
+        <summary>Немецкий язык с произнесением в Лихтенштейн.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGermanLuxembourg">
@@ -1722,7 +1714,7 @@
       </ReturnValue>
       <MemberValue>4103</MemberValue>
       <Docs>
-        <summary>Немецкий, используемый в Люксембург.</summary>
+        <summary>Немецкий язык с произнесением в Люксембург.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGreek">
@@ -1817,7 +1809,7 @@
       </ReturnValue>
       <MemberValue>1141</MemberValue>
       <Docs>
-        <summary>Гавайское.</summary>
+        <summary>Быстро.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDHebrew">
@@ -2045,7 +2037,7 @@
       </ReturnValue>
       <MemberValue>1137</MemberValue>
       <Docs>
-        <summary>"Канури".</summary>
+        <summary>Канури.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKashmiri">
@@ -2064,7 +2056,7 @@
       </ReturnValue>
       <MemberValue>1120</MemberValue>
       <Docs>
-        <summary>Кашмири.</summary>
+        <summary>Кашмир.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKashmiriDevanagari">
@@ -2083,7 +2075,7 @@
       </ReturnValue>
       <MemberValue>2144</MemberValue>
       <Docs>
-        <summary>Кашмири в деванагари.</summary>
+        <summary>Кашмири в сценарии деванагари.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKazakh">
@@ -2140,7 +2132,7 @@
       </ReturnValue>
       <MemberValue>1088</MemberValue>
       <Docs>
-        <summary>Киргизский.</summary>
+        <summary>Киргхиз.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKonkani">
@@ -2235,7 +2227,7 @@
       </ReturnValue>
       <MemberValue>1142</MemberValue>
       <Docs>
-        <summary>Латиница.</summary>
+        <summary>Латинском.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDLatvian">
@@ -2316,7 +2308,7 @@
       </ReturnValue>
       <MemberValue>1071</MemberValue>
       <Docs>
-        <summary>Македонский Бывшая Югославская Республика МАКЕДОНИЯ язык.</summary>
+        <summary>Македонский язык.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMalayalam">
@@ -2354,7 +2346,7 @@
       </ReturnValue>
       <MemberValue>2110</MemberValue>
       <Docs>
-        <summary>Малайский, используемый в Бруней.</summary>
+        <summary>Малайский в качестве входа в систему Бруней.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMalaysian">
@@ -2373,7 +2365,7 @@
       </ReturnValue>
       <MemberValue>1086</MemberValue>
       <Docs>
-        <summary>Малазийскую.</summary>
+        <summary>Малайсиан.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMaltese">
@@ -2411,7 +2403,7 @@
       </ReturnValue>
       <MemberValue>1112</MemberValue>
       <Docs>
-        <summary>"Манипури".</summary>
+        <summary>Манипури.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMaori">
@@ -2468,7 +2460,7 @@
       </ReturnValue>
       <MemberValue>2058</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Мексика.</summary>
+        <summary>Испанский язык в Мексика.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMixed">
@@ -2525,7 +2517,7 @@
       </ReturnValue>
       <MemberValue>1121</MemberValue>
       <Docs>
-        <summary>Непали (Индия).</summary>
+        <summary>Языке.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDNone">
@@ -2563,7 +2555,7 @@
       </ReturnValue>
       <MemberValue>1024</MemberValue>
       <Docs>
-        <summary>Без проверки запрошено.</summary>
+        <summary>Проверка не запрошена.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDNorwegianBokmol">
@@ -2582,7 +2574,7 @@
       </ReturnValue>
       <MemberValue>1044</MemberValue>
       <Docs>
-        <summary>Bokmol в Норвегия.</summary>
+        <summary>Бокмол как речь в Норвегии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDNorwegianNynorsk">
@@ -2601,7 +2593,7 @@
       </ReturnValue>
       <MemberValue>2068</MemberValue>
       <Docs>
-        <summary>(Нюнорск) в Норвегия.</summary>
+        <summary>Нюнорск — как в Норвегии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDOriya">
@@ -2639,7 +2631,7 @@
       </ReturnValue>
       <MemberValue>1138</MemberValue>
       <Docs>
-        <summary>"Оромо".</summary>
+        <summary>Оромо.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDPashto">
@@ -2734,7 +2726,7 @@
       </ReturnValue>
       <MemberValue>1131</MemberValue>
       <Docs>
-        <summary>Кечуа в Боливия.</summary>
+        <summary>Кечуа в качестве произнесенного в Боливия.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDQuechuaEcuador">
@@ -2753,7 +2745,7 @@
       </ReturnValue>
       <MemberValue>2155</MemberValue>
       <Docs>
-        <summary>Кечуа в Эквадор.</summary>
+        <summary>Кечуа в отношении произнесенных в Эквадор.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDQuechuaPeru">
@@ -2791,7 +2783,7 @@
       </ReturnValue>
       <MemberValue>1047</MemberValue>
       <Docs>
-        <summary>Rhaeto-Romanic.</summary>
+        <summary>Рхаето — латинский.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDRomanian">
@@ -2829,7 +2821,7 @@
       </ReturnValue>
       <MemberValue>2072</MemberValue>
       <Docs>
-        <summary>Румынский, используемый в Молдова.</summary>
+        <summary>Румынский в качестве произнесенного в Молдова.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDRussian">
@@ -2867,7 +2859,7 @@
       </ReturnValue>
       <MemberValue>2073</MemberValue>
       <Docs>
-        <summary>Русский, используемый в Молдова.</summary>
+        <summary>Русский в качестве произнесенного в Молдова.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSamiLappish">
@@ -2886,7 +2878,7 @@
       </ReturnValue>
       <MemberValue>1083</MemberValue>
       <Docs>
-        <summary>Саамский Lappish.</summary>
+        <summary>Sami/Лаппиш.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSanskrit">
@@ -2924,7 +2916,7 @@
       </ReturnValue>
       <MemberValue>1132</MemberValue>
       <Docs>
-        <summary>Sepedi.</summary>
+        <summary>Сепеди.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSerbianBosniaHerzegovinaCyrillic">
@@ -2943,7 +2935,7 @@
       </ReturnValue>
       <MemberValue>7194</MemberValue>
       <Docs>
-        <summary>Сербский (кириллица) Босния Герцеговина язык.</summary>
+        <summary>Язык для сербского и Герцеговина, отличный от кириллицы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSerbianBosniaHerzegovinaLatin">
@@ -2962,7 +2954,7 @@
       </ReturnValue>
       <MemberValue>6170</MemberValue>
       <Docs>
-        <summary>Сербский Босния Герцеговина Латинская язык.</summary>
+        <summary>Язык для сербского и Герцеговина, отличный от латиницы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSerbianCyrillic">
@@ -2981,7 +2973,7 @@
       </ReturnValue>
       <MemberValue>3098</MemberValue>
       <Docs>
-        <summary>Сербский (кириллица /).</summary>
+        <summary>Сербский/кириллица.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSerbianLatin">
@@ -3019,7 +3011,7 @@
       </ReturnValue>
       <MemberValue>1072</MemberValue>
       <Docs>
-        <summary>Сесото.</summary>
+        <summary>Северный.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSimplifiedChinese">
@@ -3038,7 +3030,7 @@
       </ReturnValue>
       <MemberValue>2052</MemberValue>
       <Docs>
-        <summary>Китайский (упрощенный).</summary>
+        <summary>Китайский (упрощенное письмо).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSindhi">
@@ -3076,7 +3068,7 @@
       </ReturnValue>
       <MemberValue>2137</MemberValue>
       <Docs>
-        <summary>Синдхи в Пакистан.</summary>
+        <summary>Синдхи в формате "Пакистан".</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSinhalese">
@@ -3095,7 +3087,7 @@
       </ReturnValue>
       <MemberValue>1115</MemberValue>
       <Docs>
-        <summary>Сингальский.</summary>
+        <summary>Синхалесе.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSlovak">
@@ -3171,7 +3163,7 @@
       </ReturnValue>
       <MemberValue>1070</MemberValue>
       <Docs>
-        <summary>Лужицкий.</summary>
+        <summary>Верхнелужицкий.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanish">
@@ -3209,7 +3201,7 @@
       </ReturnValue>
       <MemberValue>11274</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Аргентина.</summary>
+        <summary>Испанский язык.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishBolivia">
@@ -3228,7 +3220,7 @@
       </ReturnValue>
       <MemberValue>16394</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Боливия.</summary>
+        <summary>Испанский язык в качестве речевого.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishChile">
@@ -3247,7 +3239,7 @@
       </ReturnValue>
       <MemberValue>13322</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Чили.</summary>
+        <summary>Испанский язык в качестве произнесенного в Чили.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishColombia">
@@ -3266,7 +3258,7 @@
       </ReturnValue>
       <MemberValue>9226</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Колумбия.</summary>
+        <summary>Испанский язык в Колумбия.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishCostaRica">
@@ -3285,7 +3277,7 @@
       </ReturnValue>
       <MemberValue>5130</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Коста-Рика.</summary>
+        <summary>Испанский язык — в Коста Рика.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishDominicanRepublic">
@@ -3304,7 +3296,7 @@
       </ReturnValue>
       <MemberValue>7178</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Доминиканская Республика.</summary>
+        <summary>Испанский язык.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishEcuador">
@@ -3323,7 +3315,7 @@
       </ReturnValue>
       <MemberValue>12298</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Эквадор.</summary>
+        <summary>Испанский язык в Эквадор.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishElSalvador">
@@ -3342,7 +3334,7 @@
       </ReturnValue>
       <MemberValue>17418</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Эль-Сальвадор.</summary>
+        <summary>Испанский в качестве речевого, в Сальвадоре El.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishGuatemala">
@@ -3361,7 +3353,7 @@
       </ReturnValue>
       <MemberValue>4106</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Гватемала.</summary>
+        <summary>Испанский язык в Гватемала.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishHonduras">
@@ -3380,7 +3372,7 @@
       </ReturnValue>
       <MemberValue>18442</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Гондурас.</summary>
+        <summary>Испанский язык в Гондурас.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishModernSort">
@@ -3399,7 +3391,7 @@
       </ReturnValue>
       <MemberValue>3082</MemberValue>
       <Docs>
-        <summary>Испанский (современная сортировка).</summary>
+        <summary>Испанская (современная сортировка).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishNicaragua">
@@ -3418,7 +3410,7 @@
       </ReturnValue>
       <MemberValue>19466</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Никарагуа.</summary>
+        <summary>Испанский язык — Никарагуа.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishPanama">
@@ -3437,7 +3429,7 @@
       </ReturnValue>
       <MemberValue>6154</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Панама.</summary>
+        <summary>Испанский язык в Панама.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishParaguay">
@@ -3456,7 +3448,7 @@
       </ReturnValue>
       <MemberValue>15370</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Парагвай.</summary>
+        <summary>Испанский язык.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishPeru">
@@ -3475,7 +3467,7 @@
       </ReturnValue>
       <MemberValue>10250</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Перу.</summary>
+        <summary>Испанский язык в Перу.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishPuertoRico">
@@ -3494,7 +3486,7 @@
       </ReturnValue>
       <MemberValue>20490</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Пуэрто-Рико.</summary>
+        <summary>Испанский в качестве Пуэрто-Рико.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishUruguay">
@@ -3513,7 +3505,7 @@
       </ReturnValue>
       <MemberValue>14346</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Уругвай.</summary>
+        <summary>Испанский язык в Уругвай.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishVenezuela">
@@ -3532,7 +3524,7 @@
       </ReturnValue>
       <MemberValue>8202</MemberValue>
       <Docs>
-        <summary>Испанский, используемый в Венесуэла.</summary>
+        <summary>Испанский язык в Венесуэла.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSutu">
@@ -3551,7 +3543,7 @@
       </ReturnValue>
       <MemberValue>1072</MemberValue>
       <Docs>
-        <summary>Сото.</summary>
+        <summary>Суту.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSwahili">
@@ -3608,7 +3600,7 @@
       </ReturnValue>
       <MemberValue>2077</MemberValue>
       <Docs>
-        <summary>Шведский, используемый в Финляндия.</summary>
+        <summary>Шведский язык в Финляндии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSwissFrench">
@@ -3627,7 +3619,7 @@
       </ReturnValue>
       <MemberValue>4108</MemberValue>
       <Docs>
-        <summary>Французский как произносимого в Швейцария.</summary>
+        <summary>Французский язык, как в Швейцарии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSwissGerman">
@@ -3646,7 +3638,7 @@
       </ReturnValue>
       <MemberValue>2055</MemberValue>
       <Docs>
-        <summary>Немецкий, используемый в Швейцария.</summary>
+        <summary>Немецкий язык, который проступал в Швейцарии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSwissItalian">
@@ -3665,7 +3657,7 @@
       </ReturnValue>
       <MemberValue>2064</MemberValue>
       <Docs>
-        <summary>Итальянский, используемый в Швейцария.</summary>
+        <summary>Итальянский, как в Швейцарии.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSyriac">
@@ -3684,7 +3676,7 @@
       </ReturnValue>
       <MemberValue>1114</MemberValue>
       <Docs>
-        <summary>Сирийский.</summary>
+        <summary>Сирийск.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTajik">
@@ -3855,7 +3847,7 @@
       </ReturnValue>
       <MemberValue>2163</MemberValue>
       <Docs>
-        <summary>Tigrigna в Эритрея.</summary>
+        <summary>Тигригна, как говорят в Эритрея.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTigrignaEthiopic">
@@ -3874,7 +3866,7 @@
       </ReturnValue>
       <MemberValue>1139</MemberValue>
       <Docs>
-        <summary>Tigrigna в Эфиопия.</summary>
+        <summary>Тигригна в качестве произнесенного в Эфиопия.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTraditionalChinese">
@@ -3893,7 +3885,7 @@
       </ReturnValue>
       <MemberValue>1028</MemberValue>
       <Docs>
-        <summary>Китайский, традиционное письмо.</summary>
+        <summary>Китайский (традиционное письмо).</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTsonga">
@@ -3912,7 +3904,7 @@
       </ReturnValue>
       <MemberValue>1073</MemberValue>
       <Docs>
-        <summary>"Тсонга".</summary>
+        <summary>Тсонга.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTswana">
@@ -4064,7 +4056,7 @@
       </ReturnValue>
       <MemberValue>1075</MemberValue>
       <Docs>
-        <summary>"Венда".</summary>
+        <summary>Поставщик поставщика</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDVietnamese">
@@ -4140,7 +4132,7 @@
       </ReturnValue>
       <MemberValue>1144</MemberValue>
       <Docs>
-        <summary>Ий.</summary>
+        <summary>Yi.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDYiddish">
@@ -4159,7 +4151,7 @@
       </ReturnValue>
       <MemberValue>1085</MemberValue>
       <Docs>
-        <summary>Идиша.</summary>
+        <summary>Иддиш.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDYoruba">

@@ -1,13 +1,5 @@
 <Type Name="MsoCharacterSet" FullName="Microsoft.Office.Core.MsoCharacterSet">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6a6da1f3d4d46608b631ca0be3c716c6af2f5b80" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662100" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoCharacterSet" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6a6da1f3d4d46608b631ca0be3c716c6af2f5b80" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662100" /></Metadata><TypeSignature Language="C#" Value="public enum MsoCharacterSet" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCharacterSet extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCharacterSet" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoCharacterSet" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает символ, который будет использоваться при отображении текста.</summary>
+    <summary>Задает набор символов, используемый при отображении текста.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Кириллица кодировку.</summary>
+        <summary>Кириллическая кодировка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCharacterSetEnglishWesternEuropeanOtherLatinScript">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Английский, Западноевропейская и других латиница набор символов.</summary>
+        <summary>Английский, Западноевропейский и другой набор знаков латиницы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCharacterSetGreek">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Греческий набор символов.</summary>
+        <summary>Греческая кодировка.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCharacterSetHebrew">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Набор символов иврита.</summary>
+        <summary>Кодировка иврита.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCharacterSetJapanese">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Набор символов японского языка.</summary>
+        <summary>Японский набор символов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCharacterSetKorean">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Multilingual набор знаков Юникод.</summary>
+        <summary>Многоязычный набор символов Юникода.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCharacterSetSimplifiedChinese">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>Упрощенный набор символов на китайском языке.</summary>
+        <summary>Набор символов упрощенного китайского письма.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCharacterSetThai">
@@ -230,7 +222,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>Набор традиционных китайских знаков.</summary>
+        <summary>Набор символов традиционного китайского письма.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCharacterSetVietnamese">
@@ -249,7 +241,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>Вьетнамская кодировка.</summary>
+        <summary>Вьетнамский набор символов.</summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="MsoLineDashStyle" FullName="Microsoft.Office.Core.MsoLineDashStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5f175b8563daf7741bb9c97f66d6db5688095158" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661666" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoLineDashStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5f175b8563daf7741bb9c97f66d6db5688095158" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661666" /></Metadata><TypeSignature Language="C#" Value="public enum MsoLineDashStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLineDashStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLineDashStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoLineDashStyle" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Задает стиль тире для строки.</summary>
+    <summary>Задает стиль штриха для линии.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Строка содержит только тире.</summary>
+        <summary>Строка состоит только из дефисов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineDashDot">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Строка — это шаблон штрих точка.</summary>
+        <summary>Строка является шаблоном штрих-пунктира.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineDashDotDot">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Строка — это шаблон штрих точка точка.</summary>
+        <summary>Строка является шаблоном с штрих-точкой.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineDashStyleMixed">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Строка состоит из длинное тире.</summary>
+        <summary>Строка состоит из длинных штрихов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineLongDashDot">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>Строка — это шаблон длинный штрихпунктир.</summary>
+        <summary>Строка — это шаблон длинной пунктирной точки.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineLongDashDotDot">
@@ -173,7 +165,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Строка, состоящих из round точек.</summary>
+        <summary>Линия состоит из круглых точек.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineSolid">
@@ -192,7 +184,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Строка сплошной.</summary>
+        <summary>Линия сплошной.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineSquareDot">
@@ -211,7 +203,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Строка, состоящих из площади точек.</summary>
+        <summary>Линия состоит из квадратных точек.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineSysDash">

@@ -1,13 +1,5 @@
 <Type Name="MsoAlignCmd" FullName="Microsoft.Office.Core.MsoAlignCmd">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fbbb29ab905397c3e95af2a53faeaceff0aa7128" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662057" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoAlignCmd" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fbbb29ab905397c3e95af2a53faeaceff0aa7128" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662057" /></Metadata><TypeSignature Language="C#" Value="public enum MsoAlignCmd" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAlignCmd extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAlignCmd" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoAlignCmd" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет способ выравнивания указанных объектов относительно друг с другом.</summary>
+    <summary>Определяет способ выравнивания указанных объектов относительно друг друга.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Выровняйте нижние границы указанных объектов.</summary>
+        <summary>Выравнивание нижних заданных объектов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignCenters">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>По центру указанных объектов.</summary>
+        <summary>Выравнивание центров указанных объектов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignLefts">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Выравнивание слева от указанных объектов.</summary>
+        <summary>Выравнивание левых сторон указанных объектов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignMiddles">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Выравнивание середины указанных объектов.</summary>
+        <summary>Выравнивание заданных объектов по середине.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignRights">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Выровняйте боковыми указанных объектов.</summary>
+        <summary>Выравнивание правых сторон заданных объектов.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignTops">
@@ -135,7 +127,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Выровняйте верхние границы указанных объектов.</summary>
+        <summary>Выравнивание по верхним краям указанных объектов.</summary>
       </Docs>
     </Member>
   </Members>

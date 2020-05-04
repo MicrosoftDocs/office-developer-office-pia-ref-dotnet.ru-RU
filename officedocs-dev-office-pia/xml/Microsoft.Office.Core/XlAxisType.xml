@@ -1,13 +1,5 @@
 <Type Name="XlAxisType" FullName="Microsoft.Office.Core.XlAxisType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="03774cf7d5867be835a9ee3a65070965d5e3ca5d" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661673" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlAxisType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="03774cf7d5867be835a9ee3a65070965d5e3ca5d" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661673" /></Metadata><TypeSignature Language="C#" Value="public enum XlAxisType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlAxisType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlAxisType" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlAxisType" />
@@ -48,7 +40,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Ось отображает категории.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  На оси отображаются категории.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlSeriesAxis">
@@ -67,7 +59,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  Ось отображает ряды данных.</summary>
+        <summary>Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).  На оси отображаются ряды данных.</summary>
       </Docs>
     </Member>
     <Member MemberName="xlValue">

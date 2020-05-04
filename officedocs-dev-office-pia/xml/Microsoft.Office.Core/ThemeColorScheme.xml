@@ -1,13 +1,5 @@
 <Type Name="ThemeColorScheme" FullName="Microsoft.Office.Core.ThemeColorScheme">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="892ddf96fa6a623ec2d60d250797079a1361955e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661705" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ThemeColorScheme : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="892ddf96fa6a623ec2d60d250797079a1361955e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661705" /></Metadata><TypeSignature Language="C#" Value="public interface ThemeColorScheme : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ThemeColorScheme implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ThemeColorScheme" />
   <TypeSignature Language="VB.NET" Value="Public Interface ThemeColorScheme&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,7 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет цвет темы Microsoft Office 2007.</summary>
+    <summary>Представляет цветовую схему темы Microsoft Office 2007.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -63,10 +55,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.ThemeColorScheme" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.ThemeColorScheme" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -94,10 +84,8 @@
       </Parameters>
       <Docs>
         <param name="Index">Значение индекса <see cref="T:Microsoft.Office.Core.ThemeColor" /> объекта.</param>
-        <summary>Получает объект, который представляет цвет в цветовой схеме темы Microsoft Office.</summary>
-        <returns>
-          <b>ThemeColor</b>
-        </returns>
+        <summary>Получает объект, представляющий цвет в цветовой схеме темы Microsoft Office.</summary>
+        <returns><b>ThemeColor</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -124,10 +112,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.ThemeColorScheme" /> семейства сайтов. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает количество элементов в <see cref="T:Microsoft.Office.Core.ThemeColorScheme" /> коллекции. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,10 +143,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.ThemeColorScheme" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.ThemeColorScheme" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -192,15 +176,11 @@
         <Parameter Name="Name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Name">Имя настраиваемого цвет.</param>
+        <param name="Name">Имя настраиваемого цвета.</param>
         <summary>Получает значение, представляющее цвет в цветовой схеме темы Microsoft Office.</summary>
-        <returns>
-          <b>MsoRGBType</b>
-        </returns>
-        <remarks>
-          <para>Если название настраиваемые цвета не существует, возникнет ошибка.</para>
-          <para />
-        </remarks>
+        <returns><b>мсоргбтипе</b></returns>
+        <remarks><para>Если именованный настраиваемый цвет не существует, создается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -258,8 +238,8 @@
         <Parameter Name="FileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="FileName">Имя файла цвета темы.</param>
-        <summary>Загружает цвет темы Microsoft Office из файла.</summary>
+        <param name="FileName">Имя файла цветовой темы.</param>
+        <summary>Загружает цветовую схему темы Microsoft Office из файла.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -315,7 +295,7 @@
       </Parameters>
       <Docs>
         <param name="FileName">Имя файла</param>
-        <summary>Сохраняет цвет темы Microsoft Office в файл.</summary>
+        <summary>Сохраняет цветовую схему темы Microsoft Office в файл.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

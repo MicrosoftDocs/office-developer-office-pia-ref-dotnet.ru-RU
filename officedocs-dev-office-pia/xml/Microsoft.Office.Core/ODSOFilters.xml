@@ -1,13 +1,5 @@
 <Type Name="ODSOFilters" FullName="Microsoft.Office.Core.ODSOFilters">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="771b44ee2edc619dbe29f4a1c415480fbe7994ae" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662467" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ODSOFilters : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="771b44ee2edc619dbe29f4a1c415480fbe7994ae" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662467" /></Metadata><TypeSignature Language="C#" Value="public interface ODSOFilters : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ODSOFilters implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ODSOFilters" />
   <TypeSignature Language="VB.NET" Value="Public Interface ODSOFilters&#xA;Implements _IMsoDispObj" />
@@ -30,13 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет все фильтры, применяемые к источнику данных, подключенного к публикации слияния.</summary>
-    <remarks>
-      <para>Объект <b>ODSOFilters</b> включает в себя <see cref="T:Microsoft.Office.Core.ODSOFilter" /> объекты.</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core.ODSOFilters.Add(System.String,Microsoft.Office.Core.MsoFilterComparison,Microsoft.Office.Core.MsoFilterConjunction,System.String,System.Boolean)" /> метод объекта <b>ODSOFilters</b> для добавления нового условия фильтра к запросу.</para>
-      <para>Использования <see cref="M:Microsoft.Office.Core.ODSOFilters.Item(System.Int32)" /> метод для доступа к отдельным условиям фильтра.</para>
-      <para />
-    </remarks>
+    <summary>Представляет все фильтры, которые применяются к источнику данных, связанному с публикацией слияния почты.</summary>
+    <remarks><para>Объект <b>ODSOFilters</b> состоит <see cref="T:Microsoft.Office.Core.ODSOFilter" /> из объектов.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.ODSOFilters.Add(System.String,Microsoft.Office.Core.MsoFilterComparison,Microsoft.Office.Core.MsoFilterConjunction,System.String,System.Boolean)" /> метод объекта <b>ODSOFilters</b> , чтобы добавить в запрос новое условие фильтра.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.ODSOFilters.Item(System.Int32)" /> метод, чтобы получить доступ к отдельному критерию фильтра.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -65,13 +55,12 @@
         <Parameter Name="DeferUpdate" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="Column">
-          <b>Строковое значение.</b> Имя таблицы в источнике данных.</param>
-        <param name="Comparison">Требуется <see cref="T:Microsoft.Office.Core.MsoFilterComparison" />. Способ фильтрации данных в таблице.</param>
-        <param name="Conjunction">Требуется <see cref="T:Microsoft.Office.Core.MsoFilterConjunction" />. Определяет, как этот фильтр относится к другим фильтров в объекте <b>ODSOFilters</b> .</param>
-        <param name="bstrCompareTo">Необязательный атрибут типа <b>String</b>.  Если <paramref name="Comparison" /> аргумент — это что-то отличного от <b>msoFilterComparisonIsBlank</b> или <b>msoFilterComparisonIsNotBlank</b>, строка, с которым сравнивается данных в таблице.</param>
-        <param name="DeferUpdate">Необязательный атрибут типа <b>Boolean</b>.  Значение по умолчанию — <b>False</b>.</param>
-        <summary>Добавляет новый фильтр для <see cref="T:Microsoft.Office.Core.ODSOFilters" /> семейства сайтов.</summary>
+        <param name="Column">Обязательный атрибут типа <b>String</b>. Имя таблицы в источнике данных.</param>
+        <param name="Comparison">Обязательный <see cref="T:Microsoft.Office.Core.MsoFilterComparison" />. Фильтрация данных в таблице.</param>
+        <param name="Conjunction">Обязательный <see cref="T:Microsoft.Office.Core.MsoFilterConjunction" />. Определяет, каким образом этот фильтр связан с другими фильтрами в объекте <b>ODSOFilters</b> .</param>
+        <param name="bstrCompareTo">Необязательная <b>строка</b>. Если <paramref name="Comparison" /> аргумент имеет значение, отличное от <b>мсофилтеркомпарисонисбланк</b> или <b>мсофилтеркомпарисониснотбланк</b>, то строка, с которой сравнивается данные в таблице.</param>
+        <param name="DeferUpdate">Необязательный атрибут типа <b>Boolean</b>. Значение по умолчанию — <b>false</b>.</param>
+        <summary>Добавляет новый фильтр в <see cref="T:Microsoft.Office.Core.ODSOFilters" /> коллекцию.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -101,12 +90,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Это свойство можно использовать с помощью объекта <b>автоматизации</b> для возврата приложения этот объект контейнера.</para>
-          <para />
-        </remarks>
+        <remarks><para>Это свойство можно использовать с объектом <b>Automation</b> для возврата приложения контейнера этого объекта.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -132,7 +119,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает <b>целое число</b> , указывающее количество элементов в указанном семействе сайтов.</summary>
+        <summary>Возвращает <b>целое</b> число, указывающее количество элементов в указанной коллекции.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -163,12 +150,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</summary>
+        <summary>Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.ODSOFilters.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></remarks>
+        <remarks><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.ODSOFilters.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -194,9 +181,9 @@
         <Parameter Name="DeferUpdate" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="Index">Требуется <b>целое число</b>. Количество фильтров для удаления.</param>
-        <param name="DeferUpdate">Необязательный атрибут типа <b>Boolean</b>. </param>
-        <summary>Удаляет объект фильтра из <see cref="T:Microsoft.Office.Core.ODSOFilters" /> семейства сайтов.</summary>
+        <param name="Index">Обязательный атрибут типа <b>Integer</b>. Номер удаляемого фильтра.</param>
+        <param name="DeferUpdate">Необязательный атрибут типа <b>Boolean</b>.</param>
+        <summary>Удаляет объект Filter из <see cref="T:Microsoft.Office.Core.ODSOFilters" /> коллекции.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -223,8 +210,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">Требуется <b>целое число</b>. Номер индекса <b>ODSOFilter</b> должно быть возвращено.</param>
-        <summary>Возвращает элемент указанного <see cref="T:Microsoft.Office.Core.ODSOFilters" /> семейства сайтов.</summary>
+        <param name="Index">Обязательный атрибут типа <b>Integer</b>. Номер индекса возвращаемого <b>ODSOFilter</b> .</param>
+        <summary>Возвращает элемент указанной <see cref="T:Microsoft.Office.Core.ODSOFilters" /> коллекции.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

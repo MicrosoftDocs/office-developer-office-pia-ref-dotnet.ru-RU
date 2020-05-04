@@ -1,13 +1,5 @@
 <Type Name="MsoSharedWorkspaceTaskStatus" FullName="Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="db8475f92afc0ced8e452ed392f55162298945e2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661678" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoSharedWorkspaceTaskStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="db8475f92afc0ced8e452ed392f55162298945e2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661678" /></Metadata><TypeSignature Language="C#" Value="public enum MsoSharedWorkspaceTaskStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSharedWorkspaceTaskStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoSharedWorkspaceTaskStatus" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает состояние задач общей рабочей области.</summary>
+    <summary>Указывает состояние задачи общей рабочей области.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Завершено.</summary>
+        <summary>Готовы.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSharedWorkspaceTaskStatusDeferred">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Отложено.</summary>
+        <summary>Deferred.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSharedWorkspaceTaskStatusInProgress">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>В процессе выполнения.</summary>
+        <summary>Выполняется.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSharedWorkspaceTaskStatusNotStarted">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Не удалось запустить.</summary>
+        <summary>Не начато.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoSharedWorkspaceTaskStatusWaiting">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Ожидание.</summary>
+        <summary>Ожидают.</summary>
       </Docs>
     </Member>
   </Members>

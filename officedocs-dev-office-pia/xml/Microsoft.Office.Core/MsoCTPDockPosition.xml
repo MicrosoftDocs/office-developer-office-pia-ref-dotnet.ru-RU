@@ -1,13 +1,5 @@
 <Type Name="MsoCTPDockPosition" FullName="Microsoft.Office.Core.MsoCTPDockPosition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4f71926057723a68e37a3addc3267b7a183b3ad2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661664" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoCTPDockPosition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4f71926057723a68e37a3addc3267b7a183b3ad2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661664" /></Metadata><TypeSignature Language="C#" Value="public enum MsoCTPDockPosition" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCTPDockPosition extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCTPDockPosition" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoCTPDockPosition" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Определяет поведение прикрепления настраиваемой области задач.</summary>
+    <summary>Указывает поведение закрепления настраиваемой области задач.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Закрепление области задач в нижней части окна документа.</summary>
+        <summary>Прикрепление области задач в нижней части окна документа.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCTPDockPositionFloating">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Не закрепления области задач.</summary>
+        <summary>Не прикреплять область задач.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoCTPDockPositionLeft">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Закрепление области задач в верхней части окна документа.</summary>
+        <summary>Закрепить область задач в верхней части окна документа.</summary>
       </Docs>
     </Member>
   </Members>

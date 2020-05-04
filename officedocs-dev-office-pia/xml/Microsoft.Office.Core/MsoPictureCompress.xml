@@ -1,13 +1,5 @@
 <Type Name="MsoPictureCompress" FullName="Microsoft.Office.Core.MsoPictureCompress">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="549e0fe1786a9947385a3ee2331378980c15828d" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661687" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPictureCompress" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="549e0fe1786a9947385a3ee2331378980c15828d" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661687" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPictureCompress" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPictureCompress extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPictureCompress" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPictureCompress" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает, будет сжатие изображения или не в том случае, когда вставлен в файл.</summary>
+    <summary>Указывает, следует ли сжимать изображение или нет при вставке в файл.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,7 +32,7 @@
       </ReturnValue>
       <MemberValue>-1</MemberValue>
       <Docs>
-        <summary>Изображения — сжатый или не в зависимости от параметров для документа.</summary>
+        <summary>Изображение сжимается или не зависит от параметров документа.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPictureCompressFalse">
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Не сжатия изображения.</summary>
+        <summary>Изображение не сжимается.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoPictureCompressTrue">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Изображение сжимаются.</summary>
+        <summary>Изображение будет сжато.</summary>
       </Docs>
     </Member>
   </Members>

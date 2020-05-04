@@ -1,13 +1,5 @@
 <Type Name="Crop" FullName="Microsoft.Office.Core.Crop">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="47968c1eefad56f9b3fd16814d5e1feaf47122ec" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662574" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Crop : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="47968c1eefad56f9b3fd16814d5e1feaf47122ec" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662574" /></Metadata><TypeSignature Language="C#" Value="public interface Crop : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Crop implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Crop" />
   <TypeSignature Language="VB.NET" Value="Public Interface Crop&#xA;Implements _IMsoDispObj" />
@@ -60,12 +52,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> ведущего приложения.</summary>
+        <summary>Возвращает объект <b>Application</b> ведущего приложения.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -94,12 +84,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое, которое указывает, приложения, в котором был создан объект <b>обрезки</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>кадрирования</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="PictureHeight">
@@ -128,12 +116,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает высоту изображения, который должен быть обрезки.</summary>
+        <summary>Получает или задает высоту изображения, которое необходимо обрезать.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="PictureOffsetX">
@@ -162,12 +148,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает смещение оси x изображения, который должен быть обрезки.</summary>
+        <summary>Получает или задает смещение изображения по оси x для кадрирования изображения.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись. Это свойство и <see cref="P:Microsoft.Office.Core.Crop.OffsetY" /> свойство относительно центра фигуры и изображения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись. Это свойство и <see cref="P:Microsoft.Office.Core.Crop.OffsetY" /> свойство относительны относительно центра фигуры и изображения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="PictureOffsetY">
@@ -196,12 +180,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает смещение оси y изображения, который должен быть обрезки.</summary>
+        <summary>Получает или задает смещение изображения по оси y для изображения, которое необходимо обрезать.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись. Это свойство и <see cref="P:Microsoft.Office.Core.Crop.OffsetX" /> свойство относительно центра фигуры и изображения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись. Это свойство и <see cref="P:Microsoft.Office.Core.Crop.OffsetX" /> свойство относительны относительно центра фигуры и изображения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="PictureWidth">
@@ -230,12 +212,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ширину изображения, который должен быть обрезки.</summary>
+        <summary>Получает или задает ширину изображения, которое необходимо обрезать.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShapeHeight">
@@ -264,12 +244,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает высоту фигуры, используемый для обрезать изображение.</summary>
+        <summary>Получает или задает высоту фигуры, используемой для кадрирования изображения.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShapeLeft">
@@ -298,12 +276,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает расположение в левой части фигуры, используемый для обрезать изображение.</summary>
+        <summary>Получает или задает расположение левой стороны фигуры, используемой для кадрирования изображения.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись. В Microsoft Word, это свойство и <see cref="P:Microsoft.Office.Core.Crop.ShapeTop" /> свойство возвращает ошибку, если изображения или фигуры перенос текста, задайте значение в тексте.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись. В Microsoft Word данное свойство и <see cref="P:Microsoft.Office.Core.Crop.ShapeTop" /> свойство возвращают ошибку, если для рисунка или фигуры задано перетекание текста для встроенного текста.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShapeTop">
@@ -332,12 +308,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает расположение в верхней части фигуры, используемый для обрезать изображение.</summary>
+        <summary>Получает или задает расположение верхней части фигуры, используемой для кадрирования изображения.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись. В Microsoft Word <see cref="P:Microsoft.Office.Core.Crop.ShapeLeft" /> свойство и данное свойство возвращает ошибку — это изображение или иметь перенос текста, задайте значение в тексте фигуры.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись. В Microsoft Word <see cref="P:Microsoft.Office.Core.Crop.ShapeLeft" /> свойство и это свойство возвращают ошибку — рисунок или фигура имеют перетекание текста на встроенное в текст.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShapeWidth">
@@ -366,12 +340,10 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает ширину фигуры, используемый для обрезать изображение.</summary>
+        <summary>Получает или задает ширину фигуры, используемой для кадрирования изображения.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Чтение и запись.</para>
-          <para />
-        </remarks>
+        <remarks><para>Чтение и запись.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

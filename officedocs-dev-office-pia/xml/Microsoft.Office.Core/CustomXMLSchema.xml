@@ -1,13 +1,5 @@
 <Type Name="CustomXMLSchema" FullName="Microsoft.Office.Core.CustomXMLSchema">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b2e655782fcffad3b76e98ffb7f0f73a987e96ff" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662257" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CustomXMLSchema : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b2e655782fcffad3b76e98ffb7f0f73a987e96ff" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662257" /></Metadata><TypeSignature Language="C#" Value="public interface CustomXMLSchema : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLSchema implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLSchema" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLSchema&#xA;Implements _IMsoDispObj" />
@@ -30,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет схему в <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> семейства сайтов.</summary>
+    <summary>Представляет схему в <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> коллекции.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,10 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта. Только для чтения.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,10 +83,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> был создан объект. Только для чтения.</summary>
-        <value>
-          <b>Integer</b>
-        </value>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> в котором был создан объект. Только для чтения.</summary>
+        <value><b>Integer</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -121,11 +109,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Удаляет указанную схему из <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> семейства сайтов.</summary>
-        <remarks>
-          <para>Если эта операция выполняется попытка на основе схемы в коллекции, которая уже проверенные или подключенного к потоку данных затем операция не выполняется и отображается сообщение об ошибке.</para>
-          <para />
-        </remarks>
+        <summary>Удаляет указанную схему из <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> коллекции.</summary>
+        <remarks><para>Если эта операция выполняется над схемой в коллекции, которая уже проверена или присоединена к потоку данных, то операция не выполняется и отображается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Location">
@@ -152,9 +138,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает <b>строку</b> , представляющую расположение схемы на компьютере. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -181,10 +165,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает идентификатор уникальный адрес для пространства имен <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Строка</b>
-        </value>
+        <summary>Получает уникальный идентификатор пространства имен <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта. Только для чтения.</summary>
+        <value><b>Строка</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -212,9 +194,7 @@
       </ReturnValue>
       <Docs>
         <summary>Получает родительский объект для <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -239,11 +219,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Перезагружает схемы из файла.</summary>
-        <remarks>
-          <para>Как правило этот метод используется для определения схемы допустимость по-прежнему или расположение схемы. Также полезно для перезагрузки схемы, в которой часто изменяется. При попытке выполнить это действие схемы в коллекции, которая уже проверяется и не привязывается к потоку данных затем операция не выполняется и отображается сообщение об ошибке.</para>
-          <para />
-        </remarks>
+        <summary>Перезагружает схему из файла.</summary>
+        <remarks><para>Как правило, этот метод используется для обновления расположения схемы или для определения того, является ли схема по-прежнему допустимой. Он также полезен для повторной загрузки схемы, которая часто изменяется. При попытке выполнить это действие для схемы в коллекции, которая уже проверена или привязана к потоку данных, операция не выполняется и отображается сообщение об ошибке.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

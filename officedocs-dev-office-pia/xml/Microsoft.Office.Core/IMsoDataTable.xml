@@ -1,13 +1,5 @@
 <Type Name="IMsoDataTable" FullName="Microsoft.Office.Core.IMsoDataTable">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2ebbace234a7c21013d856f5504d13459e8f017b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662295" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IMsoDataTable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2ebbace234a7c21013d856f5504d13459e8f017b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662295" /></Metadata><TypeSignature Language="C#" Value="public interface IMsoDataTable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoDataTable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoDataTable" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMsoDataTable" />
@@ -84,7 +76,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает значение, указывающее, будет ли в таблице данных изменяет размер шрифта, после изменения размера таблицы данных. Возвращает <b>значение True</b>, значение по умолчанию, если изменения размера шрифта с данными таблицы изменения размера. Для чтения и записи.</summary>
+        <summary>Получает или задает значение, указывающее, изменяет ли таблица данных размер шрифта при изменении размера таблицы данных. Возвращает значение <b>true</b>, значение по умолчанию, если размер шрифта изменяется с изменением размера таблицы данных. Для чтения и записи.</summary>
         <value>Variant</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,30 +104,28 @@
         <ReturnType>Microsoft.Office.Core.IMsoBorder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Предоставляет доступ к свойствам, определяющие visual характеристики границы таблицы данных. Только для чтения.</summary>
-        <value>IMsoBorder</value>
-        <remarks>
-          <para>IMsoBorder члены</para>
+        <summary>Предоставляет доступ к свойствам, определяющим визуальные характеристики границы таблицы данных. Только для чтения.</summary>
+        <value>имсобордер</value>
+        <remarks><para>Элемент имсобордер</para>
           <list type="table">
             <item>
-              <description>Цвет</description>
+              <description>Color</description>
               <description>Variant</description>
             </item>
+            <item>
+              <description>Weight</description>
+              <description>Variant</description> 
+            </item> Variant
             <item>
               <description>ColorIndex</description>
               <description>Variant</description>
-            </item>
+            </item>Variant
             <item>
-              <description>линии</description>
+              <description>lineStyle</description>
               <description>Variant</description>
-            </item>
-            <item>
-              <description>Вес</description>
-              <description>Variant</description>
-            </item>
+            </item>Variant Variant
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -189,10 +179,8 @@
       <Docs>
         <summary>Удаляет таблицу данных.</summary>
         <remarks>To be added.</remarks>
-        <example>
-          <para>В следующем примере удаляется объект <b>DataTable</b> .</para>
-          <code>&lt;span class="label"&gt;Dim dataTable1 As DataTable dataTable1.Delete()&lt;/span&gt;</code>
-        </example>
+        <example><para>В примере ниже показано, как удалить объект <b>DataTable</b> .</para>
+          <code>&lt;span class="label"&gt;Dim dataTable1 As DataTable dataTable1.Delete()&lt;/span&gt;</code></example>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -218,13 +206,16 @@
         <ReturnType>Microsoft.Office.Core.ChartFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Предоставляет доступ к свойствам, определяющие характеристики текста в таблице данных. Только для чтения.</summary>
+        <summary>Предоставляет доступ к свойствам, определяющим характеристики текста в таблице данных. Только для чтения.</summary>
         <value>ChartFont</value>
-        <remarks>
-          <para>ChartFont члены</para>
+        <remarks><para>ChartFont Members</para>
           <list type="table">
             <item>
-              <description>Цвет</description>
+              <description>Color</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Size</description>
               <description>Variant</description>
             </item>
             <item>
@@ -232,48 +223,43 @@
               <description>Variant</description>
             </item>
             <item>
+              <description>Shadow</description>
+              <description>Variant</description>
+            </item>
+            <item>
               <description>FontStyle</description>
+              <description>Variant</description>
+            </item>Variant Variant
+            <item>
+              <description>Name</description>
               <description>Variant</description>
             </item>
             <item>
               <description>Italic</description>
+              <description>Variant</description>Variant Variant
+            </item>
+            <item>
+              <description>аутлинефонт</description>
+              <description>Variant</description>
+            </item>Variant Variant Color Variant,
+            <item>
+              <description>подстрочный</description>
               <description>Variant</description>
             </item>
-            <item>
-              <description>имя</description>
-              <description>типа Variant</description>
-            </item>
-            <item>
-              <description>OutlineFont</description>
+            <item>символ Variant
               <description>Variant</description>
+              <description>StrikeThrough</description>
             </item>
             <item>
-              <description>Теневая</description>
-              <description>Variant</description>
-            </item>
-            <item>
-              <description>Размер</description>
-              <description>Variant</description>
-            </item>
-            <item>
-              <description>Зачеркивание</description>
-              <description>Variant</description>
-            </item>
-            <item>
-              <description>Подстрочный знак</description>
-              <description>Variant</description>
-            </item>
-            <item>
-              <description>Superscriprt</description>
+              <description>суперскрипрт</description>
               <description>Variant</description>
             </item>
             <item>
               <description>Подчеркивание</description>
-              <description>Variant</description>
-            </item>
+              <description>Variant</description> 
+            </item> Variant
           </list>
-          <para />
-        </remarks>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Format">
@@ -330,7 +316,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает <b>логическое</b> значение, указывающее, имеет ли в таблице данных горизонтальной границы. Для чтения и записи.</summary>
+        <summary>Получает или задает <b>логическое</b> значение, указывающее, имеет ли таблица данных горизонтальную границу. Для чтения и записи.</summary>
         <value>Логический</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -361,7 +347,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает <b>логическое</b> значение, указывающее, следует ли отображать границы вокруг таблицу данных. Для чтения и записи.</summary>
+        <summary>Получает или задает <b>логическое</b> значение, указывающее, следует ли отображать границу для таблицы данных. Для чтения и записи.</summary>
         <value>Логический</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -392,7 +378,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает <b>логическое</b> значение, указывающее, имеет ли в таблице данных вертикальной границы. Для чтения и записи.</summary>
+        <summary>Получает или задает <b>логическое</b> значение, указывающее, имеет ли таблица данных вертикальную границу. Для чтения и записи.</summary>
         <value>Логический</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -420,7 +406,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <b>родительский</b> объект для объекта <b>IMsoDataTable</b> . Только для чтения.</summary>
+        <summary>Получает <b>родительский</b> объект для объекта <b>имсодататабле</b> . Только для чтения.</summary>
         <value>Объект</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -446,12 +432,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Выбор объекта <b>IMsoDataTable</b> .</summary>
+        <summary>Выбирает объект <b>имсодататабле</b> .</summary>
         <remarks>To be added.</remarks>
-        <example>
-          <para>В следующем примере выбирается объект <b>IMsoDataTable</b> .</para>
-          <code>&lt;span class="label"&gt;Dim dataTable1 As DataTable dataTable1.Select() &lt;/span&gt;</code>
-        </example>
+        <example><para>В приведенном ниже примере показано, как выбрать объект <b>имсодататабле</b> .</para>
+          <code>&lt;span class="label"&gt;Dim dataTable1 As DataTable dataTable1.Select() &lt;/span&gt;</code></example>
       </Docs>
     </Member>
     <Member MemberName="ShowLegendKey">
@@ -480,7 +464,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает или задает <b>логическое</b> значение, указывающее, следует ли отображать условных обозначений с базой данных. Для чтения и записи.</summary>
+        <summary>Получает или задает <b>логическое</b> значение, указывающее, следует ли отображать условные обозначения в таблице данных. Для чтения и записи.</summary>
         <value>Логический</value>
         <remarks>To be added.</remarks>
       </Docs>

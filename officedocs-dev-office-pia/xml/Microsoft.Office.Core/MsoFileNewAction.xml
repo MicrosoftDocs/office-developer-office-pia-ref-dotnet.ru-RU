@@ -1,13 +1,5 @@
 <Type Name="MsoFileNewAction" FullName="Microsoft.Office.Core.MsoFileNewAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dada72632f30c311649518bc138b2a79c8a2bc22" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662352" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFileNewAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dada72632f30c311649518bc138b2a79c8a2bc22" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662352" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFileNewAction" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileNewAction extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileNewAction" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFileNewAction" />
@@ -20,11 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает действие, выполняемое, когда пользователь щелкает элемент в области задач.</summary>
-    <remarks>
-      <para>Используется с методом <b>Add</b> объекта <b>NewFile</b> .</para>
-      <para />
-    </remarks>
+    <summary>Задает действие, которое необходимо выполнить, когда пользователь нажимает элемент в области задач.</summary>
+    <remarks><para>Используется с методом <b>Add</b> объекта <b>NewFile</b> .</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoCreateNewFile">
@@ -62,7 +52,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Редактирование файла.</summary>
+        <summary>Изменить файл.</summary>
       </Docs>
     </Member>
     <Member MemberName="msoOpenFile">
@@ -81,7 +71,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Открытие файла.</summary>
+        <summary>Откройте файл.</summary>
       </Docs>
     </Member>
   </Members>

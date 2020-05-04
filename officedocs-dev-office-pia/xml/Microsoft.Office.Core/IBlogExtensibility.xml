@@ -1,13 +1,5 @@
 <Type Name="IBlogExtensibility" FullName="Microsoft.Office.Core.IBlogExtensibility">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fb00ae654ec9e5663ff48fe1466a8e8b00117ebc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662506" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IBlogExtensibility" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fb00ae654ec9e5663ff48fe1466a8e8b00117ebc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662506" /></Metadata><TypeSignature Language="C#" Value="public interface IBlogExtensibility" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBlogExtensibility" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IBlogExtensibility" />
   <TypeSignature Language="VB.NET" Value="Public Interface IBlogExtensibility" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Объект, который предоставляет возможность управлять записи в блогах.</summary>
+    <summary>Объект, который предоставляет возможность управлять записями в блоге.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -56,10 +48,10 @@
         <Parameter Name="Padding" Type="System.Boolean&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="BlogProvider">Имя поставщика блога.</param>
+        <param name="BlogProvider">Имя поставщика блогов.</param>
         <param name="FriendlyName">Представляет имя, отображаемое в пользовательском интерфейсе.</param>
-        <param name="CategorySupport">Представляет, сколько категорий поддерживаются поставщиком.</param>
-        <param name="Padding">Указывает, является ли внутренние поля в таблице.</param>
+        <param name="CategorySupport">Указывает, сколько категорий поддерживается поставщиком.</param>
+        <param name="Padding">Указывает, следует ли распознать заполнение таблицы.</param>
         <summary>Содержит сведения о поставщике.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -90,15 +82,13 @@
         <Parameter Name="Categories" Type="System.Array&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">Представляет идентификатор GUID в учетной записи реестра.</param>
-        <param name="ParentWindow">Представляет HWND главного окна.</param>
-        <param name="Document">Текущего документа.</param>
+        <param name="Account">Представляет GUID раздела реестра учетной записи.</param>
+        <param name="ParentWindow">Представляет дескриптор окна ведущего приложения.</param>
+        <param name="Document">Текущий документ.</param>
         <param name="Categories">Список категорий, поддерживаемых поставщиком.</param>
-        <summary>Этот метод возвращает список категорий блога для учетной записи, поэтому Microsoft Office Word можно заполнить в раскрывающемся списке категорий.</summary>
-        <remarks>
-          <para>Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</para>
-          <para />
-        </remarks>
+        <summary>Этот метод возвращает список категорий блогов для учетной записи, чтобы Microsoft Office Word мог заполнить раскрывающийся список категорий.</summary>
+        <remarks><para>Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRecentPosts">
@@ -129,13 +119,13 @@
         <Parameter Name="PostIDs" Type="System.Array&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">Представляет идентификатор GUID в учетной записи реестра. Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</param>
-        <param name="ParentWindow">Содержит HWND Office Word — это вызов из окна.</param>
-        <param name="Document">Текущего документа.</param>
-        <param name="PostTitles">Содержит заголовки последнего пятнадцать публикации.</param>
-        <param name="PostDates">Содержит даты последнего пятнадцать публикации.</param>
-        <param name="PostIDs">Содержит идентификаторы последнего пятнадцать публикации.</param>
-        <summary>Возвращает список последних пятнадцать блога пользователя публикации, Microsoft Office Word, затем отображается в диалоговом окне Открытие существующей записи. Этот метод не возвращает фактически содержимое публикация в блоге.</summary>
+        <param name="Account">Представляет GUID раздела реестра учетной записи. Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</param>
+        <param name="ParentWindow">Содержит HWND для окна Office Word, из которого выполняется вызов.</param>
+        <param name="Document">Текущий документ.</param>
+        <param name="PostTitles">Содержит заголовки последних пятнадцати записей.</param>
+        <param name="PostDates">Содержит даты последних пятнадцати записей.</param>
+        <param name="PostIDs">Содержит идентификаторы последних пятнадцати записей.</param>
+        <summary>Возвращает список последних пятнадцати записей блогов, которые Microsoft Office Word отображает в диалоговом окне Открытие существующего сообщения POST. Этот метод фактически не возвращает содержимое записи блога.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -167,13 +157,13 @@
         <Parameter Name="BlogURLs" Type="System.Array&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">Представляет идентификатор GUID в учетной записи реестра. Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</param>
-        <param name="ParentWindow">Содержит HWND для Microsoft Office Word — это вызов из окна.</param>
-        <param name="Document">Текущего документа.</param>
-        <param name="BlogNames">Содержит все имена блога в разделе данная учетная запись.</param>
-        <param name="BlogIDs">Содержит все идентификаторы блога в разделе данная учетная запись.</param>
-        <param name="BlogURLs">Содержит все URL-адреса блога в разделе данная учетная запись.</param>
-        <summary>Возвращает список и сведения о блогов пользователя, связанные с указанной учетной записи.</summary>
+        <param name="Account">Представляет GUID раздела реестра учетной записи. Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</param>
+        <param name="ParentWindow">Содержит HWND для окна, из которого выполняется вызов Microsoft Office Word.</param>
+        <param name="Document">Текущий документ.</param>
+        <param name="BlogNames">Содержит все имена блогов под текущей учетной записью.</param>
+        <param name="BlogIDs">Содержит все идентификаторы блогов в текущей учетной записи.</param>
+        <param name="BlogURLs">Содержит все URL-адреса блогов в текущей учетной записи.</param>
+        <summary>Возвращает список и подробные сведения о пользовательских блогах, связанных с указанной учетной записью.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -206,14 +196,14 @@
         <Parameter Name="Categories" Type="System.Array&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">Представляет идентификатор GUID в учетной записи реестра. Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</param>
+        <param name="Account">Представляет GUID раздела реестра учетной записи. Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</param>
         <param name="PostID">Идентификатор записи.</param>
-        <param name="ParentWindow">Содержит HWND для Microsoft Office Word — это вызов из окна.</param>
+        <param name="ParentWindow">Содержит HWND для окна, из которого выполняется вызов Microsoft Office Word.</param>
         <param name="xHTML">Представляет xHTML текущего документа.</param>
-        <param name="Title">Заголовок post.</param>
-        <param name="DatePosted">Дата учета операции.</param>
+        <param name="Title">Заголовок записи.</param>
+        <param name="DatePosted">Дата отправки записи.</param>
         <param name="Categories">Список категорий, поддерживаемых поставщиком.</param>
-        <summary>Открывает блога, заданную идентификатором блог (en) Он вызывает диалоговое окно Открытие существующей записи, на основе выбранного пользователем элемента.</summary>
+        <summary>Открывает блог, заданный ИДЕНТИФИКАТОРом блога. Он вызывается с помощью диалогового окна Открытие существующего сообщения POST на основе элемента, выбранного пользователем.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -249,17 +239,17 @@
         <Parameter Name="PublishMessage" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">Представляет идентификатор GUID в учетной записи реестра. Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</param>
-        <param name="ParentWindow">Содержит HWND для Microsoft Office Word — это вызов из окна.</param>
-        <param name="Document">Текущего документа.</param>
+        <param name="Account">Представляет GUID раздела реестра учетной записи. Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</param>
+        <param name="ParentWindow">Содержит HWND для окна, из которого выполняется вызов Microsoft Office Word.</param>
+        <param name="Document">Текущий документ.</param>
         <param name="xHTML">Представляет xHTML текущего документа.</param>
-        <param name="Title">Заголовок post.</param>
-        <param name="DateTime">Дата учета операции.</param>
+        <param name="Title">Заголовок записи.</param>
+        <param name="DateTime">Дата отправки записи.</param>
         <param name="Categories">Список категорий, поддерживаемых поставщиком.</param>
-        <param name="Draft">Указывает, является ли данный черновик post.</param>
-        <param name="PostID">Идентификатор исходного сообщения при повторной публикации этой записи.</param>
-        <param name="PublishMessage">Указывает, что отображается в строке опубликовать.</param>
-        <summary>Руки off текущего post, поэтому он может быть опубликована поставщиком.</summary>
+        <param name="Draft">Указывает, является ли версия POST черновиком.</param>
+        <param name="PostID">Идентификатор исходной записи, если эта запись была повторно опубликована.</param>
+        <param name="PublishMessage">Указывает, что отображается на панели публикации.</param>
+        <summary>Отменяет текущую запись, чтобы ее можно было опубликовать у поставщика.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -295,17 +285,17 @@
         <Parameter Name="PublishMessage" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">Представляет идентификатор GUID в учетной записи реестра. Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</param>
-        <param name="ParentWindow">Содержит HWND для Microsoft Office Word — это вызов из окна.</param>
-        <param name="Document">Текущего документа.</param>
-        <param name="PostID">Идентификатор исходного сообщения.</param>
+        <param name="Account">Представляет GUID раздела реестра учетной записи. Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</param>
+        <param name="ParentWindow">Содержит HWND для окна, из которого выполняется вызов Microsoft Office Word.</param>
+        <param name="Document">Текущий документ.</param>
+        <param name="PostID">Идентификатор исходной записи.</param>
         <param name="xHTML">Представляет xHTML текущего документа.</param>
-        <param name="Title">Заголовок post.</param>
-        <param name="DateTime">Дата учета операции.</param>
+        <param name="Title">Заголовок записи.</param>
+        <param name="DateTime">Дата отправки записи.</param>
         <param name="Categories">Список категорий, поддерживаемых поставщиком.</param>
-        <param name="Draft">Указывает, является ли данный черновик post.</param>
-        <param name="PublishMessage">Указывает, что отображается в строке опубликовать.</param>
-        <summary>Руки off текущего post, необходимо заново опубликовать поставщиком.</summary>
+        <param name="Draft">Указывает, является ли версия POST черновиком.</param>
+        <param name="PublishMessage">Указывает, что отображается на панели публикации.</param>
+        <summary>Передает текущую запись, чтобы ее можно было повторно опубликовать с помощью поставщика.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -336,12 +326,12 @@
         <Parameter Name="ShowPictureUI" Type="System.Boolean&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">Представляет идентификатор GUID в учетной записи реестра. Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</param>
-        <param name="ParentWindow">Содержит HWND для Microsoft Word — это вызов из окна.</param>
-        <param name="Document">Текущего документа.</param>
-        <param name="NewAccount">Указывает, является ли новую учетную запись.</param>
-        <param name="ShowPictureUI">Указывает, должна ли отображаться пользовательский интерфейс Microsoft Office Word рисунков.</param>
-        <summary>Вызывается из диалогового окна выберите учетную запись, при выборе имя поставщика в раскрывающемся списке узла блога или когда пользователь запрашивает изменение учетной записи поставщика в диалоговом окне учетные записи блога.</summary>
+        <param name="Account">Представляет GUID раздела реестра учетной записи. Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</param>
+        <param name="ParentWindow">Содержит HWND для окна, из которого вызывается Microsoft Word.</param>
+        <param name="Document">Текущий документ.</param>
+        <param name="NewAccount">Указывает, является ли новая учетная запись новой.</param>
+        <param name="ShowPictureUI">Указывает, нужно ли отображать пользовательский интерфейс рисунка Microsoft Office Word.</param>
+        <summary>Вызывается из диалогового окна Выбор учетной записи, когда имя поставщика выбирается в раскрывающемся списке узла блога или когда пользователь запрашивает изменение учетной записи поставщика в диалоговом окне Учетные записи блога.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
