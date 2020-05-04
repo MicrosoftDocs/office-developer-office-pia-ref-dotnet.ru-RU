@@ -1,13 +1,5 @@
 <Type Name="MsoPresetTextEffect" FullName="Microsoft.Office.Core.MsoPresetTextEffect">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ee963c0ed6eeb5898f0ff543fe89764428071412" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661892" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetTextEffect" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ee963c0ed6eeb5898f0ff543fe89764428071412" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661892" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetTextEffect" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetTextEffect extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetTextEffect" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetTextEffect" />
@@ -20,24 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="5d1a1-101">Указывает, какой эффект текст, используемый для объекта <b>WordArt</b> .</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5d1a1-101">Specifies what text effect to use on a <b>WordArt</b> object.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="5d1a1-102">
-        <para>Найти в диалоговом окне Коллекция WordArt в любого продукта Microsoft Office, которая поддерживает WordArt для предварительного просмотра каждого эффекта. Значения константы <b>MsoPresetTextEffect</b> соответствуют форматы, перечисленные в диалоговом окне Коллекция WordArt (нумерованные слева направо и сверху вниз).</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5d1a1-102">
-          <para>Refer to the WordArt Gallery dialog box in any Microsoft Office product that supports WordArt to see a preview of each effect. The values of the <b>MsoPresetTextEffect</b> constants correspond to the formats listed in the WordArt Gallery dialog box (numbered from left to right and from top to bottom).</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="1a213-101">Указывает, какой текст будет использоваться для объекта <b>WordArt</b> .</span><span class="sxs-lookup"><span data-stu-id="1a213-101">Specifies what text effect to use on a <b>WordArt</b> object.</span></span></summary>
+    <remarks><span data-ttu-id="1a213-102"><para>Обратитесь к диалоговому окну Коллекция WordArt в любом продукте Microsoft Office, поддерживающем объект WordArt, для предварительного просмотра каждого из них. Значения констант <b>мсопресеттекстеффект</b> соответствуют форматам, перечисленным в диалоговом окне Коллекция WordArt (число слева направо и сверху вниз).</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="1a213-102"><para>Refer to the WordArt Gallery dialog box in any Microsoft Office product that supports WordArt to see a preview of each effect. The values of the <b>MsoPresetTextEffect</b> constants correspond to the formats listed in the WordArt Gallery dialog box (numbered from left to right and from top to bottom).</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoTextEffect1">
@@ -56,12 +34,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-103">Первый влияние текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-103">First text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-103">Первый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-103">First text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect10">
@@ -80,12 +53,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-104">Влияние десятой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-104">Tenth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-104">Десятый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-104">Tenth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect11">
@@ -104,12 +72,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-105">Влияние одиннадцатого текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-105">Eleventh text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-105">Одиннадцать текстового эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-105">Eleventh text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect12">
@@ -128,12 +91,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-106">Влияние двенадцатый текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-106">Twelfth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-106">Двенадцатый текст.</span><span class="sxs-lookup"><span data-stu-id="1a213-106">Twelfth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect13">
@@ -152,12 +110,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-107">Влияние тринадцатый текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-107">Thirteenth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-107">Текстовый эффекты сиртинс.</span><span class="sxs-lookup"><span data-stu-id="1a213-107">Thirteenth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect14">
@@ -176,12 +129,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-108">Влияние четырнадцатый текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-108">Fourteenth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-108">Текстовый эффекты фауртинс.</span><span class="sxs-lookup"><span data-stu-id="1a213-108">Fourteenth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect15">
@@ -200,12 +148,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-109">Влияние пятнадцатый текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-109">Fifteenth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-109">Пятнадцатый текст.</span><span class="sxs-lookup"><span data-stu-id="1a213-109">Fifteenth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect16">
@@ -224,12 +167,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-110">Влияние находится 16-й текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-110">Sixteenth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-110">Шестнадцатый эффекты текста.</span><span class="sxs-lookup"><span data-stu-id="1a213-110">Sixteenth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect17">
@@ -248,12 +186,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-111">Влияние Семнадцатый текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-111">Seventeenth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-111">Текстовый эффекты севентинс.</span><span class="sxs-lookup"><span data-stu-id="1a213-111">Seventeenth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect18">
@@ -272,12 +205,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-112">18 влияние текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-112">Eighteenth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-112">Текстовый эффекты еигхтинс.</span><span class="sxs-lookup"><span data-stu-id="1a213-112">Eighteenth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect19">
@@ -296,12 +224,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-113">Влияние Девятнадцатый текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-113">Nineteenth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-113">Текстовый эффекты нинетинс.</span><span class="sxs-lookup"><span data-stu-id="1a213-113">Nineteenth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect2">
@@ -320,12 +243,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-114">Второй влияние текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-114">Second text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-114">Второй текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-114">Second text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect20">
@@ -344,12 +262,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-115">Влияние двадцатый текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-115">Twentieth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-115">Двадцатый текст.</span><span class="sxs-lookup"><span data-stu-id="1a213-115">Twentieth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect21">
@@ -368,12 +281,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-116">Влияние двадцати первоначального текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-116">Twenty-first text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-116">Двадцать первого текстового эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-116">Twenty-first text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect22">
@@ -392,12 +300,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-117">Влияние наибольшего текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-117">Twenty-second text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-117">20 секунд текстового результата.</span><span class="sxs-lookup"><span data-stu-id="1a213-117">Twenty-second text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect23">
@@ -416,12 +319,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-118">Влияние двадцати третьего текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-118">Twenty-third text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-118">Двадцать третий текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-118">Twenty-third text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect24">
@@ -440,12 +338,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-119">Влияние двадцати четвертой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-119">Twenty-fourth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-119">Двадцать четвертый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-119">Twenty-fourth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect25">
@@ -464,12 +357,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-120">Влияние 25 текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-120">Twenty-fifth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-120">Двадцать пятый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-120">Twenty-fifth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect26">
@@ -488,12 +376,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-121">Влияние двадцати шестой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-121">Twenty-sixth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-121">20 – шестой текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-121">Twenty-sixth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect27">
@@ -512,12 +395,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-122">Влияние двадцати седьмой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-122">Twenty-seventh text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-122">20 седьмых текстовых эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-122">Twenty-seventh text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect28">
@@ -536,12 +414,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-123">Влияние 28-е текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-123">Twenty-eighth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-123">20 восьмых текстовых эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-123">Twenty-eighth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect29">
@@ -560,12 +433,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-124">Влияние 29-е текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-124">Twenty-ninth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-124">20 девятый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-124">Twenty-ninth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect3">
@@ -584,12 +452,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-125">Третий влияние текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-125">Third text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-125">Третий текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-125">Third text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect30">
@@ -608,12 +471,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-126">Влияние тридцатый текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-126">Thirtieth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-126">Текстовый эффекты сиртиес.</span><span class="sxs-lookup"><span data-stu-id="1a213-126">Thirtieth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect31">
@@ -632,12 +490,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-127">Влияние 31-м текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-127">Thirty-first text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-127">30 — первый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-127">Thirty-first text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect32">
@@ -656,12 +509,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-128">Влияние текст 30 секунд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-128">Thirty-second text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-128">30 – секундный текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-128">Thirty-second text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect33">
@@ -680,12 +528,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-129">Влияние текста третьего 30.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-129">Thirty-third text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-129">30 третий текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-129">Thirty-third text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect34">
@@ -704,12 +547,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-130">Влияние 30-четвертый — текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-130">Thirty-fourth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-130">30 четвертый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-130">Thirty-fourth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect35">
@@ -728,12 +566,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-131">Влияние 30 пятой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-131">Thirty-fifth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-131">30 – пятый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-131">Thirty-fifth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect36">
@@ -752,12 +585,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-132">Влияние 30 шестой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-132">Thirty-sixth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-132">30 – шестой текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-132">Thirty-sixth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect37">
@@ -776,12 +604,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-133">Влияние 30 седьмой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-133">Thirty-seventh text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-133">30 — седьмой текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-133">Thirty-seventh text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect38">
@@ -800,12 +623,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-134">Влияние восьмую 30 текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-134">Thirty-eighth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-134">30 – восьмой текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-134">Thirty-eighth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect39">
@@ -824,12 +642,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-135">Влияние 30-е текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-135">Thirty-ninth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-135">30 – девятый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-135">Thirty-ninth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect4">
@@ -848,12 +661,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-136">Четвертая влияние текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-136">Fourth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-136">Четвертый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-136">Fourth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect40">
@@ -872,12 +680,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-137">Влияние fortieth текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-137">Fortieth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-137">Текстовый эффекты фортиес.</span><span class="sxs-lookup"><span data-stu-id="1a213-137">Fortieth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect41">
@@ -896,12 +699,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-138">Влияние сорока первоначального текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-138">Forty-first text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-138">Более 40 текстовых эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-138">Forty-first text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect42">
@@ -920,12 +718,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-139">Влияние текст 40 секунд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-139">Forty-second text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-139">40 – секундный текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-139">Forty-second text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect43">
@@ -944,12 +737,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-140">Влияние сорока третьего текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-140">Forty-third text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-140">40 – третий текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-140">Forty-third text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect44">
@@ -968,12 +756,7 @@
       </ReturnValue>
       <MemberValue>43</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-141">Влияние сорока четвертой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-141">Forty-fourth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-141">40 четвертый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-141">Forty-fourth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect45">
@@ -992,12 +775,7 @@
       </ReturnValue>
       <MemberValue>44</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-142">Влияние сорока пятой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-142">Forty-fifth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-142">40 – пятый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-142">Forty-fifth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect46">
@@ -1016,12 +794,7 @@
       </ReturnValue>
       <MemberValue>45</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-143">Влияние сорока шестой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-143">Forty-sixth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-143">Более 40 – шестой текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-143">Forty-sixth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect47">
@@ -1040,12 +813,7 @@
       </ReturnValue>
       <MemberValue>46</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-144">Влияние сорока седьмой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-144">Forty-seventh text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-144">Перекрестно седьмой текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-144">Forty-seventh text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect48">
@@ -1064,12 +832,7 @@
       </ReturnValue>
       <MemberValue>47</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-145">Влияние восьмую сорока текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-145">Forty-eighth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-145">40 восьмых текстовых эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-145">Forty-eighth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect49">
@@ -1088,12 +851,7 @@
       </ReturnValue>
       <MemberValue>48</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-146">Влияние сорока-е текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-146">Forty-ninth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-146">40 – девятый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-146">Forty-ninth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect5">
@@ -1112,12 +870,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-147">Влияние пятый текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-147">Fifth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-147">Пятое Оформление текста.</span><span class="sxs-lookup"><span data-stu-id="1a213-147">Fifth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect50">
@@ -1136,12 +889,7 @@
       </ReturnValue>
       <MemberValue>49</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-148">Влияние 50 текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-148">Fiftieth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-148">Текстовый эффекты фифтиес.</span><span class="sxs-lookup"><span data-stu-id="1a213-148">Fiftieth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect6">
@@ -1160,12 +908,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-149">Влияние шестой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-149">Sixth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-149">Шестой текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-149">Sixth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect7">
@@ -1184,12 +927,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-150">Влияние седьмой текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-150">Seventh text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-150">Седьмая Заливка текста.</span><span class="sxs-lookup"><span data-stu-id="1a213-150">Seventh text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect8">
@@ -1208,12 +946,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-151">Влияние восьмому текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-151">Eighth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-151">Восьмой текст.</span><span class="sxs-lookup"><span data-stu-id="1a213-151">Eighth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect9">
@@ -1232,12 +965,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-152">Влияние девятого текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-152">Ninth text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-152">Девятый текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="1a213-152">Ninth text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectMixed">
@@ -1256,12 +984,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d1a1-153">Не используется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d1a1-153">Not used.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1a213-153">Не используется.</span><span class="sxs-lookup"><span data-stu-id="1a213-153">Not used.</span></span></summary>
       </Docs>
     </Member>
   </Members>

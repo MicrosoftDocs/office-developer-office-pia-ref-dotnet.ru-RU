@@ -1,13 +1,5 @@
 <Type Name="MsoPresetExtrusionDirection" FullName="Microsoft.Office.Core.MsoPresetExtrusionDirection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="11820a7321d6c0fe55af12aaeb51d20e579cda4e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662445" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetExtrusionDirection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="11820a7321d6c0fe55af12aaeb51d20e579cda4e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662445" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetExtrusionDirection" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetExtrusionDirection extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetExtrusionDirection" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetExtrusionDirection" />
@@ -20,24 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="26317-101">Направление пути очистки придания объема принимает от вытянутый фигуры (лицевой из изменяется).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="26317-101">Specifies the direction that the extrusion's sweep path takes away from the extruded shape (the front face of the extrusion).</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="26317-102">
-        <para>Используется совместно со свойством <b>PresetExtrusionDirection</b> объекта <b>ThreeDFormat</b> .</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="26317-102">
-          <para>Used with the <b>PresetExtrusionDirection</b> property of the <b>ThreeDFormat</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="043b8-101">Указывает направление, в котором траектория для очистки объема берется из вытянутой фигуры (лицевой стороной на объеме).</span><span class="sxs-lookup"><span data-stu-id="043b8-101">Specifies the direction that the extrusion's sweep path takes away from the extruded shape (the front face of the extrusion).</span></span></summary>
+    <remarks><span data-ttu-id="043b8-102"><para>Используется со свойством <b>пресетекструсиондиректион</b> объекта <b>ThreeDFormat</b></para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="043b8-102"><para>Used with the <b>PresetExtrusionDirection</b> property of the <b>ThreeDFormat</b> object.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoExtrusionBottom">
@@ -56,12 +34,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="26317-103">Внизу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="26317-103">Bottom.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="043b8-103">Конец.</span><span class="sxs-lookup"><span data-stu-id="043b8-103">Bottom.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionBottomLeft">
@@ -80,12 +53,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="26317-104">Внизу слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="26317-104">Bottom left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="043b8-104">Внизу слева.</span><span class="sxs-lookup"><span data-stu-id="043b8-104">Bottom left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionBottomRight">
@@ -104,12 +72,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="26317-105">Внизу справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="26317-105">Bottom right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="043b8-105">Внизу справа.</span><span class="sxs-lookup"><span data-stu-id="043b8-105">Bottom right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionLeft">
@@ -128,12 +91,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="26317-106">Слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="26317-106">Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="043b8-106">Левый.</span><span class="sxs-lookup"><span data-stu-id="043b8-106">Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionNone">
@@ -152,12 +110,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="26317-107">Нет придания объема.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="26317-107">No extrusion.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="043b8-107">Нет объема.</span><span class="sxs-lookup"><span data-stu-id="043b8-107">No extrusion.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionRight">
@@ -176,12 +129,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="26317-108">Правильно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="26317-108">Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="043b8-108">Правильно.</span><span class="sxs-lookup"><span data-stu-id="043b8-108">Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionTop">
@@ -200,12 +148,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="26317-109">Вверх.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="26317-109">Top.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="043b8-109">Вверх.</span><span class="sxs-lookup"><span data-stu-id="043b8-109">Top.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionTopLeft">
@@ -224,12 +167,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="26317-110">Слева сверху.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="26317-110">Top left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="043b8-110">Слева вверху.</span><span class="sxs-lookup"><span data-stu-id="043b8-110">Top left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoExtrusionTopRight">
@@ -248,12 +186,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="26317-111">Сверху справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="26317-111">Top right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="043b8-111">Сверху справа.</span><span class="sxs-lookup"><span data-stu-id="043b8-111">Top right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPresetExtrusionDirectionMixed">
@@ -272,12 +205,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="26317-112">Возвращаемое значение. Указывает сочетание других состояний.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="26317-112">Return value only; indicates a combination of the other states.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="043b8-112">Только возвращаемое значение; Указывает комбинацию других состояний.</span><span class="sxs-lookup"><span data-stu-id="043b8-112">Return value only; indicates a combination of the other states.</span></span></summary>
       </Docs>
     </Member>
   </Members>

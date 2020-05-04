@@ -1,13 +1,5 @@
 <Type Name="PictureEffects" FullName="Microsoft.Office.Core.PictureEffects">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ab08b7d5a0324a8889bb498ee7353bb1026b18dc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662537" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PictureEffects : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ab08b7d5a0324a8889bb498ee7353bb1026b18dc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662537" /></Metadata><TypeSignature Language="C#" Value="public interface PictureEffects : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PictureEffects implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PictureEffects" />
   <TypeSignature Language="VB.NET" Value="Public Interface PictureEffects&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,12 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="07e97-101">Представляет коллекцию объектов <see cref="T:Microsoft.Office.Core.PictureEffect" /> объектов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="07e97-101">Represents a collection of <see cref="T:Microsoft.Office.Core.PictureEffect" /> objects.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="30b76-101">Представляет коллекцию <see cref="T:Microsoft.Office.Core.PictureEffect" /> объектов.</span><span class="sxs-lookup"><span data-stu-id="30b76-101">Represents a collection of <see cref="T:Microsoft.Office.Core.PictureEffect" /> objects.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -68,25 +55,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="07e97-102">Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>PictureEffects</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-102">Gets a <see cref="T:System.Object" />  object that represents the container application for the <b>PictureEffects</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="30b76-102">Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>PictureEffects</b> .</span><span class="sxs-lookup"><span data-stu-id="30b76-102">Gets a <see cref="T:System.Object" />  object that represents the container application for the <b>PictureEffects</b> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="07e97-103">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-103">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="30b76-103"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="30b76-103"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -112,25 +85,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="07e97-104">Возвращает количество число <see cref="T:Microsoft.Office.Core.PictureEffect" /> объектов, содержащихся в коллекции <b>PictureEffects</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-104">Gets the count of the number of <see cref="T:Microsoft.Office.Core.PictureEffect" /> objects contained within the <b>PictureEffects</b> collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="30b76-104">Получает количество <see cref="T:Microsoft.Office.Core.PictureEffect" /> объектов, содержащихся в коллекции <b>PictureEffects</b> .</span><span class="sxs-lookup"><span data-stu-id="30b76-104">Gets the count of the number of <see cref="T:Microsoft.Office.Core.PictureEffect" /> objects contained within the <b>PictureEffects</b> collection.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="07e97-105">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-105">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="30b76-105"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="30b76-105"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -159,25 +118,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="07e97-106">Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>PictureEffects</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-106">Gets a 32-bit integer that indicates the application in which the <b>PictureEffects</b> object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="30b76-106">Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>PictureEffects</b> .</span><span class="sxs-lookup"><span data-stu-id="30b76-106">Gets a 32-bit integer that indicates the application in which the <b>PictureEffects</b> object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="07e97-107">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-107">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="30b76-107"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="30b76-107"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -202,18 +147,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="07e97-108">Указывает номер индекса <see cref="T:Microsoft.Office.Core.PictureEffect" /> объект, который требуется удалить.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-108">Specifies the index number of the <see cref="T:Microsoft.Office.Core.PictureEffect" /> object to delete.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="07e97-109">Удаляет <see cref="T:Microsoft.Office.Core.PictureEffect" /> объект из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-109">Deletes a <see cref="T:Microsoft.Office.Core.PictureEffect" /> object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="30b76-108">Указывает номер индекса <see cref="T:Microsoft.Office.Core.PictureEffect" /> объекта, который требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="30b76-108">Specifies the index number of the <see cref="T:Microsoft.Office.Core.PictureEffect" /> object to delete.</span></span></param>
+        <summary><span data-ttu-id="30b76-109">Удаляет <see cref="T:Microsoft.Office.Core.PictureEffect" /> объект из коллекции.</span><span class="sxs-lookup"><span data-stu-id="30b76-109">Deletes a <see cref="T:Microsoft.Office.Core.PictureEffect" /> object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -245,12 +180,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>
-          <span data-ttu-id="07e97-110">Возвращает <see cref="T:System.Collections.IEnumerator" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-110">Returns <see cref="T:System.Collections.IEnumerator" />.</span>
-          </span>
-        </returns>
+        <returns><span data-ttu-id="30b76-110">Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</span><span class="sxs-lookup"><span data-stu-id="30b76-110">Returns <see cref="T:System.Collections.IEnumerator" />.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -277,43 +207,13 @@
         <Parameter Name="Position" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="EffectType">
-          <span data-ttu-id="07e97-111">
-            <see cref="T:Microsoft.Office.Core.MsoPictureEffectType" /> Перечисление, определяющее тип эффекта рисунков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-111">An <see cref="T:Microsoft.Office.Core.MsoPictureEffectType" /> enumeration specifying the type of picture effect.</span>
-          </span>
-        </param>
-        <param name="Position">
-          <span data-ttu-id="07e97-112">Задает положение эффекта в цепочке составного эффекты для рисунков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-112">Specifies the position of the effect in the composite chain of picture effects.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="07e97-113">Вставляет эффекта рисунка в цепочке составного эффекты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-113">Inserts a picture effect in a chain of composite effects.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="07e97-114">Возвращает <see cref="T:Microsoft.Office.Core.PictureEffect" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-114">Returns a <see cref="T:Microsoft.Office.Core.PictureEffect" />.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="07e97-115">
-            <para>Эффекты рисунков обрабатываются как цепочка состоит из отдельных элементов, которые применяются в последовательности для создания конечного составных изображения. В цепочке эффекты позволяет эффект, добавляемого в цепочку, переупорядочиваться или удалены из цепочки.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-115">
-              <para>Picture effects are processed as a chain composed of individual items that are applied in sequence to create the final composited image. An effects chain enables an effect to be added to the chain, reordered, or removed from the chain.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="EffectType"><span data-ttu-id="30b76-111"><see cref="T:Microsoft.Office.Core.MsoPictureEffectType" /> Перечисление, определяющее тип рисунка.</span><span class="sxs-lookup"><span data-stu-id="30b76-111">An <see cref="T:Microsoft.Office.Core.MsoPictureEffectType" /> enumeration specifying the type of picture effect.</span></span></param>
+        <param name="Position"><span data-ttu-id="30b76-112">Указывает положение эффекта в составной цепочке эффектов рисунков.</span><span class="sxs-lookup"><span data-stu-id="30b76-112">Specifies the position of the effect in the composite chain of picture effects.</span></span></param>
+        <summary><span data-ttu-id="30b76-113">Вставляет эффект изображения в цепочку составных эффектов.</span><span class="sxs-lookup"><span data-stu-id="30b76-113">Inserts a picture effect in a chain of composite effects.</span></span></summary>
+        <returns><span data-ttu-id="30b76-114">Возвращает значение <see cref="T:Microsoft.Office.Core.PictureEffect" />типа.</span><span class="sxs-lookup"><span data-stu-id="30b76-114">Returns a <see cref="T:Microsoft.Office.Core.PictureEffect" />.</span></span></returns>
+        <remarks><span data-ttu-id="30b76-115"><para>Эффекты рисунков обрабатываются как цепочка, состоящая из отдельных элементов, которые применяются последовательно, чтобы создать итоговое составное изображение. Цепочка эффектов позволяет добавлять эффект в цепочку, переупорядочивать их или удалять из нее.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="30b76-115"><para>Picture effects are processed as a chain composed of individual items that are applied in sequence to create the final composited image. An effects chain enables an effect to be added to the chain, reordered, or removed from the chain.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -342,18 +242,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="07e97-116">Указывает целое число, представляющее индекс <see cref="T:Microsoft.Office.Core.PictureEffect" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-116">Specifies an integer representing the indexed location of the <see cref="T:Microsoft.Office.Core.PictureEffect" /> object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="07e97-117">Получает <see cref="T:Microsoft.Office.Core.PictureEffect" /> объекта по указанному индексу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="07e97-117">Gets a <see cref="T:Microsoft.Office.Core.PictureEffect" /> object at the specified index.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="30b76-116">Задает целое число, представляющее индексируемое расположение <see cref="T:Microsoft.Office.Core.PictureEffect" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="30b76-116">Specifies an integer representing the indexed location of the <see cref="T:Microsoft.Office.Core.PictureEffect" /> object.</span></span></param>
+        <summary><span data-ttu-id="30b76-117">Получает <see cref="T:Microsoft.Office.Core.PictureEffect" /> объект по указанному индексу.</span><span class="sxs-lookup"><span data-stu-id="30b76-117">Gets a <see cref="T:Microsoft.Office.Core.PictureEffect" /> object at the specified index.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

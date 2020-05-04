@@ -1,13 +1,5 @@
 <Type Name="TabStop2" FullName="Microsoft.Office.Core.TabStop2">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="815c35b276f202b12a668f90c3866a9fd108ca18" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661685" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface TabStop2 : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="815c35b276f202b12a668f90c3866a9fd108ca18" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661685" /></Metadata><TypeSignature Language="C#" Value="public interface TabStop2 : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TabStop2 implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.TabStop2" />
   <TypeSignature Language="VB.NET" Value="Public Interface TabStop2&#xA;Implements _IMsoDispObj" />
@@ -30,28 +22,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="22ec1-101">Представляет один позиции табуляции.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="22ec1-101">Represents a single tab stop.</span>
-      </span>
-      <span data-ttu-id="22ec1-102">Объект <b>TabStop2</b> входит в состав <see cref="T:Microsoft.Office.Core.TabStops2" /> семейства сайтов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="22ec1-102">The <b>TabStop2</b> object is a member of the <see cref="T:Microsoft.Office.Core.TabStops2" /> collection.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="22ec1-103">
-        <para>Табуляции, индексируются числовым слева направо на линейке.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="22ec1-103">
-          <para>Tab stops are indexed numerically from left to right along the ruler.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="e69c4-101">Представляет одну позицию табуляции.</span><span class="sxs-lookup"><span data-stu-id="e69c4-101">Represents a single tab stop.</span></span> <span data-ttu-id="e69c4-102">Объект <b>TabStop2</b> является членом <see cref="T:Microsoft.Office.Core.TabStops2" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="e69c4-102">The <b>TabStop2</b> object is a member of the <see cref="T:Microsoft.Office.Core.TabStops2" /> collection.</span></span></summary>
+    <remarks><span data-ttu-id="e69c4-103"><para>Позиции табуляции индексируются в числовом виде слева направо вдоль линейки.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="e69c4-103"><para>Tab stops are indexed numerically from left to right along the ruler.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -80,26 +54,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="22ec1-104">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.TabStop2" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-104">Gets an <b>Application</b> object that represents the container application  for the <see cref="T:Microsoft.Office.Core.TabStop2" /> object.</span>
-          </span>
-          <span data-ttu-id="22ec1-105">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-105">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="22ec1-106">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-106">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="e69c4-104">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.TabStop2" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="e69c4-104">Gets an <b>Application</b> object that represents the container application  for the <see cref="T:Microsoft.Office.Core.TabStop2" /> object.</span></span> <span data-ttu-id="e69c4-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="e69c4-105">Read-only.</span></span></summary>
+        <value><span data-ttu-id="e69c4-106"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="e69c4-106"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -124,17 +80,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="22ec1-107">Удаляет указанный настраиваемых позиции табуляции</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-107">Removes the specified custom tab stop</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e69c4-107">Удаляет указанную настраиваемую позицию табуляции</span><span class="sxs-lookup"><span data-stu-id="e69c4-107">Removes the specified custom tab stop</span></span></summary>
         <remarks>To be added.</remarks>
-        <example>
-          <span data-ttu-id="22ec1-108">
-            <para>В этом примере очищается первого пользовательская вкладка в первый абзац активного документа Microsoft Office Word.</para>
-            <code>&lt;span class="label"&gt;ActiveDocument.Paragraphs(1).TabStops2(1).Clear 
+        <example><span data-ttu-id="e69c4-108"><para>В этом примере первая пользовательская вкладка удаляется из первого абзаца активного документа Microsoft Office Word.</para>
+          <code>&lt;span class="label"&gt;ActiveDocument.Paragraphs(1).TabStops2(1).Clear 
 
 
 
@@ -390,12 +339,8 @@
 
 
 
-&lt;/span&gt;</code>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-108">
-              <para>This example clears the first custom tab in the first paragraph of the active Microsoft Office Word document.  </para>
-              <code>&lt;span class="label"&gt;ActiveDocument.Paragraphs(1).TabStops2(1).Clear 
+&lt;/span&gt;</code></span><span class="sxs-lookup"><span data-stu-id="e69c4-108"><para>This example clears the first custom tab in the first paragraph of the active Microsoft Office Word document.  </para>
+          <code>&lt;span class="label"&gt;ActiveDocument.Paragraphs(1).TabStops2(1).Clear 
 
 
 
@@ -651,10 +596,7 @@
 
 
 
-&lt;/span&gt;</code>
-            </span>
-          </span>
-        </example>
+&lt;/span&gt;</code></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -683,26 +625,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="22ec1-109">Получает 32-разрядное целое число, представляющий приложение Microsoft Office, в котором <see cref="T:Microsoft.Office.Core.TabStop2" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-109">Gets a 32-bit integer that represents the Microsoft Office application in which the  <see cref="T:Microsoft.Office.Core.TabStop2" /> object was created.</span>
-          </span>
-          <span data-ttu-id="22ec1-110">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-110">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="22ec1-111">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-111">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="e69c4-109">Получает 32 — разрядное целое число, представляющее приложение Microsoft Office, <see cref="T:Microsoft.Office.Core.TabStop2" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="e69c4-109">Gets a 32-bit integer that represents the Microsoft Office application in which the  <see cref="T:Microsoft.Office.Core.TabStop2" /> object was created.</span></span> <span data-ttu-id="e69c4-110">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="e69c4-110">Read-only.</span></span></summary>
+        <value><span data-ttu-id="e69c4-111"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="e69c4-111"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -729,26 +653,9 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="22ec1-112">Получает родительский <see cref="T:Microsoft.Office.Core.TabStop2" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-112">Gets the parent of the <see cref="T:Microsoft.Office.Core.TabStop2" /> object.</span>
-          </span>
-          <span data-ttu-id="22ec1-113">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-113">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="22ec1-114">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-114">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="e69c4-112">Получает родительский <see cref="T:Microsoft.Office.Core.TabStop2" /> объект для объекта.</span><span class="sxs-lookup"><span data-stu-id="e69c4-112">Gets the parent of the <see cref="T:Microsoft.Office.Core.TabStop2" /> object.</span></span> 
+<span data-ttu-id="e69c4-113">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="e69c4-113">Read-only.</span></span></summary>
+        <value><span data-ttu-id="e69c4-114"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="e69c4-114"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -778,26 +685,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="22ec1-115">Получает или задает позиции табуляции относительно левого поля.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-115">Gets or sets the position of a tab stop relative to the left margin.</span>
-          </span>
-          <span data-ttu-id="22ec1-116">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-116">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="22ec1-117">
-            <b>Single</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-117">
-              <b>Single</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="e69c4-115">Возвращает или задает позицию табуляции относительно левого поля.</span><span class="sxs-lookup"><span data-stu-id="e69c4-115">Gets or sets the position of a tab stop relative to the left margin.</span></span> <span data-ttu-id="e69c4-116">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="e69c4-116">Read/write.</span></span></summary>
+        <value><span data-ttu-id="e69c4-117"><b>Одинарное с плавающей точкой</b></span><span class="sxs-lookup"><span data-stu-id="e69c4-117"><b>Single</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -827,31 +716,11 @@
         <ReturnType>Microsoft.Office.Core.MsoTabStopType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="22ec1-118">Получает или задает тип <see cref="T:Microsoft.Office.Core.TabStop2" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-118">Gets or sets the type of the <see cref="T:Microsoft.Office.Core.TabStop2" /> object.</span>
-          </span>
-          <span data-ttu-id="22ec1-119">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-119">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTabStopType" />
-        </value>
-        <remarks>
-          <span data-ttu-id="22ec1-120">
-            <para>Примеры <see cref="T:Microsoft.Office.Core.MsoTabStopType" /> типы: <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />, <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />, и <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" />.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="22ec1-120">
-              <para>Examples of <see cref="T:Microsoft.Office.Core.MsoTabStopType" /> types include <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />, <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />, and <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e69c4-118">Получает или задает тип <see cref="T:Microsoft.Office.Core.TabStop2" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="e69c4-118">Gets or sets the type of the <see cref="T:Microsoft.Office.Core.TabStop2" /> object.</span></span> <span data-ttu-id="e69c4-119">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="e69c4-119">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTabStopType" /></value>
+        <remarks><span data-ttu-id="e69c4-120"><para>Примеры <see cref="T:Microsoft.Office.Core.MsoTabStopType" /> типов: <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />, <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />и. <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" /></para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e69c4-120"><para>Examples of <see cref="T:Microsoft.Office.Core.MsoTabStopType" /> types include <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />, <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />, and <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" />.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

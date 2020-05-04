@@ -1,13 +1,5 @@
 <Type Name="MsoFeatureInstall" FullName="Microsoft.Office.Core.MsoFeatureInstall">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a56ef60c0c6a2098cc10b9360b0438d5269f0713" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662335" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFeatureInstall" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a56ef60c0c6a2098cc10b9360b0438d5269f0713" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662335" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFeatureInstall" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFeatureInstall extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFeatureInstall" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFeatureInstall" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="e38b7-101">Указывает, как приложение обрабатывает вызовы методов и свойств, которые требуют компоненты еще не установлены.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e38b7-101">Specifies how the application handles calls to methods and properties that require features not yet installed.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="29afa-101">Указывает, как приложение обрабатывает вызовы к методам и свойствам, для которых требуются функции, которые еще не установлены.</span><span class="sxs-lookup"><span data-stu-id="29afa-101">Specifies how the application handles calls to methods and properties that require features not yet installed.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e38b7-102">Приводит к ошибке универсальный автоматизации во время выполнения при вызове удаленных компонентов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e38b7-102">Generates a generic automation error at run time when uninstalled features are called.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="29afa-102">Создает общую ошибку автоматизации во время выполнения при вызове неудаляемых компонентов.</span><span class="sxs-lookup"><span data-stu-id="29afa-102">Generates a generic automation error at run time when uninstalled features are called.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFeatureInstallOnDemand">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e38b7-103">Запрос на установку новых функций.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e38b7-103">Prompts the user to install new features.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="29afa-103">Предлагает пользователю установить новые функции.</span><span class="sxs-lookup"><span data-stu-id="29afa-103">Prompts the user to install new features.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFeatureInstallOnDemandWithUI">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e38b7-104">Отображает индикатор выполнения во время установки; не запрашивать пользователя для установки новых функций.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e38b7-104">Displays a progress meter during installation; does not prompt the user to install new features.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="29afa-104">Отображает индикатор выполнения во время установки; не предлагает пользователю установить новые функции.</span><span class="sxs-lookup"><span data-stu-id="29afa-104">Displays a progress meter during installation; does not prompt the user to install new features.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="BalloonLabels" FullName="Microsoft.Office.Core.BalloonLabels">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="855a96d14074225e31c4009b33212a8cdfc72376" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662235" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface BalloonLabels : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="855a96d14074225e31c4009b33212a8cdfc72376" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662235" /></Metadata><TypeSignature Language="C#" Value="public interface BalloonLabels : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract BalloonLabels implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.BalloonLabels" />
   <TypeSignature Language="VB.NET" Value="Public Interface BalloonLabels&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,26 +25,14 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="c2059-101">Коллекцию <see cref="T:Microsoft.Office.Core.BalloonLabel" /> объекты, которые представляют все метки в окне помощника Microsoft Office.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c2059-101">A collection of <see cref="T:Microsoft.Office.Core.BalloonLabel" /> objects that represent all the labels in the Office Assistant balloon.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="c2059-102">
-        <para>Использование <see cref="P:Microsoft.Office.Core.Balloon.Labels" /> свойство для возврата коллекции <b>BalloonLabels</b> .</para>
-        <para>Использования <b>меток</b>(<paramref name="index" />), где <paramref name="index" /> — это число от 1 до 5, чтобы возвратить объект <b>BalloonLabel</b> . Можно указать до пяти меток (и пять флажков) каждого в документе; каждой метки отображается, когда значение назначается его <see cref="P:Microsoft.Office.Core.BalloonLabel.Text" /> свойство. Если требуется указать более пяти метки, возникает ошибка времени выполнения.</para> Флажки в документе 
-      <para>Отображение решения пользователя, пока пользователь не закрывает выноске. Возвращает число, соответствующее выбора пользователя в поле <b>Выбор</b> метода, как только пользователь нажимает кнопку рядом с меткой можно использовать метки в документе. Чтобы передать значения на основании выбора пользователя <b>Выбор</b> метода, должны иметь тип в документе, задайте значение <b>msoBalloonTypeButtons</b>.</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c2059-102">
-          <para>Use the <see cref="P:Microsoft.Office.Core.Balloon.Labels" /> property to return the <b>BalloonLabels</b> collection.</para>
-          <para>Use <b>Labels</b>(<paramref name="index" />), where <paramref name="index" /> is a number from 1 through 5, to return a <b>BalloonLabel</b> object. You can specify up to five labels (and five check boxes) per balloon; each label appears when a value is assigned to its <see cref="P:Microsoft.Office.Core.BalloonLabel.Text" /> property. If you specify more than five labels, a run-time error occurs.</para>
-          <para>Balloon check boxes display the user's choices until the user dismisses the balloon. You can use balloon labels to return a number corresponding to the user's choice in the <b>Select</b> method as soon as the user clicks the button beside the label. To pass values to the <b>Select</b> method based on the user's choice, you must have the balloon type set to <b>msoBalloonTypeButtons</b>.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="92253-101">Коллекция <see cref="T:Microsoft.Office.Core.BalloonLabel" /> объектов, представляющих все метки в выноске помощника по Office.</span><span class="sxs-lookup"><span data-stu-id="92253-101">A collection of <see cref="T:Microsoft.Office.Core.BalloonLabel" /> objects that represent all the labels in the Office Assistant balloon.</span></span></summary>
+    <remarks><span data-ttu-id="92253-102"><para>Используйте <see cref="P:Microsoft.Office.Core.Balloon.Labels" /> свойство, чтобы возвратить коллекцию <b>баллунлабелс</b> .</para> 
+      <para>USE <b>Labels</b>(<paramref name="index" />), <paramref name="index" /> где — это число от 1 до 5, которое возвращает объект <b>баллунлабел</b> . Для каждого относки можно указать до пяти меток (и пять флажков); Каждая подпись отображается, когда значение присваивается <see cref="P:Microsoft.Office.Core.BalloonLabel.Text" /> свойству. Если указать более пяти меток, возникает ошибка времени выполнения.</para> 
+      <para>Флажки отображаются, пока пользователь не закрывает всплывающее сообщение. Можно использовать метки выносок, чтобы возвратить число, соответствующее выбору пользователя в методе <b>SELECT</b> , как только пользователь нажимает кнопку рядом с меткой. Для передачи значений в метод <b>SELECT</b> на основе выбора пользователя необходимо, чтобы для типа выноски было задано значение <b>мсобаллунтипебуттонс</b>.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="92253-102"><para>Use the <see cref="P:Microsoft.Office.Core.Balloon.Labels" /> property to return the <b>BalloonLabels</b> collection.</para>
+      <para>Use <b>Labels</b>(<paramref name="index" />), where <paramref name="index" /> is a number from 1 through 5, to return a <b>BalloonLabel</b> object. You can specify up to five labels (and five check boxes) per balloon; each label appears when a value is assigned to its <see cref="P:Microsoft.Office.Core.BalloonLabel.Text" /> property. If you specify more than five labels, a run-time error occurs.</para>
+      <para>Balloon check boxes display the user's choices until the user dismisses the balloon. You can use balloon labels to return a number corresponding to the user's choice in the <b>Select</b> method as soon as the user clicks the button beside the label. To pass values to the <b>Select</b> method based on the user's choice, you must have the balloon type set to <b>msoBalloonTypeButtons</b>.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -81,12 +61,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c2059-103">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2059-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92253-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="92253-103">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,12 +92,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c2059-104">Возвращает или задает <b>целое число</b> , указывающее количество элементов в указанном семействе сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2059-104">Returns or sets an <b>Integer</b> indicating the number of items in the specified collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92253-104">Возвращает или задает <b>целое</b> число, указывающее количество элементов в указанной коллекции.</span><span class="sxs-lookup"><span data-stu-id="92253-104">Returns or sets an <b>Integer</b> indicating the number of items in the specified collection.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -153,27 +123,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c2059-105">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2059-105">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92253-105">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="92253-105">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c2059-106">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку «MSWD»; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.BalloonLabels.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2059-106">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string "MSWD"; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.BalloonLabels.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="92253-106"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку "МСВД"; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.BalloonLabels.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="92253-106"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string "MSWD"; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.BalloonLabels.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -234,22 +192,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="c2059-107">Требуется <b>целое число</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2059-107">Required <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="c2059-108">Номер индекса флажок или метку которого требуется получить.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2059-108">The index number of the check box or label to be returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c2059-109">Возвращает <see cref="T:Microsoft.Office.Core.BalloonLabel" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2059-109">Returns a <see cref="T:Microsoft.Office.Core.BalloonLabel" /> object.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="92253-107">Обязательный атрибут типа <b>Integer</b>.</span><span class="sxs-lookup"><span data-stu-id="92253-107">Required <b>Integer</b>.</span></span> <span data-ttu-id="92253-108">Номер индекса для возвращаемого флажка или метки.</span><span class="sxs-lookup"><span data-stu-id="92253-108">The index number of the check box or label to be returned.</span></span></param>
+        <summary><span data-ttu-id="92253-109">Возвращает <see cref="T:Microsoft.Office.Core.BalloonLabel" /> объект.</span><span class="sxs-lookup"><span data-stu-id="92253-109">Returns a <see cref="T:Microsoft.Office.Core.BalloonLabel" /> object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -277,12 +221,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c2059-110">Возвращает или задает имя указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2059-110">Returns or sets the name of the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92253-110">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="92253-110">Returns or sets the name of the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -310,12 +249,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c2059-111">Возвращает родительский объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c2059-111">Returns the parent object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92253-111">Возвращает родительский объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="92253-111">Returns the parent object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

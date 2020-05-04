@@ -1,13 +1,5 @@
 <Type Name="MsoSyncErrorType" FullName="Microsoft.Office.Core.MsoSyncErrorType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0bf744061efc805fbf1e67a45069aefd4727ad75" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662277" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoSyncErrorType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0bf744061efc805fbf1e67a45069aefd4727ad75" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662277" /></Metadata><TypeSignature Language="C#" Value="public enum MsoSyncErrorType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncErrorType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncErrorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncErrorType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="f0e6e-101">Указывает ошибку синхронизации документов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f0e6e-101">Specifies a document synchronization error.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="749c4-101">Указывает ошибку синхронизации документов.</span><span class="sxs-lookup"><span data-stu-id="749c4-101">Specifies a document synchronization error.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-102">Не удается сравнить файлы источника и назначения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-102">Source and destination files could not be compared.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-102">Не удалось сравнить исходные и конечные файлы.</span><span class="sxs-lookup"><span data-stu-id="749c4-102">Source and destination files could not be compared.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorCouldNotConnect">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-103">Не удалось подключиться.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-103">Could not connect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-103">Не удалось подключиться.</span><span class="sxs-lookup"><span data-stu-id="749c4-103">Could not connect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorCouldNotOpen">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-104">Не удалось открыть файл.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-104">Could not open file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-104">Не удалось открыть файл.</span><span class="sxs-lookup"><span data-stu-id="749c4-104">Could not open file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorCouldNotResolve">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-105">Не удалось разрешить файлы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-105">Could not resolve files.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-105">Не удалось разрешить файлы.</span><span class="sxs-lookup"><span data-stu-id="749c4-105">Could not resolve files.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorCouldNotUpdate">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-106">Не удалось обновить файл назначения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-106">Could not update destination file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-106">Не удалось обновить конечный файл.</span><span class="sxs-lookup"><span data-stu-id="749c4-106">Could not update destination file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorFileInUse">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-107">Целевой файл используется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-107">Destination file in use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-107">Целевой файл используется.</span><span class="sxs-lookup"><span data-stu-id="749c4-107">Destination file in use.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorFileNotFound">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-108">Целевой файл не найден.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-108">Destination file not found.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-108">Конечный файл не найден.</span><span class="sxs-lookup"><span data-stu-id="749c4-108">Destination file not found.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorFileTooLarge">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-109">Файл слишком велик для синхронизации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-109">File too large to synchronize.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-109">Слишком большой файл для синхронизации.</span><span class="sxs-lookup"><span data-stu-id="749c4-109">File too large to synchronize.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorNone">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-110">Без ошибки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-110">No error.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-110">Нет ошибок.</span><span class="sxs-lookup"><span data-stu-id="749c4-110">No error.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorNoNetwork">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-111">Сеть недоступны.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-111">No network available.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-111">Сеть недоступна.</span><span class="sxs-lookup"><span data-stu-id="749c4-111">No network available.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorOutOfSpace">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-112">Недостаточно места.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-112">Out of space.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-112">Недостаточно места на диске.</span><span class="sxs-lookup"><span data-stu-id="749c4-112">Out of space.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorUnauthorizedUser">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-113">Неавторизованных пользователей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-113">Unauthorized user.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-113">Неавторизованный пользователь.</span><span class="sxs-lookup"><span data-stu-id="749c4-113">Unauthorized user.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorUnknown">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-114">Неизвестная ошибка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-114">Unknown error.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-114">Неизвестная ошибка.</span><span class="sxs-lookup"><span data-stu-id="749c4-114">Unknown error.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorUnknownDownload">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-115">Ошибка при загрузке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-115">Download error.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-115">Ошибка скачивания.</span><span class="sxs-lookup"><span data-stu-id="749c4-115">Download error.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorUnknownUpload">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-116">Ошибка при отправке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-116">Upload error.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-116">Ошибка отправки.</span><span class="sxs-lookup"><span data-stu-id="749c4-116">Upload error.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorVirusDownload">
@@ -405,12 +317,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-117">Загрузить от вирусов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-117">Virus downloaded.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-117">Вирус загружен.</span><span class="sxs-lookup"><span data-stu-id="749c4-117">Virus downloaded.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncErrorVirusUpload">
@@ -429,12 +336,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f0e6e-118">Отправить от вирусов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f0e6e-118">Virus uploaded.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="749c4-118">Вирус отправлен.</span><span class="sxs-lookup"><span data-stu-id="749c4-118">Virus uploaded.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="MsoParagraphAlignment" FullName="Microsoft.Office.Core.MsoParagraphAlignment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="302463a2e372ad7553a9c35d1dace27842916c91" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662446" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoParagraphAlignment" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="302463a2e372ad7553a9c35d1dace27842916c91" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662446" /></Metadata><TypeSignature Language="C#" Value="public enum MsoParagraphAlignment" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoParagraphAlignment extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoParagraphAlignment" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoParagraphAlignment" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="c4dc5-101">Задает выравнивание абзаца для блока текста.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c4dc5-101">Specifies paragraph alignment for a text block.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="e4e59-101">Задает выравнивание абзаца для текстового блока.</span><span class="sxs-lookup"><span data-stu-id="e4e59-101">Specifies paragraph alignment for a text block.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4dc5-102">Указывает, что центр каждой строки текста выравнивается по центру правая и левая текстовые поля и влево и вправо края каждой строки переменной длины.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-102">Specifies that the center of each line of text is aligned to the midpoint of the right and left text box margins, and the left and right edges of each line are ragged.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e4e59-102">Указывает, что центр каждой строки текста выравнивается по средней части полей справа и слева, а левый и правый края каждой строки неровны.</span><span class="sxs-lookup"><span data-stu-id="e4e59-102">Specifies that the center of each line of text is aligned to the midpoint of the right and left text box margins, and the left and right edges of each line are ragged.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignDistribute">
@@ -69,16 +51,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4dc5-103">Указывает, что имя и фамилию каждой строки (кроме последней) выравнивается по левое и правое поля, а в строках путем увеличения или уменьшения справа каждый символ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-103">Specifies that the first and last characters of each line (except the last) are aligned to the left and right margins, and lines are filled by adding or subtracting the same amount from each character.</span>
-          </span>
-          <span data-ttu-id="c4dc5-104">Последняя строка абзаца выравнивается по левому краю, если направление текста справа налево, или правого поля если направление текста справа налево.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-104">The last line of the paragraph is aligned to the left margin if text direction is left-to-right, or to the right margin if text direction is right-to-left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e4e59-103">Указывает, что первый и последний символы каждой строки (кроме последней) выравниваются по левому и правому полям, а линии заполняются путем добавления или вычитания одинаковой суммы из каждого символа.</span><span class="sxs-lookup"><span data-stu-id="e4e59-103">Specifies that the first and last characters of each line (except the last) are aligned to the left and right margins, and lines are filled by adding or subtracting the same amount from each character.</span></span> <span data-ttu-id="e4e59-104">Последняя строка абзаца выравнивается по левому полю, если направление текста — слева направо, или на правое поле, если направление текста справа налево.</span><span class="sxs-lookup"><span data-stu-id="e4e59-104">The last line of the paragraph is aligned to the left margin if text direction is left-to-right, or to the right margin if text direction is right-to-left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignJustify">
@@ -97,16 +70,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4dc5-105">Указывает, что имя и фамилию каждой строки (кроме последней) выравнивается по левое и правое поля, и по увеличения или уменьшения интервала между и внутри слов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-105">Specifies that the first and last characters of each line (except the last) are aligned to the left and right margins, and lines are filled by adding or subtracting space between and within words.</span>
-          </span>
-          <span data-ttu-id="c4dc5-106">Последняя строка абзаца выравнивается по левому краю, если направление текста справа налево, или правого поля если направление текста справа налево.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-106">The last line of the paragraph is aligned to the left margin if text direction is left-to-right, or to the right margin if text direction is right-to-left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e4e59-105">Указывает, что первый и последний символы каждой строки (кроме последней) выравниваются по левому и правому полям, а линии заполняются путем добавления или вычитания промежутка между словами и между ними.</span><span class="sxs-lookup"><span data-stu-id="e4e59-105">Specifies that the first and last characters of each line (except the last) are aligned to the left and right margins, and lines are filled by adding or subtracting space between and within words.</span></span> <span data-ttu-id="e4e59-106">Последняя строка абзаца выравнивается по левому полю, если направление текста — слева направо, или на правое поле, если направление текста справа налево.</span><span class="sxs-lookup"><span data-stu-id="e4e59-106">The last line of the paragraph is aligned to the left margin if text direction is left-to-right, or to the right margin if text direction is right-to-left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignJustifyLow">
@@ -125,16 +89,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4dc5-107">Указывает выравнивание или корректировка длину кашиды в арабский текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-107">Specifies the alignment or adjustment of  kashida length in Arabic text.</span>
-          </span>
-          <span data-ttu-id="c4dc5-108">Кашиды, специальные знаки, используемые для расширения соединения между двумя знаков арабского языка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-108">Kashida are special characters used to extend the joiner between two Arabic characters.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e4e59-107">Задает выравнивание или корректировку длины кашиды в арабском тексте.</span><span class="sxs-lookup"><span data-stu-id="e4e59-107">Specifies the alignment or adjustment of  kashida length in Arabic text.</span></span> <span data-ttu-id="e4e59-108">Кашиды — это специальные символы, используемые для расширения соединения между двумя арабскими символами.</span><span class="sxs-lookup"><span data-stu-id="e4e59-108">Kashida are special characters used to extend the joiner between two Arabic characters.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignLeft">
@@ -153,16 +108,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4dc5-109">Указывает, что самые левые символ каждой строки выравнивается по левому краю и правому краю каждой строки переменной длины.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-109">Specifies that the leftmost character of each line is aligned to the left margin, and the right edge of each line is ragged.</span>
-          </span>
-          <span data-ttu-id="c4dc5-110">Это выравнивание по умолчанию для абзацев с направлением письма справа налево.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-110">This is the default alignment for paragraphs with left-to-right text direction.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e4e59-109">Указывает, что крайний левый символ каждой строки выравнивается по левому полю, а правый край каждой линии не является неровным.</span><span class="sxs-lookup"><span data-stu-id="e4e59-109">Specifies that the leftmost character of each line is aligned to the left margin, and the right edge of each line is ragged.</span></span> <span data-ttu-id="e4e59-110">Это выравнивание по умолчанию для абзацев с направлением текста слева направо.</span><span class="sxs-lookup"><span data-stu-id="e4e59-110">This is the default alignment for paragraphs with left-to-right text direction.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignMixed">
@@ -181,12 +127,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4dc5-111">Используйте сочетание стилей выравнивания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-111">Use a combination of alignment styles.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e4e59-111">Используйте сочетание стилей выравнивания.</span><span class="sxs-lookup"><span data-stu-id="e4e59-111">Use a combination of alignment styles.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignRight">
@@ -205,16 +146,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4dc5-112">Указывает, что самый правый знак каждой строки выравнивается по правому полю, а левого края каждой строки переменной длины.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-112">Specifies that the rightmost character of each line is aligned to the right margin, and the left edge of each line is ragged.</span>
-          </span>
-          <span data-ttu-id="c4dc5-113">Это выравнивание по умолчанию для абзацев с направлением письма справа налево.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-113">This is the default alignment for paragraphs with right-to-left text direction.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e4e59-112">Указывает, что крайний правый символ каждой строки выравнивается по правому полю, а левый край каждой линии не является неровным.</span><span class="sxs-lookup"><span data-stu-id="e4e59-112">Specifies that the rightmost character of each line is aligned to the right margin, and the left edge of each line is ragged.</span></span> <span data-ttu-id="e4e59-113">Это выравнивание по умолчанию для абзацев с направлением текста справа налево.</span><span class="sxs-lookup"><span data-stu-id="e4e59-113">This is the default alignment for paragraphs with right-to-left text direction.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlignThaiDistribute">
@@ -233,16 +165,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c4dc5-114">Указывает, что имя и фамилию каждой строки (кроме последней) выравнивается по левое и правое поля, и по увеличения или уменьшения слова пространство между (но не в пределах).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-114">Specifies that the first and last characters of each line (except the last) are aligned to the left and right margins, and lines are filled by adding or subtracting space between (but not within) words.</span>
-          </span>
-          <span data-ttu-id="c4dc5-115">Последняя строка абзаца выравнивается по левому краю.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c4dc5-115">The last line of the paragraph is aligned to the left margin.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e4e59-114">Указывает, что первый и последний символы каждой строки (кроме последней) выравниваются по левому и правому полям, а линии заполняются путем добавления или вычитания пробелов между словами (но не между ними).</span><span class="sxs-lookup"><span data-stu-id="e4e59-114">Specifies that the first and last characters of each line (except the last) are aligned to the left and right margins, and lines are filled by adding or subtracting space between (but not within) words.</span></span> <span data-ttu-id="e4e59-115">Последняя строка абзаца выравнивается по левому полю.</span><span class="sxs-lookup"><span data-stu-id="e4e59-115">The last line of the paragraph is aligned to the left margin.</span></span></summary>
       </Docs>
     </Member>
   </Members>

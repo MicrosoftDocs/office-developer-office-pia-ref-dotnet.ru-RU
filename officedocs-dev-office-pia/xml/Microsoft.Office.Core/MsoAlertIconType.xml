@@ -1,13 +1,5 @@
 <Type Name="MsoAlertIconType" FullName="Microsoft.Office.Core.MsoAlertIconType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b713010e9612962369edebf3f8d003240b640162" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662314" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoAlertIconType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b713010e9612962369edebf3f8d003240b640162" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662314" /></Metadata><TypeSignature Language="C#" Value="public enum MsoAlertIconType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAlertIconType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAlertIconType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoAlertIconType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="59b47-101">Указывает значка, если какие-либо, для отображения с оповещением.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="59b47-101">Specifies which icon, if any, to display with an alert.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="5d95d-101">Указывает значок, который будет отображаться с оповещением.</span><span class="sxs-lookup"><span data-stu-id="5d95d-101">Specifies which icon, if any, to display with an alert.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="59b47-102">Значок важности.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59b47-102">Displays the Critical icon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5d95d-102">Отображает значок критический.</span><span class="sxs-lookup"><span data-stu-id="5d95d-102">Displays the Critical icon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlertIconInfo">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="59b47-103">Значок Info.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59b47-103">Displays the Info icon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5d95d-103">Отображает значок сведений.</span><span class="sxs-lookup"><span data-stu-id="5d95d-103">Displays the Info icon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlertIconNoIcon">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="59b47-104">Отображает значок не с сообщения оповещения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59b47-104">Displays no icon with the alert message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5d95d-104">Не отображается значок с сообщением оповещения.</span><span class="sxs-lookup"><span data-stu-id="5d95d-104">Displays no icon with the alert message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlertIconQuery">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="59b47-105">Значок запросов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59b47-105">Displays the Query icon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5d95d-105">Отображает значок запроса.</span><span class="sxs-lookup"><span data-stu-id="5d95d-105">Displays the Query icon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAlertIconWarning">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="59b47-106">Значок предупреждения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59b47-106">Displays the Warning icon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5d95d-106">Отображает значок предупреждения.</span><span class="sxs-lookup"><span data-stu-id="5d95d-106">Displays the Warning icon.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="XlTickLabelOrientation" FullName="Microsoft.Office.Core.XlTickLabelOrientation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1211c192f1fb98c5a878ecf2c64ebf46c2de67a9" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662228" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlTickLabelOrientation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1211c192f1fb98c5a878ecf2c64ebf46c2de67a9" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662228" /></Metadata><TypeSignature Language="C#" Value="public enum XlTickLabelOrientation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlTickLabelOrientation extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlTickLabelOrientation" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlTickLabelOrientation" />
@@ -28,16 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="a0ac0-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a0ac0-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="a0ac0-102">Ориентация текста для меток делений.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a0ac0-102">Specifies the text orientation for tick-mark labels.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="e86f4-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="e86f4-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="e86f4-102">Указывает ориентацию текста для подписей делений.</span><span class="sxs-lookup"><span data-stu-id="e86f4-102">Specifies the text orientation for tick-mark labels.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -57,16 +40,7 @@
       </ReturnValue>
       <MemberValue>-4105</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a0ac0-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0ac0-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="a0ac0-104">Ориентация текста, задайте в Excel.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0ac0-104">Text orientation set by Excel.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e86f4-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="e86f4-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="e86f4-104">Ориентация текста, заданная в Excel.</span><span class="sxs-lookup"><span data-stu-id="e86f4-104">Text orientation set by Excel.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlTickLabelOrientationDownward">
@@ -85,16 +59,7 @@
       </ReturnValue>
       <MemberValue>-4170</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a0ac0-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0ac0-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="a0ac0-106">Текст запускает.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0ac0-106">Text runs down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e86f4-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="e86f4-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="e86f4-106">Текст не работает.</span><span class="sxs-lookup"><span data-stu-id="e86f4-106">Text runs down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlTickLabelOrientationHorizontal">
@@ -113,16 +78,7 @@
       </ReturnValue>
       <MemberValue>-4128</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a0ac0-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0ac0-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="a0ac0-108">Запустите по горизонтали символов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0ac0-108">Characters run horizontally.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e86f4-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="e86f4-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="e86f4-108">Символы выполняются по горизонтали.</span><span class="sxs-lookup"><span data-stu-id="e86f4-108">Characters run horizontally.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlTickLabelOrientationUpward">
@@ -141,16 +97,7 @@
       </ReturnValue>
       <MemberValue>-4171</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a0ac0-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0ac0-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="a0ac0-110">Текст выполняется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0ac0-110">Text runs up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e86f4-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="e86f4-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="e86f4-110">Текст работает.</span><span class="sxs-lookup"><span data-stu-id="e86f4-110">Text runs up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlTickLabelOrientationVertical">
@@ -169,16 +116,7 @@
       </ReturnValue>
       <MemberValue>-4166</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a0ac0-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0ac0-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="a0ac0-112">Запустите по вертикали символов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0ac0-112">Characters run vertically.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e86f4-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="e86f4-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="e86f4-112">Символы выполняйте вертикально.</span><span class="sxs-lookup"><span data-stu-id="e86f4-112">Characters run vertically.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="Signature" FullName="Microsoft.Office.Core.Signature">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="692a3655f3986b05dce9797d0d3a96395e540a60" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662331" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Signature : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="692a3655f3986b05dce9797d0d3a96395e540a60" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662331" /></Metadata><TypeSignature Language="C#" Value="public interface Signature : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Signature implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Signature" />
   <TypeSignature Language="VB.NET" Value="Public Interface Signature&#xA;Implements _IMsoDispObj" />
@@ -30,26 +22,14 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="460d8-101">Соответствует цифровую подпись, присоединенного к документу.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="460d8-101">Corresponds to a digital signature that is attached to a document.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="460d8-102">
-        <para>Объекты 
-        <b>подписи</b> , содержатся в <see cref="T:Microsoft.Office.Core.SignatureSet" /> коллекцию объекта <b>Document</b> .</para> Можно добавить объект <b>Signature</b> коллекцию <b>SignatureSet</b> с помощью 
-      <para><see cref="M:Microsoft.Office.Core.SignatureSet.Add" /> метод и который может вернуть существующему элементу с помощью <see cref="P:Microsoft.Office.Core.SignatureSet.Item(System.Int32)" /> метод. Чтобы удалить <b>подпись</b> из коллекции <b>SignatureSet</b> , используйте <see cref="M:Microsoft.Office.Core.Signature.Delete" /> метод объекта <b>Signature</b> .</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="460d8-102">
-          <para>
-            <b>Signature</b> objects are contained in the <see cref="T:Microsoft.Office.Core.SignatureSet" /> collection of the <b>Document</b> object.</para>
-          <para>You can add a <b>Signature</b> object to a <b>SignatureSet</b> collection using the <see cref="M:Microsoft.Office.Core.SignatureSet.Add" /> method and you can return an existing member using the <see cref="P:Microsoft.Office.Core.SignatureSet.Item(System.Int32)" /> method. To remove a <b>Signature</b> from a <b>SignatureSet</b> collection, use the <see cref="M:Microsoft.Office.Core.Signature.Delete" /> method of the <b>Signature</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="bcbeb-101">Соответствует цифровой подписи, прикрепленной к документу.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-101">Corresponds to a digital signature that is attached to a document.</span></span></summary>
+    <remarks><span data-ttu-id="bcbeb-102"><para>Объекты 
+        <b>подписи</b> хранятся <see cref="T:Microsoft.Office.Core.SignatureSet" /> в коллекции объекта <b>Document</b> .</para> 
+      <para>Вы можете добавить объект <b>Signature</b> в коллекцию <b>Signatures</b> , используя <see cref="M:Microsoft.Office.Core.SignatureSet.Add" /> метод, и вы можете вернуть существующий элемент с помощью <see cref="P:Microsoft.Office.Core.SignatureSet.Item(System.Int32)" /> метода. Чтобы удалить <b>подпись</b> из коллекции наборов <b>подписей</b> , используйте <see cref="M:Microsoft.Office.Core.Signature.Delete" /> метод объекта <b>Signature</b> .</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="bcbeb-102"><para>
+        <b>Signature</b> objects are contained in the <see cref="T:Microsoft.Office.Core.SignatureSet" /> collection of the <b>Document</b> object.</para>
+      <para>You can add a <b>Signature</b> object to a <b>SignatureSet</b> collection using the <see cref="M:Microsoft.Office.Core.SignatureSet.Add" /> method and you can return an existing member using the <see cref="P:Microsoft.Office.Core.SignatureSet.Item(System.Int32)" /> method. To remove a <b>Signature</b> from a <b>SignatureSet</b> collection, use the <see cref="M:Microsoft.Office.Core.Signature.Delete" /> method of the <b>Signature</b> object.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -78,12 +58,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-103">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-103">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -120,25 +95,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-104">Определить, если цифрового сертификата, который соответствует указанному <see cref="T:Microsoft.Office.Core.Signature" /> объекта присоединены к документу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-104">Determine if the digital certificate that corresponds to the specified <see cref="T:Microsoft.Office.Core.Signature" /> object is attached to the document.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-104">Определите, присоединен ли к документу цифровой сертификат, <see cref="T:Microsoft.Office.Core.Signature" /> соответствующий указанному объекту.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-104">Determine if the digital certificate that corresponds to the specified <see cref="T:Microsoft.Office.Core.Signature" /> object is attached to the document.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="460d8-105">
-            <para>Это свойство возвращает <b>значение True,</b> Если сертификат, соответствующий указанному объекту <b>подписи</b> присоединен к документу. <b>Значение false,</b> Если подпись не присоединен к документу.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-105">
-              <para>This property returns <b>True</b> if the digital certificate that corresponds to the specified <b>Signature</b> object is attached to the document; <b>False</b> if the signature is not attached to the document.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="bcbeb-105"><para>Это свойство возвращает <b>значение true</b> , если цифровой сертификат, соответствующий указанному объекту <b>подписи</b> , присоединен к документу; <b>False</b> , если подпись не присоединяется к документу.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="bcbeb-105"><para>This property returns <b>True</b> if the digital certificate that corresponds to the specified <b>Signature</b> object is attached to the document; <b>False</b> if the signature is not attached to the document.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="CanSetup">
@@ -164,26 +125,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-106">Получает <b>логическое</b> значение, указывающее, является ли пользователь может задавать свойства <see cref="T:Microsoft.Office.Core.Signature" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-106">Gets a <b>Boolean</b> value indicating whether the user can set properties of the <see cref="T:Microsoft.Office.Core.Signature" /> object.</span>
-          </span>
-          <span data-ttu-id="460d8-107">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-107">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="460d8-108">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-108">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="bcbeb-106">Получает <b>логическое</b> значение, указывающее, может ли пользователь задавать свойства <see cref="T:Microsoft.Office.Core.Signature" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-106">Gets a <b>Boolean</b> value indicating whether the user can set properties of the <see cref="T:Microsoft.Office.Core.Signature" /> object.</span></span> <span data-ttu-id="bcbeb-107">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-107">Read-only.</span></span></summary>
+        <value><span data-ttu-id="bcbeb-108"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="bcbeb-108"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -213,27 +156,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-109">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-109">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-109">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-109">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="460d8-110">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.Signature.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-110">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.Signature.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="bcbeb-110"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.Signature.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="bcbeb-110"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.Signature.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -257,12 +188,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-111">Удаляет указанный объект из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-111">Deletes the specified object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-111">Удаляет указанный объект из коллекции.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-111">Deletes the specified object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -289,31 +215,11 @@
         <ReturnType>Microsoft.Office.Core.SignatureInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-112">Получает сведения о подписи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-112">Gets  information about a signature.</span>
-          </span>
-          <span data-ttu-id="460d8-113">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-113">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.SignatureInfo" />
-        </value>
-        <remarks>
-          <span data-ttu-id="460d8-114">
-            <para>Среди сведения, которые можно прочитать является ли истек срок действия сертификата подписи, является ли подпись действительна, и является ли подпись только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-114">
-              <para>Among the information that can be read is whether the certificate associated with the signature has expired, whether the signature is valid, and whether the signature is read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="bcbeb-112">Получает сведения о подписи.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-112">Gets  information about a signature.</span></span> <span data-ttu-id="bcbeb-113">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-113">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.SignatureInfo" /></value>
+        <remarks><span data-ttu-id="bcbeb-114"><para>Сведения, которые можно прочитать, это сведения о том, истек ли срок действия сертификата, связанного с подписью, допустимости подписи, а также является ли подпись доступной только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="bcbeb-114"><para>Among the information that can be read is whether the certificate associated with the signature has expired, whether the signature is valid, and whether the signature is read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExpireDate">
@@ -342,12 +248,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-115">Возвращает <b>объект</b> , представляющий дату, на котором цифровой подписи, соответствующий <see cref="T:Microsoft.Office.Core.Signature" /> истечения срока действия объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-115">Returns an <b>Object</b> representing the date on which the digital signature that corresponds to the <see cref="T:Microsoft.Office.Core.Signature" /> object will expire.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-115">Возвращает <b>объект</b> , представляющий дату истечения срока действия цифровой подписи, соответствующей <see cref="T:Microsoft.Office.Core.Signature" /> объекту.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-115">Returns an <b>Object</b> representing the date on which the digital signature that corresponds to the <see cref="T:Microsoft.Office.Core.Signature" /> object will expire.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -378,25 +279,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-116">Определение, если цифровой сертификат, который соответствует <see cref="T:Microsoft.Office.Core.Signature" /> истечения срока действия объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-116">Determine if the digital certificate that corresponds to the <see cref="T:Microsoft.Office.Core.Signature" /> object has expired.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-116">Определите, истек ли срок действия цифрового сертификата, <see cref="T:Microsoft.Office.Core.Signature" /> соответствующего объекту.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-116">Determine if the digital certificate that corresponds to the <see cref="T:Microsoft.Office.Core.Signature" /> object has expired.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="460d8-117">
-            <para>Это свойство возвращает <b>значение True,</b> если истек срок действия цифрового сертификата, соответствующий объекту <b>подписи</b> ; <b>Значение false,</b> Если сертификат не истек.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-117">
-              <para>This property returns <b>True</b> if the digital certificate that corresponds to the <b>Signature</b> object has expired; <b>False</b> if the certificate has not expired.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="bcbeb-117"><para>Это свойство возвращает <b>значение true</b> , если срок действия цифрового сертификата, соответствующего объекту <b>подписи</b> , истек. <b>False</b> , если срок действия сертификата не истек.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="bcbeb-117"><para>This property returns <b>True</b> if the digital certificate that corresponds to the <b>Signature</b> object has expired; <b>False</b> if the certificate has not expired.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsCertificateRevoked">
@@ -425,25 +312,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-118">Определение, если цифровой сертификат, который соответствует <see cref="T:Microsoft.Office.Core.Signature" /> объект был отозван с поставщика сертификата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-118">Determine if the digital certificate that corresponds to the <see cref="T:Microsoft.Office.Core.Signature" /> object has been revoked by the issuer of the certificate.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-118">Определите, отозван ли цифровой сертификат, соответствующий <see cref="T:Microsoft.Office.Core.Signature" /> объекту, с помощью поставщика сертификата.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-118">Determine if the digital certificate that corresponds to the <see cref="T:Microsoft.Office.Core.Signature" /> object has been revoked by the issuer of the certificate.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="460d8-119">
-            <para>Данное свойство возвращает <b>значение True,</b> Если цифровой сертификат, соответствующий <b>подписи</b> объект был отозван с поставщиком сертификата; <b>Значение false,</b> Если сертификат не был отозван.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-119">
-              <para>This property returns <b>True</b> if the digital certificate that corresponds to the <b>Signature</b> object has been revoked by the issuer of the certificate; <b>False</b> if the certificate has not been revoked.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="bcbeb-119"><para>Это свойство возвращает <b>значение true</b> , если цифровой сертификат, соответствующий объекту <b>подписи</b> , отозван поставщиком сертификата; <b>False</b> , если сертификат не был отозван.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="bcbeb-119"><para>This property returns <b>True</b> if the digital certificate that corresponds to the <b>Signature</b> object has been revoked by the issuer of the certificate; <b>False</b> if the certificate has not been revoked.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsSignatureLine">
@@ -469,26 +342,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-120">Получает значение, указывающее, является ли это строку подписи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-120">Gets a value indicating whether this is a signature line.</span>
-          </span>
-          <span data-ttu-id="460d8-121">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-121">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="460d8-122">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-122">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="bcbeb-120">Получает значение, указывающее, является ли это строка подписи.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-120">Gets a value indicating whether this is a signature line.</span></span> <span data-ttu-id="bcbeb-121">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-121">Read-only.</span></span></summary>
+        <value><span data-ttu-id="bcbeb-122"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="bcbeb-122"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -515,26 +370,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-123">Получает <b>логическое</b> значение, указывающее, успешно ли подписания документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-123">Gets a <b>Boolean</b> value indicating whether the document was signed successfully.</span>
-          </span>
-          <span data-ttu-id="460d8-124">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-124">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="460d8-125">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-125">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="bcbeb-123">Получает <b>логическое</b> значение, указывающее, успешно ли подписан документ.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-123">Gets a <b>Boolean</b> value indicating whether the document was signed successfully.</span></span> <span data-ttu-id="bcbeb-124">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-124">Read-only.</span></span></summary>
+        <value><span data-ttu-id="bcbeb-125"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="bcbeb-125"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -564,12 +401,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-126">Возвращает <b>строку</b> , представляющую имя поставщика цифрового сертификата, соответствующий <see cref="T:Microsoft.Office.Core.Signature" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-126">Returns a <b>String</b> representing the name of the issuer of the digital certificate that corresponds to the <see cref="T:Microsoft.Office.Core.Signature" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-126">Возвращает <b>строку</b> , представляющую имя поставщика цифрового сертификата, соответствующего <see cref="T:Microsoft.Office.Core.Signature" /> объекту.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-126">Returns a <b>String</b> representing the name of the issuer of the digital certificate that corresponds to the <see cref="T:Microsoft.Office.Core.Signature" /> object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -600,25 +432,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-127">Определяет, если цифровой подписи, которая соответствует <see cref="T:Microsoft.Office.Core.Signature" /> объект является допустимой подписи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-127">Determines if the digital signature that corresponds to the <see cref="T:Microsoft.Office.Core.Signature" /> object is a valid signature.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-127">Определяет, является ли цифровая подпись, соответствующая <see cref="T:Microsoft.Office.Core.Signature" /> объекту, действительной подписью.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-127">Determines if the digital signature that corresponds to the <see cref="T:Microsoft.Office.Core.Signature" /> object is a valid signature.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="460d8-128">
-            <para>Это свойство возвращает <b>значение True,</b> Если цифровой подписи, соответствующий объекту <b>подпись</b> является допустимой подписи; <b>Значение false,</b> если он не является допустимой подписи. Подпись может быть недопустимым по ряду причин, включающих от срока действия для изменения в документ, который содержит этот сертификат.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-128">
-              <para>This property returns <b>True</b> if the digital signature that corresponds to the <b>Signature</b> object is a valid signature; <b>False</b> if it is not a valid signature. A signature may be invalid for several reasons, ranging from its certificate having expired to changes in the document that contains it.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="bcbeb-128"><para>Это свойство возвращает <b>значение true</b> , если цифровая подпись, соответствующая объекту <b>Signature</b> , является допустимой подписью; <b>Значение false</b> , если подпись не является допустимой. Подпись может быть недействительной по нескольким причинам, от сертификата с истекшим сроком действия для изменений в документе, который содержит его.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="bcbeb-128"><para>This property returns <b>True</b> if the digital signature that corresponds to the <b>Signature</b> object is a valid signature; <b>False</b> if it is not a valid signature. A signature may be invalid for several reasons, ranging from its certificate having expired to changes in the document that contains it.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -644,12 +462,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-129">Возвращает <b>родительский</b> объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-129">Returns the <b>Parent</b> object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-129">Возвращает <b>родительский</b> объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-129">Returns the <b>Parent</b> object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -677,26 +490,8 @@
         <ReturnType>Microsoft.Office.Core.SignatureSetup</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-130">Получает <see cref="T:Microsoft.Office.Core.SignatureSetup" /> объект, предоставляющий доступ к различных свойств подписи пакетов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-130">Gets a <see cref="T:Microsoft.Office.Core.SignatureSetup" /> object that provides access to various properties of a signature packet.</span>
-          </span>
-          <span data-ttu-id="460d8-131">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-131">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="460d8-132">
-            <b>SignatureSetup</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-132">
-              <b>SignatureSetup</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="bcbeb-130">Получает <see cref="T:Microsoft.Office.Core.SignatureSetup" /> объект, который предоставляет доступ к различным свойствам пакета сигнатур.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-130">Gets a <see cref="T:Microsoft.Office.Core.SignatureSetup" /> object that provides access to various properties of a signature packet.</span></span> <span data-ttu-id="bcbeb-131">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-131">Read-only.</span></span></summary>
+        <value><span data-ttu-id="bcbeb-132"><b>SignatureSetup</b></span><span class="sxs-lookup"><span data-stu-id="bcbeb-132"><b>SignatureSetup</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -721,12 +516,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-133">Отображает сведения, относящиеся к подписи пакетов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-133">Displays details related to a signature packet.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-133">Отображает сведения, связанные с пакетом сигнатур.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-133">Displays details related to a signature packet.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -755,48 +545,14 @@
         <Parameter Name="varDelSuggSignerEmail" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="varSigImg">
-          <span data-ttu-id="460d8-134">Рисунок, связанный с изображением строки подписи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-134">The  signature line graphic image.</span>
-          </span>
-        </param>
-        <param name="varDelSuggSigner">
-          <span data-ttu-id="460d8-135">Предложенного подписывающего лица.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-135">The suggested signer.</span>
-          </span>
-        </param>
-        <param name="varDelSuggSignerLine2">
-          <span data-ttu-id="460d8-136">Строка дополнительные подписи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-136">The  additional signature line.</span>
-          </span>
-        </param>
-        <param name="varDelSuggSignerEmail">
-          <span data-ttu-id="460d8-137">Адрес электронной почты подписывающего лица.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-137">The e-mail address of the suggested signer.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="460d8-138">Создает подпись пакета.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-138">Creates a signature packet.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="460d8-139">
-            <para>При вызове метода <b>входа</b> Microsoft Office создает манифест и вызывает поставщика подписи для создания хэш-функции для каждого потока в документе. Копирование результатов неподписанных шаблон XMLDSIG и вызывает поставщика для изменения XMLDSIG (при необходимости) и затем подписать затем объединяет Office. Полученный подписанные подписи затем возвращаются Office будут храниться.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-139">
-              <para>When the <b>Sign</b> method is called, Microsoft Office creates a manifest and calls the signature provider to create a hash for each stream in the document. Office then bundles up the results into an unsigned XMLDSIG template and calls to the provider to modify the XMLDSIG (if necessary) and then sign it. The resulting signed signature is then handed back to Office to be stored.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="varSigImg"><span data-ttu-id="bcbeb-134">Графическое изображение для строки подписи.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-134">The  signature line graphic image.</span></span></param>
+        <param name="varDelSuggSigner"><span data-ttu-id="bcbeb-135">Предлагаемый подписывающий.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-135">The suggested signer.</span></span></param>
+        <param name="varDelSuggSignerLine2"><span data-ttu-id="bcbeb-136">Дополнительная строка подписи.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-136">The  additional signature line.</span></span></param>
+        <param name="varDelSuggSignerEmail"><span data-ttu-id="bcbeb-137">Адрес электронной почты подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-137">The e-mail address of the suggested signer.</span></span></param>
+        <summary><span data-ttu-id="bcbeb-138">Создает пакет сигнатур.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-138">Creates a signature packet.</span></span></summary>
+        <remarks><span data-ttu-id="bcbeb-139"><para>Когда вызывается метод <b>Sign</b> , Microsoft Office создает манифест и вызывает поставщик подписи, чтобы создать хэш для каждого потока в документе. Затем Office объединяет результаты в шаблон с неподписанными шаблонами XMLDSIG и вызывает поставщик для изменения XMLDSIG (при необходимости), а затем подписывает ее. После этого полученный подписанный подпись возвращается в Office для сохранения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="bcbeb-139"><para>When the <b>Sign</b> method is called, Microsoft Office creates a manifest and calls the signature provider to create a hash for each stream in the document. Office then bundles up the results into an unsigned XMLDSIG template and calls to the provider to modify the XMLDSIG (if necessary) and then sign it. The resulting signed signature is then handed back to Office to be stored.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="SignatureLineShape">
@@ -822,26 +578,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-140">Получает <see cref="T:Microsoft.Office.Core.Shape" /> объекта, связанного с <see cref="T:Microsoft.Office.Core.Signature" /> , представляющий строку подписи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-140">Gets the <see cref="T:Microsoft.Office.Core.Shape" /> object associated with a <see cref="T:Microsoft.Office.Core.Signature" /> object that is a signature line.</span>
-          </span>
-          <span data-ttu-id="460d8-141">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-141">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="460d8-142">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-142">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="bcbeb-140">Получает <see cref="T:Microsoft.Office.Core.Shape" /> объект, связанный с <see cref="T:Microsoft.Office.Core.Signature" /> объектом, который является строкой подписи.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-140">Gets the <see cref="T:Microsoft.Office.Core.Shape" /> object associated with a <see cref="T:Microsoft.Office.Core.Signature" /> object that is a signature line.</span></span> <span data-ttu-id="bcbeb-141">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-141">Read-only.</span></span></summary>
+        <value><span data-ttu-id="bcbeb-142"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="bcbeb-142"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -871,12 +609,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-143">Возвращает <b>объект</b> , представляющий дату и время цифровой сертификат, соответствующий <see cref="T:Microsoft.Office.Core.Signature" /> объект был присоединен к документу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-143">Returns an <b>Object</b> representing the date and time that the digital certificate corresponding to the <see cref="T:Microsoft.Office.Core.Signature" /> object was attached to the document.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-143">Возвращает <b>объект</b> , представляющий дату и время, когда цифровой сертификат, соответствующий <see cref="T:Microsoft.Office.Core.Signature" /> объекту, был присоединен к документу.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-143">Returns an <b>Object</b> representing the date and time that the digital certificate corresponding to the <see cref="T:Microsoft.Office.Core.Signature" /> object was attached to the document.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -907,12 +640,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-144">Возвращает <b>строку</b> , представляющую имя лица, вложенные цифровой сертификат, соответствующий <see cref="T:Microsoft.Office.Core.Signature" /> объекта к документу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-144">Returns a <b>String</b> representing the name of the person who attached the digital certificate that corresponds to the <see cref="T:Microsoft.Office.Core.Signature" /> object to the document.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bcbeb-144">Возвращает <b>строку</b> , представляющую имя пользователя, который подключил цифровой сертификат, соответствующий <see cref="T:Microsoft.Office.Core.Signature" /> объекту, в документ.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-144">Returns a <b>String</b> representing the name of the person who attached the digital certificate that corresponds to the <see cref="T:Microsoft.Office.Core.Signature" /> object to the document.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -940,26 +668,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="460d8-145">Получает значение, представляющее порядок сортировки подписей в пакете с несколькими подписями.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-145">Gets a value representing the sort order of the signatures in a packet with multiple signatures.</span>
-          </span>
-          <span data-ttu-id="460d8-146">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-146">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="460d8-147">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="460d8-147">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="bcbeb-145">Получает значение, представляющее порядок сортировки подписей в пакете с несколькими подписями.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-145">Gets a value representing the sort order of the signatures in a packet with multiple signatures.</span></span> <span data-ttu-id="bcbeb-146">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="bcbeb-146">Read-only.</span></span></summary>
+        <value><span data-ttu-id="bcbeb-147"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="bcbeb-147"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

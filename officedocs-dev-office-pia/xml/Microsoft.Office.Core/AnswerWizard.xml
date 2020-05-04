@@ -1,13 +1,5 @@
 <Type Name="AnswerWizard" FullName="Microsoft.Office.Core.AnswerWizard">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2f63a7e2898af1d9dea244a238d194201a4ece2f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662280" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AnswerWizard : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2f63a7e2898af1d9dea244a238d194201a4ece2f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662280" /></Metadata><TypeSignature Language="C#" Value="public interface AnswerWizard : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AnswerWizard implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.AnswerWizard" />
   <TypeSignature Language="VB.NET" Value="Public Interface AnswerWizard&#xA;Implements _IMsoDispObj" />
@@ -30,32 +22,18 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="1228c-101">Представляет мастера ответов в приложении Microsoft Office.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1228c-101">Represents the Answer Wizard in a Microsoft Office application.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="1228c-102">
-        <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-        <para>Существует только один мастер ответов на каждое приложение и все изменения в объекте <b>AnswerWizard</b> или <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> семейства сайтов, влияющие на активное приложение Office немедленно.</para>
-        <para>Использования <see cref="M:Microsoft.Office.Core.AnswerWizard.ClearFileList" /> метод, чтобы удалить все записи из списка с файлами текущей Мастер ответов. С помощью этого метода гарантирует, что по умолчанию файлы, доступные в ведущем приложении Office больше не доступна через мастер ответов, например, при замене файлов мастера ответов с настраиваемыми. Рабочая станция Администрирования файлы.</para>
-        <para>Использования <see cref="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" /> метод для восстановления в список файлов для текущего Мастер ответов в список по умолчанию файлов для ведущего приложения Office. Можно также установить список файлов по умолчанию в реестре Windows, добавив имена пользовательских файлов в соответствующий раздел; файлы, указанные в этом разделе реестра затем восстанавливается при вызове ResetFileList.</para>
-        <para>Использования <see cref="P:Microsoft.Office.Core.AnswerWizard.Files" /> свойство, позволяющее получить коллекцию ссылок файла мастер ответов. Свойство <b>файлы</b> возвращает набор строк, связанные с. Рабочая станция Администрирования файлы.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1228c-102">
-          <para>Some of the content in this topic may not be applicable to some languages.</para>
-          <para>There is only one Answer Wizard per application, and all changes to the <b>AnswerWizard</b> object or the <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> collection affect the active Office application immediately.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Core.AnswerWizard.ClearFileList" /> method to remove all entries from the list of files available to the current Answer Wizard. Using this method ensures that the default files available to the Office host application are no longer accessible through the Answer Wizard, such as when you’re replacing the Answer Wizard files with custom .AW files.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" /> method to restore the list of files for the current Answer Wizard to the default list of files for the Office host application. You can also establish a custom default file list in the Windows registry by adding the names of the custom files to the appropriate registry key; the files specified in that registry key will then be restored when ResetFileList is called.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Core.AnswerWizard.Files" /> property to get the collection of Answer Wizard file references. The <b>Files</b> property returns a collection of strings that refer to .AW files.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="39131-101">Представляет Мастер ответов в приложении Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="39131-101">Represents the Answer Wizard in a Microsoft Office application.</span></span></summary>
+    <remarks><span data-ttu-id="39131-102"><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+      <para>Для каждого приложения существует только один мастер ответов, а все изменения объекта <b>AnswerWizard</b> или <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> коллекции сразу же влияют на активное приложение Office.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.AnswerWizard.ClearFileList" /> метод, чтобы удалить все записи из списка файлов, доступных в текущем мастере ответов. Использование этого метода гарантирует, что файлы по умолчанию, доступные ведущему приложению Office, больше не будут доступны в мастере ответов, например при замене файлов мастера ответов на Custom. Файлы АВ.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" /> метод для восстановления списка файлов для текущего мастера ответов в список файлов по умолчанию ведущего приложения Office. Вы также можете создать настраиваемый список файлов по умолчанию в реестре Windows, добавив имена пользовательских файлов в соответствующий раздел реестра; файлы, указанные в этом разделе реестра, будут восстановлены при вызове Ресетфилелист.</para> 
+      <para>Используйте <see cref="P:Microsoft.Office.Core.AnswerWizard.Files" /> свойство, чтобы получить коллекцию ссылок на файл мастера ответов. Свойство <b>Files</b> Возвращает коллекцию строк, которые ссылаются на. Файлы АВ.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="39131-102"><para>Some of the content in this topic may not be applicable to some languages.</para>
+      <para>There is only one Answer Wizard per application, and all changes to the <b>AnswerWizard</b> object or the <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> collection affect the active Office application immediately.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Core.AnswerWizard.ClearFileList" /> method to remove all entries from the list of files available to the current Answer Wizard. Using this method ensures that the default files available to the Office host application are no longer accessible through the Answer Wizard, such as when you’re replacing the Answer Wizard files with custom .AW files.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" /> method to restore the list of files for the current Answer Wizard to the default list of files for the Office host application. You can also establish a custom default file list in the Windows registry by adding the names of the custom files to the appropriate registry key; the files specified in that registry key will then be restored when ResetFileList is called.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Core.AnswerWizard.Files" /> property to get the collection of Answer Wizard file references. The <b>Files</b> property returns a collection of strings that refer to .AW files.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -84,12 +62,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1228c-103">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1228c-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39131-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="39131-103">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -115,26 +88,12 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="1228c-104">Удаляет список файлов для текущего AnswerWizard, включая список по умолчанию файлов для ведущего приложения Microsoft Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1228c-104">Clears the list of files for the current AnswerWizard, including the default list of files for the Microsoft Office host application.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="1228c-105">
-            <para>Этот метод используется для удаления всех записей из текущего списка файлов для указанного приложения. Вы также можно использовать убедитесь, что ни один из файлов AnswerWizard по умолчанию для ведущего приложения доступны для пользователей. Затем можно создать настраиваемый список файлов с помощью <see cref="M:Microsoft.Office.Core.AnswerWizardFiles.Add(System.String)" /> метод <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> семейства.</para>
-            <para>Для восстановления файлов по умолчанию AnswerWizard для ведущего приложения, используйте <see cref="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" /> метод.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1228c-105">
-              <para>Use this method to remove all entries from the current file list for the specified application. You can also use it to ensure that none of the default AnswerWizard files for the host application are available to users. You can then build a custom list of files by using the <see cref="M:Microsoft.Office.Core.AnswerWizardFiles.Add(System.String)" /> method of the <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> collection.</para>
-              <para>To restore the default AnswerWizard file set for the host application, use the <see cref="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" /> method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="39131-104">Очищает список файлов для текущего AnswerWizard, включая список файлов по умолчанию для ведущего приложения Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="39131-104">Clears the list of files for the current AnswerWizard, including the default list of files for the Microsoft Office host application.</span></span></summary>
+        <remarks><span data-ttu-id="39131-105"><para>Используйте этот метод, чтобы удалить все записи из текущего списка файлов для указанного приложения. Вы также можете использовать его, чтобы убедиться, что ни один из файлов AnswerWizard по умолчанию для ведущего приложения не доступен пользователям. Затем можно создать настраиваемый список файлов с помощью <see cref="M:Microsoft.Office.Core.AnswerWizardFiles.Add(System.String)" /> <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> метода коллекции.</para> 
+          <para>Чтобы восстановить набор файлов AnswerWizard по умолчанию для ведущего приложения, используйте <see cref="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" /> метод.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="39131-105"><para>Use this method to remove all entries from the current file list for the specified application. You can also use it to ensure that none of the default AnswerWizard files for the host application are available to users. You can then build a custom list of files by using the <see cref="M:Microsoft.Office.Core.AnswerWizardFiles.Add(System.String)" /> method of the <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> collection.</para>
+          <para>To restore the default AnswerWizard file set for the host application, use the <see cref="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" /> method.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -163,27 +122,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1228c-106">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1228c-106">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39131-106">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="39131-106">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="1228c-107">
-            <para>В качестве примера того, как работает данное свойство возвращает 1297307460, который представляет строку «MSWD», если объект был создан в Microsoft Word; Данное свойство возвращает 1480803660, если объект был создан в Microsoft Excel. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как это <b>приложение</b> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1228c-107">
-              <para>As an example of how this property works, it returns 1297307460, which represents the string "MSWD", if the object was created in Microsoft Word; this property returns 1480803660 if the object was created in Microsoft Excel. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <b>Application</b> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="39131-107"><para>В качестве примера того, как работает это свойство, возвращается значение 1297307460, которое представляет строку "МСВД", если объект был создан в Microsoft Word; Это свойство возвращает 1480803660, если объект был создан в Microsoft Excel. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, как свойство <b>Application</b> всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="39131-107"><para>As an example of how this property works, it returns 1297307460, which represents the string "MSWD", if the object was created in Microsoft Word; this property returns 1480803660 if the object was created in Microsoft Excel. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <b>Application</b> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Files">
@@ -209,12 +156,7 @@
         <ReturnType>Microsoft.Office.Core.AnswerWizardFiles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1228c-108">Возвращает <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> семейства сайтов, представляющий список файлов, доступных для текущего AnswerWizard.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1228c-108">Returns an <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> collection that represents the list of files available to the current AnswerWizard.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39131-108">Возвращает <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> коллекцию, представляющую список файлов, доступных текущему AnswerWizard.</span><span class="sxs-lookup"><span data-stu-id="39131-108">Returns an <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> collection that represents the list of files available to the current AnswerWizard.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -242,12 +184,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1228c-109">Возвращает <b>родительский</b> объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1228c-109">Returns the <b>Parent</b> object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39131-109">Возвращает <b>родительский</b> объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="39131-109">Returns the <b>Parent</b> object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -273,28 +210,14 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="1228c-110">Сбрасывает список файлов для текущего AnswerWizard список по умолчанию файлов для ведущего приложения Microsoft Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1228c-110">Resets the list of files for the current AnswerWizard to the default list of files for the Microsoft Office host application.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="1228c-111">
-            <para>Используйте этот метод для восстановления всех записей в списке текущий файл AnswerWizard список в реестре Windows для ведущего приложения. Список файлов по умолчанию в реестре можно установить путем добавления имена пользовательских файлов в соответствующий раздел.</para>
-            <para>
-              <b>Осторожность</b> неправильное изменение реестра может вызвать серьезные проблемы пользователя от необходимости повторную установку операционной системы. Корпорация Майкрософт не гарантирует, что проблем, связанных с изменения реестра можно разрешить. До начала редактирования реестра, резервное копирование всех необходимых данных. Самые последние сведения о защите реестра компьютера см.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1228c-111">
-              <para>Use this method to restore all entries in the current AnswerWizard file list to the list in the Windows registry for the host application. You can establish a custom default file list in the registry by adding the names of the custom files to the appropriate registry key.</para>
-              <para>
-                <b>Caution</b>   Incorrectly editing the registry may severely damage your operating system, requiring you to reinstall it. Microsoft cannot guarantee that problems resulting from editing the registry incorrectly can be resolved. Before editing the registry, back up any valuable data. For the most recent information about using and protecting your computer's registry, see Microsoft Windows Help.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="39131-110">Сбрасывает список файлов для текущего AnswerWizard в список файлов для ведущего приложения Microsoft Office по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="39131-110">Resets the list of files for the current AnswerWizard to the default list of files for the Microsoft Office host application.</span></span></summary>
+        <remarks><span data-ttu-id="39131-111"><para>Используйте этот метод для восстановления всех записей в текущем списке файлов AnswerWizard в реестре Windows для ведущего приложения. Вы можете создать специальный список файлов по умолчанию в реестре, добавив имена пользовательских файлов в соответствующий раздел реестра.</para> 
+          <para> 
+            <b>Внимание</b> неправильное изменение реестра может серьезно повредить операционную систему, требуя ее повторной установки. Корпорация Майкрософт не гарантирует, что проблемы, возникающие в результате неправильного редактирования реестра, можно устранить. Перед изменением реестра выполните резервное копирование всех важных данных. Последние сведения о том, как использовать и защищать реестр компьютера, можно найти в справке по Microsoft Windows.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="39131-111"><para>Use this method to restore all entries in the current AnswerWizard file list to the list in the Windows registry for the host application. You can establish a custom default file list in the registry by adding the names of the custom files to the appropriate registry key.</para>
+          <para>
+            <b>Caution</b>   Incorrectly editing the registry may severely damage your operating system, requiring you to reinstall it. Microsoft cannot guarantee that problems resulting from editing the registry incorrectly can be resolved. Before editing the registry, back up any valuable data. For the most recent information about using and protecting your computer's registry, see Microsoft Windows Help.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

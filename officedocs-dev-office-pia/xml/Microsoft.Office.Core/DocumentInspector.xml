@@ -1,13 +1,5 @@
 <Type Name="DocumentInspector" FullName="Microsoft.Office.Core.DocumentInspector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="83d3ba4e05e70ecef5955ebfa926e5bec596db14" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662095" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface DocumentInspector : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="83d3ba4e05e70ecef5955ebfa926e5bec596db14" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662095" /></Metadata><TypeSignature Language="C#" Value="public interface DocumentInspector : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentInspector implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.DocumentInspector" />
   <TypeSignature Language="VB.NET" Value="Public Interface DocumentInspector&#xA;Implements _IMsoDispObj" />
@@ -30,26 +22,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="f6531-101">Представляет модуль инспектора документов в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> семейства сайтов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f6531-101">Represents a Document Inspector module in a <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> collection.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="f6531-102">
-        <para>Объект 
-        <b>DocumentInspector</b> предоставляет доступ к <see cref="M:Microsoft.Office.Core.DocumentInspector.Inspect(Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> и <see cref="M:Microsoft.Office.Core.DocumentInspector.Fix(Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> методы.  <see cref="T:Microsoft.Office.Core.DocumentInspector" /> Представляет объект пользовательских модулей инспектора документов и некоторые параметры «встроенные».    Чтобы просмотреть список встроенных параметров, откройте диалоговое окно Инспектор документов в меню файл. Первые два параметра (<b>примечания, исправления, версии и примечания</b>; <b>Свойства документа и персональные данные</b>) не указана в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> коллекции;  Вместо этого их функциональных возможностей доступна через метод <b>RemoveDocumentInformation</b> . Остальные параметры в диалоговом окне и все установленные пользовательские модули, разработанный источников сторонних производителей доступны из коллекции <b>DocumentInspectors</b> , указав значение индекса.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f6531-102">
-          <para>
-            <b>DocumentInspector</b> object provides access to the <see cref="M:Microsoft.Office.Core.DocumentInspector.Inspect(Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> and <see cref="M:Microsoft.Office.Core.DocumentInspector.Fix(Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> methods.  The <see cref="T:Microsoft.Office.Core.DocumentInspector" /> object represents custom  Document Inspector modules and some "built-in" options.    To see the list of built-in options, open the Document Inspector dialog box from the File menu. The first two options (<b>Comments, Revisions, Versions, and Annotations</b>; <b>Document Properties and Personal Information</b>) are not listed in the <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> collection;  instead their functionality is available through the <b>RemoveDocumentInformation</b> method. The remaining options in the dialog box and any installed custom modules developed by third-party sources are available from the <b>DocumentInspectors</b> collection by specifying an index value.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="1603b-101">Представляет модуль инспектора документов в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="1603b-101">Represents a Document Inspector module in a <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> collection.</span></span></summary>
+    <remarks><span data-ttu-id="1603b-102"><para>Объект 
+        <b>DocumentInspector</b> предоставляет доступ к методам <see cref="M:Microsoft.Office.Core.DocumentInspector.Inspect(Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> и <see cref="M:Microsoft.Office.Core.DocumentInspector.Fix(Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> .  <see cref="T:Microsoft.Office.Core.DocumentInspector" /> Объект представляет настраиваемые модули инспектора документов и некоторые встроенные параметры.    Чтобы просмотреть список встроенных параметров, откройте диалоговое окно Инспектор документов из меню файл. Первые два параметра (<b>комментарии, исправления, версии и заметки</b>; <b>Свойства документа и личные сведения</b>) не указаны в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> коллекции;  Вместо этого их функции можно получить с помощью метода <b>ремоведокументинформатион</b> . Остальные параметры в диалоговом окне и все установленные настраиваемые модули, разработанные сторонними источниками, доступны из коллекции <b>DocumentInspectors</b> путем указания значения индекса.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="1603b-102"><para>
+        <b>DocumentInspector</b> object provides access to the <see cref="M:Microsoft.Office.Core.DocumentInspector.Inspect(Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> and <see cref="M:Microsoft.Office.Core.DocumentInspector.Fix(Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> methods.  The <see cref="T:Microsoft.Office.Core.DocumentInspector" /> object represents custom  Document Inspector modules and some "built-in" options.    To see the list of built-in options, open the Document Inspector dialog box from the File menu. The first two options (<b>Comments, Revisions, Versions, and Annotations</b>; <b>Document Properties and Personal Information</b>) are not listed in the <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> collection;  instead their functionality is available through the <b>RemoveDocumentInformation</b> method. The remaining options in the dialog box and any installed custom modules developed by third-party sources are available from the <b>DocumentInspectors</b> collection by specifying an index value.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -78,22 +56,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6531-103">Получает <see cref="T:Microsoft.Office.Interop.Word._Application" /> объекта, представляющего создателя <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-103">Gets an <see cref="T:Microsoft.Office.Interop.Word._Application" /> object that represents the creator of the <see cref="T:Microsoft.Office.Core.DocumentInspector" /> object.</span>
-          </span>
-          <span data-ttu-id="f6531-104">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-104">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6531-105">Объект</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-105">Object</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1603b-103">Получает <see cref="T:Microsoft.Office.Interop.Word._Application" /> объект, представляющий создателя <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="1603b-103">Gets an <see cref="T:Microsoft.Office.Interop.Word._Application" /> object that represents the creator of the <see cref="T:Microsoft.Office.Core.DocumentInspector" /> object.</span></span> <span data-ttu-id="1603b-104">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="1603b-104">Read-only.</span></span></summary>
+        <value><span data-ttu-id="1603b-105">Объект</span><span class="sxs-lookup"><span data-stu-id="1603b-105">Object</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -123,26 +87,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6531-106">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.DocumentInspector" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-106">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.DocumentInspector" /> object was created.</span>
-          </span>
-          <span data-ttu-id="f6531-107">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-107">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6531-108">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-108">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1603b-106">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.DocumentInspector" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="1603b-106">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.DocumentInspector" /> object was created.</span></span> <span data-ttu-id="1603b-107">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="1603b-107">Read-only.</span></span></summary>
+        <value><span data-ttu-id="1603b-108"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="1603b-108"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -169,26 +115,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6531-109">Получает описание <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-109">Gets the description of the <see cref="T:Microsoft.Office.Core.DocumentInspector" /> object.</span>
-          </span>
-          <span data-ttu-id="f6531-110">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-110">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6531-111">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-111">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1603b-109">Получает описание <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="1603b-109">Gets the description of the <see cref="T:Microsoft.Office.Core.DocumentInspector" /> object.</span></span> <span data-ttu-id="1603b-110">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="1603b-110">Read-only.</span></span></summary>
+        <value><span data-ttu-id="1603b-111"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="1603b-111"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -216,44 +144,12 @@
         <Parameter Name="Results" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Status">
-          <span data-ttu-id="f6531-112">Перечисление, представляющее этого staus документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-112">An enumeration representing that staus of the document.</span>
-          </span>
-          <span data-ttu-id="f6531-113">Состояние — это выходной параметр, это означает, что возвращается значение после завершения метода его назначение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-113">Status is an output parameter which means that its value is returned when the method has completed its purpose.</span>
-          </span>
-        </param>
-        <param name="Results">
-          <span data-ttu-id="f6531-114">Содержит результаты действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-114">Contains the results of the action.</span>
-          </span>
-          <span data-ttu-id="f6531-115">Результаты является выходного параметра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-115">Results is an output parameter.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6531-116">Выполняет действие на конкретные сведения элементов или свойств документа в зависимости от инспектора документов в модуль, указанный.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-116">Performs an action on specific information items or document properties depending on the Document Inspector module specified.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="f6531-117">
-            <para>Существует два модулей инспектора документов, включенных в версии 2007 системы Microsoft Office. Это модуль комментариев и исправлений и метод свойства документа. Далее представлены первые два параметра, которые отображаются в диалоговом окне "Инспектор документов", но не доступны в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> семейства сайтов.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-117">
-              <para>There are two Document Inspector modules that are included with the 2007 Microsoft Office system. These are the Comments/Revisions module and the Document Properties method. These are the first two options that show up in the Document Inspector dialog box but are not available in the <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Status"><span data-ttu-id="1603b-112">Перечисление, представляющее стаус документа.</span><span class="sxs-lookup"><span data-stu-id="1603b-112">An enumeration representing that staus of the document.</span></span> <span data-ttu-id="1603b-113">Status — это выходной параметр, который означает, что его значение возвращается при завершении выполнения метода.</span><span class="sxs-lookup"><span data-stu-id="1603b-113">Status is an output parameter which means that its value is returned when the method has completed its purpose.</span></span></param>
+        <param name="Results"><span data-ttu-id="1603b-114">Содержит результаты действия.</span><span class="sxs-lookup"><span data-stu-id="1603b-114">Contains the results of the action.</span></span> <span data-ttu-id="1603b-115">Results является выходным параметром.</span><span class="sxs-lookup"><span data-stu-id="1603b-115">Results is an output parameter.</span></span></param>
+        <summary><span data-ttu-id="1603b-116">Выполняет действие с определенными элементами сведений или свойствами документа в зависимости от указанного модуля инспектора документов.</span><span class="sxs-lookup"><span data-stu-id="1603b-116">Performs an action on specific information items or document properties depending on the Document Inspector module specified.</span></span></summary>
+        <remarks><span data-ttu-id="1603b-117"><para>Существует два модуля инспектора документов, включенных в систему Microsoft Office 2007. Это модули комментариев и исправлений, а также метод Document Properties. Это первые два параметра, которые отображаются в диалоговом окне Инспектор документов, но недоступны в <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> коллекции.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1603b-117"><para>There are two Document Inspector modules that are included with the 2007 Microsoft Office system. These are the Comments/Revisions module and the Document Properties method. These are the first two options that show up in the Document Inspector dialog box but are not available in the <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> collection.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Inspect">
@@ -280,30 +176,9 @@
         <Parameter Name="Results" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Status">
-          <span data-ttu-id="f6531-118">Перечисление, представляющее статус документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-118">An enumeration representing that status of the document.</span>
-          </span>
-          <span data-ttu-id="f6531-119">
-            <paramref name="Status" />что означает, что возвращается значение после завершения метода ее назначение — это выходной параметр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-119">
-              <paramref name="Status" /> is an output parameter which means that its value is returned when the method has completed its purpose.</span>
-          </span>
-        </param>
-        <param name="Results">
-          <span data-ttu-id="f6531-120">Содержит списки, элементы сведений или свойств документа в документе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-120">Contains a lists the information items or document properties found in the document.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6531-121">Проверка документа для конкретного свойства информации или документов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-121">Inspects a document for specific information or document properties.</span>
-          </span>
-        </summary>
+        <param name="Status"><span data-ttu-id="1603b-118">Перечисление, представляющее этот статус документа.</span><span class="sxs-lookup"><span data-stu-id="1603b-118">An enumeration representing that status of the document.</span></span> <span data-ttu-id="1603b-119"><paramref name="Status" />— Это выходной параметр, который означает, что его значение возвращается при завершении выполнения метода.</span><span class="sxs-lookup"><span data-stu-id="1603b-119"><paramref name="Status" /> is an output parameter which means that its value is returned when the method has completed its purpose.</span></span></param>
+        <param name="Results"><span data-ttu-id="1603b-120">Содержит список элементов сведений или свойств документа, найденных в документе.</span><span class="sxs-lookup"><span data-stu-id="1603b-120">Contains a lists the information items or document properties found in the document.</span></span></param>
+        <summary><span data-ttu-id="1603b-121">Проверка документа на наличие определенных сведений или свойств документа.</span><span class="sxs-lookup"><span data-stu-id="1603b-121">Inspects a document for specific information or document properties.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -330,26 +205,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6531-122">Получает имя модуля, представленного <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-122">Gets the name of the module represented by a <see cref="T:Microsoft.Office.Core.DocumentInspector" /> object.</span>
-          </span>
-          <span data-ttu-id="f6531-123">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-123">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6531-124">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-124">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1603b-122">Получает имя модуля, представленного <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объектом.</span><span class="sxs-lookup"><span data-stu-id="1603b-122">Gets the name of the module represented by a <see cref="T:Microsoft.Office.Core.DocumentInspector" /> object.</span></span> <span data-ttu-id="1603b-123">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="1603b-123">Read-only.</span></span></summary>
+        <value><span data-ttu-id="1603b-124"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="1603b-124"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -376,26 +233,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6531-125">Получает объект, представляющий родительский <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-125">Gets an object that represents the parent of the  <see cref="T:Microsoft.Office.Core.DocumentInspector" /> object.</span>
-          </span>
-          <span data-ttu-id="f6531-126">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-126">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f6531-127">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6531-127">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1603b-125">Получает объект, представляющий родительский <see cref="T:Microsoft.Office.Core.DocumentInspector" /> объект.</span><span class="sxs-lookup"><span data-stu-id="1603b-125">Gets an object that represents the parent of the  <see cref="T:Microsoft.Office.Core.DocumentInspector" /> object.</span></span> <span data-ttu-id="1603b-126">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="1603b-126">Read-only.</span></span></summary>
+        <value><span data-ttu-id="1603b-127"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="1603b-127"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

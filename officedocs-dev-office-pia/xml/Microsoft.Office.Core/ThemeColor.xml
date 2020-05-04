@@ -1,13 +1,5 @@
 <Type Name="ThemeColor" FullName="Microsoft.Office.Core.ThemeColor">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3e3806823b4de5807e09b5933f0004508f0d54cf" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662121" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ThemeColor : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3e3806823b4de5807e09b5933f0004508f0d54cf" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662121" /></Metadata><TypeSignature Language="C#" Value="public interface ThemeColor : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ThemeColor implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ThemeColor" />
   <TypeSignature Language="VB.NET" Value="Public Interface ThemeColor&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="56799-101">Представляет цвет в цветовой схеме темы Microsoft Office 2007.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="56799-101">Represents a color in the color scheme of a Microsoft Office 2007 theme.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="d8442-101">Представляет цвет в цветовой схеме темы Microsoft Office 2007.</span><span class="sxs-lookup"><span data-stu-id="d8442-101">Represents a color in the color scheme of a Microsoft Office 2007 theme.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -65,26 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="56799-102">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.ThemeColor" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.ThemeColor" /> object.</span>
-          </span>
-          <span data-ttu-id="56799-103">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-103">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="56799-104">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-104">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d8442-102">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.ThemeColor" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="d8442-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.ThemeColor" /> object.</span></span> <span data-ttu-id="d8442-103">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="d8442-103">Read-only.</span></span></summary>
+        <value><span data-ttu-id="d8442-104"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="d8442-104"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -114,26 +83,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="56799-105">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.ThemeColor" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-105">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.ThemeColor" /> object was created.</span>
-          </span>
-          <span data-ttu-id="56799-106">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-106">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="56799-107">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-107">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d8442-105">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.ThemeColor" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="d8442-105">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.ThemeColor" /> object was created.</span></span> <span data-ttu-id="d8442-106">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="d8442-106">Read-only.</span></span></summary>
+        <value><span data-ttu-id="d8442-107"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="d8442-107"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -160,26 +111,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="56799-108">Получает родительский объект для <see cref="T:Microsoft.Office.Core.ThemeColor" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-108">Gets the parent object for the <see cref="T:Microsoft.Office.Core.ThemeColor" /> object.</span>
-          </span>
-          <span data-ttu-id="56799-109">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-109">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="56799-110">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-110">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d8442-108">Получает родительский объект для <see cref="T:Microsoft.Office.Core.ThemeColor" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="d8442-108">Gets the parent object for the <see cref="T:Microsoft.Office.Core.ThemeColor" /> object.</span></span> <span data-ttu-id="d8442-109">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="d8442-109">Read-only.</span></span></summary>
+        <value><span data-ttu-id="d8442-110"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="d8442-110"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -212,26 +145,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="56799-111">Получает или задает значение цвета в цветовой схеме темы Microsoft Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-111">Gets or sets a value of a color in the color scheme of a Microsoft Office theme.</span>
-          </span>
-          <span data-ttu-id="56799-112">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-112">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="56799-113">
-            <b>MsoRGBType</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-113">
-              <b>MsoRGBType</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d8442-111">Получает или задает значение цвета в цветовой схеме темы Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="d8442-111">Gets or sets a value of a color in the color scheme of a Microsoft Office theme.</span></span> <span data-ttu-id="d8442-112">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="d8442-112">Read/write.</span></span></summary>
+        <value><span data-ttu-id="d8442-113"><b>мсоргбтипе</b></span><span class="sxs-lookup"><span data-stu-id="d8442-113"><b>MsoRGBType</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -258,19 +173,8 @@
         <ReturnType>Microsoft.Office.Core.MsoThemeColorSchemeIndex</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="56799-114">Получает значение индекса для цветовая схема темы Microsoft Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-114">Gets the index value for a color scheme of a Microsoft Office theme.</span>
-          </span>
-          <span data-ttu-id="56799-115">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="56799-115">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoThemeColorSchemeIndex" />
-        </value>
+        <summary><span data-ttu-id="d8442-114">Получает значение индекса цветовой схемы темы Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="d8442-114">Gets the index value for a color scheme of a Microsoft Office theme.</span></span> <span data-ttu-id="d8442-115">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="d8442-115">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoThemeColorSchemeIndex" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

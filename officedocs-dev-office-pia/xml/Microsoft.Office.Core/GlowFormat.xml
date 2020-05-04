@@ -1,13 +1,5 @@
 <Type Name="GlowFormat" FullName="Microsoft.Office.Core.GlowFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3e0dfbf946f304d9e495b1ad6b20b36bb7dec7c2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662588" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface GlowFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3e0dfbf946f304d9e495b1ad6b20b36bb7dec7c2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662588" /></Metadata><TypeSignature Language="C#" Value="public interface GlowFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract GlowFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.GlowFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface GlowFormat&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="11d18-101">Представляет эффект свечения вокруг рисунка Office.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="11d18-101">Represents a glow effect around an Office graphic.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="577c7-101">Представляет эффект свечения вокруг рисунка Office.</span><span class="sxs-lookup"><span data-stu-id="577c7-101">Represents a glow effect around an Office graphic.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -65,26 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d18-102">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.GlowFormat" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.GlowFormat" /> object.</span>
-          </span>
-          <span data-ttu-id="11d18-103">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-103">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="11d18-104">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-104">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="577c7-102">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.GlowFormat" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="577c7-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.GlowFormat" /> object.</span></span> <span data-ttu-id="577c7-103">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="577c7-103">Read-only.</span></span></summary>
+        <value><span data-ttu-id="577c7-104"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="577c7-104"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -111,19 +80,8 @@
         <ReturnType>Microsoft.Office.Core.ColorFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d18-105">Получает цвет текста в формате свечения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-105">Gets the color of text formatted as glow.</span>
-          </span>
-          <span data-ttu-id="11d18-106">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-106">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ColorFormat" />
-        </value>
+        <summary><span data-ttu-id="577c7-105">Получает цвет текста, отформатированного как свечение.</span><span class="sxs-lookup"><span data-stu-id="577c7-105">Gets the color of text formatted as glow.</span></span> <span data-ttu-id="577c7-106">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="577c7-106">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.ColorFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -153,26 +111,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d18-107">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.GlowFormat" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-107">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.GlowFormat" /> object was created.</span>
-          </span>
-          <span data-ttu-id="11d18-108">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-108">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="11d18-109">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-109">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="577c7-107">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.GlowFormat" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="577c7-107">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.GlowFormat" /> object was created.</span></span> <span data-ttu-id="577c7-108">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="577c7-108">Read-only.</span></span></summary>
+        <value><span data-ttu-id="577c7-109"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="577c7-109"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -202,26 +142,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d18-110">Получает или задает значение radius эффект свечения для <see cref="T:Microsoft.Office.Core.GlowFormat" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-110">Gets or sets the radius value of the glow effect for the <see cref="T:Microsoft.Office.Core.GlowFormat" /> object.</span>
-          </span>
-          <span data-ttu-id="11d18-111">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-111">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="11d18-112">
-            <b>Single</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-112">
-              <b>Single</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="577c7-110">Возвращает или задает значение радиуса для <see cref="T:Microsoft.Office.Core.GlowFormat" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="577c7-110">Gets or sets the radius value of the glow effect for the <see cref="T:Microsoft.Office.Core.GlowFormat" /> object.</span></span> <span data-ttu-id="577c7-111">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="577c7-111">Read/write.</span></span></summary>
+        <value><span data-ttu-id="577c7-112"><b>Одинарное с плавающей точкой</b></span><span class="sxs-lookup"><span data-stu-id="577c7-112"><b>Single</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -251,25 +173,11 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d18-113">Получает или задает степень прозрачности указанного свечения значение между 0.0 (Непрозрачный) и 1.0 (Очистить).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-113">Gets or sets the degree of transparency of the specified glow as a value between 0.0 (opaque) and 1.0 (clear).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="577c7-113">Возвращает или задает степень прозрачности указанного свечения в виде значения между 0,0 (непрозрачность) и 1,0 (Clear).</span><span class="sxs-lookup"><span data-stu-id="577c7-113">Gets or sets the degree of transparency of the specified glow as a value between 0.0 (opaque) and 1.0 (clear).</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="11d18-114">
-            <para>Чтение и запись.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d18-114">
-              <para>Read/write.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="577c7-114"><para>Чтение и запись.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="577c7-114"><para>Read/write.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

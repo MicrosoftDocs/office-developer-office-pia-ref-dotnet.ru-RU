@@ -1,13 +1,5 @@
 <Type Name="XlTrendlineType" FullName="Microsoft.Office.Core.XlTrendlineType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="213d707b5d8c7fe876e3cda0e6ee30f8c5493f3f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662556" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlTrendlineType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="213d707b5d8c7fe876e3cda0e6ee30f8c5493f3f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662556" /></Metadata><TypeSignature Language="C#" Value="public enum XlTrendlineType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlTrendlineType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlTrendlineType" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlTrendlineType" />
@@ -25,16 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="72fbe-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="72fbe-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="72fbe-102">Определяет, как линии тренда, сгладить колебания данных вычисляемых.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="72fbe-102">Specifies how the trendline that smoothes out fluctuations in the data is calculated.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="4f51a-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="4f51a-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="4f51a-102">Указывает, как рассчитывается линия тренда, которая смягчает колебания данных.</span><span class="sxs-lookup"><span data-stu-id="4f51a-102">Specifies how the trendline that smoothes out fluctuations in the data is calculated.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -54,16 +37,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="72fbe-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="72fbe-104">Использует формулу для расчета наименьших квадратов в соответствии, например, y = ab ^ x.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-104">Uses an equation to calculate the least squares fit through points, for example, y=ab^x .</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4f51a-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="4f51a-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="4f51a-104">Использует уравнение для вычисления наименьших квадратов в соответствии с точками, например y = AB ^ x.</span><span class="sxs-lookup"><span data-stu-id="4f51a-104">Uses an equation to calculate the least squares fit through points, for example, y=ab^x .</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlLinear">
@@ -82,16 +56,7 @@
       </ReturnValue>
       <MemberValue>-4132</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="72fbe-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="72fbe-106">Использует уравнение y = mx + b, чтобы рассчитать наименьших квадратов в соответствии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-106">Uses the linear equation y = mx + b to calculate the least squares fit through points.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4f51a-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="4f51a-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="4f51a-106">Использует линейное уравнение y = mx + b, чтобы рассчитать наименьшие квадраты в соответствии с точками.</span><span class="sxs-lookup"><span data-stu-id="4f51a-106">Uses the linear equation y = mx + b to calculate the least squares fit through points.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlLogarithmic">
@@ -110,16 +75,7 @@
       </ReturnValue>
       <MemberValue>-4133</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="72fbe-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="72fbe-108">Использует формула y = c ln x + b для вычисления наименьших квадратов в соответствии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-108">Uses the equation y = c ln x + b to calculate the least squares fit through points.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4f51a-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="4f51a-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="4f51a-108">Использует формулу y = c LN x + b, чтобы рассчитать наименьшие квадраты в соответствии с точками.</span><span class="sxs-lookup"><span data-stu-id="4f51a-108">Uses the equation y = c ln x + b to calculate the least squares fit through points.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMovingAvg">
@@ -138,20 +94,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="72fbe-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="72fbe-110">Использует последовательность средних значений, вычисленных по частям рядов данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-110">Uses a sequence of averages computed from parts of the data series.</span>
-          </span>
-          <span data-ttu-id="72fbe-111">Число точек равна общему числу точек в ряде меньше номер, указанный для периода.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-111">The number of points equals the total number of points in the series less the number specified for the period.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4f51a-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="4f51a-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="4f51a-110">Использует последовательность средних значений, вычисленных из частей ряда данных.</span><span class="sxs-lookup"><span data-stu-id="4f51a-110">Uses a sequence of averages computed from parts of the data series.</span></span> <span data-ttu-id="4f51a-111">Число баллов равно общему количеству точек в серии, меньшим числа, указанного для периода.</span><span class="sxs-lookup"><span data-stu-id="4f51a-111">The number of points equals the total number of points in the series less the number specified for the period.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlPolynomial">
@@ -170,16 +113,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="72fbe-112">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-112">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="72fbe-113">Использует формулу для расчета наименьших квадратов в соответствии, например, y = ax ^ 6 + bx ^ 5 + cx ^ 4 + dx ^ 3 + ex ^ 2 + fx + g.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-113">Uses an equation to calculate the least squares fit through points, for example, y = ax^6 + bx^5 + cx^4 + dx^3 + ex^2 + fx + g.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4f51a-112">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="4f51a-112">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="4f51a-113">Использует формулу для вычисления наименьших квадратов в соответствии с точками, например y = ax ^ 6 + BX ^ 5 + CX ^ 4 + DX ^ 3 + ex ^ 2 + FX + g.</span><span class="sxs-lookup"><span data-stu-id="4f51a-113">Uses an equation to calculate the least squares fit through points, for example, y = ax^6 + bx^5 + cx^4 + dx^3 + ex^2 + fx + g.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlPower">
@@ -198,16 +132,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="72fbe-114">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-114">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="72fbe-115">Использует формулу для расчета наименьших квадратов в соответствии, например, y = ax ^ b.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="72fbe-115">Uses an equation to calculate the least squares fit through points, for example, y = ax^b.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4f51a-114">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="4f51a-114">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="4f51a-115">Использует уравнение для вычисления наименьших квадратов в соответствии с точками, например y = ax ^ b.</span><span class="sxs-lookup"><span data-stu-id="4f51a-115">Uses an equation to calculate the least squares fit through points, for example, y = ax^b.</span></span></summary>
       </Docs>
     </Member>
   </Members>

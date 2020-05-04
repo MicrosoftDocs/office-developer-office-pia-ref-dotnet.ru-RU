@@ -1,13 +1,5 @@
 <Type Name="MsoAutoShapeType" FullName="Microsoft.Office.Core.MsoAutoShapeType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a05ac2c8ecb9d1c218001213b2128f8761649120" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662036" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoAutoShapeType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a05ac2c8ecb9d1c218001213b2128f8761649120" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662036" /></Metadata><TypeSignature Language="C#" Value="public enum MsoAutoShapeType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAutoShapeType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAutoShapeType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoAutoShapeType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="00cb9-101">Указывает тип фигуры для объекта <b>автофигуры</b> .</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="00cb9-101">Specifies the shape type for an <b>AutoShape</b> object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="511a6-101">Задает тип фигуры для объекта <b>автофигуры</b> .</span><span class="sxs-lookup"><span data-stu-id="511a6-101">Specifies the shape type for an <b>AutoShape</b> object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -83,12 +70,7 @@
       </ReturnValue>
       <MemberValue>94</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-102">16-конечная звезда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-102">16-point star.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-102">16 – звезда.</span><span class="sxs-lookup"><span data-stu-id="511a6-102">16-point star.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShape24pointStar">
@@ -107,12 +89,7 @@
       </ReturnValue>
       <MemberValue>95</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-103">24-конечная звезда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-103">24-point star.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-103">24 пт, звезда.</span><span class="sxs-lookup"><span data-stu-id="511a6-103">24-point star.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShape32pointStar">
@@ -131,12 +108,7 @@
       </ReturnValue>
       <MemberValue>96</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-104">32-конечная звезда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-104">32-point star.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-104">32 – точка звезда.</span><span class="sxs-lookup"><span data-stu-id="511a6-104">32-point star.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShape4pointStar">
@@ -155,12 +127,7 @@
       </ReturnValue>
       <MemberValue>91</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-105">4-конечная звезда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-105">4-point star.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-105">4 Пт: звезда.</span><span class="sxs-lookup"><span data-stu-id="511a6-105">4-point star.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShape5pointStar">
@@ -179,12 +146,7 @@
       </ReturnValue>
       <MemberValue>92</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-106">5-конечная звезда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-106">5-point star.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-106">5 пт, звезда.</span><span class="sxs-lookup"><span data-stu-id="511a6-106">5-point star.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShape6pointStar">
@@ -241,12 +203,7 @@
       </ReturnValue>
       <MemberValue>93</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-107">8-конечная звезда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-107">8-point star.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-107">8 – звезда.</span><span class="sxs-lookup"><span data-stu-id="511a6-107">8-point star.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonBackorPrevious">
@@ -265,16 +222,7 @@
       </ReturnValue>
       <MemberValue>129</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-108">Назад или кнопка Назад.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-108">Back or Previous button.</span>
-          </span>
-          <span data-ttu-id="00cb9-109">Поддерживает мышью и наведите указатель мыши на действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-109">Supports mouse-click and mouse-over actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-108">Кнопка "назад" или "назад".</span><span class="sxs-lookup"><span data-stu-id="511a6-108">Back or Previous button.</span></span> <span data-ttu-id="511a6-109">Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</span><span class="sxs-lookup"><span data-stu-id="511a6-109">Supports mouse-click and mouse-over actions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonBeginning">
@@ -293,16 +241,7 @@
       </ReturnValue>
       <MemberValue>131</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-110">Кнопка начала.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-110">Beginning button.</span>
-          </span>
-          <span data-ttu-id="00cb9-111">Поддерживает мышью и наведите указатель мыши на действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-111">Supports mouse-click and mouse-over actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-110">Кнопка "начало".</span><span class="sxs-lookup"><span data-stu-id="511a6-110">Beginning button.</span></span> <span data-ttu-id="511a6-111">Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</span><span class="sxs-lookup"><span data-stu-id="511a6-111">Supports mouse-click and mouse-over actions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonCustom">
@@ -321,16 +260,7 @@
       </ReturnValue>
       <MemberValue>125</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-112">Кнопка без изображений по умолчанию и текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-112">Button with no default picture or text.</span>
-          </span>
-          <span data-ttu-id="00cb9-113">Поддерживает мышью и наведите указатель мыши на действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-113">Supports mouse-click and mouse-over actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-112">Кнопка без рисунка или текста, используемого по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="511a6-112">Button with no default picture or text.</span></span> <span data-ttu-id="511a6-113">Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</span><span class="sxs-lookup"><span data-stu-id="511a6-113">Supports mouse-click and mouse-over actions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonDocument">
@@ -349,16 +279,7 @@
       </ReturnValue>
       <MemberValue>134</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-114">Кнопка документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-114">Document button.</span>
-          </span>
-          <span data-ttu-id="00cb9-115">Поддерживает мышью и наведите указатель мыши на действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-115">Supports mouse-click and mouse-over actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-114">Кнопка "документ".</span><span class="sxs-lookup"><span data-stu-id="511a6-114">Document button.</span></span> <span data-ttu-id="511a6-115">Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</span><span class="sxs-lookup"><span data-stu-id="511a6-115">Supports mouse-click and mouse-over actions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonEnd">
@@ -377,16 +298,7 @@
       </ReturnValue>
       <MemberValue>132</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-116">Кнопка плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-116">End button.</span>
-          </span>
-          <span data-ttu-id="00cb9-117">Поддерживает мышью и наведите указатель мыши на действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-117">Supports mouse-click and mouse-over actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-116">Кнопка "завершить".</span><span class="sxs-lookup"><span data-stu-id="511a6-116">End button.</span></span> <span data-ttu-id="511a6-117">Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</span><span class="sxs-lookup"><span data-stu-id="511a6-117">Supports mouse-click and mouse-over actions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonForwardorNext">
@@ -405,16 +317,7 @@
       </ReturnValue>
       <MemberValue>130</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-118">Переадресация или Далее.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-118">Forward or Next button.</span>
-          </span>
-          <span data-ttu-id="00cb9-119">Поддерживает мышью и наведите указатель мыши на действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-119">Supports mouse-click and mouse-over actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-118">Кнопка "вперед" или "Далее".</span><span class="sxs-lookup"><span data-stu-id="511a6-118">Forward or Next button.</span></span> <span data-ttu-id="511a6-119">Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</span><span class="sxs-lookup"><span data-stu-id="511a6-119">Supports mouse-click and mouse-over actions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonHelp">
@@ -433,16 +336,7 @@
       </ReturnValue>
       <MemberValue>127</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-120">Кнопка "Справка".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-120">Help button.</span>
-          </span>
-          <span data-ttu-id="00cb9-121">Поддерживает мышью и наведите указатель мыши на действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-121">Supports mouse-click and mouse-over actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-120">Кнопка "Справка".</span><span class="sxs-lookup"><span data-stu-id="511a6-120">Help button.</span></span> <span data-ttu-id="511a6-121">Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</span><span class="sxs-lookup"><span data-stu-id="511a6-121">Supports mouse-click and mouse-over actions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonHome">
@@ -461,16 +355,7 @@
       </ReturnValue>
       <MemberValue>126</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-122">Домашняя страница кнопка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-122">Home button.</span>
-          </span>
-          <span data-ttu-id="00cb9-123">Поддерживает мышью и наведите указатель мыши на действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-123">Supports mouse-click and mouse-over actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-122">Кнопка "домой".</span><span class="sxs-lookup"><span data-stu-id="511a6-122">Home button.</span></span> <span data-ttu-id="511a6-123">Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</span><span class="sxs-lookup"><span data-stu-id="511a6-123">Supports mouse-click and mouse-over actions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonInformation">
@@ -489,16 +374,7 @@
       </ReturnValue>
       <MemberValue>128</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-124">Кнопка сведений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-124">Information button.</span>
-          </span>
-          <span data-ttu-id="00cb9-125">Поддерживает мышью и наведите указатель мыши на действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-125">Supports mouse-click and mouse-over actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-124">Информационная кнопка.</span><span class="sxs-lookup"><span data-stu-id="511a6-124">Information button.</span></span> <span data-ttu-id="511a6-125">Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</span><span class="sxs-lookup"><span data-stu-id="511a6-125">Supports mouse-click and mouse-over actions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonMovie">
@@ -517,16 +393,7 @@
       </ReturnValue>
       <MemberValue>136</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-126">Кнопка фильма.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-126">Movie button.</span>
-          </span>
-          <span data-ttu-id="00cb9-127">Поддерживает мышью и наведите указатель мыши на действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-127">Supports mouse-click and mouse-over actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-126">Кнопка "фильм".</span><span class="sxs-lookup"><span data-stu-id="511a6-126">Movie button.</span></span> <span data-ttu-id="511a6-127">Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</span><span class="sxs-lookup"><span data-stu-id="511a6-127">Supports mouse-click and mouse-over actions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonReturn">
@@ -545,16 +412,7 @@
       </ReturnValue>
       <MemberValue>133</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-128">Кнопка возврата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-128">Return button.</span>
-          </span>
-          <span data-ttu-id="00cb9-129">Поддерживает мышью и наведите указатель мыши на действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-129">Supports mouse-click and mouse-over actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-128">Кнопка возврата.</span><span class="sxs-lookup"><span data-stu-id="511a6-128">Return button.</span></span> <span data-ttu-id="511a6-129">Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</span><span class="sxs-lookup"><span data-stu-id="511a6-129">Supports mouse-click and mouse-over actions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeActionButtonSound">
@@ -573,16 +431,7 @@
       </ReturnValue>
       <MemberValue>135</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-130">При нажатии кнопки звук.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-130">Sound button.</span>
-          </span>
-          <span data-ttu-id="00cb9-131">Поддерживает мышью и наведите указатель мыши на действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-131">Supports mouse-click and mouse-over actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-130">Кнопка "звук".</span><span class="sxs-lookup"><span data-stu-id="511a6-130">Sound button.</span></span> <span data-ttu-id="511a6-131">Поддерживает действия, выполняемые при нажатии кнопок мыши и мыши.</span><span class="sxs-lookup"><span data-stu-id="511a6-131">Supports mouse-click and mouse-over actions.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeArc">
@@ -601,12 +450,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-132">ARC.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-132">Arc.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-132">Гипербол.</span><span class="sxs-lookup"><span data-stu-id="511a6-132">Arc.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeBalloon">
@@ -625,12 +469,7 @@
       </ReturnValue>
       <MemberValue>137</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-133">В документе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-133">Balloon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-133">Видно.</span><span class="sxs-lookup"><span data-stu-id="511a6-133">Balloon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeBentArrow">
@@ -649,12 +488,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-134">Стрелка блокировки, исходя из кривой угол 90 градусов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-134">Block arrow that follows a curved 90-degree angle.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-134">Стрелка блокировки, которая следует за изогнутым углом 90 градусов.</span><span class="sxs-lookup"><span data-stu-id="511a6-134">Block arrow that follows a curved 90-degree angle.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeBentUpArrow">
@@ -673,16 +507,7 @@
       </ReturnValue>
       <MemberValue>44</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-135">Стрелка блокировки, исходя из четкие угол 90 градусов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-135">Block arrow that follows a sharp 90-degree angle.</span>
-          </span>
-          <span data-ttu-id="00cb9-136">Точки вверх по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-136">Points up by default.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-135">Блок "стрелка" следует за острым углом 90 градусов.</span><span class="sxs-lookup"><span data-stu-id="511a6-135">Block arrow that follows a sharp 90-degree angle.</span></span> <span data-ttu-id="511a6-136">Указывает по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="511a6-136">Points up by default.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeBevel">
@@ -701,12 +526,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-137">Багетная рамка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-137">Bevel.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-137">Конус.</span><span class="sxs-lookup"><span data-stu-id="511a6-137">Bevel.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeBlockArc">
@@ -725,12 +545,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-138">Арку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-138">Block arc.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-138">Блокировать дугу.</span><span class="sxs-lookup"><span data-stu-id="511a6-138">Block arc.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCan">
@@ -749,12 +564,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-139">CAN.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-139">Can.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-139">Можно.</span><span class="sxs-lookup"><span data-stu-id="511a6-139">Can.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeChartPlus">
@@ -830,12 +640,7 @@
       </ReturnValue>
       <MemberValue>52</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-140">Шеврон.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-140">Chevron.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-140">Шеврон.</span><span class="sxs-lookup"><span data-stu-id="511a6-140">Chevron.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeChord">
@@ -873,12 +678,7 @@
       </ReturnValue>
       <MemberValue>60</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-141">Стрелка блокировки, исходя из кривой 180-градусов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-141">Block arrow that follows a curved 180-degree angle.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-141">Стрелка блокировки, которая следует за изогнутым углом 180 градусов.</span><span class="sxs-lookup"><span data-stu-id="511a6-141">Block arrow that follows a curved 180-degree angle.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCloud">
@@ -916,12 +716,7 @@
       </ReturnValue>
       <MemberValue>108</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-142">Выноска-облако.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-142">Cloud callout.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-142">Выноска облачного облака.</span><span class="sxs-lookup"><span data-stu-id="511a6-142">Cloud callout.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCorner">
@@ -978,12 +773,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-143">Кросс.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-143">Cross.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-143">Состав.</span><span class="sxs-lookup"><span data-stu-id="511a6-143">Cross.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCube">
@@ -1002,12 +792,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-144">Куб.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-144">Cube.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-144">Куба.</span><span class="sxs-lookup"><span data-stu-id="511a6-144">Cube.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCurvedDownArrow">
@@ -1026,12 +811,7 @@
       </ReturnValue>
       <MemberValue>48</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-145">Стрелка блокировки, закругленная вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-145">Block arrow that curves down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-145">Блочная стрелка, которая изогнута вниз.</span><span class="sxs-lookup"><span data-stu-id="511a6-145">Block arrow that curves down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCurvedDownRibbon">
@@ -1050,12 +830,7 @@
       </ReturnValue>
       <MemberValue>100</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-146">Баннер ленты, закругленная вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-146">Ribbon banner that curves down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-146">Баннер ленты, которая изогнута вниз.</span><span class="sxs-lookup"><span data-stu-id="511a6-146">Ribbon banner that curves down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCurvedLeftArrow">
@@ -1074,12 +849,7 @@
       </ReturnValue>
       <MemberValue>46</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-147">Блокировать появившуюся стрелку влево кривых.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-147">Block arrow that curves left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-147">Блок направленной влево линии.</span><span class="sxs-lookup"><span data-stu-id="511a6-147">Block arrow that curves left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCurvedRightArrow">
@@ -1098,12 +868,7 @@
       </ReturnValue>
       <MemberValue>45</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-148">Стрелка блокировки, закругленная справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-148">Block arrow that curves right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-148">Прямоугольная стрелка, которая имеет право на кривую.</span><span class="sxs-lookup"><span data-stu-id="511a6-148">Block arrow that curves right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCurvedUpArrow">
@@ -1122,12 +887,7 @@
       </ReturnValue>
       <MemberValue>47</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-149">Блокировать появившуюся стрелку закругляется вверх.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-149">Block arrow that curves up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-149">Блоковая стрелка, которая раскривой вверх.</span><span class="sxs-lookup"><span data-stu-id="511a6-149">Block arrow that curves up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeCurvedUpRibbon">
@@ -1146,12 +906,7 @@
       </ReturnValue>
       <MemberValue>99</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-150">Баннер ленты, которая закругляется вверх.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-150">Ribbon banner that curves up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-150">Баннер ленты, которая раскривой вверх.</span><span class="sxs-lookup"><span data-stu-id="511a6-150">Ribbon banner that curves up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDecagon">
@@ -1208,12 +963,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-151">Ромб.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-151">Diamond.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-151">Ромб.</span><span class="sxs-lookup"><span data-stu-id="511a6-151">Diamond.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDodecagon">
@@ -1251,12 +1001,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-152">Пончик.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-152">Donut.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-152">Кольцо.</span><span class="sxs-lookup"><span data-stu-id="511a6-152">Donut.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDoubleBrace">
@@ -1275,12 +1020,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-153">Двойные фигурные скобки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-153">Double brace.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-153">Двойная фигурная скобка.</span><span class="sxs-lookup"><span data-stu-id="511a6-153">Double brace.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDoubleBracket">
@@ -1299,12 +1039,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-154">Двойные круглые скобки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-154">Double bracket.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-154">Двойная скобка.</span><span class="sxs-lookup"><span data-stu-id="511a6-154">Double bracket.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDoubleWave">
@@ -1323,12 +1058,7 @@
       </ReturnValue>
       <MemberValue>104</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-155">Двойная звукового файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-155">Double wave.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-155">Двойная волна.</span><span class="sxs-lookup"><span data-stu-id="511a6-155">Double wave.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDownArrow">
@@ -1347,12 +1077,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-156">Блокировать стрелка, указывающая вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-156">Block arrow that points down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-156">Блоковая стрелка, указывающая вниз.</span><span class="sxs-lookup"><span data-stu-id="511a6-156">Block arrow that points down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDownArrowCallout">
@@ -1371,12 +1096,7 @@
       </ReturnValue>
       <MemberValue>56</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-157">Выноска со стрелкой, указывающей вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-157">Callout with arrow that points down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-157">Выноска со стрелкой, указывающей вниз.</span><span class="sxs-lookup"><span data-stu-id="511a6-157">Callout with arrow that points down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeDownRibbon">
@@ -1395,12 +1115,7 @@
       </ReturnValue>
       <MemberValue>98</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-158">Баннер ленты с помощью центра область под ленты завершается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-158">Ribbon banner with center area below ribbon ends.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-158">Баннер ленты с расположенной под ней центральной областью.</span><span class="sxs-lookup"><span data-stu-id="511a6-158">Ribbon banner with center area below ribbon ends.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeExplosion1">
@@ -1419,12 +1134,7 @@
       </ReturnValue>
       <MemberValue>89</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-159">Развертывание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-159">Explosion.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-159">Развертывани.</span><span class="sxs-lookup"><span data-stu-id="511a6-159">Explosion.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeExplosion2">
@@ -1443,12 +1153,7 @@
       </ReturnValue>
       <MemberValue>90</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-160">Развертывание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-160">Explosion.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-160">Развертывани.</span><span class="sxs-lookup"><span data-stu-id="511a6-160">Explosion.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartAlternateProcess">
@@ -1467,12 +1172,7 @@
       </ReturnValue>
       <MemberValue>62</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-161">Альтернативный процесс блок-схемы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-161">Alternate process flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-161">Альтернативный символ блок-схемы процесса.</span><span class="sxs-lookup"><span data-stu-id="511a6-161">Alternate process flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartCard">
@@ -1491,12 +1191,7 @@
       </ReturnValue>
       <MemberValue>75</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-162">Блок-схемы карточки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-162">Card flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-162">Символ блок-схемы карты.</span><span class="sxs-lookup"><span data-stu-id="511a6-162">Card flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartCollate">
@@ -1515,12 +1210,7 @@
       </ReturnValue>
       <MemberValue>79</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-163">Сопоставление блок-схемы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-163">Collate flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-163">Символ блок-схемы сортировки.</span><span class="sxs-lookup"><span data-stu-id="511a6-163">Collate flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartConnector">
@@ -1539,12 +1229,7 @@
       </ReturnValue>
       <MemberValue>73</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-164">Блок-схемы соединителя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-164">Connector flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-164">Символ блок-схемы Connector.</span><span class="sxs-lookup"><span data-stu-id="511a6-164">Connector flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartData">
@@ -1563,12 +1248,7 @@
       </ReturnValue>
       <MemberValue>64</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-165">Блок-схемы данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-165">Data flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-165">Символ блок-схемы данных.</span><span class="sxs-lookup"><span data-stu-id="511a6-165">Data flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartDecision">
@@ -1587,12 +1267,7 @@
       </ReturnValue>
       <MemberValue>63</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-166">Символ блок-схема принятия решений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-166">Decision flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-166">Символ блок-схемы решения.</span><span class="sxs-lookup"><span data-stu-id="511a6-166">Decision flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartDelay">
@@ -1611,12 +1286,7 @@
       </ReturnValue>
       <MemberValue>84</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-167">Задержка блок-схемы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-167">Delay flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-167">Символ блок-схемы задержки.</span><span class="sxs-lookup"><span data-stu-id="511a6-167">Delay flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartDirectAccessStorage">
@@ -1635,12 +1305,7 @@
       </ReturnValue>
       <MemberValue>87</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-168">Блок-схемы прямого доступа хранилища.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-168">Direct access storage flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-168">Символ блок-схемы хранилища прямого доступа.</span><span class="sxs-lookup"><span data-stu-id="511a6-168">Direct access storage flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartDisplay">
@@ -1659,12 +1324,7 @@
       </ReturnValue>
       <MemberValue>88</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-169">Отображение блок-схемы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-169">Display flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-169">Отобразить символ блок-схемы.</span><span class="sxs-lookup"><span data-stu-id="511a6-169">Display flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartDocument">
@@ -1683,12 +1343,7 @@
       </ReturnValue>
       <MemberValue>67</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-170">Блок-схемы документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-170">Document flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-170">Символ блок-схемы документа.</span><span class="sxs-lookup"><span data-stu-id="511a6-170">Document flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartExtract">
@@ -1707,12 +1362,7 @@
       </ReturnValue>
       <MemberValue>81</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-171">Извлеките блок-схемы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-171">Extract flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-171">Извлеките символ блок-схемы.</span><span class="sxs-lookup"><span data-stu-id="511a6-171">Extract flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartInternalStorage">
@@ -1731,12 +1381,7 @@
       </ReturnValue>
       <MemberValue>66</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-172">Внутреннее хранилище блок-схемы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-172">Internal storage flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-172">Внутренний символ блок-схемы хранилища.</span><span class="sxs-lookup"><span data-stu-id="511a6-172">Internal storage flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartMagneticDisk">
@@ -1755,12 +1400,7 @@
       </ReturnValue>
       <MemberValue>86</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-173">Блок-схемы магнитным диска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-173">Magnetic disk flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-173">Символ блок-схемы магнитного диска.</span><span class="sxs-lookup"><span data-stu-id="511a6-173">Magnetic disk flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartManualInput">
@@ -1779,12 +1419,7 @@
       </ReturnValue>
       <MemberValue>71</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-174">Символ ручного ввода блок-схема.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-174">Manual input flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-174">Символ блок-схемы ввода вручную.</span><span class="sxs-lookup"><span data-stu-id="511a6-174">Manual input flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartManualOperation">
@@ -1803,12 +1438,7 @@
       </ReturnValue>
       <MemberValue>72</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-175">Блок-схемы ручные операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-175">Manual operation flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-175">Символ блок-схемы ручного действия.</span><span class="sxs-lookup"><span data-stu-id="511a6-175">Manual operation flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartMerge">
@@ -1827,12 +1457,7 @@
       </ReturnValue>
       <MemberValue>82</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-176">Объединение блок-схемы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-176">Merge flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-176">Символ блок-схемы слияния.</span><span class="sxs-lookup"><span data-stu-id="511a6-176">Merge flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartMultidocument">
@@ -1851,12 +1476,7 @@
       </ReturnValue>
       <MemberValue>68</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-177">Блок-схема несколькими документами символа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-177">Multi-document flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-177">Символ многодокументной блок-схемы.</span><span class="sxs-lookup"><span data-stu-id="511a6-177">Multi-document flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartOfflineStorage">
@@ -1894,12 +1514,7 @@
       </ReturnValue>
       <MemberValue>74</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-178">Блок-схемы страницу соединителя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-178">Off-page connector flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-178">Символ блок-схемы для автономной страницы.</span><span class="sxs-lookup"><span data-stu-id="511a6-178">Off-page connector flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartOr">
@@ -1918,12 +1533,7 @@
       </ReturnValue>
       <MemberValue>78</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-179">Блок-схема символ «Или».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-179">"Or" flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-179">"Или" символ блок-схемы.</span><span class="sxs-lookup"><span data-stu-id="511a6-179">"Or" flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartPredefinedProcess">
@@ -1942,12 +1552,7 @@
       </ReturnValue>
       <MemberValue>65</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-180">Типовой процесс блок-схемы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-180">Predefined process flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-180">Предварительно определенный символ блок-схемы процесса.</span><span class="sxs-lookup"><span data-stu-id="511a6-180">Predefined process flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartPreparation">
@@ -1966,12 +1571,7 @@
       </ReturnValue>
       <MemberValue>70</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-181">Блок-схемы подготовки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-181">Preparation flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-181">Символ "Подготовка блок-схемы".</span><span class="sxs-lookup"><span data-stu-id="511a6-181">Preparation flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartProcess">
@@ -1990,12 +1590,7 @@
       </ReturnValue>
       <MemberValue>61</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-182">Символ блок-схема процесса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-182">Process flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-182">Символ блок-схемы процесса.</span><span class="sxs-lookup"><span data-stu-id="511a6-182">Process flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartPunchedTape">
@@ -2014,12 +1609,7 @@
       </ReturnValue>
       <MemberValue>76</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-183">Блок-схемы перфорированными ленты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-183">Punched tape flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-183">Символ блок-схемы с перфорацией.</span><span class="sxs-lookup"><span data-stu-id="511a6-183">Punched tape flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartSequentialAccessStorage">
@@ -2038,12 +1628,7 @@
       </ReturnValue>
       <MemberValue>85</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-184">Последовательный доступ хранилища блок-схемы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-184">Sequential access storage flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-184">Символ блок-схемы хранилища последовательного доступа.</span><span class="sxs-lookup"><span data-stu-id="511a6-184">Sequential access storage flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartSort">
@@ -2062,12 +1647,7 @@
       </ReturnValue>
       <MemberValue>80</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-185">Символ блок-схема сортировки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-185">Sort flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-185">Символ схемы сортировки.</span><span class="sxs-lookup"><span data-stu-id="511a6-185">Sort flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartStoredData">
@@ -2086,12 +1666,7 @@
       </ReturnValue>
       <MemberValue>83</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-186">Блок-схемы сохраненных данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-186">Stored data flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-186">Сохраненный символ блок-схемы данных.</span><span class="sxs-lookup"><span data-stu-id="511a6-186">Stored data flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartSummingJunction">
@@ -2110,12 +1685,7 @@
       </ReturnValue>
       <MemberValue>77</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-187">Суммирование соединения блок-схемы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-187">Summing junction flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-187">Символ блок-схемы соединения с суммированием.</span><span class="sxs-lookup"><span data-stu-id="511a6-187">Summing junction flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFlowchartTerminator">
@@ -2134,12 +1704,7 @@
       </ReturnValue>
       <MemberValue>69</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-188">Блок-схема символа конца.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-188">Terminator flowchart symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-188">Символ блок-схемы терминатора.</span><span class="sxs-lookup"><span data-stu-id="511a6-188">Terminator flowchart symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFoldedCorner">
@@ -2158,12 +1723,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-189">Загнутый угол.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-189">Folded corner.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-189">Угол с сгибом.</span><span class="sxs-lookup"><span data-stu-id="511a6-189">Folded corner.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeFrame">
@@ -2277,12 +1837,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-190">Основа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-190">Heart.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-190">Основе.</span><span class="sxs-lookup"><span data-stu-id="511a6-190">Heart.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeHeptagon">
@@ -2320,12 +1875,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-191">Шестиугольник.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-191">Hexagon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-191">Шестиугольник.</span><span class="sxs-lookup"><span data-stu-id="511a6-191">Hexagon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeHorizontalScroll">
@@ -2344,12 +1894,7 @@
       </ReturnValue>
       <MemberValue>102</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-192">Горизонтальные полосы прокрутки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-192">Horizontal scroll.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-192">Горизонтальная полоса прокрутки.</span><span class="sxs-lookup"><span data-stu-id="511a6-192">Horizontal scroll.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeIsoscelesTriangle">
@@ -2368,12 +1913,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-193">Равнобедренный.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-193">Isosceles triangle.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-193">Исосцелес треугольник.</span><span class="sxs-lookup"><span data-stu-id="511a6-193">Isosceles triangle.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftArrow">
@@ -2392,12 +1932,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-194">Блокировать стрелки, направленные влево.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-194">Block arrow that points left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-194">Блок стрелка, указывающая влево.</span><span class="sxs-lookup"><span data-stu-id="511a6-194">Block arrow that points left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftArrowCallout">
@@ -2416,12 +1951,7 @@
       </ReturnValue>
       <MemberValue>54</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-195">Выноска с стрелки, направленные влево.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-195">Callout with arrow that points left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-195">Выноска со стрелкой влево.</span><span class="sxs-lookup"><span data-stu-id="511a6-195">Callout with arrow that points left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftBrace">
@@ -2440,12 +1970,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-196">Левая фигурная скобка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-196">Left brace.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-196">Левая фигурная скобка.</span><span class="sxs-lookup"><span data-stu-id="511a6-196">Left brace.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftBracket">
@@ -2464,12 +1989,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-197">Левую скобку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-197">Left bracket.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-197">Левая скобка.</span><span class="sxs-lookup"><span data-stu-id="511a6-197">Left bracket.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftCircularArrow">
@@ -2507,12 +2027,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-198">Стрелка блока с стрелки, указывающие влево и вправо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-198">Block arrow with arrowheads that point both left and right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-198">Фигурная стрелка с наконечниками стрелок, указывающих влево и вправо.</span><span class="sxs-lookup"><span data-stu-id="511a6-198">Block arrow with arrowheads that point both left and right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftRightArrowCallout">
@@ -2531,12 +2046,7 @@
       </ReturnValue>
       <MemberValue>57</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-199">Выноска со стрелками, которые указывают слева и справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-199">Callout with arrowheads that point both left and right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-199">Выноска со стрелками влево и вправо.</span><span class="sxs-lookup"><span data-stu-id="511a6-199">Callout with arrowheads that point both left and right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftRightCircularArrow">
@@ -2593,12 +2103,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-200">Блокировать стрелка вверх и с помощью стрелок, указывающих слева, справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-200">Block arrow with arrowheads that point left, right, and up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-200">Блокировка стрелки, указывающей влево, вправо и вверх.</span><span class="sxs-lookup"><span data-stu-id="511a6-200">Block arrow with arrowheads that point left, right, and up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLeftUpArrow">
@@ -2617,12 +2122,7 @@
       </ReturnValue>
       <MemberValue>43</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-201">Стрелка блок со стрелками, выберите слева и вверх.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-201">Block arrow with arrowheads that point left and up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-201">Блок стрелка с наконечниками, указывающей влево и вверх.</span><span class="sxs-lookup"><span data-stu-id="511a6-201">Block arrow with arrowheads that point left and up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLightningBolt">
@@ -2641,12 +2141,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-202">Молния.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-202">Lightning bolt.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-202">Молния.</span><span class="sxs-lookup"><span data-stu-id="511a6-202">Lightning bolt.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout1">
@@ -2665,12 +2160,7 @@
       </ReturnValue>
       <MemberValue>109</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-203">Выноска с границы и линии горизонтальной выноску.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-203">Callout with border and horizontal callout line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-203">Выноска с границей и горизонтальной чертой выноски.</span><span class="sxs-lookup"><span data-stu-id="511a6-203">Callout with border and horizontal callout line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout1AccentBar">
@@ -2689,12 +2179,7 @@
       </ReturnValue>
       <MemberValue>113</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-204">Выноска с горизонтальная черта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-204">Callout with horizontal accent bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-204">Выноска с горизонтальной контрастной полосой.</span><span class="sxs-lookup"><span data-stu-id="511a6-204">Callout with horizontal accent bar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout1BorderandAccentBar">
@@ -2713,12 +2198,7 @@
       </ReturnValue>
       <MemberValue>121</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-205">Выноска с границы и горизонтальная черта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-205">Callout with border and horizontal accent bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-205">Выноска с границей и горизонтальной чертой.</span><span class="sxs-lookup"><span data-stu-id="511a6-205">Callout with border and horizontal accent bar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout1NoBorder">
@@ -2737,12 +2217,7 @@
       </ReturnValue>
       <MemberValue>117</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-206">Выноска с горизонтальной линии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-206">Callout with horizontal line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-206">Выноска с горизонтальной строкой.</span><span class="sxs-lookup"><span data-stu-id="511a6-206">Callout with horizontal line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout2">
@@ -2761,12 +2236,7 @@
       </ReturnValue>
       <MemberValue>110</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-207">Выноска с диагональной прямой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-207">Callout with diagonal straight line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-207">Выноска с диагональной прямой строкой.</span><span class="sxs-lookup"><span data-stu-id="511a6-207">Callout with diagonal straight line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout2AccentBar">
@@ -2785,12 +2255,7 @@
       </ReturnValue>
       <MemberValue>114</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-208">Выноска с диагональной выноски строки и вертикальной чертой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-208">Callout with diagonal callout line and accent bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-208">Выноска с диагональной линией выноски и чертой.</span><span class="sxs-lookup"><span data-stu-id="511a6-208">Callout with diagonal callout line and accent bar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout2BorderandAccentBar">
@@ -2809,12 +2274,7 @@
       </ReturnValue>
       <MemberValue>122</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-209">Выноска с границы, диагональные прямой и черта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-209">Callout with border, diagonal straight line, and accent bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-209">Выноска с границей, диагональной линией и чертой.</span><span class="sxs-lookup"><span data-stu-id="511a6-209">Callout with border, diagonal straight line, and accent bar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout2NoBorder">
@@ -2833,12 +2293,7 @@
       </ReturnValue>
       <MemberValue>118</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-210">Выноска без выноски линии границы и вправо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-210">Callout with no border and diagonal callout line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-210">Выноска без границы и диагональной линии выноски.</span><span class="sxs-lookup"><span data-stu-id="511a6-210">Callout with no border and diagonal callout line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout3">
@@ -2857,12 +2312,7 @@
       </ReturnValue>
       <MemberValue>111</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-211">Выноска с угловые строки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-211">Callout with angled line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-211">Выноска со угловой строкой.</span><span class="sxs-lookup"><span data-stu-id="511a6-211">Callout with angled line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout3AccentBar">
@@ -2881,12 +2331,7 @@
       </ReturnValue>
       <MemberValue>115</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-212">Выноска с угловые выноски строки и вертикальной чертой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-212">Callout with angled callout line and accent bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-212">Выноска с угловой линией выноски и чертой.</span><span class="sxs-lookup"><span data-stu-id="511a6-212">Callout with angled callout line and accent bar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout3BorderandAccentBar">
@@ -2905,12 +2350,7 @@
       </ReturnValue>
       <MemberValue>123</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-213">Выноска с границы, линии угловые выноски и черта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-213">Callout with border, angled callout line, and accent bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-213">Выноска с границей, угловой линией выноски и чертой.</span><span class="sxs-lookup"><span data-stu-id="511a6-213">Callout with border, angled callout line, and accent bar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout3NoBorder">
@@ -2929,12 +2369,7 @@
       </ReturnValue>
       <MemberValue>119</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-214">Выноска с нет границы и линии угловые выноски.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-214">Callout with no border and angled callout line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-214">Выноска без границы и угловой линии выноски.</span><span class="sxs-lookup"><span data-stu-id="511a6-214">Callout with no border and angled callout line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout4">
@@ -2953,12 +2388,7 @@
       </ReturnValue>
       <MemberValue>112</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-215">Выноска с выноски отрезков формирование U фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-215">Callout with callout line segments forming a U-shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-215">Выноска с сегментами линии выноски, формирующими U фигуру.</span><span class="sxs-lookup"><span data-stu-id="511a6-215">Callout with callout line segments forming a U-shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout4AccentBar">
@@ -2977,12 +2407,7 @@
       </ReturnValue>
       <MemberValue>116</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-216">Выноска с черта и выноски линия сегменты формирование U фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-216">Callout with accent bar and callout line segments forming a U-shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-216">Выноска с контрастными линиями и линиями выноски, формирующими форму U.</span><span class="sxs-lookup"><span data-stu-id="511a6-216">Callout with accent bar and callout line segments forming a U-shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout4BorderandAccentBar">
@@ -3001,12 +2426,7 @@
       </ReturnValue>
       <MemberValue>124</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-217">Выноска с границы, черта и выноски отрезков формирование U фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-217">Callout with border, accent bar, and callout line segments forming a U-shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-217">Выноска с границей, контрастной линией и линиями выноски, формирующими форму U.</span><span class="sxs-lookup"><span data-stu-id="511a6-217">Callout with border, accent bar, and callout line segments forming a U-shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineCallout4NoBorder">
@@ -3025,12 +2445,7 @@
       </ReturnValue>
       <MemberValue>120</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-218">Выноска с без границ и выноски отрезков формирование U фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-218">Callout with no border and callout line segments forming a U-shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-218">Выноска без границ и сегментов линии выноски, образующих форму U.</span><span class="sxs-lookup"><span data-stu-id="511a6-218">Callout with no border and callout line segments forming a U-shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeLineInverse">
@@ -3182,12 +2597,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-219">Возвращаемое значение. Указывает сочетание других состояний.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-219">Return value only; indicates a combination of the other states.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-219">Только возвращаемое значение; Указывает комбинацию других состояний.</span><span class="sxs-lookup"><span data-stu-id="511a6-219">Return value only; indicates a combination of the other states.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeMoon">
@@ -3206,12 +2616,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-220">Луна.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-220">Moon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-220">Moon.</span><span class="sxs-lookup"><span data-stu-id="511a6-220">Moon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeNonIsoscelesTrapezoid">
@@ -3249,12 +2654,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-221">Символ «Нет».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-221">"No" symbol.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-221">Символ "No".</span><span class="sxs-lookup"><span data-stu-id="511a6-221">"No" symbol.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeNotchedRightArrow">
@@ -3273,12 +2673,7 @@
       </ReturnValue>
       <MemberValue>50</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-222">Стрелка с вырезом блока, который указывает справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-222">Notched block arrow that points right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-222">Прямоугольная стрелка с высечками, указывающая вправо.</span><span class="sxs-lookup"><span data-stu-id="511a6-222">Notched block arrow that points right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeNotPrimitive">
@@ -3297,12 +2692,7 @@
       </ReturnValue>
       <MemberValue>138</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-223">Не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-223">Not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-223">Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="511a6-223">Not supported.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeOctagon">
@@ -3321,12 +2711,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-224">Восьмиугольник.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-224">Octagon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-224">Октагон.</span><span class="sxs-lookup"><span data-stu-id="511a6-224">Octagon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeOval">
@@ -3345,12 +2730,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-225">Овал.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-225">Oval.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-225">Где.</span><span class="sxs-lookup"><span data-stu-id="511a6-225">Oval.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeOvalCallout">
@@ -3369,12 +2749,7 @@
       </ReturnValue>
       <MemberValue>107</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-226">Овальная выноска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-226">Oval-shaped callout.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-226">Выноска в форме овалов.</span><span class="sxs-lookup"><span data-stu-id="511a6-226">Oval-shaped callout.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeParallelogram">
@@ -3393,12 +2768,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-227">Параллелограмм.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-227">Parallelogram.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-227">Вправо.</span><span class="sxs-lookup"><span data-stu-id="511a6-227">Parallelogram.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapePentagon">
@@ -3417,12 +2787,7 @@
       </ReturnValue>
       <MemberValue>51</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-228">Пятиугольник.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-228">Pentagon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-228">Пятиугольник.</span><span class="sxs-lookup"><span data-stu-id="511a6-228">Pentagon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapePie">
@@ -3479,12 +2844,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-229">Табличку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-229">Plaque.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-229">Плакуе.</span><span class="sxs-lookup"><span data-stu-id="511a6-229">Plaque.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapePlaqueTabs">
@@ -3522,12 +2882,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-230">Блокировать стрелок, указывающих вверх, вниз, влево и правой кнопкой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-230">Block arrows that point up, down, left, and right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-230">Фигурные стрелки, указывающие вверх, вниз, влево и вправо.</span><span class="sxs-lookup"><span data-stu-id="511a6-230">Block arrows that point up, down, left, and right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeQuadArrowCallout">
@@ -3546,12 +2901,7 @@
       </ReturnValue>
       <MemberValue>59</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-231">Выноска со стрелками, выберите пункт вверх, вниз, слева и правой кнопкой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-231">Callout with arrows that point up, down, left, and right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-231">Выноска со стрелками, указывающими вверх, вниз, влево и вправо.</span><span class="sxs-lookup"><span data-stu-id="511a6-231">Callout with arrows that point up, down, left, and right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRectangle">
@@ -3570,12 +2920,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-232">Прямоугольник.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-232">Rectangle.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-232">Раскрашива.</span><span class="sxs-lookup"><span data-stu-id="511a6-232">Rectangle.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRectangularCallout">
@@ -3594,12 +2939,7 @@
       </ReturnValue>
       <MemberValue>105</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-233">Прямоугольный выноски.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-233">Rectangular callout.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-233">Прямоугольная выноска.</span><span class="sxs-lookup"><span data-stu-id="511a6-233">Rectangular callout.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRegularPentagon">
@@ -3618,12 +2958,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-234">Пятиугольник.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-234">Pentagon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-234">Пятиугольник.</span><span class="sxs-lookup"><span data-stu-id="511a6-234">Pentagon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRightArrow">
@@ -3642,12 +2977,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-235">Стрелка блока, который указывает справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-235">Block arrow that points right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-235">Блоковая стрелка, указывающая вправо.</span><span class="sxs-lookup"><span data-stu-id="511a6-235">Block arrow that points right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRightArrowCallout">
@@ -3666,12 +2996,7 @@
       </ReturnValue>
       <MemberValue>53</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-236">Выноска с стрелка, указывающая вправо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-236">Callout with arrow that points right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-236">Выноска со стрелкой, указывающей вправо.</span><span class="sxs-lookup"><span data-stu-id="511a6-236">Callout with arrow that points right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRightBrace">
@@ -3690,12 +3015,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-237">Закрывающая фигурная скобка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-237">Right brace.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-237">Правая фигурная скобка.</span><span class="sxs-lookup"><span data-stu-id="511a6-237">Right brace.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRightBracket">
@@ -3714,12 +3034,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-238">Правая квадратная скобка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-238">Right bracket.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-238">Правая скобка.</span><span class="sxs-lookup"><span data-stu-id="511a6-238">Right bracket.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRightTriangle">
@@ -3738,12 +3053,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-239">Треугольник вправо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-239">Right triangle.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-239">Правый треугольник.</span><span class="sxs-lookup"><span data-stu-id="511a6-239">Right triangle.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRound1Rectangle">
@@ -3819,12 +3129,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-240">Скругленными углами.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-240">Rounded rectangle.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-240">Скругленный прямоугольник.</span><span class="sxs-lookup"><span data-stu-id="511a6-240">Rounded rectangle.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeRoundedRectangularCallout">
@@ -3843,12 +3148,7 @@
       </ReturnValue>
       <MemberValue>106</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-241">Округленный прямоугольник образный выноски.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-241">Rounded rectangle-shaped callout.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-241">Скругленная выноска в форме прямоугольника.</span><span class="sxs-lookup"><span data-stu-id="511a6-241">Rounded rectangle-shaped callout.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeSmileyFace">
@@ -3867,12 +3167,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-242">Улыбающееся лицо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-242">Smiley face.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-242">Улыбающееся лицо.</span><span class="sxs-lookup"><span data-stu-id="511a6-242">Smiley face.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeSnip1Rectangle">
@@ -3986,12 +3281,7 @@
       </ReturnValue>
       <MemberValue>49</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-243">Блокировать стрелка, указывающая вправо с полосы в оконечных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-243">Block arrow that points right with stripes at the tail.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-243">Блоковая стрелка, указывающая вправо с использованием полос на хвосте.</span><span class="sxs-lookup"><span data-stu-id="511a6-243">Block arrow that points right with stripes at the tail.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeSun">
@@ -4010,12 +3300,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-244">Sun.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-244">Sun.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-244">Sun.</span><span class="sxs-lookup"><span data-stu-id="511a6-244">Sun.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeSwooshArrow">
@@ -4072,12 +3357,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-245">Трапеции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-245">Trapezoid.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-245">Трапеци.</span><span class="sxs-lookup"><span data-stu-id="511a6-245">Trapezoid.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeUpArrow">
@@ -4096,12 +3376,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-246">Блокировать стрелка, указывающая вверх.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-246">Block arrow that points up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-246">Заблокирующая стрелка, указывающая вверх.</span><span class="sxs-lookup"><span data-stu-id="511a6-246">Block arrow that points up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeUpArrowCallout">
@@ -4120,12 +3395,7 @@
       </ReturnValue>
       <MemberValue>55</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-247">Выноска со стрелкой, указывающей вверх.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-247">Callout with arrow that points up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-247">Выноска со стрелкой, указывающей вверх.</span><span class="sxs-lookup"><span data-stu-id="511a6-247">Callout with arrow that points up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeUpDownArrow">
@@ -4144,12 +3414,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-248">Блок стрелка, указывающая вверх и вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-248">Block arrow that points up and down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-248">Фигурная стрелка, указывающая вверх и вниз.</span><span class="sxs-lookup"><span data-stu-id="511a6-248">Block arrow that points up and down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeUpDownArrowCallout">
@@ -4168,12 +3433,7 @@
       </ReturnValue>
       <MemberValue>58</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-249">Выноска с помощью кнопок со стрелками вверх и вниз выберите команду.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-249">Callout with arrows that point up and down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-249">Выноска со стрелками, указывающими вверх и вниз.</span><span class="sxs-lookup"><span data-stu-id="511a6-249">Callout with arrows that point up and down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeUpRibbon">
@@ -4192,12 +3452,7 @@
       </ReturnValue>
       <MemberValue>97</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-250">Баннер ленты с областью центр над ленты завершается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-250">Ribbon banner with center area above ribbon ends.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-250">Заголовок ленты с областью, расположенной выше ленты, в конце концов.</span><span class="sxs-lookup"><span data-stu-id="511a6-250">Ribbon banner with center area above ribbon ends.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeUTurnArrow">
@@ -4216,12 +3471,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-251">Блокировать стрелка формирование U фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-251">Block arrow forming a U shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-251">Блочная стрелка, образующая фигуру U.</span><span class="sxs-lookup"><span data-stu-id="511a6-251">Block arrow forming a U shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeVerticalScroll">
@@ -4240,12 +3490,7 @@
       </ReturnValue>
       <MemberValue>101</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-252">Прокрутки по вертикали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-252">Vertical scroll.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-252">Вертикальная прокрутка.</span><span class="sxs-lookup"><span data-stu-id="511a6-252">Vertical scroll.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeWave">
@@ -4264,12 +3509,7 @@
       </ReturnValue>
       <MemberValue>103</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="00cb9-253">Звукового файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="00cb9-253">Wave.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="511a6-253">WAV.</span><span class="sxs-lookup"><span data-stu-id="511a6-253">Wave.</span></span></summary>
       </Docs>
     </Member>
   </Members>

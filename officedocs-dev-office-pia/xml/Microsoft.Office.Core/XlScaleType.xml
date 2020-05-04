@@ -1,13 +1,5 @@
 <Type Name="XlScaleType" FullName="Microsoft.Office.Core.XlScaleType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e8121f6b1e89afd15d423f49828dadfdc356de97" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661989" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlScaleType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e8121f6b1e89afd15d423f49828dadfdc356de97" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661989" /></Metadata><TypeSignature Language="C#" Value="public enum XlScaleType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlScaleType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlScaleType" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlScaleType" />
@@ -28,16 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="fa4cb-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fa4cb-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="fa4cb-102">Указывает тип шкалы оси значений.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fa4cb-102">Specifies the scale type of the value axis.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="1d966-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="1d966-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="1d966-102">Задает тип масштаба оси значений.</span><span class="sxs-lookup"><span data-stu-id="1d966-102">Specifies the scale type of the value axis.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -57,16 +40,7 @@
       </ReturnValue>
       <MemberValue>-4132</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa4cb-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa4cb-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fa4cb-104">Линейная.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa4cb-104">Linear.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1d966-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="1d966-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="1d966-104">Письмо.</span><span class="sxs-lookup"><span data-stu-id="1d966-104">Linear.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlScaleLogarithmic">
@@ -85,16 +59,7 @@
       </ReturnValue>
       <MemberValue>-4133</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa4cb-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa4cb-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fa4cb-106">Устранить.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa4cb-106">Logarithmic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1d966-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="1d966-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="1d966-106">Logarithmic.</span><span class="sxs-lookup"><span data-stu-id="1d966-106">Logarithmic.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="XlTimeUnit" FullName="Microsoft.Office.Core.XlTimeUnit">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d69cb4220d4b7c7f178df81a7fa6e496ad7ada05" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662163" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlTimeUnit" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d69cb4220d4b7c7f178df81a7fa6e496ad7ada05" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662163" /></Metadata><TypeSignature Language="C#" Value="public enum XlTimeUnit" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlTimeUnit extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlTimeUnit" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlTimeUnit" />
@@ -28,16 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="fece7-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fece7-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="fece7-102">Указывает единицы измерения времени.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fece7-102">Indicates units of time measurement.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="72dbb-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="72dbb-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="72dbb-102">Указывает единицы измерения времени.</span><span class="sxs-lookup"><span data-stu-id="72dbb-102">Indicates units of time measurement.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -57,16 +40,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fece7-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fece7-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fece7-104">Указывает день единиц измерения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fece7-104">Specifies Day units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72dbb-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="72dbb-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="72dbb-104">Указывает единицы дня.</span><span class="sxs-lookup"><span data-stu-id="72dbb-104">Specifies Day units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMonths">
@@ -85,16 +59,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fece7-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fece7-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fece7-106">Указывает единицы месяца.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fece7-106">Specifies Month units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72dbb-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="72dbb-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="72dbb-106">Задает единицы измерения месяца.</span><span class="sxs-lookup"><span data-stu-id="72dbb-106">Specifies Month units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlYears">
@@ -113,16 +78,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fece7-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fece7-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fece7-108">Указывает единицы года.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fece7-108">Specifies Year units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72dbb-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="72dbb-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="72dbb-108">Указывает единицы измерения года.</span><span class="sxs-lookup"><span data-stu-id="72dbb-108">Specifies Year units.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="MsoShapeType" FullName="Microsoft.Office.Core.MsoShapeType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="84f4025bcb9f052dd494dec91f61b6b25a893273" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661914" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoShapeType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="84f4025bcb9f052dd494dec91f61b6b25a893273" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661914" /></Metadata><TypeSignature Language="C#" Value="public enum MsoShapeType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoShapeType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoShapeType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoShapeType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="8fb99-101">Указывает тип фигуры или диапазона фигур.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8fb99-101">Specifies the type of a shape or range of shapes.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="91185-101">Указывает тип фигуры или диапазона фигур.</span><span class="sxs-lookup"><span data-stu-id="91185-101">Specifies the type of a shape or range of shapes.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-102">Автофигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-102">AutoShape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-102">Автофигуры.</span><span class="sxs-lookup"><span data-stu-id="91185-102">AutoShape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCallout">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-103">Выноски.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-103">Callout.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-103">Выноски.</span><span class="sxs-lookup"><span data-stu-id="91185-103">Callout.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCanvas">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-104">Полотно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-104">Canvas.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-104">Броск.</span><span class="sxs-lookup"><span data-stu-id="91185-104">Canvas.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoChart">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-105">Диаграмма.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-105">Chart.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-105">Нескольких.</span><span class="sxs-lookup"><span data-stu-id="91185-105">Chart.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoComment">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-106">Примечание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-106">Comment.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-106">Комментарий.</span><span class="sxs-lookup"><span data-stu-id="91185-106">Comment.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagram">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-107">Схема.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-107">Diagram.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-107">Схематическо.</span><span class="sxs-lookup"><span data-stu-id="91185-107">Diagram.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEmbeddedOLEObject">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-108">Внедренный объект OLE.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-108">Embedded OLE object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-108">Внедренный объект OLE.</span><span class="sxs-lookup"><span data-stu-id="91185-108">Embedded OLE object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFormControl">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-109">Элемент управления формы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-109">Form control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-109">Элемент управления формы.</span><span class="sxs-lookup"><span data-stu-id="91185-109">Form control.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFreeform">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-110">Freeform.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-110">Freeform.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-110">Полилини.</span><span class="sxs-lookup"><span data-stu-id="91185-110">Freeform.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGroup">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-111">В группе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-111">Group.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-111">Группы.</span><span class="sxs-lookup"><span data-stu-id="91185-111">Group.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoInk">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-112">Рукописный ввод.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-112">Ink.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-112">Чернил.</span><span class="sxs-lookup"><span data-stu-id="91185-112">Ink.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoInkComment">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-113">Рукописного ввода комментариев.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-113">Ink comment.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-113">Рукописный комментарий.</span><span class="sxs-lookup"><span data-stu-id="91185-113">Ink comment.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLine">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-114">Строка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-114">Line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-114">Междустрочный.</span><span class="sxs-lookup"><span data-stu-id="91185-114">Line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLinkedOLEObject">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-115">Связанный объект OLE.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-115">Linked OLE object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-115">Связанный объект OLE.</span><span class="sxs-lookup"><span data-stu-id="91185-115">Linked OLE object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLinkedPicture">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-116">Связанный рисунок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-116">Linked picture.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-116">Связанное изображение.</span><span class="sxs-lookup"><span data-stu-id="91185-116">Linked picture.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMedia">
@@ -405,12 +317,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-117">Мультимедиа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-117">Media.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-117">СМИ.</span><span class="sxs-lookup"><span data-stu-id="91185-117">Media.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoOLEControlObject">
@@ -429,12 +336,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-118">Объект элемента управления OLE.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-118">OLE control object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-118">Объект управления OLE.</span><span class="sxs-lookup"><span data-stu-id="91185-118">OLE control object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPicture">
@@ -453,12 +355,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-119">Рисунок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-119">Picture.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-119">Графические.</span><span class="sxs-lookup"><span data-stu-id="91185-119">Picture.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPlaceholder">
@@ -477,12 +374,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-120">Заполнитель.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-120">Placeholder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-120">Нагляд.</span><span class="sxs-lookup"><span data-stu-id="91185-120">Placeholder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoScriptAnchor">
@@ -501,12 +393,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-121">Скрипт привязки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-121">Script anchor.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-121">Привязка скрипта.</span><span class="sxs-lookup"><span data-stu-id="91185-121">Script anchor.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShapeTypeMixed">
@@ -525,12 +412,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-122">Возвращаемое значение. Указывает сочетание других состояний.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-122">Return value only; indicates a combination of the other states.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-122">Только возвращаемое значение; Указывает комбинацию других состояний.</span><span class="sxs-lookup"><span data-stu-id="91185-122">Return value only; indicates a combination of the other states.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSlicer">
@@ -587,12 +469,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-123">В таблице.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-123">Table.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-123">Приведен.</span><span class="sxs-lookup"><span data-stu-id="91185-123">Table.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextBox">
@@ -611,12 +488,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-124">Текстовое поле.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-124">Text box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-124">Текстовое поле.</span><span class="sxs-lookup"><span data-stu-id="91185-124">Text box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffect">
@@ -635,12 +507,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-125">Влияние текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-125">Text effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-125">Текстовый эффекты.</span><span class="sxs-lookup"><span data-stu-id="91185-125">Text effect.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWebVideo">
@@ -659,12 +526,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fb99-126">Веб-видео.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fb99-126">Web video.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="91185-126">Видео из Интернета.</span><span class="sxs-lookup"><span data-stu-id="91185-126">Web video.</span></span></summary>
       </Docs>
     </Member>
   </Members>

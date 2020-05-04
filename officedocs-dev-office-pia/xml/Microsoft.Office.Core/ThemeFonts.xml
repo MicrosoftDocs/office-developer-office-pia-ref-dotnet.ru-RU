@@ -1,13 +1,5 @@
 <Type Name="ThemeFonts" FullName="Microsoft.Office.Core.ThemeFonts">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5bf3ed1d190df6caa4f91f9cf72b5819f00e08ae" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662541" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ThemeFonts : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5bf3ed1d190df6caa4f91f9cf72b5819f00e08ae" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662541" /></Metadata><TypeSignature Language="C#" Value="public interface ThemeFonts : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ThemeFonts implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ThemeFonts" />
   <TypeSignature Language="VB.NET" Value="Public Interface ThemeFonts&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,12 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="d524a-101">Представляет коллекцию основные и вспомогательные шрифты в схеме шрифтов темы Microsoft Office 2007.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d524a-101">Represents a collection of major and minor fonts in the font scheme of a Microsoft Office 2007 theme.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="03670-101">Представляет коллекцию основных и дополнительных шрифтов в схеме шрифтов темы Microsoft Office 2007.</span><span class="sxs-lookup"><span data-stu-id="03670-101">Represents a collection of major and minor fonts in the font scheme of a Microsoft Office 2007 theme.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -68,26 +55,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d524a-102">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.ThemeFonts" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.ThemeFonts" /> object.</span>
-          </span>
-          <span data-ttu-id="d524a-103">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-103">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d524a-104">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-104">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="03670-102">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.ThemeFonts" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="03670-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.ThemeFonts" /> object.</span></span> <span data-ttu-id="03670-103">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="03670-103">Read-only.</span></span></summary>
+        <value><span data-ttu-id="03670-104"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="03670-104"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -114,26 +83,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d524a-105">Получает количество элементов в <see cref="T:Microsoft.Office.Core.ThemeFonts" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-105">Gets the number of items in the <see cref="T:Microsoft.Office.Core.ThemeFonts" /> collection.</span>
-          </span>
-          <span data-ttu-id="d524a-106">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-106">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d524a-107">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-107">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="03670-105">Получает количество элементов в <see cref="T:Microsoft.Office.Core.ThemeFonts" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="03670-105">Gets the number of items in the <see cref="T:Microsoft.Office.Core.ThemeFonts" /> collection.</span></span> <span data-ttu-id="03670-106">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="03670-106">Read-only.</span></span></summary>
+        <value><span data-ttu-id="03670-107"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="03670-107"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -163,26 +114,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d524a-108">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.ThemeFonts" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-108">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.ThemeFonts" /> object was created.</span>
-          </span>
-          <span data-ttu-id="d524a-109">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-109">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d524a-110">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-110">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="03670-108">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.ThemeFonts" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="03670-108">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.ThemeFonts" /> object was created.</span></span> <span data-ttu-id="03670-109">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="03670-109">Read-only.</span></span></summary>
+        <value><span data-ttu-id="03670-110"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="03670-110"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -241,28 +174,9 @@
         <Parameter Name="Index" Type="Microsoft.Office.Core.MsoFontLanguageIndex" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="d524a-111">Значение индекса <see cref="T:Microsoft.Office.Core.ThemeFont" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-111">The index value of the <see cref="T:Microsoft.Office.Core.ThemeFont" /> object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d524a-112">Получает один из трех языковых шрифтов, содержащихся в <see cref="T:Microsoft.Office.Core.ThemeFonts" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-112">Gets one of the three language fonts contained in the <see cref="T:Microsoft.Office.Core.ThemeFonts" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="d524a-113">
-            <b>ThemeFont</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-113">
-              <b>ThemeFont</b>
-            </span>
-          </span>
-        </returns>
+        <param name="Index"><span data-ttu-id="03670-111">Значение индекса <see cref="T:Microsoft.Office.Core.ThemeFont" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="03670-111">The index value of the <see cref="T:Microsoft.Office.Core.ThemeFont" /> object.</span></span></param>
+        <summary><span data-ttu-id="03670-112">Получает один из трех языковых шрифтов, <see cref="T:Microsoft.Office.Core.ThemeFonts" /> включенных в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="03670-112">Gets one of the three language fonts contained in the <see cref="T:Microsoft.Office.Core.ThemeFonts" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="03670-113"><b>ThemeFont</b></span><span class="sxs-lookup"><span data-stu-id="03670-113"><b>ThemeFont</b></span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -289,26 +203,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d524a-114">Получает родительский объект для <see cref="T:Microsoft.Office.Core.ThemeFonts" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-114">Gets the parent object for the <see cref="T:Microsoft.Office.Core.ThemeFonts" /> object.</span>
-          </span>
-          <span data-ttu-id="d524a-115">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-115">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d524a-116">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d524a-116">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="03670-114">Получает родительский объект для <see cref="T:Microsoft.Office.Core.ThemeFonts" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="03670-114">Gets the parent object for the <see cref="T:Microsoft.Office.Core.ThemeFonts" /> object.</span></span> <span data-ttu-id="03670-115">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="03670-115">Read-only.</span></span></summary>
+        <value><span data-ttu-id="03670-116"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="03670-116"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

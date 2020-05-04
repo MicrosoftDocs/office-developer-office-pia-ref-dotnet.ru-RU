@@ -1,13 +1,5 @@
 <Type Name="OfficeDataSourceObject" FullName="Microsoft.Office.Core.OfficeDataSourceObject">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f7a7993dfa02a8e524fe1d5f38ac42df92252892" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662609" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OfficeDataSourceObject" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f7a7993dfa02a8e524fe1d5f38ac42df92252892" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662609" /></Metadata><TypeSignature Language="C#" Value="public interface OfficeDataSourceObject" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OfficeDataSourceObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.OfficeDataSourceObject" />
   <TypeSignature Language="VB.NET" Value="Public Interface OfficeDataSourceObject" />
@@ -26,26 +18,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="f6683-101">Представляет источник данных слияния почты в ходе операции слияния почты.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f6683-101">Represents the mail merge data source in a mail merge operation.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="f6683-102">
-        <para>Для работы с объектом <b>OfficeDataSourceObject</b> аналитики переменную как объект <b>OfficeDataSourceObject</b> . Затем можно работать с различные свойства и методы, связанные с объектом.</para>
-        <para>Использования <see cref="M:Microsoft.Office.Core.OfficeDataSourceObject.SetSortOrder(System.String,System.Boolean,System.String,System.Boolean,System.String,System.Boolean)" /> метод, чтобы указать порядок сортировки записей в источнике данных. Использование <see cref="P:Microsoft.Office.Core.ODSOFilter.Column" />, <see cref="P:Microsoft.Office.Core.ODSOFilter.Comparison" />, <see cref="P:Microsoft.Office.Core.ODSOFilter.CompareTo" />, и <see cref="P:Microsoft.Office.Core.ODSOFilter.Conjunction" /> свойства для возвращения или задания условия запроса источника данных.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f6683-102">
-          <para>To work with the <b>OfficeDataSourceObject</b> object, dimension a variable as an <b>OfficeDataSourceObject</b> object. You can then work with the different properties and methods associated with the object.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Core.OfficeDataSourceObject.SetSortOrder(System.String,System.Boolean,System.String,System.Boolean,System.String,System.Boolean)" /> method to specify how to sort the records in a data source. Use the <see cref="P:Microsoft.Office.Core.ODSOFilter.Column" />, <see cref="P:Microsoft.Office.Core.ODSOFilter.Comparison" />, <see cref="P:Microsoft.Office.Core.ODSOFilter.CompareTo" />, and <see cref="P:Microsoft.Office.Core.ODSOFilter.Conjunction" /> properties to return or set the data source query criterion.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="3547d-101">Представляет источник данных слияния почты в операции слияния почты.</span><span class="sxs-lookup"><span data-stu-id="3547d-101">Represents the mail merge data source in a mail merge operation.</span></span></summary>
+    <remarks><span data-ttu-id="3547d-102"><para>Для работы с объектом <b>OfficeDataSourceObject</b> измерение a переменная в качестве объекта <b>OfficeDataSourceObject</b> . Затем можно работать с различными свойствами и методами, связанными с объектом.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.OfficeDataSourceObject.SetSortOrder(System.String,System.Boolean,System.String,System.Boolean,System.String,System.Boolean)" /> метод, чтобы указать способ сортировки записей в источнике данных. Для возврата <see cref="P:Microsoft.Office.Core.ODSOFilter.Column" />или <see cref="P:Microsoft.Office.Core.ODSOFilter.Comparison" />задания <see cref="P:Microsoft.Office.Core.ODSOFilter.CompareTo" />условия запроса <see cref="P:Microsoft.Office.Core.ODSOFilter.Conjunction" /> источника данных используются свойства,, и.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="3547d-102"><para>To work with the <b>OfficeDataSourceObject</b> object, dimension a variable as an <b>OfficeDataSourceObject</b> object. You can then work with the different properties and methods associated with the object.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Core.OfficeDataSourceObject.SetSortOrder(System.String,System.Boolean,System.String,System.Boolean,System.String,System.Boolean)" /> method to specify how to sort the records in a data source. Use the <see cref="P:Microsoft.Office.Core.ODSOFilter.Column" />, <see cref="P:Microsoft.Office.Core.ODSOFilter.Comparison" />, <see cref="P:Microsoft.Office.Core.ODSOFilter.CompareTo" />, and <see cref="P:Microsoft.Office.Core.ODSOFilter.Conjunction" /> properties to return or set the data source query criterion.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="ApplyFilter">
@@ -69,12 +47,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="f6683-103">Применение фильтра к источнику данных слияния почты для фильтрации указанной записи, удовлетворяющие заданным критериям.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-103">Applies a filter to a mail merge data source to filter specified records meeting specified criteria.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3547d-103">Применяет фильтр к источнику данных слияния, чтобы отфильтровать указанные записи, удовлетворяющие заданным условиям.</span><span class="sxs-lookup"><span data-stu-id="3547d-103">Applies a filter to a mail merge data source to filter specified records meeting specified criteria.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -101,12 +74,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6683-104">Возвращает <see cref="T:Microsoft.Office.Core.ODSOColumns" /> объект, представляющий поля в источнике данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-104">Returns an <see cref="T:Microsoft.Office.Core.ODSOColumns" /> object that represents the fields in a data source.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3547d-104">Возвращает <see cref="T:Microsoft.Office.Core.ODSOColumns" /> объект, представляющий поля в источнике данных.</span><span class="sxs-lookup"><span data-stu-id="3547d-104">Returns an <see cref="T:Microsoft.Office.Core.ODSOColumns" /> object that represents the fields in a data source.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -137,12 +105,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6683-105">Возвращает или задает <b>строку</b> , представляющую подключения для указанного источника данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-105">Returns or sets a <b>String</b> that represents the connection to the specified mail merge data source.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3547d-105">Возвращает или задает <b>строку</b> , которая представляет подключение к указанному источнику данных слияния.</span><span class="sxs-lookup"><span data-stu-id="3547d-105">Returns or sets a <b>String</b> that represents the connection to the specified mail merge data source.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -173,12 +136,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6683-106">Возвращает или задает <b>строку</b> , представляющую имя источника данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-106">Returns or sets a <b>String</b> that represents the name of the attached data source.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3547d-106">Возвращает или задает <b>строку</b> , представляющую имя присоединенного источника данных.</span><span class="sxs-lookup"><span data-stu-id="3547d-106">Returns or sets a <b>String</b> that represents the name of the attached data source.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -206,12 +164,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6683-107">Возвращает <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-107">Returns a <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3547d-107">Возвращает <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> коллекцию.</span><span class="sxs-lookup"><span data-stu-id="3547d-107">Returns a <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> collection.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -238,45 +191,13 @@
         <Parameter Name="RowNbr" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="MsoMoveRow">
-          <span data-ttu-id="f6683-108">Требуется <see cref="T:Microsoft.Office.Core.MsoMoveRow" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-108">Required <see cref="T:Microsoft.Office.Core.MsoMoveRow" />.</span>
-          </span>
-          <span data-ttu-id="f6683-109">Строка, которая получает фокус.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-109">The row that receives the focus.</span>
-          </span>
-        </param>
-        <param name="RowNbr">
-          <span data-ttu-id="f6683-110">Необязательный атрибут типа <b>Integer</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-110">Optional <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="f6683-111">Номер строки строку, в которой установлен фокус.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-111">The row number of the row that receives the focus.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6683-112">Перемещает фокус указанной строки в источнике данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-112">Moves the focus to a specified row in a mail merge data source.</span>
-          </span>
-        </summary>
+        <param name="MsoMoveRow"><span data-ttu-id="3547d-108">Обязательный <see cref="T:Microsoft.Office.Core.MsoMoveRow" />.</span><span class="sxs-lookup"><span data-stu-id="3547d-108">Required <see cref="T:Microsoft.Office.Core.MsoMoveRow" />.</span></span> <span data-ttu-id="3547d-109">Строка, которая получает фокус.</span><span class="sxs-lookup"><span data-stu-id="3547d-109">The row that receives the focus.</span></span></param>
+        <param name="RowNbr"><span data-ttu-id="3547d-110">Необязательное <b>целое число</b>.</span><span class="sxs-lookup"><span data-stu-id="3547d-110">Optional <b>Integer</b>.</span></span> <span data-ttu-id="3547d-111">Номер строки, которая получает фокус.</span><span class="sxs-lookup"><span data-stu-id="3547d-111">The row number of the row that receives the focus.</span></span></param>
+        <summary><span data-ttu-id="3547d-112">Перемещает фокус на указанную строку в источнике данных слияния.</span><span class="sxs-lookup"><span data-stu-id="3547d-112">Moves the focus to a specified row in a mail merge data source.</span></span></summary>
         <returns>To be added.</returns>
-        <remarks>
-          <span data-ttu-id="f6683-113">
-            <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-113">
-              <para>Some of the content in this topic may not be applicable to some languages.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="3547d-113"><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="3547d-113"><para>Some of the content in this topic may not be applicable to some languages.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Open">
@@ -305,62 +226,12 @@
         <Parameter Name="fNeverPrompt" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="bstrSrc">
-          <span data-ttu-id="f6683-114">Необязательный атрибут типа <b>String</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-114">Optional <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="f6683-115">Имя источника данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-115">The name of the data source.</span>
-          </span>
-        </param>
-        <param name="bstrConnect">
-          <span data-ttu-id="f6683-116">Необязательный атрибут типа <b>String</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-116">Optional <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="f6683-117">Строка подключения к источнику данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-117">The connection string to the data source.</span>
-          </span>
-        </param>
-        <param name="bstrTable">
-          <span data-ttu-id="f6683-118">Необязательный атрибут типа <b>String</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-118">Optional <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="f6683-119">Имя таблицы в источнике данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-119">The name of a table in the data source.</span>
-          </span>
-        </param>
-        <param name="fOpenExclusive">
-          <span data-ttu-id="f6683-120">Необязательный атрибут типа <b>Integer</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-120">Optional <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="f6683-121">Задает источник данных открыт для исключительных доступа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-121">Sets whether the data source is opened for exclusive access.</span>
-          </span>
-        </param>
-        <param name="fNeverPrompt">
-          <span data-ttu-id="f6683-122">Необязательный атрибут типа <b>Integer</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-122">Optional <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="f6683-123">Задает отображения приглашения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-123">Sets whether prompts are displayed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6683-124">Открывает подключение к источнику данных слияния почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-124">Opens a connection to a mail merge data source.</span>
-          </span>
-        </summary>
+        <param name="bstrSrc"><span data-ttu-id="3547d-114">Необязательная <b>строка</b>.</span><span class="sxs-lookup"><span data-stu-id="3547d-114">Optional <b>String</b>.</span></span> <span data-ttu-id="3547d-115">Имя источника данных.</span><span class="sxs-lookup"><span data-stu-id="3547d-115">The name of the data source.</span></span></param>
+        <param name="bstrConnect"><span data-ttu-id="3547d-116">Необязательная <b>строка</b>.</span><span class="sxs-lookup"><span data-stu-id="3547d-116">Optional <b>String</b>.</span></span> <span data-ttu-id="3547d-117">Строка подключения к источнику данных.</span><span class="sxs-lookup"><span data-stu-id="3547d-117">The connection string to the data source.</span></span></param>
+        <param name="bstrTable"><span data-ttu-id="3547d-118">Необязательная <b>строка</b>.</span><span class="sxs-lookup"><span data-stu-id="3547d-118">Optional <b>String</b>.</span></span> <span data-ttu-id="3547d-119">Имя таблицы в источнике данных.</span><span class="sxs-lookup"><span data-stu-id="3547d-119">The name of a table in the data source.</span></span></param>
+        <param name="fOpenExclusive"><span data-ttu-id="3547d-120">Необязательное <b>целое число</b>.</span><span class="sxs-lookup"><span data-stu-id="3547d-120">Optional <b>Integer</b>.</span></span> <span data-ttu-id="3547d-121">Указывает, открыт ли источник данных для монопольного доступа.</span><span class="sxs-lookup"><span data-stu-id="3547d-121">Sets whether the data source is opened for exclusive access.</span></span></param>
+        <param name="fNeverPrompt"><span data-ttu-id="3547d-122">Необязательное <b>целое число</b>.</span><span class="sxs-lookup"><span data-stu-id="3547d-122">Optional <b>Integer</b>.</span></span> <span data-ttu-id="3547d-123">Указывает, отображаются ли приглашения.</span><span class="sxs-lookup"><span data-stu-id="3547d-123">Sets whether prompts are displayed.</span></span></param>
+        <summary><span data-ttu-id="3547d-124">Открывает подключение к источнику данных слияния.</span><span class="sxs-lookup"><span data-stu-id="3547d-124">Opens a connection to a mail merge data source.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -387,12 +258,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6683-125">Возвращает <b>целое число</b> , представляющее количество записей в источнике данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-125">Returns an <b>Integer</b> that represents the number of records in the specified data source.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3547d-125">Возвращает <b>целое</b> число, представляющее количество записей в указанном источнике данных.</span><span class="sxs-lookup"><span data-stu-id="3547d-125">Returns an <b>Integer</b> that represents the number of records in the specified data source.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -424,88 +290,13 @@
         <Parameter Name="SortAscending3" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="SortField1">
-          <span data-ttu-id="f6683-126">
-            <b>Строковое значение.</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-126">Required <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="f6683-127">Первое поле, по которому выполняется сортировка данных слияния почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-127">The first field on which to sort the mail merge data.</span>
-          </span>
-        </param>
-        <param name="SortAscending1">
-          <span data-ttu-id="f6683-128">Необязательный атрибут типа <b>Boolean</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-128">Optional <b>Boolean</b>.</span>
-          </span>
-          <span data-ttu-id="f6683-129">
-            <b>Значение true</b> (по умолчанию) для выполнения сортировки по возрастанию для <paramref name="SortField1" />; <b>Значение false</b> для выполнения по убыванию сортировка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-129">
-              <b>True</b> (default) to perform an ascending sort on <paramref name="SortField1" />; <b>False</b> to perform a descending sort.</span>
-          </span>
-        </param>
-        <param name="SortField2">
-          <span data-ttu-id="f6683-130">Необязательный атрибут типа <b>String</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-130">Optional <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="f6683-131">Второе поле, по которому выполняется сортировка данных слияния почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-131">The second field on which to sort the mail merge data.</span>
-          </span>
-          <span data-ttu-id="f6683-132">Значение по умолчанию — пустая строка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-132">Default is an empty string.</span>
-          </span>
-        </param>
-        <param name="SortAscending2">
-          <span data-ttu-id="f6683-133">Необязательный атрибут типа <b>Boolean</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-133">Optional <b>Boolean</b>.</span>
-          </span>
-          <span data-ttu-id="f6683-134">
-            <b>Значение true</b> (по умолчанию) для выполнения сортировки по возрастанию для <paramref name="SortField2" />; <b>Значение false</b> для выполнения по убыванию сортировка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-134">
-              <b>True</b> (default) to perform an ascending sort on <paramref name="SortField2" />; <b>False</b> to perform a descending sort.</span>
-          </span>
-        </param>
-        <param name="SortField3">
-          <span data-ttu-id="f6683-135">Необязательный атрибут типа <b>String</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-135">Optional <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="f6683-136">Третий поле, по которому выполняется сортировка данных слияния почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-136">The third field on which to sort the mail merge data.</span>
-          </span>
-          <span data-ttu-id="f6683-137">Значение по умолчанию — пустая строка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-137">Default is an empty string.</span>
-          </span>
-        </param>
-        <param name="SortAscending3">
-          <span data-ttu-id="f6683-138">Необязательный атрибут типа <b>Boolean</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-138">Optional <b>Boolean</b>.</span>
-          </span>
-          <span data-ttu-id="f6683-139">
-            <b>Значение true</b> (по умолчанию) для выполнения сортировки по возрастанию для <paramref name="SortField3" />; <b>Значение false</b> для выполнения по убыванию сортировка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-139">
-              <b>True</b> (default) to perform an ascending sort on <paramref name="SortField3" />; <b>False</b> to perform a descending sort.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f6683-140">Задает порядок сортировки для слияния данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-140">Sets the sort order for mail merge data.</span>
-          </span>
-        </summary>
+        <param name="SortField1"><span data-ttu-id="3547d-126">Обязательный атрибут типа <b>String</b>.</span><span class="sxs-lookup"><span data-stu-id="3547d-126">Required <b>String</b>.</span></span> <span data-ttu-id="3547d-127">Первое поле, по которому выполняется сортировка данных слияния почты.</span><span class="sxs-lookup"><span data-stu-id="3547d-127">The first field on which to sort the mail merge data.</span></span></param>
+        <param name="SortAscending1"><span data-ttu-id="3547d-128">Необязательный атрибут типа <b>Boolean</b>.</span><span class="sxs-lookup"><span data-stu-id="3547d-128">Optional <b>Boolean</b>.</span></span> <span data-ttu-id="3547d-129"><b>True</b> (по умолчанию), чтобы выполнить сортировку <paramref name="SortField1" />по возрастанию; <b>Значение false</b> , чтобы выполнить сортировку по убыванию.</span><span class="sxs-lookup"><span data-stu-id="3547d-129"><b>True</b> (default) to perform an ascending sort on <paramref name="SortField1" />; <b>False</b> to perform a descending sort.</span></span></param>
+        <param name="SortField2"><span data-ttu-id="3547d-130">Необязательная <b>строка</b>.</span><span class="sxs-lookup"><span data-stu-id="3547d-130">Optional <b>String</b>.</span></span> <span data-ttu-id="3547d-131">Второе поле, по которому выполняется сортировка данных слияния почты.</span><span class="sxs-lookup"><span data-stu-id="3547d-131">The second field on which to sort the mail merge data.</span></span> <span data-ttu-id="3547d-132">Значение по умолчанию — пустая строка.</span><span class="sxs-lookup"><span data-stu-id="3547d-132">Default is an empty string.</span></span></param>
+        <param name="SortAscending2"><span data-ttu-id="3547d-133">Необязательный атрибут типа <b>Boolean</b>.</span><span class="sxs-lookup"><span data-stu-id="3547d-133">Optional <b>Boolean</b>.</span></span> <span data-ttu-id="3547d-134"><b>True</b> (по умолчанию), чтобы выполнить сортировку <paramref name="SortField2" />по возрастанию; <b>Значение false</b> , чтобы выполнить сортировку по убыванию.</span><span class="sxs-lookup"><span data-stu-id="3547d-134"><b>True</b> (default) to perform an ascending sort on <paramref name="SortField2" />; <b>False</b> to perform a descending sort.</span></span></param>
+        <param name="SortField3"><span data-ttu-id="3547d-135">Необязательная <b>строка</b>.</span><span class="sxs-lookup"><span data-stu-id="3547d-135">Optional <b>String</b>.</span></span> <span data-ttu-id="3547d-136">Третье поле, для которого необходимо отсортировать данные слияния почты.</span><span class="sxs-lookup"><span data-stu-id="3547d-136">The third field on which to sort the mail merge data.</span></span> <span data-ttu-id="3547d-137">Значение по умолчанию — пустая строка.</span><span class="sxs-lookup"><span data-stu-id="3547d-137">Default is an empty string.</span></span></param>
+        <param name="SortAscending3"><span data-ttu-id="3547d-138">Необязательный атрибут типа <b>Boolean</b>.</span><span class="sxs-lookup"><span data-stu-id="3547d-138">Optional <b>Boolean</b>.</span></span> <span data-ttu-id="3547d-139"><b>True</b> (по умолчанию), чтобы выполнить сортировку <paramref name="SortField3" />по возрастанию; <b>Значение false</b> , чтобы выполнить сортировку по убыванию.</span><span class="sxs-lookup"><span data-stu-id="3547d-139"><b>True</b> (default) to perform an ascending sort on <paramref name="SortField3" />; <b>False</b> to perform a descending sort.</span></span></param>
+        <summary><span data-ttu-id="3547d-140">Задает порядок сортировки данных слияния почты.</span><span class="sxs-lookup"><span data-stu-id="3547d-140">Sets the sort order for mail merge data.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -535,25 +326,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f6683-141">Возвращает <b>строку</b> , представляющую имя таблицы в данных исходный файл, содержащий записи слияния почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-141">Returns a <b>String</b> that represents the name of the table within the data source file that contains the mail merge records.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3547d-141">Возвращает <b>строку</b> , представляющую имя таблицы в файле источника данных, которая содержит записи слияния почты.</span><span class="sxs-lookup"><span data-stu-id="3547d-141">Returns a <b>String</b> that represents the name of the table within the data source file that contains the mail merge records.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f6683-142">
-            <para>Возвращаемое значение может быть пустым, если имя таблицы неизвестна или не применим к текущему источнику данных.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f6683-142">
-              <para>The returned value may be blank if the table name is unknown or not applicable to the current data source.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="3547d-142"><para>Возвращаемое значение может быть пустым, если имя таблицы неизвестно или неприменимо к текущему источнику данных.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="3547d-142"><para>The returned value may be blank if the table name is unknown or not applicable to the current data source.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

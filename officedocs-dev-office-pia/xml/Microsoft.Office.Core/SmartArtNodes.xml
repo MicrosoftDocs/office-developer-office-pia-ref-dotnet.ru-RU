@@ -1,13 +1,5 @@
 <Type Name="SmartArtNodes" FullName="Microsoft.Office.Core.SmartArtNodes">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5b97a5fbf8ac632e4f765e2c99e02cd3de432910" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661689" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartArtNodes : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5b97a5fbf8ac632e4f765e2c99e02cd3de432910" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661689" /></Metadata><TypeSignature Language="C#" Value="public interface SmartArtNodes : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArtNodes implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArtNodes" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartArtNodes&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,24 +25,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="eed3a-101">Представляет коллекцию узлов в пределах схемы SmartArt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="eed3a-101">Represents a collection of nodes within a SmartArt diagram.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="eed3a-102">
-        <para>Эти узлы напрямую соответствуют семантических элементы в модели данных графического объекта.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="eed3a-102">
-          <para>These nodes correspond directly to semantic elements in the data model of the graphic.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="e95b0-101">Представляет коллекцию узлов в схеме SmartArt.</span><span class="sxs-lookup"><span data-stu-id="e95b0-101">Represents a collection of nodes within a SmartArt diagram.</span></span></summary>
+    <remarks><span data-ttu-id="e95b0-102"><para>Эти узлы относятся непосредственно к семантическим элементам в модели данных графического объекта.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="e95b0-102"><para>These nodes correspond directly to semantic elements in the data model of the graphic.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -74,12 +52,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="eed3a-103">Добавляет новый <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объект, который требуется схема с указанный текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eed3a-103">Adds a new <see cref="T:Microsoft.Office.Core.SmartArtNode" /> object to the diagram with specified text.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e95b0-103">Добавляет на схему <see cref="T:Microsoft.Office.Core.SmartArtNode" /> новый объект с указанным текстом.</span><span class="sxs-lookup"><span data-stu-id="e95b0-103">Adds a new <see cref="T:Microsoft.Office.Core.SmartArtNode" /> object to the diagram with specified text.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,25 +83,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eed3a-104">Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>SmartArtNodes</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eed3a-104">Gets a <see cref="T:System.Object" /> object that represents the container application for the <b>SmartArtNodes</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e95b0-104">Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>SmartArtNodes</b> .</span><span class="sxs-lookup"><span data-stu-id="e95b0-104">Gets a <see cref="T:System.Object" /> object that represents the container application for the <b>SmartArtNodes</b> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eed3a-105">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eed3a-105">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="e95b0-105"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e95b0-105"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -154,25 +113,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eed3a-106">Получает число <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объектов, содержащихся в коллекции <b>SmartArtNodes</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eed3a-106">Gets the number of <see cref="T:Microsoft.Office.Core.SmartArtNode" /> objects contained within the <b>SmartArtNodes</b>collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e95b0-106">Получает число <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объектов, содержащихся в коллекции <b>SmartArtNodes</b>.</span><span class="sxs-lookup"><span data-stu-id="e95b0-106">Gets the number of <see cref="T:Microsoft.Office.Core.SmartArtNode" /> objects contained within the <b>SmartArtNodes</b>collection.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eed3a-107">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eed3a-107">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="e95b0-107"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e95b0-107"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -201,25 +146,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eed3a-108">Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>SmartArtNodes</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eed3a-108">Gets a 32-bit integer that indicates the application in which the <b>SmartArtNodes</b> object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e95b0-108">Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>SmartArtNodes</b> .</span><span class="sxs-lookup"><span data-stu-id="e95b0-108">Gets a 32-bit integer that indicates the application in which the <b>SmartArtNodes</b> object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eed3a-109">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eed3a-109">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="e95b0-109"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e95b0-109"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -250,12 +181,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>
-          <span data-ttu-id="eed3a-110">Возвращает <see cref="T:System.Collections.IEnumerator" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eed3a-110">Returns <see cref="T:System.Collections.IEnumerator" />.</span>
-          </span>
-        </returns>
+        <returns><span data-ttu-id="e95b0-110">Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</span><span class="sxs-lookup"><span data-stu-id="e95b0-110">Returns <see cref="T:System.Collections.IEnumerator" />.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -285,18 +211,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="eed3a-111">Указывает расположение индекса или строка <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eed3a-111">Specifies either the index or a string the location of the <see cref="T:Microsoft.Office.Core.SmartArtNode" /> object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="eed3a-112">Получает <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объекта по указанному индексу или с указанным уникальным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eed3a-112">Gets a <see cref="T:Microsoft.Office.Core.SmartArtNode" /> object at the specified index or with the specified unique identifier.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="e95b0-111">Указывает индекс или строковое расположение <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="e95b0-111">Specifies either the index or a string the location of the <see cref="T:Microsoft.Office.Core.SmartArtNode" /> object.</span></span></param>
+        <summary><span data-ttu-id="e95b0-112">Возвращает <see cref="T:Microsoft.Office.Core.SmartArtNode" /> объект по указанному индексу или по указанному уникальному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="e95b0-112">Gets a <see cref="T:Microsoft.Office.Core.SmartArtNode" /> object at the specified index or with the specified unique identifier.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -324,25 +240,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eed3a-113">Получает объект, вызывающий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eed3a-113">Gets the calling object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e95b0-113">Получает вызывающий объект.</span><span class="sxs-lookup"><span data-stu-id="e95b0-113">Gets the calling object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eed3a-114">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eed3a-114">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="e95b0-114"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="e95b0-114"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

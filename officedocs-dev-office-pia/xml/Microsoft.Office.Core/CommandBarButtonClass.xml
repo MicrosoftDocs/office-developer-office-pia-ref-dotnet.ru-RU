@@ -1,13 +1,5 @@
 <Type Name="CommandBarButtonClass" FullName="Microsoft.Office.Core.CommandBarButtonClass">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8b3e7fc397c554c922459191bea11d96a5bfd07f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661838" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class CommandBarButtonClass : Microsoft.Office.Core.CommandBarButton" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8b3e7fc397c554c922459191bea11d96a5bfd07f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661838" /></Metadata><TypeSignature Language="C#" Value="public class CommandBarButtonClass : Microsoft.Office.Core.CommandBarButton" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi CommandBarButtonClass extends System.Object implements class Microsoft.Office.Core._CommandBarButton, class Microsoft.Office.Core._CommandBarButtonEvents_Event, class Microsoft.Office.Core.CommandBarButton" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBarButtonClass" />
   <TypeSignature Language="VB.NET" Value="Public Class CommandBarButtonClass&#xA;Implements CommandBarButton" />
@@ -36,12 +28,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="d96f5-101">Зарезервировано для внутреннего использования.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d96f5-101">Reserved for internal use.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="36930-101">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="36930-101">Reserved for internal use.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -882,39 +869,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d96f5-102">Имеет <b>значение True</b> , при исходной встроенных поверхность рабочего элемента управления кнопки панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-102">Is <b>True</b> if the face of a command bar button control is its original built-in face.</span>
-          </span>
-          <span data-ttu-id="d96f5-103">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-103">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="36930-102">Имеет <b>значение true</b> , если гранью элемента управления "Кнопка" панели команд является ее первоначальный встроенный рисунок.</span><span class="sxs-lookup"><span data-stu-id="36930-102">Is <b>True</b> if the face of a command bar button control is its original built-in face.</span></span> <span data-ttu-id="36930-103">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="36930-103">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d96f5-104">
-            <para>Это свойство можно задать только <b>значение True</b>, что приведет к сбросу лицевой встроенных лиц. Чтение и запись <b>типа Boolean</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-104">
-              <para>This property can only be set to <b>True</b>, which will reset the face to the built-in face. Read/write <b>Boolean</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="d96f5-105">
-            <para>В этом примере определяет, является ли лицо первый элемент управления на панели именованные «Custom» команд его встроенных кнопка. Если он установлен, в примере копируется поверхность кнопки в буфер обмена.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-105">
-              <para>This example determines whether the face of the first control on the command bar named "Custom" is its built-in button face. If it is, the example copies the button face to the Clipboard.</para>
-            </span>
-          </span>
-        </example>
+        <remarks><span data-ttu-id="36930-104"><para>Этому свойству можно присвоить значение <b>true</b>, чтобы сбросить начертание к встроенному фрагменту. <b>Логический</b>доступ для чтения и записи.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="36930-104"><para>This property can only be set to <b>True</b>, which will reset the face to the built-in face. Read/write <b>Boolean</b>.</para>
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="36930-105"><para>В этом примере определяется, является ли значок первого элемента управления на панели команд именем "Custom" встроенным лицом кнопки. Если это так, в примере в буфер обмена копируется грань кнопки.</para></span><span class="sxs-lookup"><span data-stu-id="36930-105"><para>This example determines whether the face of the first control on the command bar named "Custom" is its built-in button face. If it is, the example copies the button face to the Clipboard.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -1064,34 +1024,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="d96f5-106">Копирует лицевой панели элемента управления Кнопка команд в буфер обмена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-106">Copies the face of a command bar button control to the Clipboard.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="d96f5-107">
-            <para>Используйте метод <b>PasteFace</b> Вставка содержимого буфера обмена на поверхность кнопки.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-107">
-              <para>Use the <b>PasteFace</b> method to paste the contents of the Clipboard onto a button face.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="d96f5-108">
-            <para>В этом примере выполняется поиск встроенных кнопку Открыть, копирует поверхность кнопки в буфер обмена и вставляет вставлялись на кнопку «правописание».</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-108">
-              <para>This example finds the built-in Open button, copies the button face to the Clipboard, and then pastes the face onto the Spelling and Grammar button.</para>
-            </span>
-          </span>
-        </example>
+        <summary><span data-ttu-id="36930-106">Копирует значок элемента управления кнопка панели команд в буфер обмена.</span><span class="sxs-lookup"><span data-stu-id="36930-106">Copies the face of a command bar button control to the Clipboard.</span></span></summary>
+        <remarks><span data-ttu-id="36930-107"><para>Используйте метод <b>PasteFace</b> , чтобы вставить содержимое буфера обмена на поверхность кнопки.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="36930-107"><para>Use the <b>PasteFace</b> method to paste the contents of the Clipboard onto a button face.</para>
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="36930-108"><para>В этом примере выполняется поиск встроенной кнопки "Открыть", копирование лицевой стороны кнопки в буфер обмена, после чего она будет вставлена на кнопку правописания и грамматики.</para></span><span class="sxs-lookup"><span data-stu-id="36930-108"><para>This example finds the built-in Open button, copies the button face to the Clipboard, and then pastes the face onto the Spelling and Grammar button.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -1280,43 +1217,16 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d96f5-109">Получает или задает идентификатор для грани <b>CommandBarButton</b> управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-109">Gets or sets the Id number for the face of a <b>CommandBarButton</b> control.</span>
-          </span>
-          <span data-ttu-id="d96f5-110">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-110">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="36930-109">Получает или задает идентификационный номер грани элемента управления <b>CommandBarButton</b> .</span><span class="sxs-lookup"><span data-stu-id="36930-109">Gets or sets the Id number for the face of a <b>CommandBarButton</b> control.</span></span> <span data-ttu-id="36930-110">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="36930-110">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d96f5-111">
-            <para>Свойство <b>FaceId</b> определяет внешний вид, не функции, кнопки панели команд. Свойство <b>Id</b> объекта <b>CommandBarControl</b> определяет функции кнопки.</para>
-            <para />
-            <para>Нуль (0) — это значение свойства <b>FaceId</b> для кнопки командной строки с помощью настраиваемого лицевой.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-111">
-              <para>The <b>FaceId</b> property dictates the look, not the function, of a command bar button. The <b>Id</b> property of the <b>CommandBarControl</b> object determines the function of the button.</para>
-              <para />
-              <para>The value of the <b>FaceId</b> property for a command bar button with a custom face is 0 (zero).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="d96f5-112">
-            <para>В этом примере добавляется кнопки панели команд пользовательской панели команд. При нажатии этой кнопки эквивалент щелчка мыши в меню Файл команду Открыть, так как идентификатор является 23, но кнопка имеет же кнопка как встроенную кнопку диаграммы.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-112">
-              <para>This example adds a command bar button to a custom command bar. Clicking this button is equivalent to clicking the Open command on the File menu because the ID number is 23, yet the button has the same button face as the built-in Charting button.</para>
-            </span>
-          </span>
-        </example>
+        <remarks><span data-ttu-id="36930-111"><para>Свойство <b>FaceId</b> определяет внешний вид кнопки панели команд, а не функции. Свойство <b>ID</b> объекта <b>CommandBarControl</b> определяет функцию кнопки.</para> 
+          <para /> 
+          <para>Значение свойства <b>FaceId</b> для кнопки панели команд с произвольным лицом — 0 (ноль).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="36930-111"><para>The <b>FaceId</b> property dictates the look, not the function, of a command bar button. The <b>Id</b> property of the <b>CommandBarControl</b> object determines the function of the button.</para>
+          <para />
+          <para>The value of the <b>FaceId</b> property for a command bar button with a custom face is 0 (zero).</para>
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="36930-112"><para>В этом примере на настраиваемую панель команд добавляется кнопка панели команд. Нажатие этой кнопки эквивалентно нажатию команды открыть в меню файл, так как номер ID равен 23, но кнопка имеет ту же самую кнопку, что и встроенная кнопка диаграммы.</para></span><span class="sxs-lookup"><span data-stu-id="36930-112"><para>This example adds a command bar button to a custom command bar. Clicking this button is equivalent to clicking the Open command on the File menu because the ID number is 23, yet the button has the same button face as the built-in Charting button.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -1450,28 +1360,10 @@
         <ReturnType>Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d96f5-113">Задает или возвращает константу <b>MsoCommandBarButtonHyperlinkType</b> , представляющий тип гиперссылки, связанной с указанной кнопки панели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-113">Sets or gets a <b>MsoCommandBarButtonHyperlinkType</b> constant that represents the type of hyperlink associated with the specified command bar button.</span>
-          </span>
-          <span data-ttu-id="d96f5-114">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-114">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="36930-113">Задает или получает константу <b>мсокоммандбарбуттонхиперлинктипе</b> , представляющую тип гиперссылки, связанной с указанной кнопкой панели команд.</span><span class="sxs-lookup"><span data-stu-id="36930-113">Sets or gets a <b>MsoCommandBarButtonHyperlinkType</b> constant that represents the type of hyperlink associated with the specified command bar button.</span></span> <span data-ttu-id="36930-114">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="36930-114">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <example>
-          <span data-ttu-id="d96f5-115">
-            <para>В этом примере проверяется свойство <b>HyperlinkType</b> для кнопки указанного командной строки на панели команд, с именем «Custom».. Если <b>HyperlinkType</b><b>msoCommandBarButtonHyperlinkNone</b>, в примере присваивает свойству значение <b>msoCommandBarButtonHyperlinkOpen</b> и задает URL-адрес www.microsoft.com.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-115">
-              <para>This example checks the <b>HyperlinkType</b> property for the specified command bar button on the command bar named "Custom.". If <b>HyperlinkType</b> is set to <b>msoCommandBarButtonHyperlinkNone</b>, the example sets the property to <b>msoCommandBarButtonHyperlinkOpen</b> and sets the URL to www.microsoft.com.</para>
-            </span>
-          </span>
-        </example>
+        <example><span data-ttu-id="36930-115"><para>В этом примере проверяется свойство <b>хиперлинктипе</b> для указанной кнопки панели команд на панели команд с именем "Custom.". Если для <b>хиперлинктипе</b> задано значение <b>мсокоммандбарбуттонхиперлинкноне</b>, для свойства задается значение <b>мсокоммандбарбуттонхиперлинкопен</b> , и URL-адресу присваивается значение www.Microsoft.com.</para></span><span class="sxs-lookup"><span data-stu-id="36930-115"><para>This example checks the <b>HyperlinkType</b> property for the specified command bar button on the command bar named "Custom.". If <b>HyperlinkType</b> is set to <b>msoCommandBarButtonHyperlinkNone</b>, the example sets the property to <b>msoCommandBarButtonHyperlinkOpen</b> and sets the URL to www.microsoft.com.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -1698,49 +1590,18 @@
         <ReturnType>stdole.IPictureDisp</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d96f5-116">Получает или задает объект <b>IPictureDisp</b> , представляющий изображение маска <b>CommandBarButton</b> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-116">Gets or sets an <b>IPictureDisp</b> object representing the mask image of a <b>CommandBarButton</b> object.</span>
-          </span>
-          <span data-ttu-id="d96f5-117">Изображение маска определяет, какие части изображения кнопки прозрачны.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-117">The mask image determines what parts of the button image are transparent.</span>
-          </span>
-          <span data-ttu-id="d96f5-118">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-118">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="36930-116">Получает или задает объект <b>ипиктуредисп</b> , представляющий изображение маски объекта <b>CommandBarButton</b> .</span><span class="sxs-lookup"><span data-stu-id="36930-116">Gets or sets an <b>IPictureDisp</b> object representing the mask image of a <b>CommandBarButton</b> object.</span></span> <span data-ttu-id="36930-117">Изображение маски определяет, какие части изображения кнопки будут прозрачными.</span><span class="sxs-lookup"><span data-stu-id="36930-117">The mask image determines what parts of the button image are transparent.</span></span> <span data-ttu-id="36930-118">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="36930-118">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d96f5-119">
-            <para>При создании изображения, которое планируется использовать как изображение маска, все области, которые необходимо объединить прозрачной должен быть белым и все области, чтобы показать должен быть черным.</para>
-            <para />
-            <para>Всегда Установка маски после установки изображение для объекта <b>CommandBarButton</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-119">
-              <para>When you create an image that you plan on using as a mask image, all of the areas that you want to be transparent should be white, and all of the areas that you want to show should be black.</para>
-              <para />
-              <para>Always set the mask after you have set the picture for a <b>CommandBarButton</b> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="d96f5-120">
-            <para>В следующем примере задается изображения и маска первого <b>CommandBarButton</b> , которое возвращает код. Для этого, создать изображения маски и изображения кнопки и sustitute пути в пример пути к изображениям.</para>
-            <para>В следующем примере получается изображения и маска первого <b>CommandBarButton</b> , что возвращаются и выводит каждого из них в файл. Чтобы выполнить эту операцию, укажите путь для выходные файлы.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-120">
-              <para>The following example sets the image and mask of the first <b>CommandBarButton</b> that the code returns. To make this work, create a mask image and a button image and sustitute the paths in the sample with the paths to your images.</para>
-              <para>The following example gets the image and mask of the first <b>CommandBarButton</b> that the code returns and outputs each of them to a file. To make this work, specify a path for the output files.</para>
-            </span>
-          </span>
-        </example>
+        <remarks><span data-ttu-id="36930-119"><para>При создании изображения, которое планируется использовать в качестве маски, все области, которые должны быть прозрачными, должны быть белыми, а все области, которые необходимо отобразить, должны быть черными.</para> 
+          <para /> 
+          <para>Всегда задавайте маску после того, как вы задаете изображение для объекта <b>CommandBarButton</b> .</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="36930-119"><para>When you create an image that you plan on using as a mask image, all of the areas that you want to be transparent should be white, and all of the areas that you want to show should be black.</para>
+          <para />
+          <para>Always set the mask after you have set the picture for a <b>CommandBarButton</b> object.</para>
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="36930-120"><para>В приведенном ниже примере задаются изображение и маска первого <b>CommandBarButton</b> , возвращаемого кодом. Чтобы сделать это, создайте изображение маски и значок кнопки и суституте пути в примере с путями к изображениям.</para> 
+          <para>В следующем примере показано, как получить изображение и маску первого <b>CommandBarButton</b> , которые код возвращает и выводит каждое из них в файл. Чтобы выполнить эту работу, укажите путь к выходным файлам.</para></span><span class="sxs-lookup"><span data-stu-id="36930-120"><para>The following example sets the image and mask of the first <b>CommandBarButton</b> that the code returns. To make this work, create a mask image and a button image and sustitute the paths in the sample with the paths to your images.</para>
+          <para>The following example gets the image and mask of the first <b>CommandBarButton</b> that the code returns and outputs each of them to a file. To make this work, specify a path for the output files.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -1933,23 +1794,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="d96f5-121">Вставка содержимого буфера обмена <b>CommandBarButton</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-121">Pastes the contents of the Clipboard onto a <b>CommandBarButton</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="36930-121">Вставит содержимое буфера обмена на <b>CommandBarButton</b>.</span><span class="sxs-lookup"><span data-stu-id="36930-121">Pastes the contents of the Clipboard onto a <b>CommandBarButton</b>.</span></span></summary>
         <remarks>To be added.</remarks>
-        <example>
-          <span data-ttu-id="d96f5-122">
-            <para>В этом примере выполняется поиск встроенную кнопку FileOpen и вставляет грани из проверки орфографии и грамматики кнопка на него из буфера обмена.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-122">
-              <para>This example finds the built-in FileOpen button and pastes the face from the Spelling and Grammar button onto it from the Clipboard.</para>
-            </span>
-          </span>
-        </example>
+        <example><span data-ttu-id="36930-122"><para>В этом примере выполняется поиск встроенной кнопки FileOpen и ее вставки из буфера обмена на кнопку правописания и грамматики.</para></span><span class="sxs-lookup"><span data-stu-id="36930-122"><para>This example finds the built-in FileOpen button and pastes the face from the Spelling and Grammar button onto it from the Clipboard.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Picture">
@@ -1984,47 +1831,20 @@
         <ReturnType>stdole.IPictureDisp</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d96f5-123">Получает или задает объект <b>IPictureDisp</b> , представляющий изображение <b>CommandBarButton</b> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-123">Gets or sets an <b>IPictureDisp</b> object representing the image of a <b>CommandBarButton</b> object.</span>
-          </span>
-          <span data-ttu-id="d96f5-124">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-124">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="36930-123">Получает или задает объект <b>ипиктуредисп</b> , представляющий изображение объекта <b>CommandBarButton</b> .</span><span class="sxs-lookup"><span data-stu-id="36930-123">Gets or sets an <b>IPictureDisp</b> object representing the image of a <b>CommandBarButton</b> object.</span></span> <span data-ttu-id="36930-124">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="36930-124">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d96f5-125">
-            <para>При внесении изменений изображение на кнопке, необходимо также использовать свойство <b>Маска</b> для определения маска изображения. Изображение маска определяет, какие части изображения кнопки прозрачны. Задавайте набор маски после установки изображение для объекта <b>CommandBarButton</b> .</para>
-            <para />
-            <para>
-              <b>Примечание</b>: изображения для представления Microsoft<paramref name="Application" /> и вставка			<paramref name="Item" /> кнопки на панели инструментов Стандартная в редакторе Visual Basic не может быть изменен.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-125">
-              <para>When you change the image on a button, you will also want to use the <b>Mask</b> property to set a mask image. The mask image determines which parts of the button image are transparent. Always set the mask after you have set the picture for a <b>CommandBarButton</b> object.</para>
-              <para />
-              <para>
-                <b>Note</b>: The images for the View Microsoft<paramref name="Application" /> and Insert			<paramref name="Item" /> buttons on the Standard toolbar in the Visual Basic Editor cannot be changed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="d96f5-126">
-            <para>В следующем примере задается изображения и маска первого <b>CommandBarButton</b> , которое возвращает код. Этой функции необходимо выполнение, Создание изображения маски и изображение кнопки и заменить пути в образце пути к изображениям.</para>
-            <para>В следующем примере получается изображения и маска первого <b>CommandBarButton</b> , что возвращаются и выводит каждого из них в файл. Чтобы выполнить эту операцию, укажите путь для выходные файлы.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-126">
-              <para>The following example sets the image and mask of the first <b>CommandBarButton</b> that the code returns. To make this work, create a mask image and a button image and substitute the paths in the sample with the paths to your images.</para>
-              <para>The following example gets the image and mask of the first <b>CommandBarButton</b> that the code returns and outputs each of them to a file. To make this work, specify a path for the output files.</para>
-            </span>
-          </span>
-        </example>
+        <remarks><span data-ttu-id="36930-125"><para>При изменении изображения на кнопке также необходимо использовать свойство <b>Mask</b> , чтобы задать изображение маски. Изображение маски определяет, какая часть изображения кнопки является прозрачной. Всегда задавайте маску после того, как вы задаете изображение для объекта <b>CommandBarButton</b> .</para> 
+          <para /> 
+          <para> 
+            <b>Note</b>: изображения для кнопок "Просмотреть Майкрософт<paramref name="Application" /> " и			<paramref name="Item" /> "вставить" на панели инструментов "Стандартная" в редакторе Visual Basic изменить нельзя.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="36930-125"><para>When you change the image on a button, you will also want to use the <b>Mask</b> property to set a mask image. The mask image determines which parts of the button image are transparent. Always set the mask after you have set the picture for a <b>CommandBarButton</b> object.</para>
+          <para />
+          <para>
+            <b>Note</b>: The images for the View Microsoft<paramref name="Application" /> and Insert			<paramref name="Item" /> buttons on the Standard toolbar in the Visual Basic Editor cannot be changed.</para>
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="36930-126"><para>В приведенном ниже примере задаются изображение и маска первого <b>CommandBarButton</b> , возвращаемого кодом. Чтобы сделать это, создайте изображение маски и значок на кнопке и замените пути в примере на пути к изображениям.</para> 
+          <para>В следующем примере показано, как получить изображение и маску первого <b>CommandBarButton</b> , которые код возвращает и выводит каждое из них в файл. Чтобы выполнить эту работу, укажите путь к выходным файлам.</para></span><span class="sxs-lookup"><span data-stu-id="36930-126"><para>The following example sets the image and mask of the first <b>CommandBarButton</b> that the code returns. To make this work, create a mask image and a button image and substitute the paths in the sample with the paths to your images.</para>
+          <para>The following example gets the image and mask of the first <b>CommandBarButton</b> that the code returns and outputs each of them to a file. To make this work, specify a path for the output files.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Priority">
@@ -2363,39 +2183,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d96f5-127">Получает или задает текст клавиши быстрого отображаться рядом с элементом управления <b>CommandBarButton</b> , когда кнопка появляется в меню, подменю или контекстное меню.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-127">Gets or sets the shortcut key text displayed next to a <b>CommandBarButton</b> control when the button appears on a menu, submenu, or shortcut menu.</span>
-          </span>
-          <span data-ttu-id="d96f5-128">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-128">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="36930-127">Получает или задает текст сочетания клавиш, отображаемый рядом с элементом управления <b>CommandBarButton</b> при отображении кнопки в меню, подменю или в контекстном меню.</span><span class="sxs-lookup"><span data-stu-id="36930-127">Gets or sets the shortcut key text displayed next to a <b>CommandBarButton</b> control when the button appears on a menu, submenu, or shortcut menu.</span></span> <span data-ttu-id="36930-128">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="36930-128">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d96f5-129">
-            <para>Можно задать это свойство только для кнопки панели команд, содержащих макросе <b>OnAction</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-129">
-              <para>You can set this property only for command bar buttons that contain an <b>OnAction</b> macro.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="d96f5-130">
-            <para>В этом примере отображается текст ярлык для команды Open (меню "файл") в строке меню лист Microsoft Excel, в окне сообщения.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d96f5-130">
-              <para>This example displays the shortcut text for the Open command (File menu) on the Microsoft Excel Worksheet menu bar in a message box.</para>
-            </span>
-          </span>
-        </example>
+        <remarks><span data-ttu-id="36930-129"><para>Это свойство можно задать только для кнопок панели команд, содержащих макрос <b>onAction</b> .</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="36930-129"><para>You can set this property only for command bar buttons that contain an <b>OnAction</b> macro.</para>
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="36930-130"><para>В этом примере отображается контекстный текст команды Открыть (меню "файл") в строке меню листа Microsoft Excel в окне сообщения.</para></span><span class="sxs-lookup"><span data-stu-id="36930-130"><para>This example displays the shortcut text for the Open command (File menu) on the Microsoft Excel Worksheet menu bar in a message box.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="State">

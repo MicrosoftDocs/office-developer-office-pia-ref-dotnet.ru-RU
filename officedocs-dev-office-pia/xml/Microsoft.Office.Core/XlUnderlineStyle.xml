@@ -1,13 +1,5 @@
 <Type Name="XlUnderlineStyle" FullName="Microsoft.Office.Core.XlUnderlineStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d0359b7d8d58e73d1297158710702560de6f97f3" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661719" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlUnderlineStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d0359b7d8d58e73d1297158710702560de6f97f3" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661719" /></Metadata><TypeSignature Language="C#" Value="public enum XlUnderlineStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlUnderlineStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlUnderlineStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlUnderlineStyle" />
@@ -28,16 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="fccef-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fccef-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="fccef-102">Указывает тип подчеркивание шрифта.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fccef-102">Specifies the type of underline applied to a font.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="5fb7d-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="5fb7d-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="5fb7d-102">Указывает тип подчеркивания, примененного к шрифту.</span><span class="sxs-lookup"><span data-stu-id="5fb7d-102">Specifies the type of underline applied to a font.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -57,16 +40,7 @@
       </ReturnValue>
       <MemberValue>-4119</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fccef-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fccef-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fccef-104">Двойная толстой линией.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fccef-104">Double thick underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5fb7d-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="5fb7d-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="5fb7d-104">Двойное толстое подчеркивание.</span><span class="sxs-lookup"><span data-stu-id="5fb7d-104">Double thick underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlUnderlineStyleDoubleAccounting">
@@ -85,16 +59,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fccef-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fccef-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fccef-106">Два тонкие подчеркивание произведен близко друг к другу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fccef-106">Two thin underlines placed close together.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5fb7d-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="5fb7d-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="5fb7d-106">Две тонких подчеркивания, которые располагаются близко друг к другу.</span><span class="sxs-lookup"><span data-stu-id="5fb7d-106">Two thin underlines placed close together.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlUnderlineStyleNone">
@@ -113,16 +78,7 @@
       </ReturnValue>
       <MemberValue>-4142</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fccef-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fccef-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fccef-108">Нет подчеркивание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fccef-108">No underlining.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5fb7d-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="5fb7d-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="5fb7d-108">Без подчеркивания.</span><span class="sxs-lookup"><span data-stu-id="5fb7d-108">No underlining.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlUnderlineStyleSingle">
@@ -141,16 +97,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fccef-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fccef-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fccef-110">Один подчеркивание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fccef-110">Single underlining.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5fb7d-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="5fb7d-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="5fb7d-110">Одинарное подчеркивание.</span><span class="sxs-lookup"><span data-stu-id="5fb7d-110">Single underlining.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlUnderlineStyleSingleAccounting">
@@ -169,16 +116,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fccef-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fccef-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fccef-112">Не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fccef-112">Not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5fb7d-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="5fb7d-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="5fb7d-112">Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="5fb7d-112">Not supported.</span></span></summary>
       </Docs>
     </Member>
   </Members>

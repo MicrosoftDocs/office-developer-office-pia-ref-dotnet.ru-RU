@@ -1,13 +1,5 @@
 <Type Name="MsoTextOrientation" FullName="Microsoft.Office.Core.MsoTextOrientation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="89f1ec05b852f55f6f50bf73b521360e1c9f7154" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661661" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoTextOrientation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="89f1ec05b852f55f6f50bf73b521360e1c9f7154" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661661" /></Metadata><TypeSignature Language="C#" Value="public enum MsoTextOrientation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextOrientation extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextOrientation" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoTextOrientation" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="c31b8-101">Задает направление для текста.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c31b8-101">Specifies orientation for text.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="4d5d4-101">Задает ориентацию текста.</span><span class="sxs-lookup"><span data-stu-id="4d5d4-101">Specifies orientation for text.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c31b8-102">Вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c31b8-102">Downward.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4d5d4-102">Сторону.</span><span class="sxs-lookup"><span data-stu-id="4d5d4-102">Downward.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextOrientationHorizontal">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c31b8-103">Горизонтальная.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c31b8-103">Horizontal.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4d5d4-103">Полос.</span><span class="sxs-lookup"><span data-stu-id="4d5d4-103">Horizontal.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextOrientationHorizontalRotatedFarEast">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c31b8-104">Горизонтальная и вращение в соответствии с требованиями для Дальнего Востока языковая поддержка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c31b8-104">Horizontal and rotated as required for Far East language support.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4d5d4-104">Горизонтально и повернуто по мере необходимости для поддержки Дальнего Востока языков.</span><span class="sxs-lookup"><span data-stu-id="4d5d4-104">Horizontal and rotated as required for Far East language support.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextOrientationMixed">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c31b8-105">Не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c31b8-105">Not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4d5d4-105">Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="4d5d4-105">Not supported.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextOrientationUpward">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c31b8-106">Вверх.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c31b8-106">Upward.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4d5d4-106">Диагональ.</span><span class="sxs-lookup"><span data-stu-id="4d5d4-106">Upward.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextOrientationVertical">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c31b8-107">По вертикали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c31b8-107">Vertical.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4d5d4-107">Расположение.</span><span class="sxs-lookup"><span data-stu-id="4d5d4-107">Vertical.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextOrientationVerticalFarEast">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c31b8-108">При необходимости для Дальнего Востока языковая поддержка по вертикали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c31b8-108">Vertical as required for Far East language support.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4d5d4-108">По вертикали в соответствии с поддержкой Дальнего Востока языков.</span><span class="sxs-lookup"><span data-stu-id="4d5d4-108">Vertical as required for Far East language support.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="MsoPresetThreeDFormat" FullName="Microsoft.Office.Core.MsoPresetThreeDFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ce90bfa51cb5627ae97af68172850f5f1b8468c4" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661720" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetThreeDFormat" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ce90bfa51cb5627ae97af68172850f5f1b8468c4" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661720" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetThreeDFormat" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetThreeDFormat extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetThreeDFormat" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetThreeDFormat" />
@@ -20,24 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="80648-101">Формат придания объема (трехмерная).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="80648-101">Specifies an extrusion (three-dimensional) format.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="80648-102">
-        <para>Константы <b>msoPresetThreeDFormat</b> нумеруются в соответствии с порядком (слева направо, сверху вниз), в котором они представлены в объемных стиль кнопки на панели инструментов Форматирование.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="80648-102">
-          <para>The <b>msoPresetThreeDFormat</b> constants are numbered according to the order (left to right, top to bottom) in which they are shown in the 3-D Style button on the Formatting toolbar. </para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="ee64f-101">Задает формат объемной фигуры (объемный).</span><span class="sxs-lookup"><span data-stu-id="ee64f-101">Specifies an extrusion (three-dimensional) format.</span></span></summary>
+    <remarks><span data-ttu-id="ee64f-102"><para>Константы <b>мсопресетсридформат</b> пронумерованы в соответствии с порядком (слева направо, сверху вниз), в котором они отображаются в кнопке стиль объемного меню на панели инструментов Форматирование.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="ee64f-102"><para>The <b>msoPresetThreeDFormat</b> constants are numbered according to the order (left to right, top to bottom) in which they are shown in the 3-D Style button on the Formatting toolbar. </para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoPresetThreeDFormatMixed">
@@ -56,12 +34,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-103">Не используется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-103">Not used.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-103">Не используется.</span><span class="sxs-lookup"><span data-stu-id="ee64f-103">Not used.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD1">
@@ -80,12 +53,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-104">Первый трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-104">First 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-104">Первый объемный формат.</span><span class="sxs-lookup"><span data-stu-id="ee64f-104">First 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD10">
@@ -104,12 +72,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-105">10 формата трехмерной.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-105">Tenth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-105">Десятый объемный формат.</span><span class="sxs-lookup"><span data-stu-id="ee64f-105">Tenth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD11">
@@ -128,12 +91,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-106">Одиннадцатый трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-106">Eleventh 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-106">Одиннадцатый формат объема.</span><span class="sxs-lookup"><span data-stu-id="ee64f-106">Eleventh 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD12">
@@ -152,12 +110,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-107">Двенадцатый трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-107">Twelfth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-107">Двенадцатый объемный формат.</span><span class="sxs-lookup"><span data-stu-id="ee64f-107">Twelfth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD13">
@@ -176,12 +129,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-108">Тринадцатый трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-108">Thirteenth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-108">Объемный формат сиртинс.</span><span class="sxs-lookup"><span data-stu-id="ee64f-108">Thirteenth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD14">
@@ -200,12 +148,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-109">Четырнадцатый трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-109">Fourteenth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-109">Объемный формат фауртинс.</span><span class="sxs-lookup"><span data-stu-id="ee64f-109">Fourteenth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD15">
@@ -224,12 +167,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-110">Пятнадцатый трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-110">Fifteenth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-110">Пятнадцатый формат 3 – D.</span><span class="sxs-lookup"><span data-stu-id="ee64f-110">Fifteenth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD16">
@@ -248,12 +186,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-111">Находится 16-й трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-111">Sixteenth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-111">Шестнадцатый формат 3 – D.</span><span class="sxs-lookup"><span data-stu-id="ee64f-111">Sixteenth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD17">
@@ -272,12 +205,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-112">Семнадцатый трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-112">Seventeenth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-112">Объемный формат севентинс.</span><span class="sxs-lookup"><span data-stu-id="ee64f-112">Seventeenth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD18">
@@ -296,12 +224,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-113">18 трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-113">Eighteenth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-113">Объемный формат еигхтинс.</span><span class="sxs-lookup"><span data-stu-id="ee64f-113">Eighteenth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD19">
@@ -320,12 +243,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-114">Девятнадцатый трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-114">Nineteenth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-114">Объемный формат нинетинс.</span><span class="sxs-lookup"><span data-stu-id="ee64f-114">Nineteenth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD2">
@@ -344,12 +262,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-115">Второй трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-115">Second 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-115">Второй формат объемной диаграммы.</span><span class="sxs-lookup"><span data-stu-id="ee64f-115">Second 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD20">
@@ -368,12 +281,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-116">Двадцатый трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-116">Twentieth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-116">Двадцатый объемный формат.</span><span class="sxs-lookup"><span data-stu-id="ee64f-116">Twentieth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD3">
@@ -392,12 +300,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-117">Третий трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-117">Third 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-117">Третий объемный формат.</span><span class="sxs-lookup"><span data-stu-id="ee64f-117">Third 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD4">
@@ -416,12 +319,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-118">Четвертая трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-118">Fourth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-118">Четвертый объемный формат.</span><span class="sxs-lookup"><span data-stu-id="ee64f-118">Fourth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD5">
@@ -440,12 +338,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-119">Пятый трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-119">Fifth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-119">Пятый Формат объемной диаграммы.</span><span class="sxs-lookup"><span data-stu-id="ee64f-119">Fifth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD6">
@@ -464,12 +357,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-120">Шестой трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-120">Sixth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-120">Шестой объемный формат.</span><span class="sxs-lookup"><span data-stu-id="ee64f-120">Sixth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD7">
@@ -488,12 +376,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-121">Седьмой трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-121">Seventh 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-121">Седьмой трехмерный формат.</span><span class="sxs-lookup"><span data-stu-id="ee64f-121">Seventh 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD8">
@@ -512,12 +395,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-122">Восьмому трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-122">Eighth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-122">Восьмой объемный формат.</span><span class="sxs-lookup"><span data-stu-id="ee64f-122">Eighth 3-D format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThreeD9">
@@ -536,12 +414,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="80648-123">Девятого трехмерной формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="80648-123">Ninth 3-D format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ee64f-123">Девятый Формат объемной диаграммы.</span><span class="sxs-lookup"><span data-stu-id="ee64f-123">Ninth 3-D format.</span></span></summary>
       </Docs>
     </Member>
   </Members>

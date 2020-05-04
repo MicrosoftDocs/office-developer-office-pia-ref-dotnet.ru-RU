@@ -1,13 +1,5 @@
 <Type Name="MsoLanguageID" FullName="Microsoft.Office.Core.MsoLanguageID">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ac45039c26ec25e3ed8a6fca248d01080bb2c6bd" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661950" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoLanguageID" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ac45039c26ec25e3ed8a6fca248d01080bb2c6bd" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661950" /></Metadata><TypeSignature Language="C#" Value="public enum MsoLanguageID" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLanguageID extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLanguageID" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoLanguageID" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="b9b26-101">Указывает язык.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b9b26-101">Specifies which language to use.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="e06e9-101">Указывает используемый язык.</span><span class="sxs-lookup"><span data-stu-id="e06e9-101">Specifies which language to use.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1078</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-102">африкаанс.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-102">Afrikaans.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-102">африкаанс.</span><span class="sxs-lookup"><span data-stu-id="e06e9-102">Afrikaans.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDAlbanian">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>1052</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-103">албанский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-103">Albanian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-103">албанский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-103">Albanian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDAmharic">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>1118</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-104">Амхарский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-104">Amharic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-104">Амхарский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-104">Amharic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabic">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>1025</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-105">арабский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-105">Arabic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-105">арабский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-105">Arabic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicAlgeria">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>5121</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-106">Арабский, используемый в Алжир.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-106">Arabic as spoken in Algeria.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-106">Арабский как произнесенный.</span><span class="sxs-lookup"><span data-stu-id="e06e9-106">Arabic as spoken in Algeria.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicBahrain">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>15361</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-107">Арабский, используемый в Бахрейн.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-107">Arabic as spoken in Bahrain.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-107">Арабский в качестве произнесенного в Бахрейн.</span><span class="sxs-lookup"><span data-stu-id="e06e9-107">Arabic as spoken in Bahrain.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicEgypt">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>3073</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-108">Арабский, используемый в Египет.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-108">Arabic as spoken in Egypt.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-108">Арабский как произнесенный в Египет.</span><span class="sxs-lookup"><span data-stu-id="e06e9-108">Arabic as spoken in Egypt.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicIraq">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>2049</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-109">Арабский, используемый в Ирак.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-109">Arabic as spoken in Iraq.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-109">Арабский в качестве произнесенного в Ирак.</span><span class="sxs-lookup"><span data-stu-id="e06e9-109">Arabic as spoken in Iraq.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicJordan">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>11265</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-110">Арабский, используемый в Иордания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-110">Arabic as spoken in Jordan.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-110">Арабский в качестве произнесенного в Иордания.</span><span class="sxs-lookup"><span data-stu-id="e06e9-110">Arabic as spoken in Jordan.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicKuwait">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>13313</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-111">Арабский, используемый в Кувейт.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-111">Arabic as spoken in Kuwait.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-111">Арабский, как в Кувейте.</span><span class="sxs-lookup"><span data-stu-id="e06e9-111">Arabic as spoken in Kuwait.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicLebanon">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>12289</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-112">Арабский, используемый в Ливан.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-112">Arabic as spoken in Lebanon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-112">Арабский в качестве произнесенного в Ливан.</span><span class="sxs-lookup"><span data-stu-id="e06e9-112">Arabic as spoken in Lebanon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicLibya">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>4097</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-113">Арабский, используемый в Ливия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-113">Arabic as spoken in Libya.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-113">Арабский, как в Ливия.</span><span class="sxs-lookup"><span data-stu-id="e06e9-113">Arabic as spoken in Libya.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicMorocco">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>6145</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-114">Арабский, используемый в Марокко.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-114">Arabic as spoken in Morocco.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-114">Арабский в Марокко.</span><span class="sxs-lookup"><span data-stu-id="e06e9-114">Arabic as spoken in Morocco.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicOman">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>8193</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-115">Арабский, используемый в Оман.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-115">Arabic as spoken in Oman.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-115">Арабский в качестве произнесенного в Оман.</span><span class="sxs-lookup"><span data-stu-id="e06e9-115">Arabic as spoken in Oman.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicQatar">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>16385</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-116">Арабский, используемый в Катар.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-116">Arabic as spoken in Qatar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-116">Арабский в качестве произнесенного в Катар.</span><span class="sxs-lookup"><span data-stu-id="e06e9-116">Arabic as spoken in Qatar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicSyria">
@@ -405,12 +317,7 @@
       </ReturnValue>
       <MemberValue>10241</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-117">Арабский, используемый в Сирия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-117">Arabic as spoken in Syria.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-117">Арабский, как в сирийском формате.</span><span class="sxs-lookup"><span data-stu-id="e06e9-117">Arabic as spoken in Syria.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicTunisia">
@@ -429,12 +336,7 @@
       </ReturnValue>
       <MemberValue>7169</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-118">Арабский, используемый в Тунис.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-118">Arabic as spoken in Tunisia.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-118">Арабский, как в Тунис.</span><span class="sxs-lookup"><span data-stu-id="e06e9-118">Arabic as spoken in Tunisia.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicUAE">
@@ -453,12 +355,7 @@
       </ReturnValue>
       <MemberValue>14337</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-119">Арабский, используемый в Объединенные Арабские Эмираты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-119">Arabic as spoken in the United Arab Emirates.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-119">Арабский, как в Объединенные Арабские Эмираты.</span><span class="sxs-lookup"><span data-stu-id="e06e9-119">Arabic as spoken in the United Arab Emirates.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArabicYemen">
@@ -477,12 +374,7 @@
       </ReturnValue>
       <MemberValue>9217</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-120">Арабский, используемый в Йемен.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-120">Arabic as spoken in Yemen.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-120">Арабский как в Йемене.</span><span class="sxs-lookup"><span data-stu-id="e06e9-120">Arabic as spoken in Yemen.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDArmenian">
@@ -501,12 +393,7 @@
       </ReturnValue>
       <MemberValue>1067</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-121">армянский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-121">Armenian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-121">армянский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-121">Armenian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDAssamese">
@@ -525,12 +412,7 @@
       </ReturnValue>
       <MemberValue>1101</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-122">Ассамского.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-122">Assamese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-122">Ассамский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-122">Assamese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDAzeriCyrillic">
@@ -549,12 +431,7 @@
       </ReturnValue>
       <MemberValue>2092</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-123">Азербайджанский (кириллица).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-123">Azeri-Cyrillic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-123">Азербайджанский (кириллица).</span><span class="sxs-lookup"><span data-stu-id="e06e9-123">Azeri-Cyrillic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDAzeriLatin">
@@ -573,12 +450,7 @@
       </ReturnValue>
       <MemberValue>1068</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-124">Азербайджанский (латиница).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-124">Azeri-Latin.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-124">Азербайджанский (латиница).</span><span class="sxs-lookup"><span data-stu-id="e06e9-124">Azeri-Latin.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBasque">
@@ -597,12 +469,7 @@
       </ReturnValue>
       <MemberValue>1069</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-125">баскский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-125">Basque.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-125">баскский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-125">Basque.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBelgianDutch">
@@ -621,12 +488,7 @@
       </ReturnValue>
       <MemberValue>2067</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-126">Голландский (Бельгия).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-126">Belgian Dutch.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-126">Бельгийский голландский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-126">Belgian Dutch.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBelgianFrench">
@@ -645,12 +507,7 @@
       </ReturnValue>
       <MemberValue>2060</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-127">Бельгия французский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-127">Belgian French.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-127">Бельгийский французский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-127">Belgian French.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBengali">
@@ -669,12 +526,7 @@
       </ReturnValue>
       <MemberValue>1093</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-128">бенгальский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-128">Bengali.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-128">бенгальский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-128">Bengali.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBosnian">
@@ -693,12 +545,7 @@
       </ReturnValue>
       <MemberValue>4122</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-129">боснийский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-129">Bosnian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-129">боснийский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-129">Bosnian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBosnianBosniaHerzegovinaCyrillic">
@@ -717,12 +564,7 @@
       </ReturnValue>
       <MemberValue>8218</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-130">Язык Герцеговина Босния Боснийский (кириллица).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-130">The Bosnian Bosnia Herzegovina Cyrillic language.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-130">Языковой язык для боснийских и Герцеговина, отличный от кириллической.</span><span class="sxs-lookup"><span data-stu-id="e06e9-130">The Bosnian Bosnia Herzegovina Cyrillic language.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBosnianBosniaHerzegovinaLatin">
@@ -741,12 +583,7 @@
       </ReturnValue>
       <MemberValue>5146</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-131">Боснийский Босния Герцеговина Латинская язык.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-131">The Bosnian Bosnia Herzegovina Latin language.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-131">Язык, отличный от боснийских, для латиницы и Герцеговина.</span><span class="sxs-lookup"><span data-stu-id="e06e9-131">The Bosnian Bosnia Herzegovina Latin language.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBrazilianPortuguese">
@@ -765,12 +602,7 @@
       </ReturnValue>
       <MemberValue>1046</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-132">Португальский (Бразилия).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-132">Brazilian Portuguese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-132">Португальский (Бразилия).</span><span class="sxs-lookup"><span data-stu-id="e06e9-132">Brazilian Portuguese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBulgarian">
@@ -789,12 +621,7 @@
       </ReturnValue>
       <MemberValue>1026</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-133">болгарский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-133">Bulgarian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-133">болгарский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-133">Bulgarian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDBurmese">
@@ -813,12 +640,7 @@
       </ReturnValue>
       <MemberValue>1109</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-134">Burmese.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-134">Burmese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-134">Бурмесе.</span><span class="sxs-lookup"><span data-stu-id="e06e9-134">Burmese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDByelorussian">
@@ -837,12 +659,7 @@
       </ReturnValue>
       <MemberValue>1059</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-135">белорусский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-135">Belarusian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-135">белорусский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-135">Belarusian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDCatalan">
@@ -861,12 +678,7 @@
       </ReturnValue>
       <MemberValue>1027</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-136">каталанский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-136">Catalan.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-136">каталанский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-136">Catalan.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDCherokee">
@@ -885,12 +697,7 @@
       </ReturnValue>
       <MemberValue>1116</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-137">Чероки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-137">Cherokee.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-137">Чероки.</span><span class="sxs-lookup"><span data-stu-id="e06e9-137">Cherokee.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDChineseHongKongSAR">
@@ -909,12 +716,7 @@
       </ReturnValue>
       <MemberValue>3076</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-138">Китайский, используемый в Гонконг.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-138">Chinese as spoken in Hong Kong SAR.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-138">Китайский (традиционное письмо), как в САР Гонконг.</span><span class="sxs-lookup"><span data-stu-id="e06e9-138">Chinese as spoken in Hong Kong SAR.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDChineseMacaoSAR">
@@ -933,12 +735,7 @@
       </ReturnValue>
       <MemberValue>5124</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-139">Китайский, используемый в МАКАО.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-139">Chinese as spoken in Macao SAR.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-139">Китайский (традиционное письмо) в Макао (САР).</span><span class="sxs-lookup"><span data-stu-id="e06e9-139">Chinese as spoken in Macao SAR.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDChineseSingapore">
@@ -957,12 +754,7 @@
       </ReturnValue>
       <MemberValue>4100</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-140">Китайский, используемый в Сингапур.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-140">Chinese as spoken in Singapore.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-140">Китайский язык, как в Сингапуре.</span><span class="sxs-lookup"><span data-stu-id="e06e9-140">Chinese as spoken in Singapore.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDCroatian">
@@ -981,12 +773,7 @@
       </ReturnValue>
       <MemberValue>1050</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-141">хорватский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-141">Croatian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-141">хорватский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-141">Croatian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDCzech">
@@ -1005,12 +792,7 @@
       </ReturnValue>
       <MemberValue>1029</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-142">чешский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-142">Czech.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-142">чешский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-142">Czech.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDDanish">
@@ -1029,12 +811,7 @@
       </ReturnValue>
       <MemberValue>1030</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-143">датский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-143">Danish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-143">датский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-143">Danish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDDivehi">
@@ -1053,12 +830,7 @@
       </ReturnValue>
       <MemberValue>1125</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-144">Дивехи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-144">Divehi.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-144">Дивехи.</span><span class="sxs-lookup"><span data-stu-id="e06e9-144">Divehi.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDDutch">
@@ -1077,12 +849,7 @@
       </ReturnValue>
       <MemberValue>1043</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-145">нидерландский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-145">Dutch.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-145">нидерландский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-145">Dutch.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDDzongkhaBhutan">
@@ -1106,12 +873,7 @@
       </ReturnValue>
       <MemberValue>2129</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-146">Бхотия в Бутан.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-146">Dzongkha as spoken in Bhutan.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-146">Дзонгкха как говорят в Бутан.</span><span class="sxs-lookup"><span data-stu-id="e06e9-146">Dzongkha as spoken in Bhutan.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEdo">
@@ -1130,12 +892,7 @@
       </ReturnValue>
       <MemberValue>1126</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-147">EDO.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-147">Edo.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-147">ЕДО.</span><span class="sxs-lookup"><span data-stu-id="e06e9-147">Edo.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishAUS">
@@ -1154,12 +911,7 @@
       </ReturnValue>
       <MemberValue>3081</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-148">Английский разговорный в Австралии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-148">English as spoken in Australia.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-148">Английский в Австралии.</span><span class="sxs-lookup"><span data-stu-id="e06e9-148">English as spoken in Australia.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishBelize">
@@ -1178,12 +930,7 @@
       </ReturnValue>
       <MemberValue>10249</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-149">Английский разговорный в Белиз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-149">English as spoken in Belize.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-149">Английский в качестве произнесенного в Белиз.</span><span class="sxs-lookup"><span data-stu-id="e06e9-149">English as spoken in Belize.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishCanadian">
@@ -1202,12 +949,7 @@
       </ReturnValue>
       <MemberValue>4105</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-150">Английский разговорный в Канада.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-150">English as spoken in Canada.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-150">Английский, как в Канаде.</span><span class="sxs-lookup"><span data-stu-id="e06e9-150">English as spoken in Canada.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishCaribbean">
@@ -1226,12 +968,7 @@
       </ReturnValue>
       <MemberValue>9225</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-151">Английский, используемый в Карибские о-ва.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-151">English as spoken in the Caribbean.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-151">Английский в качестве произнесенного в Карибский бассейн.</span><span class="sxs-lookup"><span data-stu-id="e06e9-151">English as spoken in the Caribbean.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishIndonesia">
@@ -1250,12 +987,7 @@
       </ReturnValue>
       <MemberValue>14345</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-152">Английский разговорный в Индонезия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-152">English as spoken in Indonesia.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-152">Английский в формате Индонезия.</span><span class="sxs-lookup"><span data-stu-id="e06e9-152">English as spoken in Indonesia.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishIreland">
@@ -1274,12 +1006,7 @@
       </ReturnValue>
       <MemberValue>6153</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-153">Английский разговорный в Ирландия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-153">English as spoken in Ireland.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-153">Английский, как в Ирландии.</span><span class="sxs-lookup"><span data-stu-id="e06e9-153">English as spoken in Ireland.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishJamaica">
@@ -1298,12 +1025,7 @@
       </ReturnValue>
       <MemberValue>8201</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-154">Английский разговорный в Ямайка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-154">English as spoken in Jamaica.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-154">Английский язык, который был бы произнесен в Ямайка.</span><span class="sxs-lookup"><span data-stu-id="e06e9-154">English as spoken in Jamaica.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishNewZealand">
@@ -1322,12 +1044,7 @@
       </ReturnValue>
       <MemberValue>5129</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-155">Английский, используемый в новой Зеландии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-155">English as spoken in New Zealand.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-155">Английский, как в Новой Зеландии.</span><span class="sxs-lookup"><span data-stu-id="e06e9-155">English as spoken in New Zealand.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishPhilippines">
@@ -1346,12 +1063,7 @@
       </ReturnValue>
       <MemberValue>13321</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-156">Английский, используемый в Филиппины.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-156">English as spoken in the Philippines.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-156">Английский в качестве произнесенного в Филиппины.</span><span class="sxs-lookup"><span data-stu-id="e06e9-156">English as spoken in the Philippines.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishSouthAfrica">
@@ -1370,12 +1082,7 @@
       </ReturnValue>
       <MemberValue>7177</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-157">Английский, используемый в Южно-Африканская Республика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-157">English as spoken in South Africa.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-157">Английский, как в Южной Африке.</span><span class="sxs-lookup"><span data-stu-id="e06e9-157">English as spoken in South Africa.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishTrinidadTobago">
@@ -1394,12 +1101,7 @@
       </ReturnValue>
       <MemberValue>11273</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-158">Английский, используемый в Тринидад и Тобаго.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-158">English as spoken in Trinidad and Tobago.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-158">Английский в формате Тринидад и Тобаго.</span><span class="sxs-lookup"><span data-stu-id="e06e9-158">English as spoken in Trinidad and Tobago.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishUK">
@@ -1418,12 +1120,7 @@
       </ReturnValue>
       <MemberValue>2057</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-159">Английский, используемый в Великобритании.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-159">English as spoken in the United Kingdom.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-159">Английский, как в Великобритании.</span><span class="sxs-lookup"><span data-stu-id="e06e9-159">English as spoken in the United Kingdom.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishUS">
@@ -1442,12 +1139,7 @@
       </ReturnValue>
       <MemberValue>1033</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-160">Английский, используемый в США.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-160">English as spoken in the United States.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-160">Английский в США.</span><span class="sxs-lookup"><span data-stu-id="e06e9-160">English as spoken in the United States.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEnglishZimbabwe">
@@ -1466,12 +1158,7 @@
       </ReturnValue>
       <MemberValue>12297</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-161">Английский разговорный в Зимбабве.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-161">English as spoken in Zimbabwe.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-161">Английский в качестве произнесенного в Зимбабве.</span><span class="sxs-lookup"><span data-stu-id="e06e9-161">English as spoken in Zimbabwe.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDEstonian">
@@ -1490,12 +1177,7 @@
       </ReturnValue>
       <MemberValue>1061</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-162">эстонский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-162">Estonian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-162">эстонский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-162">Estonian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFaeroese">
@@ -1514,12 +1196,7 @@
       </ReturnValue>
       <MemberValue>1080</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-163">Фарерский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-163">Faeroese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-163">Фаероесе.</span><span class="sxs-lookup"><span data-stu-id="e06e9-163">Faeroese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFarsi">
@@ -1538,12 +1215,7 @@
       </ReturnValue>
       <MemberValue>1065</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-164">Фарси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-164">Farsi.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-164">Персидский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-164">Farsi.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFilipino">
@@ -1562,12 +1234,7 @@
       </ReturnValue>
       <MemberValue>1124</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-165">Filipina.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-165">Filipina.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-165">Филипина.</span><span class="sxs-lookup"><span data-stu-id="e06e9-165">Filipina.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFinnish">
@@ -1586,12 +1253,7 @@
       </ReturnValue>
       <MemberValue>1035</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-166">финский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-166">Finnish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-166">финский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-166">Finnish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrench">
@@ -1610,12 +1272,7 @@
       </ReturnValue>
       <MemberValue>1036</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-167">французский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-167">French.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-167">французский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-167">French.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchCameroon">
@@ -1634,12 +1291,7 @@
       </ReturnValue>
       <MemberValue>11276</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-168">Французский как произносимого в Камерун.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-168">French as spoken in Cameroon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-168">Французский язык от имени голосового входа в Камерун.</span><span class="sxs-lookup"><span data-stu-id="e06e9-168">French as spoken in Cameroon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchCanadian">
@@ -1658,12 +1310,7 @@
       </ReturnValue>
       <MemberValue>3084</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-169">Французский как произносимого в Канада.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-169">French as spoken in Canada.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-169">Французский язык с голосом в Канаде.</span><span class="sxs-lookup"><span data-stu-id="e06e9-169">French as spoken in Canada.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchCongoDRC">
@@ -1682,12 +1329,7 @@
       </ReturnValue>
       <MemberValue>9228</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-170">Республика КОНГО Конго французский язык.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-170">The French Congo DRC language.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-170">Французский язык (французский, ДРК).</span><span class="sxs-lookup"><span data-stu-id="e06e9-170">The French Congo DRC language.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchCotedIvoire">
@@ -1706,12 +1348,7 @@
       </ReturnValue>
       <MemberValue>12300</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-171">Французский, используемый в Кот д ' Ивуар.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-171">French as spoken in Cote d'Ivoire.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-171">Французский язык, как в Кот Д'ивуар.</span><span class="sxs-lookup"><span data-stu-id="e06e9-171">French as spoken in Cote d'Ivoire.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchHaiti">
@@ -1730,12 +1367,7 @@
       </ReturnValue>
       <MemberValue>15372</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-172">Французский как произносимого в Гаити.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-172">French as spoken in Haiti.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-172">Французский язык в качестве входных в Гаити.</span><span class="sxs-lookup"><span data-stu-id="e06e9-172">French as spoken in Haiti.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchLuxembourg">
@@ -1754,12 +1386,7 @@
       </ReturnValue>
       <MemberValue>5132</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-173">Французский как произносимого в Люксембург.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-173">French as spoken in Luxembourg.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-173">Французский язык.</span><span class="sxs-lookup"><span data-stu-id="e06e9-173">French as spoken in Luxembourg.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchMali">
@@ -1778,12 +1405,7 @@
       </ReturnValue>
       <MemberValue>13324</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-174">Французский как произносимого в Мали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-174">French as spoken in Mali.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-174">Французский язык в качестве произнесенного в Мали.</span><span class="sxs-lookup"><span data-stu-id="e06e9-174">French as spoken in Mali.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchMonaco">
@@ -1802,12 +1424,7 @@
       </ReturnValue>
       <MemberValue>6156</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-175">Французский как произносимого в Монако.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-175">French as spoken in Monaco.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-175">Французский язык с произнесением в Монако.</span><span class="sxs-lookup"><span data-stu-id="e06e9-175">French as spoken in Monaco.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchMorocco">
@@ -1826,12 +1443,7 @@
       </ReturnValue>
       <MemberValue>14348</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-176">Французский как произносимого в Марокко.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-176">French as spoken in Morocco.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-176">Французский язык в Марокко.</span><span class="sxs-lookup"><span data-stu-id="e06e9-176">French as spoken in Morocco.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchReunion">
@@ -1850,12 +1462,7 @@
       </ReturnValue>
       <MemberValue>8204</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-177">Французский, используемый в остров французский встречи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-177">French as spoken in French Reunion Island.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-177">Французский язык с произнесением для французского союза.</span><span class="sxs-lookup"><span data-stu-id="e06e9-177">French as spoken in French Reunion Island.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchSenegal">
@@ -1874,12 +1481,7 @@
       </ReturnValue>
       <MemberValue>10252</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-178">Французский как произносимого в Сенегал.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-178">French as spoken in Senegal.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-178">Французский язык в формате Сенегал.</span><span class="sxs-lookup"><span data-stu-id="e06e9-178">French as spoken in Senegal.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchWestIndies">
@@ -1898,12 +1500,7 @@
       </ReturnValue>
       <MemberValue>7180</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-179">Французский, используемый в Антильские острова.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-179">French as spoken in the West Indies.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-179">Французский язык в Западном Индиес.</span><span class="sxs-lookup"><span data-stu-id="e06e9-179">French as spoken in the West Indies.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrenchZaire">
@@ -1927,12 +1524,7 @@
       </ReturnValue>
       <MemberValue>9228</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-180">Французский как произносимого в Заир.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-180">French as spoken in Zaire.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-180">Французский язык, как в Заире.</span><span class="sxs-lookup"><span data-stu-id="e06e9-180">French as spoken in Zaire.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFrisianNetherlands">
@@ -1951,12 +1543,7 @@
       </ReturnValue>
       <MemberValue>1122</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-181">Французского в Нидерландах.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-181">French as spoken in the Netherlands.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-181">Французский язык в Нидерландов.</span><span class="sxs-lookup"><span data-stu-id="e06e9-181">French as spoken in the Netherlands.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDFulfulde">
@@ -1975,12 +1562,7 @@
       </ReturnValue>
       <MemberValue>1127</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-182">"Фульфульде".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-182">Fulfulde.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-182">Фулфулде.</span><span class="sxs-lookup"><span data-stu-id="e06e9-182">Fulfulde.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGaelicIreland">
@@ -1999,12 +1581,7 @@
       </ReturnValue>
       <MemberValue>2108</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-183">(Гаэльский), используемый в Ирландия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-183">Gaelic as spoken in Ireland.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-183">Гэльский в Ирландии.</span><span class="sxs-lookup"><span data-stu-id="e06e9-183">Gaelic as spoken in Ireland.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGaelicScotland">
@@ -2023,12 +1600,7 @@
       </ReturnValue>
       <MemberValue>1084</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-184">(Гаэльский), используемый в Шотландии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-184">Gaelic as spoken in Scotland.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-184">Гэльский, как в Шотландии.</span><span class="sxs-lookup"><span data-stu-id="e06e9-184">Gaelic as spoken in Scotland.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGalician">
@@ -2047,12 +1619,7 @@
       </ReturnValue>
       <MemberValue>1110</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-185">галисийский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-185">Galician.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-185">галисийский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-185">Galician.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGeorgian">
@@ -2071,12 +1638,7 @@
       </ReturnValue>
       <MemberValue>1079</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-186">грузинский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-186">Georgian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-186">грузинский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-186">Georgian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGerman">
@@ -2095,12 +1657,7 @@
       </ReturnValue>
       <MemberValue>1031</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-187">немецкий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-187">German.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-187">немецкий.</span><span class="sxs-lookup"><span data-stu-id="e06e9-187">German.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGermanAustria">
@@ -2119,12 +1676,7 @@
       </ReturnValue>
       <MemberValue>3079</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-188">Немецкий, используемый в Австрия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-188">German as spoken in Austria.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-188">Немецкий язык, как в Австрии.</span><span class="sxs-lookup"><span data-stu-id="e06e9-188">German as spoken in Austria.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGermanLiechtenstein">
@@ -2143,12 +1695,7 @@
       </ReturnValue>
       <MemberValue>5127</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-189">Немецкий, используемый в Лихтенштейн.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-189">German as spoken in Liechtenstein.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-189">Немецкий язык с произнесением в Лихтенштейн.</span><span class="sxs-lookup"><span data-stu-id="e06e9-189">German as spoken in Liechtenstein.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGermanLuxembourg">
@@ -2167,12 +1714,7 @@
       </ReturnValue>
       <MemberValue>4103</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-190">Немецкий, используемый в Люксембург.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-190">German as spoken in Luxembourg.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-190">Немецкий язык с произнесением в Люксембург.</span><span class="sxs-lookup"><span data-stu-id="e06e9-190">German as spoken in Luxembourg.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGreek">
@@ -2191,12 +1733,7 @@
       </ReturnValue>
       <MemberValue>1032</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-191">греческий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-191">Greek.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-191">греческий.</span><span class="sxs-lookup"><span data-stu-id="e06e9-191">Greek.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGuarani">
@@ -2215,12 +1752,7 @@
       </ReturnValue>
       <MemberValue>1140</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-192">Гуарани.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-192">Guarani.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-192">Гуарани.</span><span class="sxs-lookup"><span data-stu-id="e06e9-192">Guarani.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDGujarati">
@@ -2239,12 +1771,7 @@
       </ReturnValue>
       <MemberValue>1095</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-193">гуджарати.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-193">Gujarati.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-193">гуджарати.</span><span class="sxs-lookup"><span data-stu-id="e06e9-193">Gujarati.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDHausa">
@@ -2263,12 +1790,7 @@
       </ReturnValue>
       <MemberValue>1128</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-194">Хауса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-194">Hausa.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-194">Хауса.</span><span class="sxs-lookup"><span data-stu-id="e06e9-194">Hausa.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDHawaiian">
@@ -2287,12 +1809,7 @@
       </ReturnValue>
       <MemberValue>1141</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-195">Гавайское.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-195">Hawaiian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-195">Быстро.</span><span class="sxs-lookup"><span data-stu-id="e06e9-195">Hawaiian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDHebrew">
@@ -2311,12 +1828,7 @@
       </ReturnValue>
       <MemberValue>1037</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-196">иврит.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-196">Hebrew.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-196">иврит.</span><span class="sxs-lookup"><span data-stu-id="e06e9-196">Hebrew.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDHindi">
@@ -2335,12 +1847,7 @@
       </ReturnValue>
       <MemberValue>1081</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-197">хинди.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-197">Hindi.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-197">хинди.</span><span class="sxs-lookup"><span data-stu-id="e06e9-197">Hindi.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDHungarian">
@@ -2359,12 +1866,7 @@
       </ReturnValue>
       <MemberValue>1038</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-198">венгерский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-198">Hungarian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-198">венгерский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-198">Hungarian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDIbibio">
@@ -2383,12 +1885,7 @@
       </ReturnValue>
       <MemberValue>1129</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-199">Ибибио.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-199">Ibibio.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-199">Ибибио.</span><span class="sxs-lookup"><span data-stu-id="e06e9-199">Ibibio.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDIcelandic">
@@ -2407,12 +1904,7 @@
       </ReturnValue>
       <MemberValue>1039</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-200">исландский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-200">Icelandic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-200">исландский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-200">Icelandic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDIgbo">
@@ -2431,12 +1923,7 @@
       </ReturnValue>
       <MemberValue>1136</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-201">Игбо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-201">Igbo.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-201">Игбо.</span><span class="sxs-lookup"><span data-stu-id="e06e9-201">Igbo.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDIndonesian">
@@ -2455,12 +1942,7 @@
       </ReturnValue>
       <MemberValue>1057</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-202">индонезийский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-202">Indonesian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-202">индонезийский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-202">Indonesian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDInuktitut">
@@ -2479,12 +1961,7 @@
       </ReturnValue>
       <MemberValue>1117</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-203">Инуктитут.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-203">Inuktitut.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-203">Инуктитут.</span><span class="sxs-lookup"><span data-stu-id="e06e9-203">Inuktitut.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDItalian">
@@ -2503,12 +1980,7 @@
       </ReturnValue>
       <MemberValue>1040</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-204">итальянский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-204">Italian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-204">итальянский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-204">Italian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDJapanese">
@@ -2527,12 +1999,7 @@
       </ReturnValue>
       <MemberValue>1041</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-205">японский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-205">Japanese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-205">японский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-205">Japanese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKannada">
@@ -2551,12 +2018,7 @@
       </ReturnValue>
       <MemberValue>1099</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-206">каннада.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-206">Kannada.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-206">каннада.</span><span class="sxs-lookup"><span data-stu-id="e06e9-206">Kannada.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKanuri">
@@ -2575,12 +2037,7 @@
       </ReturnValue>
       <MemberValue>1137</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-207">"Канури".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-207">Kanuri.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-207">Канури.</span><span class="sxs-lookup"><span data-stu-id="e06e9-207">Kanuri.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKashmiri">
@@ -2599,12 +2056,7 @@
       </ReturnValue>
       <MemberValue>1120</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-208">Кашмири.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-208">Kashmiri.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-208">Кашмир.</span><span class="sxs-lookup"><span data-stu-id="e06e9-208">Kashmiri.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKashmiriDevanagari">
@@ -2623,12 +2075,7 @@
       </ReturnValue>
       <MemberValue>2144</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-209">Кашмири в деванагари.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-209">Kashmiri in Devanagari script.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-209">Кашмири в сценарии деванагари.</span><span class="sxs-lookup"><span data-stu-id="e06e9-209">Kashmiri in Devanagari script.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKazakh">
@@ -2647,12 +2094,7 @@
       </ReturnValue>
       <MemberValue>1087</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-210">казахский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-210">Kazakh.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-210">казахский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-210">Kazakh.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKhmer">
@@ -2671,12 +2113,7 @@
       </ReturnValue>
       <MemberValue>1107</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-211">Кхмерский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-211">Khmer.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-211">Кхмерский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-211">Khmer.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKirghiz">
@@ -2695,12 +2132,7 @@
       </ReturnValue>
       <MemberValue>1088</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-212">Киргизский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-212">Kirghiz.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-212">Киргхиз.</span><span class="sxs-lookup"><span data-stu-id="e06e9-212">Kirghiz.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKonkani">
@@ -2719,12 +2151,7 @@
       </ReturnValue>
       <MemberValue>1111</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-213">Конкани.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-213">Konkani.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-213">Конкани.</span><span class="sxs-lookup"><span data-stu-id="e06e9-213">Konkani.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKorean">
@@ -2743,12 +2170,7 @@
       </ReturnValue>
       <MemberValue>1042</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-214">корейский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-214">Korean.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-214">корейский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-214">Korean.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDKyrgyz">
@@ -2767,12 +2189,7 @@
       </ReturnValue>
       <MemberValue>1088</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-215">киргизский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-215">Kyrgyz.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-215">киргизский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-215">Kyrgyz.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDLao">
@@ -2791,12 +2208,7 @@
       </ReturnValue>
       <MemberValue>1108</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-216">Лаосский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-216">Lao.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-216">Лаосский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-216">Lao.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDLatin">
@@ -2815,12 +2227,7 @@
       </ReturnValue>
       <MemberValue>1142</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-217">Латиница.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-217">Latin.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-217">Латинском.</span><span class="sxs-lookup"><span data-stu-id="e06e9-217">Latin.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDLatvian">
@@ -2839,12 +2246,7 @@
       </ReturnValue>
       <MemberValue>1062</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-218">латышский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-218">Latvian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-218">латышский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-218">Latvian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDLithuanian">
@@ -2863,12 +2265,7 @@
       </ReturnValue>
       <MemberValue>1063</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-219">литовский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-219">Lithuanian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-219">литовский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-219">Lithuanian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMacedonian">
@@ -2892,12 +2289,7 @@
       </ReturnValue>
       <MemberValue>1071</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-220">Македонец.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-220">Macedonian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-220">Македонец.</span><span class="sxs-lookup"><span data-stu-id="e06e9-220">Macedonian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMacedonianFYROM">
@@ -2916,12 +2308,7 @@
       </ReturnValue>
       <MemberValue>1071</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-221">Македонский Бывшая Югославская Республика МАКЕДОНИЯ язык.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-221">Macedonian FYROM language.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-221">Македонский язык.</span><span class="sxs-lookup"><span data-stu-id="e06e9-221">Macedonian FYROM language.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMalayalam">
@@ -2940,12 +2327,7 @@
       </ReturnValue>
       <MemberValue>1100</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-222">малаялам.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-222">Malayalam.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-222">малаялам.</span><span class="sxs-lookup"><span data-stu-id="e06e9-222">Malayalam.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMalayBruneiDarussalam">
@@ -2964,12 +2346,7 @@
       </ReturnValue>
       <MemberValue>2110</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-223">Малайский, используемый в Бруней.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-223">Malay as spoken in Brunei Darussalam.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-223">Малайский в качестве входа в систему Бруней.</span><span class="sxs-lookup"><span data-stu-id="e06e9-223">Malay as spoken in Brunei Darussalam.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMalaysian">
@@ -2988,12 +2365,7 @@
       </ReturnValue>
       <MemberValue>1086</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-224">Малазийскую.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-224">Malaysian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-224">Малайсиан.</span><span class="sxs-lookup"><span data-stu-id="e06e9-224">Malaysian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMaltese">
@@ -3012,12 +2384,7 @@
       </ReturnValue>
       <MemberValue>1082</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-225">мальтийский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-225">Maltese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-225">мальтийский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-225">Maltese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDManipuri">
@@ -3036,12 +2403,7 @@
       </ReturnValue>
       <MemberValue>1112</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-226">"Манипури".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-226">Manipuri.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-226">Манипури.</span><span class="sxs-lookup"><span data-stu-id="e06e9-226">Manipuri.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMaori">
@@ -3060,12 +2422,7 @@
       </ReturnValue>
       <MemberValue>1153</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-227">маори.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-227">Maori.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-227">маори.</span><span class="sxs-lookup"><span data-stu-id="e06e9-227">Maori.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMarathi">
@@ -3084,12 +2441,7 @@
       </ReturnValue>
       <MemberValue>1102</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-228">маратхи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-228">Marathi.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-228">маратхи.</span><span class="sxs-lookup"><span data-stu-id="e06e9-228">Marathi.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMexicanSpanish">
@@ -3108,12 +2460,7 @@
       </ReturnValue>
       <MemberValue>2058</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-229">Испанский, используемый в Мексика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-229">Spanish as spoken in Mexico.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-229">Испанский язык в Мексика.</span><span class="sxs-lookup"><span data-stu-id="e06e9-229">Spanish as spoken in Mexico.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMixed">
@@ -3132,12 +2479,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-230">Смешанные языки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-230">Mixed languages.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-230">Смешанные языки.</span><span class="sxs-lookup"><span data-stu-id="e06e9-230">Mixed languages.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDMongolian">
@@ -3156,12 +2498,7 @@
       </ReturnValue>
       <MemberValue>1104</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-231">монгольский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-231">Mongolian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-231">монгольский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-231">Mongolian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDNepali">
@@ -3180,12 +2517,7 @@
       </ReturnValue>
       <MemberValue>1121</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-232">Непали (Индия).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-232">Nepali.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-232">Языке.</span><span class="sxs-lookup"><span data-stu-id="e06e9-232">Nepali.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDNone">
@@ -3204,12 +2536,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-233">Язык не указан.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-233">No language specified.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-233">Язык не указан.</span><span class="sxs-lookup"><span data-stu-id="e06e9-233">No language specified.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDNoProofing">
@@ -3228,12 +2555,7 @@
       </ReturnValue>
       <MemberValue>1024</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-234">Без проверки запрошено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-234">No proofing requested.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-234">Проверка не запрошена.</span><span class="sxs-lookup"><span data-stu-id="e06e9-234">No proofing requested.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDNorwegianBokmol">
@@ -3252,12 +2574,7 @@
       </ReturnValue>
       <MemberValue>1044</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-235">Bokmol в Норвегия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-235">Bokmol as spoken in Norway.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-235">Бокмол как речь в Норвегии.</span><span class="sxs-lookup"><span data-stu-id="e06e9-235">Bokmol as spoken in Norway.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDNorwegianNynorsk">
@@ -3276,12 +2593,7 @@
       </ReturnValue>
       <MemberValue>2068</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-236">(Нюнорск) в Норвегия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-236">Nynorsk as spoken in Norway.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-236">Нюнорск — как в Норвегии.</span><span class="sxs-lookup"><span data-stu-id="e06e9-236">Nynorsk as spoken in Norway.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDOriya">
@@ -3300,12 +2612,7 @@
       </ReturnValue>
       <MemberValue>1096</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-237">Ория.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-237">Oriya.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-237">Ория.</span><span class="sxs-lookup"><span data-stu-id="e06e9-237">Oriya.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDOromo">
@@ -3324,12 +2631,7 @@
       </ReturnValue>
       <MemberValue>1138</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-238">"Оромо".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-238">Oromo.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-238">Оромо.</span><span class="sxs-lookup"><span data-stu-id="e06e9-238">Oromo.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDPashto">
@@ -3348,12 +2650,7 @@
       </ReturnValue>
       <MemberValue>1123</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-239">Пушту.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-239">Pashto.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-239">Пушту.</span><span class="sxs-lookup"><span data-stu-id="e06e9-239">Pashto.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDPolish">
@@ -3372,12 +2669,7 @@
       </ReturnValue>
       <MemberValue>1045</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-240">польский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-240">Polish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-240">польский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-240">Polish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDPortuguese">
@@ -3396,12 +2688,7 @@
       </ReturnValue>
       <MemberValue>2070</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-241">португальский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-241">Portuguese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-241">португальский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-241">Portuguese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDPunjabi">
@@ -3420,12 +2707,7 @@
       </ReturnValue>
       <MemberValue>1094</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-242">панджаби.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-242">Punjabi.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-242">панджаби.</span><span class="sxs-lookup"><span data-stu-id="e06e9-242">Punjabi.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDQuechuaBolivia">
@@ -3444,12 +2726,7 @@
       </ReturnValue>
       <MemberValue>1131</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-243">Кечуа в Боливия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-243">Quechua as spoken in Bolivia.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-243">Кечуа в качестве произнесенного в Боливия.</span><span class="sxs-lookup"><span data-stu-id="e06e9-243">Quechua as spoken in Bolivia.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDQuechuaEcuador">
@@ -3468,12 +2745,7 @@
       </ReturnValue>
       <MemberValue>2155</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-244">Кечуа в Эквадор.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-244">Quechua as spoken in Ecuador.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-244">Кечуа в отношении произнесенных в Эквадор.</span><span class="sxs-lookup"><span data-stu-id="e06e9-244">Quechua as spoken in Ecuador.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDQuechuaPeru">
@@ -3492,12 +2764,7 @@
       </ReturnValue>
       <MemberValue>3179</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-245">Кечуа в Перу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-245">Quechua as spoken in Peru.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-245">Кечуа в Перу.</span><span class="sxs-lookup"><span data-stu-id="e06e9-245">Quechua as spoken in Peru.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDRhaetoRomanic">
@@ -3516,12 +2783,7 @@
       </ReturnValue>
       <MemberValue>1047</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-246">Rhaeto-Romanic.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-246">Rhaeto-Romanic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-246">Рхаето — латинский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-246">Rhaeto-Romanic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDRomanian">
@@ -3540,12 +2802,7 @@
       </ReturnValue>
       <MemberValue>1048</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-247">румынский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-247">Romanian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-247">румынский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-247">Romanian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDRomanianMoldova">
@@ -3564,12 +2821,7 @@
       </ReturnValue>
       <MemberValue>2072</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-248">Румынский, используемый в Молдова.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-248">Romanian as spoken in Moldova.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-248">Румынский в качестве произнесенного в Молдова.</span><span class="sxs-lookup"><span data-stu-id="e06e9-248">Romanian as spoken in Moldova.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDRussian">
@@ -3588,12 +2840,7 @@
       </ReturnValue>
       <MemberValue>1049</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-249">русский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-249">Russian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-249">русский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-249">Russian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDRussianMoldova">
@@ -3612,12 +2859,7 @@
       </ReturnValue>
       <MemberValue>2073</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-250">Русский, используемый в Молдова.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-250">Russian as spoken in Moldova.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-250">Русский в качестве произнесенного в Молдова.</span><span class="sxs-lookup"><span data-stu-id="e06e9-250">Russian as spoken in Moldova.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSamiLappish">
@@ -3636,12 +2878,7 @@
       </ReturnValue>
       <MemberValue>1083</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-251">Саамский Lappish.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-251">Sami/Lappish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-251">Sami/Лаппиш.</span><span class="sxs-lookup"><span data-stu-id="e06e9-251">Sami/Lappish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSanskrit">
@@ -3660,12 +2897,7 @@
       </ReturnValue>
       <MemberValue>1103</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-252">санскрит.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-252">Sanskrit.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-252">санскрит.</span><span class="sxs-lookup"><span data-stu-id="e06e9-252">Sanskrit.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSepedi">
@@ -3684,12 +2916,7 @@
       </ReturnValue>
       <MemberValue>1132</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-253">Sepedi.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-253">Sepedi.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-253">Сепеди.</span><span class="sxs-lookup"><span data-stu-id="e06e9-253">Sepedi.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSerbianBosniaHerzegovinaCyrillic">
@@ -3708,12 +2935,7 @@
       </ReturnValue>
       <MemberValue>7194</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-254">Сербский (кириллица) Босния Герцеговина язык.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-254">The Serbian Bosnia Herzegovina Cyrillic language.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-254">Язык для сербского и Герцеговина, отличный от кириллицы.</span><span class="sxs-lookup"><span data-stu-id="e06e9-254">The Serbian Bosnia Herzegovina Cyrillic language.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSerbianBosniaHerzegovinaLatin">
@@ -3732,12 +2954,7 @@
       </ReturnValue>
       <MemberValue>6170</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-255">Сербский Босния Герцеговина Латинская язык.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-255">The Serbian Bosnia Herzegovina Latin language.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-255">Язык для сербского и Герцеговина, отличный от латиницы.</span><span class="sxs-lookup"><span data-stu-id="e06e9-255">The Serbian Bosnia Herzegovina Latin language.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSerbianCyrillic">
@@ -3756,12 +2973,7 @@
       </ReturnValue>
       <MemberValue>3098</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-256">Сербский (кириллица /).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-256">Serbian/Cyrillic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-256">Сербский/кириллица.</span><span class="sxs-lookup"><span data-stu-id="e06e9-256">Serbian/Cyrillic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSerbianLatin">
@@ -3780,12 +2992,7 @@
       </ReturnValue>
       <MemberValue>2074</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-257">Сербский/латиница.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-257">Serbian/Latin.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-257">Сербский/латиница.</span><span class="sxs-lookup"><span data-stu-id="e06e9-257">Serbian/Latin.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSesotho">
@@ -3804,12 +3011,7 @@
       </ReturnValue>
       <MemberValue>1072</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-258">Сесото.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-258">Sesotho.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-258">Северный.</span><span class="sxs-lookup"><span data-stu-id="e06e9-258">Sesotho.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSimplifiedChinese">
@@ -3828,12 +3030,7 @@
       </ReturnValue>
       <MemberValue>2052</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-259">Китайский (упрощенный).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-259">Simplified Chinese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-259">Китайский (упрощенное письмо).</span><span class="sxs-lookup"><span data-stu-id="e06e9-259">Simplified Chinese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSindhi">
@@ -3852,12 +3049,7 @@
       </ReturnValue>
       <MemberValue>1113</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-260">Синдхи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-260">Sindhi.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-260">Синдхи.</span><span class="sxs-lookup"><span data-stu-id="e06e9-260">Sindhi.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSindhiPakistan">
@@ -3876,12 +3068,7 @@
       </ReturnValue>
       <MemberValue>2137</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-261">Синдхи в Пакистан.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-261">Sindhi as spoken in Pakistan.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-261">Синдхи в формате "Пакистан".</span><span class="sxs-lookup"><span data-stu-id="e06e9-261">Sindhi as spoken in Pakistan.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSinhalese">
@@ -3900,12 +3087,7 @@
       </ReturnValue>
       <MemberValue>1115</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-262">Сингальский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-262">Sinhalese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-262">Синхалесе.</span><span class="sxs-lookup"><span data-stu-id="e06e9-262">Sinhalese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSlovak">
@@ -3924,12 +3106,7 @@
       </ReturnValue>
       <MemberValue>1051</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-263">словацкий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-263">Slovak.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-263">словацкий.</span><span class="sxs-lookup"><span data-stu-id="e06e9-263">Slovak.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSlovenian">
@@ -3948,12 +3125,7 @@
       </ReturnValue>
       <MemberValue>1060</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-264">словенский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-264">Slovenian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-264">словенский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-264">Slovenian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSomali">
@@ -3972,12 +3144,7 @@
       </ReturnValue>
       <MemberValue>1143</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-265">Сомали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-265">Somali.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-265">Сомали.</span><span class="sxs-lookup"><span data-stu-id="e06e9-265">Somali.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSorbian">
@@ -3996,12 +3163,7 @@
       </ReturnValue>
       <MemberValue>1070</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-266">Лужицкий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-266">Sorbian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-266">Верхнелужицкий.</span><span class="sxs-lookup"><span data-stu-id="e06e9-266">Sorbian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanish">
@@ -4020,12 +3182,7 @@
       </ReturnValue>
       <MemberValue>1034</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-267">испанский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-267">Spanish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-267">испанский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-267">Spanish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishArgentina">
@@ -4044,12 +3201,7 @@
       </ReturnValue>
       <MemberValue>11274</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-268">Испанский, используемый в Аргентина.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-268">Spanish as spoken in Argentina.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-268">Испанский язык.</span><span class="sxs-lookup"><span data-stu-id="e06e9-268">Spanish as spoken in Argentina.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishBolivia">
@@ -4068,12 +3220,7 @@
       </ReturnValue>
       <MemberValue>16394</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-269">Испанский, используемый в Боливия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-269">Spanish as spoken in Bolivia.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-269">Испанский язык в качестве речевого.</span><span class="sxs-lookup"><span data-stu-id="e06e9-269">Spanish as spoken in Bolivia.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishChile">
@@ -4092,12 +3239,7 @@
       </ReturnValue>
       <MemberValue>13322</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-270">Испанский, используемый в Чили.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-270">Spanish as spoken in Chile.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-270">Испанский язык в качестве произнесенного в Чили.</span><span class="sxs-lookup"><span data-stu-id="e06e9-270">Spanish as spoken in Chile.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishColombia">
@@ -4116,12 +3258,7 @@
       </ReturnValue>
       <MemberValue>9226</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-271">Испанский, используемый в Колумбия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-271">Spanish as spoken in Colombia.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-271">Испанский язык в Колумбия.</span><span class="sxs-lookup"><span data-stu-id="e06e9-271">Spanish as spoken in Colombia.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishCostaRica">
@@ -4140,12 +3277,7 @@
       </ReturnValue>
       <MemberValue>5130</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-272">Испанский, используемый в Коста-Рика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-272">Spanish as spoken in Costa Rica.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-272">Испанский язык — в Коста Рика.</span><span class="sxs-lookup"><span data-stu-id="e06e9-272">Spanish as spoken in Costa Rica.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishDominicanRepublic">
@@ -4164,12 +3296,7 @@
       </ReturnValue>
       <MemberValue>7178</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-273">Испанский, используемый в Доминиканская Республика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-273">Spanish as spoken in the Dominican Republic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-273">Испанский язык.</span><span class="sxs-lookup"><span data-stu-id="e06e9-273">Spanish as spoken in the Dominican Republic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishEcuador">
@@ -4188,12 +3315,7 @@
       </ReturnValue>
       <MemberValue>12298</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-274">Испанский, используемый в Эквадор.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-274">Spanish as spoken in Ecuador.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-274">Испанский язык в Эквадор.</span><span class="sxs-lookup"><span data-stu-id="e06e9-274">Spanish as spoken in Ecuador.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishElSalvador">
@@ -4212,12 +3334,7 @@
       </ReturnValue>
       <MemberValue>17418</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-275">Испанский, используемый в Эль-Сальвадор.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-275">Spanish as spoken in El Salvador.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-275">Испанский в качестве речевого, в Сальвадоре El.</span><span class="sxs-lookup"><span data-stu-id="e06e9-275">Spanish as spoken in El Salvador.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishGuatemala">
@@ -4236,12 +3353,7 @@
       </ReturnValue>
       <MemberValue>4106</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-276">Испанский, используемый в Гватемала.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-276">Spanish as spoken in Guatemala.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-276">Испанский язык в Гватемала.</span><span class="sxs-lookup"><span data-stu-id="e06e9-276">Spanish as spoken in Guatemala.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishHonduras">
@@ -4260,12 +3372,7 @@
       </ReturnValue>
       <MemberValue>18442</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-277">Испанский, используемый в Гондурас.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-277">Spanish as spoken in Honduras.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-277">Испанский язык в Гондурас.</span><span class="sxs-lookup"><span data-stu-id="e06e9-277">Spanish as spoken in Honduras.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishModernSort">
@@ -4284,12 +3391,7 @@
       </ReturnValue>
       <MemberValue>3082</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-278">Испанский (современная сортировка).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-278">Spanish (Modern Sort).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-278">Испанская (современная сортировка).</span><span class="sxs-lookup"><span data-stu-id="e06e9-278">Spanish (Modern Sort).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishNicaragua">
@@ -4308,12 +3410,7 @@
       </ReturnValue>
       <MemberValue>19466</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-279">Испанский, используемый в Никарагуа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-279">Spanish as spoken in Nicaragua.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-279">Испанский язык — Никарагуа.</span><span class="sxs-lookup"><span data-stu-id="e06e9-279">Spanish as spoken in Nicaragua.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishPanama">
@@ -4332,12 +3429,7 @@
       </ReturnValue>
       <MemberValue>6154</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-280">Испанский, используемый в Панама.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-280">Spanish as spoken in Panama.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-280">Испанский язык в Панама.</span><span class="sxs-lookup"><span data-stu-id="e06e9-280">Spanish as spoken in Panama.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishParaguay">
@@ -4356,12 +3448,7 @@
       </ReturnValue>
       <MemberValue>15370</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-281">Испанский, используемый в Парагвай.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-281">Spanish as spoken in Paraguay.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-281">Испанский язык.</span><span class="sxs-lookup"><span data-stu-id="e06e9-281">Spanish as spoken in Paraguay.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishPeru">
@@ -4380,12 +3467,7 @@
       </ReturnValue>
       <MemberValue>10250</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-282">Испанский, используемый в Перу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-282">Spanish as spoken in Peru.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-282">Испанский язык в Перу.</span><span class="sxs-lookup"><span data-stu-id="e06e9-282">Spanish as spoken in Peru.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishPuertoRico">
@@ -4404,12 +3486,7 @@
       </ReturnValue>
       <MemberValue>20490</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-283">Испанский, используемый в Пуэрто-Рико.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-283">Spanish as spoken in Puerto Rico.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-283">Испанский в качестве Пуэрто-Рико.</span><span class="sxs-lookup"><span data-stu-id="e06e9-283">Spanish as spoken in Puerto Rico.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishUruguay">
@@ -4428,12 +3505,7 @@
       </ReturnValue>
       <MemberValue>14346</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-284">Испанский, используемый в Уругвай.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-284">Spanish as spoken in Uruguay.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-284">Испанский язык в Уругвай.</span><span class="sxs-lookup"><span data-stu-id="e06e9-284">Spanish as spoken in Uruguay.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSpanishVenezuela">
@@ -4452,12 +3524,7 @@
       </ReturnValue>
       <MemberValue>8202</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-285">Испанский, используемый в Венесуэла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-285">Spanish as spoken in Venezuela.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-285">Испанский язык в Венесуэла.</span><span class="sxs-lookup"><span data-stu-id="e06e9-285">Spanish as spoken in Venezuela.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSutu">
@@ -4476,12 +3543,7 @@
       </ReturnValue>
       <MemberValue>1072</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-286">Сото.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-286">Sutu.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-286">Суту.</span><span class="sxs-lookup"><span data-stu-id="e06e9-286">Sutu.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSwahili">
@@ -4500,12 +3562,7 @@
       </ReturnValue>
       <MemberValue>1089</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-287">суахили.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-287">Swahili.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-287">суахили.</span><span class="sxs-lookup"><span data-stu-id="e06e9-287">Swahili.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSwedish">
@@ -4524,12 +3581,7 @@
       </ReturnValue>
       <MemberValue>1053</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-288">шведский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-288">Swedish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-288">шведский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-288">Swedish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSwedishFinland">
@@ -4548,12 +3600,7 @@
       </ReturnValue>
       <MemberValue>2077</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-289">Шведский, используемый в Финляндия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-289">Swedish as spoken in Finland.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-289">Шведский язык в Финляндии.</span><span class="sxs-lookup"><span data-stu-id="e06e9-289">Swedish as spoken in Finland.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSwissFrench">
@@ -4572,12 +3619,7 @@
       </ReturnValue>
       <MemberValue>4108</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-290">Французский как произносимого в Швейцария.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-290">French as spoken in Switzerland.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-290">Французский язык, как в Швейцарии.</span><span class="sxs-lookup"><span data-stu-id="e06e9-290">French as spoken in Switzerland.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSwissGerman">
@@ -4596,12 +3638,7 @@
       </ReturnValue>
       <MemberValue>2055</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-291">Немецкий, используемый в Швейцария.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-291">German as spoken in Switzerland.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-291">Немецкий язык, который проступал в Швейцарии.</span><span class="sxs-lookup"><span data-stu-id="e06e9-291">German as spoken in Switzerland.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSwissItalian">
@@ -4620,12 +3657,7 @@
       </ReturnValue>
       <MemberValue>2064</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-292">Итальянский, используемый в Швейцария.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-292">Italian as spoken in Switzerland.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-292">Итальянский, как в Швейцарии.</span><span class="sxs-lookup"><span data-stu-id="e06e9-292">Italian as spoken in Switzerland.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDSyriac">
@@ -4644,12 +3676,7 @@
       </ReturnValue>
       <MemberValue>1114</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-293">Сирийский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-293">Syriac.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-293">Сирийск.</span><span class="sxs-lookup"><span data-stu-id="e06e9-293">Syriac.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTajik">
@@ -4668,12 +3695,7 @@
       </ReturnValue>
       <MemberValue>1064</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-294">Таджикский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-294">Tajik.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-294">Таджикский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-294">Tajik.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTamazight">
@@ -4692,12 +3714,7 @@
       </ReturnValue>
       <MemberValue>1119</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-295">Тамазигхт.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-295">Tamazight.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-295">Тамазигхт.</span><span class="sxs-lookup"><span data-stu-id="e06e9-295">Tamazight.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTamazightLatin">
@@ -4716,12 +3733,7 @@
       </ReturnValue>
       <MemberValue>2143</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-296">Тамазигхт (латиница).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-296">Tamazight (Latin).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-296">Тамазигхт (латиница).</span><span class="sxs-lookup"><span data-stu-id="e06e9-296">Tamazight (Latin).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTamil">
@@ -4740,12 +3752,7 @@
       </ReturnValue>
       <MemberValue>1097</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-297">тамильский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-297">Tamil.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-297">тамильский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-297">Tamil.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTatar">
@@ -4764,12 +3771,7 @@
       </ReturnValue>
       <MemberValue>1092</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-298">татарский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-298">Tatar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-298">татарский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-298">Tatar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTelugu">
@@ -4788,12 +3790,7 @@
       </ReturnValue>
       <MemberValue>1098</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-299">телугу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-299">Telugu.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-299">телугу.</span><span class="sxs-lookup"><span data-stu-id="e06e9-299">Telugu.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDThai">
@@ -4812,12 +3809,7 @@
       </ReturnValue>
       <MemberValue>1054</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-300">тайский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-300">Thai.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-300">тайский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-300">Thai.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTibetan">
@@ -4836,12 +3828,7 @@
       </ReturnValue>
       <MemberValue>1105</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-301">Тибетский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-301">Tibetan.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-301">Тибетский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-301">Tibetan.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTigrignaEritrea">
@@ -4860,12 +3847,7 @@
       </ReturnValue>
       <MemberValue>2163</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-302">Tigrigna в Эритрея.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-302">Tigrigna as spoken in Eritrea.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-302">Тигригна, как говорят в Эритрея.</span><span class="sxs-lookup"><span data-stu-id="e06e9-302">Tigrigna as spoken in Eritrea.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTigrignaEthiopic">
@@ -4884,12 +3866,7 @@
       </ReturnValue>
       <MemberValue>1139</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-303">Tigrigna в Эфиопия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-303">Tigrigna as spoken in Ethiopia.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-303">Тигригна в качестве произнесенного в Эфиопия.</span><span class="sxs-lookup"><span data-stu-id="e06e9-303">Tigrigna as spoken in Ethiopia.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTraditionalChinese">
@@ -4908,12 +3885,7 @@
       </ReturnValue>
       <MemberValue>1028</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-304">Китайский, традиционное письмо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-304">Traditional Chinese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-304">Китайский (традиционное письмо).</span><span class="sxs-lookup"><span data-stu-id="e06e9-304">Traditional Chinese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTsonga">
@@ -4932,12 +3904,7 @@
       </ReturnValue>
       <MemberValue>1073</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-305">"Тсонга".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-305">Tsonga.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-305">Тсонга.</span><span class="sxs-lookup"><span data-stu-id="e06e9-305">Tsonga.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTswana">
@@ -4956,12 +3923,7 @@
       </ReturnValue>
       <MemberValue>1074</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-306">тсвана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-306">Tswana.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-306">тсвана.</span><span class="sxs-lookup"><span data-stu-id="e06e9-306">Tswana.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTurkish">
@@ -4980,12 +3942,7 @@
       </ReturnValue>
       <MemberValue>1055</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-307">турецкий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-307">Turkish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-307">турецкий.</span><span class="sxs-lookup"><span data-stu-id="e06e9-307">Turkish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDTurkmen">
@@ -5004,12 +3961,7 @@
       </ReturnValue>
       <MemberValue>1090</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-308">Туркменский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-308">Turkmen.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-308">Туркменский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-308">Turkmen.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDUkrainian">
@@ -5028,12 +3980,7 @@
       </ReturnValue>
       <MemberValue>1058</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-309">украинский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-309">Ukrainian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-309">украинский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-309">Ukrainian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDUrdu">
@@ -5052,12 +3999,7 @@
       </ReturnValue>
       <MemberValue>1056</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-310">урду.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-310">Urdu.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-310">урду.</span><span class="sxs-lookup"><span data-stu-id="e06e9-310">Urdu.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDUzbekCyrillic">
@@ -5076,12 +4018,7 @@
       </ReturnValue>
       <MemberValue>2115</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-311">узбекский (кириллица).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-311">Uzbek (Cyrillic).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-311">узбекский (кириллица).</span><span class="sxs-lookup"><span data-stu-id="e06e9-311">Uzbek (Cyrillic).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDUzbekLatin">
@@ -5100,12 +4037,7 @@
       </ReturnValue>
       <MemberValue>1091</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-312">Узбекский (латиница).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-312">Uzbek (Latin).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-312">Узбекский (латиница).</span><span class="sxs-lookup"><span data-stu-id="e06e9-312">Uzbek (Latin).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDVenda">
@@ -5124,12 +4056,7 @@
       </ReturnValue>
       <MemberValue>1075</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-313">"Венда".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-313">Venda.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-313">Поставщик поставщика</span><span class="sxs-lookup"><span data-stu-id="e06e9-313">Venda.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDVietnamese">
@@ -5148,12 +4075,7 @@
       </ReturnValue>
       <MemberValue>1066</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-314">вьетнамский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-314">Vietnamese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-314">вьетнамский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-314">Vietnamese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDWelsh">
@@ -5172,12 +4094,7 @@
       </ReturnValue>
       <MemberValue>1106</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-315">валлийский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-315">Welsh.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-315">валлийский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-315">Welsh.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDXhosa">
@@ -5196,12 +4113,7 @@
       </ReturnValue>
       <MemberValue>1076</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-316">коса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-316">Xhosa.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-316">коса.</span><span class="sxs-lookup"><span data-stu-id="e06e9-316">Xhosa.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDYi">
@@ -5220,12 +4132,7 @@
       </ReturnValue>
       <MemberValue>1144</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-317">Ий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-317">Yi.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-317">Yi.</span><span class="sxs-lookup"><span data-stu-id="e06e9-317">Yi.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDYiddish">
@@ -5244,12 +4151,7 @@
       </ReturnValue>
       <MemberValue>1085</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-318">Идиша.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-318">Yiddish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-318">Иддиш.</span><span class="sxs-lookup"><span data-stu-id="e06e9-318">Yiddish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDYoruba">
@@ -5268,12 +4170,7 @@
       </ReturnValue>
       <MemberValue>1130</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-319">Йоруба.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-319">Yoruba.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-319">Йоруба.</span><span class="sxs-lookup"><span data-stu-id="e06e9-319">Yoruba.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLanguageIDZulu">
@@ -5292,12 +4189,7 @@
       </ReturnValue>
       <MemberValue>1077</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9b26-320">зулусский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9b26-320">Zulu.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e06e9-320">зулусский.</span><span class="sxs-lookup"><span data-stu-id="e06e9-320">Zulu.</span></span></summary>
       </Docs>
     </Member>
   </Members>

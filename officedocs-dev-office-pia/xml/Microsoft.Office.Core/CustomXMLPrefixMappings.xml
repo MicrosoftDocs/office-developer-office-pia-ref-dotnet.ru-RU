@@ -1,13 +1,5 @@
 <Type Name="CustomXMLPrefixMappings" FullName="Microsoft.Office.Core.CustomXMLPrefixMappings">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="190d48b94af1299572cda2a3fe8441b5a64cbbaf" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661841" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CustomXMLPrefixMappings : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="190d48b94af1299572cda2a3fe8441b5a64cbbaf" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661841" /></Metadata><TypeSignature Language="C#" Value="public interface CustomXMLPrefixMappings : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLPrefixMappings implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLPrefixMappings" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLPrefixMappings&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,12 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="edc25-101">Представляет коллекцию объектов <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объектов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="edc25-101">Represents a collection of <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> objects.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="9b540-101">Представляет коллекцию <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объектов.</span><span class="sxs-lookup"><span data-stu-id="9b540-101">Represents a collection of <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> objects.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -66,36 +53,12 @@
         <Parameter Name="NamespaceURI" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Prefix">
-          <span data-ttu-id="edc25-102">Содержит префикс для добавления в список сопоставлений префиксов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-102">Contains the prefix to add to the prefix mapping list.</span>
-          </span>
-        </param>
-        <param name="NamespaceURI">
-          <span data-ttu-id="edc25-103">Содержит пространство имен, чтобы назначить только что добавленный префиксом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-103">Contains the namespace to assign to the newly added prefix.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="edc25-104">Позволяет добавить сопоставление настраиваемого префикса для использования при запрашивании элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-104">Allows you to add a custom namespace/prefix mapping to use when querying an item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="edc25-105">
-            <para>Если префикс уже присутствует в диспетчере пространство имен, этот метод будет перезаписывать значение этот префикс, за исключением при префикс — это один добавлена и используются службами хранилище данных (интерфейс<b>IXMLDataStore</b> ) во внутренней сети, в этом случае возвратит ошибку.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-105">
-              <para>If the prefix already exists in the Namespace Manager, this method will overwrite the meaning of that prefix except when the prefix is one added or used by the data store (<b>IXMLDataStore</b> interface) internally, in which case it will return an error.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Prefix"><span data-ttu-id="9b540-102">Содержит префикс, добавляемый в список сопоставлений префиксов.</span><span class="sxs-lookup"><span data-stu-id="9b540-102">Contains the prefix to add to the prefix mapping list.</span></span></param>
+        <param name="NamespaceURI"><span data-ttu-id="9b540-103">Содержит пространство имен, назначаемое новому префиксу.</span><span class="sxs-lookup"><span data-stu-id="9b540-103">Contains the namespace to assign to the newly added prefix.</span></span></param>
+        <summary><span data-ttu-id="9b540-104">Позволяет добавить настраиваемое сопоставление пространства имен или префикса для использования при запросе элемента.</span><span class="sxs-lookup"><span data-stu-id="9b540-104">Allows you to add a custom namespace/prefix mapping to use when querying an item.</span></span></summary>
+        <remarks><span data-ttu-id="9b540-105"><para>Если префикс уже существует в диспетчере пространств имен, этот метод перезапишет значение этого префикса, кроме случаев, когда префикс добавляется или используется хранилищем данных (интерфейс<b>иксмлдатасторе</b> ), в таком случае он возвратит ошибку.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="9b540-105"><para>If the prefix already exists in the Namespace Manager, this method will overwrite the meaning of that prefix except when the prefix is one added or used by the data store (<b>IXMLDataStore</b> interface) internally, in which case it will return an error.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -124,26 +87,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="edc25-106">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-106">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> object.</span>
-          </span>
-          <span data-ttu-id="edc25-107">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-107">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="edc25-108">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-108">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="9b540-106">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="9b540-106">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> object.</span></span> <span data-ttu-id="9b540-107">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9b540-107">Read-only.</span></span></summary>
+        <value><span data-ttu-id="9b540-108"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="9b540-108"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -170,26 +115,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="edc25-109">Получает количество элементов в <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-109">Gets the number of items in the <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> collection.</span>
-          </span>
-          <span data-ttu-id="edc25-110">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-110">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="edc25-111">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-111">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="9b540-109">Получает количество элементов в <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="9b540-109">Gets the number of items in the <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> collection.</span></span> <span data-ttu-id="9b540-110">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9b540-110">Read-only.</span></span></summary>
+        <value><span data-ttu-id="9b540-111"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="9b540-111"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -219,26 +146,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="edc25-112">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-112">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> object was created.</span>
-          </span>
-          <span data-ttu-id="edc25-113">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-113">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="edc25-114">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-114">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="9b540-112">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="9b540-112">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> object was created.</span></span> <span data-ttu-id="9b540-113">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9b540-113">Read-only.</span></span></summary>
+        <value><span data-ttu-id="9b540-114"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="9b540-114"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -300,25 +209,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="edc25-115">Имя или номер индекса <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта должно быть возвращено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-115">The name or index number of the <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> object to be returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="edc25-116">Получает <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта из <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-116">Gets a <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> object from the <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> collection.</span>
-          </span>
-          <span data-ttu-id="edc25-117">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-117">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" />
-        </value>
+        <param name="Index"><span data-ttu-id="9b540-115">Имя или номер индекса возвращаемого <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="9b540-115">The name or index number of the <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> object to be returned.</span></span></param>
+        <summary><span data-ttu-id="9b540-116">Получает <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> объект из <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="9b540-116">Gets a <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /> object from the <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> collection.</span></span> <span data-ttu-id="9b540-117">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9b540-117">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLPrefixMapping" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -345,40 +238,12 @@
         <Parameter Name="Prefix" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Prefix">
-          <span data-ttu-id="edc25-118">Содержит префикс в список сопоставлений префиксов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-118">Contains a prefix in the prefix mapping list.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="edc25-119">Позволяет получить пространство имен, в соответствии с указанным префиксом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-119">Allows you to get the namespace corresponding to the specified prefix.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="edc25-120">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-120">
-              <b>String</b>
-            </span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="edc25-121">
-            <para>Если пространство имен не назначено для запрошенного префикса, метод возвращает пустую строку (»»).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-121">
-              <para>If no namespace is assigned to the requested prefix, the method returns an empty string ("").</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Prefix"><span data-ttu-id="9b540-118">Содержит префикс в списке сопоставлений префиксов.</span><span class="sxs-lookup"><span data-stu-id="9b540-118">Contains a prefix in the prefix mapping list.</span></span></param>
+        <summary><span data-ttu-id="9b540-119">Позволяет получить пространство имен, соответствующее указанному префиксу.</span><span class="sxs-lookup"><span data-stu-id="9b540-119">Allows you to get the namespace corresponding to the specified prefix.</span></span></summary>
+        <returns><span data-ttu-id="9b540-120"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="9b540-120"><b>String</b></span></span></returns>
+        <remarks><span data-ttu-id="9b540-121"><para>Если запрашиваемому префиксу не назначено пространство имен, метод возвращает пустую строку ("").</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="9b540-121"><para>If no namespace is assigned to the requested prefix, the method returns an empty string ("").</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="LookupPrefix">
@@ -404,40 +269,12 @@
         <Parameter Name="NamespaceURI" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="NamespaceURI">
-          <span data-ttu-id="edc25-122">Содержит URI пространства имен.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-122">Contains the namespace URI.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="edc25-123">Позволяет получить префикс, соответствующий указанному пространству имен.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-123">Allows you to get a prefix corresponding to the specified namespace.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="edc25-124">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-124">
-              <b>String</b>
-            </span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="edc25-125">
-            <para>Если префикс не назначен для запрошенного пространство имен, метод возвращает пустую строку (»»). Если существует несколько префиксов, указанных в диспетчер пространства имен, метод возвращает первого префикса, которая соответствует указанного пространства имен.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-125">
-              <para>If no prefix is assigned to the requested namespace, the method returns an empty string (""). If there are multiple prefixes specified in the namespace manager, the method returns the first prefix that matches the supplied namespace.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="NamespaceURI"><span data-ttu-id="9b540-122">Содержит URI пространства имен.</span><span class="sxs-lookup"><span data-stu-id="9b540-122">Contains the namespace URI.</span></span></param>
+        <summary><span data-ttu-id="9b540-123">Позволяет получить префикс, соответствующий заданному пространству имен.</span><span class="sxs-lookup"><span data-stu-id="9b540-123">Allows you to get a prefix corresponding to the specified namespace.</span></span></summary>
+        <returns><span data-ttu-id="9b540-124"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="9b540-124"><b>String</b></span></span></returns>
+        <remarks><span data-ttu-id="9b540-125"><para>Если запрошенному пространству имен не назначен префикс, метод возвращает пустую строку (""). Если в диспетчере пространств имен указано несколько префиксов, метод возвращает первый префикс, соответствующий предоставленному пространству имен.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="9b540-125"><para>If no prefix is assigned to the requested namespace, the method returns an empty string (""). If there are multiple prefixes specified in the namespace manager, the method returns the first prefix that matches the supplied namespace.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -463,26 +300,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="edc25-126">Получает родительский объект для <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-126">Gets the parent object for the <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> object.</span>
-          </span>
-          <span data-ttu-id="edc25-127">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-127">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="edc25-128">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="edc25-128">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="9b540-126">Получает родительский объект для <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="9b540-126">Gets the parent object for the <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /> object.</span></span> <span data-ttu-id="9b540-127">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9b540-127">Read-only.</span></span></summary>
+        <value><span data-ttu-id="9b540-128"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="9b540-128"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

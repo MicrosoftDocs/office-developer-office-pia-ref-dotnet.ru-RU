@@ -1,13 +1,5 @@
 <Type Name="MsoVerticalAnchor" FullName="Microsoft.Office.Core.MsoVerticalAnchor">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bb57368d4f4f4c0c7aa235d50cd9809d12d59c81" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661693" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoVerticalAnchor" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bb57368d4f4f4c0c7aa235d50cd9809d12d59c81" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661693" /></Metadata><TypeSignature Language="C#" Value="public enum MsoVerticalAnchor" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoVerticalAnchor extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoVerticalAnchor" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoVerticalAnchor" />
@@ -20,24 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="7ac06-101">Задает вертикальное выравнивание текста в рамке.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7ac06-101">Specifies the vertical alignment of text in a text frame.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="7ac06-102">
-        <para>Используется совместно со свойством <b>VerticalAnchor</b> объекта <b>TextFrame</b> .</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7ac06-102">
-          <para>Used with the <b>VerticalAnchor</b> property of the <b>TextFrame</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="85d6f-101">Задает вертикальное выравнивание текста в текстовом фрейме.</span><span class="sxs-lookup"><span data-stu-id="85d6f-101">Specifies the vertical alignment of text in a text frame.</span></span></summary>
+    <remarks><span data-ttu-id="85d6f-102"><para>Используется со свойством <b>вертикаланчор</b> объекта <b>TextFrame</b></para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="85d6f-102"><para>Used with the <b>VerticalAnchor</b> property of the <b>TextFrame</b> object.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoAnchorBottom">
@@ -56,12 +34,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7ac06-103">Выравнивание текста в нижней части текстового фрейма.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7ac06-103">Aligns text to bottom of text frame.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="85d6f-103">Выравнивает текст по нижнему краю текстового фрейма.</span><span class="sxs-lookup"><span data-stu-id="85d6f-103">Aligns text to bottom of text frame.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAnchorBottomBaseLine">
@@ -80,16 +53,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7ac06-104">Привязка нижней части текстовой строки в текущей позиции, независимо от того, изменение размеров текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7ac06-104">Anchors bottom of text string to current position, regardless of text resizing.</span>
-          </span>
-          <span data-ttu-id="7ac06-105">При изменении размера текста без базового привязки, текст центры самого в предыдущее положение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7ac06-105">When you resize text without baseline anchoring, text centers itself on previous position.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="85d6f-104">Привязка нижнего края строки текста к текущему положению независимо от изменения размера текста.</span><span class="sxs-lookup"><span data-stu-id="85d6f-104">Anchors bottom of text string to current position, regardless of text resizing.</span></span> <span data-ttu-id="85d6f-105">При изменении размера текста без привязки к базовому и текстовому центру в предыдущей позиции.</span><span class="sxs-lookup"><span data-stu-id="85d6f-105">When you resize text without baseline anchoring, text centers itself on previous position.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAnchorMiddle">
@@ -108,12 +72,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7ac06-106">Выравнивание текста по вертикали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7ac06-106">Centers text vertically.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="85d6f-106">Вертикальное центрирование текста.</span><span class="sxs-lookup"><span data-stu-id="85d6f-106">Centers text vertically.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAnchorTop">
@@ -132,12 +91,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7ac06-107">Выравнивание текста в верхней части текстового фрейма.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7ac06-107">Aligns text to top of text frame.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="85d6f-107">Выравнивание текста по верхнему краю текстового фрейма.</span><span class="sxs-lookup"><span data-stu-id="85d6f-107">Aligns text to top of text frame.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAnchorTopBaseline">
@@ -156,16 +110,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7ac06-108">Привязка нижней части текстовой строки в текущей позиции, независимо от того, изменение размеров текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7ac06-108">Anchors bottom of text string to current position, regardless of text resizing.</span>
-          </span>
-          <span data-ttu-id="7ac06-109">При изменении размера текста без базового привязки, текст центры самого в предыдущее положение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7ac06-109">When you resize text without baseline anchoring, text centers itself on previous position.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="85d6f-108">Привязка нижнего края строки текста к текущему положению независимо от изменения размера текста.</span><span class="sxs-lookup"><span data-stu-id="85d6f-108">Anchors bottom of text string to current position, regardless of text resizing.</span></span> <span data-ttu-id="85d6f-109">При изменении размера текста без привязки к базовому и текстовому центру в предыдущей позиции.</span><span class="sxs-lookup"><span data-stu-id="85d6f-109">When you resize text without baseline anchoring, text centers itself on previous position.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoVerticalAnchorMixed">
@@ -184,12 +129,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7ac06-110">Возвращаемое значение. Указывает сочетание других состояний.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7ac06-110">Return value only; indicates a combination of the other states.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="85d6f-110">Только возвращаемое значение; Указывает комбинацию других состояний.</span><span class="sxs-lookup"><span data-stu-id="85d6f-110">Return value only; indicates a combination of the other states.</span></span></summary>
       </Docs>
     </Member>
   </Members>

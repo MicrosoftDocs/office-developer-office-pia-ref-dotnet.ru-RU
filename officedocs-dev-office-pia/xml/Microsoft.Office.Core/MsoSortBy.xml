@@ -1,13 +1,5 @@
 <Type Name="MsoSortBy" FullName="Microsoft.Office.Core.MsoSortBy">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2f50795cfe242360e7c68f200c708e08b3b51a7c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661655" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoSortBy" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2f50795cfe242360e7c68f200c708e08b3b51a7c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661655" /></Metadata><TypeSignature Language="C#" Value="public enum MsoSortBy" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSortBy extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSortBy" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoSortBy" />
@@ -25,12 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="8fa83-101">Указывает порядок сортировки для файлов в коллекции объектов <b>FileSearch</b><b>FoundFiles</b> .</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8fa83-101">Specifies sort order for files in a <b>FileSearch</b> object's <b>FoundFiles</b> collection.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="46f13-101">Задает порядок сортировки файлов в коллекции <b>фаундфилес</b> объекта <b>FileSearch</b> .</span><span class="sxs-lookup"><span data-stu-id="46f13-101">Specifies sort order for files in a <b>FileSearch</b> object's <b>FoundFiles</b> collection.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,12 +37,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fa83-102">Имя файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fa83-102">File name.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46f13-102">Имя файла.</span><span class="sxs-lookup"><span data-stu-id="46f13-102">File name.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSortByFileType">
@@ -74,12 +56,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fa83-103">Тип файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fa83-103">File type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46f13-103">Тип файла.</span><span class="sxs-lookup"><span data-stu-id="46f13-103">File type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSortByLastModified">
@@ -98,12 +75,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fa83-104">Дата последнего изменения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fa83-104">Last modified date.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46f13-104">Дата последнего изменения.</span><span class="sxs-lookup"><span data-stu-id="46f13-104">Last modified date.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSortByNone">
@@ -122,12 +94,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fa83-105">Порядок сортировки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fa83-105">No sort.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46f13-105">Без сортировки.</span><span class="sxs-lookup"><span data-stu-id="46f13-105">No sort.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSortBySize">
@@ -146,12 +113,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8fa83-106">Размер файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8fa83-106">File size.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="46f13-106">Размер файла.</span><span class="sxs-lookup"><span data-stu-id="46f13-106">File size.</span></span></summary>
       </Docs>
     </Member>
   </Members>

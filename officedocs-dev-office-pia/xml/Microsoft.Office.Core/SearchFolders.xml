@@ -1,13 +1,5 @@
 <Type Name="SearchFolders" FullName="Microsoft.Office.Core.SearchFolders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7a476b21fef9f00a9963e00ce596a95e24442282" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661703" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SearchFolders : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7a476b21fef9f00a9963e00ce596a95e24442282" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661703" /></Metadata><TypeSignature Language="C#" Value="public interface SearchFolders : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SearchFolders implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SearchFolders" />
   <TypeSignature Language="VB.NET" Value="Public Interface SearchFolders&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,31 +25,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="d6749-101">Коллекцию <see cref="T:Microsoft.Office.Core.ScopeFolder" /> объектов, которые определяет, какие папки поиска при <see cref="M:Microsoft.Office.Core.FileSearch.Execute(Microsoft.Office.Core.MsoSortBy,Microsoft.Office.Core.MsoSortOrder,System.Boolean)" /> метод <see cref="T:Microsoft.Office.Core.FileSearch" /> вызывается объект.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d6749-101">A collection of <see cref="T:Microsoft.Office.Core.ScopeFolder" /> objects that determines which folders are searched when the <see cref="M:Microsoft.Office.Core.FileSearch.Execute(Microsoft.Office.Core.MsoSortBy,Microsoft.Office.Core.MsoSortOrder,System.Boolean)" /> method of the <see cref="T:Microsoft.Office.Core.FileSearch" /> object is called.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="d6749-102">
-        <para>Использование <see cref="P:Microsoft.Office.Core.FileSearch.SearchFolders" /> свойства с помощью объекта <b>FileSearch</b> для возврата коллекции <b>SearchFolders</b> .</para>
-        <para>Для каждого приложения существует только одна коллекция <b>SearchFolders</b> . Содержимое коллекции остается после завершения выполнения кода, вызывающего его. Следовательно, не важно очистить коллекцию, если не требуется включать папки из предыдущей поиска в поле поиска.</para>
-        <para>Можно использовать <see cref="M:Microsoft.Office.Core.SearchFolders.Add(Microsoft.Office.Core.ScopeFolder)" /> методу коллекции <b>SearchFolders</b> для добавления <b>ScopeFolder</b> объект в коллекцию <b>SearchFolders</b> ; тем не менее, обычно проще использовать <see cref="M:Microsoft.Office.Core.ScopeFolder.AddToSearchFolders" /> метод <b>ScopeFolder</b> , которые вы необходимо добавить, поскольку существует только одна коллекция <b>SearchFolders</b> для всех поисков.</para>
-        <para>
-          <b>SearchFolders</b> семейства сайтов можно рассматривать как дополнение к <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> свойства объекта <b>FileSearch</b> . Одновременно указать папки для поиска и оба используются при выполнении поиска. Тем не менее если необходимо использовать свойство <b>LookIn</b> , вам следует убедиться, что семейство <b>SearchFolders</b> пустой. С другой стороны, если требуется использовать коллекцию <b>SearchFolders</b> , свойства <b>LookIn</b> пути первый элемент коллекции <b>SearchFolders</b> до вызова метода <b>Execute</b> .</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d6749-102">
-          <para>Use the <see cref="P:Microsoft.Office.Core.FileSearch.SearchFolders" /> property with the <b>FileSearch</b> object to return the <b>SearchFolders</b> collection.</para>
-          <para>For each application there is only a single <b>SearchFolders</b> collection. The content of the collection remains after the code that calls it has finished executing. Consequently, it is important to clear the collection unless you want to include folders from previous searches in your search.</para>
-          <para>You can use the <see cref="M:Microsoft.Office.Core.SearchFolders.Add(Microsoft.Office.Core.ScopeFolder)" /> method of the <b>SearchFolders</b> collection to add a <b>ScopeFolder</b> object to the <b>SearchFolders</b> collection; however, it is usually simpler to use the <see cref="M:Microsoft.Office.Core.ScopeFolder.AddToSearchFolders" /> method of the <b>ScopeFolder</b> that you want to add, as there is only one <b>SearchFolders</b> collection for all searches.</para>
-          <para>The <b>SearchFolders</b> collection can be seen as a compliment to the <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> property of the <b>FileSearch</b> object. Both specify the folders to search and both are used when the search is executed. However, if you only want to use the <b>LookIn</b> property, you should make sure that the <b>SearchFolders</b> collection is empty. Conversely, if you only want to use the <b>SearchFolders</b> collection, set the <b>LookIn</b> property to the path of the first member of the <b>SearchFolders</b> collection before you call the <b>Execute</b> method.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="0c082-101">Коллекция <see cref="T:Microsoft.Office.Core.ScopeFolder" /> объектов, определяющих, в <see cref="M:Microsoft.Office.Core.FileSearch.Execute(Microsoft.Office.Core.MsoSortBy,Microsoft.Office.Core.MsoSortOrder,System.Boolean)" /> каких папках выполняется поиск при вызове <see cref="T:Microsoft.Office.Core.FileSearch" /> метода объекта.</span><span class="sxs-lookup"><span data-stu-id="0c082-101">A collection of <see cref="T:Microsoft.Office.Core.ScopeFolder" /> objects that determines which folders are searched when the <see cref="M:Microsoft.Office.Core.FileSearch.Execute(Microsoft.Office.Core.MsoSortBy,Microsoft.Office.Core.MsoSortOrder,System.Boolean)" /> method of the <see cref="T:Microsoft.Office.Core.FileSearch" /> object is called.</span></span></summary>
+    <remarks><span data-ttu-id="0c082-102"><para>Используйте <see cref="P:Microsoft.Office.Core.FileSearch.SearchFolders" /> свойство с объектом <b>FileSearch</b> , чтобы возвратить коллекцию <b>SearchFolders</b> .</para> 
+      <para>Для каждого приложения существует только одна коллекция <b>SearchFolders</b> . Содержимое коллекции остается после завершения выполнения кода, который ее вызывает. Поэтому необходимо очистить коллекцию, если вы не хотите включать в Поиск папки из предыдущих поисков.</para> 
+      <para> <b>SearchFolders</b> <see cref="M:Microsoft.Office.Core.ScopeFolder.AddToSearchFolders" /> <b>SearchFolders</b> <b>ScopeFolder</b> <b>ScopeFolder</b> <b>SearchFolders</b> Метод коллекции SearchFolders можно использовать для добавления объекта ScopeFolder в коллекцию SearchFolders, однако, как правило, проще использовать метод ScopeFolder, который вы хотите добавить, так как для всех операций поиска существует только одна коллекция SearchFolders. <see cref="M:Microsoft.Office.Core.SearchFolders.Add(Microsoft.Office.Core.ScopeFolder)" /> </para> 
+      <para>Коллекция <b>SearchFolders</b> может отображаться как приветственное <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> свойство объекта <b>FileSearch</b> . Укажите папки для поиска, которые будут использоваться при выполнении поиска. Тем не менее, если вы хотите использовать свойство <b>Look</b> , необходимо убедиться в том, что коллекция <b>SearchFolders</b> пуста. И наоборот, если вы хотите использовать только коллекцию <b>SearchFolders</b> , присвойте свойству <b>Look</b> путь к первому элементу коллекции <b>SearchFolders</b> перед вызовом метода <b>EXECUTE</b> .</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="0c082-102"><para>Use the <see cref="P:Microsoft.Office.Core.FileSearch.SearchFolders" /> property with the <b>FileSearch</b> object to return the <b>SearchFolders</b> collection.</para>
+      <para>For each application there is only a single <b>SearchFolders</b> collection. The content of the collection remains after the code that calls it has finished executing. Consequently, it is important to clear the collection unless you want to include folders from previous searches in your search.</para>
+      <para>You can use the <see cref="M:Microsoft.Office.Core.SearchFolders.Add(Microsoft.Office.Core.ScopeFolder)" /> method of the <b>SearchFolders</b> collection to add a <b>ScopeFolder</b> object to the <b>SearchFolders</b> collection; however, it is usually simpler to use the <see cref="M:Microsoft.Office.Core.ScopeFolder.AddToSearchFolders" /> method of the <b>ScopeFolder</b> that you want to add, as there is only one <b>SearchFolders</b> collection for all searches.</para>
+      <para>The <b>SearchFolders</b> collection can be seen as a compliment to the <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> property of the <b>FileSearch</b> object. Both specify the folders to search and both are used when the search is executed. However, if you only want to use the <b>LookIn</b> property, you should make sure that the <b>SearchFolders</b> collection is empty. Conversely, if you only want to use the <b>SearchFolders</b> collection, set the <b>LookIn</b> property to the path of the first member of the <b>SearchFolders</b> collection before you call the <b>Execute</b> method.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -82,22 +59,8 @@
         <Parameter Name="ScopeFolder" Type="Microsoft.Office.Core.ScopeFolder" />
       </Parameters>
       <Docs>
-        <param name="ScopeFolder">
-          <span data-ttu-id="d6749-103">Требуется <see cref="T:Microsoft.Office.Core.ScopeFolder" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-103">Required <see cref="T:Microsoft.Office.Core.ScopeFolder" />.</span>
-          </span>
-          <span data-ttu-id="d6749-104">Папка для добавления в поиск.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-104">The folder to add to the search.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d6749-105">Добавление папки поиска для поиска файлов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-105">Adds a search folder to a file search.</span>
-          </span>
-        </summary>
+        <param name="ScopeFolder"><span data-ttu-id="0c082-103">Обязательный <see cref="T:Microsoft.Office.Core.ScopeFolder" />.</span><span class="sxs-lookup"><span data-stu-id="0c082-103">Required <see cref="T:Microsoft.Office.Core.ScopeFolder" />.</span></span> <span data-ttu-id="0c082-104">Папка, которую необходимо добавить в поиск.</span><span class="sxs-lookup"><span data-stu-id="0c082-104">The folder to add to the search.</span></span></param>
+        <summary><span data-ttu-id="0c082-105">Добавляет папку поиска в поиск файлов.</span><span class="sxs-lookup"><span data-stu-id="0c082-105">Adds a search folder to a file search.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -127,12 +90,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d6749-106">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-106">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0c082-106">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="0c082-106">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -160,12 +118,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d6749-107">Возвращает <b>целое число</b> , указывающее количество элементов в указанном семействе сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-107">Returns an <b>Integer</b> indicating the number of items in the specified collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0c082-107">Возвращает <b>целое</b> число, указывающее количество элементов в указанной коллекции.</span><span class="sxs-lookup"><span data-stu-id="0c082-107">Returns an <b>Integer</b> indicating the number of items in the specified collection.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -196,27 +149,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d6749-108">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-108">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0c082-108">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="0c082-108">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d6749-109">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.SearchFolders.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-109">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.SearchFolders.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="0c082-109"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.SearchFolders.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0c082-109"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.SearchFolders.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -277,22 +218,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="d6749-110">Требуется <b>целое число</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-110">Required <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="d6749-111">Определяет, какие вложенную папку для возврата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-111">Determines which subfolder to return.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d6749-112">Возвращает <see cref="T:Microsoft.Office.Core.ScopeFolder" /> объект, представляющий вложенной папке родительского объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-112">Returns a <see cref="T:Microsoft.Office.Core.ScopeFolder" /> object that represents a subfolder of the parent object.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="0c082-110">Обязательный атрибут типа <b>Integer</b>.</span><span class="sxs-lookup"><span data-stu-id="0c082-110">Required <b>Integer</b>.</span></span> <span data-ttu-id="0c082-111">Определяет, какую подпапку следует возвратить.</span><span class="sxs-lookup"><span data-stu-id="0c082-111">Determines which subfolder to return.</span></span></param>
+        <summary><span data-ttu-id="0c082-112">Возвращает <see cref="T:Microsoft.Office.Core.ScopeFolder" /> объект, представляющий вложенную папку родительского объекта.</span><span class="sxs-lookup"><span data-stu-id="0c082-112">Returns a <see cref="T:Microsoft.Office.Core.ScopeFolder" /> object that represents a subfolder of the parent object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -320,22 +247,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="d6749-113">Требуется <b>целое число</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-113">Required <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="d6749-114">Номер индекса тестирования свойство требуется удалить.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-114">The index number of the property test to be removed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d6749-115">Удаляет указанный объект из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d6749-115">Removes the specified object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="0c082-113">Обязательный атрибут типа <b>Integer</b>.</span><span class="sxs-lookup"><span data-stu-id="0c082-113">Required <b>Integer</b>.</span></span> <span data-ttu-id="0c082-114">Номер индекса удаляемого теста свойства.</span><span class="sxs-lookup"><span data-stu-id="0c082-114">The index number of the property test to be removed.</span></span></param>
+        <summary><span data-ttu-id="0c082-115">Удаляет указанный объект из коллекции.</span><span class="sxs-lookup"><span data-stu-id="0c082-115">Removes the specified object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

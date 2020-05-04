@@ -1,13 +1,5 @@
 <Type Name="MsoWarpFormat" FullName="Microsoft.Office.Core.MsoWarpFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8eda844f2376748f054b51503398a161cb6f85eb" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662419" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoWarpFormat" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8eda844f2376748f054b51503398a161cb6f85eb" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662419" /></Metadata><TypeSignature Language="C#" Value="public enum MsoWarpFormat" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoWarpFormat extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoWarpFormat" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoWarpFormat" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="21ca6-101">Указывает различные форматы деформации изображения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="21ca6-101">Indicates various image warping formats.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="a1e3a-101">Указывает различные форматы искажения изображения.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-101">Indicates various image warping formats.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-102">Задает формат искажение 1.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-102">Specifies Warp Format 1.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-102">Указывает формат деформации 1.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-102">Specifies Warp Format 1.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat10">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-103">Задает формат искажение 10.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-103">Specifies Warp Format 10.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-103">Указывает формат деформации 10.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-103">Specifies Warp Format 10.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat11">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-104">Задает формат искажение 11.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-104">Specifies Warp Format 11.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-104">Указывает формат деформации 11.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-104">Specifies Warp Format 11.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat12">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-105">Задает формат искажение 12.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-105">Specifies Warp Format 12.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-105">Указывает формат деформации 12.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-105">Specifies Warp Format 12.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat13">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-106">Задает формат искажение 13.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-106">Specifies Warp Format 13.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-106">Указывает формат деформации 13.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-106">Specifies Warp Format 13.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat14">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-107">Задает формат искажение 14.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-107">Specifies Warp Format 14.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-107">Указывает формат деформации 14.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-107">Specifies Warp Format 14.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat15">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-108">Задает формат искажение 15.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-108">Specifies Warp Format 15.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-108">Указывает формат деформации 15.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-108">Specifies Warp Format 15.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat16">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-109">Задает формат искажение 16.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-109">Specifies Warp Format 16.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-109">Указывает формат деформации 16.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-109">Specifies Warp Format 16.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat17">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-110">Задает формат искажение 17.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-110">Specifies Warp Format 17.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-110">Указывает формат деформации 17.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-110">Specifies Warp Format 17.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat18">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-111">Задает формат искажение 18.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-111">Specifies Warp Format 18.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-111">Указывает формат деформации 18.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-111">Specifies Warp Format 18.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat19">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-112">Задает формат искажение 19.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-112">Specifies Warp Format 19.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-112">Указывает формат деформации 19.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-112">Specifies Warp Format 19.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat2">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-113">Задает формат искажение 2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-113">Specifies Warp Format 2.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-113">Указывает формат деформации 2.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-113">Specifies Warp Format 2.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat20">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-114">Задает формат искажение 20.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-114">Specifies Warp Format 20.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-114">Указывает формат деформации 20.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-114">Specifies Warp Format 20.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat21">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-115">Задает формат искажение 21.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-115">Specifies Warp Format 21.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-115">Указывает формат деформации 21.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-115">Specifies Warp Format 21.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat22">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-116">Задает формат искажение 22.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-116">Specifies Warp Format 22.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-116">Указывает формат деформации 22.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-116">Specifies Warp Format 22.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat23">
@@ -405,12 +317,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-117">Задает формат искажение 23.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-117">Specifies Warp Format 23.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-117">Указывает формат деформации 23.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-117">Specifies Warp Format 23.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat24">
@@ -429,12 +336,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-118">Задает формат искажение 24.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-118">Specifies Warp Format 24.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-118">Указывает формат деформации 24.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-118">Specifies Warp Format 24.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat25">
@@ -453,12 +355,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-119">Задает формат искажение 25.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-119">Specifies Warp Format 25.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-119">Указывает формат деформации 25.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-119">Specifies Warp Format 25.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat26">
@@ -477,12 +374,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-120">Задает формат искажение 26.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-120">Specifies Warp Format 26.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-120">Указывает формат деформации 26.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-120">Specifies Warp Format 26.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat27">
@@ -501,12 +393,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-121">Задает формат искажение 27.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-121">Specifies Warp Format 27.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-121">Указывает формат деформации 27.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-121">Specifies Warp Format 27.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat28">
@@ -525,12 +412,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-122">Задает формат искажение 28.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-122">Specifies Warp Format 28.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-122">Указывает формат деформации 28.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-122">Specifies Warp Format 28.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat29">
@@ -549,12 +431,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-123">Задает формат искажение 29.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-123">Specifies Warp Format 29.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-123">Указывает формат деформации 29.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-123">Specifies Warp Format 29.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat3">
@@ -573,12 +450,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-124">Задает формат искажение 3.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-124">Specifies Warp Format 3.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-124">Указывает формат деформации 3.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-124">Specifies Warp Format 3.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat30">
@@ -597,12 +469,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-125">Задает формат искажение 30.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-125">Specifies Warp Format 30.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-125">Указывает формат деформации 30.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-125">Specifies Warp Format 30.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat31">
@@ -621,12 +488,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-126">Задает формат искажение 31.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-126">Specifies Warp Format 31.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-126">Указывает формат деформации 31.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-126">Specifies Warp Format 31.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat32">
@@ -645,12 +507,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-127">Задает формат искажение 32.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-127">Specifies Warp Format 32.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-127">Указывает формат деформации 32.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-127">Specifies Warp Format 32.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat33">
@@ -669,12 +526,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-128">Задает формат искажение 33.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-128">Specifies Warp Format 33.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-128">Указывает формат деформации 33.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-128">Specifies Warp Format 33.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat34">
@@ -693,12 +545,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-129">Задает формат искажение 34.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-129">Specifies Warp Format 34.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-129">Указывает формат деформации 34.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-129">Specifies Warp Format 34.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat35">
@@ -717,12 +564,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-130">Задает формат искажение 35.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-130">Specifies Warp Format 35.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-130">Указывает формат деформации 35.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-130">Specifies Warp Format 35.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat36">
@@ -741,12 +583,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-131">Задает формат искажение 36.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-131">Specifies Warp Format 36.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-131">Указывает формат деформации 36.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-131">Specifies Warp Format 36.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat37">
@@ -765,12 +602,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-132">Задает формат искажение 37.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-132">Specifies Warp Format 37.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-132">Указывает формат деформации 37.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-132">Specifies Warp Format 37.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat4">
@@ -789,12 +621,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-133">Задает формат искажение 4.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-133">Specifies Warp Format 4.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-133">Указывает формат деформации 4.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-133">Specifies Warp Format 4.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat5">
@@ -813,12 +640,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-134">Задает формат искажение 5.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-134">Specifies Warp Format 5.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-134">Указывает формат деформации 5.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-134">Specifies Warp Format 5.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat6">
@@ -837,12 +659,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-135">Задает формат искажение 6.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-135">Specifies Warp Format 6.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-135">Указывает формат деформации 6.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-135">Specifies Warp Format 6.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat7">
@@ -861,12 +678,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-136">Задает формат искажение 7.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-136">Specifies Warp Format 7.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-136">Указывает формат деформации 7.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-136">Specifies Warp Format 7.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat8">
@@ -885,12 +697,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-137">Задает формат искажение 8.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-137">Specifies Warp Format 8.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-137">Указывает формат деформации 8.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-137">Specifies Warp Format 8.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormat9">
@@ -909,12 +716,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-138">Задает формат искажение 9.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-138">Specifies Warp Format 9.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-138">Указывает формат деформации 9.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-138">Specifies Warp Format 9.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWarpFormatMixed">
@@ -933,12 +735,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="21ca6-139">Задает набор форматов искажение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="21ca6-139">Specifies a mix of warp formats.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a1e3a-139">Задает сочетание форматов деформации.</span><span class="sxs-lookup"><span data-stu-id="a1e3a-139">Specifies a mix of warp formats.</span></span></summary>
       </Docs>
     </Member>
   </Members>

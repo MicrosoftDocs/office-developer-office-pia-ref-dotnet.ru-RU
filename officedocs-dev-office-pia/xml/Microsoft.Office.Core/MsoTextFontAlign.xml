@@ -1,13 +1,5 @@
 <Type Name="MsoTextFontAlign" FullName="Microsoft.Office.Core.MsoTextFontAlign">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4c681658e7556de5345ea7323f5f721212c18ed2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662518" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoTextFontAlign" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4c681658e7556de5345ea7323f5f721212c18ed2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662518" /></Metadata><TypeSignature Language="C#" Value="public enum MsoTextFontAlign" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextFontAlign extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextFontAlign" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoTextFontAlign" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="90e40-101">Указывает схему выравнивания текста, используемую для объекта.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="90e40-101">Indicates the text alignment scheme used for an object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="cdc3a-101">Указывает схему выравнивания текста, используемую для объекта.</span><span class="sxs-lookup"><span data-stu-id="cdc3a-101">Indicates the text alignment scheme used for an object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90e40-102">Указывает, что выравнивание текста будет определяться приложение Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90e40-102">Specifies that the text alignment will be determined by the Office application.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="cdc3a-102">Указывает, что выравнивание текста будет определяться приложением Office.</span><span class="sxs-lookup"><span data-stu-id="cdc3a-102">Specifies that the text alignment will be determined by the Office application.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFontAlignBaseline">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90e40-103">Указывает, что шрифт выравнивается по базового объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90e40-103">Specifies that the font is aligned to the baseline of the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="cdc3a-103">Указывает, что шрифт выравнивается по базовой линии объекта.</span><span class="sxs-lookup"><span data-stu-id="cdc3a-103">Specifies that the font is aligned to the baseline of the object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFontAlignBottom">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90e40-104">Указывает, что шрифт выравнивается по нижней части объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90e40-104">Specifies that the font is aligned to the bottom of the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="cdc3a-104">Указывает, что шрифт выравнивается по нижнему краю объекта.</span><span class="sxs-lookup"><span data-stu-id="cdc3a-104">Specifies that the font is aligned to the bottom of the object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFontAlignCenter">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90e40-105">Указывает, что шрифт выравнивается по центру объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90e40-105">Specifies that the font is aligned to the center of the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="cdc3a-105">Указывает, что шрифт выравнивается по центру объекта.</span><span class="sxs-lookup"><span data-stu-id="cdc3a-105">Specifies that the font is aligned to the center of the object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFontAlignMixed">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90e40-106">Указывает, что сочетание выравнивания текста с объектом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90e40-106">Specifies that there is a mix of text alignments used with the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="cdc3a-106">Указывает, что для объекта используется сочетание выравнивания текста.</span><span class="sxs-lookup"><span data-stu-id="cdc3a-106">Specifies that there is a mix of text alignments used with the object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFontAlignTop">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="90e40-107">Указывает, что шрифт выравнивается по верхней части объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="90e40-107">Specifies that the font is aligned to the top of the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="cdc3a-107">Указывает, что шрифт выравнивается по верхнему краю объекта.</span><span class="sxs-lookup"><span data-stu-id="cdc3a-107">Specifies that the font is aligned to the top of the object.</span></span></summary>
       </Docs>
     </Member>
   </Members>

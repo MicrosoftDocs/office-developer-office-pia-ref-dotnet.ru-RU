@@ -1,13 +1,5 @@
 <Type Name="FullSeriesCollection" FullName="Microsoft.Office.Core.FullSeriesCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="108f01641a6a74054b99cb28f72a87fc3a57bb55" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662086" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FullSeriesCollection : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="108f01641a6a74054b99cb28f72a87fc3a57bb55" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662086" /></Metadata><TypeSignature Language="C#" Value="public interface FullSeriesCollection : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FullSeriesCollection implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.FullSeriesCollection" />
   <TypeSignature Language="VB.NET" Value="Public Interface FullSeriesCollection&#xA;Implements IEnumerable" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="38c45-101">Представляет полный набор объектов серии на диаграмме.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="38c45-101">Represents the full set of Series objects in a chart.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="4f2bd-101">Представляет полный набор объектов Series на диаграмме.</span><span class="sxs-lookup"><span data-stu-id="4f2bd-101">Represents the full set of Series objects in a chart.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -65,18 +52,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="38c45-102">Номер индекса для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="38c45-102">The index number for the object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="38c45-103">Серия по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="38c45-103">The default series.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="4f2bd-102">Номер индекса для объекта.</span><span class="sxs-lookup"><span data-stu-id="4f2bd-102">The index number for the object.</span></span></param>
+        <summary><span data-ttu-id="4f2bd-103">Ряд по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="4f2bd-103">The default series.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -101,12 +78,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="38c45-104">Возвращает объект приложения, который представляет приложение Microsoft Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="38c45-104">Returns an Application object that represents the Microsoft Office application.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4f2bd-104">Возвращает объект Application, представляющий приложение Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="4f2bd-104">Returns an Application object that represents the Microsoft Office application.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -131,18 +103,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="38c45-105">Возвращает значение типа Integer (целое в C#), который представляет число объектов в <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> (Возвращает число категорий отображается на диаграмме).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="38c45-105">Returns a Integer (int in C#) value that represents the number of objects in the <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> (returns the number of categories visible in the chart).</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="38c45-106">Возвращает значение типа Integer (целое в C#)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="38c45-106">Returns an Integer (int in C#)</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4f2bd-105">Возвращает значение типа Integer (int в C#), представляющее число объектов в диаграмме <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> (Возвращает число категорий, отображаемых на диаграмме).</span><span class="sxs-lookup"><span data-stu-id="4f2bd-105">Returns a Integer (int in C#) value that represents the number of objects in the <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> (returns the number of categories visible in the chart).</span></span></summary>
+        <value><span data-ttu-id="4f2bd-106">Возвращает целое число (int в C#)</span><span class="sxs-lookup"><span data-stu-id="4f2bd-106">Returns an Integer (int in C#)</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -166,12 +128,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="38c45-107">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="38c45-107">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4f2bd-107">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="4f2bd-107">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -200,12 +157,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="38c45-108">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="38c45-108">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4f2bd-108">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="4f2bd-108">Reserved for internal use.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -228,18 +180,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="38c45-109">Номер индекса объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="38c45-109">The index number of the object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="38c45-110">Возвращает объект из <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="38c45-110">Returns a single object from the <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> object.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="4f2bd-109">Номер индекса объекта.</span><span class="sxs-lookup"><span data-stu-id="4f2bd-109">The index number of the object.</span></span></param>
+        <summary><span data-ttu-id="4f2bd-110">Возвращает один объект из <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="4f2bd-110">Returns a single object from the <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> object.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -264,18 +206,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="38c45-111">Возвращает объект, представляющий родительский объект указанного <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="38c45-111">Returns an Object that represents the parent object of the specified <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> object.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="38c45-112">Объект</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="38c45-112">Object</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4f2bd-111">Возвращает объект, представляющий родительский объект указанного <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="4f2bd-111">Returns an Object that represents the parent object of the specified <see cref="T:Microsoft.Office.Core.FullSeriesCollection" /> object.</span></span></summary>
+        <value><span data-ttu-id="4f2bd-112">Объект</span><span class="sxs-lookup"><span data-stu-id="4f2bd-112">Object</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="MsoMetaPropertyType" FullName="Microsoft.Office.Core.MsoMetaPropertyType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e85bee5b73f894a21bfac2783d0b13321c8d35c2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662373" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoMetaPropertyType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e85bee5b73f894a21bfac2783d0b13321c8d35c2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662373" /></Metadata><TypeSignature Language="C#" Value="public enum MsoMetaPropertyType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoMetaPropertyType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoMetaPropertyType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoMetaPropertyType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="3d56d-101">Указывает тип свойства метаданных.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3d56d-101">Specifies the metadata property type.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="c8bde-101">Задает тип свойства метаданных.</span><span class="sxs-lookup"><span data-stu-id="c8bde-101">Specifies the metadata property type.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-102">Представляет значение типа Boolean.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-102">Represents a Boolean value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-102">Представляет логическое значение.</span><span class="sxs-lookup"><span data-stu-id="c8bde-102">Represents a Boolean value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeBusinessData">
@@ -107,12 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-103">Представляет значение вычисляемого.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-103">Represents a calculated value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-103">Представляет вычисляемое значение.</span><span class="sxs-lookup"><span data-stu-id="c8bde-103">Represents a calculated value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeChoice">
@@ -131,12 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-104">Представляет значение из одного или более вариантами.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-104">Represents a value from one or more  choices.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-104">Представляет значение из одного или нескольких вариантов.</span><span class="sxs-lookup"><span data-stu-id="c8bde-104">Represents a value from one or more  choices.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeComputed">
@@ -155,12 +127,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-105">Представляет значение вычисляемого.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-105">Represents a computed value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-105">Представляет вычисляемое значение.</span><span class="sxs-lookup"><span data-stu-id="c8bde-105">Represents a computed value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeCurrency">
@@ -179,12 +146,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-106">Представляет значение валюты</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-106">Represents a Currency value</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-106">Представляет значение валюты</span><span class="sxs-lookup"><span data-stu-id="c8bde-106">Represents a Currency value</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeDateTime">
@@ -203,12 +165,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-107">Представляет значение даты и времени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-107">Represents a DateTime value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-107">Представляет значение даты и времени.</span><span class="sxs-lookup"><span data-stu-id="c8bde-107">Represents a DateTime value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeFillInChoice">
@@ -227,12 +184,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-108">Представляет значение из двух или более вариантов, которые записываются в пользователем.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-108">Represents a value from two or more choices  that is written-in by the user.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-108">Представляет значение из двух или нескольких вариантов, записываемых пользователем.</span><span class="sxs-lookup"><span data-stu-id="c8bde-108">Represents a value from two or more choices  that is written-in by the user.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeGuid">
@@ -251,12 +203,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-109">Представляет значение GUID.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-109">Represents a GUID value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-109">Представляет значение GUID.</span><span class="sxs-lookup"><span data-stu-id="c8bde-109">Represents a GUID value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeInteger">
@@ -275,12 +222,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-110">Представляет собой целое значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-110">Represents an Integer value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-110">Представляет целое значение.</span><span class="sxs-lookup"><span data-stu-id="c8bde-110">Represents an Integer value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeLookup">
@@ -299,12 +241,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-111">Представляет значение, используемое для поиска другое значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-111">Represents a value used to lookup another value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-111">Представляет значение, используемое для поиска другого значения.</span><span class="sxs-lookup"><span data-stu-id="c8bde-111">Represents a value used to lookup another value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeMax">
@@ -323,12 +260,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-112">Представляет максимальное значение диапазона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-112">Represents the maximum value for a range.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-112">Представляет максимальное значение для диапазона.</span><span class="sxs-lookup"><span data-stu-id="c8bde-112">Represents the maximum value for a range.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeMultiChoice">
@@ -347,12 +279,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-113">Представляет коллекцию вариантов выбора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-113">Represents a collection of choices.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-113">Представляет коллекцию вариантов.</span><span class="sxs-lookup"><span data-stu-id="c8bde-113">Represents a collection of choices.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeMultiChoiceFillIn">
@@ -371,12 +298,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-114">Представляет коллекцию параметров, которые требуют, чтобы вписанным значение пользователь.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-114">Represents a collection of choices that require the user to write-in a value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-114">Представляет коллекцию вариантов, требующих от пользователя записи значения.</span><span class="sxs-lookup"><span data-stu-id="c8bde-114">Represents a collection of choices that require the user to write-in a value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeMultiChoiceLookup">
@@ -395,12 +317,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-115">Представляет коллекцию вариантов, используемую для поиска другое значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-115">Represents a collection of choices used to lookup another value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-115">Представляет коллекцию вариантов, используемых для поиска другого значения.</span><span class="sxs-lookup"><span data-stu-id="c8bde-115">Represents a collection of choices used to lookup another value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeNote">
@@ -419,12 +336,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-116">Представляет значение одного или нескольких предложений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-116">Represents a value of one or more sentences.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-116">Представляет значение одного или нескольких предложений.</span><span class="sxs-lookup"><span data-stu-id="c8bde-116">Represents a value of one or more sentences.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeNumber">
@@ -443,12 +355,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-117">Представляет универсальный числовой тип данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-117">Represents a generic number data type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-117">Представляет тип данных "универсальное число".</span><span class="sxs-lookup"><span data-stu-id="c8bde-117">Represents a generic number data type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeText">
@@ -467,12 +374,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-118">Представляет значение текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-118">Represents a Text value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-118">Представляет текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="c8bde-118">Represents a Text value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeUnknown">
@@ -491,12 +393,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-119">Представляет неизвестное значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-119">Represents an unknown value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-119">Представляет неизвестное значение.</span><span class="sxs-lookup"><span data-stu-id="c8bde-119">Represents an unknown value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeUrl">
@@ -515,12 +412,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-120">Представляет URL-адрес.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-120">Represents a URL.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-120">Представляет URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="c8bde-120">Represents a URL.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeUser">
@@ -539,12 +431,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3d56d-121">Представляет категорию пользователей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3d56d-121">Represents a category  of user.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c8bde-121">Представляет категорию пользователя.</span><span class="sxs-lookup"><span data-stu-id="c8bde-121">Represents a category  of user.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoMetaPropertyTypeUserMulti">

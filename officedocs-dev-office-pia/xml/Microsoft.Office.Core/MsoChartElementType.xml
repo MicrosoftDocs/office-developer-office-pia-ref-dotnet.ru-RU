@@ -1,13 +1,5 @@
 <Type Name="MsoChartElementType" FullName="Microsoft.Office.Core.MsoChartElementType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3bebe9aa264e01910ff2f4fbf8e3188bad0a2729" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662281" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoChartElementType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3bebe9aa264e01910ff2f4fbf8e3188bad0a2729" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662281" /></Metadata><TypeSignature Language="C#" Value="public enum MsoChartElementType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoChartElementType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoChartElementType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoChartElementType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="430ba-101">Указывает, является ли и как для отображения элементов диаграммы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="430ba-101">Specifies whether and how to display chart elements.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="1c832-101">Указывает, следует ли отображать элементы диаграммы.</span><span class="sxs-lookup"><span data-stu-id="1c832-101">Specifies whether and how to display chart elements.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1200</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-102">Не отображать диаграммы этажа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-102">Do not display chart floor.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-102">Не отображать основание диаграммы.</span><span class="sxs-lookup"><span data-stu-id="1c832-102">Do not display chart floor.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementChartFloorShow">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>1201</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-103">Отображение Основание диаграммы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-103">Display chart floor.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-103">Отображение основания диаграммы.</span><span class="sxs-lookup"><span data-stu-id="1c832-103">Display chart floor.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementChartTitleAboveChart">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-104">Отображение заголовка над диаграммы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-104">Display title above chart.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-104">Отображение заголовка над диаграммой.</span><span class="sxs-lookup"><span data-stu-id="1c832-104">Display title above chart.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementChartTitleCenteredOverlay">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-105">Отображение заголовка в виде по центру с перекрытием.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-105">Display title as centered overlay.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-105">Отображение заголовка в виде перекрытия по центру.</span><span class="sxs-lookup"><span data-stu-id="1c832-105">Display title as centered overlay.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementChartTitleNone">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-106">Не отображать диаграммы этажа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-106">Do not display chart floor.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-106">Не отображать основание диаграммы.</span><span class="sxs-lookup"><span data-stu-id="1c832-106">Do not display chart floor.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementChartWallNone">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>1100</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-107">Не отображать стенку диаграммы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-107">Do not display chart wall.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-107">Не отображать стену диаграммы.</span><span class="sxs-lookup"><span data-stu-id="1c832-107">Do not display chart wall.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementChartWallShow">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>1101</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-108">Отображение стенку диаграммы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-108">Display chart wall.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-108">Отображение стены диаграммы.</span><span class="sxs-lookup"><span data-stu-id="1c832-108">Display chart wall.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelBestFit">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>210</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-109">Использование наиболее подходит для метки данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-109">Use best fit for data label.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-109">Использовать оптимальный размер для подписи данных.</span><span class="sxs-lookup"><span data-stu-id="1c832-109">Use best fit for data label.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelBottom">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>209</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-110">Отобразить метки данных нижней.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-110">Display data label at bottom.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-110">Отображать подпись данных внизу.</span><span class="sxs-lookup"><span data-stu-id="1c832-110">Display data label at bottom.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelCallout">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>211</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-111">Отображение метки данных в виде выноски.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-111">Display data label as a callout.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-111">Отображение метки данных в виде выноски.</span><span class="sxs-lookup"><span data-stu-id="1c832-111">Display data label as a callout.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelCenter">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>202</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-112">Отображение метки данных в центре.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-112">Display data label in center.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-112">Отображение метки данных в центре.</span><span class="sxs-lookup"><span data-stu-id="1c832-112">Display data label in center.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelInsideBase">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>204</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-113">Отображение метки данных внутри на основании.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-113">Display data label inside at the base.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-113">Отображение метки данных внутри базы.</span><span class="sxs-lookup"><span data-stu-id="1c832-113">Display data label inside at the base.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelInsideEnd">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>203</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-114">Отображение метки данных внутри в конце.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-114">Display data label inside at the end.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-114">Отображение метки данных в конце.</span><span class="sxs-lookup"><span data-stu-id="1c832-114">Display data label inside at the end.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelLeft">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>206</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-115">Отображение метки данных слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-115">Display data label to the left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-115">Отображение метки данных слева.</span><span class="sxs-lookup"><span data-stu-id="1c832-115">Display data label to the left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelNone">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>200</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-116">Не отображаются метки данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-116">Do not display data label.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-116">Не отображать метку данных.</span><span class="sxs-lookup"><span data-stu-id="1c832-116">Do not display data label.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelOutSideEnd">
@@ -405,12 +317,7 @@
       </ReturnValue>
       <MemberValue>205</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-117">Отображение метки данных за пределами в конце.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-117">Display data label outside at the end.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-117">Отображение метки данных снаружи в конце.</span><span class="sxs-lookup"><span data-stu-id="1c832-117">Display data label outside at the end.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelRight">
@@ -429,12 +336,7 @@
       </ReturnValue>
       <MemberValue>207</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-118">Отображение метки данных справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-118">Display data label to the right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-118">Отображение метки данных справа.</span><span class="sxs-lookup"><span data-stu-id="1c832-118">Display data label to the right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelShow">
@@ -453,12 +355,7 @@
       </ReturnValue>
       <MemberValue>201</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-119">Отображение метки данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-119">Display data label.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-119">Отображение метки данных.</span><span class="sxs-lookup"><span data-stu-id="1c832-119">Display data label.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataLabelTop">
@@ -477,12 +374,7 @@
       </ReturnValue>
       <MemberValue>208</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-120">Отображение метки данных вверху.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-120">Display data label at the top.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-120">Отображать подпись данных вверху.</span><span class="sxs-lookup"><span data-stu-id="1c832-120">Display data label at the top.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataTableNone">
@@ -501,12 +393,7 @@
       </ReturnValue>
       <MemberValue>500</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-121">Не отображаются в таблице данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-121">Do not display data table.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-121">Не отображать таблицу данных.</span><span class="sxs-lookup"><span data-stu-id="1c832-121">Do not display data table.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataTableShow">
@@ -525,12 +412,7 @@
       </ReturnValue>
       <MemberValue>501</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-122">Отображение данных в таблице.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-122">Display data table.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-122">Отображение таблицы данных.</span><span class="sxs-lookup"><span data-stu-id="1c832-122">Display data table.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementDataTableWithLegendKeys">
@@ -549,12 +431,7 @@
       </ReturnValue>
       <MemberValue>502</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-123">Отображение данных в таблице с ключи легенды.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-123">Display data table with legend keys.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-123">Отображение таблицы данных с ключами легенды.</span><span class="sxs-lookup"><span data-stu-id="1c832-123">Display data table with legend keys.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementErrorBarNone">
@@ -573,12 +450,7 @@
       </ReturnValue>
       <MemberValue>700</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-124">Планки погрешностей не отображаются.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-124">Do not display error bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-124">Не отображать панель погрешностей.</span><span class="sxs-lookup"><span data-stu-id="1c832-124">Do not display error bar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementErrorBarPercentage">
@@ -597,12 +469,7 @@
       </ReturnValue>
       <MemberValue>702</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-125">Отображение панели ошибка процентное отношение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-125">Display percentage error bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-125">Процент погрешностей отображения.</span><span class="sxs-lookup"><span data-stu-id="1c832-125">Display percentage error bar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementErrorBarStandardDeviation">
@@ -621,12 +488,7 @@
       </ReturnValue>
       <MemberValue>703</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-126">Отображение панели ошибка стандартное отклонение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-126">Display standard deviation error bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-126">Отображение стандартного отклонения об ошибках.</span><span class="sxs-lookup"><span data-stu-id="1c832-126">Display standard deviation error bar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementErrorBarStandardError">
@@ -645,12 +507,7 @@
       </ReturnValue>
       <MemberValue>701</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-127">Отображение панели стандартного сообщения об ошибке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-127">Display standard error bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-127">Отображение стандартной панели погрешностей.</span><span class="sxs-lookup"><span data-stu-id="1c832-127">Display standard error bar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLegendBottom">
@@ -669,12 +526,7 @@
       </ReturnValue>
       <MemberValue>104</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-128">Отображение условных обозначений в нижней.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-128">Display legend at the bottom.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-128">Отображение условных обозначений внизу.</span><span class="sxs-lookup"><span data-stu-id="1c832-128">Display legend at the bottom.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLegendLeft">
@@ -693,12 +545,7 @@
       </ReturnValue>
       <MemberValue>103</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-129">Отображение условных обозначений слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-129">Display legend on the left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-129">Отображение условных обозначений слева.</span><span class="sxs-lookup"><span data-stu-id="1c832-129">Display legend on the left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLegendLeftOverlay">
@@ -717,12 +564,7 @@
       </ReturnValue>
       <MemberValue>106</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-130">Перекрытие условных обозначений слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-130">Overlay legend at the left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-130">Наложение условных обозначений слева.</span><span class="sxs-lookup"><span data-stu-id="1c832-130">Overlay legend at the left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLegendNone">
@@ -741,12 +583,7 @@
       </ReturnValue>
       <MemberValue>100</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-131">Не отображать условные обозначения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-131">Do not display legend.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-131">Не отображать условные обозначения.</span><span class="sxs-lookup"><span data-stu-id="1c832-131">Do not display legend.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLegendRight">
@@ -765,12 +602,7 @@
       </ReturnValue>
       <MemberValue>101</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-132">Отображение условных обозначений справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-132">Display legend at the right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-132">Отображение условных обозначений справа.</span><span class="sxs-lookup"><span data-stu-id="1c832-132">Display legend at the right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLegendRightOverlay">
@@ -789,12 +621,7 @@
       </ReturnValue>
       <MemberValue>105</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-133">Перекрытие условных обозначений справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-133">Overlay legend at the right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-133">Наложение условных обозначений справа.</span><span class="sxs-lookup"><span data-stu-id="1c832-133">Overlay legend at the right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLegendTop">
@@ -813,12 +640,7 @@
       </ReturnValue>
       <MemberValue>102</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-134">Отображение условных обозначений в верхней.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-134">Display legend at the top.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-134">Отображение условных обозначений сверху.</span><span class="sxs-lookup"><span data-stu-id="1c832-134">Display legend at the top.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLineDropHiLoLine">
@@ -837,12 +659,7 @@
       </ReturnValue>
       <MemberValue>804</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-135">Экран строку высокой и низкой размещения сообщений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-135">Display drop high/low line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-135">Отображение высокой и нижней линии.</span><span class="sxs-lookup"><span data-stu-id="1c832-135">Display drop high/low line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLineDropLine">
@@ -861,12 +678,7 @@
       </ReturnValue>
       <MemberValue>801</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-136">Экран строку размещения сообщений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-136">Display drop line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-136">Отображение линии проекции.</span><span class="sxs-lookup"><span data-stu-id="1c832-136">Display drop line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLineHiLoLine">
@@ -885,12 +697,7 @@
       </ReturnValue>
       <MemberValue>802</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-137">Отображение строки высокой и низкой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-137">Display high/low line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-137">Отображение высокой/нижней линии.</span><span class="sxs-lookup"><span data-stu-id="1c832-137">Display high/low line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLineNone">
@@ -909,12 +716,7 @@
       </ReturnValue>
       <MemberValue>800</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-138">Линия не отображается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-138">Do not display line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-138">Не отображать линию.</span><span class="sxs-lookup"><span data-stu-id="1c832-138">Do not display line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementLineSeriesLine">
@@ -933,12 +735,7 @@
       </ReturnValue>
       <MemberValue>803</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-139">Отображение строки серии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-139">Display series line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-139">Отображение линии ряда.</span><span class="sxs-lookup"><span data-stu-id="1c832-139">Display series line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPlotAreaNone">
@@ -957,12 +754,7 @@
       </ReturnValue>
       <MemberValue>1000</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-140">Не отображать область построения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-140">Do not display plot area.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-140">Не отображать область построения.</span><span class="sxs-lookup"><span data-stu-id="1c832-140">Do not display plot area.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPlotAreaShow">
@@ -981,12 +773,7 @@
       </ReturnValue>
       <MemberValue>1001</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-141">Отображение области построения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-141">Display plot area.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-141">Отображение области построения.</span><span class="sxs-lookup"><span data-stu-id="1c832-141">Display plot area.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisBillions">
@@ -1005,12 +792,7 @@
       </ReturnValue>
       <MemberValue>374</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-142">Используйте миллиардов единиц ось основных категории.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-142">Use billions for primary category axis units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-142">Использование миллиардов для единиц основной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-142">Use billions for primary category axis units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisLogScale">
@@ -1029,12 +811,7 @@
       </ReturnValue>
       <MemberValue>375</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-143">Используйте журнал масштабирования для основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-143">Use log scale for primary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-143">Используйте шкалу журнала для основной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-143">Use log scale for primary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisMillions">
@@ -1053,12 +830,7 @@
       </ReturnValue>
       <MemberValue>373</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-144">Используйте миллионов единиц ось основных категории.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-144">Use millions for primary category axis units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-144">Используйте миллионы для единиц основной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-144">Use millions for primary category axis units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisNone">
@@ -1077,12 +849,7 @@
       </ReturnValue>
       <MemberValue>348</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-145">Не отображать основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-145">Do not display primary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-145">Не отображать основную ось категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-145">Do not display primary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisReverse">
@@ -1101,12 +868,7 @@
       </ReturnValue>
       <MemberValue>351</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-146">Обратный основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-146">Reverse primary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-146">Обратная основная ось категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-146">Reverse primary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisShow">
@@ -1125,12 +887,7 @@
       </ReturnValue>
       <MemberValue>349</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-147">Показать основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-147">Show primary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-147">Отображение основной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-147">Show primary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisThousands">
@@ -1149,12 +906,7 @@
       </ReturnValue>
       <MemberValue>372</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-148">С помощью тысяч для единиц измерения ось основных категории.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-148">Use thousands for primary category axis units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-148">Используйте тысячи для основных единиц оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-148">Use thousands for primary category axis units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisTitleAdjacentToAxis">
@@ -1173,12 +925,7 @@
       </ReturnValue>
       <MemberValue>301</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-149">Для отображения основных категории оси рядом с оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-149">Display primary category axis title adjacent to the axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-149">Отображение заголовка основной оси категорий, примыкающей к оси.</span><span class="sxs-lookup"><span data-stu-id="1c832-149">Display primary category axis title adjacent to the axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisTitleBelowAxis">
@@ -1197,12 +944,7 @@
       </ReturnValue>
       <MemberValue>302</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-150">Для отображения основных категории оси ниже оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-150">Display primary category axis title below the axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-150">Отображение заголовка основной оси категорий под осью.</span><span class="sxs-lookup"><span data-stu-id="1c832-150">Display primary category axis title below the axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisTitleHorizontal">
@@ -1221,12 +963,7 @@
       </ReturnValue>
       <MemberValue>305</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-151">Отображение заголовка оси основных категории по горизонтали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-151">Display primary category axis title horizontally.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-151">Отображение заголовка основной оси категорий по горизонтали.</span><span class="sxs-lookup"><span data-stu-id="1c832-151">Display primary category axis title horizontally.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisTitleNone">
@@ -1245,12 +982,7 @@
       </ReturnValue>
       <MemberValue>300</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-152">Не отображать заголовок оси основных категорий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-152">Do not display primary category axis title.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-152">Не отображать название основной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-152">Do not display primary category axis title.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisTitleRotated">
@@ -1269,12 +1001,7 @@
       </ReturnValue>
       <MemberValue>303</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-153">Поворот название оси основных категорий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-153">Rotate primary category axis title.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-153">Поворачивайте название основной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-153">Rotate primary category axis title.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisTitleVertical">
@@ -1293,12 +1020,7 @@
       </ReturnValue>
       <MemberValue>304</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-154">Отображение заголовка оси основных категории по вертикали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-154">Display primary category axis title vertically.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-154">Отображение заголовка основной оси категорий по вертикали.</span><span class="sxs-lookup"><span data-stu-id="1c832-154">Display primary category axis title vertically.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryAxisWithoutLabels">
@@ -1317,12 +1039,7 @@
       </ReturnValue>
       <MemberValue>350</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-155">Отображение основной оси без метки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-155">Display primary category axis without labels.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-155">Отображение основной оси категорий без меток.</span><span class="sxs-lookup"><span data-stu-id="1c832-155">Display primary category axis without labels.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryGridLinesMajor">
@@ -1341,12 +1058,7 @@
       </ReturnValue>
       <MemberValue>334</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-156">Отображение основные линии сетки оси основных категории.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-156">Display major gridlines along primary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-156">Отображать основные линии сетки вдоль основной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-156">Display major gridlines along primary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryGridLinesMinor">
@@ -1365,12 +1077,7 @@
       </ReturnValue>
       <MemberValue>333</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-157">Отображение вспомогательные линии сетки оси основных категории.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-157">Display minor gridlines along primary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-157">Отображение вспомогательных линий сетки вдоль основной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-157">Display minor gridlines along primary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryGridLinesMinorMajor">
@@ -1389,12 +1096,7 @@
       </ReturnValue>
       <MemberValue>335</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-158">Отображение основной и дополнительной линии сетки оси основных категории.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-158">Display both major and minor gridlines along primary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-158">Отображать как основные, так и вспомогательные линии сетки, а также основные оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-158">Display both major and minor gridlines along primary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryCategoryGridLinesNone">
@@ -1413,12 +1115,7 @@
       </ReturnValue>
       <MemberValue>332</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-159">Не отображать линии сетки оси основных категории.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-159">Do not display grid lines along primary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-159">Не отображать линии сетки вдоль основной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-159">Do not display grid lines along primary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisBillions">
@@ -1437,12 +1134,7 @@
       </ReturnValue>
       <MemberValue>356</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-160">Используйте миллиардов для основной единицы измерения оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-160">Use billions for primary value axis units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-160">Использование миллиардов для единиц основной оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-160">Use billions for primary value axis units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisLogScale">
@@ -1461,12 +1153,7 @@
       </ReturnValue>
       <MemberValue>357</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-161">Используйте журнал масштабирования для основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-161">Use log scale for primary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-161">Используйте шкалу журналов для основной оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-161">Use log scale for primary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisMillions">
@@ -1485,12 +1172,7 @@
       </ReturnValue>
       <MemberValue>355</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-162">Используйте миллионов для основной единицы измерения оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-162">Use millions for primary value axis units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-162">Использование миллионов для единиц измерения "основные оси значений".</span><span class="sxs-lookup"><span data-stu-id="1c832-162">Use millions for primary value axis units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisNone">
@@ -1509,12 +1191,7 @@
       </ReturnValue>
       <MemberValue>352</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-163">Не отображать основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-163">Do not display primary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-163">Не отображать ось основных значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-163">Do not display primary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisShow">
@@ -1533,12 +1210,7 @@
       </ReturnValue>
       <MemberValue>353</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-164">Показать основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-164">Show primary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-164">Отображение основной оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-164">Show primary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisThousands">
@@ -1557,12 +1229,7 @@
       </ReturnValue>
       <MemberValue>354</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-165">С помощью тысяч для основной единицы измерения оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-165">Use thousands for primary value axis units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-165">Использование тысяч для единиц измерения "основные оси значений".</span><span class="sxs-lookup"><span data-stu-id="1c832-165">Use thousands for primary value axis units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisTitleAdjacentToAxis">
@@ -1581,12 +1248,7 @@
       </ReturnValue>
       <MemberValue>306</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-166">Поместите основной название оси рядом с оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-166">Place primary value axis title adjacent to the axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-166">Разместите заголовок основной оси значений возле оси.</span><span class="sxs-lookup"><span data-stu-id="1c832-166">Place primary value axis title adjacent to the axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisTitleBelowAxis">
@@ -1605,12 +1267,7 @@
       </ReturnValue>
       <MemberValue>308</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-167">Поместите основной название оси ниже оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-167">Place primary value axis title below the axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-167">Разместите заголовок основной оси значений под осью.</span><span class="sxs-lookup"><span data-stu-id="1c832-167">Place primary value axis title below the axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisTitleHorizontal">
@@ -1629,12 +1286,7 @@
       </ReturnValue>
       <MemberValue>311</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-168">Отображение основной название оси по горизонтали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-168">Display primary value axis title horizontally.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-168">Отображение заголовка основной оси значений по горизонтали.</span><span class="sxs-lookup"><span data-stu-id="1c832-168">Display primary value axis title horizontally.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisTitleNone">
@@ -1653,12 +1305,7 @@
       </ReturnValue>
       <MemberValue>306</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-169">Не отображать основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-169">Do not display primary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-169">Не отображать ось основных значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-169">Do not display primary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisTitleRotated">
@@ -1677,12 +1324,7 @@
       </ReturnValue>
       <MemberValue>309</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-170">Поворот основной название оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-170">Rotate primary value axis title.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-170">Поворот основного заголовка оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-170">Rotate primary value axis title.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueAxisTitleVertical">
@@ -1701,12 +1343,7 @@
       </ReturnValue>
       <MemberValue>310</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-171">Отображение основной название оси по вертикали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-171">Display primary value axis title vertically.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-171">Отображение заголовка основной оси значений по вертикали.</span><span class="sxs-lookup"><span data-stu-id="1c832-171">Display primary value axis title vertically.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueGridLinesMajor">
@@ -1725,12 +1362,7 @@
       </ReturnValue>
       <MemberValue>330</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-172">Отображение основные линии сетки основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-172">Display major gridlines along primary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-172">Отображение основных линий сетки вдоль основной оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-172">Display major gridlines along primary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueGridLinesMinor">
@@ -1749,12 +1381,7 @@
       </ReturnValue>
       <MemberValue>329</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-173">Отображение вспомогательные линии сетки основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-173">Display minor gridlines along primary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-173">Отображение вспомогательных линий сетки вдоль основной оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-173">Display minor gridlines along primary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueGridLinesMinorMajor">
@@ -1773,12 +1400,7 @@
       </ReturnValue>
       <MemberValue>331</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-174">Отображение линии сетки основной и дополнительной основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-174">Display both major and minor gridlines along primary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-174">Отображать как основные, так и вспомогательные линии сетки вдоль основной оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-174">Display both major and minor gridlines along primary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementPrimaryValueGridLinesNone">
@@ -1797,12 +1419,7 @@
       </ReturnValue>
       <MemberValue>328</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-175">Не отображать линии сетки основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-175">Do not display grid lines along primary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-175">Не отображать линии сетки вдоль основной оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-175">Do not display grid lines along primary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisBillions">
@@ -1821,12 +1438,7 @@
       </ReturnValue>
       <MemberValue>378</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-176">Используйте миллиардов для дополнительного категории оси единиц измерения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-176">Use billions for secondary category axis units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-176">Использование миллиардов для дополнительных единиц оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-176">Use billions for secondary category axis units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisLogScale">
@@ -1845,12 +1457,7 @@
       </ReturnValue>
       <MemberValue>379</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-177">Используйте журнал масштабирования для дополнительного оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-177">Use log scale for secondary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-177">Используйте шкалу журналов для дополнительной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-177">Use log scale for secondary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisMillions">
@@ -1869,12 +1476,7 @@
       </ReturnValue>
       <MemberValue>377</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-178">Используйте миллионов для дополнительного категории оси единиц измерения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-178">Use millions for secondary category axis units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-178">Используйте миллионы для дополнительных единиц оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-178">Use millions for secondary category axis units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisNone">
@@ -1893,12 +1495,7 @@
       </ReturnValue>
       <MemberValue>358</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-179">Не отображать дополнительного оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-179">Do not display secondary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-179">Не отображать вторичную ось категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-179">Do not display secondary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisReverse">
@@ -1917,12 +1514,7 @@
       </ReturnValue>
       <MemberValue>361</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-180">Обратный дополнительного оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-180">Reverse secondary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-180">Обратная дополнительная ось категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-180">Reverse secondary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisShow">
@@ -1941,12 +1533,7 @@
       </ReturnValue>
       <MemberValue>359</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-181">Отображение дополнительного оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-181">Display secondary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-181">Отображение дополнительной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-181">Display secondary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisThousands">
@@ -1965,12 +1552,7 @@
       </ReturnValue>
       <MemberValue>376</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-182">С помощью тысяч для дополнительного категории оси единиц измерения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-182">Use thousands for secondary category axis units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-182">Используйте тысячи для дополнительных единиц оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-182">Use thousands for secondary category axis units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisTitleAdjacentToAxis">
@@ -1989,12 +1571,7 @@
       </ReturnValue>
       <MemberValue>313</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-183">Отображение Название вспомогательной оси категорий рядом с оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-183">Display secondary category axis title adjacent to axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-183">Отображение заголовка дополнительной оси категорий рядом с осью.</span><span class="sxs-lookup"><span data-stu-id="1c832-183">Display secondary category axis title adjacent to axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisTitleBelowAxis">
@@ -2013,12 +1590,7 @@
       </ReturnValue>
       <MemberValue>314</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-184">Отображение Название вспомогательной оси категорий ниже оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-184">Display secondary category axis title below axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-184">Отображение названия вторичной оси категорий под осью.</span><span class="sxs-lookup"><span data-stu-id="1c832-184">Display secondary category axis title below axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisTitleHorizontal">
@@ -2037,12 +1609,7 @@
       </ReturnValue>
       <MemberValue>317</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-185">Отображение Название вспомогательной оси категорий по горизонтали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-185">Display secondary category axis title horizontally.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-185">Отображение заголовка дополнительной оси категорий по горизонтали.</span><span class="sxs-lookup"><span data-stu-id="1c832-185">Display secondary category axis title horizontally.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisTitleNone">
@@ -2061,12 +1628,7 @@
       </ReturnValue>
       <MemberValue>312</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-186">Не отображать дополнительного оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-186">Do not display secondary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-186">Не отображать вторичную ось категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-186">Do not display secondary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisTitleRotated">
@@ -2085,12 +1647,7 @@
       </ReturnValue>
       <MemberValue>315</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-187">Поворот Название вспомогательной оси категорий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-187">Rotate secondary category axis title.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-187">Поверните дополнительное название оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-187">Rotate secondary category axis title.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisTitleVertical">
@@ -2109,12 +1666,7 @@
       </ReturnValue>
       <MemberValue>316</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-188">Отображение Название вспомогательной оси категорий по вертикали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-188">Display secondary category axis title vertically.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-188">Отображение заголовка вспомогательной оси категорий по вертикали.</span><span class="sxs-lookup"><span data-stu-id="1c832-188">Display secondary category axis title vertically.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryAxisWithoutLabels">
@@ -2133,12 +1685,7 @@
       </ReturnValue>
       <MemberValue>360</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-189">Отображение дополнительного оси без метки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-189">Display secondary category axis without labels.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-189">Отображение дополнительной оси категорий без меток.</span><span class="sxs-lookup"><span data-stu-id="1c832-189">Display secondary category axis without labels.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryGridLinesMajor">
@@ -2157,12 +1704,7 @@
       </ReturnValue>
       <MemberValue>342</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-190">Отображение основные линии сетки оси дополнительного категории.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-190">Display major gridlines along secondary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-190">Показывать основные линии сетки вдоль дополнительной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-190">Display major gridlines along secondary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryGridLinesMinor">
@@ -2181,12 +1723,7 @@
       </ReturnValue>
       <MemberValue>341</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-191">Отображение вспомогательные линии сетки оси дополнительного категории.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-191">Display minor gridlines along secondary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-191">Отображение вспомогательных линий сетки вдоль дополнительной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-191">Display minor gridlines along secondary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryGridLinesMinorMajor">
@@ -2205,12 +1742,7 @@
       </ReturnValue>
       <MemberValue>343</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-192">Отображение основной и дополнительной линии сетки оси дополнительного категории.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-192">Display both major and minor gridlines along secondary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-192">Отображать как основные, так и вспомогательные линии сетки, а также дополнительные оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-192">Display both major and minor gridlines along secondary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryCategoryGridLinesNone">
@@ -2229,12 +1761,7 @@
       </ReturnValue>
       <MemberValue>340</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-193">Не отображать линии сетки оси дополнительного категории.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-193">Do not display grid lines along secondary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-193">Не отображать линии сетки вдоль дополнительной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-193">Do not display grid lines along secondary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisBillions">
@@ -2253,12 +1780,7 @@
       </ReturnValue>
       <MemberValue>366</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-194">Используйте миллиардов для дополнительного единицы измерения оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-194">Use billions for secondary value axis units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-194">Использовать выставляемые счета для единиц измерения дополнительной оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-194">Use billions for secondary value axis units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisLogScale">
@@ -2277,12 +1799,7 @@
       </ReturnValue>
       <MemberValue>367</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-195">Используйте журнал масштабирования для вспомогательной оси значений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-195">Use log scale for secondary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-195">Используйте шкалу журналов для дополнительной оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-195">Use log scale for secondary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisMillions">
@@ -2301,12 +1818,7 @@
       </ReturnValue>
       <MemberValue>365</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-196">Используйте миллионов для дополнительного категории оси единиц измерения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-196">Use millions for secondary category axis units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-196">Используйте миллионы для дополнительных единиц оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-196">Use millions for secondary category axis units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisNone">
@@ -2325,12 +1837,7 @@
       </ReturnValue>
       <MemberValue>362</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-197">Не отображать дополнительного оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-197">Do not display secondary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-197">Не отображать вторичную ось категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-197">Do not display secondary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisShow">
@@ -2349,12 +1856,7 @@
       </ReturnValue>
       <MemberValue>363</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-198">Отображение дополнительного оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-198">Display secondary category axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-198">Отображение дополнительной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-198">Display secondary category axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisThousands">
@@ -2373,12 +1875,7 @@
       </ReturnValue>
       <MemberValue>364</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-199">С помощью тысяч для дополнительного категории оси единиц измерения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-199">Use thousands for secondary category axis units.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-199">Используйте тысячи для дополнительных единиц оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-199">Use thousands for secondary category axis units.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisTitleAdjacentToAxis">
@@ -2397,12 +1894,7 @@
       </ReturnValue>
       <MemberValue>319</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-200">Отображение Название вспомогательной оси категорий рядом с оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-200">Display secondary category axis title adjacent to  axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-200">Отображение заголовка дополнительной оси категорий рядом с осью.</span><span class="sxs-lookup"><span data-stu-id="1c832-200">Display secondary category axis title adjacent to  axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisTitleBelowAxis">
@@ -2421,12 +1913,7 @@
       </ReturnValue>
       <MemberValue>320</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-201">Отображение Название вспомогательной оси категорий ниже оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-201">Display secondary category axis title below axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-201">Отображение названия вторичной оси категорий под осью.</span><span class="sxs-lookup"><span data-stu-id="1c832-201">Display secondary category axis title below axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisTitleHorizontal">
@@ -2445,12 +1932,7 @@
       </ReturnValue>
       <MemberValue>323</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-202">Отображение Название вспомогательной оси категорий по горизонтали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-202">Display secondary category axis title horizontally.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-202">Отображение заголовка дополнительной оси категорий по горизонтали.</span><span class="sxs-lookup"><span data-stu-id="1c832-202">Display secondary category axis title horizontally.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisTitleNone">
@@ -2469,12 +1951,7 @@
       </ReturnValue>
       <MemberValue>318</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-203">Название вспомогательной оси категорий не отображаются.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-203">Do not display secondary category axis title.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-203">Не отображать название вспомогательной оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-203">Do not display secondary category axis title.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisTitleRotated">
@@ -2493,12 +1970,7 @@
       </ReturnValue>
       <MemberValue>321</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-204">Поворот Название вспомогательной оси категорий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-204">Rotate secondary category axis title.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-204">Поверните дополнительное название оси категорий.</span><span class="sxs-lookup"><span data-stu-id="1c832-204">Rotate secondary category axis title.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueAxisTitleVertical">
@@ -2517,12 +1989,7 @@
       </ReturnValue>
       <MemberValue>322</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-205">Отображение Название вспомогательной оси категорий по вертикали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-205">Display secondary category axis title vertically.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-205">Отображение заголовка вспомогательной оси категорий по вертикали.</span><span class="sxs-lookup"><span data-stu-id="1c832-205">Display secondary category axis title vertically.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueGridLinesMajor">
@@ -2541,12 +2008,7 @@
       </ReturnValue>
       <MemberValue>338</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-206">Отображение основные линии сетки вспомогательной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-206">Display major gridlines along secondary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-206">Отображение основных линий сетки вдоль дополнительной оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-206">Display major gridlines along secondary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueGridLinesMinor">
@@ -2565,12 +2027,7 @@
       </ReturnValue>
       <MemberValue>337</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-207">Отображение вспомогательные линии сетки вспомогательной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-207">Display minor gridlines along secondary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-207">Отображение вспомогательных линий сетки и дополнительной оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-207">Display minor gridlines along secondary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueGridLinesMinorMajor">
@@ -2589,12 +2046,7 @@
       </ReturnValue>
       <MemberValue>339</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-208">Отображение линии сетки основной и дополнительный номер вспомогательной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-208">Display both major and minor gridlines along secondary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-208">Отображать как основные, так и вспомогательные линии сетки, а также дополнительные оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-208">Display both major and minor gridlines along secondary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSecondaryValueGridLinesNone">
@@ -2613,12 +2065,7 @@
       </ReturnValue>
       <MemberValue>336</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-209">Не отображать линии сетки вспомогательной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-209">Do not display gridlines along secondary value axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-209">Не отображать линии сетки вдоль дополнительной оси значений.</span><span class="sxs-lookup"><span data-stu-id="1c832-209">Do not display gridlines along secondary value axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisGridLinesMajor">
@@ -2637,12 +2084,7 @@
       </ReturnValue>
       <MemberValue>346</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-210">Отображение основные линии сетки оси ряда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-210">Display major gridlines along series axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-210">Отображение основных линий сетки вдоль оси ряда.</span><span class="sxs-lookup"><span data-stu-id="1c832-210">Display major gridlines along series axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisGridLinesMinor">
@@ -2661,12 +2103,7 @@
       </ReturnValue>
       <MemberValue>345</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-211">Отображение вспомогательные линии сетки оси ряда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-211">Display minor gridlines along series axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-211">Отображение вспомогательных линий сетки вдоль оси ряда.</span><span class="sxs-lookup"><span data-stu-id="1c832-211">Display minor gridlines along series axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisGridLinesMinorMajor">
@@ -2685,12 +2122,7 @@
       </ReturnValue>
       <MemberValue>347</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-212">Отображение основной и дополнительной линии сетки оси ряда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-212">Display both major and minor gridlines along series axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-212">Отображать как основные, так и вспомогательные линии сетки вдоль оси ряда.</span><span class="sxs-lookup"><span data-stu-id="1c832-212">Display both major and minor gridlines along series axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisGridLinesNone">
@@ -2709,12 +2141,7 @@
       </ReturnValue>
       <MemberValue>344</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-213">Не отображать линии сетки оси ряда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-213">Do not display gridlines along series axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-213">Не отображать линии сетки вдоль оси ряда.</span><span class="sxs-lookup"><span data-stu-id="1c832-213">Do not display gridlines along series axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisNone">
@@ -2733,12 +2160,7 @@
       </ReturnValue>
       <MemberValue>368</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-214">Не показывать ось серии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-214">Do not display series axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-214">Не отображать ось ряда.</span><span class="sxs-lookup"><span data-stu-id="1c832-214">Do not display series axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisReverse">
@@ -2757,12 +2179,7 @@
       </ReturnValue>
       <MemberValue>371</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-215">Обратный серии оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-215">Reverse series axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-215">Обратная ось ряда.</span><span class="sxs-lookup"><span data-stu-id="1c832-215">Reverse series axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisShow">
@@ -2781,12 +2198,7 @@
       </ReturnValue>
       <MemberValue>369</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-216">Отображение серии оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-216">Display series axis.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-216">Отображение оси ряда.</span><span class="sxs-lookup"><span data-stu-id="1c832-216">Display series axis.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisTitleHorizontal">
@@ -2805,12 +2217,7 @@
       </ReturnValue>
       <MemberValue>327</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-217">Отображение название оси ряда по горизонтали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-217">Display series axis title horizontally.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-217">Горизонтальное отображение заголовка оси ряда.</span><span class="sxs-lookup"><span data-stu-id="1c832-217">Display series axis title horizontally.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisTitleNone">
@@ -2829,12 +2236,7 @@
       </ReturnValue>
       <MemberValue>324</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-218">Название оси ряда не отображаются.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-218">Do not display series axis title.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-218">Не отображать название оси ряда.</span><span class="sxs-lookup"><span data-stu-id="1c832-218">Do not display series axis title.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisTitleRotated">
@@ -2853,12 +2255,7 @@
       </ReturnValue>
       <MemberValue>325</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-219">Поворот название оси ряда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-219">Rotate series axis title.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-219">Поворачивает название оси ряда.</span><span class="sxs-lookup"><span data-stu-id="1c832-219">Rotate series axis title.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisTitleVertical">
@@ -2877,12 +2274,7 @@
       </ReturnValue>
       <MemberValue>326</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-220">Отображение название оси ряда по вертикали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-220">Display series axis title vertically.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-220">Вертикальное отображение заголовка оси ряда.</span><span class="sxs-lookup"><span data-stu-id="1c832-220">Display series axis title vertically.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementSeriesAxisWithoutLabeling">
@@ -2901,12 +2293,7 @@
       </ReturnValue>
       <MemberValue>370</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-221">Отображение название оси ряда без подписей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-221">Display series axis title without labeling.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-221">Отображение названия оси ряда без указания меток.</span><span class="sxs-lookup"><span data-stu-id="1c832-221">Display series axis title without labeling.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementTrendlineAddExponential">
@@ -2925,12 +2312,7 @@
       </ReturnValue>
       <MemberValue>602</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-222">Добавьте экспоненциальное приближение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-222">Add an exponential trendline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-222">Добавление экспоненциальной линии тренда.</span><span class="sxs-lookup"><span data-stu-id="1c832-222">Add an exponential trendline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementTrendlineAddLinear">
@@ -2949,12 +2331,7 @@
       </ReturnValue>
       <MemberValue>601</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-223">Добавление линии тренда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-223">Add a linear trendline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-223">Добавление линейной линии тренда.</span><span class="sxs-lookup"><span data-stu-id="1c832-223">Add a linear trendline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementTrendlineAddLinearForecast">
@@ -2973,12 +2350,7 @@
       </ReturnValue>
       <MemberValue>603</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-224">Добавьте линейная прогноз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-224">Add a linear forecast.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-224">Добавление линейного прогноза.</span><span class="sxs-lookup"><span data-stu-id="1c832-224">Add a linear forecast.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementTrendlineAddTwoPeriodMovingAverage">
@@ -2997,12 +2369,7 @@
       </ReturnValue>
       <MemberValue>604</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-225">Добавьте два периода перемещение среднего значения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-225">Add a two-period moving average.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-225">Добавление скользящего среднего значения в два периода.</span><span class="sxs-lookup"><span data-stu-id="1c832-225">Add a two-period moving average.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementTrendlineNone">
@@ -3021,12 +2388,7 @@
       </ReturnValue>
       <MemberValue>600</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-226">Не отображать линии тренда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-226">Do not display trendline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-226">Не отображать линию тренда.</span><span class="sxs-lookup"><span data-stu-id="1c832-226">Do not display trendline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementUpDownBarsNone">
@@ -3045,12 +2407,7 @@
       </ReturnValue>
       <MemberValue>900</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-227">Не отображать полосы вверх или вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-227">Do not display up/down bars.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-227">Не отображать полосы повышения и понижения.</span><span class="sxs-lookup"><span data-stu-id="1c832-227">Do not display up/down bars.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoElementUpDownBarsShow">
@@ -3069,12 +2426,7 @@
       </ReturnValue>
       <MemberValue>901</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="430ba-228">Отображение панели вверх или вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="430ba-228">Display up/down bars.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1c832-228">Отображение полос повышения и понижения.</span><span class="sxs-lookup"><span data-stu-id="1c832-228">Display up/down bars.</span></span></summary>
       </Docs>
     </Member>
   </Members>

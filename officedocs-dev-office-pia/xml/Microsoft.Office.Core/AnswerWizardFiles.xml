@@ -1,13 +1,5 @@
 <Type Name="AnswerWizardFiles" FullName="Microsoft.Office.Core.AnswerWizardFiles">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="138d1030f312086960f0709f0f6d779c4ea6c6bb" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662548" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AnswerWizardFiles : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="138d1030f312086960f0709f0f6d779c4ea6c6bb" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662548" /></Metadata><TypeSignature Language="C#" Value="public interface AnswerWizardFiles : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AnswerWizardFiles implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.AnswerWizardFiles" />
   <TypeSignature Language="VB.NET" Value="Public Interface AnswerWizardFiles&#xA;Implements _IMsoDispObj" />
@@ -30,30 +22,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="59c6b-101">Коллекция <b>AnswerWizardFiles</b> содержит все файлы Мастер ответов (с расширением имени файла. Рабочая станция Администрирования) для активного приложения Microsoft Office.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="59c6b-101">The <b>AnswerWizardFiles</b> collection contains all of the Answer Wizard files (with the file name extension .AW) available to the active Microsoft Office application.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="59c6b-102">
-        <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-        <para>Использования <see cref="P:Microsoft.Office.Core.AnswerWizard.Files" /> свойство, позволяющее получить коллекцию ссылок файла мастер ответов. Свойство <b>файлы</b> возвращает набор строк, связанные с. Рабочая станция Администрирования файлы.</para>
-        <para>Использования <see cref="M:Microsoft.Office.Core.AnswerWizardFiles.Add(System.String)" /> метод, чтобы создать дополнительные файлы для текущего Мастер ответов.</para>
-        <para>Использования <see cref="P:Microsoft.Office.Core.AnswerWizardFiles.Item(System.Int32)" /> свойство, позволяющее получить имя ссылку на существующий файл ответов мастер.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="59c6b-102">
-          <para>Some of the content in this topic may not be applicable to some languages.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Core.AnswerWizard.Files" /> property to get the collection of Answer Wizard file references. The <b>Files</b> property returns a collection of strings that refer to .AW files.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Core.AnswerWizardFiles.Add(System.String)" /> method to make additional files available to the current Answer Wizard.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Core.AnswerWizardFiles.Item(System.Int32)" /> property to get the name of an existing Answer Wizard file reference. </para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="afcf2-101">Коллекция <b>ансвервизардфилес</b> содержит все файлы мастера ответов (с расширением имени файла. АВ), доступный для активного приложения Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="afcf2-101">The <b>AnswerWizardFiles</b> collection contains all of the Answer Wizard files (with the file name extension .AW) available to the active Microsoft Office application.</span></span></summary>
+    <remarks><span data-ttu-id="afcf2-102"><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+      <para>Используйте <see cref="P:Microsoft.Office.Core.AnswerWizard.Files" /> свойство, чтобы получить коллекцию ссылок на файл мастера ответов. Свойство <b>Files</b> Возвращает коллекцию строк, которые ссылаются на. Файлы АВ.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.AnswerWizardFiles.Add(System.String)" /> метод, чтобы сделать дополнительные файлы доступными для текущего мастера ответов.</para> 
+      <para>Используйте <see cref="P:Microsoft.Office.Core.AnswerWizardFiles.Item(System.Int32)" /> свойство, чтобы получить имя существующего справочника по файлу мастера ответов.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="afcf2-102"><para>Some of the content in this topic may not be applicable to some languages.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Core.AnswerWizard.Files" /> property to get the collection of Answer Wizard file references. The <b>Files</b> property returns a collection of strings that refer to .AW files.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Core.AnswerWizardFiles.Add(System.String)" /> method to make additional files available to the current Answer Wizard.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Core.AnswerWizardFiles.Item(System.Int32)" /> property to get the name of an existing Answer Wizard file reference. </para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -79,24 +57,8 @@
         <Parameter Name="FileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="FileName">
-          <span data-ttu-id="59c6b-103">
-            <b>Строковое значение.</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-103">Required <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="59c6b-104">Полный путь к файлу указанного Мастер ответов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-104">The fully qualified path to the specified Answer Wizard file.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="59c6b-105">Создает новую ссылку на файл ответов мастер и добавляет его к <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-105">Creates a new reference to an Answer Wizard file and adds it to the <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> collection.</span>
-          </span>
-        </summary>
+        <param name="FileName"><span data-ttu-id="afcf2-103">Обязательный атрибут типа <b>String</b>.</span><span class="sxs-lookup"><span data-stu-id="afcf2-103">Required <b>String</b>.</span></span> <span data-ttu-id="afcf2-104">Полный путь к указанному файлу мастера ответов.</span><span class="sxs-lookup"><span data-stu-id="afcf2-104">The fully qualified path to the specified Answer Wizard file.</span></span></param>
+        <summary><span data-ttu-id="afcf2-105">Создает новую ссылку на файл мастера ответов и добавляет его в <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> коллекцию.</span><span class="sxs-lookup"><span data-stu-id="afcf2-105">Creates a new reference to an Answer Wizard file and adds it to the <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,12 +88,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="59c6b-106">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-106">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="afcf2-106">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="afcf2-106">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -159,12 +116,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="59c6b-107">Возвращает или задает <b>целое число</b> , указывающее количество элементов в указанном семействе сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-107">Returns or sets an <b>Integer</b> indicating the number of items in the specified collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="afcf2-107">Возвращает или задает <b>целое</b> число, указывающее количество элементов в указанной коллекции.</span><span class="sxs-lookup"><span data-stu-id="afcf2-107">Returns or sets an <b>Integer</b> indicating the number of items in the specified collection.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -195,27 +147,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="59c6b-108">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-108">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="afcf2-108">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="afcf2-108">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="59c6b-109">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку «MSWD»; Если создан в Microsoft Excel, свойство возвращает 1480803660. Возвращаемое значение могут также быть представлены константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.AnswerWizardFiles.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-109">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string "MSWD"; if created in Microsoft Excel,  property returns 1480803660. The returned value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.AnswerWizardFiles.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="afcf2-109"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку "МСВД"; Если он создан в Microsoft Excel, свойство возвращает 1480803660. Возвращаемое значение также может быть представлено константой <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.AnswerWizardFiles.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="afcf2-109"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string "MSWD"; if created in Microsoft Excel,  property returns 1480803660. The returned value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.AnswerWizardFiles.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -241,24 +181,8 @@
         <Parameter Name="FileName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="FileName">
-          <span data-ttu-id="59c6b-110">
-            <b>Строковое значение.</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-110">Required <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="59c6b-111">Имя файла для удаления, включая полный путь, имя файла и расширение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-111">The name of the file to be deleted, including the fully qualified path, file name, and extension.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="59c6b-112">Удаляет указанный объект из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-112">Deletes the specified object from its collection.</span>
-          </span>
-        </summary>
+        <param name="FileName"><span data-ttu-id="afcf2-110">Обязательный атрибут типа <b>String</b>.</span><span class="sxs-lookup"><span data-stu-id="afcf2-110">Required <b>String</b>.</span></span> <span data-ttu-id="afcf2-111">Имя удаляемого файла, включая полный путь, имя файла и расширение.</span><span class="sxs-lookup"><span data-stu-id="afcf2-111">The name of the file to be deleted, including the fully qualified path, file name, and extension.</span></span></param>
+        <summary><span data-ttu-id="afcf2-112">Удаляет указанный объект из коллекции.</span><span class="sxs-lookup"><span data-stu-id="afcf2-112">Deletes the specified object from its collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -288,22 +212,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="59c6b-113">Требуется <b>целое число</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-113">Required <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="59c6b-114">Номер индекса строки с названием файла ответов мастер или имя файла, должно быть возвращено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-114">The index number of the Answer Wizard file name string, or the file name, to be returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="59c6b-115">Возвращает строку имени файла из <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-115">Returns a file name string from an <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="afcf2-113">Обязательный атрибут типа <b>Integer</b>.</span><span class="sxs-lookup"><span data-stu-id="afcf2-113">Required <b>Integer</b>.</span></span> <span data-ttu-id="afcf2-114">Номер индекса в строке имени файла мастера ответов или имя файла, которое необходимо вернуть.</span><span class="sxs-lookup"><span data-stu-id="afcf2-114">The index number of the Answer Wizard file name string, or the file name, to be returned.</span></span></param>
+        <summary><span data-ttu-id="afcf2-115">Возвращает строку имени файла из <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="afcf2-115">Returns a file name string from an <see cref="T:Microsoft.Office.Core.AnswerWizardFiles" /> collection.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -331,12 +241,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="59c6b-116">Возвращает родительский объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="59c6b-116">Returns the parent object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="afcf2-116">Возвращает родительский объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="afcf2-116">Returns the parent object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

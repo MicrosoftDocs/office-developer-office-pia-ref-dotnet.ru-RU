@@ -1,13 +1,5 @@
 <Type Name="MsoWizardMsgType" FullName="Microsoft.Office.Core.MsoWizardMsgType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7c94445d9a2a67e5c04a8ef0bacdb63f056308a7" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661941" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoWizardMsgType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7c94445d9a2a67e5c04a8ef0bacdb63f056308a7" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661941" /></Metadata><TypeSignature Language="C#" Value="public enum MsoWizardMsgType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoWizardMsgType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoWizardMsgType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoWizardMsgType" />
@@ -20,24 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="e851a-101">Определяет контекст, в котором вызывается процедура обратного вызова мастера.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e851a-101">Specifies context under which a wizard's callback procedure is called.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="e851a-102">
-        <para>Используется в качестве аргумента в процедуру обратного вызова, предназначен для использования с помощью настраиваемого мастера.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e851a-102">
-          <para>Used as an argument in a callback procedure designed for use with a custom wizard.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="372e0-101">Задает контекст, в котором вызывается процедура обратного вызова мастера.</span><span class="sxs-lookup"><span data-stu-id="372e0-101">Specifies context under which a wizard's callback procedure is called.</span></span></summary>
+    <remarks><span data-ttu-id="372e0-102"><para>Используется в качестве аргумента в процедуре обратного вызова, предназначенной для использования с настраиваемым мастером.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="372e0-102"><para>Used as an argument in a callback procedure designed for use with a custom wizard.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoWizardMsgLocalStateOff">
@@ -56,12 +34,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e851a-103">Нажата правая кнопка в решение или филиалов в документе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e851a-103">User clicked the right button in the decision or branch balloon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372e0-103">Пользователь щелкаю правой кнопкой мыши в подсказке решения или ветви.</span><span class="sxs-lookup"><span data-stu-id="372e0-103">User clicked the right button in the decision or branch balloon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWizardMsgLocalStateOn">
@@ -80,12 +53,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e851a-104">Не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e851a-104">Not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372e0-104">Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="372e0-104">Not supported.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWizardMsgResuming">
@@ -104,12 +72,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e851a-105">Переданной в метод <b>ActivateWizard</b> , если указан <b>msoWizardActResume</b> для аргумента <b>Act</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e851a-105">Passed to the <b>ActivateWizard</b> method if <b>msoWizardActResume</b> is specified for the <b>Act</b> argument.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372e0-105">Передается в метод <b>активатевизард</b> , если для аргумента <b>ACT</b> задано значение <b>мсовизардактресуме</b> .</span><span class="sxs-lookup"><span data-stu-id="372e0-105">Passed to the <b>ActivateWizard</b> method if <b>msoWizardActResume</b> is specified for the <b>Act</b> argument.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWizardMsgShowHelp">
@@ -128,12 +91,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e851a-106">Нажата левая кнопка в решение или филиалов в документе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e851a-106">User clicked the left button in the decision or branch balloon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372e0-106">Пользователь накинул левую кнопку в подсказке решения или ветви.</span><span class="sxs-lookup"><span data-stu-id="372e0-106">User clicked the left button in the decision or branch balloon.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoWizardMsgSuspending">
@@ -152,12 +110,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e851a-107">Переданной в метод <b>ActivateWizard</b> , если указан <b>msoWizardActSuspend</b> для аргумента <b>Act</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e851a-107">Passed to the <b>ActivateWizard</b> method if <b>msoWizardActSuspend</b> is specified for the <b>Act</b> argument.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372e0-107">Передается в метод <b>активатевизард</b> , если для аргумента <b>ACT</b> задано значение <b>мсовизардактсуспенд</b> .</span><span class="sxs-lookup"><span data-stu-id="372e0-107">Passed to the <b>ActivateWizard</b> method if <b>msoWizardActSuspend</b> is specified for the <b>Act</b> argument.</span></span></summary>
       </Docs>
     </Member>
   </Members>

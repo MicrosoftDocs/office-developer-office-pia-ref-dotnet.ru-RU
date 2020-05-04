@@ -1,13 +1,5 @@
 <Type Name="MsoTextEffectAlignment" FullName="Microsoft.Office.Core.MsoTextEffectAlignment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="09c69b2d164d1d90147488e244c875ea4d33db0c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661911" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoTextEffectAlignment" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="09c69b2d164d1d90147488e244c875ea4d33db0c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661911" /></Metadata><TypeSignature Language="C#" Value="public enum MsoTextEffectAlignment" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextEffectAlignment extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextEffectAlignment" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoTextEffectAlignment" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="3bcbf-101">Задает способ выравнивания текста WordArt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3bcbf-101">Specifies alignment for WordArt text.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="02332-101">Задает выравнивание для текста WordArt.</span><span class="sxs-lookup"><span data-stu-id="02332-101">Specifies alignment for WordArt text.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bcbf-102">По центру.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bcbf-102">Centered.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="02332-102">Выравнивание по центру.</span><span class="sxs-lookup"><span data-stu-id="02332-102">Centered.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectAlignmentLeft">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bcbf-103">По левому краю.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bcbf-103">Left-aligned.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="02332-103">Выравнивание по левому краю.</span><span class="sxs-lookup"><span data-stu-id="02332-103">Left-aligned.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectAlignmentLetterJustify">
@@ -93,16 +70,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bcbf-104">Текст выравнивается по ширине.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bcbf-104">Text is justified.</span>
-          </span>
-          <span data-ttu-id="3bcbf-105">Расстояние между буквами могут быть настроены для выравнивания текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bcbf-105">Spacing between letters may be adjusted to justify text.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="02332-104">Текст выравнивается по ширине.</span><span class="sxs-lookup"><span data-stu-id="02332-104">Text is justified.</span></span> <span data-ttu-id="02332-105">Расстояние между буквами может быть отрегулировано для выравнивания текста.</span><span class="sxs-lookup"><span data-stu-id="02332-105">Spacing between letters may be adjusted to justify text.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectAlignmentMixed">
@@ -121,12 +89,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bcbf-106">Не используется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bcbf-106">Not used.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="02332-106">Не используется.</span><span class="sxs-lookup"><span data-stu-id="02332-106">Not used.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectAlignmentRight">
@@ -145,12 +108,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bcbf-107">Правом краю.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bcbf-107">Right- aligned.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="02332-107">Выравнивание по правому краю.</span><span class="sxs-lookup"><span data-stu-id="02332-107">Right- aligned.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectAlignmentStretchJustify">
@@ -169,16 +127,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bcbf-108">Текст выравнивается по ширине.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bcbf-108">Text is justified.</span>
-          </span>
-          <span data-ttu-id="3bcbf-109">Буквы может быть растянуто для выравнивания текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bcbf-109">Letters may be stretched to justify text.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="02332-108">Текст выравнивается по ширине.</span><span class="sxs-lookup"><span data-stu-id="02332-108">Text is justified.</span></span> <span data-ttu-id="02332-109">Буквы могут растягиваться, чтобы выровнять текст.</span><span class="sxs-lookup"><span data-stu-id="02332-109">Letters may be stretched to justify text.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectAlignmentWordJustify">
@@ -197,16 +146,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3bcbf-110">Текст выравнивается по ширине.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bcbf-110">Text is justified.</span>
-          </span>
-          <span data-ttu-id="3bcbf-111">Интервалы между словами (но не букв) могут быть настроены для выравнивания текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3bcbf-111">Spacing between words (but not letters) may be adjusted to justify text.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="02332-110">Текст выравнивается по ширине.</span><span class="sxs-lookup"><span data-stu-id="02332-110">Text is justified.</span></span> <span data-ttu-id="02332-111">Интервалы между словами (но не буквами) могут быть изменены для выравнивания текста.</span><span class="sxs-lookup"><span data-stu-id="02332-111">Spacing between words (but not letters) may be adjusted to justify text.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="ContactCard" FullName="Microsoft.Office.Core.ContactCard">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="99033d2f07fcec33468fb1d3f2f87463c4e23cb8" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662568" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ContactCard : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="99033d2f07fcec33468fb1d3f2f87463c4e23cb8" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662568" /></Metadata><TypeSignature Language="C#" Value="public interface ContactCard : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ContactCard implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ContactCard" />
   <TypeSignature Language="VB.NET" Value="Public Interface ContactCard&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="8c412-101">Представляет карточки контакта системы Microsoft Office.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8c412-101">Represents a Microsoft Office system contact card.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="625d2-101">Представляет карточку контакта системы Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="625d2-101">Represents a Microsoft Office system contact card.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -65,25 +52,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8c412-102">Возвращает объект <b>приложения</b> , который представляет родительский объект приложения Office для объекта <b>ContactCard</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-102">Returns an <b>Application</b> object that represents the parent Office application for the <b>ContactCard</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="625d2-102">Возвращает объект <b>Application</b> , представляющий родительское приложение Office для объекта <b>ContactCard</b> .</span><span class="sxs-lookup"><span data-stu-id="625d2-102">Returns an <b>Application</b> object that represents the parent Office application for the <b>ContactCard</b> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8c412-103">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-103">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="625d2-103"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="625d2-103"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -107,24 +80,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="8c412-104">Закрытие карточки контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-104">Closes the contact card.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8c412-105">
-            <para>Вы можете закрыть карточку контакта в пользовательском интерфейсе или программным путем с помощью этого метода.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-105">
-              <para>You can close a contact card either in the user interface or programmatically by calling this method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="625d2-104">Закрывает карточку контакта.</span><span class="sxs-lookup"><span data-stu-id="625d2-104">Closes the contact card.</span></span></summary>
+        <remarks><span data-ttu-id="625d2-105"><para>Вы можете закрыть карточку контакта в пользовательском интерфейсе или программным путем, вызвав этот метод.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="625d2-105"><para>You can close a contact card either in the user interface or programmatically by calling this method.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -153,25 +112,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8c412-106">Возвращает <see cref="T:System.Long" /> , которая указывает приложения, в котором был создан объект <b>ContactCard</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-106">Returns a <see cref="T:System.Long" /> that indicates the application in which the <b>ContactCard</b> object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="625d2-106">Возвращает объект <see cref="T:System.Long" /> , указывающий приложение, в котором был создан объект <b>ContactCard</b> .</span><span class="sxs-lookup"><span data-stu-id="625d2-106">Returns a <see cref="T:System.Long" /> that indicates the application in which the <b>ContactCard</b> object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8c412-107">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-107">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="625d2-107"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="625d2-107"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Show">
@@ -202,146 +147,93 @@
         <Parameter Name="ShowWithDelay" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="CardStyle">
-          <span data-ttu-id="8c412-108">
-            <see cref="T:Microsoft.Office.Core.MsoContactCardStyle" />который определяет отображение карточку как меняющейся карточки или полностью расширенную карточку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-108">
-              <see cref="T:Microsoft.Office.Core.MsoContactCardStyle" /> that determines whether the card is displayed as a hover card or as a fully expanded card.</span>
-          </span>
-        </param>
-        <param name="RectangleLeft">
-          <span data-ttu-id="8c412-109">Задает оси x в левой части прямоугольника, где карточки не отображается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-109">Specifies the x-coordinate of the left side of the rectangle where the card is not displayed.</span>
-          </span>
-        </param>
-        <param name="RectangleRight">
-          <span data-ttu-id="8c412-110">Задает оси x в правой части прямоугольника, где карточки не отображается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-110">Specifies the x-coordinate of the right side of the rectangle where the card is not displayed.</span>
-          </span>
-        </param>
-        <param name="RectangleTop">
-          <span data-ttu-id="8c412-111">Задает Координата в верхней части прямоугольника, где карточки не отображается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-111">Specifies the y-coordinate of the top side of the rectangle where the card is not displayed.</span>
-          </span>
-        </param>
-        <param name="RectangleBottom">
-          <span data-ttu-id="8c412-112">Задает Координата в нижней части прямоугольника, где карточки не отображается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-112">Specifies the y-coordinate of the bottom side of the rectangle where the card is not displayed.</span>
-          </span>
-        </param>
-        <param name="HorizontalPosition">
-          <span data-ttu-id="8c412-113">Задает положение по оси x левого края карточки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-113">Specifies the x-coordinate position of the left edge of the card.</span>
-          </span>
-        </param>
-        <param name="ShowWithDelay">
-          <span data-ttu-id="8c412-114">Определяет, есть ли задержку перед отображением карты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-114">Determines if there is a delay before the card is displayed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="8c412-115">Отображение карточки контакта в заданной позиции оси x вне заданного прямоугольника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-115">Displays the contact card at the specified x-coordinate position outside the specified rectangle.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8c412-116">
-            <para>
-              <paramref name="Style" /> Параметра должно быть одно из <see cref="T:Microsoft.Office.Core.MsoContactCardStyle" /> значения в следующей таблице.</para>
-            <list type="table">
-              <item>
-                <description>
-                  <b>msoContactCardTypeEnterpriseContact</b>
-                </description>
-                <description>0</description>
-                <description>представляет карточки контакта для адреса контакта корпоративных.</description>
-              </item>
-              <item>
-                <description>
-                  <b>msoContactCardTypePersonalContact</b>
-                </description>
-                <description>1</description>
-                <description>представляет карточку контакта для контакта адресной.</description>
-              </item>
-              <item>
-                <description>
-                  <b>msoContactCardTypeUnknownContact</b>
-                </description>
-                <description>2</description>
-                <description>представляет карточку контакта для Неизвестный контакта адрес.</description>
-              </item>
-              <item>
-                <description>
-                  <b>msoContactCardTypeEnterpriseGroup</b>
-                </description>
-                <description>3</description>
-                <description>представляет карточку контакта для контакта адрес списка рассылки корпоративных.</description>
-              </item>
-              <item>
-                <description>
-                  <b>msoContactCardTypePersonalDistributionList</b>
-                </description>
-                <description>4</description>
-                <description>представляет карточку контакта для адреса контакта списка рассылки.</description>
-              </item>
-            </list>
-            <para>
-              <paramref name="fDelay" /> Параметр применяется только в том случае, если <paramref name="Style" /> задано значение «msoContactCardStyleHover». Для других стилей карточки игнорируется fDelay.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8c412-116">
-              <para>The <paramref name="Style" /> parameter must be one of the <see cref="T:Microsoft.Office.Core.MsoContactCardStyle" /> values in the following table.</para>
-              <list type="table">
-                <item>
-                  <description>
-                    <b>msoContactCardTypeEnterpriseContact</b>
-                  </description>
-                  <description>0</description>
-                  <description>Represents a contact card for an enterprise contact address.</description>
-                </item>
-                <item>
-                  <description>
-                    <b>msoContactCardTypePersonalContact</b>
-                  </description>
-                  <description>1</description>
-                  <description>Represents a contact card for a personal contact address.</description>
-                </item>
-                <item>
-                  <description>
-                    <b>msoContactCardTypeUnknownContact</b>
-                  </description>
-                  <description>2</description>
-                  <description>Represents a contact card for an unknown contact address.</description>
-                </item>
-                <item>
-                  <description>
-                    <b>msoContactCardTypeEnterpriseGroup</b>
-                  </description>
-                  <description>3</description>
-                  <description>Represents a contact card for an enterprise distribution list contact address.</description>
-                </item>
-                <item>
-                  <description>
-                    <b>msoContactCardTypePersonalDistributionList</b>
-                  </description>
-                  <description>4</description>
-                  <description>Represents a contact card for a personal distribution list contact address.</description>
-                </item>
-              </list>
-              <para>The <paramref name="fDelay" /> parameter applies only if <paramref name="Style" /> is set to “msoContactCardStyleHover”. For all other card styles, fDelay is ignored.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="CardStyle"><span data-ttu-id="625d2-108"><see cref="T:Microsoft.Office.Core.MsoContactCardStyle" />Определяет, отображается ли карточка как меняющаяся карта или как полностью развернутая карта.</span><span class="sxs-lookup"><span data-stu-id="625d2-108"><see cref="T:Microsoft.Office.Core.MsoContactCardStyle" /> that determines whether the card is displayed as a hover card or as a fully expanded card.</span></span></param>
+        <param name="RectangleLeft"><span data-ttu-id="625d2-109">Указывает координату x левой стороны прямоугольника, где карточка не отображается.</span><span class="sxs-lookup"><span data-stu-id="625d2-109">Specifies the x-coordinate of the left side of the rectangle where the card is not displayed.</span></span></param>
+        <param name="RectangleRight"><span data-ttu-id="625d2-110">Указывает координату x правой стороны прямоугольника, где карточка не отображается.</span><span class="sxs-lookup"><span data-stu-id="625d2-110">Specifies the x-coordinate of the right side of the rectangle where the card is not displayed.</span></span></param>
+        <param name="RectangleTop"><span data-ttu-id="625d2-111">Указывает координату y верхней стороны прямоугольника, в котором карта не отображается.</span><span class="sxs-lookup"><span data-stu-id="625d2-111">Specifies the y-coordinate of the top side of the rectangle where the card is not displayed.</span></span></param>
+        <param name="RectangleBottom"><span data-ttu-id="625d2-112">Указывает координату y нижней стороны прямоугольника, в котором карта не отображается.</span><span class="sxs-lookup"><span data-stu-id="625d2-112">Specifies the y-coordinate of the bottom side of the rectangle where the card is not displayed.</span></span></param>
+        <param name="HorizontalPosition"><span data-ttu-id="625d2-113">Указывает положение по оси x левого края карточки.</span><span class="sxs-lookup"><span data-stu-id="625d2-113">Specifies the x-coordinate position of the left edge of the card.</span></span></param>
+        <param name="ShowWithDelay"><span data-ttu-id="625d2-114">Определяет, есть ли задержка перед отображением карточки.</span><span class="sxs-lookup"><span data-stu-id="625d2-114">Determines if there is a delay before the card is displayed.</span></span></param>
+        <summary><span data-ttu-id="625d2-115">Отображает карточку контакта по указанному координате x за преположениями указанного прямоугольника.</span><span class="sxs-lookup"><span data-stu-id="625d2-115">Displays the contact card at the specified x-coordinate position outside the specified rectangle.</span></span></summary>
+        <remarks><span data-ttu-id="625d2-116"><para>Параметр должен иметь одно из значений, <see cref="T:Microsoft.Office.Core.MsoContactCardStyle" /> указанных в следующей таблице. <paramref name="Style" /> </para> 
+          <list type="table"> 
+            <item> 
+              <description>
+                <b>мсоконтакткардтипинтерприсеконтакт</b>
+              </description>
+              <description>0</description>
+              <description>представляет карточку контакта для адреса корпоративного контакта.</description> 
+            </item> 
+            <item> 
+              <description>
+                <b>мсоконтакткардтипеперсоналконтакт</b>
+              </description>
+              <description>1</description>
+              <description>представляет карточку контакта для личного адреса контакта.</description> 
+            </item> 
+            <item> 
+              <description>
+                <b>мсоконтакткардтипеункновнконтакт</b>
+              </description>
+              <description>2</description>
+              <description>представляет карточку контакта для неизвестного контактного адреса.</description> 
+            </item> 
+            <item> 
+              <description>
+                <b>мсоконтакткардтипинтерприсеграуп</b>
+              </description>
+              <description>3</description>
+              <description>представляет карточку контакта для адреса контакта корпоративного списка рассылки.</description> 
+            </item> 
+            <item> 
+              <description>
+                <b>мсоконтакткардтипеперсоналдистрибутионлист</b>
+              </description>
+              <description>4</description>
+              <description>представляет карточку контакта для личного адреса контакта в списке рассылки.</description> 
+            </item> 
+          </list> 
+          <para>Параметр применяется только в том <paramref name="Style" /> случае, если задано значение "мсоконтакткардстилеховер". <paramref name="fDelay" /> Для всех остальных стилей карточек Фделай игнорируется.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="625d2-116"><para>The <paramref name="Style" /> parameter must be one of the <see cref="T:Microsoft.Office.Core.MsoContactCardStyle" /> values in the following table.</para>
+          <list type="table">
+            <item>
+              <description>
+                <b>msoContactCardTypeEnterpriseContact</b>
+              </description>
+              <description>0</description>
+              <description>Represents a contact card for an enterprise contact address.</description>
+            </item>
+            <item>
+              <description>
+                <b>msoContactCardTypePersonalContact</b>
+              </description>
+              <description>1</description>
+              <description>Represents a contact card for a personal contact address.</description>
+            </item>
+            <item>
+              <description>
+                <b>msoContactCardTypeUnknownContact</b>
+              </description>
+              <description>2</description>
+              <description>Represents a contact card for an unknown contact address.</description>
+            </item>
+            <item>
+              <description>
+                <b>msoContactCardTypeEnterpriseGroup</b>
+              </description>
+              <description>3</description>
+              <description>Represents a contact card for an enterprise distribution list contact address.</description>
+            </item>
+            <item>
+              <description>
+                <b>msoContactCardTypePersonalDistributionList</b>
+              </description>
+              <description>4</description>
+              <description>Represents a contact card for a personal distribution list contact address.</description>
+            </item>
+          </list>
+          <para>The <paramref name="fDelay" /> parameter applies only if <paramref name="Style" /> is set to “msoContactCardStyleHover”. For all other card styles, fDelay is ignored.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

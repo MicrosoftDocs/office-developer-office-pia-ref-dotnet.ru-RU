@@ -1,13 +1,5 @@
 <Type Name="MsoCTPDockPositionRestrict" FullName="Microsoft.Office.Core.MsoCTPDockPositionRestrict">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="33f60cf498fd6061c02bb76a6d2bc49371f61353" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661970" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoCTPDockPositionRestrict" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="33f60cf498fd6061c02bb76a6d2bc49371f61353" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661970" /></Metadata><TypeSignature Language="C#" Value="public enum MsoCTPDockPositionRestrict" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCTPDockPositionRestrict extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCTPDockPositionRestrict" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoCTPDockPositionRestrict" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="cad2e-101">Задает retrictions закрепления настраиваемой области задач.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cad2e-101">Specifies retrictions on the docking behavior of the custom task pane.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="599fc-101">Указывает ретриктионс для режима стыковки настраиваемой области задач.</span><span class="sxs-lookup"><span data-stu-id="599fc-101">Specifies retrictions on the docking behavior of the custom task pane.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cad2e-102">Нет никаких изменений из текущего значения ограничения области задач.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cad2e-102">There is no change from the current restriction setting for the task pane.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="599fc-102">В области задач не изменяется текущий параметр ограничения.</span><span class="sxs-lookup"><span data-stu-id="599fc-102">There is no change from the current restriction setting for the task pane.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCTPDockPositionRestrictNoHorizontal">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cad2e-103">Область задач нельзя закрепить вправо или в левой части окна документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cad2e-103">Task pane can't be docked to either the right or the left side of the document window.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="599fc-103">Область задач не может быть закреплена в правой или левой части окна документа.</span><span class="sxs-lookup"><span data-stu-id="599fc-103">Task pane can't be docked to either the right or the left side of the document window.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCTPDockPositionRestrictNone">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cad2e-104">Отсутствуют ограничения на закрепление области задач.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cad2e-104">No restrictions on docking the task pane.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="599fc-104">Нет ограничений на прикрепление области задач.</span><span class="sxs-lookup"><span data-stu-id="599fc-104">No restrictions on docking the task pane.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCTPDockPositionRestrictNoVertical">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cad2e-105">Область задач нельзя закрепить в верхней или нижней части окна документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cad2e-105">Task pane can't be docked to either the top or the bottom of the document window.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="599fc-105">Область задач не может быть закреплена в верхней или нижней части окна документа.</span><span class="sxs-lookup"><span data-stu-id="599fc-105">Task pane can't be docked to either the top or the bottom of the document window.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="IMsoEnvelopeVBEvents_Event" FullName="Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="312ad566ad0b39ee1685b5349094170ee9f19bdc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662172" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IMsoEnvelopeVBEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="312ad566ad0b39ee1685b5349094170ee9f19bdc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662172" /></Metadata><TypeSignature Language="C#" Value="public interface IMsoEnvelopeVBEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoEnvelopeVBEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMsoEnvelopeVBEvents_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="7500e-101">Интерфейс события для Microsoft Office <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объекта события.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7500e-101">Events interface for Microsoft Office <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object events.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="59691-101">Интерфейс событий для событий объектов <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="59691-101">Events interface for Microsoft Office <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object events.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,12 +40,7 @@
         <ReturnType>Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7500e-102">Происходит, когда пользовательского интерфейса (UI), который соответствует <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объект является скрытым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7500e-102">Occurs when the user interface (UI) that corresponds to the <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object is hidden.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="59691-102">Происходит, когда пользовательский интерфейс, соответствующий <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объекту, скрыт.</span><span class="sxs-lookup"><span data-stu-id="59691-102">Occurs when the user interface (UI) that corresponds to the <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object is hidden.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,12 +59,7 @@
         <ReturnType>Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7500e-103">Происходит, когда пользовательского интерфейса (UI), который соответствует <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объект отображается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7500e-103">Occurs when the user interface (UI) that corresponds to the <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object is displayed.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="59691-103">Возникает при отображении пользовательского интерфейса, соответствующего <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> объекту.</span><span class="sxs-lookup"><span data-stu-id="59691-103">Occurs when the user interface (UI) that corresponds to the <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object is displayed.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

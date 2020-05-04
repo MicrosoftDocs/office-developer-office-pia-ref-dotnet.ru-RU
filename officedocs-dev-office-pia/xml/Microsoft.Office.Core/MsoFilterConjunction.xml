@@ -1,13 +1,5 @@
 <Type Name="MsoFilterConjunction" FullName="Microsoft.Office.Core.MsoFilterConjunction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="648c188356213c39218bacac1b27989a36fc67b3" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662539" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFilterConjunction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="648c188356213c39218bacac1b27989a36fc67b3" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662539" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFilterConjunction" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFilterConjunction extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFilterConjunction" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFilterConjunction" />
@@ -20,24 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="73340-101">Указывает, как условие фильтра относится к других критериев фильтра.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="73340-101">Specifies how a filter criterion relates to other filter criteria.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="73340-102">
-        <para>Используется свойство <b>совместно</b> объекта <b>ODSOFilters</b> и с помощью метода <b>Add</b> объекта <b>MailMergeFilters</b> .</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="73340-102">
-          <para>Used with the <b>Conjunction</b> property of the <b>ODSOFilters</b> object and with the <b>Add</b> method of the <b>MailMergeFilters</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="10ba1-101">Определяет, как условие фильтра относится к другим условиям фильтра.</span><span class="sxs-lookup"><span data-stu-id="10ba1-101">Specifies how a filter criterion relates to other filter criteria.</span></span></summary>
+    <remarks><span data-ttu-id="10ba1-102"><para>Используется со свойством <b>союз</b> объекта <b>ODSOFilters</b> и методом <b>Add</b> объекта <b>MailMergeFilters</b> .</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="10ba1-102"><para>Used with the <b>Conjunction</b> property of the <b>ODSOFilters</b> object and with the <b>Add</b> method of the <b>MailMergeFilters</b> object.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoFilterConjunctionAnd">
@@ -56,14 +34,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="73340-103">
-            <b>И</b> совместно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="73340-103">
-              <b>And</b> conjunction.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="10ba1-103"><b>И</b> сочетается.</span><span class="sxs-lookup"><span data-stu-id="10ba1-103"><b>And</b> conjunction.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterConjunctionOr">
@@ -82,14 +53,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="73340-104">
-            <b>Или</b> совместно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="73340-104">
-              <b>Or</b> conjunction.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="10ba1-104"><b>Или</b> сочетании.</span><span class="sxs-lookup"><span data-stu-id="10ba1-104"><b>Or</b> conjunction.</span></span></summary>
       </Docs>
     </Member>
   </Members>

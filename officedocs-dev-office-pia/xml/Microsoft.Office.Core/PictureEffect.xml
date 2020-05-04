@@ -1,13 +1,5 @@
 <Type Name="PictureEffect" FullName="Microsoft.Office.Core.PictureEffect">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="82936f05d96543d5f720440c9fbab60da8dd9d0f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662466" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PictureEffect : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="82936f05d96543d5f720440c9fbab60da8dd9d0f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662466" /></Metadata><TypeSignature Language="C#" Value="public interface PictureEffect : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PictureEffect implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PictureEffect" />
   <TypeSignature Language="VB.NET" Value="Public Interface PictureEffect&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="0ad74-101">Представляет эффекта рисунка.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0ad74-101">Represents a picture effect.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="276e9-101">Представляет графический объект.</span><span class="sxs-lookup"><span data-stu-id="276e9-101">Represents a picture effect.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -65,25 +52,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0ad74-102">Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>PictureEffect</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-102">Gets a <see cref="T:System.Object" />  object that represents the container application for the <b>PictureEffect</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="276e9-102">Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>PictureEffect</b> .</span><span class="sxs-lookup"><span data-stu-id="276e9-102">Gets a <see cref="T:System.Object" />  object that represents the container application for the <b>PictureEffect</b> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0ad74-103">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-103">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="276e9-103"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="276e9-103"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -112,25 +85,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0ad74-104">Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>PictureEffect</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-104">Gets a 32-bit integer that indicates the application in which the <b>PictureEffect</b> object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="276e9-104">Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>PictureEffect</b> .</span><span class="sxs-lookup"><span data-stu-id="276e9-104">Gets a 32-bit integer that indicates the application in which the <b>PictureEffect</b> object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0ad74-105">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-105">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="276e9-105"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="276e9-105"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -154,12 +113,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="0ad74-106">Удаление эффекта рисунка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-106">Deletes a picture effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="276e9-106">Удаляет графический объект.</span><span class="sxs-lookup"><span data-stu-id="276e9-106">Deletes a picture effect.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -186,25 +140,11 @@
         <ReturnType>Microsoft.Office.Core.EffectParameters</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0ad74-107">Получает <see cref="T:Microsoft.Office.Core.EffectParameter" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-107">Gets an <see cref="T:Microsoft.Office.Core.EffectParameter" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="276e9-107">Возвращает <see cref="T:Microsoft.Office.Core.EffectParameter" /> объект.</span><span class="sxs-lookup"><span data-stu-id="276e9-107">Gets an <see cref="T:Microsoft.Office.Core.EffectParameter" /> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0ad74-108">
-            <para>Чтение и запись. Эффекты рисунков обрабатываются как цепочка состоит из отдельных элементов, которые применяются в последовательности для создания конечного составных изображения. В цепочке эффекты позволяет эффект, добавляемого в цепочку, переупорядочиваться или удалены из цепочки. Влияние параметры определяют свойства эти проблемы.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-108">
-              <para>Read/write. Picture effects are processed as a chain composed of individual items which are applied in sequence to create the final composited image. An effects chain enables an effect to be added to the chain, reordered, or removed from the chain. Effect parameters specify properties of those effects.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="276e9-108"><para>Чтение и запись. Эффекты рисунков обрабатываются как цепочка, состоящая из отдельных элементов, которые применяются последовательно, чтобы создать итоговое составное изображение. Цепочка эффектов позволяет добавлять эффект в цепочку, переупорядочивать их или удалять из нее. Параметры эффектов задают свойства этих эффектов.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="276e9-108"><para>Read/write. Picture effects are processed as a chain composed of individual items which are applied in sequence to create the final composited image. An effects chain enables an effect to be added to the chain, reordered, or removed from the chain. Effect parameters specify properties of those effects.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Position">
@@ -233,25 +173,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0ad74-109">Получает или задает положение эффекта рисунка в цепочку составного эффекты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-109">Gets or sets the position of a picture effect in a chain of composite effects.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="276e9-109">Получает или задает положение эффекта изображения в цепочке составных эффектов.</span><span class="sxs-lookup"><span data-stu-id="276e9-109">Gets or sets the position of a picture effect in a chain of composite effects.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0ad74-110">
-            <para>Чтение и запись. Эффекты рисунков обрабатываются как цепочка состоит из отдельных элементов, которые применяются в последовательности для создания конечного составных изображения. В цепочке эффекты позволяет эффект, добавляемого в цепочку, переупорядочиваться или удалены из цепочки.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-110">
-              <para>Read/write. Picture effects are processed as a chain composed of individual items which are applied in sequence to create the final composited image. An effects chain enables an effect to be added to the chain, reordered, or removed from the chain.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="276e9-110"><para>Чтение и запись. Эффекты рисунков обрабатываются как цепочка, состоящая из отдельных элементов, которые применяются последовательно, чтобы создать итоговое составное изображение. Цепочка эффектов позволяет добавлять эффект в цепочку, переупорядочивать их или удалять из нее.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="276e9-110"><para>Read/write. Picture effects are processed as a chain composed of individual items which are applied in sequence to create the final composited image. An effects chain enables an effect to be added to the chain, reordered, or removed from the chain.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -277,25 +203,11 @@
         <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0ad74-111">Получает тип влияние рисунков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-111">Gets the type of picture effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="276e9-111">Получает тип рисунка.</span><span class="sxs-lookup"><span data-stu-id="276e9-111">Gets the type of picture effect.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0ad74-112">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-112">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="276e9-112"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="276e9-112"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -324,25 +236,11 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0ad74-113">Получает или задает логическое значение, представляющее видимое состояние влияние рисунков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-113">Gets or sets a Boolean value representing the visible state of the picture effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="276e9-113">Получает или задает логическое значение, представляющее видимое состояние видеоизображения.</span><span class="sxs-lookup"><span data-stu-id="276e9-113">Gets or sets a Boolean value representing the visible state of the picture effect.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0ad74-114">
-            <para>Чтение и запись.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0ad74-114">
-              <para>Read/write.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="276e9-114"><para>Чтение и запись.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="276e9-114"><para>Read/write.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

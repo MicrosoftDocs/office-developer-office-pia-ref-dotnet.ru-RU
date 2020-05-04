@@ -1,13 +1,5 @@
 <Type Name="MsoButtonStyle" FullName="Microsoft.Office.Core.MsoButtonStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="565094836a6e2a1983d41157f41d5e9e65f37199" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662542" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoButtonStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="565094836a6e2a1983d41157f41d5e9e65f37199" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662542" /></Metadata><TypeSignature Language="C#" Value="public enum MsoButtonStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoButtonStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoButtonStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoButtonStyle" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="290d5-101">Определяет стиль кнопки панели команд.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="290d5-101">Specifies the style of a command bar button.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="b2e8f-101">Задает стиль кнопки панели команд.</span><span class="sxs-lookup"><span data-stu-id="b2e8f-101">Specifies the style of a command bar button.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="290d5-102">Поведение по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="290d5-102">Default behavior.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b2e8f-102">Поведение по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="b2e8f-102">Default behavior.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoButtonCaption">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="290d5-103">Текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="290d5-103">Text only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b2e8f-103">Только текст.</span><span class="sxs-lookup"><span data-stu-id="b2e8f-103">Text only.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoButtonIcon">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="290d5-104">Изображение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="290d5-104">Image only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b2e8f-104">Только изображение.</span><span class="sxs-lookup"><span data-stu-id="b2e8f-104">Image only.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoButtonIconAndCaption">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="290d5-105">Изображения и текст с текстом справа от изображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="290d5-105">Image and text, with text to the right of image.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b2e8f-105">Изображение и текст с текстом справа от изображения.</span><span class="sxs-lookup"><span data-stu-id="b2e8f-105">Image and text, with text to the right of image.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoButtonIconAndCaptionBelow">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="290d5-106">Изображение с текстом ниже.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="290d5-106">Image with text below.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b2e8f-106">Изображение с текстом ниже.</span><span class="sxs-lookup"><span data-stu-id="b2e8f-106">Image with text below.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoButtonIconAndWrapCaption">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="290d5-107">Изображение с перенос текста и справа от него.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="290d5-107">Image with text wrapped and to the right of the image.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b2e8f-107">Изображение с перетеканием текста и справа от изображения.</span><span class="sxs-lookup"><span data-stu-id="b2e8f-107">Image with text wrapped and to the right of the image.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoButtonIconAndWrapCaptionBelow">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="290d5-108">Изображение с текстом в оболочку под изображением.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="290d5-108">Image with text wrapped below image.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b2e8f-108">Изображение с текстом, обтекаемым под изображением.</span><span class="sxs-lookup"><span data-stu-id="b2e8f-108">Image with text wrapped below image.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoButtonWrapCaption">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="290d5-109">Текст, только по центру и переносятся.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="290d5-109">Text only, centered and wrapped.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b2e8f-109">Только текст, центрированный и упакованный.</span><span class="sxs-lookup"><span data-stu-id="b2e8f-109">Text only, centered and wrapped.</span></span></summary>
       </Docs>
     </Member>
   </Members>

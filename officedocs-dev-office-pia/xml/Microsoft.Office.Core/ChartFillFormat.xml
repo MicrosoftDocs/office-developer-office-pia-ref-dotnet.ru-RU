@@ -1,13 +1,5 @@
 <Type Name="ChartFillFormat" FullName="Microsoft.Office.Core.ChartFillFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ad17fe9c58844222d4104928f8ff92c37a542796" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662583" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ChartFillFormat" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ad17fe9c58844222d4104928f8ff92c37a542796" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662583" /></Metadata><TypeSignature Language="C#" Value="public interface ChartFillFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartFillFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ChartFillFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ChartFillFormat" />
@@ -26,28 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="358c6-101">Использовать только с диаграммы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="358c6-101">Used only with charts.</span>
-      </span>
-      <span data-ttu-id="358c6-102">Представляет заполнения форматирования для элементов диаграмм.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="358c6-102">Represents fill formatting for chart elements.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="358c6-103">
-        <para>Использование <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> свойство для возвращения <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> объекта.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="358c6-103">
-          <para>Use the <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> property to return a <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="55b59-101">Используется только с диаграммами.</span><span class="sxs-lookup"><span data-stu-id="55b59-101">Used only with charts.</span></span> <span data-ttu-id="55b59-102">Представляет форматирование заливки для элементов диаграммы.</span><span class="sxs-lookup"><span data-stu-id="55b59-102">Represents fill formatting for chart elements.</span></span></summary>
+    <remarks><span data-ttu-id="55b59-103"><para>Используйте <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> свойство, чтобы возвратить <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> объект.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="55b59-103"><para>Use the <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> property to return a <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> object.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -73,22 +47,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-104">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-104">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="358c6-105">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-105">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="55b59-104">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="55b59-104">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
+        <value><span data-ttu-id="55b59-105"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="55b59-105"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -115,15 +75,8 @@
         <ReturnType>Microsoft.Office.Core.ChartColorFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-106">Возвращает или устанавливает фоновый цвет заливки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-106">Returns or sets the fill background color.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
-        </value>
+        <summary><span data-ttu-id="55b59-106">Возвращает или задает цвет фона заливки.</span><span class="sxs-lookup"><span data-stu-id="55b59-106">Returns or sets the fill background color.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.ChartColorFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -150,26 +103,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-107">Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-107">Returns a 32-bit integer that indicates the application in which this object was created.</span>
-          </span>
-          <span data-ttu-id="358c6-108">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-108">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="358c6-109">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-109">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="55b59-107">Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан.</span><span class="sxs-lookup"><span data-stu-id="55b59-107">Returns a 32-bit integer that indicates the application in which this object was created.</span></span> <span data-ttu-id="55b59-108">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="55b59-108">Read-only.</span></span></summary>
+        <value><span data-ttu-id="55b59-109"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="55b59-109"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -196,15 +131,8 @@
         <ReturnType>Microsoft.Office.Core.ChartColorFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-110">Возвращает или задает заливки переднего плана или цвета фона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-110">Returns or sets the foreground fill or solid color.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
-        </value>
+        <summary><span data-ttu-id="55b59-110">Возвращает или задает заливку текста или сплошной цвет.</span><span class="sxs-lookup"><span data-stu-id="55b59-110">Returns or sets the foreground fill or solid color.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.ChartColorFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -231,33 +159,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-111">Возвращает тип градиента для указанного заливки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-111">Returns the gradient color type for the specified fill.</span>
-          </span>
-          <span data-ttu-id="358c6-112">Только для чтения</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-112">Read-only</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoGradientColorType" />
-        </value>
-        <remarks>
-          <span data-ttu-id="358c6-113">
-            <para>
-              <see cref="T:Microsoft.Office.Core.MsoGradientColorType" />— Это значение, возвращаемое только что указывает сочетание другие состояния в указанном диапазоне. Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" />, <see cref="P:Microsoft.Office.Core.ChartFillFormat.PresetGradientType" />, или <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> метод, чтобы задать тип градиента для заполнения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-113">
-              <para>
-                <see cref="T:Microsoft.Office.Core.MsoGradientColorType" /> is a return value only which indicates a combination of the other states in the specified range. Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" />, <see cref="P:Microsoft.Office.Core.ChartFillFormat.PresetGradientType" />, or <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> method to set the gradient type for the fill.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="55b59-111">Возвращает тип цвета градиента для заданной заливки.</span><span class="sxs-lookup"><span data-stu-id="55b59-111">Returns the gradient color type for the specified fill.</span></span> <span data-ttu-id="55b59-112">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="55b59-112">Read-only</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoGradientColorType" /></value>
+        <remarks><span data-ttu-id="55b59-113"><para>
+            <see cref="T:Microsoft.Office.Core.MsoGradientColorType" />— Это возвращаемое значение, которое указывает комбинацию других состояний в указанном диапазоне. Используйте метод <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" />, <see cref="P:Microsoft.Office.Core.ChartFillFormat.PresetGradientType" />или <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> , чтобы задать тип градиента для заливки.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="55b59-113"><para>
+            <see cref="T:Microsoft.Office.Core.MsoGradientColorType" /> is a return value only which indicates a combination of the other states in the specified range. Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" />, <see cref="P:Microsoft.Office.Core.ChartFillFormat.PresetGradientType" />, or <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> method to set the gradient type for the fill.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GradientDegree">
@@ -283,38 +191,11 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-114">Возвращает градиента степень указанного один цвет заливки затемненные как значение с плавающей запятой от 0,0 (темный) до 1.0 (недоступно).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-114">Returns the gradient degree of the specified one-color shaded fill as a floating-point value from 0.0 (dark) through 1.0 (light).</span>
-          </span>
-          <span data-ttu-id="358c6-115">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-115">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="358c6-116">
-            <b>Single</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-116">
-              <b>Single</b>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="358c6-117">
-            <para>Это свойство доступно только для чтения. Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> метод установка градиента степени для заполнения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-117">
-              <para>This property is read-only. Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> method to set the gradient degree for the fill.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="55b59-114">Возвращает степень градиента указанного одноцветного затененного заливки в виде значения с плавающей запятой от 0,0 (темное) до 1,0 (Light).</span><span class="sxs-lookup"><span data-stu-id="55b59-114">Returns the gradient degree of the specified one-color shaded fill as a floating-point value from 0.0 (dark) through 1.0 (light).</span></span> <span data-ttu-id="55b59-115">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="55b59-115">Read-only.</span></span></summary>
+        <value><span data-ttu-id="55b59-116"><b>Одинарное с плавающей точкой</b></span><span class="sxs-lookup"><span data-stu-id="55b59-116"><b>Single</b></span></span></value>
+        <remarks><span data-ttu-id="55b59-117"><para>Это свойство доступно только для чтения. Используйте <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> метод, чтобы задать степень градиента для заливки.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="55b59-117"><para>This property is read-only. Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> method to set the gradient degree for the fill.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GradientStyle">
@@ -340,19 +221,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-118">Возвращает тип градиента для указанного заполнения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-118">Returns the gradient style for the specified fill.</span>
-          </span>
-          <span data-ttu-id="358c6-119">Только для чтения</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-119">Read-only</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />
-        </value>
+        <summary><span data-ttu-id="55b59-118">Возвращает стиль градиента для заданной заливки.</span><span class="sxs-lookup"><span data-stu-id="55b59-118">Returns the gradient style for the specified fill.</span></span> <span data-ttu-id="55b59-119">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="55b59-119">Read-only</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoGradientStyle" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -379,42 +249,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-120">Возвращает variant тень для указанного заливки как целое число от 1 до 4.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-120">Returns the shade variant for the specified fill as an integer value from 1 through 4.</span>
-          </span>
-          <span data-ttu-id="358c6-121">Значения для этого свойства соответствуют градиента вариантов (нумерованные слева направо и сверху вниз) на вкладке градиентной заливки диалоговое окно "".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-121">The values for this property correspond to the gradient variants (numbered from left to right and from top to bottom) on the Gradient tab in the Fill Effects dialog box.</span>
-          </span>
-          <span data-ttu-id="358c6-122">Только для чтения</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-122">Read-only</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="358c6-123">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-123">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="358c6-124">
-            <para>Это свойство доступно только для чтения. Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> или <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> метод, чтобы задать градиента variant для заполнения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-124">
-              <para>This property is read-only. Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> or <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> method to set the gradient variant for the fill.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="55b59-120">Возвращает вариант тени для указанного заполнения в виде целого значения от 1 до 4.</span><span class="sxs-lookup"><span data-stu-id="55b59-120">Returns the shade variant for the specified fill as an integer value from 1 through 4.</span></span> <span data-ttu-id="55b59-121">Значения этого свойства соответствуют вариантам градиента (пронумерованы слева направо и сверху вниз) на вкладке градиент в диалоговом окне "способы заливки".</span><span class="sxs-lookup"><span data-stu-id="55b59-121">The values for this property correspond to the gradient variants (numbered from left to right and from top to bottom) on the Gradient tab in the Fill Effects dialog box.</span></span> <span data-ttu-id="55b59-122">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="55b59-122">Read-only</span></span></summary>
+        <value><span data-ttu-id="55b59-123"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="55b59-123"><b>Integer</b></span></span></value>
+        <remarks><span data-ttu-id="55b59-124"><para>Это свойство доступно только для чтения. Используйте метод <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> or <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> , чтобы задать вариант градиента для заливки.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="55b59-124"><para>This property is read-only. Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> or <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> method to set the gradient variant for the fill.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="OneColorGradient">
@@ -442,54 +281,10 @@
         <Parameter Name="Degree" Type="System.Single" />
       </Parameters>
       <Docs>
-        <param name="Style">
-          <span data-ttu-id="358c6-125">Требуется <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-125">Required <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span>
-          </span>
-          <span data-ttu-id="358c6-126">Стиль градиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-126">The gradient style.</span>
-          </span>
-        </param>
-        <param name="Variant">
-          <span data-ttu-id="358c6-127">Требуется <b>целое число</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-127">Required <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="358c6-128">Градиентный variant.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-128">The gradient variant.</span>
-          </span>
-          <span data-ttu-id="358c6-129">Может быть в диапазоне от 1 до 4, соответствующее одному из четырех вариантов на вкладке градиентной заливки диалоговое окно "".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-129">Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box.</span>
-          </span>
-          <span data-ttu-id="358c6-130">Если <paramref name="Style" /> — это <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, <paramref name="Variant" /> аргумент может быть только 1 или 2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-130">If <paramref name="Style" /> is <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, the <paramref name="Variant" /> argument can only be 1 or 2.</span>
-          </span>
-        </param>
-        <param name="Degree">
-          <span data-ttu-id="358c6-131">Требуется <b>один</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-131">Required <b>Single</b>.</span>
-          </span>
-          <span data-ttu-id="358c6-132">Определяет, насколько градиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-132">The gradient degree.</span>
-          </span>
-          <span data-ttu-id="358c6-133">Может быть в диапазоне от 0,0 (темный) до 1.0 (недоступно).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-133">Can be a value from 0.0 (dark) through 1.0 (light).</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="358c6-134">Устанавливает указанный заливки градиентной один цвет.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-134">Sets the specified fill to a one-color gradient.</span>
-          </span>
-        </summary>
+        <param name="Style"><span data-ttu-id="55b59-125">Обязательный <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span><span class="sxs-lookup"><span data-stu-id="55b59-125">Required <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span></span> <span data-ttu-id="55b59-126">Стиль градиента.</span><span class="sxs-lookup"><span data-stu-id="55b59-126">The gradient style.</span></span></param>
+        <param name="Variant"><span data-ttu-id="55b59-127">Обязательный атрибут типа <b>Integer</b>.</span><span class="sxs-lookup"><span data-stu-id="55b59-127">Required <b>Integer</b>.</span></span> <span data-ttu-id="55b59-128">Вариант градиента.</span><span class="sxs-lookup"><span data-stu-id="55b59-128">The gradient variant.</span></span> <span data-ttu-id="55b59-129">Может принимать значения от 1 до 4, соответствующие одному из четырех вариантов на вкладке градиент в диалоговом окне "способы заливки".</span><span class="sxs-lookup"><span data-stu-id="55b59-129">Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box.</span></span> <span data-ttu-id="55b59-130">Если <paramref name="Style" /> параметр <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />имеет значение <paramref name="Variant" /> , аргумент может иметь только значение 1 или 2.</span><span class="sxs-lookup"><span data-stu-id="55b59-130">If <paramref name="Style" /> is <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, the <paramref name="Variant" /> argument can only be 1 or 2.</span></span></param>
+        <param name="Degree"><span data-ttu-id="55b59-131">Обязательное <b>одно</b>.</span><span class="sxs-lookup"><span data-stu-id="55b59-131">Required <b>Single</b>.</span></span> <span data-ttu-id="55b59-132">Степень градиента.</span><span class="sxs-lookup"><span data-stu-id="55b59-132">The gradient degree.</span></span> <span data-ttu-id="55b59-133">Может принимать значение от 0,0 (темная) до 1,0 (светло).</span><span class="sxs-lookup"><span data-stu-id="55b59-133">Can be a value from 0.0 (dark) through 1.0 (light).</span></span></param>
+        <summary><span data-ttu-id="55b59-134">Задает Одноцветный градиент для указанной заливки.</span><span class="sxs-lookup"><span data-stu-id="55b59-134">Sets the specified fill to a one-color gradient.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -516,26 +311,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-135">Возвращает родительский объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-135">Returns the parent object for the specified object.</span>
-          </span>
-          <span data-ttu-id="358c6-136">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-136">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="358c6-137">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-137">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="55b59-135">Возвращает родительский объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="55b59-135">Returns the parent object for the specified object.</span></span> <span data-ttu-id="55b59-136">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="55b59-136">Read-only.</span></span></summary>
+        <value><span data-ttu-id="55b59-137"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="55b59-137"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -562,15 +339,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-138">Возвращает или задает шаблон заполнения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-138">Returns or sets the fill pattern.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoPatternType" />
-        </value>
+        <summary><span data-ttu-id="55b59-138">Возвращает или задает шаблон заливки.</span><span class="sxs-lookup"><span data-stu-id="55b59-138">Returns or sets the fill pattern.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoPatternType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -597,22 +367,8 @@
         <Parameter Name="Pattern" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Pattern">
-          <span data-ttu-id="358c6-139">Требуется <see cref="T:Microsoft.Office.Core.MsoPatternType" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-139">Required <see cref="T:Microsoft.Office.Core.MsoPatternType" />.</span>
-          </span>
-          <span data-ttu-id="358c6-140">Тип шаблона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-140">The type of pattern.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="358c6-141">Устанавливает указанный заливки с шаблоном.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-141">Sets the specified fill to a pattern.</span>
-          </span>
-        </summary>
+        <param name="Pattern"><span data-ttu-id="55b59-139">Обязательный <see cref="T:Microsoft.Office.Core.MsoPatternType" />.</span><span class="sxs-lookup"><span data-stu-id="55b59-139">Required <see cref="T:Microsoft.Office.Core.MsoPatternType" />.</span></span> <span data-ttu-id="55b59-140">Тип шаблона.</span><span class="sxs-lookup"><span data-stu-id="55b59-140">The type of pattern.</span></span></param>
+        <summary><span data-ttu-id="55b59-141">Задает заданный узор заливки.</span><span class="sxs-lookup"><span data-stu-id="55b59-141">Sets the specified fill to a pattern.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -641,41 +397,10 @@
         <Parameter Name="PresetGradientType" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Style">
-          <span data-ttu-id="358c6-142">Требуется <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-142">Required <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span>
-          </span>
-          <span data-ttu-id="358c6-143">Стиль градиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-143">The gradient style.</span>
-          </span>
-        </param>
-        <param name="Variant">
-          <span data-ttu-id="358c6-144">Требуется <b>целое число</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-144">Required <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="358c6-145">Градиентный variant.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-145">The gradient variant.</span>
-          </span>
-          <span data-ttu-id="358c6-146">Может быть в диапазоне от 1 до 4, соответствующее одному из четырех вариантов на вкладке градиентной заливки диалоговое окно "".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-146">Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box.</span>
-          </span>
-          <span data-ttu-id="358c6-147">Если <paramref name="Style" /> — это <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, <paramref name="Variant" /> аргумент может быть только 1 или 2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-147">If <paramref name="Style" /> is <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, the <paramref name="Variant" /> argument can only be 1 or 2.</span>
-          </span>
-        </param>
+        <param name="Style"><span data-ttu-id="55b59-142">Обязательный <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span><span class="sxs-lookup"><span data-stu-id="55b59-142">Required <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span></span> <span data-ttu-id="55b59-143">Стиль градиента.</span><span class="sxs-lookup"><span data-stu-id="55b59-143">The gradient style.</span></span></param>
+        <param name="Variant"><span data-ttu-id="55b59-144">Обязательный атрибут типа <b>Integer</b>.</span><span class="sxs-lookup"><span data-stu-id="55b59-144">Required <b>Integer</b>.</span></span> <span data-ttu-id="55b59-145">Вариант градиента.</span><span class="sxs-lookup"><span data-stu-id="55b59-145">The gradient variant.</span></span> <span data-ttu-id="55b59-146">Может принимать значения от 1 до 4, соответствующие одному из четырех вариантов на вкладке градиент в диалоговом окне "способы заливки".</span><span class="sxs-lookup"><span data-stu-id="55b59-146">Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box.</span></span> <span data-ttu-id="55b59-147">Если <paramref name="Style" /> параметр <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />имеет значение <paramref name="Variant" /> , аргумент может иметь только значение 1 или 2.</span><span class="sxs-lookup"><span data-stu-id="55b59-147">If <paramref name="Style" /> is <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, the <paramref name="Variant" /> argument can only be 1 or 2.</span></span></param>
         <param name="PresetGradientType">To be added.</param>
-        <summary>
-          <span data-ttu-id="358c6-148">Устанавливает указанный заливки предварительно заданного градиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-148">Sets the specified fill to a preset gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="55b59-148">Задает заданное заполнение заранее заданным градиентом.</span><span class="sxs-lookup"><span data-stu-id="55b59-148">Sets the specified fill to a preset gradient.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -702,31 +427,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-149">Возвращает тип предварительно градиента для указанного заполнения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-149">Returns the preset gradient type for the specified fill.</span>
-          </span>
-          <span data-ttu-id="358c6-150">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-150">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoPresetGradientType" />
-        </value>
-        <remarks>
-          <span data-ttu-id="358c6-151">
-            <para>Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetGradient(System.Int32,System.Int32,System.Int32)" /> метод, чтобы задать тип предварительно градиента для заполнения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-151">
-              <para>Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetGradient(System.Int32,System.Int32,System.Int32)" /> method to set the preset gradient type for the fill.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="55b59-149">Возвращает предварительно заданный тип градиента для заданной заливки.</span><span class="sxs-lookup"><span data-stu-id="55b59-149">Returns the preset gradient type for the specified fill.</span></span> <span data-ttu-id="55b59-150">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="55b59-150">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoPresetGradientType" /></value>
+        <remarks><span data-ttu-id="55b59-151"><para>Используйте <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetGradient(System.Int32,System.Int32,System.Int32)" /> метод, чтобы задать предустановленный тип градиента для заливки.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="55b59-151"><para>Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetGradient(System.Int32,System.Int32,System.Int32)" /> method to set the preset gradient type for the fill.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="PresetTexture">
@@ -752,31 +457,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-152">Возвращает предварительно текстуры для указанного заполнения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-152">Returns the preset texture for the specified fill.</span>
-          </span>
-          <span data-ttu-id="358c6-153">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-153">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoPresetTexture" />
-        </value>
-        <remarks>
-          <span data-ttu-id="358c6-154">
-            <para>Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetTextured(System.Int32)" /> метод для задания стиля текстуры для заполнения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-154">
-              <para>Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetTextured(System.Int32)" /> method to set the preset texture for the fill.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="55b59-152">Возвращает подготовленную текстуру для указанной заливки.</span><span class="sxs-lookup"><span data-stu-id="55b59-152">Returns the preset texture for the specified fill.</span></span> <span data-ttu-id="55b59-153">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="55b59-153">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoPresetTexture" /></value>
+        <remarks><span data-ttu-id="55b59-154"><para>Используйте <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetTextured(System.Int32)" /> метод для установки заданной текстуры заливки.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="55b59-154"><para>Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetTextured(System.Int32)" /> method to set the preset texture for the fill.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="PresetTextured">
@@ -802,22 +487,8 @@
         <Parameter Name="PresetTexture" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="PresetTexture">
-          <span data-ttu-id="358c6-155">Требуется <see cref="T:Microsoft.Office.Core.MsoPresetTexture" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-155">Required <see cref="T:Microsoft.Office.Core.MsoPresetTexture" />.</span>
-          </span>
-          <span data-ttu-id="358c6-156">Тип текстуры вступили в силу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-156">The type of texture to apply.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="358c6-157">Задает формат указанного заливки предварительно текстуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-157">Sets the specified fill format to a preset texture.</span>
-          </span>
-        </summary>
+        <param name="PresetTexture"><span data-ttu-id="55b59-155">Обязательный <see cref="T:Microsoft.Office.Core.MsoPresetTexture" />.</span><span class="sxs-lookup"><span data-stu-id="55b59-155">Required <see cref="T:Microsoft.Office.Core.MsoPresetTexture" />.</span></span> <span data-ttu-id="55b59-156">Тип применяемой текстуры.</span><span class="sxs-lookup"><span data-stu-id="55b59-156">The type of texture to apply.</span></span></param>
+        <summary><span data-ttu-id="55b59-157">Устанавливает заданный формат заливки в предустановленную текстуру.</span><span class="sxs-lookup"><span data-stu-id="55b59-157">Sets the specified fill format to a preset texture.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -842,16 +513,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-158">Устанавливает указанный заливки единый цвет.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-158">Sets the specified fill to a uniform color.</span>
-          </span>
-          <span data-ttu-id="358c6-159">Используйте этот метод для преобразования градиент, текстурой, узором или фона заливки обратно в сплошной заливке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-159">Use this method to convert a gradient, textured, patterned, or background fill back to a solid fill.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="55b59-158">Задает для заданной заливки одинаковый цвет.</span><span class="sxs-lookup"><span data-stu-id="55b59-158">Sets the specified fill to a uniform color.</span></span> <span data-ttu-id="55b59-159">Используйте этот метод, чтобы преобразовать градиентную, текстурную, узорную или фоновую заливку обратно к сплошной заливки.</span><span class="sxs-lookup"><span data-stu-id="55b59-159">Use this method to convert a gradient, textured, patterned, or background fill back to a solid fill.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -878,38 +540,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-160">Возвращает имя файла текстуры для указанного заполнения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-160">Returns the name of the custom texture file for the specified fill.</span>
-          </span>
-          <span data-ttu-id="358c6-161">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-161">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="358c6-162">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-162">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="358c6-163">
-            <para>Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> или <see cref="M:Microsoft.Office.Core.FillFormat.UserTextured(System.String)" /> метод, чтобы задать файл текстуры для заполнения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-163">
-              <para>Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Core.FillFormat.UserTextured(System.String)" /> method to set the texture file for the fill.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="55b59-160">Возвращает имя настраиваемого файла текстуры для заданной заливки.</span><span class="sxs-lookup"><span data-stu-id="55b59-160">Returns the name of the custom texture file for the specified fill.</span></span> <span data-ttu-id="55b59-161">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="55b59-161">Read-only.</span></span></summary>
+        <value><span data-ttu-id="55b59-162"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="55b59-162"><b>String</b></span></span></value>
+        <remarks><span data-ttu-id="55b59-163"><para>Используйте метод <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> или <see cref="M:Microsoft.Office.Core.FillFormat.UserTextured(System.String)" /> для задания файла текстуры для заполнения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="55b59-163"><para>Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Core.FillFormat.UserTextured(System.String)" /> method to set the texture file for the fill.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextureType">
@@ -935,31 +570,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-164">Возвращает тип текстуры для указанного заливки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-164">Returns the texture type for the specified fill.</span>
-          </span>
-          <span data-ttu-id="358c6-165">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-165">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTextureType" />
-        </value>
-        <remarks>
-          <span data-ttu-id="358c6-166">
-            <para>Использование <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserTextured(System.String)" /> метод для задания типа текстуры для заполнения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-166">
-              <para>Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserTextured(System.String)" /> method to set the texture type for the fill.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="55b59-164">Возвращает тип текстуры для заданной заливки.</span><span class="sxs-lookup"><span data-stu-id="55b59-164">Returns the texture type for the specified fill.</span></span> <span data-ttu-id="55b59-165">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="55b59-165">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTextureType" /></value>
+        <remarks><span data-ttu-id="55b59-166"><para>Используйте <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserTextured(System.String)" /> метод, чтобы задать тип текстуры для заливки.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="55b59-166"><para>Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserTextured(System.String)" /> method to set the texture type for the fill.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="TwoColorGradient">
@@ -986,40 +601,9 @@
         <Parameter Name="Variant" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Style">
-          <span data-ttu-id="358c6-167">Требуется <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-167">Required <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span>
-          </span>
-          <span data-ttu-id="358c6-168">Стиль градиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-168">The gradient style.</span>
-          </span>
-        </param>
-        <param name="Variant">
-          <span data-ttu-id="358c6-169">Требуется <b>целое число</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-169">Required <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="358c6-170">Градиентный variant.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-170">The gradient variant.</span>
-          </span>
-          <span data-ttu-id="358c6-171">Может быть в диапазоне от 1 до 4, соответствующее одному из четырех вариантов на вкладке градиентной заливки диалоговое окно "".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-171">Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box.</span>
-          </span>
-          <span data-ttu-id="358c6-172">Если <paramref name="Style" /> — это <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, <paramref name="Variant" /> аргумент может быть только 1 или 2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-172">If <paramref name="Style" /> is <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, the <paramref name="Variant" /> argument can only be 1 or 2.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="358c6-173">Устанавливает указанный заливки градиентом двух цветов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-173">Sets the specified fill to a two-color gradient.</span>
-          </span>
-        </summary>
+        <param name="Style"><span data-ttu-id="55b59-167">Обязательный <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span><span class="sxs-lookup"><span data-stu-id="55b59-167">Required <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span></span> <span data-ttu-id="55b59-168">Стиль градиента.</span><span class="sxs-lookup"><span data-stu-id="55b59-168">The gradient style.</span></span></param>
+        <param name="Variant"><span data-ttu-id="55b59-169">Обязательный атрибут типа <b>Integer</b>.</span><span class="sxs-lookup"><span data-stu-id="55b59-169">Required <b>Integer</b>.</span></span> <span data-ttu-id="55b59-170">Вариант градиента.</span><span class="sxs-lookup"><span data-stu-id="55b59-170">The gradient variant.</span></span> <span data-ttu-id="55b59-171">Может принимать значения от 1 до 4, соответствующие одному из четырех вариантов на вкладке градиент в диалоговом окне "способы заливки".</span><span class="sxs-lookup"><span data-stu-id="55b59-171">Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box.</span></span> <span data-ttu-id="55b59-172">Если <paramref name="Style" /> параметр <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />имеет значение <paramref name="Variant" /> , аргумент может иметь только значение 1 или 2.</span><span class="sxs-lookup"><span data-stu-id="55b59-172">If <paramref name="Style" /> is <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, the <paramref name="Variant" /> argument can only be 1 or 2.</span></span></param>
+        <summary><span data-ttu-id="55b59-173">Задает для указанного заполнения градиент в два цвета.</span><span class="sxs-lookup"><span data-stu-id="55b59-173">Sets the specified fill to a two-color gradient.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1046,27 +630,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-174">Возвращает тип заливки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-174">Returns the fill type.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoFillType" />
-        </value>
-        <remarks>
-          <span data-ttu-id="358c6-175">
-            <para>Это свойство может также возвращать <see cref="F:Microsoft.Office.Core.XlConstants.xlAutomatic" /> или <see cref="F:Microsoft.Office.Core.XlConstants.xlNone" />.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-175">
-              <para>This property can also return <see cref="F:Microsoft.Office.Core.XlConstants.xlAutomatic" /> or <see cref="F:Microsoft.Office.Core.XlConstants.xlNone" />. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="55b59-174">Возвращает тип заливки.</span><span class="sxs-lookup"><span data-stu-id="55b59-174">Returns the fill type.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoFillType" /></value>
+        <remarks><span data-ttu-id="55b59-175"><para>Это свойство также может <see cref="F:Microsoft.Office.Core.XlConstants.xlAutomatic" /> возвращать <see cref="F:Microsoft.Office.Core.XlConstants.xlNone" />или.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="55b59-175"><para>This property can also return <see cref="F:Microsoft.Office.Core.XlConstants.xlAutomatic" /> or <see cref="F:Microsoft.Office.Core.XlConstants.xlNone" />. </para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="UserPicture">
@@ -1095,53 +663,11 @@
         <Parameter Name="PicturePlacement" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="PictureFile">
-          <span data-ttu-id="358c6-176">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-176">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="358c6-177">Имя файла изображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-177">The filename of the image.</span>
-          </span>
-        </param>
-        <param name="PictureFormat">
-          <span data-ttu-id="358c6-178">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-178">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="358c6-179">
-            <see cref="T:Microsoft.Office.Core.XlChartPictureType" /> Значение, указывающее формат рисунка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-179">An <see cref="T:Microsoft.Office.Core.XlChartPictureType" /> value that indicates the format of the picture.</span>
-          </span>
-        </param>
-        <param name="PictureStackUnit">
-          <span data-ttu-id="358c6-180">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-180">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="358c6-181">Значение <b>типа Double</b> , задающее единицы стека или масштаб изображения (зависит от <paramref name="PictureFormat" /> аргумент).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-181">A <b>Double</b> value that specifies the picture stack or scale unit (depends on the <paramref name="PictureFormat" /> argument).</span>
-          </span>
-        </param>
-        <param name="PicturePlacement">
-          <span data-ttu-id="358c6-182">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-182">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="358c6-183">Значение <b>XlChartPicturePlacement</b> , указывающее положение изображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-183">An <b>XlChartPicturePlacement</b> value that indicates the placement of the picture.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="358c6-184">Заливка указанной фигуры с изображением.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-184">Fills the specified shape with an image.</span>
-          </span>
-        </summary>
+        <param name="PictureFile"><span data-ttu-id="55b59-176">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="55b59-176">Optional <b>Object</b>.</span></span> <span data-ttu-id="55b59-177">Имя файла изображения.</span><span class="sxs-lookup"><span data-stu-id="55b59-177">The filename of the image.</span></span></param>
+        <param name="PictureFormat"><span data-ttu-id="55b59-178">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="55b59-178">Optional <b>Object</b>.</span></span> <span data-ttu-id="55b59-179"><see cref="T:Microsoft.Office.Core.XlChartPictureType" /> Значение, указывающее формат изображения.</span><span class="sxs-lookup"><span data-stu-id="55b59-179">An <see cref="T:Microsoft.Office.Core.XlChartPictureType" /> value that indicates the format of the picture.</span></span></param>
+        <param name="PictureStackUnit"><span data-ttu-id="55b59-180">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="55b59-180">Optional <b>Object</b>.</span></span> <span data-ttu-id="55b59-181">Значение <b>типа Double</b> , задающее стек изображений или единицу измерения (зависит от <paramref name="PictureFormat" /> аргумента).</span><span class="sxs-lookup"><span data-stu-id="55b59-181">A <b>Double</b> value that specifies the picture stack or scale unit (depends on the <paramref name="PictureFormat" /> argument).</span></span></param>
+        <param name="PicturePlacement"><span data-ttu-id="55b59-182">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="55b59-182">Optional <b>Object</b>.</span></span> <span data-ttu-id="55b59-183">Значение <b>кслчартпиктуреплацемент</b> , указывающее расположение изображения.</span><span class="sxs-lookup"><span data-stu-id="55b59-183">An <b>XlChartPicturePlacement</b> value that indicates the placement of the picture.</span></span></param>
+        <summary><span data-ttu-id="55b59-184">Заполняет указанную фигуру изображением.</span><span class="sxs-lookup"><span data-stu-id="55b59-184">Fills the specified shape with an image.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1168,28 +694,8 @@
         <Parameter Name="TextureFile" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="TextureFile">
-          <span data-ttu-id="358c6-185">
-            <b>Строковое значение.</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-185">Required <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="358c6-186">Имя файла изображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-186">The name of the picture file.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="358c6-187">Заполняет указанный фигуры малых заголовков изображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-187">Fills the specified shape with small tiles of an image.</span>
-          </span>
-          <span data-ttu-id="358c6-188">Если необходимо заполнить форму одно большое изображение, используйте <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> метод.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-188">If you want to fill the shape with one large image, use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> method.</span>
-          </span>
-        </summary>
+        <param name="TextureFile"><span data-ttu-id="55b59-185">Обязательный атрибут типа <b>String</b>.</span><span class="sxs-lookup"><span data-stu-id="55b59-185">Required <b>String</b>.</span></span> <span data-ttu-id="55b59-186">Имя файла изображения.</span><span class="sxs-lookup"><span data-stu-id="55b59-186">The name of the picture file.</span></span></param>
+        <summary><span data-ttu-id="55b59-187">Заполняет указанную фигуру мелкими костями изображения.</span><span class="sxs-lookup"><span data-stu-id="55b59-187">Fills the specified shape with small tiles of an image.</span></span> <span data-ttu-id="55b59-188">Если вы хотите заполнить фигуру одним большим изображением, используйте <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> метод.</span><span class="sxs-lookup"><span data-stu-id="55b59-188">If you want to fill the shape with one large image, use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> method.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1219,19 +725,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="358c6-189">Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoTriState" /> значение, которое определяет, является ли объект видимым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-189">Returns or sets a <see cref="T:Microsoft.Office.Core.MsoTriState" /> value that determines whether the object is visible.</span>
-          </span>
-          <span data-ttu-id="358c6-190">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="358c6-190">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="55b59-189">Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoTriState" /> значение, определяющее, является ли объект видимым.</span><span class="sxs-lookup"><span data-stu-id="55b59-189">Returns or sets a <see cref="T:Microsoft.Office.Core.MsoTriState" /> value that determines whether the object is visible.</span></span> <span data-ttu-id="55b59-190">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="55b59-190">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

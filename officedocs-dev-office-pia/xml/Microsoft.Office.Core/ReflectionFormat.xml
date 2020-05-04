@@ -1,13 +1,5 @@
 <Type Name="ReflectionFormat" FullName="Microsoft.Office.Core.ReflectionFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="764ab39be8394d9688fd195b22f374c725b35257" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661671" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ReflectionFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="764ab39be8394d9688fd195b22f374c725b35257" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661671" /></Metadata><TypeSignature Language="C#" Value="public interface ReflectionFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ReflectionFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ReflectionFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ReflectionFormat&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="e6e93-101">Представляет эффект отражения в Office графики.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e6e93-101">Represents the reflection effect in Office graphics.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="182b7-101">Представляет эффекты отражения в графиках Office.</span><span class="sxs-lookup"><span data-stu-id="182b7-101">Represents the reflection effect in Office graphics.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -65,26 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6e93-102">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> object.</span>
-          </span>
-          <span data-ttu-id="e6e93-103">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-103">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="e6e93-104">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-104">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="182b7-102">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="182b7-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> object.</span></span> <span data-ttu-id="182b7-103">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="182b7-103">Read-only.</span></span></summary>
+        <value><span data-ttu-id="182b7-104"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="182b7-104"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -114,25 +83,11 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6e93-105">Получает или задает объем размытия, измеряемую в точках фигуры отражения изображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-105">Gets or sets the amount of blur, measured in points,  of the shape's reflection image.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="182b7-105">Получает или задает величину размытия, измеряемую в пунктах, для изображения отражения фигуры.</span><span class="sxs-lookup"><span data-stu-id="182b7-105">Gets or sets the amount of blur, measured in points,  of the shape's reflection image.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e6e93-106">
-            <para>Чтение и запись.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-106">
-              <para>Read/write.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="182b7-106"><para>Чтение и запись.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="182b7-106"><para>Read/write.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -161,26 +116,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6e93-107">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-107">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> object was created.</span>
-          </span>
-          <span data-ttu-id="e6e93-108">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-108">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="e6e93-109">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-109">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="182b7-107">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="182b7-107">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> object was created.</span></span> <span data-ttu-id="182b7-108">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="182b7-108">Read-only.</span></span></summary>
+        <value><span data-ttu-id="182b7-109"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="182b7-109"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -210,25 +147,11 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6e93-110">Получает или задает объем разделение, измеряемую в точках отражаются изображения из фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-110">Gets or sets the amount of separation, measured in points, of the reflected image from the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="182b7-110">Получает или задает величину расстояния от фигуры к отраженному изображению, измеренному в пунктах.</span><span class="sxs-lookup"><span data-stu-id="182b7-110">Gets or sets the amount of separation, measured in points, of the reflected image from the shape.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e6e93-111">
-            <para>Чтение и запись.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-111">
-              <para>Read/write.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="182b7-111"><para>Чтение и запись.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="182b7-111"><para>Read/write.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -257,25 +180,11 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6e93-112">Получает или задает размер, измеряемая в процентах от фигуры отражения изображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-112">Gets or sets the size, measured in percentages, of the shape's reflection image.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="182b7-112">Получает или задает размер изображения отражения фигуры в процентах.</span><span class="sxs-lookup"><span data-stu-id="182b7-112">Gets or sets the size, measured in percentages, of the shape's reflection image.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e6e93-113">
-            <para>Чтение и запись.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-113">
-              <para>Read/write.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="182b7-113"><para>Чтение и запись.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="182b7-113"><para>Read/write.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Transparency">
@@ -304,25 +213,11 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6e93-114">Получает или задает степень прозрачности, измеряемая в процентах от фигуры отражения изображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-114">Gets or sets the amount of transparency, measured in percentages, of the shape's reflection image.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="182b7-114">Возвращает или задает степень прозрачности изображения отражения фигуры в процентах.</span><span class="sxs-lookup"><span data-stu-id="182b7-114">Gets or sets the amount of transparency, measured in percentages, of the shape's reflection image.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e6e93-115">
-            <para>Чтение и запись.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-115">
-              <para>Read/write.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="182b7-115"><para>Чтение и запись.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="182b7-115"><para>Read/write.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -351,19 +246,8 @@
         <ReturnType>Microsoft.Office.Core.MsoReflectionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6e93-116">Получает или задает тип <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-116">Gets or sets the type of the <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> object.</span>
-          </span>
-          <span data-ttu-id="e6e93-117">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6e93-117">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoReflectionType" />
-        </value>
+        <summary><span data-ttu-id="182b7-116">Получает или задает тип <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="182b7-116">Gets or sets the type of the <see cref="T:Microsoft.Office.Core.ReflectionFormat" /> object.</span></span> <span data-ttu-id="182b7-117">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="182b7-117">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoReflectionType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -1,13 +1,5 @@
 <Type Name="MsoFilterComparison" FullName="Microsoft.Office.Core.MsoFilterComparison">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="634d4beca5f7a2a67a60ac3b558731e084992f23" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662106" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFilterComparison" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="634d4beca5f7a2a67a60ac3b558731e084992f23" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662106" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFilterComparison" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFilterComparison extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFilterComparison" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFilterComparison" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="323b8-101">Указывает способ сравнения свойства <b>столбца</b> и <b>CompareTo</b> для объекта <b>ODSOFilter</b> .</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="323b8-101">Specifies how the <b>Column</b> and <b>CompareTo</b> properties are compared for an <b>ODSOFilter</b> object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="81d5d-101">Указывает способ сравнения свойств <b>Column</b> и <b>CompareTo</b> для объекта <b>ODSOFilter</b> .</span><span class="sxs-lookup"><span data-stu-id="81d5d-101">Specifies how the <b>Column</b> and <b>CompareTo</b> properties are compared for an <b>ODSOFilter</b> object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,14 +32,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="323b8-102">
-            <b>Столбец</b> сопоставляется <b>CompareTo</b> , если любой части строки <b>CompareTo</b> содержится в <b>столбце</b> значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="323b8-102">
-              <b>Column</b> matches <b>CompareTo</b> if any part of the <b>CompareTo</b> string is contained in the <b>Column</b> value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81d5d-102"><b>Столбец</b> соответствует <b>CompareTo</b> , если какая-либо часть строки <b>CompareTo</b> находится в значении <b>столбца</b> .</span><span class="sxs-lookup"><span data-stu-id="81d5d-102"><b>Column</b> matches <b>CompareTo</b> if any part of the <b>CompareTo</b> string is contained in the <b>Column</b> value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonEqual">
@@ -71,14 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="323b8-103">
-            <b>Столбец</b> сопоставляется <b>CompareTo</b> , если значение <b>CompareTo</b> — то же, что значение <b>столбца</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="323b8-103">
-              <b>Column</b> matches <b>CompareTo</b> if the <b>CompareTo</b> value is the same as the <b>Column</b> value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81d5d-103"><b>Столбец</b> соответствует <b>CompareTo</b> , если значение <b>CompareTo</b> совпадает со значением <b>столбца</b> .</span><span class="sxs-lookup"><span data-stu-id="81d5d-103"><b>Column</b> matches <b>CompareTo</b> if the <b>CompareTo</b> value is the same as the <b>Column</b> value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonGreaterThan">
@@ -97,14 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="323b8-104">
-            <b>Столбец</b> сопоставляется <b>CompareTo</b> , если значение <b>столбца</b> больше, чем значение <b>CompareTo</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="323b8-104">
-              <b>Column</b> matches <b>CompareTo</b> if the <b>Column</b> value is greater than the <b>CompareTo</b> value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81d5d-104"><b>Столбец</b> соответствует <b>CompareTo</b> , если значение <b>столбца</b> больше значения параметра <b>CompareTo</b> .</span><span class="sxs-lookup"><span data-stu-id="81d5d-104"><b>Column</b> matches <b>CompareTo</b> if the <b>Column</b> value is greater than the <b>CompareTo</b> value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonGreaterThanEqual">
@@ -123,14 +89,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="323b8-105">
-            <b>Столбец</b> сопоставляется <b>CompareTo</b> , если значение <b>столбца</b> больше или равно значению <b>CompareTo</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="323b8-105">
-              <b>Column</b> matches <b>CompareTo</b> if the <b>Column</b> value is greater than or equal to the <b>CompareTo</b> value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81d5d-105"><b>Столбец</b> соответствует <b>CompareTo</b> , если значение в <b>столбце</b> больше или равно значению <b>CompareTo</b> .</span><span class="sxs-lookup"><span data-stu-id="81d5d-105"><b>Column</b> matches <b>CompareTo</b> if the <b>Column</b> value is greater than or equal to the <b>CompareTo</b> value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonIsBlank">
@@ -149,14 +108,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="323b8-106">
-            <b>Столбец</b> передает фильтра, если <b>столбец</b> является пустым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="323b8-106">
-              <b>Column</b> passes filter if <b>Column</b> is blank.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81d5d-106"><b>Столбец</b> передает фильтр, если <b>столбец</b> пуст.</span><span class="sxs-lookup"><span data-stu-id="81d5d-106"><b>Column</b> passes filter if <b>Column</b> is blank.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonIsNotBlank">
@@ -175,14 +127,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="323b8-107">
-            <b>Столбец</b> передает фильтра, если <b>столбец</b> является пустым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="323b8-107">
-              <b>Column</b> passes filter if <b>Column</b> is blank.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81d5d-107"><b>Столбец</b> передает фильтр, если <b>столбец</b> пуст.</span><span class="sxs-lookup"><span data-stu-id="81d5d-107"><b>Column</b> passes filter if <b>Column</b> is blank.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonLessThan">
@@ -201,14 +146,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="323b8-108">
-            <b>Столбец</b> сопоставляется <b>CompareTo</b> , если значение <b>столбца</b> меньше, чем значение <b>CompareTo</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="323b8-108">
-              <b>Column</b> matches <b>CompareTo</b> if the <b>Column</b> value is less than the <b>CompareTo</b> value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81d5d-108"><b>Столбец</b> соответствует <b>CompareTo</b> , если значение <b>столбца</b> меньше значения свойства <b>CompareTo</b> .</span><span class="sxs-lookup"><span data-stu-id="81d5d-108"><b>Column</b> matches <b>CompareTo</b> if the <b>Column</b> value is less than the <b>CompareTo</b> value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonLessThanEqual">
@@ -227,14 +165,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="323b8-109">
-            <b>Столбец</b> сопоставляется <b>CompareTo</b> , если значение <b>столбца</b> меньше или равно значению <b>CompareTo</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="323b8-109">
-              <b>Column</b> matches <b>CompareTo</b> if the <b>Column</b> value is less than or equal to the <b>CompareTo</b> value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81d5d-109"><b>Столбец</b> соответствует <b>CompareTo</b> , если значение в <b>столбце</b> меньше или равно значению <b>CompareTo</b> .</span><span class="sxs-lookup"><span data-stu-id="81d5d-109"><b>Column</b> matches <b>CompareTo</b> if the <b>Column</b> value is less than or equal to the <b>CompareTo</b> value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonNotContains">
@@ -253,14 +184,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="323b8-110">
-            <b>Столбец</b> сопоставляется <b>CompareTo</b> , если любой части строки <b>CompareTo</b> не содержится в <b>столбце</b> значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="323b8-110">
-              <b>Column</b> matches <b>CompareTo</b> if any part of the <b>CompareTo</b> string is not contained in the <b>Column</b> value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81d5d-110"><b>Столбец</b> соответствует <b>CompareTo</b> , если какая-либо часть строки <b>CompareTo</b> не содержит значение <b>столбца</b> .</span><span class="sxs-lookup"><span data-stu-id="81d5d-110"><b>Column</b> matches <b>CompareTo</b> if any part of the <b>CompareTo</b> string is not contained in the <b>Column</b> value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFilterComparisonNotEqual">
@@ -279,14 +203,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="323b8-111">
-            <b>Столбец</b> сопоставляется <b>CompareTo</b> , если значение <b>CompareTo</b> не равны значениям <b>столбцов</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="323b8-111">
-              <b>Column</b> matches <b>CompareTo</b> if the <b>CompareTo</b> value is not equal to the <b>Column</b> value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81d5d-111"><b>Столбец</b> соответствует <b>CompareTo</b> , если значение <b>CompareTo</b> не равно значению <b>столбца</b> .</span><span class="sxs-lookup"><span data-stu-id="81d5d-111"><b>Column</b> matches <b>CompareTo</b> if the <b>CompareTo</b> value is not equal to the <b>Column</b> value.</span></span></summary>
       </Docs>
     </Member>
   </Members>

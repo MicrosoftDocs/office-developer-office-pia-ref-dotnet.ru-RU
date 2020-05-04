@@ -1,13 +1,5 @@
 <Type Name="MsoEncoding" FullName="Microsoft.Office.Core.MsoEncoding">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f98e84ce01068becd642050beb03bfbb03117fe3" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661946" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoEncoding" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f98e84ce01068becd642050beb03bfbb03117fe3" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661946" /></Metadata><TypeSignature Language="C#" Value="public enum MsoEncoding" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoEncoding extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoEncoding" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoEncoding" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="dec3a-101">Определяет документ, кодировка (кодовая страница или набор знаков) для веб-обозревателя для использования при просмотре сохраненный документ.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="dec3a-101">Specifies the document encoding (code page or character set) for the Web browser to use when a user views a saved document.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="163bc-101">Задает кодировку документа (кодовую страницу или набор знаков) для веб-браузера, который будет использоваться для просмотра сохраненного документа пользователем.</span><span class="sxs-lookup"><span data-stu-id="163bc-101">Specifies the document encoding (code page or character set) for the Web browser to use when a user views a saved document.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1256</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-102">арабский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-102">Arabic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-102">арабский.</span><span class="sxs-lookup"><span data-stu-id="163bc-102">Arabic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingArabicASMO">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>708</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-103">Арабский ASMO.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-103">Arabic ASMO.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-103">Арабский АСМО.</span><span class="sxs-lookup"><span data-stu-id="163bc-103">Arabic ASMO.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingArabicAutoDetect">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>51256</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-104">Веб-браузер автоматически обнаруживает тип кодировка для арабского языка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-104">Web browser auto-detects type of Arabic encoding to use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-104">Веб-браузер автоматически обнаруживает тип используемой Арабской кодировки.</span><span class="sxs-lookup"><span data-stu-id="163bc-104">Web browser auto-detects type of Arabic encoding to use.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingArabicTransparentASMO">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>720</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-105">Прозрачное арабский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-105">Transparent Arabic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-105">Прозрачный арабский язык.</span><span class="sxs-lookup"><span data-stu-id="163bc-105">Transparent Arabic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingAutoDetect">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>50001</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-106">Веб-браузер автоматически обнаруживает тип кодировки следует использовать.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-106">Web browser auto-detects type of encoding to use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-106">Веб-браузер автоматически определяет тип используемой кодировки.</span><span class="sxs-lookup"><span data-stu-id="163bc-106">Web browser auto-detects type of encoding to use.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingBaltic">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>1257</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-107">Балтийская.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-107">Baltic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-107">Балтийский.</span><span class="sxs-lookup"><span data-stu-id="163bc-107">Baltic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingCentralEuropean">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>1250</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-108">Центральноевропейская.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-108">Central European.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-108">Центральноевропейская.</span><span class="sxs-lookup"><span data-stu-id="163bc-108">Central European.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingCyrillic">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>1251</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-109">(Кириллица).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-109">Cyrillic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-109">Кириллицы.</span><span class="sxs-lookup"><span data-stu-id="163bc-109">Cyrillic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingCyrillicAutoDetect">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>51251</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-110">Веб-браузер автоматически обнаруживает тип кириллица кодировки для использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-110">Web browser auto-detects type of Cyrillic encoding to use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-110">Веб-браузер автоматически обнаруживает тип используемой кодировки кириллицы.</span><span class="sxs-lookup"><span data-stu-id="163bc-110">Web browser auto-detects type of Cyrillic encoding to use.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICArabic">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>20420</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-111">Арабский (EBCDIC) кода обмена расширенного двоичный десятичного.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-111">Extended Binary Coded Decimal Interchange Code (EBCDIC) Arabic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-111">Расширенный двоичный код обмена десятичными кодировками (EBCDIC) Арабский.</span><span class="sxs-lookup"><span data-stu-id="163bc-111">Extended Binary Coded Decimal Interchange Code (EBCDIC) Arabic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICDenmarkNorway">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>20277</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-112">EBCDIC, как используется в Дания и Норвегия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-112">EBCDIC as used in Denmark and Norway.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-112">EBCDIC в качестве использования в Дании и Норвегии.</span><span class="sxs-lookup"><span data-stu-id="163bc-112">EBCDIC as used in Denmark and Norway.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICFinlandSweden">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>20278</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-113">EBCDIC, как используется в Финляндия и Швеция.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-113">EBCDIC as used in Finland and Sweden.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-113">EBCDIC, используемая в Финляндии и Швеции.</span><span class="sxs-lookup"><span data-stu-id="163bc-113">EBCDIC as used in Finland and Sweden.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICFrance">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>20297</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-114">EBCDIC, используемый во Франции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-114">EBCDIC as used in France.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-114">EBCDIC, используемая во Франции.</span><span class="sxs-lookup"><span data-stu-id="163bc-114">EBCDIC as used in France.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICGermany">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>20273</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-115">EBCDIC, используемый в Германии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-115">EBCDIC as used in Germany.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-115">EBCDIC, используемая в Германии.</span><span class="sxs-lookup"><span data-stu-id="163bc-115">EBCDIC as used in Germany.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICGreek">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>20423</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-116">EBCDIC как греческого языка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-116">EBCDIC as used in the Greek language.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-116">EBCDIC, используемая на греческом языке.</span><span class="sxs-lookup"><span data-stu-id="163bc-116">EBCDIC as used in the Greek language.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICGreekModern">
@@ -405,12 +317,7 @@
       </ReturnValue>
       <MemberValue>875</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-117">EBCDIC, как используется в языке греческий (современный).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-117">EBCDIC as used in the Modern Greek language.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-117">EBCDIC, используемая на современном греческом языке.</span><span class="sxs-lookup"><span data-stu-id="163bc-117">EBCDIC as used in the Modern Greek language.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICHebrew">
@@ -429,12 +336,7 @@
       </ReturnValue>
       <MemberValue>20424</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-118">EBCDIC, как используется в иврита.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-118">EBCDIC as used in the Hebrew language.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-118">EBCDIC, используемая на иврите.</span><span class="sxs-lookup"><span data-stu-id="163bc-118">EBCDIC as used in the Hebrew language.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICIcelandic">
@@ -453,12 +355,7 @@
       </ReturnValue>
       <MemberValue>20871</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-119">EBCDIC, как используется в Исландия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-119">EBCDIC as used in Iceland.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-119">EBCDIC, используемая в Исландии.</span><span class="sxs-lookup"><span data-stu-id="163bc-119">EBCDIC as used in Iceland.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICInternational">
@@ -477,12 +374,7 @@
       </ReturnValue>
       <MemberValue>500</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-120">Международный EBCDIC.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-120">International EBCDIC.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-120">Международная EBCDIC.</span><span class="sxs-lookup"><span data-stu-id="163bc-120">International EBCDIC.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICItaly">
@@ -501,12 +393,7 @@
       </ReturnValue>
       <MemberValue>20280</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-121">EBCDIC, используемый в Италии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-121">EBCDIC as used in Italy.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-121">EBCDIC как используется в Италии.</span><span class="sxs-lookup"><span data-stu-id="163bc-121">EBCDIC as used in Italy.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICJapaneseKatakanaExtended">
@@ -525,12 +412,7 @@
       </ReturnValue>
       <MemberValue>20290</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-122">EBCDIC, как использовать совместно с Японская (расширенная) катакана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-122">EBCDIC as used with Japanese Katakana (extended).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-122">EBCDIC как используется с японской азбукой катакана (расширенная).</span><span class="sxs-lookup"><span data-stu-id="163bc-122">EBCDIC as used with Japanese Katakana (extended).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICJapaneseKatakanaExtendedAndJapanese">
@@ -549,12 +431,7 @@
       </ReturnValue>
       <MemberValue>50930</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-123">EBCDIC, как использовать совместно с Японская (расширенная) катакана и японский языки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-123">EBCDIC as used with Japanese Katakana (extended) and Japanese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-123">EBCDIC как используется с японской азбукой катакана (расширенная) и японская.</span><span class="sxs-lookup"><span data-stu-id="163bc-123">EBCDIC as used with Japanese Katakana (extended) and Japanese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICJapaneseLatinExtendedAndJapanese">
@@ -573,12 +450,7 @@
       </ReturnValue>
       <MemberValue>50939</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-124">EBCDIC, как использовать совместно с японского Латинская (расширенный) и японский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-124">EBCDIC as used with Japanese Latin (extended) and Japanese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-124">EBCDIC как используется с японской Латинской (расширенной) и японской.</span><span class="sxs-lookup"><span data-stu-id="163bc-124">EBCDIC as used with Japanese Latin (extended) and Japanese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICKoreanExtended">
@@ -597,12 +469,7 @@
       </ReturnValue>
       <MemberValue>20833</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-125">EBCDIC, как использовать совместно с Корейская (расширенная).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-125">EBCDIC as used with Korean (extended).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-125">EBCDIC как используется с корейским (расширенная версия).</span><span class="sxs-lookup"><span data-stu-id="163bc-125">EBCDIC as used with Korean (extended).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICKoreanExtendedAndKorean">
@@ -621,12 +488,7 @@
       </ReturnValue>
       <MemberValue>50933</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-126">EBCDIC, как использовать совместно с Корейская (расширенная) и корейского языка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-126">EBCDIC as used with Korean (extended) and Korean.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-126">EBCDIC как используется с корейским (расширенным) и корейским.</span><span class="sxs-lookup"><span data-stu-id="163bc-126">EBCDIC as used with Korean (extended) and Korean.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICLatinAmericaSpain">
@@ -645,12 +507,7 @@
       </ReturnValue>
       <MemberValue>20284</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-127">EBCDIC, как используется в Латинская Америка и Испании.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-127">EBCDIC as used in Latin America and Spain.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-127">EBCDIC как используется в Латинской Америке и Испании.</span><span class="sxs-lookup"><span data-stu-id="163bc-127">EBCDIC as used in Latin America and Spain.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICMultilingualROECELatin2">
@@ -669,12 +526,7 @@
       </ReturnValue>
       <MemberValue>870</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-128">ROECE EBCDIC многоязычных (латиница 2).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-128">EBCDIC Multilingual ROECE (Latin 2).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-128">Многоязыковая РОЕЦЕ EBCDIC (латиница 2).</span><span class="sxs-lookup"><span data-stu-id="163bc-128">EBCDIC Multilingual ROECE (Latin 2).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICRussian">
@@ -693,12 +545,7 @@
       </ReturnValue>
       <MemberValue>20880</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-129">EBCDIC, как использовать совместно с русский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-129">EBCDIC as used with Russian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-129">EBCDIC, используемая в русском языке.</span><span class="sxs-lookup"><span data-stu-id="163bc-129">EBCDIC as used with Russian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICSerbianBulgarian">
@@ -717,12 +564,7 @@
       </ReturnValue>
       <MemberValue>21025</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-130">EBCDIC, как использовать совместно с Сербский и болгарского.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-130">EBCDIC as used with Serbian and Bulgarian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-130">EBCDIC, используемая с Сербский и болгарской.</span><span class="sxs-lookup"><span data-stu-id="163bc-130">EBCDIC as used with Serbian and Bulgarian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICSimplifiedChineseExtendedAndSimplifiedChinese">
@@ -741,12 +583,7 @@
       </ReturnValue>
       <MemberValue>50935</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-131">EBCDIC, как использовать совместно с упрощенный (расширенный) и упрощенный китайский язык.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-131">EBCDIC as used with Simplified Chinese (extended) and Simplified Chinese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-131">EBCDIC в качестве упрощенного китайского (расширенного) и упрощенного китайского языка.</span><span class="sxs-lookup"><span data-stu-id="163bc-131">EBCDIC as used with Simplified Chinese (extended) and Simplified Chinese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICThai">
@@ -765,12 +602,7 @@
       </ReturnValue>
       <MemberValue>20838</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-132">EBCDIC, как использовать совместно с тайский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-132">EBCDIC as used with Thai.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-132">EBCDIC используется с тайскими языками.</span><span class="sxs-lookup"><span data-stu-id="163bc-132">EBCDIC as used with Thai.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICTurkish">
@@ -789,12 +621,7 @@
       </ReturnValue>
       <MemberValue>20905</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-133">EBCDIC, как использовать совместно с турецкого языков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-133">EBCDIC as used with Turkish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-133">EBCDIC, используемая для турецкого языка.</span><span class="sxs-lookup"><span data-stu-id="163bc-133">EBCDIC as used with Turkish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICTurkishLatin5">
@@ -813,12 +640,7 @@
       </ReturnValue>
       <MemberValue>1026</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-134">EBCDIC, как использовать совместно с турецкая (латиница 5).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-134">EBCDIC as used with Turkish (Latin 5).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-134">EBCDIC как используется со Турецкий (латиница 5).</span><span class="sxs-lookup"><span data-stu-id="163bc-134">EBCDIC as used with Turkish (Latin 5).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICUnitedKingdom">
@@ -837,12 +659,7 @@
       </ReturnValue>
       <MemberValue>20285</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-135">EBCDIC, используемый в Великобритании.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-135">EBCDIC as used in the United Kingdom.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-135">EBCDIC, используемая в Соединенном Королевстве.</span><span class="sxs-lookup"><span data-stu-id="163bc-135">EBCDIC as used in the United Kingdom.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICUSCanada">
@@ -861,12 +678,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-136">EBCDIC, как используется в США и Канада.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-136">EBCDIC as used in the United States and Canada.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-136">EBCDIC, используемая в США и Канаде.</span><span class="sxs-lookup"><span data-stu-id="163bc-136">EBCDIC as used in the United States and Canada.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICUSCanadaAndJapanese">
@@ -885,12 +697,7 @@
       </ReturnValue>
       <MemberValue>50931</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-137">EBCDIC, используемый в США и Канада и японского языка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-137">EBCDIC as used in the United States and Canada, and with Japanese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-137">EBCDIC, используемая в США и Канаде, а также на японском языке.</span><span class="sxs-lookup"><span data-stu-id="163bc-137">EBCDIC as used in the United States and Canada, and with Japanese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEBCDICUSCanadaAndTraditionalChinese">
@@ -909,12 +716,7 @@
       </ReturnValue>
       <MemberValue>50937</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-138">EBCDIC, используемый в США и Канада и с китайский, традиционное письмо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-138">EBCDIC as used in the United States and Canada, and with Traditional Chinese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-138">EBCDIC как используется в США и Канаде, а также на традиционном китайском языке.</span><span class="sxs-lookup"><span data-stu-id="163bc-138">EBCDIC as used in the United States and Canada, and with Traditional Chinese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEUCChineseSimplifiedChinese">
@@ -933,12 +735,7 @@
       </ReturnValue>
       <MemberValue>51936</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-139">Расширенные Unix кода (EUC) при использовании с китайский и китайский, упрощенное письмо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-139">Extended Unix Code (EUC) as used with Chinese and Simplified Chinese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-139">Расширенный код UNIX (EUC), используемый для китайского и упрощенного китайского языка.</span><span class="sxs-lookup"><span data-stu-id="163bc-139">Extended Unix Code (EUC) as used with Chinese and Simplified Chinese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEUCJapanese">
@@ -957,12 +754,7 @@
       </ReturnValue>
       <MemberValue>51932</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-140">EUC как используется японского языка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-140">EUC as used with Japanese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-140">EUC используется с японским языком.</span><span class="sxs-lookup"><span data-stu-id="163bc-140">EUC as used with Japanese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEUCKorean">
@@ -981,12 +773,7 @@
       </ReturnValue>
       <MemberValue>51949</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-141">EUC, как использовать совместно с корейского языка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-141">EUC as used with Korean.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-141">EUC используется для корейского языка.</span><span class="sxs-lookup"><span data-stu-id="163bc-141">EUC as used with Korean.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEUCTaiwaneseTraditionalChinese">
@@ -1005,12 +792,7 @@
       </ReturnValue>
       <MemberValue>51950</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-142">EUC, как использовать совместно с Тайваня и китайский, традиционное письмо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-142">EUC as used with Taiwanese and Traditional Chinese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-142">EUC используется с Таиванесе и традиционным китайским письмом.</span><span class="sxs-lookup"><span data-stu-id="163bc-142">EUC as used with Taiwanese and Traditional Chinese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingEuropa3">
@@ -1029,12 +811,7 @@
       </ReturnValue>
       <MemberValue>29001</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-143">Europa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-143">Europa.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-143">Еуропа.</span><span class="sxs-lookup"><span data-stu-id="163bc-143">Europa.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingExtAlphaLowercase">
@@ -1053,12 +830,7 @@
       </ReturnValue>
       <MemberValue>21027</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-144">Расширенные строчная буква.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-144">Extended Alpha lowercase.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-144">Расширенный буквенно-нижний регистр.</span><span class="sxs-lookup"><span data-stu-id="163bc-144">Extended Alpha lowercase.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingGreek">
@@ -1077,12 +849,7 @@
       </ReturnValue>
       <MemberValue>1253</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-145">греческий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-145">Greek.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-145">греческий.</span><span class="sxs-lookup"><span data-stu-id="163bc-145">Greek.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingGreekAutoDetect">
@@ -1101,12 +868,7 @@
       </ReturnValue>
       <MemberValue>51253</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-146">Веб-браузер автоматически обнаруживает тип Греческая кодировка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-146">Web browser auto-detects type of Greek encoding to use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-146">Веб-браузер автоматически обнаруживает тип используемой греческой кодировки.</span><span class="sxs-lookup"><span data-stu-id="163bc-146">Web browser auto-detects type of Greek encoding to use.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingHebrew">
@@ -1125,12 +887,7 @@
       </ReturnValue>
       <MemberValue>1255</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-147">иврит.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-147">Hebrew.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-147">иврит.</span><span class="sxs-lookup"><span data-stu-id="163bc-147">Hebrew.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingHZGBSimplifiedChinese">
@@ -1149,12 +906,7 @@
       </ReturnValue>
       <MemberValue>52936</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-148">Китайский упрощенный (HZGB).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-148">Simplified Chinese (HZGB).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-148">Китайский (упрощенное письмо) (ХЗГБ).</span><span class="sxs-lookup"><span data-stu-id="163bc-148">Simplified Chinese (HZGB).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingIA5German">
@@ -1173,16 +925,7 @@
       </ReturnValue>
       <MemberValue>20106</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-149">Немецкий (международный алфавит нет.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-149">German (International Alphabet No.</span>
-          </span>
-          <span data-ttu-id="dec3a-150">5 или IA5).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-150">5, or IA5).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-149">Немецкий (Международный алфавит No.</span><span class="sxs-lookup"><span data-stu-id="163bc-149">German (International Alphabet No.</span></span> <span data-ttu-id="163bc-150">5 или IA5).</span><span class="sxs-lookup"><span data-stu-id="163bc-150">5, or IA5).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingIA5IRV">
@@ -1201,12 +944,7 @@
       </ReturnValue>
       <MemberValue>20105</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-151">IA5 международный Справочник версии (IRV).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-151">IA5, International Reference Version (IRV).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-151">IA5, Международная версия справочника (ИРВ).</span><span class="sxs-lookup"><span data-stu-id="163bc-151">IA5, International Reference Version (IRV).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingIA5Norwegian">
@@ -1225,12 +963,7 @@
       </ReturnValue>
       <MemberValue>20108</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-152">IA5, как использовать совместно с норвежский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-152">IA5 as used with Norwegian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-152">IA5 используется с норвежским.</span><span class="sxs-lookup"><span data-stu-id="163bc-152">IA5 as used with Norwegian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingIA5Swedish">
@@ -1249,12 +982,7 @@
       </ReturnValue>
       <MemberValue>20107</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-153">IA5, как использовать совместно с шведский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-153">IA5 as used with Swedish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-153">IA5 как используется с шведским.</span><span class="sxs-lookup"><span data-stu-id="163bc-153">IA5 as used with Swedish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIAssamese">
@@ -1273,12 +1001,7 @@
       </ReturnValue>
       <MemberValue>57006</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-154">Код сценария Территория в Индийском для сведения Interchange (ISCII) при использовании с ассамская.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-154">Indian Script Code for Information Interchange (ISCII) as used with Assamese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-154">Код индийского скрипта для обмена данными (ISCII), используемый с Ассамским доступом.</span><span class="sxs-lookup"><span data-stu-id="163bc-154">Indian Script Code for Information Interchange (ISCII) as used with Assamese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIBengali">
@@ -1297,12 +1020,7 @@
       </ReturnValue>
       <MemberValue>57003</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-155">ISCII, как использовать совместно с бенгальский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-155">ISCII as used with Bengali.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-155">ISCII — используется с бенгальский.</span><span class="sxs-lookup"><span data-stu-id="163bc-155">ISCII as used with Bengali.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIDevanagari">
@@ -1321,12 +1039,7 @@
       </ReturnValue>
       <MemberValue>57002</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-156">ISCII, как использовать совместно с деванагари.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-156">ISCII as used with Devanagari.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-156">ISCII — используется с деванагари.</span><span class="sxs-lookup"><span data-stu-id="163bc-156">ISCII as used with Devanagari.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIGujarati">
@@ -1345,12 +1058,7 @@
       </ReturnValue>
       <MemberValue>57010</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-157">ISCII, как использовать совместно с гуджарати.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-157">ISCII as used with Gujarati.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-157">ISCII — используется с гуджарати.</span><span class="sxs-lookup"><span data-stu-id="163bc-157">ISCII as used with Gujarati.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIKannada">
@@ -1369,12 +1077,7 @@
       </ReturnValue>
       <MemberValue>57008</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-158">ISCII, как использовать совместно с каннада.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-158">ISCII as used with Kannada.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-158">ISCII — используется с каннада.</span><span class="sxs-lookup"><span data-stu-id="163bc-158">ISCII as used with Kannada.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIMalayalam">
@@ -1393,12 +1096,7 @@
       </ReturnValue>
       <MemberValue>57009</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-159">ISCII, как использовать совместно с малаялам.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-159">ISCII as used with Malayalam.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-159">ISCII — используется с малаялам.</span><span class="sxs-lookup"><span data-stu-id="163bc-159">ISCII as used with Malayalam.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIOriya">
@@ -1417,12 +1115,7 @@
       </ReturnValue>
       <MemberValue>57007</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-160">ISCII, как использовать совместно с ория.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-160">ISCII as used with Oriya.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-160">ISCII — используется с Ория.</span><span class="sxs-lookup"><span data-stu-id="163bc-160">ISCII as used with Oriya.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIIPunjabi">
@@ -1441,12 +1134,7 @@
       </ReturnValue>
       <MemberValue>57011</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-161">ISCII, как использовать совместно с панджаби.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-161">ISCII as used with Punjabi.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-161">ISCII — используется с панджаби.</span><span class="sxs-lookup"><span data-stu-id="163bc-161">ISCII as used with Punjabi.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIITamil">
@@ -1465,12 +1153,7 @@
       </ReturnValue>
       <MemberValue>57004</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-162">ISCII, как использовать совместно с тамильский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-162">ISCII as used with Tamil.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-162">ISCII — используется для тамильского языка.</span><span class="sxs-lookup"><span data-stu-id="163bc-162">ISCII as used with Tamil.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISCIITelugu">
@@ -1489,12 +1172,7 @@
       </ReturnValue>
       <MemberValue>57005</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-163">ISCII, как использовать совместно с телугу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-163">ISCII as used with Telugu.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-163">ISCII — используется с телугу.</span><span class="sxs-lookup"><span data-stu-id="163bc-163">ISCII as used with Telugu.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO2022CNSimplifiedChinese">
@@ -1513,12 +1191,7 @@
       </ReturnValue>
       <MemberValue>50229</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-164">Используется с упрощенное кодировка ISO-2022-CN.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-164">ISO 2022-CN encoding as used with Simplified Chinese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-164">Кодировка ISO 2022-CN, используемая для упрощенного китайского языка.</span><span class="sxs-lookup"><span data-stu-id="163bc-164">ISO 2022-CN encoding as used with Simplified Chinese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO2022CNTraditionalChinese">
@@ -1537,12 +1210,7 @@
       </ReturnValue>
       <MemberValue>50227</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-165">Кодировка ISO-2022-CN используется с китайский, традиционное письмо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-165">ISO 2022-CN encoding as used with Traditional Chinese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-165">Кодировка ISO 2022-CN, используемая для традиционного китайского языка.</span><span class="sxs-lookup"><span data-stu-id="163bc-165">ISO 2022-CN encoding as used with Traditional Chinese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO2022JPJISX02011989">
@@ -1561,12 +1229,7 @@
       </ReturnValue>
       <MemberValue>50222</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-166">ISO-2022-JP</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-166">ISO 2022-JP</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-166">ISO 2022-JP</span><span class="sxs-lookup"><span data-stu-id="163bc-166">ISO 2022-JP</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO2022JPJISX02021984">
@@ -1585,12 +1248,7 @@
       </ReturnValue>
       <MemberValue>50221</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-167">ISO-2022-JP</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-167">ISO 2022-JP</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-167">ISO 2022-JP</span><span class="sxs-lookup"><span data-stu-id="163bc-167">ISO 2022-JP</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO2022JPNoHalfwidthKatakana">
@@ -1609,12 +1267,7 @@
       </ReturnValue>
       <MemberValue>50220</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-168">ISO-2022-JP с не катаканы половинной ширины.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-168">ISO 2022-JP with no half-width Katakana.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-168">ISO 2022-JP без катаканы половинной ширины.</span><span class="sxs-lookup"><span data-stu-id="163bc-168">ISO 2022-JP with no half-width Katakana.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO2022KR">
@@ -1633,12 +1286,7 @@
       </ReturnValue>
       <MemberValue>50225</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-169">ISO-2022-KR.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-169">ISO 2022-KR.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-169">ISO 2022-KR.</span><span class="sxs-lookup"><span data-stu-id="163bc-169">ISO 2022-KR.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO6937NonSpacingAccent">
@@ -1657,12 +1305,7 @@
       </ReturnValue>
       <MemberValue>20269</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-170">ISO 6937-диакритические знаки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-170">ISO 6937 Non-Spacing Accent.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-170">Несамостоятельный акцент на стандарте ISO 6937.</span><span class="sxs-lookup"><span data-stu-id="163bc-170">ISO 6937 Non-Spacing Accent.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO885915Latin9">
@@ -1681,12 +1324,7 @@
       </ReturnValue>
       <MemberValue>28605</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-171">ISO 8859-15 с латинский 9.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-171">ISO 8859-15 with Latin 9.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-171">ISO 8859-15 с Латинской 9.</span><span class="sxs-lookup"><span data-stu-id="163bc-171">ISO 8859-15 with Latin 9.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88591Latin1">
@@ -1705,12 +1343,7 @@
       </ReturnValue>
       <MemberValue>28591</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-172">ISO 8859-1 латиница 1.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-172">ISO 8859-1 Latin 1.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-172">ISO 8859-1 латиница 1.</span><span class="sxs-lookup"><span data-stu-id="163bc-172">ISO 8859-1 Latin 1.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88592CentralEurope">
@@ -1729,12 +1362,7 @@
       </ReturnValue>
       <MemberValue>28592</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-173">Центральноевропейская ISO 8859-2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-173">ISO 8859-2 Central Europe.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-173">ISO 8859-2 Центральная Европа.</span><span class="sxs-lookup"><span data-stu-id="163bc-173">ISO 8859-2 Central Europe.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88593Latin3">
@@ -1753,12 +1381,7 @@
       </ReturnValue>
       <MemberValue>28593</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-174">ISO 8859-3 латиница 3.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-174">ISO 8859-3 Latin 3.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-174">ISO 8859-3 латиница 3.</span><span class="sxs-lookup"><span data-stu-id="163bc-174">ISO 8859-3 Latin 3.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88594Baltic">
@@ -1777,12 +1400,7 @@
       </ReturnValue>
       <MemberValue>28594</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-175">Балтийская ISO 8859-4.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-175">ISO 8859-4 Baltic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-175">ISO 8859-4 Балтийская.</span><span class="sxs-lookup"><span data-stu-id="163bc-175">ISO 8859-4 Baltic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88595Cyrillic">
@@ -1801,12 +1419,7 @@
       </ReturnValue>
       <MemberValue>28595</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-176">Кириллица ISO 8859-5.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-176">ISO 8859-5 Cyrillic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-176">ISO 8859-5 кириллица.</span><span class="sxs-lookup"><span data-stu-id="163bc-176">ISO 8859-5 Cyrillic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88596Arabic">
@@ -1825,12 +1438,7 @@
       </ReturnValue>
       <MemberValue>28596</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-177">Арабский ISA 8859-6.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-177">ISA 8859-6 Arabic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-177">ISA 8859-6 Арабская.</span><span class="sxs-lookup"><span data-stu-id="163bc-177">ISA 8859-6 Arabic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88597Greek">
@@ -1849,12 +1457,7 @@
       </ReturnValue>
       <MemberValue>28597</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-178">Греческий ISO 8859-7.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-178">ISO 8859-7 Greek.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-178">ISO 8859-7 греческий.</span><span class="sxs-lookup"><span data-stu-id="163bc-178">ISO 8859-7 Greek.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88598Hebrew">
@@ -1873,12 +1476,7 @@
       </ReturnValue>
       <MemberValue>28598</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-179">ISO 8859-8 иврит.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-179">ISO 8859-8 Hebrew.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-179">ISO 8859-8 иврит.</span><span class="sxs-lookup"><span data-stu-id="163bc-179">ISO 8859-8 Hebrew.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88598HebrewLogical">
@@ -1897,12 +1495,7 @@
       </ReturnValue>
       <MemberValue>38598</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-180">ISO 8859-8 иврит (логическое).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-180">ISO 8859-8 Hebrew (Logical).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-180">ISO 8859-8 иврит (логический).</span><span class="sxs-lookup"><span data-stu-id="163bc-180">ISO 8859-8 Hebrew (Logical).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingISO88599Turkish">
@@ -1921,12 +1514,7 @@
       </ReturnValue>
       <MemberValue>28599</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-181">Турецкий ISO 8859-9.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-181">ISO 8859-9 Turkish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-181">ISO 8859-9 турецкий.</span><span class="sxs-lookup"><span data-stu-id="163bc-181">ISO 8859-9 Turkish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingJapaneseAutoDetect">
@@ -1945,12 +1533,7 @@
       </ReturnValue>
       <MemberValue>50932</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-182">Веб-браузер автоматически обнаруживает тип кодировка для японского языка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-182">Web browser auto-detects type of Japanese encoding to use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-182">Веб-браузер автоматически обнаруживает тип используемой японской кодировки.</span><span class="sxs-lookup"><span data-stu-id="163bc-182">Web browser auto-detects type of Japanese encoding to use.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingJapaneseShiftJIS">
@@ -1969,12 +1552,7 @@
       </ReturnValue>
       <MemberValue>932</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-183">Японская (Shift-JIS).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-183">Japanese (Shift-JIS).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-183">Японская (Shift-JIS).</span><span class="sxs-lookup"><span data-stu-id="163bc-183">Japanese (Shift-JIS).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingKOI8R">
@@ -1993,12 +1571,7 @@
       </ReturnValue>
       <MemberValue>20866</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-184">KOI8-R.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-184">KOI8-R.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-184">KOI8 – R.</span><span class="sxs-lookup"><span data-stu-id="163bc-184">KOI8-R.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingKOI8U">
@@ -2017,12 +1590,7 @@
       </ReturnValue>
       <MemberValue>21866</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-185">K0I8 U.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-185">K0I8-U.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-185">K0I8 — U.</span><span class="sxs-lookup"><span data-stu-id="163bc-185">K0I8-U.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingKorean">
@@ -2041,12 +1609,7 @@
       </ReturnValue>
       <MemberValue>949</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-186">корейский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-186">Korean.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-186">корейский.</span><span class="sxs-lookup"><span data-stu-id="163bc-186">Korean.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingKoreanAutoDetect">
@@ -2065,12 +1628,7 @@
       </ReturnValue>
       <MemberValue>50949</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-187">Веб-браузер автоматически обнаруживает тип кодировка для корейского языка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-187">Web browser auto-detects type of Korean encoding to use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-187">Веб-браузер автоматически обнаруживает тип используемого корейского кодирования.</span><span class="sxs-lookup"><span data-stu-id="163bc-187">Web browser auto-detects type of Korean encoding to use.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingKoreanJohab">
@@ -2089,12 +1647,7 @@
       </ReturnValue>
       <MemberValue>1361</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-188">Корейская (джохаб).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-188">Korean (Johab).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-188">Корейский (Жохаб).</span><span class="sxs-lookup"><span data-stu-id="163bc-188">Korean (Johab).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacArabic">
@@ -2113,12 +1666,7 @@
       </ReturnValue>
       <MemberValue>10004</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-189">Арабский Macintosh.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-189">Macintosh Arabic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-189">Арабский для Macintosh.</span><span class="sxs-lookup"><span data-stu-id="163bc-189">Macintosh Arabic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacCroatia">
@@ -2137,12 +1685,7 @@
       </ReturnValue>
       <MemberValue>10082</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-190">Хорватский Macintosh.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-190">Macintosh Croatian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-190">Для Macintosh хорватский.</span><span class="sxs-lookup"><span data-stu-id="163bc-190">Macintosh Croatian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacCyrillic">
@@ -2161,12 +1704,7 @@
       </ReturnValue>
       <MemberValue>10007</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-191">Кириллица Macintosh.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-191">Macintosh Cyrillic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-191">Для Macintosh кириллица.</span><span class="sxs-lookup"><span data-stu-id="163bc-191">Macintosh Cyrillic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacGreek1">
@@ -2185,12 +1723,7 @@
       </ReturnValue>
       <MemberValue>10006</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-192">Греческий Macintosh.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-192">Macintosh Greek.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-192">Macintosh греческий.</span><span class="sxs-lookup"><span data-stu-id="163bc-192">Macintosh Greek.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacHebrew">
@@ -2209,12 +1742,7 @@
       </ReturnValue>
       <MemberValue>10005</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-193">Иврит Macintosh.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-193">Macintosh Hebrew.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-193">Иврит для Macintosh.</span><span class="sxs-lookup"><span data-stu-id="163bc-193">Macintosh Hebrew.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacIcelandic">
@@ -2233,12 +1761,7 @@
       </ReturnValue>
       <MemberValue>10079</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-194">Исландский Macintosh.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-194">Macintosh Icelandic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-194">"Макинтош Исландский".</span><span class="sxs-lookup"><span data-stu-id="163bc-194">Macintosh Icelandic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacJapanese">
@@ -2257,12 +1780,7 @@
       </ReturnValue>
       <MemberValue>10001</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-195">Японский Macintosh.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-195">Macintosh Japanese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-195">Японская версия для Macintosh.</span><span class="sxs-lookup"><span data-stu-id="163bc-195">Macintosh Japanese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacKorean">
@@ -2281,12 +1799,7 @@
       </ReturnValue>
       <MemberValue>10003</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-196">Корейский Macintosh.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-196">Macintosh Korean.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-196">Корейский (для Macintosh).</span><span class="sxs-lookup"><span data-stu-id="163bc-196">Macintosh Korean.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacLatin2">
@@ -2305,12 +1818,7 @@
       </ReturnValue>
       <MemberValue>10029</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-197">Macintosh латиница 2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-197">Macintosh Latin 2.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-197">Латиница 2.</span><span class="sxs-lookup"><span data-stu-id="163bc-197">Macintosh Latin 2.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacRoman">
@@ -2329,12 +1837,7 @@
       </ReturnValue>
       <MemberValue>10000</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-198">Macintosh Roman.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-198">Macintosh Roman.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-198">Macintosh Roman.</span><span class="sxs-lookup"><span data-stu-id="163bc-198">Macintosh Roman.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacRomania">
@@ -2353,12 +1856,7 @@
       </ReturnValue>
       <MemberValue>10010</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-199">Румынский Macintosh.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-199">Macintosh Romanian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-199">Macintosh Румынский.</span><span class="sxs-lookup"><span data-stu-id="163bc-199">Macintosh Romanian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacSimplifiedChineseGB2312">
@@ -2377,12 +1875,7 @@
       </ReturnValue>
       <MemberValue>10008</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-200">Macintosh (упрощенное письмо) (GB 2312).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-200">Macintosh Simplified Chinese (GB 2312).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-200">Китайская упрощенная (GB 2312).</span><span class="sxs-lookup"><span data-stu-id="163bc-200">Macintosh Simplified Chinese (GB 2312).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacTraditionalChineseBig5">
@@ -2401,12 +1894,7 @@
       </ReturnValue>
       <MemberValue>10002</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-201">Китайский традиционный Macintosh (Big 5).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-201">Macintosh Traditional Chinese (Big 5).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-201">Китайский (традиционное письмо) (большой 5).</span><span class="sxs-lookup"><span data-stu-id="163bc-201">Macintosh Traditional Chinese (Big 5).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacTurkish">
@@ -2425,12 +1913,7 @@
       </ReturnValue>
       <MemberValue>10081</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-202">Турецкий Macintosh.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-202">Macintosh Turkish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-202">Macintosh турецкий.</span><span class="sxs-lookup"><span data-stu-id="163bc-202">Macintosh Turkish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingMacUkraine">
@@ -2449,12 +1932,7 @@
       </ReturnValue>
       <MemberValue>10017</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-203">Украинский Macintosh.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-203">Macintosh Ukrainian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-203">Macintosh украинский.</span><span class="sxs-lookup"><span data-stu-id="163bc-203">Macintosh Ukrainian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMArabic">
@@ -2473,12 +1951,7 @@
       </ReturnValue>
       <MemberValue>864</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-204">OEM, как использовать совместно с арабского языка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-204">OEM as used with Arabic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-204">ИВТ, используемые с арабским языком.</span><span class="sxs-lookup"><span data-stu-id="163bc-204">OEM as used with Arabic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMBaltic">
@@ -2497,12 +1970,7 @@
       </ReturnValue>
       <MemberValue>775</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-205">OEM, как использовать совместно с балтийская.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-205">OEM as used with Baltic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-205">ПВТ как используется с Балтийский.</span><span class="sxs-lookup"><span data-stu-id="163bc-205">OEM as used with Baltic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMCanadianFrench">
@@ -2521,12 +1989,7 @@
       </ReturnValue>
       <MemberValue>863</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-206">OEM, как использовать совместно с французский (Канада).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-206">OEM as used with Canadian French.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-206">OEM-компания, используемая с канадским французским.</span><span class="sxs-lookup"><span data-stu-id="163bc-206">OEM as used with Canadian French.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMCyrillic">
@@ -2545,12 +2008,7 @@
       </ReturnValue>
       <MemberValue>855</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-207">OEM, как использовать совместно с (кириллица).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-207">OEM as used with Cyrillic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-207">ИВТ, использующие кириллицу.</span><span class="sxs-lookup"><span data-stu-id="163bc-207">OEM as used with Cyrillic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMCyrillicII">
@@ -2569,12 +2027,7 @@
       </ReturnValue>
       <MemberValue>866</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-208">OEM, как использовать совместно с II (кириллица).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-208">OEM as used with Cyrillic II.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-208">ИВТ, использующие кириллицу II.</span><span class="sxs-lookup"><span data-stu-id="163bc-208">OEM as used with Cyrillic II.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMGreek437G">
@@ -2593,12 +2046,7 @@
       </ReturnValue>
       <MemberValue>737</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-209">OEM, как использовать совместно с греческие 437G.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-209">OEM as used with Greek 437G.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-209">OEM-компания, используемая в греческом 437G.</span><span class="sxs-lookup"><span data-stu-id="163bc-209">OEM as used with Greek 437G.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMHebrew">
@@ -2617,12 +2065,7 @@
       </ReturnValue>
       <MemberValue>862</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-210">OEM, как использовать совместно с иврита.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-210">OEM as used with Hebrew.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-210">OEM, используемая для иврита.</span><span class="sxs-lookup"><span data-stu-id="163bc-210">OEM as used with Hebrew.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMIcelandic">
@@ -2641,12 +2084,7 @@
       </ReturnValue>
       <MemberValue>861</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-211">OEM, как использовать совместно с Исландский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-211">OEM as used with Icelandic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-211">ПВТ в качестве исландского.</span><span class="sxs-lookup"><span data-stu-id="163bc-211">OEM as used with Icelandic.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMModernGreek">
@@ -2665,12 +2103,7 @@
       </ReturnValue>
       <MemberValue>869</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-212">OEM, как использовать совместно с греческий (современный).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-212">OEM as used with Modern Greek.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-212">ОЕМ-версия, используемая с современным греческий.</span><span class="sxs-lookup"><span data-stu-id="163bc-212">OEM as used with Modern Greek.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMMultilingualLatinI">
@@ -2689,12 +2122,7 @@
       </ReturnValue>
       <MemberValue>850</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-213">OEM, как использовать совместно с многоязычными Latin I.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-213">OEM as used with multi-lingual Latin I.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-213">OEM-версия, используемая с многоязычной Латинской Латинской I.</span><span class="sxs-lookup"><span data-stu-id="163bc-213">OEM as used with multi-lingual Latin I.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMMultilingualLatinII">
@@ -2713,12 +2141,7 @@
       </ReturnValue>
       <MemberValue>852</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-214">OEM, как использовать совместно с многоязычными латиница II.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-214">OEM as used with multi-lingual Latin II.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-214">OEM-версия, используемая с многоязычной Латинской Латинской Латинской II.</span><span class="sxs-lookup"><span data-stu-id="163bc-214">OEM as used with multi-lingual Latin II.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMNordic">
@@ -2737,12 +2160,7 @@
       </ReturnValue>
       <MemberValue>865</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-215">OEM, как использовать совместно с Скандинавские языки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-215">OEM as used with Nordic languages.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-215">OEM-версия, используемая с скандинавскими языками.</span><span class="sxs-lookup"><span data-stu-id="163bc-215">OEM as used with Nordic languages.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMPortuguese">
@@ -2761,12 +2179,7 @@
       </ReturnValue>
       <MemberValue>860</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-216">OEM, как использовать совместно с португальский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-216">OEM as used with Portuguese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-216">OEM-версия, используемая с использованием португальского языка.</span><span class="sxs-lookup"><span data-stu-id="163bc-216">OEM as used with Portuguese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMTurkish">
@@ -2785,12 +2198,7 @@
       </ReturnValue>
       <MemberValue>857</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-217">OEM, как использовать совместно с турецкого языков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-217">OEM as used with Turkish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-217">OEM, используемая в турецком языке.</span><span class="sxs-lookup"><span data-stu-id="163bc-217">OEM as used with Turkish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingOEMUnitedStates">
@@ -2809,12 +2217,7 @@
       </ReturnValue>
       <MemberValue>437</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-218">OEM, как используется в США.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-218">OEM as used in the United States.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-218">OEM-компания, используемая в США.</span><span class="sxs-lookup"><span data-stu-id="163bc-218">OEM as used in the United States.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingSimplifiedChineseAutoDetect">
@@ -2833,12 +2236,7 @@
       </ReturnValue>
       <MemberValue>50936</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-219">Веб-браузер автоматически обнаруживает тип упрощенное кодирования для использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-219">Web browser auto-detects type of Simplified Chinese encoding to use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-219">Веб-браузер автоматически обнаруживает тип кодировки упрощенного китайского письма, который необходимо использовать.</span><span class="sxs-lookup"><span data-stu-id="163bc-219">Web browser auto-detects type of Simplified Chinese encoding to use.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingSimplifiedChineseGB18030">
@@ -2857,12 +2255,7 @@
       </ReturnValue>
       <MemberValue>54936</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-220">Китайская упрощенная GB 18030.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-220">Simplified Chinese GB 18030.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-220">Китайский (упрощенное письмо) 18030.</span><span class="sxs-lookup"><span data-stu-id="163bc-220">Simplified Chinese GB 18030.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingSimplifiedChineseGBK">
@@ -2881,12 +2274,7 @@
       </ReturnValue>
       <MemberValue>936</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-221">Китайская упрощенная GBK.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-221">Simplified Chinese GBK.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-221">Упрощенный китайский ГБК.</span><span class="sxs-lookup"><span data-stu-id="163bc-221">Simplified Chinese GBK.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingT61">
@@ -2905,12 +2293,7 @@
       </ReturnValue>
       <MemberValue>20261</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-222">T61.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-222">T61.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-222">T61.</span><span class="sxs-lookup"><span data-stu-id="163bc-222">T61.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTaiwanCNS">
@@ -2929,12 +2312,7 @@
       </ReturnValue>
       <MemberValue>20000</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-223">Тайвань CNS.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-223">Taiwan CNS.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-223">Тайвань CNS.</span><span class="sxs-lookup"><span data-stu-id="163bc-223">Taiwan CNS.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTaiwanEten">
@@ -2953,12 +2331,7 @@
       </ReturnValue>
       <MemberValue>20002</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-224">Тайвань Eten.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-224">Taiwan Eten.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-224">Тайваньский етен.</span><span class="sxs-lookup"><span data-stu-id="163bc-224">Taiwan Eten.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTaiwanIBM5550">
@@ -2977,12 +2350,7 @@
       </ReturnValue>
       <MemberValue>20003</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-225">Тайвань IBM 5550.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-225">Taiwan IBM 5550.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-225">Тайвань IBM 5550.</span><span class="sxs-lookup"><span data-stu-id="163bc-225">Taiwan IBM 5550.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTaiwanTCA">
@@ -3001,12 +2369,7 @@
       </ReturnValue>
       <MemberValue>20001</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-226">Тайвань TCA.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-226">Taiwan TCA.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-226">Тайвань TCA.</span><span class="sxs-lookup"><span data-stu-id="163bc-226">Taiwan TCA.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTaiwanTeleText">
@@ -3025,12 +2388,7 @@
       </ReturnValue>
       <MemberValue>20004</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-227">Тайвань телетекста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-227">Taiwan Teletext.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-227">Тайваньский телетекст.</span><span class="sxs-lookup"><span data-stu-id="163bc-227">Taiwan Teletext.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTaiwanWang">
@@ -3049,12 +2407,7 @@
       </ReturnValue>
       <MemberValue>20005</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-228">Тайвань Wang.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-228">Taiwan Wang.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-228">Тайваньский Вонг.</span><span class="sxs-lookup"><span data-stu-id="163bc-228">Taiwan Wang.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingThai">
@@ -3073,12 +2426,7 @@
       </ReturnValue>
       <MemberValue>874</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-229">тайский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-229">Thai.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-229">тайский.</span><span class="sxs-lookup"><span data-stu-id="163bc-229">Thai.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTraditionalChineseAutoDetect">
@@ -3097,12 +2445,7 @@
       </ReturnValue>
       <MemberValue>50950</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-230">Веб-браузер автоматически обнаруживает тип китайский, традиционное письмо кодирования для использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-230">Web browser auto-detects type of Traditional Chinese encoding to use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-230">Веб-браузер автоматически обнаруживает тип используемого традиционного китайского кодирования.</span><span class="sxs-lookup"><span data-stu-id="163bc-230">Web browser auto-detects type of Traditional Chinese encoding to use.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTraditionalChineseBig5">
@@ -3121,12 +2464,7 @@
       </ReturnValue>
       <MemberValue>950</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-231">Китайский, традиционное письмо Big 5.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-231">Traditional Chinese Big 5.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-231">Традиционное письмо с большим объемом 5.</span><span class="sxs-lookup"><span data-stu-id="163bc-231">Traditional Chinese Big 5.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingTurkish">
@@ -3145,12 +2483,7 @@
       </ReturnValue>
       <MemberValue>1254</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-232">турецкий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-232">Turkish.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-232">турецкий.</span><span class="sxs-lookup"><span data-stu-id="163bc-232">Turkish.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingUnicodeBigEndian">
@@ -3169,12 +2502,7 @@
       </ReturnValue>
       <MemberValue>1201</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-233">Обратный порядок байтов Юникод.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-233">Unicode big endian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-233">Юникод Big endian.</span><span class="sxs-lookup"><span data-stu-id="163bc-233">Unicode big endian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingUnicodeLittleEndian">
@@ -3193,12 +2521,7 @@
       </ReturnValue>
       <MemberValue>1200</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-234">Прямой Юникод.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-234">Unicode little endian.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-234">Юникод с прямым порядком байтов.</span><span class="sxs-lookup"><span data-stu-id="163bc-234">Unicode little endian.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingUSASCII">
@@ -3217,12 +2540,7 @@
       </ReturnValue>
       <MemberValue>20127</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-235">США ASCII.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-235">United States ASCII.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-235">ASCII США.</span><span class="sxs-lookup"><span data-stu-id="163bc-235">United States ASCII.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingUTF7">
@@ -3241,12 +2559,7 @@
       </ReturnValue>
       <MemberValue>65000</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-236">Кодировка UTF-7.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-236">UTF-7 encoding.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-236">Кодировка UTF – 7.</span><span class="sxs-lookup"><span data-stu-id="163bc-236">UTF-7 encoding.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingUTF8">
@@ -3265,12 +2578,7 @@
       </ReturnValue>
       <MemberValue>65001</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-237">Кодировка UTF-8.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-237">UTF-8 encoding.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-237">Кодировка UTF – 8.</span><span class="sxs-lookup"><span data-stu-id="163bc-237">UTF-8 encoding.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingVietnamese">
@@ -3289,12 +2597,7 @@
       </ReturnValue>
       <MemberValue>1258</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-238">вьетнамский.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-238">Vietnamese.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-238">вьетнамский.</span><span class="sxs-lookup"><span data-stu-id="163bc-238">Vietnamese.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoEncodingWestern">
@@ -3313,12 +2616,7 @@
       </ReturnValue>
       <MemberValue>1252</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dec3a-239">Западное.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dec3a-239">Western.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="163bc-239">Западное.</span><span class="sxs-lookup"><span data-stu-id="163bc-239">Western.</span></span></summary>
       </Docs>
     </Member>
   </Members>

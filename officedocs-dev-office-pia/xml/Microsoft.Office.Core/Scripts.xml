@@ -1,13 +1,5 @@
 <Type Name="Scripts" FullName="Microsoft.Office.Core.Scripts">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3d47d002587c045d30ad740a840c614a1267790d" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661729" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Scripts : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3d47d002587c045d30ad740a840c614a1267790d" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661729" /></Metadata><TypeSignature Language="C#" Value="public interface Scripts : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Scripts implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Scripts" />
   <TypeSignature Language="VB.NET" Value="Public Interface Scripts&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,30 +25,22 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="dfed0-101">Коллекцию <see cref="T:Microsoft.Office.Core.Script" /> объекты, которые представляют набор сценариев HTML в указанный документ.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="dfed0-101">A collection of <see cref="T:Microsoft.Office.Core.Script" /> objects that represent the collection of HTML scripts in the specified document.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="dfed0-102">
-        <para>Коллекция <b>сценариев</b> содержит все объекты <b>скрипта</b> в данный документ, в исходном порядке (порядок, в какой <b>сценарий</b> объекты были добавлены к исходному файлу). Порядок источника не влияет на расположение (заголовка или основного текста) скрипта в документе. Коллекции <b>скриптов</b> можно получить доступ с помощью свойства <b>скрипты</b> подходящий объект (например, объект <b>документа</b> в Microsoft Word).</para>
-        <para>Объекты <b>сценария</b> можно использовать для доступа к сценарию или добавление сценария в документе Microsoft Word, лист Microsoft Excel или слайдов Microsoft PowerPoint. Можно также использовать коллекции <b>скриптов</b> для доступа к любой HTML-страницу или скрипта, который открыт в приложении Microsoft Office.</para>
-        <para>Примечание Microsoft Access не использует этот общий компонент Office.</para> При добавлении объекта <b>скрипта</b> в коллекции <b>скриптов</b> , объект <b>фигуры</b> типа <b>msoScriptAnchor</b><para>автоматически добавляется в документ. На листе Excel или слайдах PowerPoint Фигура добавляется в коллекцию <b>фигур</b> ; в документе Word фигуры добавляется к коллекции <b>InlineShapes</b> . Добавить <b>скрипт</b> в документ с помощью <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> метод.</para><para>Для доступа к конкретному элементу в коллекции <b>скриптов</b> , используйте <see cref="M:Microsoft.Office.Core.Scripts.Item(System.Object)" /> метод и укажите атрибут ID из &lt;СЦЕНАРИЙ&gt; тег или номер индекса, который указывает положение скрипта в коллекции. Идентификатор должен быть уникальным в документе. В случае повторяющихся атрибуты ID, первый сценарий найден, который имеет возвращаемого идентификатора.</para><para>Использования <see cref="P:Microsoft.Office.Core.Scripts.Count" /> свойства, чтобы определить число объектов <b>скрипта</b> в указанный документ.</para><para>Использования <see cref="M:Microsoft.Office.Core.Scripts.Delete" /> метод, чтобы удалить скрипт из коллекции <b>скриптов</b> .</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="dfed0-102">
-          <para>The <b>Scripts</b> collection contains all of the <b>Script</b> objects in a given document, in source order (the order in which <b>Script</b> objects were added to the source file). Source order isn’t affected by the location (header or body text) of the script in the document. The <b>Scripts</b> collection can be accessed by using the <b>Scripts</b> property of the appropriate object (for example, the <b>Document</b> object in Microsoft Word).</para>
-          <para>You can use <b>Script</b> objects to access a script or to add a script to a Microsoft Word document, a Microsoft Excel worksheet, or a Microsoft PowerPoint slide. You can also use the <b>Scripts</b> collection to access any HTML page or script that’s opened in a Microsoft Office application.</para>
-          <para>Note   Microsoft Access doesn’t use this shared Office component.</para>
-          <para>When you add a <b>Script</b> object to the <b>Scripts</b> collection, a <b>Shape</b> object of type <b>msoScriptAnchor</b> is automatically added to the document. On an Excel worksheet or a PowerPoint slide, the shape is added to the <b>Shapes</b> collection; in a Word Document, the shape is added to the <b>InlineShapes</b> collection. You add a <b>Script</b> to a document by using the <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> method.</para>
-          <para>To access a particular item in the <b>Scripts</b> collection, use the <see cref="M:Microsoft.Office.Core.Scripts.Item(System.Object)" /> method and supply either the ID attribute of the &lt;SCRIPT&gt; tag or the index number that indicates the position of the script in the collection. The ID must be unique within the document. In the case of duplicate ID attributes, the first script found that has that ID is returned.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Core.Scripts.Count" /> property to determine the number of <b>Script</b> objects in the specified document.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Core.Scripts.Delete" /> method to remove a script from the <b>Scripts</b> collection.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="26ef5-101">Коллекция <see cref="T:Microsoft.Office.Core.Script" /> объектов, представляющих коллекцию HTML-скриптов в указанном документе.</span><span class="sxs-lookup"><span data-stu-id="26ef5-101">A collection of <see cref="T:Microsoft.Office.Core.Script" /> objects that represent the collection of HTML scripts in the specified document.</span></span></summary>
+    <remarks><span data-ttu-id="26ef5-102"><para>Коллекция <b>Scripts</b> содержит все объекты <b>скрипта</b> в определенном документе в исходном порядке (порядок, в котором объекты <b>сценария</b> были добавлены в исходный файл). Исходный порядок не зависит от положения (заголовка или основного текста) скрипта в документе. Доступ к коллекции <b>Scripts</b> можно получить с помощью свойства <b>Scripts</b> соответствующего объекта (например, объекта <b>Document</b> в Microsoft Word).</para> 
+      <para>С помощью объектов <b>сценариев</b> можно получить доступ к сценарию или добавить скрипт в документ Microsoft Word, лист Microsoft Excel или слайд Microsoft PowerPoint. Вы также можете использовать коллекцию <b>Scripts</b> для доступа к любой HTML-странице или скрипту, который открыт в приложении Microsoft Office.</para> 
+      <para>Примечание Microsoft Access не использует этот общий компонент Office.</para> 
+      <para>При добавлении объекта <b>скрипта</b> в коллекцию <b>Scripts</b> объект <b>Shape</b> типа <b>мсоскриптанчор</b> автоматически добавляется в документ. На листе Excel или на слайде PowerPoint фигура добавляется в коллекцию <b>Shapes</b> ; в документе Word фигура добавляется в коллекцию <b>InlineShapes</b> . Вы добавляете <b>Скрипт</b> в документ с помощью <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> метода.</para> 
+      <para>Чтобы получить доступ к определенному элементу в коллекции <b>Scripts</b> , используйте <see cref="M:Microsoft.Office.Core.Scripts.Item(System.Object)" /> метод и укажите атрибут ID тега &lt;script&gt; или номер индекса, указывающий положение скрипта в коллекции. Идентификатор должен быть уникальным в пределах документа. В случае с повторяющимися атрибутами ID возвращается первый найденный скрипт с таким ИДЕНТИФИКАТОРом.</para> 
+      <para>Используйте <see cref="P:Microsoft.Office.Core.Scripts.Count" /> свойство, чтобы определить количество объектов <b>скрипта</b> в указанном документе.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.Scripts.Delete" /> метод, чтобы удалить скрипт из коллекции <b>Scripts</b> .</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="26ef5-102"><para>The <b>Scripts</b> collection contains all of the <b>Script</b> objects in a given document, in source order (the order in which <b>Script</b> objects were added to the source file). Source order isn’t affected by the location (header or body text) of the script in the document. The <b>Scripts</b> collection can be accessed by using the <b>Scripts</b> property of the appropriate object (for example, the <b>Document</b> object in Microsoft Word).</para>
+      <para>You can use <b>Script</b> objects to access a script or to add a script to a Microsoft Word document, a Microsoft Excel worksheet, or a Microsoft PowerPoint slide. You can also use the <b>Scripts</b> collection to access any HTML page or script that’s opened in a Microsoft Office application.</para>
+      <para>Note   Microsoft Access doesn’t use this shared Office component.</para>
+      <para>When you add a <b>Script</b> object to the <b>Scripts</b> collection, a <b>Shape</b> object of type <b>msoScriptAnchor</b> is automatically added to the document. On an Excel worksheet or a PowerPoint slide, the shape is added to the <b>Shapes</b> collection; in a Word Document, the shape is added to the <b>InlineShapes</b> collection. You add a <b>Script</b> to a document by using the <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> method.</para>
+      <para>To access a particular item in the <b>Scripts</b> collection, use the <see cref="M:Microsoft.Office.Core.Scripts.Item(System.Object)" /> method and supply either the ID attribute of the &lt;SCRIPT&gt; tag or the index number that indicates the position of the script in the collection. The ID must be unique within the document. In the case of duplicate ID attributes, the first script found that has that ID is returned.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Core.Scripts.Count" /> property to determine the number of <b>Script</b> objects in the specified document.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Core.Scripts.Delete" /> method to remove a script from the <b>Scripts</b> collection.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -92,133 +76,19 @@
         <Parameter Name="ScriptText" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Anchor">
-          <span data-ttu-id="dfed0-103">Необязательный элемент <b>Object</b> (только для Microsoft Excel).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-103">Optional <b>Object</b> (Microsoft Excel only).</span>
-          </span>
-          <span data-ttu-id="dfed0-104">
-            <paramref name="Anchor" /> Аргумент принимает объект Excel <b>диапазон</b> , который указывает расположение привязку <b>лист</b>Microsoft Excel.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-104">The <paramref name="Anchor" /> argument accepts an Excel <b>Range</b> object, which specifies the placement of the script anchor on an Excel <b>Worksheet</b>.</span>
-          </span>
-          <span data-ttu-id="dfed0-105">Не удается вставить ссылки сценария в диаграмм Excel.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-105">You cannot insert script anchors into Excel charts.</span>
-          </span>
-        </param>
-        <param name="Location">
-          <span data-ttu-id="dfed0-106">Необязательные <see cref="T:Microsoft.Office.Core.MsoScriptLocation" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-106">Optional <see cref="T:Microsoft.Office.Core.MsoScriptLocation" />.</span>
-          </span>
-          <span data-ttu-id="dfed0-107">Указывает расположение привязку в документе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-107">Specifies the location of the script anchor in a document.</span>
-          </span>
-          <span data-ttu-id="dfed0-108">Если задано <paramref name="Anchor" /> аргумент, <paramref name="Location" /> аргумент не используется; расположение <paramref name="Anchor" /> аргумент определяет расположение привязку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-108">If you’ve specified the <paramref name="Anchor" /> argument, the <paramref name="Location" /> argument isn’t used; the location of the <paramref name="Anchor" /> argument determines the location of the script anchor.</span>
-          </span>
-        </param>
-        <param name="Language">
-          <span data-ttu-id="dfed0-109">Необязательные <see cref="T:Microsoft.Office.Core.MsoScriptLanguage" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-109">Optional <see cref="T:Microsoft.Office.Core.MsoScriptLanguage" />.</span>
-          </span>
-          <span data-ttu-id="dfed0-110">Указывает язык сценариев.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-110">Specifies the script language.</span>
-          </span>
-        </param>
-        <param name="Id">
-          <span data-ttu-id="dfed0-111">Необязательный атрибут типа <b>String</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-111">Optional <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="dfed0-112">Идентификатор &lt;СЦЕНАРИЙ&gt; тег в формате HTML.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-112">The ID of the &lt;SCRIPT&gt; tag in HTML.</span>
-          </span>
-          <span data-ttu-id="dfed0-113">
-            <paramref name="Id" /> Аргумент указывает идентификатор SGML, используемый для имен элементов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-113">The <paramref name="Id" /> argument specifies an SGML identifier used for naming elements.</span>
-          </span>
-          <span data-ttu-id="dfed0-114">Допустимыми идентификаторами включать любую строку, которая начинается с буквы и состоять из буквенно-цифровых символов; Строка может также включать символ подчеркивания (_).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-114">Valid identifiers include any string that begins with a letter and is composed of alphanumeric characters; the string can also include the underscore character ( _ ).</span>
-          </span>
-          <span data-ttu-id="dfed0-115">Идентификатор должен быть уникальным в рамках HTML-документ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-115">The ID must be unique within the HTML document.</span>
-          </span>
-          <span data-ttu-id="dfed0-116">Этот параметр экспортируется как значение атрибута ID &lt;СЦЕНАРИЙ&gt; тег.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-116">This parameter is exported as the ID attribute in the &lt;SCRIPT&gt; tag.</span>
-          </span>
-        </param>
-        <param name="Extended">
-          <span data-ttu-id="dfed0-117">Необязательный атрибут типа <b>String</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-117">Optional <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="dfed0-118">Указывает атрибуты, которые требуется добавить к &lt;СЦЕНАРИЙ&gt; тег (атрибуты языка и идентификатора экспортируются через <paramref name="Language" /> и <paramref name="Id" /> параметры и не должны быть экспортированы через <paramref name="Extended" /> параметр).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-118">Specifies attributes that are to be added to the &lt;SCRIPT&gt; tag (LANGUAGE and ID attributes are exported through the <paramref name="Language" /> and <paramref name="Id" /> parameters and should not be exported through the <paramref name="Extended" /> parameter).</span>
-          </span>
-          <span data-ttu-id="dfed0-119">По умолчанию используется пустая строка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-119">The default is the empty string.</span>
-          </span>
-          <span data-ttu-id="dfed0-120">Атрибуты, разделенных пробелами, то же самое, что и HTML-код.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-120">Attributes are separated by spaces, the same as in HTML.</span>
-          </span>
-          <span data-ttu-id="dfed0-121">Ведущее приложение Microsoft Office не предоставляет означает, что проверки синтаксиса переданного атрибуты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-121">The Microsoft Office host application doesn’t provide any means of checking the syntax of passed attributes.</span>
-          </span>
-        </param>
-        <param name="ScriptText">
-          <span data-ttu-id="dfed0-122">Необязательный атрибут типа <b>String</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-122">Optional <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="dfed0-123">Задает текст, содержащийся в блок скрипта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-123">Specifies the text contained in a block of script.</span>
-          </span>
-          <span data-ttu-id="dfed0-124">По умолчанию используется пустая строка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-124">The default is the empty string.</span>
-          </span>
-          <span data-ttu-id="dfed0-125">Ведущее приложение Microsoft Office не проверять синтаксис сценария.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-125">The Microsoft Office host application doesn’t check the syntax of the script.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="dfed0-126">Добавляет <see cref="T:Microsoft.Office.Core.Script" /> объект <see cref="T:Microsoft.Office.Core.Scripts" /> коллекцию один из следующих объектов: объект <b>документа</b> или <b>диапазона</b> в Microsoft Word; Объект <b>электронной таблицы</b> или <b>диаграммы</b> в Microsoft Excel; или <b>слайд</b>, <b>SlideRange</b><b>Образец</b>слайда или title <b>главный</b> объект в Microsoft PowerPoint.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-126">Adds a <see cref="T:Microsoft.Office.Core.Script" /> object to the <see cref="T:Microsoft.Office.Core.Scripts" /> collection of one of the following objects: a <b>Document</b> or <b>Range</b> object in Microsoft Word; a <b>Worksheet</b> or <b>Chart</b> object in Microsoft Excel; or a <b>Slide</b>, <b>SlideRange</b>, slide <b>Master</b>, or title <b>Master</b> object in Microsoft PowerPoint.</span>
-          </span>
-        </summary>
+        <param name="Anchor"><span data-ttu-id="26ef5-103">Необязательный <b>объект</b> (только для Microsoft Excel).</span><span class="sxs-lookup"><span data-stu-id="26ef5-103">Optional <b>Object</b> (Microsoft Excel only).</span></span> <span data-ttu-id="26ef5-104">Аргумент принимает объект <b>диапазона</b> Excel, который указывает расположение привязки сценария на листе Excel. <b>Worksheet</b> <paramref name="Anchor" /></span><span class="sxs-lookup"><span data-stu-id="26ef5-104">The <paramref name="Anchor" /> argument accepts an Excel <b>Range</b> object, which specifies the placement of the script anchor on an Excel <b>Worksheet</b>.</span></span> <span data-ttu-id="26ef5-105">Вы не можете вставлять привязки скриптов в диаграммы Excel.</span><span class="sxs-lookup"><span data-stu-id="26ef5-105">You cannot insert script anchors into Excel charts.</span></span></param>
+        <param name="Location"><span data-ttu-id="26ef5-106">Необязательный <see cref="T:Microsoft.Office.Core.MsoScriptLocation" />параметр.</span><span class="sxs-lookup"><span data-stu-id="26ef5-106">Optional <see cref="T:Microsoft.Office.Core.MsoScriptLocation" />.</span></span> <span data-ttu-id="26ef5-107">Задает расположение привязки сценария в документе.</span><span class="sxs-lookup"><span data-stu-id="26ef5-107">Specifies the location of the script anchor in a document.</span></span> <span data-ttu-id="26ef5-108">Если вы указали <paramref name="Anchor" /> аргумент, <paramref name="Location" /> аргумент не используется; расположение <paramref name="Anchor" /> аргумента определяет расположение привязки сценария.</span><span class="sxs-lookup"><span data-stu-id="26ef5-108">If you’ve specified the <paramref name="Anchor" /> argument, the <paramref name="Location" /> argument isn’t used; the location of the <paramref name="Anchor" /> argument determines the location of the script anchor.</span></span></param>
+        <param name="Language"><span data-ttu-id="26ef5-109">Необязательный <see cref="T:Microsoft.Office.Core.MsoScriptLanguage" />параметр.</span><span class="sxs-lookup"><span data-stu-id="26ef5-109">Optional <see cref="T:Microsoft.Office.Core.MsoScriptLanguage" />.</span></span> <span data-ttu-id="26ef5-110">Указывает язык скрипта.</span><span class="sxs-lookup"><span data-stu-id="26ef5-110">Specifies the script language.</span></span></param>
+        <param name="Id"><span data-ttu-id="26ef5-111">Необязательная <b>строка</b>.</span><span class="sxs-lookup"><span data-stu-id="26ef5-111">Optional <b>String</b>.</span></span> <span data-ttu-id="26ef5-112">ИДЕНТИФИКАТОР тега &lt;скрипта&gt; в HTML.</span><span class="sxs-lookup"><span data-stu-id="26ef5-112">The ID of the &lt;SCRIPT&gt; tag in HTML.</span></span> <span data-ttu-id="26ef5-113"><paramref name="Id" /> Аргумент указывает идентификатор сгмл, используемый для именования элементов.</span><span class="sxs-lookup"><span data-stu-id="26ef5-113">The <paramref name="Id" /> argument specifies an SGML identifier used for naming elements.</span></span> <span data-ttu-id="26ef5-114">Допустимые идентификаторы включают любую строку, начинающуюся с буквы и состоящую из буквенно-цифровых символов; строка также может содержать символ подчеркивания (_).</span><span class="sxs-lookup"><span data-stu-id="26ef5-114">Valid identifiers include any string that begins with a letter and is composed of alphanumeric characters; the string can also include the underscore character ( _ ).</span></span> <span data-ttu-id="26ef5-115">Идентификатор должен быть уникальным в HTML-документе.</span><span class="sxs-lookup"><span data-stu-id="26ef5-115">The ID must be unique within the HTML document.</span></span> <span data-ttu-id="26ef5-116">Этот параметр экспортируется как атрибут ID в тег &lt;script.&gt;</span><span class="sxs-lookup"><span data-stu-id="26ef5-116">This parameter is exported as the ID attribute in the &lt;SCRIPT&gt; tag.</span></span></param>
+        <param name="Extended"><span data-ttu-id="26ef5-117">Необязательная <b>строка</b>.</span><span class="sxs-lookup"><span data-stu-id="26ef5-117">Optional <b>String</b>.</span></span> <span data-ttu-id="26ef5-118">Задает &lt;атрибуты, которые необходимо добавить в тег скрипта&gt; (атрибуты языка и идентификатора экспортируются с помощью параметров <paramref name="Language" /> и <paramref name="Id" /> не должны экспортироваться с помощью <paramref name="Extended" /> параметра).</span><span class="sxs-lookup"><span data-stu-id="26ef5-118">Specifies attributes that are to be added to the &lt;SCRIPT&gt; tag (LANGUAGE and ID attributes are exported through the <paramref name="Language" /> and <paramref name="Id" /> parameters and should not be exported through the <paramref name="Extended" /> parameter).</span></span> <span data-ttu-id="26ef5-119">Значение по умолчанию — пустая строка.</span><span class="sxs-lookup"><span data-stu-id="26ef5-119">The default is the empty string.</span></span> <span data-ttu-id="26ef5-120">Атрибуты разделяются пробелами, как в HTML-коде.</span><span class="sxs-lookup"><span data-stu-id="26ef5-120">Attributes are separated by spaces, the same as in HTML.</span></span> <span data-ttu-id="26ef5-121">Ведущее приложение Microsoft Office не предоставляет никаких средств проверки синтаксиса переданных атрибутов.</span><span class="sxs-lookup"><span data-stu-id="26ef5-121">The Microsoft Office host application doesn’t provide any means of checking the syntax of passed attributes.</span></span></param>
+        <param name="ScriptText"><span data-ttu-id="26ef5-122">Необязательная <b>строка</b>.</span><span class="sxs-lookup"><span data-stu-id="26ef5-122">Optional <b>String</b>.</span></span> <span data-ttu-id="26ef5-123">Задает текст, содержащийся в блоке скрипта.</span><span class="sxs-lookup"><span data-stu-id="26ef5-123">Specifies the text contained in a block of script.</span></span> <span data-ttu-id="26ef5-124">Значение по умолчанию — пустая строка.</span><span class="sxs-lookup"><span data-stu-id="26ef5-124">The default is the empty string.</span></span> <span data-ttu-id="26ef5-125">Ведущее приложение Microsoft Office не проверяет синтаксис скрипта.</span><span class="sxs-lookup"><span data-stu-id="26ef5-125">The Microsoft Office host application doesn’t check the syntax of the script.</span></span></param>
+        <summary><span data-ttu-id="26ef5-126">Добавляет <see cref="T:Microsoft.Office.Core.Script" /> объект в <see cref="T:Microsoft.Office.Core.Scripts" /> коллекцию одного из следующих объектов: объект <b>Document</b> или <b>Range</b> в Microsoft Word; Объект <b>листа</b> или <b>диаграммы</b> в Microsoft Excel; или объект <b>слайда</b>, <b>SlideRange</b>, <b>образец</b>слайдов или <b>образец</b> заголовков в Microsoft PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="26ef5-126">Adds a <see cref="T:Microsoft.Office.Core.Script" /> object to the <see cref="T:Microsoft.Office.Core.Scripts" /> collection of one of the following objects: a <b>Document</b> or <b>Range</b> object in Microsoft Word; a <b>Worksheet</b> or <b>Chart</b> object in Microsoft Excel; or a <b>Slide</b>, <b>SlideRange</b>, slide <b>Master</b>, or title <b>Master</b> object in Microsoft PowerPoint.</span></span></summary>
         <returns>To be added.</returns>
-        <remarks>
-          <span data-ttu-id="dfed0-127">
-            <para>Фигуры, связанной с блок скрипта не экспортировать или как фигуры в HTML-код при выводе на печать; только блок скрипта возвращает экспортированного.</para>
-            <para>Нельзя использовать метод <b>Add</b> для добавления точку привязки к диапазону слайдов PowerPoint, которая содержит более одного слайда.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-127">
-              <para>A shape associated with a script block isn’t exported or printed as a shape in HTML; only the script block returns exported.</para>
-              <para>You cannot use the <b>Add</b> method to add a script anchor to a PowerPoint slide range that contains more than one slide.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="26ef5-127"><para>Фигура, связанная с блоком сценариев, не экспортируется и не печатается как фигура в HTML; только блок скрипта возвращает экспортированные данные.</para> 
+          <para>Невозможно использовать метод <b>Add</b> , чтобы добавить привязку сценария к диапазону слайдов PowerPoint, содержащему более одного слайда.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="26ef5-127"><para>A shape associated with a script block isn’t exported or printed as a shape in HTML; only the script block returns exported.</para>
+          <para>You cannot use the <b>Add</b> method to add a script anchor to a PowerPoint slide range that contains more than one slide.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -247,12 +117,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dfed0-128">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-128">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="26ef5-128">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="26ef5-128">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -280,27 +145,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dfed0-129">Возвращает <b>целое число</b> , указывающее количество элементов в указанном семействе сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-129">Returns an <b>Integer</b> indicating the number of items in the specified collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="26ef5-129">Возвращает <b>целое</b> число, указывающее количество элементов в указанной коллекции.</span><span class="sxs-lookup"><span data-stu-id="26ef5-129">Returns an <b>Integer</b> indicating the number of items in the specified collection.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="dfed0-130">
-            <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-            <para>Возвращенное число — это число блоков скрипта в указанный документ. В Microsoft Word, Scripts.Count возвращает общее число в тексте, а в сочетании с плавающей ссылки сценария.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-130">
-              <para>Some of the content in this topic may not be applicable to some languages.</para>
-              <para>The count returned is the number of script blocks in the specified document. In Microsoft Word, Scripts.Count returns the total number of inline and floating script anchors combined.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="26ef5-130"><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Возвращенное число — это количество блоков скрипта в указанном документе. В Microsoft Word скрипты. Count возвращает общее число Объединенных привязок для встроенных и плавающих сценариев.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="26ef5-130"><para>Some of the content in this topic may not be applicable to some languages.</para>
+          <para>The count returned is the number of script blocks in the specified document. In Microsoft Word, Scripts.Count returns the total number of inline and floating script anchors combined.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -329,27 +180,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dfed0-131">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-131">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="26ef5-131">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="26ef5-131">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="dfed0-132">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.Scripts.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-132">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.Scripts.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="26ef5-132"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.Scripts.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="26ef5-132"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.Scripts.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -373,24 +212,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="dfed0-133">Удаляет указанный объект из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-133">Deletes the specified object from the collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="dfed0-134">
-            <para>Для <see cref="T:Microsoft.Office.Core.Scripts" /> коллекции с помощью метода <b>Delete</b> удаляет все сценарии из указанного документа Microsoft Word, лист Microsoft Excel или слайдов Microsoft PowerPoint. Фигуры в ведущем приложении представлены точку привязки. Таким образом объекта <b>Shape</b> , связанные с каждой привязку из типа <b>msoScriptAnchor</b> удаляется из коллекции <b>фигур</b> в Excel и PowerPoint и <b>InlineShapes</b> и коллекции <b>фигур</b> в Word.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-134">
-              <para>For the <see cref="T:Microsoft.Office.Core.Scripts" /> collection, using the <b>Delete</b> method removes all scripts from the specified Microsoft Word document, Microsoft Excel worksheet, or Microsoft PowerPoint slide. A script anchor is represented by a shape in the host application. Therefore, the <b>Shape</b> object associated with each script anchor of type <b>msoScriptAnchor</b> is deleted from the <b>Shapes</b> collection in Excel and PowerPoint and from the <b>InlineShapes</b> and <b>Shapes</b> collections in Word.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="26ef5-133">Удаляет указанный объект из коллекции.</span><span class="sxs-lookup"><span data-stu-id="26ef5-133">Deletes the specified object from the collection.</span></span></summary>
+        <remarks><span data-ttu-id="26ef5-134"><para>Для <see cref="T:Microsoft.Office.Core.Scripts" /> коллекции с помощью метода <b>Delete</b> удаляются все скрипты из указанного документа Microsoft Word, листа Microsoft Excel или слайда Microsoft PowerPoint. Привязка скрипта представлена фигурой в ведущем приложении. Таким образом, <b>объект Shape</b> , связанный с каждой привязкой сценария типа <b>мсоскриптанчор</b> , удаляется из коллекции <b>Shapes</b> в Excel и PowerPoint, а также из семейств <b>InlineShapes</b> и <b>Shapes</b> в Word.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="26ef5-134"><para>For the <see cref="T:Microsoft.Office.Core.Scripts" /> collection, using the <b>Delete</b> method removes all scripts from the specified Microsoft Word document, Microsoft Excel worksheet, or Microsoft PowerPoint slide. A script anchor is represented by a shape in the host application. Therefore, the <b>Shape</b> object associated with each script anchor of type <b>msoScriptAnchor</b> is deleted from the <b>Shapes</b> collection in Excel and PowerPoint and from the <b>InlineShapes</b> and <b>Shapes</b> collections in Word.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -448,39 +273,18 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="dfed0-135">Требуется <b>объект</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-135">Required <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="dfed0-136">Идентификатор или номер индекса сценария, должно быть возвращено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-136">The ID or index number of the script to be returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="dfed0-137">Возвращает элемент <see cref="T:Microsoft.Office.Core.Scripts" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-137">Returns a member of the <see cref="T:Microsoft.Office.Core.Scripts" /> collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="26ef5-135">Обязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="26ef5-135">Required <b>Object</b>.</span></span> <span data-ttu-id="26ef5-136">Идентификатор или номер индекса возвращаемого скрипта.</span><span class="sxs-lookup"><span data-stu-id="26ef5-136">The ID or index number of the script to be returned.</span></span></param>
+        <summary><span data-ttu-id="26ef5-137">Возвращает элемент <see cref="T:Microsoft.Office.Core.Scripts" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="26ef5-137">Returns a member of the <see cref="T:Microsoft.Office.Core.Scripts" /> collection.</span></span></summary>
         <returns>To be added.</returns>
-        <remarks>
-          <span data-ttu-id="dfed0-138">
-            <para>Принимает номер индекса или код сценария, приложение Microsoft Office для возврата. Метод <b>Item</b> принимает значение <b>объекта</b> , которое может принимать либо порядковый номер (значение индекса), которая возвращает скрипт, хранящиеся в этой позиции в коллекции <b>скриптов</b> , или <b>строковое</b> значение, представляющее имя или идентификатор сценарий</para> Коллекция 
-          <para><b>сценариев</b> содержит все сценарии в данный документ, в исходном порядке (порядок, в котором <see cref="T:Microsoft.Office.Core.Script" /> объекты отображаются в исходном файле). Сценарии сохраняются в исходном порядке независимо от их местоположения в документе, то есть, следует ли они в заголовке или к основному тексту.</para> Метод <b>Item</b> можно использовать для доступа к скрипта в коллекции <b>скриптов</b> с помощью идентификатора 
-          <para> &lt;СЦЕНАРИЙ&gt; тег. Для атрибута ID &lt;СЦЕНАРИЙ&gt; тег идентична <see cref="P:Microsoft.Office.Core.Script.Id" /> свойства объекта <b>скрипта</b> . Если существуют повторяющиеся или несколько идентификаторов в документе, а также можно использовать свойство <b>Id</b> объекта <b>сценария</b> доступ к сценария с помощью метода <b>Item</b> , Office возвращает первый сценарий, который соответствует Идентификатору; Дополнительные сценарии с таким же Идентификатором игнорируются.</para> Добавлен в коллекцию привязки 
-          <para>новый сценарий, добавляются в конец коллекции <b>скриптов</b> в том порядке, в котором они были добавлены в документ. Ссылки сценария оставаться в указанном порядке, пока не сохраняются как HTML, закрыт и затем снова открыть в ведущем приложении документа. Следующие шаги вызывает коллекции <b>скриптов</b> для индексации в том порядке, в котором отображаются ссылки сценария в документ, который может отличаться от порядка, в котором они были добавлены к нему. Таким образом, рекомендуется использовать свойство <b>Id</b> объекта <b>скрипта</b> , а не скрипт позицию в коллекции, для обеспечения надежной идентификации выполнения сценария.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-138">
-              <para>Accepts the index number or ID of the script you want the Microsoft Office application to return. The <b>Item</b> method accepts an <b>Object</b> value that can accept either an ordinal number (index value), which returns the script stored at that position in the <b>Scripts</b> collection, or a <b>String</b> value that represents the name or ID of the script.</para>
-              <para>The <b>Scripts</b> collection contains all of the scripts in a given document, in source order (the order in which <see cref="T:Microsoft.Office.Core.Script" /> objects appear in the source file). Scripts are maintained in source order regardless of their location in the document — that is, whether they’re in the header or the body text.</para>
-              <para>You can use the <b>Item</b> method to access a script in the <b>Scripts</b> collection by using the ID of the &lt;SCRIPT&gt; tag. The ID attribute of the &lt;SCRIPT&gt; tag is identical to the <see cref="P:Microsoft.Office.Core.Script.Id" /> property of the <b>Script</b> object. If there are duplicate or multiple IDs in the document and you use the <b>Id</b> property of a <b>Script</b> object to access a script by using the <b>Item</b> method, Office returns the first script that matches the ID; additional scripts with the same ID are ignored.</para>
-              <para>New script anchors added to the collection are appended to the end of the <b>Scripts</b> collection in the order in which they were added to the document. The script anchors remain in this order until the document is saved as HTML, closed, and then opened again in the host application. Following these steps causes the <b>Scripts</b> collection to be indexed in the order in which the script anchors appear in the document, which may be different than the order in which they were added to it. Therefore, you’re advised to use the <b>Id</b> property of the <b>Script</b> object, rather than the script’s position in the collection, to ensure positive identification of the script.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="26ef5-138"><para>Принимает номер индекса или идентификатор скрипта, который должно быть возвращено приложением Microsoft Office. Метод <b>Item</b> принимает значение <b>объекта</b> , которое может принимать либо порядковый номер (значение индекса), который возвращает скрипт, сохраненный в этой позиции в коллекции <b>Scripts</b> , либо <b>строковое</b> значение, представляющее имя или идентификатор скрипта.</para> 
+          <para>Коллекция <b>Scripts</b> содержит все скрипты в данном документе в исходном порядке (порядок, в котором <see cref="T:Microsoft.Office.Core.Script" /> объекты отображаются в исходном файле). Скрипты поддерживаются в исходном порядке независимо от их расположения в документе, то есть от того, находятся ли они в заголовке или основном тексте.</para> С 
+          <para>помощью метода <b>Item</b> можно получить доступ к скрипту в коллекции <b>Scripts</b> с помощью идентификатора тега &lt;script.&gt; Атрибут &lt;ID тега&gt; Script идентичен <see cref="P:Microsoft.Office.Core.Script.Id" /> свойству объекта <b>script</b> . Если в документе есть повторяющиеся или несколько идентификаторов, и вы используете свойство <b>ID</b> объекта <b>скрипта</b> для доступа к скрипту с помощью метода <b>Item</b> , Office возвращает первый скрипт, соответствующий идентификатору; Дополнительные скрипты с одинаковым ИДЕНТИФИКАТОРом игнорируются.</para> 
+          <para>Новые привязки сценариев, добавленные в коллекцию, добавляются в конец коллекции <b>Scripts</b> в том порядке, в котором они были добавлены в документ. Привязки сценариев сохраняются в указанном порядке до тех пор, пока документ не будет сохранен в виде HTML-кода, закрыт, а затем снова открыт в ведущем приложении. После выполнения этих действий коллекция <b>Scripts</b> будет индексироваться в том порядке, в котором в документе отображаются привязки сценариев, которые могут отличаться от порядка, в котором они были добавлены. Поэтому рекомендуется использовать свойство <b>ID</b> объекта <b>script</b> , а не позицию скрипта в коллекции, чтобы гарантировать положительную идентификацию скрипта.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="26ef5-138"><para>Accepts the index number or ID of the script you want the Microsoft Office application to return. The <b>Item</b> method accepts an <b>Object</b> value that can accept either an ordinal number (index value), which returns the script stored at that position in the <b>Scripts</b> collection, or a <b>String</b> value that represents the name or ID of the script.</para>
+          <para>The <b>Scripts</b> collection contains all of the scripts in a given document, in source order (the order in which <see cref="T:Microsoft.Office.Core.Script" /> objects appear in the source file). Scripts are maintained in source order regardless of their location in the document — that is, whether they’re in the header or the body text.</para>
+          <para>You can use the <b>Item</b> method to access a script in the <b>Scripts</b> collection by using the ID of the &lt;SCRIPT&gt; tag. The ID attribute of the &lt;SCRIPT&gt; tag is identical to the <see cref="P:Microsoft.Office.Core.Script.Id" /> property of the <b>Script</b> object. If there are duplicate or multiple IDs in the document and you use the <b>Id</b> property of a <b>Script</b> object to access a script by using the <b>Item</b> method, Office returns the first script that matches the ID; additional scripts with the same ID are ignored.</para>
+          <para>New script anchors added to the collection are appended to the end of the <b>Scripts</b> collection in the order in which they were added to the document. The script anchors remain in this order until the document is saved as HTML, closed, and then opened again in the host application. Following these steps causes the <b>Scripts</b> collection to be indexed in the order in which the script anchors appear in the document, which may be different than the order in which they were added to it. Therefore, you’re advised to use the <b>Id</b> property of the <b>Script</b> object, rather than the script’s position in the collection, to ensure positive identification of the script.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -506,12 +310,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dfed0-139">Возвращает <b>родительский</b> объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dfed0-139">Returns the <b>Parent</b> object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="26ef5-139">Возвращает <b>родительский</b> объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="26ef5-139">Returns the <b>Parent</b> object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

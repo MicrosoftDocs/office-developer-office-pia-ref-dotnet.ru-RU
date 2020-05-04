@@ -1,13 +1,5 @@
 <Type Name="MsoFileNewSection" FullName="Microsoft.Office.Core.MsoFileNewSection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="04f59ace0cc9317005497d00ec3bc83a24552d6a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661923" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFileNewSection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="04f59ace0cc9317005497d00ec3bc83a24552d6a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661923" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFileNewSection" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileNewSection extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileNewSection" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFileNewSection" />
@@ -20,24 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="bc5a5-101">Определяет раздел области задач для которого необходимо добавить в файл или когда ссылку на файл уже существует.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bc5a5-101">Specifies the task pane section to which to add a file or where the file reference exists.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="bc5a5-102">
-        <para>Используется с методом <b>Add</b> и метод <b>удаления</b> объекта <b>NewFile</b> .</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bc5a5-102">
-          <para>Used with the <b>Add</b> method and the <b>Remove</b> method of the <b>NewFile</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="9db3f-101">Указывает раздел области задач, в который добавляется файл, или ссылка на файл существует.</span><span class="sxs-lookup"><span data-stu-id="9db3f-101">Specifies the task pane section to which to add a file or where the file reference exists.</span></span></summary>
+    <remarks><span data-ttu-id="9db3f-102"><para>Используется с методом <b>Add</b> и методом <b>Remove</b> объекта <b>NewFile</b> .</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="9db3f-102"><para>Used with the <b>Add</b> method and the <b>Remove</b> method of the <b>NewFile</b> object.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoBottomSection">
@@ -56,12 +34,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5a5-103">Внизу раздела.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5a5-103">Bottom section.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9db3f-103">Раздел внизу.</span><span class="sxs-lookup"><span data-stu-id="9db3f-103">Bottom section.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoNew">
@@ -80,12 +53,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5a5-104">Новый раздел.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5a5-104">New section.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9db3f-104">Новый раздел.</span><span class="sxs-lookup"><span data-stu-id="9db3f-104">New section.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoNewfromExistingFile">
@@ -104,12 +72,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5a5-105">Новый из раздела существующий файл.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5a5-105">New from Existing File section.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9db3f-105">Раздел "создать из существующего файла".</span><span class="sxs-lookup"><span data-stu-id="9db3f-105">New from Existing File section.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoNewfromTemplate">
@@ -128,12 +91,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5a5-106">Новый из раздела шаблон.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5a5-106">New from Template section.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9db3f-106">Раздел "создать из шаблона".</span><span class="sxs-lookup"><span data-stu-id="9db3f-106">New from Template section.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoOpenDocument">
@@ -152,12 +110,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5a5-107">Откройте раздел документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5a5-107">Open Document section.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9db3f-107">Раздел "открыть документ".</span><span class="sxs-lookup"><span data-stu-id="9db3f-107">Open Document section.</span></span></summary>
       </Docs>
     </Member>
   </Members>

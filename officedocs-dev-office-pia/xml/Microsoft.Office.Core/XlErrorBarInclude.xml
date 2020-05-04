@@ -1,13 +1,5 @@
 <Type Name="XlErrorBarInclude" FullName="Microsoft.Office.Core.XlErrorBarInclude">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5951b71dc8dd7976f06a20e26a40b198b14205e1" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662488" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlErrorBarInclude" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5951b71dc8dd7976f06a20e26a40b198b14205e1" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662488" /></Metadata><TypeSignature Language="C#" Value="public enum XlErrorBarInclude" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlErrorBarInclude extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlErrorBarInclude" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlErrorBarInclude" />
@@ -25,16 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="4cb6c-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="4cb6c-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="4cb6c-102">Указывает, какие ошибки панели parts для включения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="4cb6c-102">Specifies which error-bar parts to include.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="d52ea-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="d52ea-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="d52ea-102">Указывает, какие части панели ошибок необходимо включить.</span><span class="sxs-lookup"><span data-stu-id="d52ea-102">Specifies which error-bar parts to include.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -54,16 +37,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4cb6c-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4cb6c-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="4cb6c-104">Оба диапазона положительных и отрицательных ошибки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4cb6c-104">Both positive and negative error range.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d52ea-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="d52ea-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="d52ea-104">Положительный и отрицательный диапазон ошибок.</span><span class="sxs-lookup"><span data-stu-id="d52ea-104">Both positive and negative error range.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlErrorBarIncludeMinusValues">
@@ -82,16 +56,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4cb6c-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4cb6c-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="4cb6c-106">Только отрицательные Ошибка диапазона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4cb6c-106">Only negative error range.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d52ea-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="d52ea-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="d52ea-106">Только отрицательные диапазоны ошибок.</span><span class="sxs-lookup"><span data-stu-id="d52ea-106">Only negative error range.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlErrorBarIncludeNone">
@@ -110,16 +75,7 @@
       </ReturnValue>
       <MemberValue>-4142</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4cb6c-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4cb6c-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="4cb6c-108">Диапазон панели без ошибок.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4cb6c-108">No error bar range.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d52ea-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="d52ea-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="d52ea-108">Диапазон погрешностей отсутствует.</span><span class="sxs-lookup"><span data-stu-id="d52ea-108">No error bar range.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlErrorBarIncludePlusValues">
@@ -138,16 +94,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="4cb6c-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4cb6c-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="4cb6c-110">Только диапазон положительных ошибки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="4cb6c-110">Only positive error range.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d52ea-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="d52ea-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="d52ea-110">Только положительный диапазон ошибок.</span><span class="sxs-lookup"><span data-stu-id="d52ea-110">Only positive error range.</span></span></summary>
       </Docs>
     </Member>
   </Members>

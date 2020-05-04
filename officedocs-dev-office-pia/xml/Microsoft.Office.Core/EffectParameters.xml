@@ -1,13 +1,5 @@
 <Type Name="EffectParameters" FullName="Microsoft.Office.Core.EffectParameters">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1a44fb7c58420c52d3631329f77537305bdb605c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662484" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface EffectParameters : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1a44fb7c58420c52d3631329f77537305bdb605c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662484" /></Metadata><TypeSignature Language="C#" Value="public interface EffectParameters : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract EffectParameters implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.EffectParameters" />
   <TypeSignature Language="VB.NET" Value="Public Interface EffectParameters&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,12 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="11a33-101">Представляет коллекцию объектов <see cref="T:Microsoft.Office.Core.EffectParameter" /> объектов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="11a33-101">Represents a collection of <see cref="T:Microsoft.Office.Core.EffectParameter" /> objects.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="b8c25-101">Представляет коллекцию <see cref="T:Microsoft.Office.Core.EffectParameter" /> объектов.</span><span class="sxs-lookup"><span data-stu-id="b8c25-101">Represents a collection of <see cref="T:Microsoft.Office.Core.EffectParameter" /> objects.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -68,25 +55,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11a33-102">Получает объект <b>приложения</b> , представляющий приложение-контейнер для объекта <b>EffectParameters</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11a33-102">Gets an <b>Application</b> object that represents the container application for the <b>EffectParameters</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b8c25-102">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта <b>EffectParameters</b> .</span><span class="sxs-lookup"><span data-stu-id="b8c25-102">Gets an <b>Application</b> object that represents the container application for the <b>EffectParameters</b> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="11a33-103">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11a33-103">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="b8c25-103"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b8c25-103"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -112,25 +85,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11a33-104">Возвращает количество число <see cref="T:Microsoft.Office.Core.EffectParameter" /> объектов, содержащихся в коллекции <b>EffectParameters</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11a33-104">Gets the count of the number of <see cref="T:Microsoft.Office.Core.EffectParameter" /> objects contained within the <b>EffectParameters</b> collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b8c25-104">Получает количество <see cref="T:Microsoft.Office.Core.EffectParameter" /> объектов, содержащихся в коллекции <b>EffectParameters</b> .</span><span class="sxs-lookup"><span data-stu-id="b8c25-104">Gets the count of the number of <see cref="T:Microsoft.Office.Core.EffectParameter" /> objects contained within the <b>EffectParameters</b> collection.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="11a33-105">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11a33-105">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="b8c25-105"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b8c25-105"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -159,25 +118,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11a33-106">Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>EffectParameters</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11a33-106">Gets a 32-bit integer that indicates the application in which the <b>EffectParameters</b> object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b8c25-106">Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>EffectParameters</b> .</span><span class="sxs-lookup"><span data-stu-id="b8c25-106">Gets a 32-bit integer that indicates the application in which the <b>EffectParameters</b> object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="11a33-107">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11a33-107">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="b8c25-107"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b8c25-107"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -208,12 +153,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>
-          <span data-ttu-id="11a33-108">Возвращает <see cref="T:System.Collections.IEnumerator" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11a33-108">Returns <see cref="T:System.Collections.IEnumerator" />.</span>
-          </span>
-        </returns>
+        <returns><span data-ttu-id="b8c25-108">Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</span><span class="sxs-lookup"><span data-stu-id="b8c25-108">Returns <see cref="T:System.Collections.IEnumerator" />.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -243,18 +183,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="11a33-109">Указывает, либо целого числа, представляющего индекс или строка, представляющая предлагаемое место проведения <see cref="T:Microsoft.Office.Core.EffectParameter" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11a33-109">Specifies either an integer representing the index or a string representing the location of the <see cref="T:Microsoft.Office.Core.EffectParameter" />.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="11a33-110">Получает <see cref="T:Microsoft.Office.Core.EffectParameter" /> объекта по указанному индексу или с указанным уникальным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11a33-110">Gets an <see cref="T:Microsoft.Office.Core.EffectParameter" /> object at the specified index or with the specified unique identifier.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="b8c25-109">Задает либо целое число, представляющее индекс, либо строку, <see cref="T:Microsoft.Office.Core.EffectParameter" />представляющую расположение объекта.</span><span class="sxs-lookup"><span data-stu-id="b8c25-109">Specifies either an integer representing the index or a string representing the location of the <see cref="T:Microsoft.Office.Core.EffectParameter" />.</span></span></param>
+        <summary><span data-ttu-id="b8c25-110">Возвращает <see cref="T:Microsoft.Office.Core.EffectParameter" /> объект по указанному индексу или по указанному уникальному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="b8c25-110">Gets an <see cref="T:Microsoft.Office.Core.EffectParameter" /> object at the specified index or with the specified unique identifier.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

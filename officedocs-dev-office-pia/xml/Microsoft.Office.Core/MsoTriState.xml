@@ -1,13 +1,5 @@
 <Type Name="MsoTriState" FullName="Microsoft.Office.Core.MsoTriState">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bf31b193dfd9e09e78ed4387493375a6fb02fe77" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662040" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoTriState" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bf31b193dfd9e09e78ed4387493375a6fb02fe77" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662040" /></Metadata><TypeSignature Language="C#" Value="public enum MsoTriState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTriState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTriState" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoTriState" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="127c7-101">Задает логическое значение три состояния.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="127c7-101">Specifies a tri-state Boolean value.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="72f64-101">Задает логическое значение с тремя состояниями.</span><span class="sxs-lookup"><span data-stu-id="72f64-101">Specifies a tri-state Boolean value.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="127c7-102">Не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="127c7-102">Not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72f64-102">Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="72f64-102">Not supported.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoFalse">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="127c7-103">false</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="127c7-103">False.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72f64-103">Неверно.</span><span class="sxs-lookup"><span data-stu-id="72f64-103">False.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTriStateMixed">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="127c7-104">Не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="127c7-104">Not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72f64-104">Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="72f64-104">Not supported.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTriStateToggle">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>-3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="127c7-105">Не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="127c7-105">Not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72f64-105">Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="72f64-105">Not supported.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTrue">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>-1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="127c7-106">Значение true.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="127c7-106">True.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="72f64-106">Верно.</span><span class="sxs-lookup"><span data-stu-id="72f64-106">True.</span></span></summary>
       </Docs>
     </Member>
   </Members>

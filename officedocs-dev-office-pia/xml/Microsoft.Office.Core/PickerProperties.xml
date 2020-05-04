@@ -1,13 +1,5 @@
 <Type Name="PickerProperties" FullName="Microsoft.Office.Core.PickerProperties">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6afe0a8dde00da40e9c69c6ef02d207366e90bd4" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662551" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PickerProperties : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6afe0a8dde00da40e9c69c6ef02d207366e90bd4" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662551" /></Metadata><TypeSignature Language="C#" Value="public interface PickerProperties : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PickerProperties implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PickerProperties" />
   <TypeSignature Language="VB.NET" Value="Public Interface PickerProperties&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,12 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="b24ed-101">Коллекцию <see cref="T:Microsoft.Office.Core.PickerProperty" /> объектов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b24ed-101">A collection of <see cref="T:Microsoft.Office.Core.PickerProperty" /> objects.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="b0298-101">Коллекция <see cref="T:Microsoft.Office.Core.PickerProperty" /> объектов.</span><span class="sxs-lookup"><span data-stu-id="b0298-101">A collection of <see cref="T:Microsoft.Office.Core.PickerProperty" /> objects.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -67,38 +54,11 @@
         <Parameter Name="Type" Type="Microsoft.Office.Core.MsoPickerField" />
       </Parameters>
       <Docs>
-        <param name="Id">
-          <span data-ttu-id="b24ed-102">Задает имя ключа свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-102">Specifies the key name of the property.</span>
-          </span>
-        </param>
-        <param name="Value">
-          <span data-ttu-id="b24ed-103">Задает значение свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-103">Specifies the value of the property.</span>
-          </span>
-        </param>
-        <param name="Type">
-          <span data-ttu-id="b24ed-104">
-            <see cref="T:Microsoft.Office.Core.MsoPickerField" />который указывает тип свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-104">
-              <see cref="T:Microsoft.Office.Core.MsoPickerField" /> that specifies the type of the property.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b24ed-105">Добавляет <see cref="T:Microsoft.Office.Core.PickerProperty" /> объект в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-105">Adds a <see cref="T:Microsoft.Office.Core.PickerProperty" /> object to the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b24ed-106">Возвращает <see cref="T:Microsoft.Office.Core.PickerProperty" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-106">Returns <see cref="T:Microsoft.Office.Core.PickerProperty" />.</span>
-          </span>
-        </returns>
+        <param name="Id"><span data-ttu-id="b0298-102">Задает имя ключа свойства.</span><span class="sxs-lookup"><span data-stu-id="b0298-102">Specifies the key name of the property.</span></span></param>
+        <param name="Value"><span data-ttu-id="b0298-103">Указывает значение свойства.</span><span class="sxs-lookup"><span data-stu-id="b0298-103">Specifies the value of the property.</span></span></param>
+        <param name="Type"><span data-ttu-id="b0298-104"><see cref="T:Microsoft.Office.Core.MsoPickerField" />, задающий тип свойства.</span><span class="sxs-lookup"><span data-stu-id="b0298-104"><see cref="T:Microsoft.Office.Core.MsoPickerField" /> that specifies the type of the property.</span></span></param>
+        <summary><span data-ttu-id="b0298-105">Добавляет <see cref="T:Microsoft.Office.Core.PickerProperty" /> объект в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="b0298-105">Adds a <see cref="T:Microsoft.Office.Core.PickerProperty" /> object to the collection.</span></span></summary>
+        <returns><span data-ttu-id="b0298-106">Возвращает <see cref="T:Microsoft.Office.Core.PickerProperty" />значение.</span><span class="sxs-lookup"><span data-stu-id="b0298-106">Returns <see cref="T:Microsoft.Office.Core.PickerProperty" />.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,25 +88,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b24ed-107">Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>PickerProperties</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-107">Gets a <see cref="T:System.Object" /> object that represents the container application for the <b>PickerProperties</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0298-107">Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>PickerProperties</b> .</span><span class="sxs-lookup"><span data-stu-id="b0298-107">Gets a <see cref="T:System.Object" /> object that represents the container application for the <b>PickerProperties</b> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b24ed-108">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-108">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="b0298-108"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b0298-108"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -172,25 +118,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b24ed-109">Возвращает количество число <see cref="T:Microsoft.Office.Core.PickerProperty" /> объектов, содержащихся в коллекции <b>PickerProperties</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-109">Gets the count of the number of <see cref="T:Microsoft.Office.Core.PickerProperty" /> objects contained within the <b>PickerProperties</b> collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0298-109">Получает количество <see cref="T:Microsoft.Office.Core.PickerProperty" /> объектов, содержащихся в коллекции <b>PickerProperties</b> .</span><span class="sxs-lookup"><span data-stu-id="b0298-109">Gets the count of the number of <see cref="T:Microsoft.Office.Core.PickerProperty" /> objects contained within the <b>PickerProperties</b> collection.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b24ed-110">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-110">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="b0298-110"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b0298-110"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -219,25 +151,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b24ed-111">Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>PickerProperties</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-111">Gets a 32-bit integer that indicates the application in which the <b>PickerProperties</b> object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0298-111">Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>PickerProperties</b> .</span><span class="sxs-lookup"><span data-stu-id="b0298-111">Gets a 32-bit integer that indicates the application in which the <b>PickerProperties</b> object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b24ed-112">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-112">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="b0298-112"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b0298-112"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -267,18 +185,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b24ed-113">Возвращает перечислитель, который выполняет итерацию по коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-113">Returns an enumerator that iterates through the collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b24ed-114">Возвращает <see cref="T:System.Collections.IEnumerator" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-114">Returns <see cref="T:System.Collections.IEnumerator" />.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="b0298-113">Возвращает перечислитель, который выполняет итерацию по коллекции.</span><span class="sxs-lookup"><span data-stu-id="b0298-113">Returns an enumerator that iterates through the collection.</span></span></summary>
+        <returns><span data-ttu-id="b0298-114">Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</span><span class="sxs-lookup"><span data-stu-id="b0298-114">Returns <see cref="T:System.Collections.IEnumerator" />.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -308,18 +216,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="b24ed-115">Указывает целое число, представляющее индекс <see cref="T:Microsoft.Office.Core.PickerProperty" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-115">Specifies an integer representing the index of the <see cref="T:Microsoft.Office.Core.PickerProperty" /> object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b24ed-116">Получает <see cref="T:Microsoft.Office.Core.PickerProperty" /> объекта по указанному индексу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-116">Gets a <see cref="T:Microsoft.Office.Core.PickerProperty" /> object at the specified index.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="b0298-115">Задает целое число, представляющее индекс <see cref="T:Microsoft.Office.Core.PickerProperty" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="b0298-115">Specifies an integer representing the index of the <see cref="T:Microsoft.Office.Core.PickerProperty" /> object.</span></span></param>
+        <summary><span data-ttu-id="b0298-116">Получает <see cref="T:Microsoft.Office.Core.PickerProperty" /> объект по указанному индексу.</span><span class="sxs-lookup"><span data-stu-id="b0298-116">Gets a <see cref="T:Microsoft.Office.Core.PickerProperty" /> object at the specified index.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -347,18 +245,8 @@
         <Parameter Name="Id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Id">
-          <span data-ttu-id="b24ed-117">Задает идентификатор <see cref="T:Microsoft.Office.Core.PickerProperty" /> для удаления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-117">Specifies the identifier of the <see cref="T:Microsoft.Office.Core.PickerProperty" /> to remove.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b24ed-118">Удаляет <see cref="T:Microsoft.Office.Core.PickerProperty" /> из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b24ed-118">Removes a <see cref="T:Microsoft.Office.Core.PickerProperty" /> from the collection.</span>
-          </span>
-        </summary>
+        <param name="Id"><span data-ttu-id="b0298-117">Указывает идентификатор удаляемого объекта <see cref="T:Microsoft.Office.Core.PickerProperty" /> .</span><span class="sxs-lookup"><span data-stu-id="b0298-117">Specifies the identifier of the <see cref="T:Microsoft.Office.Core.PickerProperty" /> to remove.</span></span></param>
+        <summary><span data-ttu-id="b0298-118">Удаляет объект <see cref="T:Microsoft.Office.Core.PickerProperty" /> из коллекции.</span><span class="sxs-lookup"><span data-stu-id="b0298-118">Removes a <see cref="T:Microsoft.Office.Core.PickerProperty" /> from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

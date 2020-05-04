@@ -1,13 +1,5 @@
 <Type Name="MsoPresetGradientType" FullName="Microsoft.Office.Core.MsoPresetGradientType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a8e898a5e2998b80fa69f0c1373fafdec1aa2a63" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661870" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetGradientType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a8e898a5e2998b80fa69f0c1373fafdec1aa2a63" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661870" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetGradientType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetGradientType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetGradientType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetGradientType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="34776-101">Указывает, которой предопределенное градиента для заливки фигуры.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="34776-101">Specifies which predefined gradient to use to fill a shape.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="24e10-101">Указывает, какой предопределенный градиент используется для заливки фигуры.</span><span class="sxs-lookup"><span data-stu-id="24e10-101">Specifies which predefined gradient to use to fill a shape.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-102">Градиентные латунным.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-102">Brass gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-102">Брасс градиент.</span><span class="sxs-lookup"><span data-stu-id="24e10-102">Brass gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientCalmWater">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-103">Покой градиентной воды.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-103">Calm Water gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-103">КАЛМ воды.</span><span class="sxs-lookup"><span data-stu-id="24e10-103">Calm Water gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientChrome">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-104">Chrome градиент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-104">Chrome gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-104">Градиент хрома.</span><span class="sxs-lookup"><span data-stu-id="24e10-104">Chrome gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientChromeII">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-105">Градиентные II хрома.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-105">Chrome II gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-105">Градиент Chrome II.</span><span class="sxs-lookup"><span data-stu-id="24e10-105">Chrome II gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientDaybreak">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-106">Градиентные восходе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-106">Daybreak gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-106">Дайбреак градиент.</span><span class="sxs-lookup"><span data-stu-id="24e10-106">Daybreak gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientDesert">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-107">Где в градиент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-107">Desert gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-107">Градиентная заливка.</span><span class="sxs-lookup"><span data-stu-id="24e10-107">Desert gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientEarlySunset">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-108">Первых Закат градиент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-108">Early Sunset gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-108">Ранний градиент с закатом.</span><span class="sxs-lookup"><span data-stu-id="24e10-108">Early Sunset gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientFire">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-109">Градиентные пожарной.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-109">Fire gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-109">Порождает градиентную заливку.</span><span class="sxs-lookup"><span data-stu-id="24e10-109">Fire gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientFog">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-110">Градиентные тумана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-110">Fog gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-110">Градиент тумана.</span><span class="sxs-lookup"><span data-stu-id="24e10-110">Fog gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientGold">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-111">Градиентные уровня Gold.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-111">Gold gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-111">Золотой градиент.</span><span class="sxs-lookup"><span data-stu-id="24e10-111">Gold gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientGoldII">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-112">Градиентные II уровня Gold.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-112">Gold II gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-112">Градиент Gold II.</span><span class="sxs-lookup"><span data-stu-id="24e10-112">Gold II gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientHorizon">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-113">Градиентные горизонта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-113">Horizon gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-113">Градиентная шкала горизонта.</span><span class="sxs-lookup"><span data-stu-id="24e10-113">Horizon gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientLateSunset">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-114">Градиентные Закат позднее.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-114">Late Sunset gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-114">Градиент с поздним закатом.</span><span class="sxs-lookup"><span data-stu-id="24e10-114">Late Sunset gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientMahogany">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-115">Градиентные Красное дерево.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-115">Mahogany gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-115">Махогани градиент.</span><span class="sxs-lookup"><span data-stu-id="24e10-115">Mahogany gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientMoss">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-116">Градиентные MOSS.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-116">Moss gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-116">Градиента MOSS.</span><span class="sxs-lookup"><span data-stu-id="24e10-116">Moss gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientNightfall">
@@ -405,12 +317,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-117">Градиентные наступления сумерек.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-117">Nightfall gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-117">Нигхтфалл градиент.</span><span class="sxs-lookup"><span data-stu-id="24e10-117">Nightfall gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientOcean">
@@ -429,12 +336,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-118">Градиентные океане.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-118">Ocean gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-118">Градиент морской цветности.</span><span class="sxs-lookup"><span data-stu-id="24e10-118">Ocean gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientParchment">
@@ -453,12 +355,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-119">Градиентные пергамента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-119">Parchment gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-119">Парчмент градиент.</span><span class="sxs-lookup"><span data-stu-id="24e10-119">Parchment gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientPeacock">
@@ -477,12 +374,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-120">Градиентные Петров.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-120">Peacock gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-120">Петровым градиентом.</span><span class="sxs-lookup"><span data-stu-id="24e10-120">Peacock gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientRainbow">
@@ -501,12 +393,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-121">Радуга градиент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-121">Rainbow gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-121">Градиент Радуга.</span><span class="sxs-lookup"><span data-stu-id="24e10-121">Rainbow gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientRainbowII">
@@ -525,12 +412,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-122">Градиентные II Радуга.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-122">Rainbow II gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-122">Градиент Радуга II.</span><span class="sxs-lookup"><span data-stu-id="24e10-122">Rainbow II gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientSapphire">
@@ -549,12 +431,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-123">Градиентные сапфир.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-123">Sapphire gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-123">Сапфире градиент.</span><span class="sxs-lookup"><span data-stu-id="24e10-123">Sapphire gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientSilver">
@@ -573,12 +450,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-124">Серебр градиент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-124">Silver gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-124">Серебристый градиент.</span><span class="sxs-lookup"><span data-stu-id="24e10-124">Silver gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientWheat">
@@ -597,12 +469,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-125">Градиентные зерна.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-125">Wheat gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-125">Вхеат градиент.</span><span class="sxs-lookup"><span data-stu-id="24e10-125">Wheat gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPresetGradientMixed">
@@ -621,12 +488,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="34776-126">Смешанные градиент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="34776-126">Mixed gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="24e10-126">Смешанный градиент.</span><span class="sxs-lookup"><span data-stu-id="24e10-126">Mixed gradient.</span></span></summary>
       </Docs>
     </Member>
   </Members>

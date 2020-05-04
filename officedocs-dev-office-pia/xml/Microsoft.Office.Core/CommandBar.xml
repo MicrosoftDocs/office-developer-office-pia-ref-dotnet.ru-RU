@@ -1,13 +1,5 @@
 <Type Name="CommandBar" FullName="Microsoft.Office.Core.CommandBar">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c980dea73fca8df47cc1990502fab8978b074e51" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662077" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CommandBar : Microsoft.Office.Core._IMsoOleAccDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c980dea73fca8df47cc1990502fab8978b074e51" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662077" /></Metadata><TypeSignature Language="C#" Value="public interface CommandBar : Microsoft.Office.Core._IMsoOleAccDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CommandBar implements class Microsoft.Office.Core._IMsoOleAccDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBar" />
   <TypeSignature Language="VB.NET" Value="Public Interface CommandBar&#xA;Implements _IMsoOleAccDispObj" />
@@ -30,30 +22,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="d5b2d-101">Представляет панель команд в приложении контейнера.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d5b2d-101">Represents a command bar in the container application.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="d5b2d-102">
-        <para>Объект <b>CommandBar</b> входит в состав <see cref="T:Microsoft.Office.Core._CommandBars" /> семейства.</para>
-        <para>Использования <b>CommandBars</b>(<paramref name="index" />), где <paramref name="index" /> — имя или номер индекса панели команд, чтобы возвратить объект <b>CommandBar</b> .</para>
-        <para>Имя или номер индекса можно использовать для указания строка меню или панели инструментов в списке Доступные меню и панели инструментов в приложение-контейнер. Тем не менее, необходимо использовать имя для указания меню, контекстное меню или подменю (каждый из которых представлены объекты <b>CommandBar</b> ).</para>
-        <para>Если двух или нескольких настраиваемых меню и подменю имеет то же имя, <b>CommandBars</b>(<paramref name="index" />) возвращает первый. Чтобы вернуть правильное меню или подменю, найдите пункта контекстного меню, который отображает этого меню. Применить <see cref="P:Microsoft.Office.Core.CommandBarPopup.CommandBar" /> свойство для пункта контекстного меню для возврата панели команд, который представляет это меню.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d5b2d-102">
-          <para>The <b>CommandBar</b> object is a member of the <see cref="T:Microsoft.Office.Core._CommandBars" /> collection.</para>
-          <para>Use <b>CommandBars</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number of a command bar, to return a single <b>CommandBar</b> object.</para>
-          <para>You can use a name or index number to specify a menu bar or toolbar in the list of available menu bars and toolbars in the container application. However, you must use a name to specify a menu, shortcut menu, or submenu (all of which are represented by <b>CommandBar</b> objects).</para>
-          <para>If two or more custom menus or submenus have the same name, <b>CommandBars</b>(<paramref name="index" />) returns the first one. To ensure that you return the correct menu or submenu, locate the pop-up control that displays that menu. Then apply the <see cref="P:Microsoft.Office.Core.CommandBarPopup.CommandBar" /> property to the pop-up control to return the command bar that represents that menu.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="09094-101">Представляет панель команд в приложении контейнера.</span><span class="sxs-lookup"><span data-stu-id="09094-101">Represents a command bar in the container application.</span></span></summary>
+    <remarks><span data-ttu-id="09094-102"><para>Объект <b>CommandBar</b> является членом <see cref="T:Microsoft.Office.Core._CommandBars" /> коллекции.</para> 
+      <para>Используйте <b>CommandBars</b>(<paramref name="index" />), где <paramref name="index" /> — это имя или номер индекса панели команд, чтобы вернуть один объект <b>CommandBar</b> .</para> 
+      <para>Можно использовать имя или номер индекса для указания строки меню или панели инструментов в списке доступных строк меню и панелей инструментов в приложении контейнера. Однако необходимо использовать имя, чтобы указать меню, контекстное меню или подменю (все из них представлены объектами <b>CommandBar</b> ).</para> 
+      <para>Если два или более настраиваемых меню или подменю имеют одно и то же <b>CommandBars</b>имя, CommandBars<paramref name="index" />() возвращает первое из них. Чтобы убедиться, что вы возвращаете нужное меню или подменю, выберите всплывающий элемент управления, который отображает это меню. Затем примените <see cref="P:Microsoft.Office.Core.CommandBarPopup.CommandBar" /> свойство к всплывающему элементу управления, чтобы возвратить панель команд, представляющую меню.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="09094-102"><para>The <b>CommandBar</b> object is a member of the <see cref="T:Microsoft.Office.Core._CommandBars" /> collection.</para>
+      <para>Use <b>CommandBars</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number of a command bar, to return a single <b>CommandBar</b> object.</para>
+      <para>You can use a name or index number to specify a menu bar or toolbar in the list of available menu bars and toolbars in the container application. However, you must use a name to specify a menu, shortcut menu, or submenu (all of which are represented by <b>CommandBar</b> objects).</para>
+      <para>If two or more custom menus or submenus have the same name, <b>CommandBars</b>(<paramref name="index" />) returns the first one. To ensure that you return the correct menu or submenu, locate the pop-up control that displays that menu. Then apply the <see cref="P:Microsoft.Office.Core.CommandBarPopup.CommandBar" /> property to the pop-up control to return the command bar that represents that menu.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="accChild">
@@ -89,12 +67,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-103">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-103">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-103">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-103">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -128,12 +101,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-104">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-104">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-104">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-104">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -171,12 +139,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-105">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-105">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-105">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-105">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -214,12 +177,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-106">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-106">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-106">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-106">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -253,12 +211,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-107">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-107">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-107">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-107">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -291,12 +244,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-108">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-108">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-108">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-108">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -334,12 +282,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-109">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-109">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-109">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-109">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -379,12 +322,7 @@
       <Docs>
         <param name="pszHelpFile">To be added.</param>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-110">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-110">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-110">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-110">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -421,12 +359,7 @@
       <Docs>
         <param name="xLeft">To be added.</param>
         <param name="yTop">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-111">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-111">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-111">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-111">Reserved for internal use.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -464,12 +397,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-112">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-112">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-112">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-112">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -511,12 +439,7 @@
         <param name="pcxWidth">To be added.</param>
         <param name="pcyHeight">To be added.</param>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-113">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-113">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-113">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-113">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -559,12 +482,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-114">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-114">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-114">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-114">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -634,12 +552,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-115">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-115">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-115">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-115">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -677,12 +590,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-116">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-116">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-116">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-116">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -718,12 +626,7 @@
       <Docs>
         <param name="flagsSelect">To be added.</param>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-117">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-117">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-117">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-117">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -756,12 +659,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-118">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-118">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-118">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-118">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -799,12 +697,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-119">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-119">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-119">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-119">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -848,12 +741,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="d5b2d-120">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-120">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-120">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-120">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -884,31 +772,17 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-121">Определяет, если отдельные меню включено использование адаптивный меню.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-121">Determines if an individual menu is enabled to use adaptive menus.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-121">Определяет, включено ли в отдельном меню использование адаптивных меню.</span><span class="sxs-lookup"><span data-stu-id="09094-121">Determines if an individual menu is enabled to use adaptive menus.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5b2d-122">
-            <para>Это свойство возвращает <b>значение True,</b> Если отдельные меню разрешено использовать адаптивный меню. <b>Значение false,</b> Если это не так.</para>
-            <para>Это свойство не будет работать во время <see cref="P:Microsoft.Office.Core._CommandBars.AdaptiveMenus" /> задано значение <b>False</b>.</para>
-            <para>Это свойство или снятии управления "флажок" для параметра для отображения отдельных меню как полный или личные. Только недавно использовавшихся подменю отображаются в меню, если это свойство имеет значение <b>True</b>. Все подменю отображаться Если это свойство имеет значение <b>False</b>.</para>
-            <para>Это свойство работает только в том случае, если панель команд указанного является <b>MSOBarTypePopup</b>. Ошибка выполнения возвращаются при использовании этого свойства с другого типа командной строки, например <b>MSOBarTypeMenuBar</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-122">
-              <para>This property returns <b>True</b> if an individual menu is enabled to use adaptive menus; <b>False</b> if not.</para>
-              <para>This property will not function while the <see cref="P:Microsoft.Office.Core._CommandBars.AdaptiveMenus" /> property is set to <b>False</b>.</para>
-              <para>This property checks or unchecks the check box control for the option to show an individual menu as full or personalized. Only recently used submenus show up in a menu if this property is set to <b>True</b>. All submenus show up if this property is set to <b>False</b>.</para>
-              <para>This property works only when the specified command bar is the <b>MSOBarTypePopup</b>. A runtime error is returned when this property is used with another command bar type such as <b>MSOBarTypeMenuBar</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-122"><para>Это свойство возвращает <b>значение true</b> , если для отдельного меню включено использование адаптивных меню; В противном случае — <b>false</b> .</para> 
+          <para>Это свойство не будет работать, пока <see cref="P:Microsoft.Office.Core._CommandBars.AdaptiveMenus" /> свойству не будет присвоено <b>значение false</b>.</para> 
+          <para>Это свойство проверяет или снимает элемент управления флажком, чтобы отобразить отдельное меню в полном или персонализированном виде. Если для этого свойства задано <b>значение true</b>, в меню отображаются только недавно использованные подменю. Все подменю отображаются, если для этого свойства задано значение <b>false</b>.</para> 
+          <para>Это свойство работает только в том случае, если указанная панель команд имеет значение <b>мсобартипепопуп</b>. При использовании этого свойства с другим типом панели команд, например <b>мсобартипеменубар</b>, возвращается ошибка времени выполнения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-122"><para>This property returns <b>True</b> if an individual menu is enabled to use adaptive menus; <b>False</b> if not.</para>
+          <para>This property will not function while the <see cref="P:Microsoft.Office.Core._CommandBars.AdaptiveMenus" /> property is set to <b>False</b>.</para>
+          <para>This property checks or unchecks the check box control for the option to show an individual menu as full or personalized. Only recently used submenus show up in a menu if this property is set to <b>True</b>. All submenus show up if this property is set to <b>False</b>.</para>
+          <para>This property works only when the specified command bar is the <b>MSOBarTypePopup</b>. A runtime error is returned when this property is used with another command bar type such as <b>MSOBarTypeMenuBar</b>.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -937,12 +811,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-123">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-123">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-123">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="09094-123">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -970,25 +839,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-124">Определяет, если панель команд указанного или элемента управления панели команд панель встроенных команд или элемент управления контейнера приложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-124">Determines if the specified command bar or command bar control is a built-in command bar or control of the container application.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-124">Определяет, является ли указанная панель команд или элемент управления "панель команд" встроенной панелью команд или элементом управления приложения контейнера.</span><span class="sxs-lookup"><span data-stu-id="09094-124">Determines if the specified command bar or command bar control is a built-in command bar or control of the container application.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5b2d-125">
-            <para>Данное свойство возвращает <b>значение True,</b> Если панель команд указанного панель встроенных команд приложения контейнера; <b>Значение false,</b> Если это пользовательской панели команд.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-125">
-              <para>This property returns <b>True</b> if the specified command bar is a built-in command bar of the container application; <b>False</b> if it's a custom command bar.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-125"><para>Это свойство возвращает <b>значение true</b> , если указанная панель команд является встроенной строкой командного приложения контейнера. <b>False</b> , если это настраиваемая панель команд.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-125"><para>This property returns <b>True</b> if the specified command bar is a built-in command bar of the container application; <b>False</b> if it's a custom command bar.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Context">
@@ -1017,27 +872,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-126">Возвращает или задает строку, которая определяет сохранения панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-126">Returns or sets a string that determines where a command bar will be saved.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-126">Возвращает или задает строку, которая определяет, где будет сохранена панель команд.</span><span class="sxs-lookup"><span data-stu-id="09094-126">Returns or sets a string that determines where a command bar will be saved.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5b2d-127">
-            <para>Возвращенная строка определены и обрабатываются в приложении.</para>
-            <para>Можно задать свойство <b>Context</b> только для настраиваемые панели команд. Это свойство завершится ошибкой, если приложение не распознает строки контекста, или если приложение не поддерживает изменение строки контекста программными средствами.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-127">
-              <para>The returned string is defined and interpreted by the application.</para>
-              <para>You can set the <b>Context</b> property only for custom command bars. This property will fail if the application doesn't recognize the context string, or if the application doesn't support changing context strings programmatically.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-127"><para>Возвращаемая строка определена и интерпретируется приложением.</para> 
+          <para>Свойство <b>context</b> можно задать только для настраиваемых панелей команд. Это свойство завершится с ошибками, если приложение не распознает строку контекста, или если приложение не поддерживает программное изменение контекстных строк.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-127"><para>The returned string is defined and interpreted by the application.</para>
+          <para>You can set the <b>Context</b> property only for custom command bars. This property will fail if the application doesn't recognize the context string, or if the application doesn't support changing context strings programmatically.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Controls">
@@ -1063,12 +904,7 @@
         <ReturnType>Microsoft.Office.Core.CommandBarControls</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-128">Возвращает <see cref="T:Microsoft.Office.Core.CommandBarControls" /> объект, представляющий все элементы управления на панель команд или контекстного меню.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-128">Returns a <see cref="T:Microsoft.Office.Core.CommandBarControls" /> object that represents all the controls on a command bar or pop-up control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-128">Возвращает <see cref="T:Microsoft.Office.Core.CommandBarControls" /> объект, который представляет все элементы управления на панели команд или всплывающем элементе управления.</span><span class="sxs-lookup"><span data-stu-id="09094-128">Returns a <see cref="T:Microsoft.Office.Core.CommandBarControls" /> object that represents all the controls on a command bar or pop-up control.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1099,27 +935,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-129">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-129">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-129">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="09094-129">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5b2d-130">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку «MSWD»; в созданную в Microsoft Excel данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.CommandBar.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-130">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string "MSWD"; in created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.CommandBar.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-130"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку "МСВД"; в созданном в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.CommandBar.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-130"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string "MSWD"; in created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.CommandBar.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -1143,12 +967,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-131">Удаляет указанный объект из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-131">Deletes the specified object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-131">Удаляет указанный объект из коллекции.</span><span class="sxs-lookup"><span data-stu-id="09094-131">Deletes the specified object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1178,18 +997,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-132">Определяет, если панель команд указанного или включен.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-132">Determines if the specified command bar or is enabled.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d5b2d-133">Это свойство возвращает <b>значение True,</b> Если включена панель команд указанного; <b>Значение false,</b> Если этот параметр не включен. Это свойство в <b>значение True</b> , имя панели команд, отображаются в списке доступных командных строк.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-133">This property returns <b>True</b> if the specified command bar is enabled; <b>False</b> if not enabled.Setting this property to <b>True</b> causes the name of the command bar to appear in the list of available command bars.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="09094-132">Определяет, включена ли указанная панель команд или нет.</span><span class="sxs-lookup"><span data-stu-id="09094-132">Determines if the specified command bar or is enabled.</span></span></summary>
+        <value><span data-ttu-id="09094-133">Это свойство возвращает <b>значение true</b> , если указанная панель команд включена; <b>Значение false</b> , если параметр не включен. Если для этого свойства задано <b>значение true</b> , имя панели команд будет отображаться в списке доступных панелей команд.</span><span class="sxs-lookup"><span data-stu-id="09094-133">This property returns <b>True</b> if the specified command bar is enabled; <b>False</b> if not enabled.Setting this property to <b>True</b> causes the name of the command bar to appear in the list of available command bars.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1219,91 +1028,16 @@
         <Parameter Name="Recursive" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Type">
-          <span data-ttu-id="d5b2d-134">Необязательные <see cref="T:Microsoft.Office.Core.MsoControlType" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-134">Optional <see cref="T:Microsoft.Office.Core.MsoControlType" />.</span>
-          </span>
-          <span data-ttu-id="d5b2d-135">Тип элемента управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-135">The type of control.</span>
-          </span>
-        </param>
-        <param name="Id">
-          <span data-ttu-id="d5b2d-136">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-136">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="d5b2d-137">Идентификатор элемента управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-137">The identifier of the control.</span>
-          </span>
-        </param>
-        <param name="Tag">
-          <span data-ttu-id="d5b2d-138">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-138">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="d5b2d-139">Значение тега элемента управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-139">The tag value of the control.</span>
-          </span>
-        </param>
-        <param name="Visible">
-          <span data-ttu-id="d5b2d-140">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-140">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="d5b2d-141">
-            <b>Значение true,</b> Чтобы включить только элементы управления видны командной строки в поиск.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-141">
-              <b>True</b> to include only visible command bar controls in the search.</span>
-          </span>
-          <span data-ttu-id="d5b2d-142">Значение по умолчанию — <b>False</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-142">The default value is <b>False</b>.</span>
-          </span>
-          <span data-ttu-id="d5b2d-143">Панели команд, видны включают все видны панели инструментов и любого меню, которые открыты во время выполнения метода <b>FindControl</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-143">Visible command bars include all visible toolbars and any menus that are open at the time the <b>FindControl</b> method is executed.</span>
-          </span>
-        </param>
-        <param name="Recursive">
-          <span data-ttu-id="d5b2d-144">Необязательный атрибут типа <b>Boolean</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-144">Optional <b>Boolean</b>.</span>
-          </span>
-          <span data-ttu-id="d5b2d-145">
-            <b>Значение true,</b> Чтобы включить панель команд и всех его всплывающих subtoolbars в поиск.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-145">
-              <b>True</b> to include the command bar and all of its pop-up subtoolbars in the search.</span>
-          </span>
-          <span data-ttu-id="d5b2d-146">Значение по умолчанию — <b>False</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-146">The default value is <b>False</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d5b2d-147">Возвращает <see cref="T:Microsoft.Office.Core.CommandBarControl" /> объекта, соответствующие указанным критериям.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-147">Returns a <see cref="T:Microsoft.Office.Core.CommandBarControl" /> object that fits the specified criteria.</span>
-          </span>
-        </summary>
+        <param name="Type"><span data-ttu-id="09094-134">Необязательный <see cref="T:Microsoft.Office.Core.MsoControlType" />параметр.</span><span class="sxs-lookup"><span data-stu-id="09094-134">Optional <see cref="T:Microsoft.Office.Core.MsoControlType" />.</span></span> <span data-ttu-id="09094-135">Тип элемента управления.</span><span class="sxs-lookup"><span data-stu-id="09094-135">The type of control.</span></span></param>
+        <param name="Id"><span data-ttu-id="09094-136">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="09094-136">Optional <b>Object</b>.</span></span> <span data-ttu-id="09094-137">Идентификатор элемента управления.</span><span class="sxs-lookup"><span data-stu-id="09094-137">The identifier of the control.</span></span></param>
+        <param name="Tag"><span data-ttu-id="09094-138">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="09094-138">Optional <b>Object</b>.</span></span> <span data-ttu-id="09094-139">Значение тега элемента управления.</span><span class="sxs-lookup"><span data-stu-id="09094-139">The tag value of the control.</span></span></param>
+        <param name="Visible"><span data-ttu-id="09094-140">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="09094-140">Optional <b>Object</b>.</span></span> <span data-ttu-id="09094-141"><b>Значение true</b> , чтобы включить в поиск только видимые элементы управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="09094-141"><b>True</b> to include only visible command bar controls in the search.</span></span> <span data-ttu-id="09094-142">Значение по умолчанию — <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="09094-142">The default value is <b>False</b>.</span></span> <span data-ttu-id="09094-143">К видимым панелям команд относятся все видимые панели инструментов и меню, которые открыты во время выполнения метода <b>финдконтрол</b> .</span><span class="sxs-lookup"><span data-stu-id="09094-143">Visible command bars include all visible toolbars and any menus that are open at the time the <b>FindControl</b> method is executed.</span></span></param>
+        <param name="Recursive"><span data-ttu-id="09094-144">Необязательный атрибут типа <b>Boolean</b>.</span><span class="sxs-lookup"><span data-stu-id="09094-144">Optional <b>Boolean</b>.</span></span> <span data-ttu-id="09094-145"><b>Значение true</b> , чтобы включить панель команд и все ее всплывающие панели инструментов в поиск.</span><span class="sxs-lookup"><span data-stu-id="09094-145"><b>True</b> to include the command bar and all of its pop-up subtoolbars in the search.</span></span> <span data-ttu-id="09094-146">Значение по умолчанию — <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="09094-146">The default value is <b>False</b>.</span></span></param>
+        <summary><span data-ttu-id="09094-147">Возвращает <see cref="T:Microsoft.Office.Core.CommandBarControl" /> объект, соответствующий заданным условиям.</span><span class="sxs-lookup"><span data-stu-id="09094-147">Returns a <see cref="T:Microsoft.Office.Core.CommandBarControl" /> object that fits the specified criteria.</span></span></summary>
         <returns>To be added.</returns>
-        <remarks>
-          <span data-ttu-id="d5b2d-148">
-            <para>Если <see cref="T:Microsoft.Office.Core.CommandBars" /> коллекция содержит два или более элементов управления, которые соответствуют условиям поиска, <b>FindControl</b> возвращает первый элемент управления, который выполняется поиск. Если элемент управления, который соответствует критерию обнаружен, <b>FindControl</b> возвращает <b>значение Nothing</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-148">
-              <para>If the <see cref="T:Microsoft.Office.Core.CommandBars" /> collection contains two or more controls that fit the search criteria, <b>FindControl</b> returns the first control that's found. If no control that fits the criteria is found, <b>FindControl</b> returns <b>Nothing</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-148"><para>Если <see cref="T:Microsoft.Office.Core.CommandBars" /> коллекция содержит два или более элементов управления, соответствующих условиям поиска, <b>финдконтрол</b> возвращает первый найденный элемент управления. Если элемент управления, соответствующий условиям поиска, не найден, <b>финдконтрол</b> не возвращает <b>ничего</b>.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-148"><para>If the <see cref="T:Microsoft.Office.Core.CommandBars" /> collection contains two or more controls that fit the search criteria, <b>FindControl</b> returns the first control that's found. If no control that fits the criteria is found, <b>FindControl</b> returns <b>Nothing</b>.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -1332,25 +1066,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-149">Возвращает или задает высоту панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-149">Returns or sets the height of a command bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-149">Возвращает или задает высоту панели команд.</span><span class="sxs-lookup"><span data-stu-id="09094-149">Returns or sets the height of a command bar.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5b2d-150">
-            <para>Данное свойство возвращает чтения/записи <b>int</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-150">
-              <para>This property returns a read/write <b>int</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-150"><para>Это свойство возвращает значение <b>int</b>для чтения и записи.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-150"><para>This property returns a read/write <b>int</b>.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -1379,12 +1099,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-151">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-151">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-151">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-151">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1412,25 +1127,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-152">Возвращает <b>целое число</b> , представляющее номер индекса для объекта в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-152">Returns an <b>Integer</b> representing the index number for an object in the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-152">Возвращает <b>целое</b> число, представляющее номер индекса для объекта в коллекции.</span><span class="sxs-lookup"><span data-stu-id="09094-152">Returns an <b>Integer</b> representing the index number for an object in the collection.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5b2d-153">
-            <para>Положение первого элемента управления панели команд — 1. Разделители не учитываются <see cref="T:Microsoft.Office.Core.CommandBarControls" /> семейства сайтов.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-153">
-              <para>The position of the first command bar control is 1. Separators are not counted in the <see cref="T:Microsoft.Office.Core.CommandBarControls" /> collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-153"><para>Положение первого элемента управления "панель команд" равно 1. Разделители не учитываются в <see cref="T:Microsoft.Office.Core.CommandBarControls" /> коллекции.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-153"><para>The position of the first command bar control is 1. Separators are not counted in the <see cref="T:Microsoft.Office.Core.CommandBarControls" /> collection.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="InstanceId">
@@ -1459,12 +1160,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-154">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-154">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-154">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="09094-154">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1526,12 +1222,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-155">Возвращает или задает расстояние (в точках) панели команд от левого края указанный объект относительно экрана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-155">Returns or sets the distance (in pixels) of the command bar from the left edge of the specified object relative to the screen.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-155">Возвращает или задает расстояние (в пикселях) панели команд от левого края указанного объекта относительно экрана.</span><span class="sxs-lookup"><span data-stu-id="09094-155">Returns or sets the distance (in pixels) of the command bar from the left edge of the specified object relative to the screen.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1562,29 +1253,15 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-156">Возвращает или задает имя указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-156">Returns or sets the name of the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-156">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="09094-156">Returns or sets the name of the specified object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5b2d-157">
-            <para>Локальное имя встроенной командной строки отображается в строке (когда панели команд не закреплено) заголовка и в списке доступных командных строк — там, где этот список отображается в приложении контейнера.</para>
-            <para>Для панели встроенных команд, свойство <b>Name</b> возвращает панели команд имя английский США. Использование <see cref="P:Microsoft.Office.Core.CommandBar.NameLocal" /> свойство для возвращения локализованное имя.</para>
-            <para>При изменении значения свойства <b>NameLocal</b> для пользовательской панели команд, значение <b>имени</b> изменяется также и наоборот.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-157">
-              <para>The local name of a built-in command bar is displayed in the title bar (when the command bar isn't docked) and in the list of available command bars— wherever that list is displayed in the container application.</para>
-              <para>For a built-in command bar, the <b>Name</b> property returns the command bar's U.S. English name. Use the <see cref="P:Microsoft.Office.Core.CommandBar.NameLocal" /> property to return the localized name.</para>
-              <para>If you change the value of the <b>NameLocal</b> property for a custom command bar, the value of <b>Name</b> changes as well, and vice versa.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-157"><para>Локальное имя встроенной панели команд отображается в строке заголовка (если панель команд не закреплена) и в списке доступных панелей команд, где в приложении-контейнере отображается этот список.</para> 
+          <para>Для встроенной панели команд свойство <b>Name</b> возвращает имя английского языка (США). Используйте <see cref="P:Microsoft.Office.Core.CommandBar.NameLocal" /> свойство, чтобы возвратить локализованное имя.</para> 
+          <para>Если изменить значение свойства <b>намелокал</b> для настраиваемой панели команд, изменяются также значения <b>Name</b> , и наоборот.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-157"><para>The local name of a built-in command bar is displayed in the title bar (when the command bar isn't docked) and in the list of available command bars— wherever that list is displayed in the container application.</para>
+          <para>For a built-in command bar, the <b>Name</b> property returns the command bar's U.S. English name. Use the <see cref="P:Microsoft.Office.Core.CommandBar.NameLocal" /> property to return the localized name.</para>
+          <para>If you change the value of the <b>NameLocal</b> property for a custom command bar, the value of <b>Name</b> changes as well, and vice versa.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="NameLocal">
@@ -1613,29 +1290,15 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-158">Возвращает имя встроенной командной строки, как оно отображается в языковой версии приложения контейнера или возвращает или задает имя пользовательской панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-158">Returns the name of a built-in command bar as it's displayed in the language version of the container application, or returns or sets the name of a custom command bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-158">Возвращает имя встроенной панели команд, отображаемое в языковой версии приложения контейнера, или возвращает или задает имя настраиваемой панели команд.</span><span class="sxs-lookup"><span data-stu-id="09094-158">Returns the name of a built-in command bar as it's displayed in the language version of the container application, or returns or sets the name of a custom command bar.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5b2d-159">
-            <para>При попытке установить это свойство для встроенных командной строки, возникает ошибка.</para>
-            <para>Локальное имя встроенной команды панели отображается в строке заголовка (Если панель команд не закреплено) и в списке доступных командных строк, если этот список отображается в приложении контейнера.</para>
-            <para>При изменении значения свойства <b>NameLocal</b> для пользовательской панели команд, значение <b>имени</b> изменяется также и наоборот.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-159">
-              <para>If you attempt to set this property for a built-in command bar, an error occurs.</para>
-              <para>The local name of a built-in command bar is displayed in the title bar (when the command bar isn't docked) and in the list of available command bars, wherever that list is displayed in the container application.</para>
-              <para>If you change the value of the <b>NameLocal</b> property for a custom command bar, the value of <b>Name</b> changes as well, and vice versa.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-159"><para>При попытке задать это свойство для встроенной панели команд возникает ошибка.</para> 
+          <para>Локальное имя встроенной панели команд отображается в строке заголовка (если панель команд не закреплена) и в списке доступных панелей команд, где в приложении-контейнере отображается этот список.</para> 
+          <para>Если изменить значение свойства <b>намелокал</b> для настраиваемой панели команд, изменяются также значения <b>Name</b> , и наоборот.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-159"><para>If you attempt to set this property for a built-in command bar, an error occurs.</para>
+          <para>The local name of a built-in command bar is displayed in the title bar (when the command bar isn't docked) and in the list of available command bars, wherever that list is displayed in the container application.</para>
+          <para>If you change the value of the <b>NameLocal</b> property for a custom command bar, the value of <b>Name</b> changes as well, and vice versa.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -1661,12 +1324,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-160">Возвращает родительский объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-160">Returns the parent object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-160">Возвращает родительский объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="09094-160">Returns the parent object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1697,12 +1355,7 @@
         <ReturnType>Microsoft.Office.Core.MsoBarPosition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-161">Возвращает или устанавливает позицию по панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-161">Returns or sets the position of a command bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-161">Возвращает или задает положение панели команд.</span><span class="sxs-lookup"><span data-stu-id="09094-161">Returns or sets the position of a command bar.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1733,27 +1386,13 @@
         <ReturnType>Microsoft.Office.Core.MsoBarProtection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-162">Возвращает или задает способ защищены от пользовательские настройки панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-162">Returns or sets the way a command bar is protected from user customization.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-162">Возвращает или задает способ защиты панели команд от пользовательской настройки.</span><span class="sxs-lookup"><span data-stu-id="09094-162">Returns or sets the way a command bar is protected from user customization.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5b2d-163">
-            <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-            <para>С помощью константу <b>msoBarNoCustomize</b> пользователям запрещается доступ в меню Добавить или удалить кнопки (это меню позволяет пользователю настраивать панель инструментов).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-163">
-              <para>Some of the content in this topic may not be applicable to some languages.</para>
-              <para>Using the constant <b>msoBarNoCustomize</b> prevents users from accessing the Add or Remove Buttons menu (this menu enables users to customize a toolbar).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-163"><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Использование константы <b>мсобарнокустомизе</b> запрещает пользователям доступ к меню "Добавить" или "удалить кнопки" (это меню позволяет пользователям настраивать панель инструментов).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-163"><para>Some of the content in this topic may not be applicable to some languages.</para>
+          <para>Using the constant <b>msoBarNoCustomize</b> prevents users from accessing the Add or Remove Buttons menu (this menu enables users to customize a toolbar).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reset">
@@ -1777,24 +1416,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-164">Сброс панели команд встроенных конфигурацию по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-164">Resets a built-in command bar to its default configuration.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="d5b2d-165">
-            <para>Сброс панели команд встроенных удаляет пользовательские элементы управления и восстанавливает встроенные элементы управления.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-165">
-              <para>Resetting a built-in command bar removes custom controls and restores built-in controls.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="09094-164">Восстанавливает стандартную конфигурацию встроенной панели команд.</span><span class="sxs-lookup"><span data-stu-id="09094-164">Resets a built-in command bar to its default configuration.</span></span></summary>
+        <remarks><span data-ttu-id="09094-165"><para>Сброс встроенной панели команд приводит к удалению пользовательских элементов управления и восстановлению встроенных элементов управления.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-165"><para>Resetting a built-in command bar removes custom controls and restores built-in controls.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="RowIndex">
@@ -1823,27 +1448,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-166">Возвращает или задает закрепления порядке панель команд при использовании других панели команд в одной области закрепления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-166">Returns or sets the docking order of a command bar in relation to other command bars in the same docking area.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-166">Возвращает или задает порядок стыковки панели команд относительно других панелей команд в той же области закрепления.</span><span class="sxs-lookup"><span data-stu-id="09094-166">Returns or sets the docking order of a command bar in relation to other command bars in the same docking area.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5b2d-167">
-            <para>Данное свойство возвращает чтения/записи <b>целое число</b>, который может быть целое число больше нуля или одна из следующих <see cref="T:Microsoft.Office.Core.MsoBarRow" /> констант: <b>msoBarRowFirst</b> или <b>msoBarRowLast</b>.</para>
-            <para>Несколько панелей команд могут совместно использовать один и тот же индекс строки и панели команд с нижней номера, прикрепленные сначала. Если два или более панели команд совместно используют один и тот же индекс строки, панели команд самого последнего назначения будут отображаться сначала в группе.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-167">
-              <para>This property returns a read/write <b>Integer</b>, which can be an integer greater than zero, or either of the following <see cref="T:Microsoft.Office.Core.MsoBarRow" /> constants: <b>msoBarRowFirst</b> or <b>msoBarRowLast</b>.</para>
-              <para>Several command bars can share the same row index, and command bars with lower numbers are docked first. If two or more command bars share the same row index, the command bar most recently assigned will be displayed first in its group.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-167"><para>Это свойство возвращает <b>целое число</b>для чтения и записи, которое может быть целым числом больше нуля или любой из следующих <see cref="T:Microsoft.Office.Core.MsoBarRow" /> констант: <b>мсобарровфирст</b> или <b>мсобарровласт</b>.</para> 
+          <para>Несколько панелей команд могут совместно использовать один и тот же индекс строки, а панели команд с меньшими номерами закрепляются первыми. Если две или более панели команд совместно используют один и тот же индекс строки, в группе первыми будет отображаться панель команд, назначенная последней.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-167"><para>This property returns a read/write <b>Integer</b>, which can be an integer greater than zero, or either of the following <see cref="T:Microsoft.Office.Core.MsoBarRow" /> constants: <b>msoBarRowFirst</b> or <b>msoBarRowLast</b>.</para>
+          <para>Several command bars can share the same row index, and command bars with lower numbers are docked first. If two or more command bars share the same row index, the command bar most recently assigned will be displayed first in its group.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowPopup">
@@ -1869,52 +1480,12 @@
         <Parameter Name="y" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="x">
-          <span data-ttu-id="d5b2d-168">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-168">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="d5b2d-169">Координата x расположения в контекстном меню.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-169">The x-coordinate for the location of the shortcut menu.</span>
-          </span>
-          <span data-ttu-id="d5b2d-170">Если этот аргумент задан, используется текущий Координата x указателя мыши.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-170">If this argument is omitted, the current x-coordinate of the pointer is used.</span>
-          </span>
-        </param>
-        <param name="y">
-          <span data-ttu-id="d5b2d-171">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-171">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="d5b2d-172">Координата для расположения в контекстном меню.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-172">The y-coordinate for the location of the shortcut menu.</span>
-          </span>
-          <span data-ttu-id="d5b2d-173">Если этот аргумент задан, используется текущий Координата указателя мыши.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-173">If this argument is omitted, the current y-coordinate of the pointer is used.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d5b2d-174">Отображает панель команд как контекстное меню по указанным координатам или текущей координаты указателя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-174">Displays a command bar as a shortcut menu at the specified coordinates or at the current pointer coordinates.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="d5b2d-175">
-            <para>Если <see cref="P:Microsoft.Office.Core.CommandBar.Position" /> панели команд не задано значение <b>msoBarPopup</b>, этот метод не удается выполнить.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-175">
-              <para>If the <see cref="P:Microsoft.Office.Core.CommandBar.Position" /> property of the command bar is not set to <b>msoBarPopup</b>, this method fails.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="x"><span data-ttu-id="09094-168">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="09094-168">Optional <b>Object</b>.</span></span> <span data-ttu-id="09094-169">Координата x расположения контекстного меню.</span><span class="sxs-lookup"><span data-stu-id="09094-169">The x-coordinate for the location of the shortcut menu.</span></span> <span data-ttu-id="09094-170">Если этот аргумент опущен, используется текущая Координата x указателя.</span><span class="sxs-lookup"><span data-stu-id="09094-170">If this argument is omitted, the current x-coordinate of the pointer is used.</span></span></param>
+        <param name="y"><span data-ttu-id="09094-171">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="09094-171">Optional <b>Object</b>.</span></span> <span data-ttu-id="09094-172">Координата y расположения контекстного меню.</span><span class="sxs-lookup"><span data-stu-id="09094-172">The y-coordinate for the location of the shortcut menu.</span></span> <span data-ttu-id="09094-173">Если этот аргумент опущен, используется текущая координата y указателя.</span><span class="sxs-lookup"><span data-stu-id="09094-173">If this argument is omitted, the current y-coordinate of the pointer is used.</span></span></param>
+        <summary><span data-ttu-id="09094-174">Отображает панель команд в виде контекстного меню в заданных координатах или координатах текущего указателя.</span><span class="sxs-lookup"><span data-stu-id="09094-174">Displays a command bar as a shortcut menu at the specified coordinates or at the current pointer coordinates.</span></span></summary>
+        <remarks><span data-ttu-id="09094-175"><para>Если для <see cref="P:Microsoft.Office.Core.CommandBar.Position" /> свойства панели команд не задано значение <b>мсобарпопуп</b>, этот метод завершается с ошибкой.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-175"><para>If the <see cref="P:Microsoft.Office.Core.CommandBar.Position" /> property of the command bar is not set to <b>msoBarPopup</b>, this method fails.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Top">
@@ -1943,27 +1514,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-176">Возвращает или задает расстояние (в точках) от верхнего края панели команд указанного верхнего края экрана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-176">Returns or sets the distance (in points) from the top edge of the specified command bar to the top edge of the screen.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-176">Возвращает или задает расстояние (в пунктах) от верхнего края заданной панели команд до верхнего края экрана.</span><span class="sxs-lookup"><span data-stu-id="09094-176">Returns or sets the distance (in points) from the top edge of the specified command bar to the top edge of the screen.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5b2d-177">
-            <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-            <para>Для панелей команд закрепленного, это свойство Возвращает или задает расстояние от панели команд в верхней части области закрепления.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-177">
-              <para>Some of the content in this topic may not be applicable to some languages.</para>
-              <para>For docked command bars, this property returns or sets the distance from the command bar to the top of the docking area.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-177"><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Для закрепленных панелей команд это свойство возвращает или задает расстояние от панели команд до верха области стыковки.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-177"><para>Some of the content in this topic may not be applicable to some languages.</para>
+          <para>For docked command bars, this property returns or sets the distance from the command bar to the top of the docking area.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -1989,12 +1546,7 @@
         <ReturnType>Microsoft.Office.Core.MsoBarType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-178">Возвращает тип панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-178">Returns the type of command bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-178">Возвращает тип панели команд.</span><span class="sxs-lookup"><span data-stu-id="09094-178">Returns the type of command bar.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2025,32 +1577,17 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-179">Определяет, является ли указанный объект видимым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-179">Determines if the specified object is visible.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-179">Определяет, является ли указанный объект видимым.</span><span class="sxs-lookup"><span data-stu-id="09094-179">Determines if the specified object is visible.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5b2d-180">
-            <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-            <para>Данное свойство возвращает <b>значение True,</b> Если указанный объект является видимым. <b>Значение false,</b> если он не установлен.</para>
-            <para>Свойство <b>Visible</b> для только что созданного настраиваемые панели команд является <b>False</b> по умолчанию.</para>
-            <para>
-              <see cref="P:Microsoft.Office.Core.CommandBar.Enabled" /> Свойства для панелей команд должен иметь значение <b>True,</b> перед свойство visible имеет значение <b>True</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-180">
-              <para>Some of the content in this topic may not be applicable to some languages.</para>
-              <para>This property returns <b>True</b> if the specified object is visible; <b>False</b> if it is not.</para>
-              <para>The <b>Visible</b> property for newly created custom command bars is <b>False</b> by default.</para>
-              <para>The <see cref="P:Microsoft.Office.Core.CommandBar.Enabled" /> property for a command bar must be set to <b>True</b> before the visible property is set to <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="09094-180"><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Это свойство возвращает <b>значение true</b> , если указанный объект является видимым; В противном случае — <b>false</b> .</para> 
+          <para>Свойство <b>Visible</b> для вновь создаваемых настраиваемых панелей команд по умолчанию имеет <b>значение false</b> .</para> 
+          <para>Свойству панели команд должно быть присвоено значение <b>true</b> , чтобы свойство Visible было было установлено равным <b>true.</b> <see cref="P:Microsoft.Office.Core.CommandBar.Enabled" /> </para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="09094-180"><para>Some of the content in this topic may not be applicable to some languages.</para>
+          <para>This property returns <b>True</b> if the specified object is visible; <b>False</b> if it is not.</para>
+          <para>The <b>Visible</b> property for newly created custom command bars is <b>False</b> by default.</para>
+          <para>The <see cref="P:Microsoft.Office.Core.CommandBar.Enabled" /> property for a command bar must be set to <b>True</b> before the visible property is set to <b>True</b>.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Width">
@@ -2079,12 +1616,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5b2d-181">Возвращает или задает ширину (в точках) указанного командной строки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5b2d-181">Returns or sets the width (in pixels) of the specified command bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="09094-181">Возвращает или задает ширину заданной панели команд (в пикселях).</span><span class="sxs-lookup"><span data-stu-id="09094-181">Returns or sets the width (in pixels) of the specified command bar.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

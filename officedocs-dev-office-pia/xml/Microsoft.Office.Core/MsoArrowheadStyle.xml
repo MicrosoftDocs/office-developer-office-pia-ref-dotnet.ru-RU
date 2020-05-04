@@ -1,13 +1,5 @@
 <Type Name="MsoArrowheadStyle" FullName="Microsoft.Office.Core.MsoArrowheadStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="685a90de1312d53a19e528458df5463d448ffc1e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662178" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoArrowheadStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="685a90de1312d53a19e528458df5463d448ffc1e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662178" /></Metadata><TypeSignature Language="C#" Value="public enum MsoArrowheadStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoArrowheadStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoArrowheadStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoArrowheadStyle" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="ec0a4-101">Задает стиль стрелки в конце строки.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ec0a4-101">Specifies the style of the arrowhead at the end of a line.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="9cdf9-101">Задает стиль наконечника в конце строки.</span><span class="sxs-lookup"><span data-stu-id="9cdf9-101">Specifies the style of the arrowhead at the end of a line.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ec0a4-102">Ромб форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0a4-102">Diamond-shaped.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9cdf9-102">Ромб в форме ромба.</span><span class="sxs-lookup"><span data-stu-id="9cdf9-102">Diamond-shaped.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadNone">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ec0a4-103">Не стрелки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0a4-103">No arrowhead.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9cdf9-103">Без наконечника.</span><span class="sxs-lookup"><span data-stu-id="9cdf9-103">No arrowhead.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadOpen">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ec0a4-104">Открыть.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0a4-104">Open.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9cdf9-104">Окно.</span><span class="sxs-lookup"><span data-stu-id="9cdf9-104">Open.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadOval">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ec0a4-105">Овальная.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0a4-105">Oval-shaped.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9cdf9-105">Овал в форме.</span><span class="sxs-lookup"><span data-stu-id="9cdf9-105">Oval-shaped.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadStealth">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ec0a4-106">Stealth форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0a4-106">Stealth-shaped.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9cdf9-106">Скрытой формы.</span><span class="sxs-lookup"><span data-stu-id="9cdf9-106">Stealth-shaped.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadStyleMixed">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ec0a4-107">Возвращаемое значение. Указывает сочетание других состояний.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0a4-107">Return value only; indicates a combination of the other states.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9cdf9-107">Только возвращаемое значение; Указывает комбинацию других состояний.</span><span class="sxs-lookup"><span data-stu-id="9cdf9-107">Return value only; indicates a combination of the other states.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoArrowheadTriangle">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ec0a4-108">Трехсторонняя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ec0a4-108">Triangular.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="9cdf9-108">Сделка.</span><span class="sxs-lookup"><span data-stu-id="9cdf9-108">Triangular.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="IMsoDataTable" FullName="Microsoft.Office.Core.IMsoDataTable">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2ebbace234a7c21013d856f5504d13459e8f017b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662295" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IMsoDataTable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2ebbace234a7c21013d856f5504d13459e8f017b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662295" /></Metadata><TypeSignature Language="C#" Value="public interface IMsoDataTable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoDataTable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoDataTable" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMsoDataTable" />
@@ -84,26 +76,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="25e14-101">Получает или задает значение, указывающее, будет ли в таблице данных изменяет размер шрифта, после изменения размера таблицы данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-101">Gets or sets a value that indicates whether the data table changes font size when the data table size changes.</span>
-          </span>
-          <span data-ttu-id="25e14-102">Возвращает <b>значение True</b>, значение по умолчанию, если изменения размера шрифта с данными таблицы изменения размера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-102">Returns <b>True</b>, the default value, if the font size changes with data table size changes.</span>
-          </span>
-          <span data-ttu-id="25e14-103">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-103">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="25e14-104">Variant</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-104">Variant</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="7a863-101">Получает или задает значение, указывающее, изменяет ли таблица данных размер шрифта при изменении размера таблицы данных.</span><span class="sxs-lookup"><span data-stu-id="7a863-101">Gets or sets a value that indicates whether the data table changes font size when the data table size changes.</span></span> <span data-ttu-id="7a863-102">Возвращает значение <b>true</b>, значение по умолчанию, если размер шрифта изменяется с изменением размера таблицы данных.</span><span class="sxs-lookup"><span data-stu-id="7a863-102">Returns <b>True</b>, the default value, if the font size changes with data table size changes.</span></span> <span data-ttu-id="7a863-103">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="7a863-103">Read/write.</span></span></summary>
+        <value><span data-ttu-id="7a863-104">Variant</span><span class="sxs-lookup"><span data-stu-id="7a863-104">Variant</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -130,70 +104,47 @@
         <ReturnType>Microsoft.Office.Core.IMsoBorder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="25e14-105">Предоставляет доступ к свойствам, определяющие visual характеристики границы таблицы данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-105">Provides access to properties that determine visual characteristics of a data table  border.</span>
-          </span>
-          <span data-ttu-id="25e14-106">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-106">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="25e14-107">IMsoBorder</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-107">IMsoBorder</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="25e14-108">
-            <para>IMsoBorder члены</para>
-            <list type="table">
-              <item>
-                <description>Цвет</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>ColorIndex</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>линии</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>Вес</description>
-                <description>Variant</description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-108">
-              <para>IMsoBorder members</para>
-              <list type="table">
-                <item>
-                  <description>Color</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>ColorIndex</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>LineStyle</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>Weight</description>
-                  <description>Variant</description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="7a863-105">Предоставляет доступ к свойствам, определяющим визуальные характеристики границы таблицы данных.</span><span class="sxs-lookup"><span data-stu-id="7a863-105">Provides access to properties that determine visual characteristics of a data table  border.</span></span> <span data-ttu-id="7a863-106">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="7a863-106">Read-only.</span></span></summary>
+        <value><span data-ttu-id="7a863-107">имсобордер</span><span class="sxs-lookup"><span data-stu-id="7a863-107">IMsoBorder</span></span></value>
+        <remarks><span data-ttu-id="7a863-108"><para>Элемент имсобордер</para>
+          <list type="table">
+            <item>
+              <description>Color</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Weight</description>
+              <description>Variant</description> 
+            </item> Variant
+            <item>
+              <description>ColorIndex</description>
+              <description>Variant</description>
+            </item>Variant
+            <item>
+              <description>lineStyle</description>
+              <description>Variant</description>
+            </item>Variant Variant
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="7a863-108"><para>IMsoBorder members</para>
+          <list type="table">
+            <item>
+              <description>Color</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>ColorIndex</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>LineStyle</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Weight</description>
+              <description>Variant</description>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -245,25 +196,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="25e14-109">Удаляет таблицу данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-109">Deletes a data table.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7a863-109">Удаляет таблицу данных.</span><span class="sxs-lookup"><span data-stu-id="7a863-109">Deletes a data table.</span></span></summary>
         <remarks>To be added.</remarks>
-        <example>
-          <span data-ttu-id="25e14-110">
-            <para>В следующем примере удаляется объект <b>DataTable</b> .</para>
-            <code>&lt;span class="label"&gt;Dim dataTable1 As DataTable dataTable1.Delete()&lt;/span&gt;</code>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-110">
-              <para>The following example deletes a <b>DataTable</b> object.</para>
-              <code>&lt;span class="label"&gt;Dim dataTable1 As DataTable dataTable1.Delete()&lt;/span&gt;</code>
-            </span>
-          </span>
-        </example>
+        <example><span data-ttu-id="7a863-110"><para>В примере ниже показано, как удалить объект <b>DataTable</b> .</para>
+          <code>&lt;span class="label"&gt;Dim dataTable1 As DataTable dataTable1.Delete()&lt;/span&gt;</code></span><span class="sxs-lookup"><span data-stu-id="7a863-110"><para>The following example deletes a <b>DataTable</b> object.</para>
+          <code>&lt;span class="label"&gt;Dim dataTable1 As DataTable dataTable1.Delete()&lt;/span&gt;</code></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -289,134 +226,111 @@
         <ReturnType>Microsoft.Office.Core.ChartFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="25e14-111">Предоставляет доступ к свойствам, определяющие характеристики текста в таблице данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-111">Provides access to properties that determine the  characteristics of the text in a  data table.</span>
-          </span>
-          <span data-ttu-id="25e14-112">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-112">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="25e14-113">ChartFont</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-113">ChartFont</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="25e14-114">
-            <para>ChartFont члены</para>
-            <list type="table">
-              <item>
-                <description>Цвет</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>ColorIndex</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>FontStyle</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>Italic</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>имя</description>
-                <description>типа Variant</description>
-              </item>
-              <item>
-                <description>OutlineFont</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>Теневая</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>Размер</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>Зачеркивание</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>Подстрочный знак</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>Superscriprt</description>
-                <description>Variant</description>
-              </item>
-              <item>
-                <description>Подчеркивание</description>
-                <description>Variant</description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-114">
-              <para>ChartFont members</para>
-              <list type="table">
-                <item>
-                  <description>Color</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>ColorIndex</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>FontStyle</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>Italic</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>Name</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>OutlineFont</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>Shadow</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>Size</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>StrikeThrough</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>Subscript</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>Superscriprt</description>
-                  <description>Variant</description>
-                </item>
-                <item>
-                  <description>Underline</description>
-                  <description>Variant</description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="7a863-111">Предоставляет доступ к свойствам, определяющим характеристики текста в таблице данных.</span><span class="sxs-lookup"><span data-stu-id="7a863-111">Provides access to properties that determine the  characteristics of the text in a  data table.</span></span> <span data-ttu-id="7a863-112">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="7a863-112">Read-only.</span></span></summary>
+        <value><span data-ttu-id="7a863-113">ChartFont</span><span class="sxs-lookup"><span data-stu-id="7a863-113">ChartFont</span></span></value>
+        <remarks><span data-ttu-id="7a863-114"><para>ChartFont Members</para>
+          <list type="table">
+            <item>
+              <description>Color</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Size</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>ColorIndex</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Shadow</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>FontStyle</description>
+              <description>Variant</description>
+            </item>Variant Variant
+            <item>
+              <description>Name</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Italic</description>
+              <description>Variant</description>Variant Variant
+            </item>
+            <item>
+              <description>аутлинефонт</description>
+              <description>Variant</description>
+            </item>Variant Variant Color Variant,
+            <item>
+              <description>подстрочный</description>
+              <description>Variant</description>
+            </item>
+            <item>символ Variant
+              <description>Variant</description>
+              <description>StrikeThrough</description>
+            </item>
+            <item>
+              <description>суперскрипрт</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Подчеркивание</description>
+              <description>Variant</description> 
+            </item> Variant
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="7a863-114"><para>ChartFont members</para>
+          <list type="table">
+            <item>
+              <description>Color</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>ColorIndex</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>FontStyle</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Italic</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Name</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>OutlineFont</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Shadow</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Size</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>StrikeThrough</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Subscript</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Superscriprt</description>
+              <description>Variant</description>
+            </item>
+            <item>
+              <description>Underline</description>
+              <description>Variant</description>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Format">
@@ -473,22 +387,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="25e14-115">Получает или задает <b>логическое</b> значение, указывающее, имеет ли в таблице данных горизонтальной границы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-115">Gets or sets a <b>Boolean</b> value that specifies whether the data table has a horizontal border.</span>
-          </span>
-          <span data-ttu-id="25e14-116">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-116">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="25e14-117">Логический</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-117">Boolean</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="7a863-115">Получает или задает <b>логическое</b> значение, указывающее, имеет ли таблица данных горизонтальную границу.</span><span class="sxs-lookup"><span data-stu-id="7a863-115">Gets or sets a <b>Boolean</b> value that specifies whether the data table has a horizontal border.</span></span> <span data-ttu-id="7a863-116">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="7a863-116">Read/write.</span></span></summary>
+        <value><span data-ttu-id="7a863-117">Логический</span><span class="sxs-lookup"><span data-stu-id="7a863-117">Boolean</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -518,22 +418,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="25e14-118">Получает или задает <b>логическое</b> значение, указывающее, следует ли отображать границы вокруг таблицу данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-118">Gets or sets a <b>Boolean</b> value that specifies whether to display a border around a data table.</span>
-          </span>
-          <span data-ttu-id="25e14-119">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-119">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="25e14-120">Логический</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-120">Boolean</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="7a863-118">Получает или задает <b>логическое</b> значение, указывающее, следует ли отображать границу для таблицы данных.</span><span class="sxs-lookup"><span data-stu-id="7a863-118">Gets or sets a <b>Boolean</b> value that specifies whether to display a border around a data table.</span></span> <span data-ttu-id="7a863-119">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="7a863-119">Read/write.</span></span></summary>
+        <value><span data-ttu-id="7a863-120">Логический</span><span class="sxs-lookup"><span data-stu-id="7a863-120">Boolean</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -563,22 +449,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="25e14-121">Получает или задает <b>логическое</b> значение, указывающее, имеет ли в таблице данных вертикальной границы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-121">Gets or sets a <b>Boolean</b> value that specifies whether the data table has a vertical border.</span>
-          </span>
-          <span data-ttu-id="25e14-122">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-122">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="25e14-123">Логический</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-123">Boolean</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="7a863-121">Получает или задает <b>логическое</b> значение, указывающее, имеет ли таблица данных вертикальную границу.</span><span class="sxs-lookup"><span data-stu-id="7a863-121">Gets or sets a <b>Boolean</b> value that specifies whether the data table has a vertical border.</span></span> <span data-ttu-id="7a863-122">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="7a863-122">Read/write.</span></span></summary>
+        <value><span data-ttu-id="7a863-123">Логический</span><span class="sxs-lookup"><span data-stu-id="7a863-123">Boolean</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -605,22 +477,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="25e14-124">Получает <b>родительский</b> объект для объекта <b>IMsoDataTable</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-124">Gets the <b>Parent</b> object for the <b>IMsoDataTable</b> object.</span>
-          </span>
-          <span data-ttu-id="25e14-125">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-125">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="25e14-126">Объект</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-126">Object</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="7a863-124">Получает <b>родительский</b> объект для объекта <b>имсодататабле</b> .</span><span class="sxs-lookup"><span data-stu-id="7a863-124">Gets the <b>Parent</b> object for the <b>IMsoDataTable</b> object.</span></span> <span data-ttu-id="7a863-125">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="7a863-125">Read-only.</span></span></summary>
+        <value><span data-ttu-id="7a863-126">Объект</span><span class="sxs-lookup"><span data-stu-id="7a863-126">Object</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -645,25 +503,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="25e14-127">Выбор объекта <b>IMsoDataTable</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-127">Selects a <b>IMsoDataTable</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7a863-127">Выбирает объект <b>имсодататабле</b> .</span><span class="sxs-lookup"><span data-stu-id="7a863-127">Selects a <b>IMsoDataTable</b> object.</span></span></summary>
         <remarks>To be added.</remarks>
-        <example>
-          <span data-ttu-id="25e14-128">
-            <para>В следующем примере выбирается объект <b>IMsoDataTable</b> .</para>
-            <code>&lt;span class="label"&gt;Dim dataTable1 As DataTable dataTable1.Select() &lt;/span&gt;</code>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-128">
-              <para>The following example selects an <b>IMsoDataTable</b> object.</para>
-              <code>&lt;span class="label"&gt;Dim dataTable1 As DataTable dataTable1.Select() &lt;/span&gt;</code>
-            </span>
-          </span>
-        </example>
+        <example><span data-ttu-id="7a863-128"><para>В приведенном ниже примере показано, как выбрать объект <b>имсодататабле</b> .</para>
+          <code>&lt;span class="label"&gt;Dim dataTable1 As DataTable dataTable1.Select() &lt;/span&gt;</code></span><span class="sxs-lookup"><span data-stu-id="7a863-128"><para>The following example selects an <b>IMsoDataTable</b> object.</para>
+          <code>&lt;span class="label"&gt;Dim dataTable1 As DataTable dataTable1.Select() &lt;/span&gt;</code></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="ShowLegendKey">
@@ -692,22 +536,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="25e14-129">Получает или задает <b>логическое</b> значение, указывающее, следует ли отображать условных обозначений с базой данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-129">Gets or sets a <b>Boolean</b> value that specifies whether to display the legend with the data table.</span>
-          </span>
-          <span data-ttu-id="25e14-130">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-130">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="25e14-131">Логический</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="25e14-131">Boolean</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="7a863-129">Получает или задает <b>логическое</b> значение, указывающее, следует ли отображать условные обозначения в таблице данных.</span><span class="sxs-lookup"><span data-stu-id="7a863-129">Gets or sets a <b>Boolean</b> value that specifies whether to display the legend with the data table.</span></span> <span data-ttu-id="7a863-130">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="7a863-130">Read/write.</span></span></summary>
+        <value><span data-ttu-id="7a863-131">Логический</span><span class="sxs-lookup"><span data-stu-id="7a863-131">Boolean</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

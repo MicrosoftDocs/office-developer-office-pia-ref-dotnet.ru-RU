@@ -1,13 +1,5 @@
 <Type Name="XlHAlign" FullName="Microsoft.Office.Core.XlHAlign">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c6c4044dea207c3654a1c716728fe1c711d93529" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662141" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlHAlign" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c6c4044dea207c3654a1c716728fe1c711d93529" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662141" /></Metadata><TypeSignature Language="C#" Value="public enum XlHAlign" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlHAlign extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlHAlign" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlHAlign" />
@@ -25,16 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="c6d7d-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c6d7d-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="c6d7d-102">Задает горизонтальное выравнивание для объекта.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c6d7d-102">Specifies the horizontal alignment for the object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="b4a43-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="b4a43-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="b4a43-102">Задает горизонтальное выравнивание для объекта.</span><span class="sxs-lookup"><span data-stu-id="b4a43-102">Specifies the horizontal alignment for the object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -54,16 +37,7 @@
       </ReturnValue>
       <MemberValue>-4108</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6d7d-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="c6d7d-104">Центр.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-104">Center.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b4a43-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="b4a43-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="b4a43-104">Располагает.</span><span class="sxs-lookup"><span data-stu-id="b4a43-104">Center.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlHAlignCenterAcrossSelection">
@@ -82,16 +56,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6d7d-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="c6d7d-106">По центру выделения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-106">Center across selection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b4a43-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="b4a43-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="b4a43-106">По центру выделения.</span><span class="sxs-lookup"><span data-stu-id="b4a43-106">Center across selection.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlHAlignDistributed">
@@ -110,16 +75,7 @@
       </ReturnValue>
       <MemberValue>-4117</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6d7d-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="c6d7d-108">Распространение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-108">Distribute.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b4a43-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="b4a43-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="b4a43-108">Распространяются.</span><span class="sxs-lookup"><span data-stu-id="b4a43-108">Distribute.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlHAlignFill">
@@ -138,16 +94,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6d7d-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="c6d7d-110">Заполните поля.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-110">Fill.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b4a43-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="b4a43-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="b4a43-110">Заполните.</span><span class="sxs-lookup"><span data-stu-id="b4a43-110">Fill.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlHAlignGeneral">
@@ -166,16 +113,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6d7d-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="c6d7d-112">Выравнивание типа данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-112">Align according to data type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b4a43-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="b4a43-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="b4a43-112">Выравнивать в соответствии с типом данных.</span><span class="sxs-lookup"><span data-stu-id="b4a43-112">Align according to data type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlHAlignJustify">
@@ -194,16 +132,7 @@
       </ReturnValue>
       <MemberValue>-4130</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6d7d-113">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-113">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="c6d7d-114">Выравнивание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-114">Justify.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b4a43-113">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="b4a43-113">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="b4a43-114">Края.</span><span class="sxs-lookup"><span data-stu-id="b4a43-114">Justify.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlHAlignLeft">
@@ -222,16 +151,7 @@
       </ReturnValue>
       <MemberValue>-4131</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6d7d-115">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-115">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="c6d7d-116">Слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-116">Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b4a43-115">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="b4a43-115">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="b4a43-116">Левый.</span><span class="sxs-lookup"><span data-stu-id="b4a43-116">Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlHAlignRight">
@@ -250,16 +170,7 @@
       </ReturnValue>
       <MemberValue>-4152</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6d7d-117">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-117">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="c6d7d-118">Правильно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6d7d-118">Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b4a43-117">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="b4a43-117">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="b4a43-118">Правильно.</span><span class="sxs-lookup"><span data-stu-id="b4a43-118">Right.</span></span></summary>
       </Docs>
     </Member>
   </Members>

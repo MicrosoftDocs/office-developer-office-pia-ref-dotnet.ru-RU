@@ -1,13 +1,5 @@
 <Type Name="CommandBarsClass" FullName="Microsoft.Office.Core.CommandBarsClass">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4a41b224ea7d14943e0d0ed2e1c84cc920200087" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662567" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class CommandBarsClass : Microsoft.Office.Core.CommandBars, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4a41b224ea7d14943e0d0ed2e1c84cc920200087" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662567" /></Metadata><TypeSignature Language="C#" Value="public class CommandBarsClass : Microsoft.Office.Core.CommandBars, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi CommandBarsClass extends System.Object implements class Microsoft.Office.Core._CommandBars, class Microsoft.Office.Core._CommandBarsEvents_Event, class Microsoft.Office.Core.CommandBars, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBarsClass" />
   <TypeSignature Language="VB.NET" Value="Public Class CommandBarsClass&#xA;Implements CommandBars, IEnumerable" />
@@ -39,12 +31,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="7cd27-101">Зарезервировано для внутреннего использования.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7cd27-101">Reserved for internal use.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="6e616-101">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="6e616-101">Reserved for internal use.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -280,22 +267,8 @@
         <Parameter Name="hwnd" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="hwnd">
-          <span data-ttu-id="7cd27-102">Задает дескриптор окна, в котором для завершения транзакции визуализации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7cd27-102">Specifies a handle to the window in which to commit the rendering transaction.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="7cd27-103">Фиксирует транзакцию визуализации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7cd27-103">Commits the rendering transaction.</span>
-          </span>
-          <span data-ttu-id="7cd27-104">Возвращает <b>значение Nothing</b> (пустая ссылка (Nothing в Visual Basic) в C#).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7cd27-104">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span>
-          </span>
-        </summary>
+        <param name="hwnd"><span data-ttu-id="6e616-102">Задает дескриптор для окна, в котором зафиксирована транзакция отрисовки.</span><span class="sxs-lookup"><span data-stu-id="6e616-102">Specifies a handle to the window in which to commit the rendering transaction.</span></span></param>
+        <summary><span data-ttu-id="6e616-103">Фиксирует транзакцию отображения.</span><span class="sxs-lookup"><span data-stu-id="6e616-103">Commits the rendering transaction.</span></span> <span data-ttu-id="6e616-104">Возвращает <b>Nothing</b> (пустая ссылка (Nothing в Visual Basic) в C#).</span><span class="sxs-lookup"><span data-stu-id="6e616-104">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1062,27 +1035,9 @@
         <ReturnType>Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7cd27-105">Получает коллекцию <b>CommandBars</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7cd27-105">Gets a <b>CommandBars</b> collection.</span>
-          </span>
-          <span data-ttu-id="7cd27-106">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7cd27-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6e616-105">Получает коллекцию <b>CommandBars</b> .</span><span class="sxs-lookup"><span data-stu-id="6e616-105">Gets a <b>CommandBars</b> collection.</span></span> <span data-ttu-id="6e616-106">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="6e616-106">Read-only.</span></span></summary>
         <remarks>To be added.</remarks>
-        <example>
-          <span data-ttu-id="7cd27-107">
-            <para>Следующий пример возвращает коллекцию <b>CommandBars</b> из объекта <b>MsoEnvelope</b> в Microsoft Word.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7cd27-107">
-              <para>The following example return the <b>CommandBars</b> collection from the <b>MsoEnvelope</b> object in Microsoft Word.</para>
-            </span>
-          </span>
-        </example>
+        <example><span data-ttu-id="6e616-107"><para>Следующий пример возвращает коллекцию <b>CommandBars</b> из объекта <b>MsoEnvelope</b> в Microsoft Word.</para></span><span class="sxs-lookup"><span data-stu-id="6e616-107"><para>The following example return the <b>CommandBars</b> collection from the <b>MsoEnvelope</b> object in Microsoft Word.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Parent">

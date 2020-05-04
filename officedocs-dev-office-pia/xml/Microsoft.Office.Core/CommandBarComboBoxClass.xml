@@ -1,13 +1,5 @@
 <Type Name="CommandBarComboBoxClass" FullName="Microsoft.Office.Core.CommandBarComboBoxClass">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a130cf605f77a224c27173faf88fb2a4b3d775c9" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662414" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class CommandBarComboBoxClass : Microsoft.Office.Core.CommandBarComboBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a130cf605f77a224c27173faf88fb2a4b3d775c9" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662414" /></Metadata><TypeSignature Language="C#" Value="public class CommandBarComboBoxClass : Microsoft.Office.Core.CommandBarComboBox" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi CommandBarComboBoxClass extends System.Object implements class Microsoft.Office.Core._CommandBarComboBox, class Microsoft.Office.Core._CommandBarComboBoxEvents_Event, class Microsoft.Office.Core.CommandBarComboBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBarComboBoxClass" />
   <TypeSignature Language="VB.NET" Value="Public Class CommandBarComboBoxClass&#xA;Implements CommandBarComboBox" />
@@ -36,12 +28,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="e4fb6-101">Зарезервировано для внутреннего использования.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e4fb6-101">Reserved for internal use.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="458c9-101">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="458c9-101">Reserved for internal use.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -1160,47 +1147,16 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e4fb6-102">Получает или задает число строк в командной строке поле со списком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-102">Gets or sets the number of lines in a command bar combo box control.</span>
-          </span>
-          <span data-ttu-id="e4fb6-103">Элемент управления ComboBox должен быть пользовательского элемента управления и должен быть раскрывающемся списке или поле со списком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-103">The combo box control must be a custom control and it must be a drop-down list box or a combo box.</span>
-          </span>
-          <span data-ttu-id="e4fb6-104">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-104">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="458c9-102">Получает или задает число строк в элементе управления "поле со списком" панели команд.</span><span class="sxs-lookup"><span data-stu-id="458c9-102">Gets or sets the number of lines in a command bar combo box control.</span></span> <span data-ttu-id="458c9-103">Элемент управления "поле со списком" должен быть пользовательским элементом управления и должен быть раскрывающимся списком или полем со списком.</span><span class="sxs-lookup"><span data-stu-id="458c9-103">The combo box control must be a custom control and it must be a drop-down list box or a combo box.</span></span> <span data-ttu-id="458c9-104">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="458c9-104">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e4fb6-105">
-            <para>
-              <b>Примечание</b>: произошла ошибка при попытке задать это свойство для поля со списком, управления, — это поле ввода или поле со списком встроенных.</para>
-            <para>Если задано значение 0 (ноль), количество строк в элементе управления основано на количество элементов в списке.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-105">
-              <para>
-                <b>Note</b>: An error occurs if you attempt to set this property for a combo box control that's an edit box or a built-in combo box control.</para>
-              <para>If this property is set to 0 (zero), the number of lines in the control is based on the number of items in the list.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="e4fb6-106">
-            <para>В этом примере добавляется элемент управления поля со списком, содержащий два элемента в панели команд, с именем «Custom». В примере также указывается количество элементы строк, ширина пустым значением по умолчанию для поля со списком и поле со списком.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-106">
-              <para>This example adds a combo box control containing two items to the command bar named "Custom". The example also sets the number of line items, the width of the combo box, and an empty default for the combo box.</para>
-            </span>
-          </span>
-        </example>
+        <remarks><span data-ttu-id="458c9-105"><para> 
+            <b>Note</b>: при попытке задать это свойство для элемента управления "поле со списком", который является полем редактирования или встроенным элементом управления "поле со списком", возникает ошибка.</para> 
+          <para>Если для этого свойства задано значение 0 (ноль), количество строк в элементе управления зависит от количества элементов в списке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="458c9-105"><para>
+            <b>Note</b>: An error occurs if you attempt to set this property for a combo box control that's an edit box or a built-in combo box control.</para>
+          <para>If this property is set to 0 (zero), the number of lines in the control is based on the number of items in the list.</para>
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="458c9-106"><para>В этом примере показано, как добавить элемент управления "поле со списком", содержащий два элемента, на панель команд с именем "Custom". В этом примере также задается количество элементов Line, ширина поля со списком и пустое значение по умолчанию для поля со списком.</para></span><span class="sxs-lookup"><span data-stu-id="458c9-106"><para>This example adds a combo box control containing two items to the command bar named "Custom". The example also sets the number of line items, the width of the combo box, and an empty default for the combo box.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="DropDownWidth">
@@ -1232,43 +1188,16 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e4fb6-107">Получает или задает ширину (в точках) в списке элемент управления поля со списком указанного командной строки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-107">Gets or sets the width (in pixels) of the list for the specified command bar combo box control.</span>
-          </span>
-          <span data-ttu-id="e4fb6-108">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-108">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="458c9-107">Получает или задает ширину (в пикселях) списка для указанного элемента управления "поле со списком" панели команд.</span><span class="sxs-lookup"><span data-stu-id="458c9-107">Gets or sets the width (in pixels) of the list for the specified command bar combo box control.</span></span> <span data-ttu-id="458c9-108">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="458c9-108">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e4fb6-109">
-            <para>
-              <b>Примечание</b>: ошибка возникает при попытке установить это свойство для встроенного элемента управления.</para>
-            <para>, Если этому свойству присвоено значение -1, ширину списка основано на длину максимальному элементу в списке. Если задано значение 0, ширину списка основано на ширину элемента управления.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-109">
-              <para>
-                <b>Note</b>: An error occurs if you attempt to set this property for a built-in control.</para>
-              <para>If this property is set to  -1, the width of the list is based on the length of the longest item in the combo box list. If this property is set to 0, the width of the list is based on the width of the control.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="e4fb6-110">
-            <para>В этом примере добавляется элемент управления поля со списком, содержащий два элемента в панели команд, с именем «Custom». В примере также указывается количество элементы строк, ширина пустым значением по умолчанию для поля со списком и поле со списком.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-110">
-              <para>This example adds a combo box control containing two items to the command bar named "Custom". The example also sets the number of line items, the width of the combo box, and an empty default for the combo box.</para>
-            </span>
-          </span>
-        </example>
+        <remarks><span data-ttu-id="458c9-109"><para> 
+            <b>Note</b>: при попытке задать данное свойство для встроенного элемента управления возникает ошибка.</para> 
+          <para>Если для этого свойства задано значение-1, ширина списка зависит от длины самого длинного элемента в списке поля со списком. Если для этого свойства задано значение 0, ширина списка зависит от ширины элемента управления.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="458c9-109"><para>
+            <b>Note</b>: An error occurs if you attempt to set this property for a built-in control.</para>
+          <para>If this property is set to  -1, the width of the list is based on the length of the longest item in the combo box list. If this property is set to 0, the width of the list is based on the width of the control.</para>
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="458c9-110"><para>В этом примере показано, как добавить элемент управления "поле со списком", содержащий два элемента, на панель команд с именем "Custom". В этом примере также задается количество элементов Line, ширина поля со списком и пустое значение по умолчанию для поля со списком.</para></span><span class="sxs-lookup"><span data-stu-id="458c9-110"><para>This example adds a combo box control containing two items to the command bar named "Custom". The example also sets the number of line items, the width of the combo box, and an empty default for the combo box.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -1659,47 +1588,15 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="e4fb6-111">Элемент списка должно быть задано.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-111">The list item to be set.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e4fb6-112">Получает или задает элемент в элементе управления <b>CommandBarComboBox</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-112">Gets or sets an item in the <b>CommandBarComboBox</b> control.</span>
-          </span>
-          <span data-ttu-id="e4fb6-113">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-113">Read/write.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="458c9-111">Элемент списка, который необходимо задать.</span><span class="sxs-lookup"><span data-stu-id="458c9-111">The list item to be set.</span></span></param>
+        <summary><span data-ttu-id="458c9-112">Получает или задает элемент управления <b>CommandBarComboBox</b> .</span><span class="sxs-lookup"><span data-stu-id="458c9-112">Gets or sets an item in the <b>CommandBarComboBox</b> control.</span></span> <span data-ttu-id="458c9-113">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="458c9-113">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e4fb6-114">
-            <para>
-              <b>Примечание</b>: это свойство доступно только для чтения для встроенных со списком.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-114">
-              <para>
-                <b>Note</b>: This property is read-only for built-in combo box controls.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="e4fb6-115">
-            <para>В этом примере проверяется четвертый элемент списка в поле со списком, подпись которого является «Stock данных» на панели команд, с именем «Custom». Если элемент не «Новости представления», в примере выводится сообщение, что поле со списком поврежден и пользователю предлагается переустановите приложение с уведомлением о том пользователя.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-115">
-              <para>This example checks the fourth list item in the combo box control whose caption is "Stock Data" on the command bar named "Custom." If the item isn’t "View News," the example displays a message advising the user that the combo box may be damaged and asks the user to reinstall the application.</para>
-            </span>
-          </span>
-        </example>
+        <remarks><span data-ttu-id="458c9-114"><para>
+            <b>Note</b>: это свойство доступно только для чтения для встроенных элементов управления "поле со списком".</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="458c9-114"><para>
+            <b>Note</b>: This property is read-only for built-in combo box controls.</para>
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="458c9-115"><para>В этом примере проверяется четвертый элемент списка в поле со списком с подписью "биржевые данные" на панели команд с именем "Custom". Если элемент не "просмотреть новости", в примере отображается сообщение о том, что поле со списком может быть повреждено, и попросите пользователя переустановить приложение.</para></span><span class="sxs-lookup"><span data-stu-id="458c9-115"><para>This example checks the fourth list item in the combo box control whose caption is "Stock Data" on the command bar named "Custom." If the item isn’t "View News," the example displays a message advising the user that the combo box may be damaged and asks the user to reinstall the application.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="ListCount">
@@ -1728,28 +1625,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e4fb6-116">Получает число элементов списка в элементе управления <b>CommandBarComboBox</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-116">Gets the number of list items in a <b>CommandBarComboBox</b> control.</span>
-          </span>
-          <span data-ttu-id="e4fb6-117">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-117">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="458c9-116">Получает количество элементов списка в элементе управления <b>CommandBarComboBox</b> .</span><span class="sxs-lookup"><span data-stu-id="458c9-116">Gets the number of list items in a <b>CommandBarComboBox</b> control.</span></span> <span data-ttu-id="458c9-117">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="458c9-117">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <example>
-          <span data-ttu-id="e4fb6-118">
-            <para>В этом примере проверяется количество элементов в поле со списком на панели команд, с именем «Custom». Если нет трех элементов в списке, который создает процедуру, в примере выводится сообщение, что поле со списком поврежден и пользователю предлагается переустановите приложение с уведомлением о том пользователя.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-118">
-              <para>This example checks the number of items in the combo box on the command bar named "Custom." If there aren’t three items in the list that the procedure produces, the example displays a message advising the user that the combo box may be damaged and asks the user to reinstall the application.</para>
-            </span>
-          </span>
-        </example>
+        <example><span data-ttu-id="458c9-118"><para>В этом примере проверяется количество элементов в поле со списком на панели команд с именем "Custom". Если в списке нет трех элементов, в примере выводится сообщение о том, что поле со списком может быть повреждено, и попросите пользователя переустановить приложение.</para></span><span class="sxs-lookup"><span data-stu-id="458c9-118"><para>This example checks the number of items in the combo box on the command bar named "Custom." If there aren’t three items in the list that the procedure produces, the example displays a message advising the user that the combo box may be damaged and asks the user to reinstall the application.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="ListHeaderCount">
@@ -1781,43 +1660,16 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e4fb6-119">Получает или задает число элементов списка в элементе управления <b>CommandBarComboBox</b> , который появляется над Строка разделителя групп разрядов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-119">Gets or sets the number of list items in a <b>CommandBarComboBox</b> control that appears above the separator line.</span>
-          </span>
-          <span data-ttu-id="e4fb6-120">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-120">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="458c9-119">Получает или задает количество элементов списка в элементе управления <b>CommandBarComboBox</b> , который отображается над разделительной строкой.</span><span class="sxs-lookup"><span data-stu-id="458c9-119">Gets or sets the number of list items in a <b>CommandBarComboBox</b> control that appears above the separator line.</span></span> <span data-ttu-id="458c9-120">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="458c9-120">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e4fb6-121">
-            <para>
-              <b>Примечание</b>: это свойство доступно только для чтения элементы управления ComboBox встроенных.</para>
-            <para>Значение свойства <b>ListHeaderCount</b> -1 означает, что в поле со списком отсутствует строка разделителя групп разрядов.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-121">
-              <para>
-                <b>Note</b>: This property is read-only for built-in combo box controls.</para>
-              <para>A <b>ListHeaderCount</b> property value of  – 1 indicates that there's no separator line in the combo box control.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="e4fb6-122">
-            <para>В этом примере добавляется поле со списком с именем «Custom» панель команд и затем добавляет два элемента в поле со списком. В примере используется свойство <b>ListHeaderCount</b> для отображения разделитель между первой и второй элемент в поле со списком. В примере также указывается количество элементы строк, ширина пустым значением по умолчанию для поля со списком и поле со списком.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-122">
-              <para>This example adds a combo box control to the command bar named "Custom" and then adds two items to the combo box. The example uses the <b>ListHeaderCount</b> property to display a separator line between First Item and Second Item in the combo box. The example also sets the number of line items, the width of the combo box, and an empty default for the combo box.</para>
-            </span>
-          </span>
-        </example>
+        <remarks><span data-ttu-id="458c9-121"><para>
+            <b>Note</b>: это свойство доступно только для чтения для встроенных элементов управления "поле со списком".</para> 
+          <para>Свойство <b>лиссеадеркаунт</b> со значением – 1 указывает на то, что в элементе управления "поле со списком" нет разделительной линии.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="458c9-121"><para>
+            <b>Note</b>: This property is read-only for built-in combo box controls.</para>
+          <para>A <b>ListHeaderCount</b> property value of  – 1 indicates that there's no separator line in the combo box control.</para>
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="458c9-122"><para>В этом примере элемент управления "поле со списком" добавляется на панель команд с именем "Custom", а затем в поле со списком добавляются два элемента. В этом примере используется свойство <b>лиссеадеркаунт</b> для отображения разделительной линии между первым элементом и вторым элементом в поле со списком. В этом примере также задается количество элементов Line, ширина поля со списком и пустое значение по умолчанию для поля со списком.</para></span><span class="sxs-lookup"><span data-stu-id="458c9-122"><para>This example adds a combo box control to the command bar named "Custom" and then adds two items to the combo box. The example uses the <b>ListHeaderCount</b> property to display a separator line between First Item and Second Item in the combo box. The example also sets the number of line items, the width of the combo box, and an empty default for the combo box.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="ListIndex">
@@ -1849,47 +1701,16 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e4fb6-123">Получает или задает индекс элемента, выбранного в списке элемента управления <b>CommandBarComboBox</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-123">Gets or sets the index number of the selected item in the list portion of the <b>CommandBarComboBox</b> control.</span>
-          </span>
-          <span data-ttu-id="e4fb6-124">Если в списке ничего не выбрано, это свойство возвращает нуль.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-124">If nothing is selected in the list, this property returns zero.</span>
-          </span>
-          <span data-ttu-id="e4fb6-125">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-125">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="458c9-123">Получает или задает номер индекса выбранного элемента в части списка элемента управления <b>CommandBarComboBox</b> .</span><span class="sxs-lookup"><span data-stu-id="458c9-123">Gets or sets the index number of the selected item in the list portion of the <b>CommandBarComboBox</b> control.</span></span> <span data-ttu-id="458c9-124">Если в списке ничего не выбрано, это свойство возвращает ноль.</span><span class="sxs-lookup"><span data-stu-id="458c9-124">If nothing is selected in the list, this property returns zero.</span></span> <span data-ttu-id="458c9-125">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="458c9-125">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e4fb6-126">
-            <para>
-              <b>Примечание</b>: это свойство не удается выполнить при применении к элементам управления, отличных от элементов управления списком.</para>
-            <para>Свойство <b>ListIndex</b> , указанного элемента управления для выбора заданного элемента и выполнения соответствующих действий в приложении.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-126">
-              <para>
-                <b>Note</b>: This property fails when applied to controls other than list controls.</para>
-              <para>Setting the <b>ListIndex</b> property causes the specified control to select the given item and execute the appropriate action in the application.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="e4fb6-127">
-            <para>В этом примере используется свойство <b>ListIndex</b> определить правильное подпрограммы для запуска, на основе выбора в поле со списком на панели команд, с именем «Панель Custom». Так как в процедуре используется <b>ListIndex</b>, текст в поле со списком может быть что-либо.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-127">
-              <para>This example uses the <b>ListIndex</b> property to determine the correct subroutine to run, based on the selection in the combo box on the command bar named “My Custom Bar.” Because the procedure uses <b>ListIndex</b>, the text in the combo box can be anything.</para>
-            </span>
-          </span>
-        </example>
+        <remarks><span data-ttu-id="458c9-126"><para>
+            <b>Note</b>: это свойство не выполняется при применении к элементам управления, отличным от элементов управления списком.</para> 
+          <para>Задание свойства <b>ListIndex</b> приводит к выбору указанного элемента управления и выполнению соответствующего действия в приложении.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="458c9-126"><para>
+            <b>Note</b>: This property fails when applied to controls other than list controls.</para>
+          <para>Setting the <b>ListIndex</b> property causes the specified control to select the given item and execute the appropriate action in the application.</para>
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="458c9-127"><para>В этом примере используется свойство <b>ListIndex</b> для определения правильной подпрограммы, основанной на выборе в поле со списком на панели команд под названием "Моя настраиваемая панель". Так как в процедуре используется <b>ListIndex</b>, текст в поле со списком может быть любым.</para></span><span class="sxs-lookup"><span data-stu-id="458c9-127"><para>This example uses the <b>ListIndex</b> property to determine the correct subroutine to run, based on the selection in the combo box on the command bar named “My Custom Bar.” Because the procedure uses <b>ListIndex</b>, the text in the combo box can be anything.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -2118,29 +1939,10 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="e4fb6-128">Элемент удаляется из списка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-128">The item to be removed from the list.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e4fb6-129">Удаляет элемент из элемента управления <b>CommandBarComboBox</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-129">Removes an item from a <b>CommandBarComboBox</b> control.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="458c9-128">Элемент, который необходимо удалить из списка.</span><span class="sxs-lookup"><span data-stu-id="458c9-128">The item to be removed from the list.</span></span></param>
+        <summary><span data-ttu-id="458c9-129">Удаляет элемент из элемента управления <b>CommandBarComboBox</b> .</span><span class="sxs-lookup"><span data-stu-id="458c9-129">Removes an item from a <b>CommandBarComboBox</b> control.</span></span></summary>
         <remarks>To be added.</remarks>
-        <example>
-          <span data-ttu-id="e4fb6-130">
-            <para>В этом примере определяет, есть ли более трех элементов в поле со списком указанного. При наличии более трех элементов, в примере удаляется второй элемент, изменяет стиль и задает новое значение. Также устанавливает свойство <b>Tag</b> родительского объекта (объект CommandBarControl), чтобы показать, что список изменился.</para>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e4fb6-130">
-              <para>This example determines whether there are more than three items in the specified combo box. If there are more than three items, the example removes the second item, alters the style, and sets a new value. It also sets the <b>Tag</b> property of the parent object (the CommandBarControl object) to show that the list has changed.</para>
-            </span>
-          </span>
-        </example>
+        <example><span data-ttu-id="458c9-130"><para>В этом примере определяется, содержит ли указанное поле со списком более трех элементов. При наличии более трех элементов в примере удаляется второй элемент, изменяется стиль и задается новое значение. Он также задает свойство <b>Tag</b> родительского объекта (объект CommandBarControl), чтобы показать, что список изменился.</para></span><span class="sxs-lookup"><span data-stu-id="458c9-130"><para>This example determines whether there are more than three items in the specified combo box. If there are more than three items, the example removes the second item, alters the style, and sets a new value. It also sets the <b>Tag</b> property of the parent object (the CommandBarControl object) to show that the list has changed.</para></span></span></example>
       </Docs>
     </Member>
     <Member MemberName="Reserved1">

@@ -1,13 +1,5 @@
 <Type Name="XlBorderWeight" FullName="Microsoft.Office.Core.XlBorderWeight">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="69b82e40df06496c9d32c5c522035746f78ae38b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662221" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlBorderWeight" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="69b82e40df06496c9d32c5c522035746f78ae38b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662221" /></Metadata><TypeSignature Language="C#" Value="public enum XlBorderWeight" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlBorderWeight extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlBorderWeight" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlBorderWeight" />
@@ -25,16 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="dca2c-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="dca2c-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="dca2c-102">Задает Вес границы вокруг диапазона.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="dca2c-102">Specifies the weight of the border around a range.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="ff6ad-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="ff6ad-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="ff6ad-102">Определяет толщину границы вокруг диапазона.</span><span class="sxs-lookup"><span data-stu-id="ff6ad-102">Specifies the weight of the border around a range.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -54,16 +37,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dca2c-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dca2c-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="dca2c-104">Сверхтонкая (тонкой границы).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dca2c-104">Hairline (thinnest border).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ff6ad-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="ff6ad-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="ff6ad-104">Тонкая граница (тонкая).</span><span class="sxs-lookup"><span data-stu-id="ff6ad-104">Hairline (thinnest border).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMedium">
@@ -82,16 +56,7 @@
       </ReturnValue>
       <MemberValue>-4138</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dca2c-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dca2c-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="dca2c-106">От среднего.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dca2c-106">Medium.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ff6ad-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="ff6ad-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="ff6ad-106">Средний.</span><span class="sxs-lookup"><span data-stu-id="ff6ad-106">Medium.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlThick">
@@ -110,16 +75,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dca2c-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dca2c-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="dca2c-108">Жирное (широкой границы).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dca2c-108">Thick (widest border).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ff6ad-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="ff6ad-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="ff6ad-108">Толстая (широкая граница).</span><span class="sxs-lookup"><span data-stu-id="ff6ad-108">Thick (widest border).</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlThin">
@@ -138,16 +94,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="dca2c-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dca2c-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="dca2c-110">Тонкие.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="dca2c-110">Thin.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ff6ad-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="ff6ad-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="ff6ad-110">Узки.</span><span class="sxs-lookup"><span data-stu-id="ff6ad-110">Thin.</span></span></summary>
       </Docs>
     </Member>
   </Members>

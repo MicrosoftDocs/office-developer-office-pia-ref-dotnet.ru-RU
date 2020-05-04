@@ -1,13 +1,5 @@
 <Type Name="XlAxisGroup" FullName="Microsoft.Office.Core.XlAxisGroup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="37c1fc9e7948f002e5cc90571f62f742e8a9fc19" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662125" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlAxisGroup" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="37c1fc9e7948f002e5cc90571f62f742e8a9fc19" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662125" /></Metadata><TypeSignature Language="C#" Value="public enum XlAxisGroup" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlAxisGroup extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlAxisGroup" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlAxisGroup" />
@@ -28,16 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="9b763-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9b763-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="9b763-102">Указывает тип группу осей.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9b763-102">Specifies the type of axis group.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="bc3eb-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="bc3eb-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="bc3eb-102">Указывает тип группы осей.</span><span class="sxs-lookup"><span data-stu-id="bc3eb-102">Specifies the type of axis group.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -57,16 +40,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9b763-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b763-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="9b763-104">Группа основной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b763-104">Primary axis group.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc3eb-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="bc3eb-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="bc3eb-104">Группа первичной оси.</span><span class="sxs-lookup"><span data-stu-id="bc3eb-104">Primary axis group.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlSecondary">
@@ -85,16 +59,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9b763-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b763-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="9b763-106">Группа вспомогательной оси.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9b763-106">Secondary axis group.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc3eb-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="bc3eb-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="bc3eb-106">Группа дополнительных осей.</span><span class="sxs-lookup"><span data-stu-id="bc3eb-106">Secondary axis group.</span></span></summary>
       </Docs>
     </Member>
   </Members>

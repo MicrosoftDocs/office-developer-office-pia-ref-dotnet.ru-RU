@@ -1,13 +1,5 @@
 <Type Name="MsoCalloutType" FullName="Microsoft.Office.Core.MsoCalloutType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a289999307c2557cc778ef1eb90a75d5b62bb17f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662347" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoCalloutType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a289999307c2557cc778ef1eb90a75d5b62bb17f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662347" /></Metadata><TypeSignature Language="C#" Value="public enum MsoCalloutType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCalloutType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCalloutType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoCalloutType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="15f5a-101">Указывает тип линии выноски.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="15f5a-101">Specifies the type of callout line.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="0c2e3-101">Задает тип линии выноски.</span><span class="sxs-lookup"><span data-stu-id="0c2e3-101">Specifies the type of callout line.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,16 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="15f5a-102">Состоит из двух отрезков линии выноски.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="15f5a-102">Callout line made up of two line segments.</span>
-          </span>
-          <span data-ttu-id="15f5a-103">Справа от надписи ограничивающего присоединена строка выноски.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="15f5a-103">Callout line is attached on right side of text bounding box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0c2e3-102">Линия выноски состоит из двух отрезков линий.</span><span class="sxs-lookup"><span data-stu-id="0c2e3-102">Callout line made up of two line segments.</span></span> <span data-ttu-id="0c2e3-103">Линия выноски присоединяется с правой стороны ограничительной рамки текста.</span><span class="sxs-lookup"><span data-stu-id="0c2e3-103">Callout line is attached on right side of text bounding box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCalloutMixed">
@@ -73,12 +51,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="15f5a-104">Возвращаемое значение. Указывает сочетание других состояний.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="15f5a-104">Return value only; indicates a combination of the other states.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0c2e3-104">Только возвращаемое значение; Указывает комбинацию других состояний.</span><span class="sxs-lookup"><span data-stu-id="0c2e3-104">Return value only; indicates a combination of the other states.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCalloutOne">
@@ -97,12 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="15f5a-105">Выноски Single, горизонтальные линии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="15f5a-105">Single, horizontal callout line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0c2e3-105">Одинарная горизонтальная линия выноски.</span><span class="sxs-lookup"><span data-stu-id="0c2e3-105">Single, horizontal callout line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCalloutThree">
@@ -121,16 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="15f5a-106">Состоит из двух отрезков линии выноски.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="15f5a-106">Callout line made up of two line segments.</span>
-          </span>
-          <span data-ttu-id="15f5a-107">Линии выноски присоединяется слева от текста, ограничивающий прямоугольник.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="15f5a-107">Callout line is attached on left side of text bounding box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0c2e3-106">Линия выноски состоит из двух отрезков линий.</span><span class="sxs-lookup"><span data-stu-id="0c2e3-106">Callout line made up of two line segments.</span></span> <span data-ttu-id="0c2e3-107">Линия выноски присоединяется с левой стороны ограничительной рамки текста.</span><span class="sxs-lookup"><span data-stu-id="0c2e3-107">Callout line is attached on left side of text bounding box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCalloutTwo">
@@ -149,12 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="15f5a-108">Single, угловые выноски строки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="15f5a-108">Single, angled callout line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0c2e3-108">Одинарная угловая линия выноски.</span><span class="sxs-lookup"><span data-stu-id="0c2e3-108">Single, angled callout line.</span></span></summary>
       </Docs>
     </Member>
   </Members>

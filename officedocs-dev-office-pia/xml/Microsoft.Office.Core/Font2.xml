@@ -1,13 +1,5 @@
 <Type Name="Font2" FullName="Microsoft.Office.Core.Font2">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5dfaa0196963bf6ab693c10f1fe8bcd8153a6491" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662430" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Font2 : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5dfaa0196963bf6ab693c10f1fe8bcd8153a6491" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662430" /></Metadata><TypeSignature Language="C#" Value="public interface Font2 : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Font2 implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Font2" />
   <TypeSignature Language="VB.NET" Value="Public Interface Font2&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="563cf-101">Содержит атрибуты шрифта (например, шрифт, размер шрифта и цвет) для объекта.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="563cf-101">Contains font attributes (for example, font name, font size, and color) for an object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="be836-101">Содержит атрибуты шрифтов (например, имя, размер и цвет шрифта) для объекта.</span><span class="sxs-lookup"><span data-stu-id="be836-101">Contains font attributes (for example, font name, font size, and color) for an object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -65,21 +52,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-102">
-            <b>Значение true,</b> Если шрифт отформатированы как прописных букв.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-102">
-              <b>True</b> if the font is formatted as all capital letters.</span>
-          </span>
-          <span data-ttu-id="563cf-103">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-103">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-102"><b>Значение true</b> , если шрифт отформатирован как прописные буквы.</span><span class="sxs-lookup"><span data-stu-id="be836-102"><b>True</b> if the font is formatted as all capital letters.</span></span> <span data-ttu-id="be836-103">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-103">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -109,22 +83,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-104">Получает объект, представляющий приложение <see cref="T:Microsoft.Office.Core.Font2" /> объект используется в.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-104">Gets an object that represents the application the <see cref="T:Microsoft.Office.Core.Font2" /> object is used in.</span>
-          </span>
-          <span data-ttu-id="563cf-105">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-105">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="563cf-106">Объект</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-106">Object</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="be836-104">Получает объект, представляющий приложение, в котором <see cref="T:Microsoft.Office.Core.Font2" /> используется объект.</span><span class="sxs-lookup"><span data-stu-id="be836-104">Gets an object that represents the application the <see cref="T:Microsoft.Office.Core.Font2" /> object is used in.</span></span> <span data-ttu-id="be836-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="be836-105">Read-only.</span></span></summary>
+        <value><span data-ttu-id="be836-106">Объект</span><span class="sxs-lookup"><span data-stu-id="be836-106">Object</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -154,19 +114,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-107">Получает или задает значение, указывающее, следует ли вращаться номера в нумерованный список, когда вращаться текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-107">Gets or sets a value that specifies whether the numbers in a numbered list should be rotated when the text is rotated.</span>
-          </span>
-          <span data-ttu-id="563cf-108">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-108">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-107">Получает или задает значение, указывающее, следует ли поворачивать числа в нумерованном списке при вращении текста.</span><span class="sxs-lookup"><span data-stu-id="be836-107">Gets or sets a value that specifies whether the numbers in a numbered list should be rotated when the text is rotated.</span></span> <span data-ttu-id="be836-108">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-108">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -196,22 +145,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-109">Получает или задает значение, указывающее горизонтальное смещение выбранного шрифта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-109">Gets or sets a value specifying the horizontal offset of the selected font.</span>
-          </span>
-          <span data-ttu-id="563cf-110">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-110">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="563cf-111">Single</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-111">Single</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="be836-109">Получает или задает значение, указывающее горизонтальное смещение выбранного шрифта.</span><span class="sxs-lookup"><span data-stu-id="be836-109">Gets or sets a value specifying the horizontal offset of the selected font.</span></span> <span data-ttu-id="be836-110">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-110">Read/write.</span></span></summary>
+        <value><span data-ttu-id="be836-111">Одинарное</span><span class="sxs-lookup"><span data-stu-id="be836-111">Single</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -241,19 +176,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-112">Получает или задает значение, указывающее, следует ли полужирный шрифт.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-112">Gets or sets a value specifying whether the font should be bold.</span>
-          </span>
-          <span data-ttu-id="563cf-113">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-113">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-112">Получает или задает значение, указывающее, должен ли шрифт отображаться полужирным шрифтом.</span><span class="sxs-lookup"><span data-stu-id="be836-112">Gets or sets a value specifying whether the font should be bold.</span></span> <span data-ttu-id="be836-113">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-113">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -283,19 +207,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTextCaps</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-114">Получает или задает значение, указывающее, что текст следует прописной.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-114">Gets or sets a value specifying that the text should be capitalized.</span>
-          </span>
-          <span data-ttu-id="563cf-115">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-115">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-114">Получает или задает значение, указывающее, что текст должен быть прописным.</span><span class="sxs-lookup"><span data-stu-id="be836-114">Gets or sets a value specifying that the text should be capitalized.</span></span> <span data-ttu-id="be836-115">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-115">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -325,26 +238,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-116">Получает значение, указывающее, приложения, в которой был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-116">Gets a value indicating the application the object was created in.</span>
-          </span>
-          <span data-ttu-id="563cf-117">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-117">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="563cf-118">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-118">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="be836-116">Получает значение, указывающее приложение, в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="be836-116">Gets a value indicating the application the object was created in.</span></span> <span data-ttu-id="be836-117">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="be836-117">Read-only.</span></span></summary>
+        <value><span data-ttu-id="be836-118"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="be836-118"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -374,21 +269,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-119">
-            <b>Значение true,</b> Если указанный шрифт отформатированы как двойное зачеркивание текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-119">
-              <b>True</b> if the specified font is formatted as double strikethrough text.</span>
-          </span>
-          <span data-ttu-id="563cf-120">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-120">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-119"><b>Значение true</b> , если указанный шрифт отформатирован в виде двойного зачеркивания текста.</span><span class="sxs-lookup"><span data-stu-id="be836-119"><b>True</b> if the specified font is formatted as double strikethrough text.</span></span> <span data-ttu-id="be836-120">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-120">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -415,19 +297,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-121">Получает значение, указывающее, является ли шрифт можно встраивать в страницы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-121">Gets a value indicating whether the font can be embedded in a page.</span>
-          </span>
-          <span data-ttu-id="563cf-122">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-122">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-121">Получает значение, указывающее, можно ли внедрять шрифт на страницу.</span><span class="sxs-lookup"><span data-stu-id="be836-121">Gets a value indicating whether the font can be embedded in a page.</span></span> <span data-ttu-id="be836-122">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="be836-122">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -454,19 +325,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-123">Получает значение, указывающее, является ли шрифт внедрен на странице.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-123">Gets a value specifying whether the font is embedded in a page.</span>
-          </span>
-          <span data-ttu-id="563cf-124">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-124">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-123">Получает значение, указывающее, внедрен ли шрифт на страницу.</span><span class="sxs-lookup"><span data-stu-id="be836-123">Gets a value specifying whether the font is embedded in a page.</span></span> <span data-ttu-id="be836-124">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="be836-124">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -496,19 +356,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-125">Получает или задает значение, указывающее, следует ли текст для выбора расстоянии друг от друга равно расстоянии друг от друга.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-125">Gets or sets a value specifying whether the text for a selection should be spaced equal distances apart.</span>
-          </span>
-          <span data-ttu-id="563cf-126">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-126">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-125">Получает или задает значение, указывающее, следует ли разделить текст для выделенного фрагмента на одинаковое расстояние.</span><span class="sxs-lookup"><span data-stu-id="be836-125">Gets or sets a value specifying whether the text for a selection should be spaced equal distances apart.</span></span> <span data-ttu-id="be836-126">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-126">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -563,19 +412,8 @@
         <ReturnType>Microsoft.Office.Core.GlowFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-127">Получает значение, указывающее, отображается ли шрифт как эффект свечения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-127">Gets a value indicating whether the font is displayed as a glow effect.</span>
-          </span>
-          <span data-ttu-id="563cf-128">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-128">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.GlowFormat" />
-        </value>
+        <summary><span data-ttu-id="be836-127">Получает значение, указывающее, отображается ли шрифт как эффект свечения.</span><span class="sxs-lookup"><span data-stu-id="be836-127">Gets a value indicating whether the font is displayed as a glow effect.</span></span>  <span data-ttu-id="be836-128">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="be836-128">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.GlowFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -602,19 +440,8 @@
         <ReturnType>Microsoft.Office.Core.ColorFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-129">Получает значение, указывающее, отображается ли шрифт как с выделением.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-129">Gets a value indicating whether the font is displayed as highlighted.</span>
-          </span>
-          <span data-ttu-id="563cf-130">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-130">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ColorFormat" />
-        </value>
+        <summary><span data-ttu-id="be836-129">Получает значение, указывающее, отображается ли шрифт как выделенный.</span><span class="sxs-lookup"><span data-stu-id="be836-129">Gets a value indicating whether the font is displayed as highlighted.</span></span> <span data-ttu-id="be836-130">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="be836-130">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.ColorFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -644,19 +471,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-131">Получает или задает значение, указывающее, является ли текст для выделения курсивом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-131">Gets or sets a value specifying whether the text for a selection is italic.</span>
-          </span>
-          <span data-ttu-id="563cf-132">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-132">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-131">Получает или задает значение, указывающее, является ли текст для выделенного фрагмента курсивом.</span><span class="sxs-lookup"><span data-stu-id="be836-131">Gets or sets a value specifying whether the text for a selection is italic.</span></span> <span data-ttu-id="be836-132">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-132">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -686,26 +502,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-133">Получает или задает значение, указывающее расстояние между текстовых символов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-133">Gets or sets a value specifying the amount of spacing between text characters.</span>
-          </span>
-          <span data-ttu-id="563cf-134">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-134">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="563cf-135">
-            <b>Single</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-135">
-              <b>Single</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="be836-133">Получает или задает значение, указывающее расстояние между текстовыми символами.</span><span class="sxs-lookup"><span data-stu-id="be836-133">Gets or sets a value specifying the amount of spacing between text characters.</span></span> <span data-ttu-id="be836-134">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-134">Read/write.</span></span></summary>
+        <value><span data-ttu-id="be836-135"><b>Одинарное с плавающей точкой</b></span><span class="sxs-lookup"><span data-stu-id="be836-135"><b>Single</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -732,19 +530,8 @@
         <ReturnType>Microsoft.Office.Core.LineFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-136">Получает значение указанием формат строки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-136">Gets a value specifiying the format of a line.</span>
-          </span>
-          <span data-ttu-id="563cf-137">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-137">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.LineFormat" />
-        </value>
+        <summary><span data-ttu-id="be836-136">Получает значение, указанием формат строки.</span><span class="sxs-lookup"><span data-stu-id="be836-136">Gets a value specifiying the format of a line.</span></span> <span data-ttu-id="be836-137">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="be836-137">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.LineFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -774,26 +561,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-138">Получает или задает значение, указывающее шрифт, используемый для выбора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-138">Gets or sets a value specifying the font to use for a selection.</span>
-          </span>
-          <span data-ttu-id="563cf-139">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-139">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="563cf-140">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-140">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="be836-138">Получает или задает значение, указывающее шрифт, используемый для выделения.</span><span class="sxs-lookup"><span data-stu-id="be836-138">Gets or sets a value specifying the font to use for a selection.</span></span>  <span data-ttu-id="be836-139">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-139">Read/write.</span></span></summary>
+        <value><span data-ttu-id="be836-140"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="be836-140"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -823,26 +592,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-141">Получает или задает шрифт, используемый для английского текста (символы с кодами знаков из нуль (0) до 127).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-141">Gets or sets the font used for Latin text (characters with character codes from 0 (zero) through 127).</span>
-          </span>
-          <span data-ttu-id="563cf-142">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-142">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="563cf-143">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-143">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="be836-141">Получает или задает шрифт, используемый для латиницы-текста (символов с кодами символов от 0 (от 0 до 127).</span><span class="sxs-lookup"><span data-stu-id="be836-141">Gets or sets the font used for Latin text (characters with character codes from 0 (zero) through 127).</span></span>  <span data-ttu-id="be836-142">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-142">Read/write.</span></span></summary>
+        <value><span data-ttu-id="be836-143"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="be836-143"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -872,30 +623,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-144">Получает или задает имя шрифта сложных скриптов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-144">Gets or sets the complex script font name.</span>
-          </span>
-          <span data-ttu-id="563cf-145">Используется для смешанные языковые текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-145">Used for mixed language text.</span>
-          </span>
-          <span data-ttu-id="563cf-146">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-146">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="563cf-147">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-147">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="be836-144">Получает или задает имя шрифта со сложным набором символов.</span><span class="sxs-lookup"><span data-stu-id="be836-144">Gets or sets the complex script font name.</span></span> <span data-ttu-id="be836-145">Используется для текста на смешанном языке.</span><span class="sxs-lookup"><span data-stu-id="be836-145">Used for mixed language text.</span></span> <span data-ttu-id="be836-146">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-146">Read/write.</span></span></summary>
+        <value><span data-ttu-id="be836-147"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="be836-147"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -925,26 +654,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-148">Получает или задает восточно-азиатский шрифт.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-148">Gets or sets an East Asian font name.</span>
-          </span>
-          <span data-ttu-id="563cf-149">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-149">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="563cf-150">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-150">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="be836-148">Получает или задает имя восточно-азиатского шрифта.</span><span class="sxs-lookup"><span data-stu-id="be836-148">Gets or sets an East Asian font name.</span></span> <span data-ttu-id="be836-149">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-149">Read/write.</span></span></summary>
+        <value><span data-ttu-id="be836-150"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="be836-150"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -974,26 +685,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-151">Получает или задает шрифт, используемый для которого кодировка числа символов, больше, чем 127.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-151">Gets or sets the font used for characters whose character set numbers are greater than 127.</span>
-          </span>
-          <span data-ttu-id="563cf-152">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-152">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="563cf-153">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-153">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="be836-151">Получает или задает шрифт, используемый для тех символов, значения которых больше 127.</span><span class="sxs-lookup"><span data-stu-id="be836-151">Gets or sets the font used for characters whose character set numbers are greater than 127.</span></span> <span data-ttu-id="be836-152">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-152">Read/write.</span></span></summary>
+        <value><span data-ttu-id="be836-153"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="be836-153"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1020,26 +713,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-154">Получает родительский <see cref="T:Microsoft.Office.Core.Font2" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-154">Gets the parent of the <see cref="T:Microsoft.Office.Core.Font2" /> object.</span>
-          </span>
-          <span data-ttu-id="563cf-155">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-155">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="563cf-156">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-156">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="be836-154">Получает родительский <see cref="T:Microsoft.Office.Core.Font2" /> объект для объекта.</span><span class="sxs-lookup"><span data-stu-id="be836-154">Gets the parent of the <see cref="T:Microsoft.Office.Core.Font2" /> object.</span></span> <span data-ttu-id="be836-155">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="be836-155">Read-only.</span></span></summary>
+        <value><span data-ttu-id="be836-156"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="be836-156"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1066,19 +741,8 @@
         <ReturnType>Microsoft.Office.Core.ReflectionFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-157">Получает значение, указывающее тип формата отражения для выбора текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-157">Gets a value specifying the type of reflection format for the selection of text.</span>
-          </span>
-          <span data-ttu-id="563cf-158">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-158">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ReflectionFormat" />
-        </value>
+        <summary><span data-ttu-id="be836-157">Получает значение, задающее тип формата отражения для выделенного текста.</span><span class="sxs-lookup"><span data-stu-id="be836-157">Gets a value specifying the type of reflection format for the selection of text.</span></span> <span data-ttu-id="be836-158">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="be836-158">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.ReflectionFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1105,19 +769,8 @@
         <ReturnType>Microsoft.Office.Core.ShadowFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-159">Получает значение, определяющее тип тень для выбора текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-159">Gets the value specifying the type of shadow effect for the selection of text.</span>
-          </span>
-          <span data-ttu-id="563cf-160">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-160">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ShadowFormat" />
-        </value>
+        <summary><span data-ttu-id="be836-159">Получает значение, задающее тип тени для выделенного текста.</span><span class="sxs-lookup"><span data-stu-id="be836-159">Gets the value specifying the type of shadow effect for the selection of text.</span></span>  <span data-ttu-id="be836-160">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="be836-160">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.ShadowFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1147,26 +800,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-161">Получает или задает значение, указывающее размер шрифта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-161">Gets or sets a value specifying the size of the font.</span>
-          </span>
-          <span data-ttu-id="563cf-162">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-162">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="563cf-163">
-            <b>Single</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-163">
-              <b>Single</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="be836-161">Получает или задает значение, указывающее размер шрифта.</span><span class="sxs-lookup"><span data-stu-id="be836-161">Gets or sets a value specifying the size of the font.</span></span> <span data-ttu-id="be836-162">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-162">Read/write.</span></span></summary>
+        <value><span data-ttu-id="be836-163"><b>Одинарное с плавающей точкой</b></span><span class="sxs-lookup"><span data-stu-id="be836-163"><b>Single</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1196,23 +831,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-164">Получает или задает значение, указывающее, следует ли использовать малые прописные с выделенного текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-164">Gets or sets a value specifying whether small caps should be used with the selection of text.</span>
-          </span>
-          <span data-ttu-id="563cf-165">Малые прописные являются одной высоты с использованием нижнего регистра выделенного текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-165">Small caps are the same height as the lowercase letters in a selection of text.</span>
-          </span>
-          <span data-ttu-id="563cf-166">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-166">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-164">Получает или задает значение, указывающее, следует ли использовать малые прописные буквы с выделенным текстом.</span><span class="sxs-lookup"><span data-stu-id="be836-164">Gets or sets a value specifying whether small caps should be used with the selection of text.</span></span> <span data-ttu-id="be836-165">Малые прописные буквы имеют ту же высоту, что и буквы нижнего регистра в выделенном тексте.</span><span class="sxs-lookup"><span data-stu-id="be836-165">Small caps are the same height as the lowercase letters in a selection of text.</span></span> <span data-ttu-id="be836-166">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-166">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1242,19 +862,8 @@
         <ReturnType>Microsoft.Office.Core.MsoSoftEdgeType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-167">Получает или задает значение, указывающее тип программных влияние пограничного сервера, используемые в выделенный текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-167">Gets or sets a value specifying the type of soft edge effect used in a selection of text.</span>
-          </span>
-          <span data-ttu-id="563cf-168">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-168">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoSoftEdgeType" />
-        </value>
+        <summary><span data-ttu-id="be836-167">Получает или задает значение, определяющее тип эффектов с мягким краем, используемых в выделении текста.</span><span class="sxs-lookup"><span data-stu-id="be836-167">Gets or sets a value specifying the type of soft edge effect used in a selection of text.</span></span> <span data-ttu-id="be836-168">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-168">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoSoftEdgeType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1284,26 +893,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-169">Получает или задает значение, указывающее расстояние между символами в выделенный текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-169">Gets or sets a value specifying the  spacing between characters in a selection of text.</span>
-          </span>
-          <span data-ttu-id="563cf-170">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-170">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="563cf-171">
-            <b>Single</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-171">
-              <b>Single</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="be836-169">Получает или задает значение, указывающее расстояние между символами в выделении текста.</span><span class="sxs-lookup"><span data-stu-id="be836-169">Gets or sets a value specifying the  spacing between characters in a selection of text.</span></span> <span data-ttu-id="be836-170">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-170">Read/write.</span></span></summary>
+        <value><span data-ttu-id="be836-171"><b>Одинарное с плавающей точкой</b></span><span class="sxs-lookup"><span data-stu-id="be836-171"><b>Single</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1333,19 +924,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTextStrike</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-172">Получает или задает значение, указывающее формат черту, используемый для выбора текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-172">Gets or sets a value specifying the strike format used for a selection of text.</span>
-          </span>
-          <span data-ttu-id="563cf-173">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-173">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTextStrike" />
-        </value>
+        <summary><span data-ttu-id="be836-172">Получает или задает значение, указывающее формат зачеркивания, используемый для выделения текста.</span><span class="sxs-lookup"><span data-stu-id="be836-172">Gets or sets a value specifying the strike format used for a selection of text.</span></span> <span data-ttu-id="be836-173">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-173">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTextStrike" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1375,19 +955,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-174">Получает или задает значение, указывающее, что внешний зачеркивание должно составлять текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-174">Gets or sets a value specifying the text should be rendered in a strikethrough appearance.</span>
-          </span>
-          <span data-ttu-id="563cf-175">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-175">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-174">Получает или задает значение, указывающее текст, который должен отображаться в виде зачеркивания.</span><span class="sxs-lookup"><span data-stu-id="be836-174">Gets or sets a value specifying the text should be rendered in a strikethrough appearance.</span></span> <span data-ttu-id="be836-175">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-175">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1417,19 +986,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-176">Получает или задает значение, указывающее, что выделенный текст должен отображаться как индекс.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-176">Gets or sets a value specifying that the selected text should be displayed as subscript.</span>
-          </span>
-          <span data-ttu-id="563cf-177">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-177">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-176">Получает или задает значение, указывающее, что выбранный текст должен отображаться как подстрочный.</span><span class="sxs-lookup"><span data-stu-id="be836-176">Gets or sets a value specifying that the selected text should be displayed as subscript.</span></span> <span data-ttu-id="be836-177">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-177">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1459,19 +1017,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-178">Получает или задает значение, указывающее, что выделенный текст должен отображаться как надстрочный знак.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-178">Gets or sets a value specifying that the selected text should be displayed as superscript.</span>
-          </span>
-          <span data-ttu-id="563cf-179">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-179">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="be836-178">Получает или задает значение, указывающее, что выбранный текст должен отображаться в виде надстрочного знака.</span><span class="sxs-lookup"><span data-stu-id="be836-178">Gets or sets a value specifying that the selected text should be displayed as superscript.</span></span> <span data-ttu-id="be836-179">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-179">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1498,19 +1045,8 @@
         <ReturnType>Microsoft.Office.Core.ColorFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-180">Получает значение, указывающее цвет подчеркивания для выделенного текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-180">Gets a value specifying the color of the underline for the selected text.</span>
-          </span>
-          <span data-ttu-id="563cf-181">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-181">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ColorFormat" />
-        </value>
+        <summary><span data-ttu-id="be836-180">Получает значение, задающее цвет подчеркивания для выбранного текста.</span><span class="sxs-lookup"><span data-stu-id="be836-180">Gets a value specifying the color of the underline for the selected text.</span></span> <span data-ttu-id="be836-181">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="be836-181">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.ColorFormat" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1540,19 +1076,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-182">Получает или задает значение, указывающее стиль подчеркивания для выделенного текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-182">Gets or sets a value specifying the underline style for the selected text.</span>
-          </span>
-          <span data-ttu-id="563cf-183">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-183">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTextUnderlineType" />
-        </value>
+        <summary><span data-ttu-id="be836-182">Получает или задает значение, задающее стиль подчеркивания для выбранного текста.</span><span class="sxs-lookup"><span data-stu-id="be836-182">Gets or sets a value specifying the underline style for the selected text.</span></span> <span data-ttu-id="be836-183">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-183">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTextUnderlineType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1582,19 +1107,8 @@
         <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="563cf-184">Получает или задает значение, указывающее влияние текст для выбранного текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-184">Gets or sets a value specifying the text effect for the selected text.</span>
-          </span>
-          <span data-ttu-id="563cf-185">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="563cf-185">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoPresetTextEffect" />
-        </value>
+        <summary><span data-ttu-id="be836-184">Получает или задает значение, указывающее текст для выбранного текста.</span><span class="sxs-lookup"><span data-stu-id="be836-184">Gets or sets a value specifying the text effect for the selected text.</span></span> <span data-ttu-id="be836-185">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="be836-185">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoPresetTextEffect" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

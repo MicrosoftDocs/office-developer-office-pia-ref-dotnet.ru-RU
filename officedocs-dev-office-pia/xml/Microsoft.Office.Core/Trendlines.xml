@@ -1,13 +1,5 @@
 <Type Name="Trendlines" FullName="Microsoft.Office.Core.Trendlines">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="80e0ea49a416f1cb86159a479a49869faf0d1a7f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662529" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Trendlines : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="80e0ea49a416f1cb86159a479a49869faf0d1a7f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662529" /></Metadata><TypeSignature Language="C#" Value="public interface Trendlines : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Trendlines implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Trendlines" />
   <TypeSignature Language="VB.NET" Value="Public Interface Trendlines&#xA;Implements IEnumerable" />
@@ -62,9 +54,7 @@
       <Docs>
         <param name="Index">To be added.</param>
         <summary>To be added.</summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.IMsoTrendline" />
-        </value>
+        <value><see cref="T:Microsoft.Office.Core.IMsoTrendline" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -127,22 +117,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57530-101">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57530-101">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="57530-102">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57530-102">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1a82d-101">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="1a82d-101">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
+        <value><span data-ttu-id="1a82d-102"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="1a82d-102"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -191,26 +167,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57530-103">Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57530-103">Returns a 32-bit integer that indicates the application in which this object was created.</span>
-          </span>
-          <span data-ttu-id="57530-104">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57530-104">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="57530-105">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57530-105">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="1a82d-103">Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан.</span><span class="sxs-lookup"><span data-stu-id="1a82d-103">Returns a 32-bit integer that indicates the application in which this object was created.</span></span> <span data-ttu-id="1a82d-104">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="1a82d-104">Read-only.</span></span></summary>
+        <value><span data-ttu-id="1a82d-105"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="1a82d-105"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

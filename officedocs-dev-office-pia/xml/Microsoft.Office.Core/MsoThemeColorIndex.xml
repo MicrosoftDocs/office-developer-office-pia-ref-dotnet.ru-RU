@@ -1,13 +1,5 @@
 <Type Name="MsoThemeColorIndex" FullName="Microsoft.Office.Core.MsoThemeColorIndex">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="253b7dd6843bc7f5682d75997cebfce9fe74a03e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662468" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoThemeColorIndex" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="253b7dd6843bc7f5682d75997cebfce9fe74a03e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662468" /></Metadata><TypeSignature Language="C#" Value="public enum MsoThemeColorIndex" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoThemeColorIndex extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoThemeColorIndex" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoThemeColorIndex" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="b5f58-101">Указывает цвет темы Office.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b5f58-101">Indicates the Office theme color.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="a7768-101">Указывает цвет темы Office.</span><span class="sxs-lookup"><span data-stu-id="a7768-101">Indicates the Office theme color.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-102">Указывает не цвет темы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-102">Specifies no theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-102">Указывает, что цвет темы отсутствует.</span><span class="sxs-lookup"><span data-stu-id="a7768-102">Specifies no theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorAccent1">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-103">Указывает цвет темы акцент 1.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-103">Specifies the Accent 1 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-103">Задает цвет темы "акцент 1".</span><span class="sxs-lookup"><span data-stu-id="a7768-103">Specifies the Accent 1 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorAccent2">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-104">Указывает цвет темы 2 диакритических знаков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-104">Specifies the Accent 2 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-104">Задает цвет темы "акцент 2".</span><span class="sxs-lookup"><span data-stu-id="a7768-104">Specifies the Accent 2 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorAccent3">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-105">Указывает цвет темы Акцент 3.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-105">Specifies the Accent 3 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-105">Задает цвет темы "акцент 3".</span><span class="sxs-lookup"><span data-stu-id="a7768-105">Specifies the Accent 3 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorAccent4">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-106">Указывает цвет темы Акцент 4.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-106">Specifies the Accent 4 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-106">Задает цвет темы "акцент 4".</span><span class="sxs-lookup"><span data-stu-id="a7768-106">Specifies the Accent 4 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorAccent5">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-107">Указывает цвет темы Акцент 5.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-107">Specifies the Accent 5 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-107">Задает цвет темы "акцент 5".</span><span class="sxs-lookup"><span data-stu-id="a7768-107">Specifies the Accent 5 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorAccent6">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-108">Указывает цвет темы акцент 6.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-108">Specifies the Accent 6 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-108">Задает цвет темы "акцент 6".</span><span class="sxs-lookup"><span data-stu-id="a7768-108">Specifies the Accent 6 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorBackground1">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-109">Указывает цвет темы фона 1.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-109">Specifies the Background 1 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-109">Задает цвет темы "фон 1".</span><span class="sxs-lookup"><span data-stu-id="a7768-109">Specifies the Background 1 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorBackground2">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-110">Указывает цвет темы фона 2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-110">Specifies the Background 2 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-110">Задает цвет темы "фон 2".</span><span class="sxs-lookup"><span data-stu-id="a7768-110">Specifies the Background 2 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorDark1">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-111">Указывает цвет темы темный 1.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-111">Specifies the Dark 1 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-111">Задает цвет темы "темный 1".</span><span class="sxs-lookup"><span data-stu-id="a7768-111">Specifies the Dark 1 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorDark2">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-112">Указывает цвет темы темный 2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-112">Specifies the Dark 2 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-112">Задает темный цвет темы 2.</span><span class="sxs-lookup"><span data-stu-id="a7768-112">Specifies the Dark 2 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorFollowedHyperlink">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-113">Указывает цвет темы для выбранной гиперссылки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-113">Specifies the theme color for a clicked hyperlink.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-113">Задает цвет темы для гиперссылки, выбранной по щелчку мыши.</span><span class="sxs-lookup"><span data-stu-id="a7768-113">Specifies the theme color for a clicked hyperlink.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorHyperlink">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-114">Указывает цвет темы гиперссылки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-114">Specifies the theme color for a hyperlink.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-114">Задает цвет темы для гиперссылки.</span><span class="sxs-lookup"><span data-stu-id="a7768-114">Specifies the theme color for a hyperlink.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorLight1">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-115">Указывает цвет темы светлый 1.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-115">Specifies the Light 1 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-115">Задает цвет темы Light 1.</span><span class="sxs-lookup"><span data-stu-id="a7768-115">Specifies the Light 1 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorLight2">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-116">Указывает цвет темы Light 2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-116">Specifies the Light 2 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-116">Задает цвет темы Light 2.</span><span class="sxs-lookup"><span data-stu-id="a7768-116">Specifies the Light 2 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorMixed">
@@ -405,12 +317,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-117">Указывает тему смешанный цвет.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-117">Specifies a mixed color theme.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-117">Задает смешанную цветовую тему.</span><span class="sxs-lookup"><span data-stu-id="a7768-117">Specifies a mixed color theme.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorText1">
@@ -429,12 +336,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-118">Указывает цвет темы текст 1.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-118">Specifies the Text 1 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-118">Задает цвет темы "текст 1".</span><span class="sxs-lookup"><span data-stu-id="a7768-118">Specifies the Text 1 theme color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeColorText2">
@@ -453,12 +355,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b5f58-119">Указывает цвет темы текст 2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b5f58-119">Specifies the Text 2 theme color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a7768-119">Задает цвет темы Text 2.</span><span class="sxs-lookup"><span data-stu-id="a7768-119">Specifies the Text 2 theme color.</span></span></summary>
       </Docs>
     </Member>
   </Members>

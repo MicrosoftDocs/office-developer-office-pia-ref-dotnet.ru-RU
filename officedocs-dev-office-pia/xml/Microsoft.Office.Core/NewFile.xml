@@ -1,13 +1,5 @@
 <Type Name="NewFile" FullName="Microsoft.Office.Core.NewFile">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="07407c6dd30110ea03cd474624417ed74fca0047" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662045" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NewFile : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="07407c6dd30110ea03cd474624417ed74fca0047" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662045" /></Metadata><TypeSignature Language="C#" Value="public interface NewFile : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NewFile implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.NewFile" />
   <TypeSignature Language="VB.NET" Value="Public Interface NewFile&#xA;Implements _IMsoDispObj" />
@@ -30,90 +22,76 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="9f6c7-101">Объект <b>NewFile</b> представляет элементы, перечисленные в области задач новый элемент, недоступны в некоторых приложениях Microsoft Office.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9f6c7-101">The <b>NewFile</b> object represents items listed on the New Item task pane available in several Microsoft Office applications.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="9f6c7-102">
-        <para>В следующей таблице показаны свойства, которое должно использовать для доступа к объекту <b>NewFile</b> в каждом из приложений.</para>
-        <list type="table">
-          <item>
-            <description>Microsoft Access</description>
-            <description>
-              <b>NewFileTaskPane</b>
-            </description>
-          </item>
-          <item>
-            <description>Microsoft Excel</description>
-            <description>
-              <b>NewWorkbook</b>
-            </description>
-          </item>
-          <item>
-            <description>Microsoft FrontPage</description>
-            <description>
-              <b>NewPageOrWeb</b>
-            </description>
-          </item>
-          <item>
-            <description>Microsoft PowerPoint</description>
-            <description>
-              <b> NewPresentation</b>
-            </description>
-          </item>
-          <item>
-            <description>Microsoft Word</description>
-            <description>
-              <b>NewDocument</b>
-            </description>
-          </item>
-        </list>
-        <para>использования <see cref="M:Microsoft.Office.Core.NewFile.Add(System.String,System.Object,System.Object,System.Object)" /> метод для добавления нового элемента в области задач новый элемент. Использование <see cref="M:Microsoft.Office.Core.NewFile.Remove(System.String,System.Object,System.Object,System.Object)" /> метод, чтобы удалить элемент из области задач новый элемент.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9f6c7-102">
-          <para>The following table shows the property to use to access the <b>NewFile</b> object in each of the applications.</para>
-          <list type="table">
-            <item>
-              <description>Microsoft Access</description>
-              <description>
-                <b>NewFileTaskPane</b>
-              </description>
-            </item>
-            <item>
-              <description>Microsoft Excel</description>
-              <description>
-                <b>NewWorkbook</b>
-              </description>
-            </item>
-            <item>
-              <description>Microsoft FrontPage</description>
-              <description>
-                <b>NewPageOrWeb</b>
-              </description>
-            </item>
-            <item>
-              <description>Microsoft PowerPoint</description>
-              <description>
-                <b>NewPresentation</b>
-              </description>
-            </item>
-            <item>
-              <description>Microsoft Word</description>
-              <description>
-                <b>NewDocument</b>
-              </description>
-            </item>
-          </list>
-          <para>Use the <see cref="M:Microsoft.Office.Core.NewFile.Add(System.String,System.Object,System.Object,System.Object)" /> method to add a new item to the New Item task pane. Use the <see cref="M:Microsoft.Office.Core.NewFile.Remove(System.String,System.Object,System.Object,System.Object)" /> method to remove an item from the New Item task pane.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="8da13-101">Объект <b>NewFile</b> представляет элементы, перечисленные в области задач Создание элемента, доступной в некоторых приложениях Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="8da13-101">The <b>NewFile</b> object represents items listed on the New Item task pane available in several Microsoft Office applications.</span></span></summary>
+    <remarks><span data-ttu-id="8da13-102"><para>В приведенной ниже таблице показано свойство, используемое для доступа к объекту <b>NewFile</b> в каждом приложении.</para> 
+      <list type="table"> 
+        <item> 
+          <description>Microsoft Access</description>
+          <description>
+            <b>невфилетаскпане</b>
+          </description>
+        </item>Microsoft
+        <item>
+          <description>Excel</description>
+          <description>
+            <b>NewWorkbook</b>
+          </description>Microsoft Excel
+        </item>
+        <item>
+          <description>Microsoft PowerPoint</description>
+          <description>
+            <b>невпресентатион</b>
+          </description>
+        </item>Microsoft Word
+        <item>
+          <description>Microsoft Word</description>
+          <description>
+            <b>NewDocument</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft FrontPage</description>
+          <description>
+            <b>NewPageOrWeb</b>
+          </description>
+        </item>
+      </list>
+      <para>Используйте <see cref="M:Microsoft.Office.Core.NewFile.Add(System.String,System.Object,System.Object,System.Object)" /> метод для добавления нового элемента в область задач "Создание элемента". Используйте <see cref="M:Microsoft.Office.Core.NewFile.Remove(System.String,System.Object,System.Object,System.Object)" /> метод, чтобы удалить элемент из области задач Создание элемента.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="8da13-102"><para>The following table shows the property to use to access the <b>NewFile</b> object in each of the applications.</para>
+      <list type="table">
+        <item>
+          <description>Microsoft Access</description>
+          <description>
+            <b>NewFileTaskPane</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft Excel</description>
+          <description>
+            <b>NewWorkbook</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft FrontPage</description>
+          <description>
+            <b>NewPageOrWeb</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft PowerPoint</description>
+          <description>
+            <b>NewPresentation</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft Word</description>
+          <description>
+            <b>NewDocument</b>
+          </description>
+        </item>
+      </list>
+      <para>Use the <see cref="M:Microsoft.Office.Core.NewFile.Add(System.String,System.Object,System.Object,System.Object)" /> method to add a new item to the New Item task pane. Use the <see cref="M:Microsoft.Office.Core.NewFile.Remove(System.String,System.Object,System.Object,System.Object)" /> method to remove an item from the New Item task pane.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -141,75 +119,15 @@
         <Parameter Name="Action" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="FileName">
-          <span data-ttu-id="9f6c7-103">
-            <b>Строковое значение.</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-103">Required <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="9f6c7-104">Имя файла для добавления в список файлов на панели задач.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-104">The name of the file to add to the list of files on the task pane.</span>
-          </span>
-        </param>
-        <param name="Section">
-          <span data-ttu-id="9f6c7-105">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-105">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="9f6c7-106">Раздел, в которую нужно добавить в файл.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-106">The section to which to add the file.</span>
-          </span>
-          <span data-ttu-id="9f6c7-107">Может быть любым <see cref="T:Microsoft.Office.Core.MsoFileNewSection" /> константу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-107">Can be any <see cref="T:Microsoft.Office.Core.MsoFileNewSection" /> constant.</span>
-          </span>
-        </param>
-        <param name="DisplayName">
-          <span data-ttu-id="9f6c7-108">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-108">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="9f6c7-109">Текст, отображаемый в области задач.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-109">The text to display in the task pane.</span>
-          </span>
-        </param>
-        <param name="Action">
-          <span data-ttu-id="9f6c7-110">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-110">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="9f6c7-111">Действие, выполняемое, когда пользователь нажимает для элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-111">The action to take when a user clicks on the item.</span>
-          </span>
-          <span data-ttu-id="9f6c7-112">Может быть любым <see cref="T:Microsoft.Office.Core.MsoFileNewAction" /> константу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-112">Can be any <see cref="T:Microsoft.Office.Core.MsoFileNewAction" /> constant.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9f6c7-113">Добавляет новый элемент в области задач новый элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-113">Adds a new item to the New Item task pane.</span>
-          </span>
-        </summary>
+        <param name="FileName"><span data-ttu-id="8da13-103">Обязательный атрибут типа <b>String</b>.</span><span class="sxs-lookup"><span data-stu-id="8da13-103">Required <b>String</b>.</span></span> <span data-ttu-id="8da13-104">Имя файла, добавляемого в список файлов в области задач.</span><span class="sxs-lookup"><span data-stu-id="8da13-104">The name of the file to add to the list of files on the task pane.</span></span></param>
+        <param name="Section"><span data-ttu-id="8da13-105">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="8da13-105">Optional <b>Object</b>.</span></span> <span data-ttu-id="8da13-106">Раздел, в который требуется добавить файл.</span><span class="sxs-lookup"><span data-stu-id="8da13-106">The section to which to add the file.</span></span> <span data-ttu-id="8da13-107">Может быть любой <see cref="T:Microsoft.Office.Core.MsoFileNewSection" /> константой.</span><span class="sxs-lookup"><span data-stu-id="8da13-107">Can be any <see cref="T:Microsoft.Office.Core.MsoFileNewSection" /> constant.</span></span></param>
+        <param name="DisplayName"><span data-ttu-id="8da13-108">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="8da13-108">Optional <b>Object</b>.</span></span> <span data-ttu-id="8da13-109">Текст, отображаемый в области задач.</span><span class="sxs-lookup"><span data-stu-id="8da13-109">The text to display in the task pane.</span></span></param>
+        <param name="Action"><span data-ttu-id="8da13-110">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="8da13-110">Optional <b>Object</b>.</span></span> <span data-ttu-id="8da13-111">Действие, выполняемое, когда пользователь щелкает элемент.</span><span class="sxs-lookup"><span data-stu-id="8da13-111">The action to take when a user clicks on the item.</span></span> <span data-ttu-id="8da13-112">Может быть любой <see cref="T:Microsoft.Office.Core.MsoFileNewAction" /> константой.</span><span class="sxs-lookup"><span data-stu-id="8da13-112">Can be any <see cref="T:Microsoft.Office.Core.MsoFileNewAction" /> constant.</span></span></param>
+        <summary><span data-ttu-id="8da13-113">Добавляет новый элемент в область задач Создание элемента.</span><span class="sxs-lookup"><span data-stu-id="8da13-113">Adds a new item to the New Item task pane.</span></span></summary>
         <returns>To be added.</returns>
-        <remarks>
-          <span data-ttu-id="9f6c7-114">
-            <para>Этот метод возвращает <b>значение True,</b> Если элемент был успешно добавлен; <b>Значение false</b> в противном случае.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-114">
-              <para>This method returns <b>True</b> if the item was successfully added; <b>False</b> otherwise.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="8da13-114"><para>Этот метод возвращает <b>значение true</b> , если элемент был успешно добавлен; В противном случае — <b>false</b> .</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="8da13-114"><para>This method returns <b>True</b> if the item was successfully added; <b>False</b> otherwise.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -238,12 +156,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9f6c7-115">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-115">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8da13-115">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="8da13-115">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -274,27 +187,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9f6c7-116">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-116">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8da13-116">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="8da13-116">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="9f6c7-117">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.NewFile.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-117">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.NewFile.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="8da13-117"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.NewFile.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="8da13-117"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.NewFile.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Remove">
@@ -322,62 +223,11 @@
         <Parameter Name="Action" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="FileName">
-          <span data-ttu-id="9f6c7-118">
-            <b>Строковое значение.</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-118">Required <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="9f6c7-119">Имя файла справки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-119">The name of the file reference.</span>
-          </span>
-        </param>
-        <param name="Section">
-          <span data-ttu-id="9f6c7-120">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-120">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="9f6c7-121">Раздел области задач, где существует ссылка на файл.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-121">The section of the task pane where the file reference exists.</span>
-          </span>
-          <span data-ttu-id="9f6c7-122">Может быть любым <see cref="T:Microsoft.Office.Core.MsoFileNewSection" /> константу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-122">Can be any <see cref="T:Microsoft.Office.Core.MsoFileNewSection" /> constant.</span>
-          </span>
-        </param>
-        <param name="DisplayName">
-          <span data-ttu-id="9f6c7-123">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-123">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="9f6c7-124">Отображаемый текст ссылки на файл.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-124">The display text of the file reference.</span>
-          </span>
-        </param>
-        <param name="Action">
-          <span data-ttu-id="9f6c7-125">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-125">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="9f6c7-126">Действие, выполняемое при щелчке элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-126">The action taken when a user clicks on the item.</span>
-          </span>
-          <span data-ttu-id="9f6c7-127">Может быть любым <see cref="T:Microsoft.Office.Core.MsoFileNewAction" /> константу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-127">Can be any <see cref="T:Microsoft.Office.Core.MsoFileNewAction" /> constant.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="9f6c7-128">Удаляет элемент из области задач новый элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9f6c7-128">Removes an item from the New Item task pane.</span>
-          </span>
-        </summary>
+        <param name="FileName"><span data-ttu-id="8da13-118">Обязательный атрибут типа <b>String</b>.</span><span class="sxs-lookup"><span data-stu-id="8da13-118">Required <b>String</b>.</span></span> <span data-ttu-id="8da13-119">Имя ссылки на файл.</span><span class="sxs-lookup"><span data-stu-id="8da13-119">The name of the file reference.</span></span></param>
+        <param name="Section"><span data-ttu-id="8da13-120">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="8da13-120">Optional <b>Object</b>.</span></span> <span data-ttu-id="8da13-121">Раздел области задач, в котором существует ссылка на файл.</span><span class="sxs-lookup"><span data-stu-id="8da13-121">The section of the task pane where the file reference exists.</span></span> <span data-ttu-id="8da13-122">Может быть любой <see cref="T:Microsoft.Office.Core.MsoFileNewSection" /> константой.</span><span class="sxs-lookup"><span data-stu-id="8da13-122">Can be any <see cref="T:Microsoft.Office.Core.MsoFileNewSection" /> constant.</span></span></param>
+        <param name="DisplayName"><span data-ttu-id="8da13-123">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="8da13-123">Optional <b>Object</b>.</span></span> <span data-ttu-id="8da13-124">Отображаемый текст ссылки на файл.</span><span class="sxs-lookup"><span data-stu-id="8da13-124">The display text of the file reference.</span></span></param>
+        <param name="Action"><span data-ttu-id="8da13-125">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="8da13-125">Optional <b>Object</b>.</span></span> <span data-ttu-id="8da13-126">Действие, выполняемое, когда пользователь щелкает элемент.</span><span class="sxs-lookup"><span data-stu-id="8da13-126">The action taken when a user clicks on the item.</span></span> <span data-ttu-id="8da13-127">Может быть любой <see cref="T:Microsoft.Office.Core.MsoFileNewAction" /> константой.</span><span class="sxs-lookup"><span data-stu-id="8da13-127">Can be any <see cref="T:Microsoft.Office.Core.MsoFileNewAction" /> constant.</span></span></param>
+        <summary><span data-ttu-id="8da13-128">Удаляет элемент из области задач Создание элемента.</span><span class="sxs-lookup"><span data-stu-id="8da13-128">Removes an item from the New Item task pane.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

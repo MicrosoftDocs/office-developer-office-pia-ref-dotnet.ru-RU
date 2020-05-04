@@ -1,13 +1,5 @@
 <Type Name="MsoDiagramType" FullName="Microsoft.Office.Core.MsoDiagramType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9c0962f2ce790927974cec18b3fe8031b7ddf504" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662543" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoDiagramType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9c0962f2ce790927974cec18b3fe8031b7ddf504" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662543" /></Metadata><TypeSignature Language="C#" Value="public enum MsoDiagramType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoDiagramType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoDiagramType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoDiagramType" />
@@ -25,12 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="83cbd-101">Указывает тип диаграммы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="83cbd-101">Specifies the type of diagram.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="7f5a0-101">Указывает тип схемы.</span><span class="sxs-lookup"><span data-stu-id="7f5a0-101">Specifies the type of diagram.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,12 +37,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83cbd-102">Схема цикла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83cbd-102">Cycle diagram.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7f5a0-102">Циклическая схема.</span><span class="sxs-lookup"><span data-stu-id="7f5a0-102">Cycle diagram.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagramMixed">
@@ -74,12 +56,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83cbd-103">Возвращаемое значение. Указывает сочетание других состояний.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83cbd-103">Return value only; indicates a combination of the other states.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7f5a0-103">Только возвращаемое значение; Указывает комбинацию других состояний.</span><span class="sxs-lookup"><span data-stu-id="7f5a0-103">Return value only; indicates a combination of the other states.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagramOrgChart">
@@ -98,12 +75,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83cbd-104">Диаграмма организации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83cbd-104">Organization chart diagram.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7f5a0-104">Схема организационной диаграммы.</span><span class="sxs-lookup"><span data-stu-id="7f5a0-104">Organization chart diagram.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagramPyramid">
@@ -122,12 +94,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83cbd-105">Пирамидальной диаграммы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83cbd-105">Pyramid diagram.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7f5a0-105">Пирамидальная схема.</span><span class="sxs-lookup"><span data-stu-id="7f5a0-105">Pyramid diagram.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagramRadial">
@@ -146,12 +113,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83cbd-106">Радиальное схемы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83cbd-106">Radial diagram.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7f5a0-106">Радиальная схема.</span><span class="sxs-lookup"><span data-stu-id="7f5a0-106">Radial diagram.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagramTarget">
@@ -170,12 +132,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83cbd-107">Целевая диаграмма.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83cbd-107">Target diagram.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7f5a0-107">Целевая схема.</span><span class="sxs-lookup"><span data-stu-id="7f5a0-107">Target diagram.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDiagramVenn">
@@ -194,12 +151,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83cbd-108">Диаграмма Венна.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83cbd-108">Venn diagram.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7f5a0-108">Диаграмма Венна.</span><span class="sxs-lookup"><span data-stu-id="7f5a0-108">Venn diagram.</span></span></summary>
       </Docs>
     </Member>
   </Members>

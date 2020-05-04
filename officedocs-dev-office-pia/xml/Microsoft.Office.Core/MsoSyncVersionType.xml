@@ -1,13 +1,5 @@
 <Type Name="MsoSyncVersionType" FullName="Microsoft.Office.Core.MsoSyncVersionType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0c12d623cf8b63c3f47d7df355ee88ec92460e5b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662602" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoSyncVersionType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0c12d623cf8b63c3f47d7df355ee88ec92460e5b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662602" /></Metadata><TypeSignature Language="C#" Value="public enum MsoSyncVersionType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncVersionType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncVersionType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncVersionType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="26a9f-101">Определяет, какую версию общего документа, открываемого наряду с открытая в настоящий момент локальная версия.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="26a9f-101">Specifies which version of a shared document to open alongside the currently open local version.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="148ac-101">Указывает, какую версию общедоступного документа открыть вместе с текущей открытой локальной версией.</span><span class="sxs-lookup"><span data-stu-id="148ac-101">Specifies which version of a shared document to open alongside the currently open local version.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="26a9f-102">Открывает копию документа, которая создается каждый раз, когда пользователь перезаписывает локальной копии с копией на сервере.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="26a9f-102">Opens the copy of the document that is created whenever the user overwrites the local copy with the server copy.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="148ac-102">Открывает копию документа, которая создается каждый раз, когда пользователь перезаписывает локальную копию с помощью копии на сервере.</span><span class="sxs-lookup"><span data-stu-id="148ac-102">Opens the copy of the document that is created whenever the user overwrites the local copy with the server copy.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoSyncVersionServer">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="26a9f-103">Откроется версия сервера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="26a9f-103">Opens the server version.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="148ac-103">Открывает серверную версию.</span><span class="sxs-lookup"><span data-stu-id="148ac-103">Opens the server version.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="XlDataLabelPosition" FullName="Microsoft.Office.Core.XlDataLabelPosition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="74973526cc49e18b708f0af7cc41f4e67f822040" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662165" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlDataLabelPosition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="74973526cc49e18b708f0af7cc41f4e67f822040" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662165" /></Metadata><TypeSignature Language="C#" Value="public enum XlDataLabelPosition" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlDataLabelPosition extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlDataLabelPosition" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlDataLabelPosition" />
@@ -25,16 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="f2e71-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f2e71-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="f2e71-102">Определяет положение метки данных относительно маркеров данных.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f2e71-102">Indicates the position of data labels relative to the data markers.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="3d933-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="3d933-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="3d933-102">Указывает положение меток данных относительно маркеров данных.</span><span class="sxs-lookup"><span data-stu-id="3d933-102">Indicates the position of data labels relative to the data markers.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -54,16 +37,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2e71-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="f2e71-104">Подпись находится выше точки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-104">Data label positioned above point.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3d933-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="3d933-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="3d933-104">Метка данных, расположенная выше точки.</span><span class="sxs-lookup"><span data-stu-id="3d933-104">Data label positioned above point.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionBelow">
@@ -82,16 +56,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2e71-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="f2e71-106">Метки данных, расположенный ниже точки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-106">Data label positioned below point.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3d933-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="3d933-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="3d933-106">Метка данных, расположенная ниже точки.</span><span class="sxs-lookup"><span data-stu-id="3d933-106">Data label positioned below point.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionBestFit">
@@ -110,16 +75,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2e71-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="f2e71-108">Приложение Office определяет положение метки данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-108">Office application controls position of data label.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3d933-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="3d933-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="3d933-108">Положение метки данных для элементов управления приложением Office.</span><span class="sxs-lookup"><span data-stu-id="3d933-108">Office application controls position of data label.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionCenter">
@@ -138,16 +94,7 @@
       </ReturnValue>
       <MemberValue>-4108</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2e71-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="f2e71-110">По центру в строке точка или внутри данных или Круговая метки данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-110">Data label centered on data point or inside bar or pie.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3d933-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="3d933-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="3d933-110">Метка данных центрирована на точке данных или в круговой или круговой диаграмме.</span><span class="sxs-lookup"><span data-stu-id="3d933-110">Data label centered on data point or inside bar or pie.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionCustom">
@@ -166,16 +113,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2e71-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="f2e71-112">По центру в строке точка или внутри данных или Круговая метки данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-112">Data label centered on data point or inside bar or pie.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3d933-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="3d933-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="3d933-112">Метка данных центрирована на точке данных или в круговой или круговой диаграмме.</span><span class="sxs-lookup"><span data-stu-id="3d933-112">Data label centered on data point or inside bar or pie.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionInsideBase">
@@ -194,16 +132,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2e71-113">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-113">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="f2e71-114">Метки данных, размещенный произвольно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-114">Data label positioned arbitrarily.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3d933-113">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="3d933-113">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="3d933-114">Метка данных с произвольным расположением.</span><span class="sxs-lookup"><span data-stu-id="3d933-114">Data label positioned arbitrarily.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionInsideEnd">
@@ -222,16 +151,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2e71-115">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-115">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="f2e71-116">Метки данных, размещенный произвольно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-116">Data label positioned arbitrarily.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3d933-115">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="3d933-115">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="3d933-116">Метка данных с произвольным расположением.</span><span class="sxs-lookup"><span data-stu-id="3d933-116">Data label positioned arbitrarily.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionLeft">
@@ -250,16 +170,7 @@
       </ReturnValue>
       <MemberValue>-4131</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2e71-117">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-117">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="f2e71-118">Метки данных, расположенный в нижней части панели или круговой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-118">Data label positioned at bottom of bar or pie.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3d933-117">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="3d933-117">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="3d933-118">Метка данных, расположенная в нижней части гистограммы или круговой диаграммы.</span><span class="sxs-lookup"><span data-stu-id="3d933-118">Data label positioned at bottom of bar or pie.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionMixed">
@@ -278,16 +189,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2e71-119">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-119">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="f2e71-120">Метки данных, расположенный в нижней части панели или круговой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-120">Data label positioned at bottom of bar or pie.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3d933-119">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="3d933-119">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="3d933-120">Метка данных, расположенная в нижней части гистограммы или круговой диаграммы.</span><span class="sxs-lookup"><span data-stu-id="3d933-120">Data label positioned at bottom of bar or pie.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionOutsideEnd">
@@ -306,16 +208,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2e71-121">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-121">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="f2e71-122">Метки данных, расположенный в верхней части панели или круговой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-122">Data label positioned at top of bar or pie.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3d933-121">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="3d933-121">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="3d933-122">Метка данных располагается поверх полосы или круговой диаграммы.</span><span class="sxs-lookup"><span data-stu-id="3d933-122">Data label positioned at top of bar or pie.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlLabelPositionRight">
@@ -334,16 +227,7 @@
       </ReturnValue>
       <MemberValue>-4152</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f2e71-123">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-123">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="f2e71-124">Метки данных, расположенный в верхней части панели или круговой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f2e71-124">Data label positioned at top of bar or pie.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3d933-123">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="3d933-123">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="3d933-124">Метка данных располагается поверх полосы или круговой диаграммы.</span><span class="sxs-lookup"><span data-stu-id="3d933-124">Data label positioned at top of bar or pie.</span></span></summary>
       </Docs>
     </Member>
   </Members>

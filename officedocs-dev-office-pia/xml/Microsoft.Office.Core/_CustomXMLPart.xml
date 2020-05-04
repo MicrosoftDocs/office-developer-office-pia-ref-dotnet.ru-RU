@@ -1,13 +1,5 @@
 <Type Name="_CustomXMLPart" FullName="Microsoft.Office.Core._CustomXMLPart">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="39da742c05be0b18a6b3f5cd128987d38d9112f2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661876" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CustomXMLPart : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="39da742c05be0b18a6b3f5cd128987d38d9112f2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661876" /></Metadata><TypeSignature Language="C#" Value="public interface _CustomXMLPart : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomXMLPart implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLPart" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CustomXMLPart&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="b2040-101">Представляет один <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> в <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> семейства сайтов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b2040-101">Represents a single <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> in a <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> collection.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="0f546-101">Представляет один <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> элемент в <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="0f546-101">Represents a single <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> in a <see cref="T:Microsoft.Office.Core._CustomXMLParts" /> collection.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -66,88 +53,16 @@
         <Parameter Name="NodeValue" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Parent">
-          <span data-ttu-id="b2040-102">Представляет узел, под которой будет добавлен в этом узле.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-102">Represents the node under which this node should be added.</span>
-          </span>
-          <span data-ttu-id="b2040-103">При добавлении атрибута, параметр определяет элемент, который следует добавить атрибут.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-103">If adding an attribute, the parameter denotes the element that the attribute should be added to.</span>
-          </span>
-        </param>
-        <param name="Name">
-          <span data-ttu-id="b2040-104">Представляет базовое имя узла будет добавлена.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-104">Represents the base name of the node to be added.</span>
-          </span>
-        </param>
-        <param name="NamespaceURI">
-          <span data-ttu-id="b2040-105">Представляет пространство имен добавляемый элемент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-105">Represents the namespace of the element to be appended.</span>
-          </span>
-          <span data-ttu-id="b2040-106">Этот параметр необходим для добавления узлов типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" /> или <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />, в противном случае игнорируется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-106">This parameter is required to append nodes of type <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" /> or <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />, otherwise it is ignored.</span>
-          </span>
-        </param>
-        <param name="NextSibling">
-          <span data-ttu-id="b2040-107">Представляет узел, который должен стать следующий одноуровневый новый узел.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-107">Represents the node which should become the next sibling of the new node.</span>
-          </span>
-          <span data-ttu-id="b2040-108">Если не указан, узел добавляется в конец дочерних элементов родительского узла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-108">If not specified, the node is added to the end of the parent node’s children.</span>
-          </span>
-          <span data-ttu-id="b2040-109">Этот параметр игнорируется для добавления типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-109">This parameter is ignored for additions of type <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />.</span>
-          </span>
-          <span data-ttu-id="b2040-110">Если узел не является дочерним родительского, выводится сообщение об ошибке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-110">If the node is not a child of the parent, an error is displayed.</span>
-          </span>
-        </param>
-        <param name="NodeType">
-          <span data-ttu-id="b2040-111">Указывает тип узла для добавления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-111">Specifies the type of node to append.</span>
-          </span>
-          <span data-ttu-id="b2040-112">Если параметр не указан, предполагается иметь тип <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-112">If the parameter is not specified, it is assumed to be of type <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</span>
-          </span>
-        </param>
-        <param name="NodeValue">
-          <span data-ttu-id="b2040-113">Используется для задания значения добавленный узел для тех узлов, которые позволяют текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-113">Used to set the value of the appended node for those nodes that allow text.</span>
-          </span>
-          <span data-ttu-id="b2040-114">Если узел не поддерживает текст, параметр игнорируется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-114">If the node doesn’t allow text, the parameter is ignored.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b2040-115">Добавляет узел в дереве XML.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-115">Adds a node to the XML tree.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="b2040-116">
-            <para>Если <see cref="M:Microsoft.Office.Core._CustomXMLPart.AddNode(Microsoft.Office.Core.CustomXMLNode,System.String,System.String,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.MsoCustomXMLNodeType,System.String)" /> операции приведет к недопустимый древовидной структуре, append не выполняется, и отображается сообщение об ошибке.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-116">
-              <para>If the <see cref="M:Microsoft.Office.Core._CustomXMLPart.AddNode(Microsoft.Office.Core.CustomXMLNode,System.String,System.String,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.MsoCustomXMLNodeType,System.String)" />  operation would result in an invalid tree structure, the append is not performed and an error message is displayed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Parent"><span data-ttu-id="0f546-102">Представляет узел, в который следует добавить этот узел.</span><span class="sxs-lookup"><span data-stu-id="0f546-102">Represents the node under which this node should be added.</span></span> <span data-ttu-id="0f546-103">При добавлении атрибута этот параметр указывает элемент, к которому должен быть добавлен атрибут.</span><span class="sxs-lookup"><span data-stu-id="0f546-103">If adding an attribute, the parameter denotes the element that the attribute should be added to.</span></span></param>
+        <param name="Name"><span data-ttu-id="0f546-104">Представляет базовое имя добавляемого узла.</span><span class="sxs-lookup"><span data-stu-id="0f546-104">Represents the base name of the node to be added.</span></span></param>
+        <param name="NamespaceURI"><span data-ttu-id="0f546-105">Представляет пространство имен добавляемого элемента.</span><span class="sxs-lookup"><span data-stu-id="0f546-105">Represents the namespace of the element to be appended.</span></span> <span data-ttu-id="0f546-106">Этот параметр является обязательным для добавления узлов типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" /> или <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />, в противном случае, игнорируется.</span><span class="sxs-lookup"><span data-stu-id="0f546-106">This parameter is required to append nodes of type <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" /> or <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />, otherwise it is ignored.</span></span></param>
+        <param name="NextSibling"><span data-ttu-id="0f546-107">Представляет узел, который должен стать следующим одноуровневым элементом нового узла.</span><span class="sxs-lookup"><span data-stu-id="0f546-107">Represents the node which should become the next sibling of the new node.</span></span> <span data-ttu-id="0f546-108">Если этот параметр не указан, узел добавляется в конец дочерних узлов родительского узла.</span><span class="sxs-lookup"><span data-stu-id="0f546-108">If not specified, the node is added to the end of the parent node’s children.</span></span> <span data-ttu-id="0f546-109">Этот параметр игнорируется для добавлений типа <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />.</span><span class="sxs-lookup"><span data-stu-id="0f546-109">This parameter is ignored for additions of type <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />.</span></span> <span data-ttu-id="0f546-110">Если узел не является дочерним по отношению к родительскому, отображается сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="0f546-110">If the node is not a child of the parent, an error is displayed.</span></span></param>
+        <param name="NodeType"><span data-ttu-id="0f546-111">Указывает тип добавляемого узла.</span><span class="sxs-lookup"><span data-stu-id="0f546-111">Specifies the type of node to append.</span></span> <span data-ttu-id="0f546-112">Если параметр не указан, предполагается, что он имеет тип <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</span><span class="sxs-lookup"><span data-stu-id="0f546-112">If the parameter is not specified, it is assumed to be of type <see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />.</span></span></param>
+        <param name="NodeValue"><span data-ttu-id="0f546-113">Используется для задания значения присоединенного узла для тех узлов, которые разрешают текст.</span><span class="sxs-lookup"><span data-stu-id="0f546-113">Used to set the value of the appended node for those nodes that allow text.</span></span> <span data-ttu-id="0f546-114">Если узел не поддерживает текст, параметр игнорируется.</span><span class="sxs-lookup"><span data-stu-id="0f546-114">If the node doesn’t allow text, the parameter is ignored.</span></span></param>
+        <summary><span data-ttu-id="0f546-115">Добавляет узел в дерево XML.</span><span class="sxs-lookup"><span data-stu-id="0f546-115">Adds a node to the XML tree.</span></span></summary>
+        <remarks><span data-ttu-id="0f546-116"><para>Если <see cref="M:Microsoft.Office.Core._CustomXMLPart.AddNode(Microsoft.Office.Core.CustomXMLNode,System.String,System.String,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.MsoCustomXMLNodeType,System.String)" /> операция приведет к недопустимой древовидной структуре, то добавление не выполняется и отображается сообщение об ошибке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0f546-116"><para>If the <see cref="M:Microsoft.Office.Core._CustomXMLPart.AddNode(Microsoft.Office.Core.CustomXMLNode,System.String,System.String,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.MsoCustomXMLNodeType,System.String)" />  operation would result in an invalid tree structure, the append is not performed and an error message is displayed.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -176,26 +91,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2040-117">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-117">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span>
-          </span>
-          <span data-ttu-id="b2040-118">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-118">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b2040-119">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-119">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0f546-117">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="0f546-117">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span></span> <span data-ttu-id="0f546-118">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0f546-118">Read-only.</span></span></summary>
+        <value><span data-ttu-id="0f546-119"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="0f546-119"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -222,26 +119,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2040-120">Получает значение, указывающее, является ли <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> является встроенной.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-120">Gets a value that indicates whether the <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> is built-in.</span>
-          </span>
-          <span data-ttu-id="b2040-121">Только для чтения</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-121">Read-only</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b2040-122">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-122">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0f546-120">Получает значение, указывающее, является ли <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> элемент встроенным.</span><span class="sxs-lookup"><span data-stu-id="0f546-120">Gets a value that indicates whether the <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> is built-in.</span></span> <span data-ttu-id="0f546-121">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="0f546-121">Read-only</span></span></summary>
+        <value><span data-ttu-id="0f546-122"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="0f546-122"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -271,26 +150,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2040-123">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-123">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object was created.</span>
-          </span>
-          <span data-ttu-id="b2040-124">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-124">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b2040-125">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-125">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0f546-123">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="0f546-123">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object was created.</span></span> <span data-ttu-id="0f546-124">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0f546-124">Read-only.</span></span></summary>
+        <value><span data-ttu-id="0f546-125"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="0f546-125"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -315,24 +176,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b2040-126">Удаляет текущий <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> из хранилища данных (<b>IXMLDataStore</b> интерфейс).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-126">Deletes the current <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> from the data store (<b>IXMLDataStore</b> interface).</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="b2040-127">
-            <para>При попытке удалить часть, содержащую основные свойства, операция не выполняется, и отображается сообщение об ошибке.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-127">
-              <para>If you attempt to delete the part containing the core properties, the operation is not performed and an error message is displayed. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="0f546-126">Удаляет текущее <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> значение из хранилища данных (интерфейса<b>иксмлдатасторе</b> ).</span><span class="sxs-lookup"><span data-stu-id="0f546-126">Deletes the current <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> from the data store (<b>IXMLDataStore</b> interface).</span></span></summary>
+        <remarks><span data-ttu-id="0f546-127"><para>При попытке удалить часть, содержащую основные свойства, операция не выполняется и отображается сообщение об ошибке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0f546-127"><para>If you attempt to delete the part containing the core properties, the operation is not performed and an error message is displayed. </para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="DocumentElement">
@@ -358,23 +205,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLNode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2040-128">Получает корневой элемент привязки области данных в документе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-128">Gets the root element of a bound region of data in a document.</span>
-          </span>
-          <span data-ttu-id="b2040-129">Если область является пустой, это свойство возвращает <b>значение Nothing</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-129">If the region is empty, the property returns <b>Nothing</b>.</span>
-          </span>
-          <span data-ttu-id="b2040-130">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-130">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNode" />
-        </value>
+        <summary><span data-ttu-id="0f546-128">Получает корневой элемент связанной области данных в документе.</span><span class="sxs-lookup"><span data-stu-id="0f546-128">Gets the root element of a bound region of data in a document.</span></span> <span data-ttu-id="0f546-129">Если область пуста, свойство <b>не возвращает значение Nothing</b>.</span><span class="sxs-lookup"><span data-stu-id="0f546-129">If the region is empty, the property returns <b>Nothing</b>.</span></span> <span data-ttu-id="0f546-130">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0f546-130">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLNode" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -401,23 +233,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLValidationErrors</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2040-131">Получает <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> объект, предоставляющий доступ к ошибки проверки XML, если какие-либо существует.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-131">Gets a <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> object that provides access to any XML validation errors, if any exists.</span>
-          </span>
-          <span data-ttu-id="b2040-132">Если нет ошибки проверки отсутствуют, это свойство возвращает <b>значение Nothing</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-132">If no validation errors exist, this property returns <b>Nothing</b>.</span>
-          </span>
-          <span data-ttu-id="b2040-133">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-133">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" />
-        </value>
+        <summary><span data-ttu-id="0f546-131">Получает <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> объект, предоставляющий доступ к любым ошибкам проверки XML, если они существуют.</span><span class="sxs-lookup"><span data-stu-id="0f546-131">Gets a <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> object that provides access to any XML validation errors, if any exists.</span></span> <span data-ttu-id="0f546-132">Если ошибок проверки не существует, это свойство <b>не возвращает значение Nothing</b>.</span><span class="sxs-lookup"><span data-stu-id="0f546-132">If no validation errors exist, this property returns <b>Nothing</b>.</span></span> <span data-ttu-id="0f546-133">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0f546-133">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -444,26 +261,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2040-134">Получает <b>строку</b> , содержащую идентификатор GUID, назначенный для текущего <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-134">Gets a <b>String</b> containing the GUID assigned to the current   <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span>
-          </span>
-          <span data-ttu-id="b2040-135">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-135">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b2040-136">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-136">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0f546-134">Возвращает <b>строку</b> , содержащую идентификатор GUID, назначенный текущему <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекту.</span><span class="sxs-lookup"><span data-stu-id="0f546-134">Gets a <b>String</b> containing the GUID assigned to the current   <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span></span> <span data-ttu-id="0f546-135">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0f546-135">Read-only.</span></span></summary>
+        <value><span data-ttu-id="0f546-136"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="0f546-136"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -490,32 +289,9 @@
         <Parameter Name="FilePath" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="FilePath">
-          <span data-ttu-id="b2040-137">Указывает файл на компьютере пользователя или в сети, содержащей XML-код для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-137">Points to the file on the user’s computer or on a network containing the XML to be loaded.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b2040-138">Позволяет автору шаблона для заполнения <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> из существующего файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-138">Allows the template author to populate a <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> from an existing file.</span>
-          </span>
-          <span data-ttu-id="b2040-139">Возвращает <b>значение True</b> , если загрузка прошла успешно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-139">Returns <b>True</b> if the load was successful.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b2040-140">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-140">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </returns>
+        <param name="FilePath"><span data-ttu-id="0f546-137">Указывает на файл на компьютере пользователя или в сети, содержащей Загружаемый XML-файл.</span><span class="sxs-lookup"><span data-stu-id="0f546-137">Points to the file on the user’s computer or on a network containing the XML to be loaded.</span></span></param>
+        <summary><span data-ttu-id="0f546-138">Позволяет автору шаблона заполнить <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> существующий файл.</span><span class="sxs-lookup"><span data-stu-id="0f546-138">Allows the template author to populate a <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> from an existing file.</span></span>  <span data-ttu-id="0f546-139">Возвращает <b>значение true</b> , если загрузка выполнена успешно.</span><span class="sxs-lookup"><span data-stu-id="0f546-139">Returns <b>True</b> if the load was successful.</span></span></summary>
+        <returns><span data-ttu-id="0f546-140"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="0f546-140"><b>Boolean</b></span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -542,32 +318,9 @@
         <Parameter Name="XML" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="XML">
-          <span data-ttu-id="b2040-141">Содержит XML-код для загрузки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-141">Contains the XML to load.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b2040-142">Позволяет автору шаблона для заполнения <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объект из XML-строка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-142">Allows the template author to populate a <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object from an XML string.</span>
-          </span>
-          <span data-ttu-id="b2040-143">Возвращает <b>значение True</b> , если загрузка прошла успешно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-143">Returns <b>True</b> if the load was successful.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b2040-144">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-144">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </returns>
+        <param name="XML"><span data-ttu-id="0f546-141">Содержит загружаемый XML-код.</span><span class="sxs-lookup"><span data-stu-id="0f546-141">Contains the XML to load.</span></span></param>
+        <summary><span data-ttu-id="0f546-142">Позволяет автору шаблона заполнить <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объект из XML-строки.</span><span class="sxs-lookup"><span data-stu-id="0f546-142">Allows the template author to populate a <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object from an XML string.</span></span> <span data-ttu-id="0f546-143">Возвращает <b>значение true</b> , если загрузка выполнена успешно.</span><span class="sxs-lookup"><span data-stu-id="0f546-143">Returns <b>True</b> if the load was successful.</span></span></summary>
+        <returns><span data-ttu-id="0f546-144"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="0f546-144"><b>Boolean</b></span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -594,19 +347,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLPrefixMappings</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2040-145">Получает или задает пространство имен сопоставлений префиксов, используемых для текущего <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-145">Gets the set of namespace prefix mappings used against the current <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span>
-          </span>
-          <span data-ttu-id="b2040-146">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-146">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" />
-        </value>
+        <summary><span data-ttu-id="0f546-145">Получает набор сопоставлений префиксов пространств имен, используемых для <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> текущего объекта.</span><span class="sxs-lookup"><span data-stu-id="0f546-145">Gets the set of namespace prefix mappings used against the current <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span></span> <span data-ttu-id="0f546-146">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0f546-146">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -633,26 +375,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2040-147">Получает идентификатор уникальный адрес для пространства имен <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-147">Gets the unique address identifier for the namespace of the <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span>
-          </span>
-          <span data-ttu-id="b2040-148">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-148">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b2040-149">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-149">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0f546-147">Получает уникальный идентификатор пространства имен <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="0f546-147">Gets the unique address identifier for the namespace of the <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span></span> <span data-ttu-id="0f546-148">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0f546-148">Read-only.</span></span></summary>
+        <value><span data-ttu-id="0f546-149"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="0f546-149"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -679,26 +403,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2040-150">Получает родительский объект для <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-150">Gets the parent object for the <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span>
-          </span>
-          <span data-ttu-id="b2040-151">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-151">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b2040-152">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-152">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0f546-150">Получает родительский объект для <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="0f546-150">Gets the parent object for the <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span></span> <span data-ttu-id="0f546-151">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0f546-151">Read-only.</span></span></summary>
+        <value><span data-ttu-id="0f546-152"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="0f546-152"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -728,19 +434,8 @@
         <ReturnType>Microsoft.Office.Core.CustomXMLSchemaCollection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2040-153">Получает или задает <see cref="T:Microsoft.Office.Core.CustomXMLSchemaCollection" /> объект, представляющий набор схем, подключенного к связанной области данных в документе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-153">Gets or sets a <see cref="T:Microsoft.Office.Core.CustomXMLSchemaCollection" /> object  representing the set of schemas attached to a bound region of data in a document.</span>
-          </span>
-          <span data-ttu-id="b2040-154">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-154">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLSchemaCollection" />
-        </value>
+        <summary><span data-ttu-id="0f546-153">Получает или задает <see cref="T:Microsoft.Office.Core.CustomXMLSchemaCollection" /> объект, представляющий набор схем, вложенных в связанную область данных в документе.</span><span class="sxs-lookup"><span data-stu-id="0f546-153">Gets or sets a <see cref="T:Microsoft.Office.Core.CustomXMLSchemaCollection" /> object  representing the set of schemas attached to a bound region of data in a document.</span></span> <span data-ttu-id="0f546-154">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="0f546-154">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLSchemaCollection" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -767,21 +462,9 @@
         <Parameter Name="XPath" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="XPath">
-          <span data-ttu-id="b2040-155">Содержит выражение XPath.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-155">Contains the XPath expression.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b2040-156">Выбор семейства узлов из настраиваемой XML-части.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-156">Selects a collection of nodes from a custom XML part.</span>
-          </span>
-        </summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNodes" />
-        </returns>
+        <param name="XPath"><span data-ttu-id="0f546-155">Содержит выражение XPath.</span><span class="sxs-lookup"><span data-stu-id="0f546-155">Contains the XPath expression.</span></span></param>
+        <summary><span data-ttu-id="0f546-156">Выбирает коллекцию узлов из настраиваемой XML-части.</span><span class="sxs-lookup"><span data-stu-id="0f546-156">Selects a collection of nodes from a custom XML part.</span></span></summary>
+        <returns><see cref="T:Microsoft.Office.Core.CustomXMLNodes" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -808,21 +491,9 @@
         <Parameter Name="XPath" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="XPath">
-          <span data-ttu-id="b2040-157">Содержит выражение XPath.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-157">Contains an XPath expression.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b2040-158">Выбирает один узел в пользовательской XML-части, соответствующие выражение XPath.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-158">Selects a single node within a custom XML part matching an XPath expression.</span>
-          </span>
-        </summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.CustomXMLNodes" />
-        </returns>
+        <param name="XPath"><span data-ttu-id="0f546-157">Содержит выражение XPath.</span><span class="sxs-lookup"><span data-stu-id="0f546-157">Contains an XPath expression.</span></span></param>
+        <summary><span data-ttu-id="0f546-158">Выбирает один узел в пользовательской XML-части, соответствующей выражению XPath.</span><span class="sxs-lookup"><span data-stu-id="0f546-158">Selects a single node within a custom XML part matching an XPath expression.</span></span></summary>
+        <returns><see cref="T:Microsoft.Office.Core.CustomXMLNodes" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -849,26 +520,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b2040-159">Возвращает XML-представление текущего <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-159">Gets the XML representation of the current <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span>
-          </span>
-          <span data-ttu-id="b2040-160">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-160">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b2040-161">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b2040-161">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0f546-159">Возвращает XML-представление текущего <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="0f546-159">Gets the XML representation of the current <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span></span> <span data-ttu-id="0f546-160">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0f546-160">Read-only.</span></span></summary>
+        <value><span data-ttu-id="0f546-161"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="0f546-161"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

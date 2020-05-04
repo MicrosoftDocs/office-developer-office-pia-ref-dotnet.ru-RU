@@ -1,13 +1,5 @@
 <Type Name="XlSeriesNameLevel" FullName="Microsoft.Office.Core.XlSeriesNameLevel">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4a23b9311629d8d8ddef211492e16299c6942534" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662558" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlSeriesNameLevel" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4a23b9311629d8d8ddef211492e16299c6942534" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662558" /></Metadata><TypeSignature Language="C#" Value="public enum XlSeriesNameLevel" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlSeriesNameLevel extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlSeriesNameLevel" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlSeriesNameLevel" />
@@ -28,16 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="05389-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="05389-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="05389-102">Задает метки серии для уровней подписей серии.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="05389-102">Specifies the series labels for the series label levels.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="c4d8f-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="c4d8f-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="c4d8f-102">Задает метки рядов для уровней подписей ряда.</span><span class="sxs-lookup"><span data-stu-id="c4d8f-102">Specifies the series labels for the series label levels.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -57,16 +40,7 @@
       </ReturnValue>
       <MemberValue>-1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="05389-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="05389-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="05389-104">Задание имен серии на всех уровнях имя серии w/в диапазоне на диаграмме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="05389-104">Set series names to all series name levels w/in range on the chart.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c4d8f-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="c4d8f-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="c4d8f-104">Задайте имена рядов для всех уровней имени ряда в диапазоне на диаграмме.</span><span class="sxs-lookup"><span data-stu-id="c4d8f-104">Set series names to all series name levels w/in range on the chart.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlSeriesNameLevelCustom">
@@ -85,16 +59,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="05389-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="05389-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="05389-106">Указывает литерала в именах серии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="05389-106">Indicates literal data in the series names.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c4d8f-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="c4d8f-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="c4d8f-106">Указывает литералы в именах рядов.</span><span class="sxs-lookup"><span data-stu-id="c4d8f-106">Indicates literal data in the series names.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlSeriesNameLevelNone">
@@ -113,16 +78,7 @@
       </ReturnValue>
       <MemberValue>-3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="05389-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="05389-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="05389-108">Установка без меток категории в диаграмме. Вместо этого по умолчанию установлено равным автоматическая индексированных метки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="05389-108">Set no category labels in the chart; instead default to automatic indexed labels.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c4d8f-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="c4d8f-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="c4d8f-108">Не задавайте метки категорий на диаграмме; по умолчанию используется автоматическое индексирование подписей.</span><span class="sxs-lookup"><span data-stu-id="c4d8f-108">Set no category labels in the chart; instead default to automatic indexed labels.</span></span></summary>
       </Docs>
     </Member>
   </Members>

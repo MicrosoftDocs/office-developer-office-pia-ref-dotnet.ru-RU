@@ -1,13 +1,5 @@
 <Type Name="MsoThemeColorSchemeIndex" FullName="Microsoft.Office.Core.MsoThemeColorSchemeIndex">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fff01d54606ab96c2aaedc3d9c5f2908a01cb140" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662276" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoThemeColorSchemeIndex" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fff01d54606ab96c2aaedc3d9c5f2908a01cb140" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662276" /></Metadata><TypeSignature Language="C#" Value="public enum MsoThemeColorSchemeIndex" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoThemeColorSchemeIndex extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoThemeColorSchemeIndex" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoThemeColorSchemeIndex" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="5ede4-101">Указывает цвет темы Office.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5ede4-101">Indicates the color scheme for an Office theme.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="2c96c-101">Указывает цветовую схему для темы Office.</span><span class="sxs-lookup"><span data-stu-id="2c96c-101">Indicates the color scheme for an Office theme.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5ede4-102">Задает цветовая схема акцент 1.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5ede4-102">Specifies color scheme Accent 1.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c96c-102">Задает цветовую схему акцент 1.</span><span class="sxs-lookup"><span data-stu-id="2c96c-102">Specifies color scheme Accent 1.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeAccent2">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5ede4-103">Задает цветовая схема 2 диакритических знаков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5ede4-103">Specifies color scheme Accent 2.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c96c-103">Задает цветовую схему акцент 2.</span><span class="sxs-lookup"><span data-stu-id="2c96c-103">Specifies color scheme Accent 2.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeAccent3">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5ede4-104">Задает цветовая схема Акцент 3.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5ede4-104">Specifies color scheme Accent 3.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c96c-104">Задает цветовую схему акцент 3.</span><span class="sxs-lookup"><span data-stu-id="2c96c-104">Specifies color scheme Accent 3.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeAccent4">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5ede4-105">Задает цветовая схема Акцент 4.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5ede4-105">Specifies color scheme Accent 4.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c96c-105">Задает цветовую схему акцент 4.</span><span class="sxs-lookup"><span data-stu-id="2c96c-105">Specifies color scheme Accent 4.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeAccent5">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5ede4-106">Задает цветовая схема Акцент 5.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5ede4-106">Specifies color scheme Accent 5.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c96c-106">Задает цветовую схему акцент 5.</span><span class="sxs-lookup"><span data-stu-id="2c96c-106">Specifies color scheme Accent 5.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeAccent6">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5ede4-107">Задает цветовая схема 6 диакритических знаков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5ede4-107">Specifies color scheme Accent 6.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c96c-107">Задает цветовую схему акцент 6.</span><span class="sxs-lookup"><span data-stu-id="2c96c-107">Specifies color scheme Accent 6.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeDark1">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5ede4-108">Задает цветовая схема темный 1.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5ede4-108">Specifies color scheme Dark 1.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c96c-108">Цветовая схема — темный 1.</span><span class="sxs-lookup"><span data-stu-id="2c96c-108">Specifies color scheme Dark 1.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeDark2">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5ede4-109">Задает цветовая схема темный 2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5ede4-109">Specifies color scheme Dark 2.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c96c-109">Задает цветовую схему темный 2.</span><span class="sxs-lookup"><span data-stu-id="2c96c-109">Specifies color scheme Dark 2.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeFollowedHyperlink">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5ede4-110">Задает цветовой схемы для выбранной гиперссылки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5ede4-110">Specifies a color scheme for a clicked hyperlink.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c96c-110">Задает цветовую схему для нажатой гиперссылки.</span><span class="sxs-lookup"><span data-stu-id="2c96c-110">Specifies a color scheme for a clicked hyperlink.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeHyperlink">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5ede4-111">Определяет цвет гиперссылки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5ede4-111">Specifies a color scheme for a hyperlink.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c96c-111">Задает цветовую схему для гиперссылки.</span><span class="sxs-lookup"><span data-stu-id="2c96c-111">Specifies a color scheme for a hyperlink.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeLight1">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5ede4-112">Задает цветовая схема светлый 1.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5ede4-112">Specifies color scheme Light 1.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c96c-112">Задает цветовую схему Light 1.</span><span class="sxs-lookup"><span data-stu-id="2c96c-112">Specifies color scheme Light 1.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoThemeLight2">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5ede4-113">Задает цветовая схема Light 2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5ede4-113">Specifies color scheme Light 2.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c96c-113">Задает цветовую схему, светлую на 2.</span><span class="sxs-lookup"><span data-stu-id="2c96c-113">Specifies color scheme Light 2.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="SmartArtLayout" FullName="Microsoft.Office.Core.SmartArtLayout">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3697b4ab3fb205f8b07d8e1b2d2fd37688d633e2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661958" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartArtLayout : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3697b4ab3fb205f8b07d8e1b2d2fd37688d633e2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661958" /></Metadata><TypeSignature Language="C#" Value="public interface SmartArtLayout : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArtLayout implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArtLayout" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartArtLayout&#xA;Implements _IMsoDispObj" />
@@ -30,24 +22,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="716c1-101">Представляет диаграмма SmartArt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="716c1-101">Represents a SmartArt diagram.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="716c1-102">
-        <para>Варианты включают простой блочный список изображений подпись список вертикальной маркированный список и т. д.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="716c1-102">
-          <para>Choices include Basic Block List, Picture Caption List, Vertical Bulleted List, and so on.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="39ad9-101">Представляет схему SmartArt.</span><span class="sxs-lookup"><span data-stu-id="39ad9-101">Represents a SmartArt diagram.</span></span></summary>
+    <remarks><span data-ttu-id="39ad9-102"><para>Возможные варианты: базовый список блокировок, список названий рисунков, вертикальный маркированный список и т. д.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="39ad9-102"><para>Choices include Basic Block List, Picture Caption List, Vertical Bulleted List, and so on.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -76,25 +54,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="716c1-103">Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>SmartArtLayout</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-103">Gets a <see cref="T:System.Object" />  object that represents the container application for the <b>SmartArtLayout</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39ad9-103">Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>SmartArtLayout</b> .</span><span class="sxs-lookup"><span data-stu-id="39ad9-103">Gets a <see cref="T:System.Object" />  object that represents the container application for the <b>SmartArtLayout</b> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="716c1-104">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-104">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="39ad9-104"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="39ad9-104"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Category">
@@ -120,25 +84,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="716c1-105">Получает имя основного категории, связанное с макета SmartArt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-105">Gets the primary category name associated with the SmartArt layout.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39ad9-105">Получает имя основной категории, связанной с макетом SmartArt.</span><span class="sxs-lookup"><span data-stu-id="39ad9-105">Gets the primary category name associated with the SmartArt layout.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="716c1-106">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-106">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="39ad9-106"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="39ad9-106"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -167,25 +117,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="716c1-107">Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>SmartArtLayout</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-107">Gets a 32-bit integer that indicates the application in which the <b>SmartArtLayout</b> object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39ad9-107">Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>SmartArtLayout</b> .</span><span class="sxs-lookup"><span data-stu-id="39ad9-107">Gets a 32-bit integer that indicates the application in which the <b>SmartArtLayout</b> object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="716c1-108">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-108">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="39ad9-108"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="39ad9-108"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Description">
@@ -211,25 +147,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="716c1-109">Получает описание макета SmartArt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-109">Gets the description of the SmartArt layout.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39ad9-109">Получает описание макета SmartArt.</span><span class="sxs-lookup"><span data-stu-id="39ad9-109">Gets the description of the SmartArt layout.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="716c1-110">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-110">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="39ad9-110"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="39ad9-110"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -255,25 +177,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="716c1-111">Получает уникальный идентификатор связанного макета SmartArt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-111">Retrieves the unique identifier of the associated SmartArt layout.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39ad9-111">Получает уникальный идентификатор связанного макета SmartArt.</span><span class="sxs-lookup"><span data-stu-id="39ad9-111">Retrieves the unique identifier of the associated SmartArt layout.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="716c1-112">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-112">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="39ad9-112"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="39ad9-112"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -299,25 +207,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="716c1-113">Возвращает строковое имя макета SmartArt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-113">Gets the string name of the SmartArt layout.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39ad9-113">Получает имя строки макета SmartArt.</span><span class="sxs-lookup"><span data-stu-id="39ad9-113">Gets the string name of the SmartArt layout.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="716c1-114">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-114">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="39ad9-114"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="39ad9-114"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -343,25 +237,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="716c1-115">Получает объект, вызывающий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-115">Gets the calling object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="39ad9-115">Получает вызывающий объект.</span><span class="sxs-lookup"><span data-stu-id="39ad9-115">Gets the calling object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="716c1-116">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="716c1-116">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="39ad9-116"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="39ad9-116"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

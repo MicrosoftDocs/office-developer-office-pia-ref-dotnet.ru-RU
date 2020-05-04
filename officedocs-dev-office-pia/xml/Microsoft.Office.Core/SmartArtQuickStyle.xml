@@ -1,13 +1,5 @@
 <Type Name="SmartArtQuickStyle" FullName="Microsoft.Office.Core.SmartArtQuickStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c8b44cc559ee9ec23289cfba6e6a7d0005bc77c2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661959" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartArtQuickStyle : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c8b44cc559ee9ec23289cfba6e6a7d0005bc77c2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661959" /></Metadata><TypeSignature Language="C#" Value="public interface SmartArtQuickStyle : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArtQuickStyle implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArtQuickStyle" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartArtQuickStyle&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="414a6-101">Представляет экспресс-стилей SmartArt</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="414a6-101">Represents a SmartArt quick style</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="98830-101">Представляет экспресс – стиль SmartArt</span><span class="sxs-lookup"><span data-stu-id="98830-101">Represents a SmartArt quick style</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -65,25 +52,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="414a6-102">Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>SmartArtQuickStyle</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-102">Gets a <see cref="T:System.Object" />  object that represents the container application for the <b>SmartArtQuickStyle</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="98830-102">Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>SmartArtQuickStyle</b> .</span><span class="sxs-lookup"><span data-stu-id="98830-102">Gets a <see cref="T:System.Object" />  object that represents the container application for the <b>SmartArtQuickStyle</b> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="414a6-103">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-103">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="98830-103"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="98830-103"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Category">
@@ -109,25 +82,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="414a6-104">Получает имя основного категории, связанное с экспресс-стилей SmartArt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-104">Gets the primary category name associated with the SmartArt quick style.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="98830-104">Получает имя основной категории, связанной с Экспресс – стилем SmartArt.</span><span class="sxs-lookup"><span data-stu-id="98830-104">Gets the primary category name associated with the SmartArt quick style.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="414a6-105">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-105">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="98830-105"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="98830-105"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -156,25 +115,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="414a6-106">Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>SmartArtQuickStyle</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-106">Gets a 32-bit integer that indicates the application in which the <b>SmartArtQuickStyle</b> object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="98830-106">Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>SmartArtQuickStyle</b> .</span><span class="sxs-lookup"><span data-stu-id="98830-106">Gets a 32-bit integer that indicates the application in which the <b>SmartArtQuickStyle</b> object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="414a6-107">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-107">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="98830-107"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="98830-107"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Description">
@@ -200,25 +145,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="414a6-108">Получает описание SmartArt экспресс-стилей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-108">Gets the description of the SmartArt quick style.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="98830-108">Получает описание экспресс стиля SmartArt.</span><span class="sxs-lookup"><span data-stu-id="98830-108">Gets the description of the SmartArt quick style.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="414a6-109">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-109">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="98830-109"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="98830-109"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -244,25 +175,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="414a6-110">Получает уникальный идентификатор связанного SmartArt экспресс-стилей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-110">Gets the unique identifier of the associated SmartArt quick style.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="98830-110">Получает уникальный идентификатор связанного экспресс – стиля SmartArt.</span><span class="sxs-lookup"><span data-stu-id="98830-110">Gets the unique identifier of the associated SmartArt quick style.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="414a6-111">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-111">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="98830-111"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="98830-111"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -288,25 +205,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="414a6-112">Получает имя строки SmartArt экспресс-стилей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-112">Gets the string name of the SmartArt quick style.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="98830-112">Получает строковое имя экспресс стиля SmartArt.</span><span class="sxs-lookup"><span data-stu-id="98830-112">Gets the string name of the SmartArt quick style.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="414a6-113">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-113">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="98830-113"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="98830-113"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -332,25 +235,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="414a6-114">Возвращает объект, вызывающий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-114">Returns the calling object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="98830-114">Возвращает вызывающий объект.</span><span class="sxs-lookup"><span data-stu-id="98830-114">Returns the calling object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="414a6-115">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="414a6-115">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="98830-115"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="98830-115"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

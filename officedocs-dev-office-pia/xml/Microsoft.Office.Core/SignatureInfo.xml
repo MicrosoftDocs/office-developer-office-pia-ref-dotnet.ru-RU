@@ -1,13 +1,5 @@
 <Type Name="SignatureInfo" FullName="Microsoft.Office.Core.SignatureInfo">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="506fbda47676aa10f8df2e14632798b442d70752" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661721" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SignatureInfo : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="506fbda47676aa10f8df2e14632798b442d70752" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661721" /></Metadata><TypeSignature Language="C#" Value="public interface SignatureInfo : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SignatureInfo implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureInfo" />
   <TypeSignature Language="VB.NET" Value="Public Interface SignatureInfo&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="c721d-101">Представляет данные, используемые для создания в документов или цифровой подписи.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c721d-101">Represents the information used to create a digital or in-document signature.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="80187-101">Представляет сведения, используемые для создания цифровой подписи или подписи в документе.</span><span class="sxs-lookup"><span data-stu-id="80187-101">Represents the information used to create a digital or in-document signature.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -65,26 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-102">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.SignatureInfo" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.SignatureInfo" /> object.</span>
-          </span>
-          <span data-ttu-id="c721d-103">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-103">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c721d-104">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-104">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="80187-102">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.SignatureInfo" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="80187-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.SignatureInfo" /> object.</span></span> <span data-ttu-id="80187-103">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="80187-103">Read-only.</span></span></summary>
+        <value><span data-ttu-id="80187-104"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="80187-104"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -111,19 +80,8 @@
         <ReturnType>Microsoft.Office.Core.CertificateVerificationResults</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-105">Возвращает результаты из проверки цифрового сертификата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-105">Gets the results from the verification of a digital certificate.</span>
-          </span>
-          <span data-ttu-id="c721d-106">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-106">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CertificateVerificationResults" />
-        </value>
+        <summary><span data-ttu-id="80187-105">Получает результаты из проверки цифрового сертификата.</span><span class="sxs-lookup"><span data-stu-id="80187-105">Gets the results from the verification of a digital certificate.</span></span> <span data-ttu-id="80187-106">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="80187-106">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.CertificateVerificationResults" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -150,19 +108,8 @@
         <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-107">Получает значение, представляющее результаты проверки хэш содержимое подписанного документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-107">Gets a value representing the results of the verification of the hashed contents of a signed document.</span>
-          </span>
-          <span data-ttu-id="c721d-108">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-108">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.ContentVerificationResults" />
-        </value>
+        <summary><span data-ttu-id="80187-107">Получает значение, представляющее результаты проверки хешированного содержимого подписанного документа.</span><span class="sxs-lookup"><span data-stu-id="80187-107">Gets a value representing the results of the verification of the hashed contents of a signed document.</span></span> <span data-ttu-id="80187-108">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="80187-108">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.ContentVerificationResults" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -192,26 +139,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-109">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.SignatureInfo" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-109">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.SignatureInfo" /> object was created.</span>
-          </span>
-          <span data-ttu-id="c721d-110">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-110">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c721d-111">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-111">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="80187-109">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.SignatureInfo" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="80187-109">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.SignatureInfo" /> object was created.</span></span> <span data-ttu-id="80187-110">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="80187-110">Read-only.</span></span></summary>
+        <value><span data-ttu-id="80187-111"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="80187-111"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -238,28 +167,9 @@
         <Parameter Name="certdet" Type="Microsoft.Office.Core.CertificateDetail" />
       </Parameters>
       <Docs>
-        <param name="certdet">
-          <span data-ttu-id="c721d-112">Перечислимые значение, указывающее какие подробности сертификат для отображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-112">An enumerated value specifying which certificate detail to display.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c721d-113">Отображает указанный сведений, связанных с цифрового сертификата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-113">Displays a specified detail related to  a digital certificate.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="c721d-114">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-114">
-              <b>Object</b>
-            </span>
-          </span>
-        </returns>
+        <param name="certdet"><span data-ttu-id="80187-112">Перечислимое значение, задающее сведения о сертификате, которые требуется отобразить.</span><span class="sxs-lookup"><span data-stu-id="80187-112">An enumerated value specifying which certificate detail to display.</span></span></param>
+        <summary><span data-ttu-id="80187-113">Отображает указанные сведения, связанные с цифровым сертификатом.</span><span class="sxs-lookup"><span data-stu-id="80187-113">Displays a specified detail related to  a digital certificate.</span></span></summary>
+        <returns><span data-ttu-id="80187-114"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="80187-114"><b>Object</b></span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -286,28 +196,9 @@
         <Parameter Name="sigdet" Type="Microsoft.Office.Core.SignatureDetail" />
       </Parameters>
       <Docs>
-        <param name="sigdet">
-          <span data-ttu-id="c721d-115">Перечислимые значение, указывающее какие подробности подписи для отображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-115">An enumerated  value specifying which signature detail to display.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c721d-116">Отображает указанный подробности о подписи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-116">Displays a specified detail related to  a signature.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="c721d-117">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-117">
-              <b>Object</b>
-            </span>
-          </span>
-        </returns>
+        <param name="sigdet"><span data-ttu-id="80187-115">Перечислимое значение, задающее сведения о подписи, которые требуется отобразить.</span><span class="sxs-lookup"><span data-stu-id="80187-115">An enumerated  value specifying which signature detail to display.</span></span></param>
+        <summary><span data-ttu-id="80187-116">Отображает указанные сведения, связанные с подписью.</span><span class="sxs-lookup"><span data-stu-id="80187-116">Displays a specified detail related to  a signature.</span></span></summary>
+        <returns><span data-ttu-id="80187-117"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="80187-117"><b>Object</b></span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -334,26 +225,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-118">Получает <b>логическое</b> значение, указывающее, истек срок действия цифрового сертификата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-118">Gets a <b>Boolean</b> value indicating whether the digital certificate is expired.</span>
-          </span>
-          <span data-ttu-id="c721d-119">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-119">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c721d-120">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-120">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="80187-118">Получает <b>логическое</b> значение, указывающее, истек ли срок действия цифрового сертификата.</span><span class="sxs-lookup"><span data-stu-id="80187-118">Gets a <b>Boolean</b> value indicating whether the digital certificate is expired.</span></span> <span data-ttu-id="80187-119">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="80187-119">Read-only.</span></span></summary>
+        <value><span data-ttu-id="80187-120"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="80187-120"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -380,26 +253,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-121">Получает <b>логическое</b> значение, указывающее, является ли цифровой сертификат был отозван.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-121">Gets a <b>Boolean</b> value indicating whether the digital certificate is revoked.</span>
-          </span>
-          <span data-ttu-id="c721d-122">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-122">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c721d-123">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-123">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="80187-121">Получает <b>логическое</b> значение, указывающее, отозван ли цифровой сертификат.</span><span class="sxs-lookup"><span data-stu-id="80187-121">Gets a <b>Boolean</b> value indicating whether the digital certificate is revoked.</span></span> <span data-ttu-id="80187-122">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="80187-122">Read-only.</span></span></summary>
+        <value><span data-ttu-id="80187-123"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="80187-123"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -426,26 +281,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-124">Получает <b>логическое</b> значение, указывающее, является ли цифровой сертификат, используемый для создания цифровой подписи документа, поступающие из надежного источника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-124">Gets a <b>Boolean</b> value indicating whether the digital certificate used to digitally sign a document comes from a trusted source.</span>
-          </span>
-          <span data-ttu-id="c721d-125">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-125">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c721d-126">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-126">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="80187-124">Получает <b>логическое</b> значение, указывающее, поступил ли цифровой сертификат, используемый для цифровой подписи документа, из надежного источника.</span><span class="sxs-lookup"><span data-stu-id="80187-124">Gets a <b>Boolean</b> value indicating whether the digital certificate used to digitally sign a document comes from a trusted source.</span></span> <span data-ttu-id="80187-125">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="80187-125">Read-only.</span></span></summary>
+        <value><span data-ttu-id="80187-126"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="80187-126"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -472,26 +309,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-127">Получает <b>логическое</b> значение, указывающее, была ли подпись успешно проверенные следующие проверки подписей.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-127">Gets a <b>Boolean</b> value indicating whether the signature  was successfully validated following signature verification.</span>
-          </span>
-          <span data-ttu-id="c721d-128">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-128">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c721d-129">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-129">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="80187-127">Получает <b>логическое</b> значение, которое указывает, была ли подпись успешно проверена после проверки подписи.</span><span class="sxs-lookup"><span data-stu-id="80187-127">Gets a <b>Boolean</b> value indicating whether the signature  was successfully validated following signature verification.</span></span> <span data-ttu-id="80187-128">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="80187-128">Read-only.</span></span></summary>
+        <value><span data-ttu-id="80187-129"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="80187-129"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -518,26 +337,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-130">Возвращает значение <b>типа Boolean</b> , указывающее, является ли <see cref="T:Microsoft.Office.Core.SignatureInfo" /> объект доступен только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-130">Gets a <b>Boolean</b> value indicating whether the <see cref="T:Microsoft.Office.Core.SignatureInfo" /> object is read-only.</span>
-          </span>
-          <span data-ttu-id="c721d-131">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-131">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c721d-132">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-132">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="80187-130">Получает <b>логическое</b> значение, указывающее, является <see cref="T:Microsoft.Office.Core.SignatureInfo" /> ли объект доступен только для чтения.</span><span class="sxs-lookup"><span data-stu-id="80187-130">Gets a <b>Boolean</b> value indicating whether the <see cref="T:Microsoft.Office.Core.SignatureInfo" /> object is read-only.</span></span> <span data-ttu-id="80187-131">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="80187-131">Read-only.</span></span></summary>
+        <value><span data-ttu-id="80187-132"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="80187-132"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -564,18 +365,8 @@
         <Parameter Name="bstrThumbprint" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="bstrThumbprint">
-          <span data-ttu-id="c721d-133">Содержит сведения о подписывающего лица, обозначенный отпечатком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-133">Contains information about the signer identified by the thumbprint.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c721d-134">Отображает диалоговое окно, содержащий сведения о цифровой сертификат, выполнив vertification пользователя с отпечатком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-134">Displays a dialog box containing information about a digital certificate following vertification of the user from a thumbprint.</span>
-          </span>
-        </summary>
+        <param name="bstrThumbprint"><span data-ttu-id="80187-133">Содержит сведения о подписавшем, идентифицируемом отпечатком.</span><span class="sxs-lookup"><span data-stu-id="80187-133">Contains information about the signer identified by the thumbprint.</span></span></param>
+        <summary><span data-ttu-id="80187-134">Отображает диалоговое окно, содержащее сведения о цифровом сертификате, указанном в разделе вертификатион пользователя с отпечатка.</span><span class="sxs-lookup"><span data-stu-id="80187-134">Displays a dialog box containing information about a digital certificate following vertification of the user from a thumbprint.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -602,18 +393,8 @@
         <Parameter Name="ParentWindow" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ParentWindow">
-          <span data-ttu-id="c721d-135">Содержит дескриптор окна, содержащий диалоговое окно выбора сертификата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-135">Contains a  handle to the window containing the certificate selection dialog box.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c721d-136">Отображает диалоговое окно, которое позволяет пользователям выбирать сертификат подписи для подписания документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-136">Displays a dialog box that allows users to select which signature certificate to use for signing a document.</span>
-          </span>
-        </summary>
+        <param name="ParentWindow"><span data-ttu-id="80187-135">Содержит дескриптор окна, содержащего диалоговое окно "Выбор сертификата".</span><span class="sxs-lookup"><span data-stu-id="80187-135">Contains a  handle to the window containing the certificate selection dialog box.</span></span></param>
+        <summary><span data-ttu-id="80187-136">Отображает диалоговое окно, которое позволяет пользователям выбрать сертификат подписи, который будет использоваться для подписания документа.</span><span class="sxs-lookup"><span data-stu-id="80187-136">Displays a dialog box that allows users to select which signature certificate to use for signing a document.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -640,18 +421,8 @@
         <Parameter Name="ParentWindow" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ParentWindow">
-          <span data-ttu-id="c721d-137">Содержит дескриптор окна, содержащий диалоговое окно "сертификат".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-137">Contains the handle to the window containing the Certificate dialog box.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c721d-138">Отображает выбранный или цифровой сертификат по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-138">Displays the selected or default digital certificate.</span>
-          </span>
-        </summary>
+        <param name="ParentWindow"><span data-ttu-id="80187-137">Содержит дескриптор окна, содержащего диалоговое окно "сертификат".</span><span class="sxs-lookup"><span data-stu-id="80187-137">Contains the handle to the window containing the Certificate dialog box.</span></span></param>
+        <summary><span data-ttu-id="80187-138">Отображение выбранного или цифрового сертификата по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="80187-138">Displays the selected or default digital certificate.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -681,26 +452,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-139">Получает или задает значение, содержащее комментарии, включенных в пакет подписи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-139">Gets or sets a value containing comments included in a  signature packet.</span>
-          </span>
-          <span data-ttu-id="c721d-140">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-140">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c721d-141">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-141">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="80187-139">Получает или задает значение, содержащее комментарии, включенные в пакет сигнатур.</span><span class="sxs-lookup"><span data-stu-id="80187-139">Gets or sets a value containing comments included in a  signature packet.</span></span> <span data-ttu-id="80187-140">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="80187-140">Read/write.</span></span></summary>
+        <value><span data-ttu-id="80187-141"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="80187-141"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -733,26 +486,8 @@
         <ReturnType>stdole.IPictureDisp</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-142">Получает или задает значение изображение, используемое для входа в документ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-142">Gets or sets the value of the image used to sign the document.</span>
-          </span>
-          <span data-ttu-id="c721d-143">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-143">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c721d-144">
-            <b>IPictureDisp</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-144">
-              <b>IPictureDisp</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="80187-142">Получает или задает значение, которое используется для подписи документа.</span><span class="sxs-lookup"><span data-stu-id="80187-142">Gets or sets the value of the image used to sign the document.</span></span> <span data-ttu-id="80187-143">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="80187-143">Read/write.</span></span></summary>
+        <value><span data-ttu-id="80187-144"><b>ипиктуредисп</b></span><span class="sxs-lookup"><span data-stu-id="80187-144"><b>IPictureDisp</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -779,26 +514,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-145">Получает значение, идентифицирующее установленных подписи поставщика надстройки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-145">Gets a value identifying an installed signature provider add-in.</span>
-          </span>
-          <span data-ttu-id="c721d-146">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-146">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c721d-147">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-147">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="80187-145">Получает значение, идентифицирующее установленную надстройку поставщика подписей.</span><span class="sxs-lookup"><span data-stu-id="80187-145">Gets a value identifying an installed signature provider add-in.</span></span> <span data-ttu-id="80187-146">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="80187-146">Read-only.</span></span></summary>
+        <value><span data-ttu-id="80187-147"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="80187-147"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -828,26 +545,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c721d-148">Получает или задает значение подписи текст, используемый для подписи в этом документе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-148">Gets or sets the value of the signature text used to sign this document.</span>
-          </span>
-          <span data-ttu-id="c721d-149">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-149">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c721d-150">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c721d-150">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="80187-148">Получает или задает значение текста подписи, используемого для подписи этого документа.</span><span class="sxs-lookup"><span data-stu-id="80187-148">Gets or sets the value of the signature text used to sign this document.</span></span> <span data-ttu-id="80187-149">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="80187-149">Read/write.</span></span></summary>
+        <value><span data-ttu-id="80187-150"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="80187-150"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

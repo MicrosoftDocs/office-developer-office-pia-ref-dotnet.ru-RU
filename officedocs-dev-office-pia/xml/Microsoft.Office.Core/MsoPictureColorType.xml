@@ -1,13 +1,5 @@
 <Type Name="MsoPictureColorType" FullName="Microsoft.Office.Core.MsoPictureColorType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="83d95c3683ddb986431a26845b7af9945d0926c0" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661656" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPictureColorType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="83d95c3683ddb986431a26845b7af9945d0926c0" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661656" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPictureColorType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPictureColorType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPictureColorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPictureColorType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="1dde5-101">Указывает цвет преобразование, применяемое к изображению.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1dde5-101">Specifies the color transformation applied to a picture.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="94f7f-101">Задает преобразование цвета, примененное к изображению.</span><span class="sxs-lookup"><span data-stu-id="94f7f-101">Specifies the color transformation applied to a picture.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1dde5-102">Преобразования цветов по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1dde5-102">Default color transformation.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94f7f-102">Преобразование цвета по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="94f7f-102">Default color transformation.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPictureBlackAndWhite">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1dde5-103">Черно-белый преобразования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1dde5-103">Black-and-white transformation.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94f7f-103">Преобразование "черно-белый".</span><span class="sxs-lookup"><span data-stu-id="94f7f-103">Black-and-white transformation.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPictureGrayscale">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1dde5-104">Преобразование оттенки серого.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1dde5-104">Grayscale transformation.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94f7f-104">Преобразование в градациях серого.</span><span class="sxs-lookup"><span data-stu-id="94f7f-104">Grayscale transformation.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPictureMixed">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1dde5-105">Смешанные преобразования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1dde5-105">Mixed transformation.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94f7f-105">Смешанное преобразование.</span><span class="sxs-lookup"><span data-stu-id="94f7f-105">Mixed transformation.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPictureWatermark">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1dde5-106">Преобразование водяного знака.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1dde5-106">Watermark transformation.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="94f7f-106">Преобразование водяного знака.</span><span class="sxs-lookup"><span data-stu-id="94f7f-106">Watermark transformation.</span></span></summary>
       </Docs>
     </Member>
   </Members>

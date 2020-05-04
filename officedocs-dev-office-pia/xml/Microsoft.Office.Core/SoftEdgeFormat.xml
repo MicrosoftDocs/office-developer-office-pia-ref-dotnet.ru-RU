@@ -1,13 +1,5 @@
 <Type Name="SoftEdgeFormat" FullName="Microsoft.Office.Core.SoftEdgeFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="592eb0dc9b2b779c2540c9d6c859552db4d9c27a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661660" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SoftEdgeFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="592eb0dc9b2b779c2540c9d6c859552db4d9c27a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661660" /></Metadata><TypeSignature Language="C#" Value="public interface SoftEdgeFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SoftEdgeFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SoftEdgeFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface SoftEdgeFormat&#xA;Implements _IMsoDispObj" />
@@ -30,24 +22,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="67e04-101">Представляет эффект сглаживание в графика Office.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="67e04-101">Represents the soft edges effect in Office  graphics.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="67e04-102">
-        <para>Влияние мягкий край создает маска вокруг объекта и сочетает объект с прозрачной пограничного сервера.  Результатом является «растушеванного» или Проявление с пограничного сервера.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="67e04-102">
-          <para>The Soft Edge effect creates a mask around the edge of an object and blends the object with the transparent edge.  The result is a faded or "feathered"edge.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="d690b-101">Представляет эффекты сглаженных краев в графике Office.</span><span class="sxs-lookup"><span data-stu-id="d690b-101">Represents the soft edges effect in Office  graphics.</span></span></summary>
+    <remarks><span data-ttu-id="d690b-102"><para>Побочный край создает маску вокруг края объекта и смешивает объект с прозрачным краем.  В результате получается «Растушевка» или «растушевка» граница.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="d690b-102"><para>The Soft Edge effect creates a mask around the edge of an object and blends the object with the transparent edge.  The result is a faded or "feathered"edge.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -76,26 +54,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="67e04-103">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="67e04-103">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> object.</span>
-          </span>
-          <span data-ttu-id="67e04-104">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="67e04-104">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="67e04-105">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="67e04-105">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d690b-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="d690b-103">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> object.</span></span> <span data-ttu-id="d690b-104">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="d690b-104">Read-only.</span></span></summary>
+        <value><span data-ttu-id="d690b-105"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="d690b-105"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -125,26 +85,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="67e04-106">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="67e04-106">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> object was created.</span>
-          </span>
-          <span data-ttu-id="67e04-107">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="67e04-107">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="67e04-108">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="67e04-108">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d690b-106">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="d690b-106">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> object was created.</span></span> <span data-ttu-id="d690b-107">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="d690b-107">Read-only.</span></span></summary>
+        <value><span data-ttu-id="d690b-108"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="d690b-108"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -174,25 +116,11 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="67e04-109">Получает или задает размер, измеряемую в точках эффекта программных край фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="67e04-109">Gets or sets the size, measured in points, of the soft edge effect of the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d690b-109">Получает или задает размер, измеряемый в пунктах, для эффектов мягкого края фигуры.</span><span class="sxs-lookup"><span data-stu-id="d690b-109">Gets or sets the size, measured in points, of the soft edge effect of the shape.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="67e04-110">
-            <para>Чтение и запись.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="67e04-110">
-              <para>Read/write.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="d690b-110"><para>Чтение и запись.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="d690b-110"><para>Read/write.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -221,19 +149,8 @@
         <ReturnType>Microsoft.Office.Core.MsoSoftEdgeType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="67e04-111">Получает или задает тип <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="67e04-111">Gets or sets the type of the <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> object.</span>
-          </span>
-          <span data-ttu-id="67e04-112">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="67e04-112">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoSoftEdgeType" />
-        </value>
+        <summary><span data-ttu-id="d690b-111">Получает или задает тип <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="d690b-111">Gets or sets the type of the <see cref="T:Microsoft.Office.Core.SoftEdgeFormat" /> object.</span></span> <span data-ttu-id="d690b-112">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="d690b-112">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoSoftEdgeType" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

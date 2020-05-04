@@ -1,13 +1,5 @@
 <Type Name="IMsoEnvelopeVB" FullName="Microsoft.Office.Core.IMsoEnvelopeVB">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3d2ccc6b98abda904a6b0d474382467c29a9851b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662288" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IMsoEnvelopeVB" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3d2ccc6b98abda904a6b0d474382467c29a9851b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662288" /></Metadata><TypeSignature Language="C#" Value="public interface IMsoEnvelopeVB" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoEnvelopeVB" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoEnvelopeVB" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMsoEnvelopeVB" />
@@ -26,24 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="15fbf-101">Предоставляет доступ к функциям, позволяющее отправлять документы в виде сообщения электронной почты непосредственно из приложений Microsoft Office.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="15fbf-101">Provides access to functionality that lets you send documents as emails directly from Microsoft Office applications.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="15fbf-102">
-        <para>Используйте свойство <b>MailEnvelope</b><see cref="T:Microsoft.Office.Interop.Word.Document" /> объекта, <see cref="T:Microsoft.Office.Interop.Excel.Chart" /> объект или <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> объекта (в зависимости от приложения, вы используете) для возвращения объекта <b>MsoEnvelope</b> .</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="15fbf-102">
-          <para>Use the <b>MailEnvelope</b> property of the <see cref="T:Microsoft.Office.Interop.Word.Document" />  object, <see cref="T:Microsoft.Office.Interop.Excel.Chart" /> object or <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> object (depending on the application you are using) to return an <b>MsoEnvelope</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="ef705-101">Предоставляет доступ к функциям, позволяющим отправлять документы как сообщения электронной почты непосредственно из приложений Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="ef705-101">Provides access to functionality that lets you send documents as emails directly from Microsoft Office applications.</span></span></summary>
+    <remarks><span data-ttu-id="ef705-102"><para>Используйте свойство <b>MailEnvelope</b> <see cref="T:Microsoft.Office.Interop.Word.Document" /> объекта, <see cref="T:Microsoft.Office.Interop.Excel.Chart" /> объекта или <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> объекта (в зависимости от используемого приложения), чтобы возвратить объект <b>MsoEnvelope</b> .</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="ef705-102"><para>Use the <b>MailEnvelope</b> property of the <see cref="T:Microsoft.Office.Interop.Word.Document" />  object, <see cref="T:Microsoft.Office.Interop.Excel.Chart" /> object or <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> object (depending on the application you are using) to return an <b>MsoEnvelope</b> object.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="CommandBars">
@@ -69,12 +47,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="15fbf-103">Возвращает <see cref="T:Microsoft.Office.Core.CommandBars" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="15fbf-103">Returns a <see cref="T:Microsoft.Office.Core.CommandBars" /> collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ef705-103">Возвращает <see cref="T:Microsoft.Office.Core.CommandBars" /> коллекцию.</span><span class="sxs-lookup"><span data-stu-id="ef705-103">Returns a <see cref="T:Microsoft.Office.Core.CommandBars" /> collection.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -105,16 +78,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="15fbf-104">Задает или возвращает вводный текст, который входит в состав документа, отправляемого с помощью объекта <b>MsoEnvelope</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="15fbf-104">Sets or returns the introductory text that is included with a document that is sent using the <b>MsoEnvelope</b> object.</span>
-          </span>
-          <span data-ttu-id="15fbf-105">Вводный текст включен в верхней части документа в сообщении электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="15fbf-105">The introductory text is included at the top of the document in the e-mail.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ef705-104">Задает или возвращает вступительный текст, включенный в документ, который отправляется с помощью объекта <b>MsoEnvelope</b> .</span><span class="sxs-lookup"><span data-stu-id="ef705-104">Sets or returns the introductory text that is included with a document that is sent using the <b>MsoEnvelope</b> object.</span></span> <span data-ttu-id="ef705-105">Вводный текст включается в начало документа электронной почты.</span><span class="sxs-lookup"><span data-stu-id="ef705-105">The introductory text is included at the top of the document in the e-mail.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -142,12 +106,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="15fbf-106">Возвращает объект <b>MailItem</b> , который можно использовать для отправки документа в виде сообщения электронной почты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="15fbf-106">Returns a <b>MailItem</b> object that can be used to send the document as an e-mail.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ef705-106">Возвращает объект <b>MailItem</b> , который можно использовать для отправки документа в виде сообщения электронной почты.</span><span class="sxs-lookup"><span data-stu-id="ef705-106">Returns a <b>MailItem</b> object that can be used to send the document as an e-mail.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -175,12 +134,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="15fbf-107">Возвращает <b>родительский</b> объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="15fbf-107">Returns the <b>Parent</b> object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ef705-107">Возвращает <b>родительский</b> объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="ef705-107">Returns the <b>Parent</b> object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

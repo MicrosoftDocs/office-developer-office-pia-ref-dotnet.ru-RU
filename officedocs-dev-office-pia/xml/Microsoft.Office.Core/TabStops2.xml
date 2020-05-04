@@ -1,13 +1,5 @@
 <Type Name="TabStops2" FullName="Microsoft.Office.Core.TabStops2">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b7c5cf74b5472134b3c34bfa1189e70197dc485" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662326" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface TabStops2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9b7c5cf74b5472134b3c34bfa1189e70197dc485" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662326" /></Metadata><TypeSignature Language="C#" Value="public interface TabStops2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TabStops2 implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.TabStops2" />
   <TypeSignature Language="VB.NET" Value="Public Interface TabStops2&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,24 +25,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="d3ca1-101">Коллекция <see cref="T:Microsoft.Office.Core.TabStop2" /> объектов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d3ca1-101">The collection of <see cref="T:Microsoft.Office.Core.TabStop2" /> objects.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="d3ca1-102">
-        <para>Табуляции, индексируются числовым слева направо на линейке.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d3ca1-102">
-          <para>Tab stops are indexed numerically from left to right along the ruler.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="a1a36-101">Коллекция <see cref="T:Microsoft.Office.Core.TabStop2" /> объектов.</span><span class="sxs-lookup"><span data-stu-id="a1a36-101">The collection of <see cref="T:Microsoft.Office.Core.TabStop2" /> objects.</span></span></summary>
+    <remarks><span data-ttu-id="a1a36-102"><para>Позиции табуляции индексируются в числовом виде слева направо вдоль линейки.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="a1a36-102"><para>Tab stops are indexed numerically from left to right along the ruler.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -77,43 +55,13 @@
         <Parameter Name="Position" Type="System.Single" />
       </Parameters>
       <Docs>
-        <param name="Type">
-          <span data-ttu-id="d3ca1-103">Тип для добавления позиции табуляции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-103">The type of tab stop to add.</span>
-          </span>
-        </param>
-        <param name="Position">
-          <span data-ttu-id="d3ca1-104">Горизонтальную позицию новой позиции табуляции относительно левого края рамки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-104">The horizontal position of the new tab stop relative to the left edge of the text frame.</span>
-          </span>
-          <span data-ttu-id="d3ca1-105">Числовые значения вычисляются в точках; строки вычисляются в единицах, заданных и может быть в любой единицы измерения, поддерживаемые по продукту Microsoft Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-105">Numeric values are evaluated in points; strings are evaluated in the units specified and can be in any measurement unit supported by the Microsoft Office product.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d3ca1-106">Добавляет новый табуляции в указанный <see cref="T:Microsoft.Office.Core.TabStops2" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-106">Adds a new tab stop to the specified <see cref="T:Microsoft.Office.Core.TabStops2" /> object.</span>
-          </span>
-        </summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.TabStop2" />
-        </returns>
-        <remarks>
-          <span data-ttu-id="d3ca1-107">
-            <para>Примеры <see cref="T:Microsoft.Office.Core.MsoTabStopType" /> типы: <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />, <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />, и <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" />.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-107">
-              <para>Examples of <see cref="T:Microsoft.Office.Core.MsoTabStopType" /> types include <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />, <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />, and <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Type"><span data-ttu-id="a1a36-103">Тип позиции табуляции, которую необходимо добавить.</span><span class="sxs-lookup"><span data-stu-id="a1a36-103">The type of tab stop to add.</span></span></param>
+        <param name="Position"><span data-ttu-id="a1a36-104">Горизонтальное положение новой табуляции относительно левого края текстового фрейма.</span><span class="sxs-lookup"><span data-stu-id="a1a36-104">The horizontal position of the new tab stop relative to the left edge of the text frame.</span></span> <span data-ttu-id="a1a36-105">Числовые значения оцениваются в точках; строки оцениваются в указанных единицах измерения и могут быть любыми единицами измерения, поддерживаемыми продуктом Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="a1a36-105">Numeric values are evaluated in points; strings are evaluated in the units specified and can be in any measurement unit supported by the Microsoft Office product.</span></span></param>
+        <summary><span data-ttu-id="a1a36-106">Добавление новой позиции табуляции в указанный <see cref="T:Microsoft.Office.Core.TabStops2" /> объект.</span><span class="sxs-lookup"><span data-stu-id="a1a36-106">Adds a new tab stop to the specified <see cref="T:Microsoft.Office.Core.TabStops2" /> object.</span></span></summary>
+        <returns><see cref="T:Microsoft.Office.Core.TabStop2" /></returns>
+        <remarks><span data-ttu-id="a1a36-107"><para>Примеры <see cref="T:Microsoft.Office.Core.MsoTabStopType" /> типов: <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />, <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />и. <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" /></para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a1a36-107"><para>Examples of <see cref="T:Microsoft.Office.Core.MsoTabStopType" /> types include <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />, <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />, and <see cref="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" />.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -142,26 +90,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d3ca1-108">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.TabStops2" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-108">Gets an <b>Application</b> object that represents the container application  for the <see cref="T:Microsoft.Office.Core.TabStops2" /> object.</span>
-          </span>
-          <span data-ttu-id="d3ca1-109">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-109">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d3ca1-110">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-110">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1a36-108">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.TabStops2" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="a1a36-108">Gets an <b>Application</b> object that represents the container application  for the <see cref="T:Microsoft.Office.Core.TabStops2" /> object.</span></span> <span data-ttu-id="a1a36-109">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="a1a36-109">Read-only.</span></span></summary>
+        <value><span data-ttu-id="a1a36-110"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="a1a36-110"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -188,26 +118,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d3ca1-111">Получает количество элементов в <see cref="T:Microsoft.Office.Core.TabStops2" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-111">Gets the number of items in the  <see cref="T:Microsoft.Office.Core.TabStops2" /> collection.</span>
-          </span>
-          <span data-ttu-id="d3ca1-112">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-112">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d3ca1-113">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-113">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1a36-111">Получает количество элементов в <see cref="T:Microsoft.Office.Core.TabStops2" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="a1a36-111">Gets the number of items in the  <see cref="T:Microsoft.Office.Core.TabStops2" /> collection.</span></span> <span data-ttu-id="a1a36-112">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="a1a36-112">Read-only.</span></span></summary>
+        <value><span data-ttu-id="a1a36-113"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="a1a36-113"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -237,26 +149,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d3ca1-114">Получает 32-разрядное целое число, представляющий приложение Microsoft Office, в котором <see cref="T:Microsoft.Office.Core.TabStops2" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-114">Gets a 32-bit integer that represents the Microsoft Office application in which the  <see cref="T:Microsoft.Office.Core.TabStops2" /> object was created.</span>
-          </span>
-          <span data-ttu-id="d3ca1-115">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-115">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d3ca1-116">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-116">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1a36-114">Получает 32 — разрядное целое число, представляющее приложение Microsoft Office, <see cref="T:Microsoft.Office.Core.TabStops2" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="a1a36-114">Gets a 32-bit integer that represents the Microsoft Office application in which the  <see cref="T:Microsoft.Office.Core.TabStops2" /> object was created.</span></span> <span data-ttu-id="a1a36-115">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="a1a36-115">Read-only.</span></span></summary>
+        <value><span data-ttu-id="a1a36-116"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="a1a36-116"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -286,26 +180,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d3ca1-117">Получает или задает интервал по умолчанию между позициями табуляции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-117">Gets or sets the default spacing between tab stops.</span>
-          </span>
-          <span data-ttu-id="d3ca1-118">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-118">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d3ca1-119">
-            <b>Single</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-119">
-              <b>Single</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1a36-117">Получает или задает интервал по умолчанию между позициями табуляции.</span><span class="sxs-lookup"><span data-stu-id="a1a36-117">Gets or sets the default spacing between tab stops.</span></span> <span data-ttu-id="a1a36-118">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="a1a36-118">Read/write.</span></span></summary>
+        <value><span data-ttu-id="a1a36-119"><b>Одинарное с плавающей точкой</b></span><span class="sxs-lookup"><span data-stu-id="a1a36-119"><b>Single</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -364,21 +240,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="d3ca1-120">Количество для возвращаемого объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-120">The number of the object to return.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d3ca1-121">Получает объект отдельных из <see cref="T:Microsoft.Office.Core.TabStops2" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-121">Gets an individual object from the <see cref="T:Microsoft.Office.Core.TabStops2" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.TabStop2" />
-        </returns>
+        <param name="Index"><span data-ttu-id="a1a36-120">Число возвращаемых объектов.</span><span class="sxs-lookup"><span data-stu-id="a1a36-120">The number of the object to return.</span></span></param>
+        <summary><span data-ttu-id="a1a36-121">Получает отдельный объект из <see cref="T:Microsoft.Office.Core.TabStops2" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="a1a36-121">Gets an individual object from the <see cref="T:Microsoft.Office.Core.TabStops2" /> collection.</span></span></summary>
+        <returns><see cref="T:Microsoft.Office.Core.TabStop2" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -405,26 +269,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d3ca1-122">Получает родительский элемент указанного <see cref="T:Microsoft.Office.Core.TabStops2" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-122">Gets the parent of the specified <see cref="T:Microsoft.Office.Core.TabStops2" /> object.</span>
-          </span>
-          <span data-ttu-id="d3ca1-123">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-123">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="d3ca1-124">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d3ca1-124">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a1a36-122">Получает родительский объект указанного <see cref="T:Microsoft.Office.Core.TabStops2" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="a1a36-122">Gets the parent of the specified <see cref="T:Microsoft.Office.Core.TabStops2" /> object.</span></span> <span data-ttu-id="a1a36-123">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="a1a36-123">Read-only.</span></span></summary>
+        <value><span data-ttu-id="a1a36-124"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="a1a36-124"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

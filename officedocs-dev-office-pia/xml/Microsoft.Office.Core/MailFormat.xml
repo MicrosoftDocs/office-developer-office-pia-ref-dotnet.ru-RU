@@ -1,13 +1,5 @@
 <Type Name="MailFormat" FullName="Microsoft.Office.Core.MailFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="06fa2214b2037dc2fc80ed1713f2198d8423d981" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662305" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MailFormat" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="06fa2214b2037dc2fc80ed1713f2198d8423d981" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662305" /></Metadata><TypeSignature Language="C#" Value="public enum MailFormat" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MailFormat extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MailFormat" />
   <TypeSignature Language="VB.NET" Value="Public Enum MailFormat" />
@@ -20,16 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="71570-101">Задает формат для сообщения электронной почты.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="71570-101">Specifies the format for an e-mail message.</span>
-      </span>
-      <span data-ttu-id="71570-102">Эти форматы соответствуют форматов, поддерживаемых Microsoft Outlook для сообщений электронной почты.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="71570-102">These formats correspond to the formats supported by Microsoft Outlook for e-mail messages.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f1e21-101">Задает формат сообщения электронной почты.</span><span class="sxs-lookup"><span data-stu-id="f1e21-101">Specifies the format for an e-mail message.</span></span> <span data-ttu-id="f1e21-102">Эти форматы соответствуют форматам, которые поддерживаются в Microsoft Outlook для сообщений электронной почты.</span><span class="sxs-lookup"><span data-stu-id="f1e21-102">These formats correspond to the formats supported by Microsoft Outlook for e-mail messages.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,12 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="71570-103">Языка (HTML) форматирования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="71570-103">Hypertext Markup Language (HTML) formatting.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1e21-103">Форматирование языка гипертекстовой разметки (HTML).</span><span class="sxs-lookup"><span data-stu-id="f1e21-103">Hypertext Markup Language (HTML) formatting.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="mfPlainText">
@@ -73,12 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="71570-104">Обычный текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="71570-104">Plain text.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1e21-104">Обычный текст.</span><span class="sxs-lookup"><span data-stu-id="f1e21-104">Plain text.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="mfRTF">
@@ -97,12 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="71570-105">Форматированный текст (RTF) форматирования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="71570-105">Rich Text Format (RTF) formatting.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1e21-105">Форматированный текст в формате RTF.</span><span class="sxs-lookup"><span data-stu-id="f1e21-105">Rich Text Format (RTF) formatting.</span></span></summary>
       </Docs>
     </Member>
   </Members>

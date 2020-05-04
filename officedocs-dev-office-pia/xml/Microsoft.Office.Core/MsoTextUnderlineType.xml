@@ -1,13 +1,5 @@
 <Type Name="MsoTextUnderlineType" FullName="Microsoft.Office.Core.MsoTextUnderlineType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="57d9107fa119b58ea265ea524b66ceb78db9fdff" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661638" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoTextUnderlineType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="57d9107fa119b58ea265ea524b66ceb78db9fdff" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661638" /></Metadata><TypeSignature Language="C#" Value="public enum MsoTextUnderlineType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextUnderlineType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextUnderlineType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoTextUnderlineType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="9da66-101">Указывает тип подчеркивание текста.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9da66-101">Indicates the type of underline for text.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="54bdf-101">Указывает тип подчеркивания для текста.</span><span class="sxs-lookup"><span data-stu-id="54bdf-101">Indicates the type of underline for text.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-102">Задает без подчеркивания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-102">Specifies no underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-102">Указывает, что подчеркивание отсутствует.</span><span class="sxs-lookup"><span data-stu-id="54bdf-102">Specifies no underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineDashHeavyLine">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-103">Указывает, подчеркивание тире.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-103">Specifies a dash underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-103">Задает штриховое подчеркивание.</span><span class="sxs-lookup"><span data-stu-id="54bdf-103">Specifies a dash underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineDashLine">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-104">Указывает строку подчеркивание тире.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-104">Specifies a dash line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-104">Задает штриховое подчеркивание.</span><span class="sxs-lookup"><span data-stu-id="54bdf-104">Specifies a dash line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineDashLongHeavyLine">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-105">Задает срок Жирная линия подчеркивания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-105">Specifies a long heavy line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-105">Задает длинную подчеркнутую линию.</span><span class="sxs-lookup"><span data-stu-id="54bdf-105">Specifies a long heavy line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineDashLongLine">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-106">Задает пунктирная линия длинный подчеркивание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-106">Specifies a dashed long line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-106">Указывает подчеркнутое длинное штриховое подчеркивание.</span><span class="sxs-lookup"><span data-stu-id="54bdf-106">Specifies a dashed long line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineDotDashHeavyLine">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-107">Указывает, подчеркивание Жирная линия тире dot.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-107">Specifies a dot dash heavy line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-107">Задает Жирное штрихпунктирное подчеркивание с точкой.</span><span class="sxs-lookup"><span data-stu-id="54bdf-107">Specifies a dot dash heavy line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineDotDashLine">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-108">Указывает, подчеркивание строки тире dot.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-108">Specifies a dot dash line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-108">Задает подчеркнутое штрихпунктирное подчеркивание.</span><span class="sxs-lookup"><span data-stu-id="54bdf-108">Specifies a dot dash line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineDotDotDashHeavyLine">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-109">Задает тире Жирная линия точка точка подчеркивание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-109">Specifies a dot dot dash heavy line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-109">Задает Жирное штрихпунктирное подчеркивание с двумя точками.</span><span class="sxs-lookup"><span data-stu-id="54bdf-109">Specifies a dot dot dash heavy line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineDotDotDashLine">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-110">Задает тире строке точка точка подчеркивание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-110">Specifies a dot dot dash line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-110">Задает подчеркивание пунктирной линии с точкой с двумя точками.</span><span class="sxs-lookup"><span data-stu-id="54bdf-110">Specifies a dot dot dash line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineDottedHeavyLine">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-111">Задает Жирная пунктирная линия подчеркивания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-111">Specifies a dotted heavy line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-111">Задает жирное пунктирное подчеркивание.</span><span class="sxs-lookup"><span data-stu-id="54bdf-111">Specifies a dotted heavy line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineDottedLine">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-112">Указывает, подчеркнутый пунктирной линии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-112">Specifies a dotted line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-112">Задает подчеркивание пунктирной линии.</span><span class="sxs-lookup"><span data-stu-id="54bdf-112">Specifies a dotted line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineDoubleLine">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-113">Задает двойная подчеркивание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-113">Specifies a double line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-113">Задает подчеркивание двойной линией.</span><span class="sxs-lookup"><span data-stu-id="54bdf-113">Specifies a double line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineHeavyLine">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-114">Задает Жирная линия подчеркивания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-114">Specifies a heavy line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-114">Задает жирное подчеркивание.</span><span class="sxs-lookup"><span data-stu-id="54bdf-114">Specifies a heavy line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineMixed">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-115">Задает набор типов подчеркивание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-115">Specifies a mix of underline types.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-115">Задает набор типов подчеркивания.</span><span class="sxs-lookup"><span data-stu-id="54bdf-115">Specifies a mix of underline types.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineSingleLine">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-116">Указывает одну строку подчеркивание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-116">Specifies a single line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-116">Задает Подчеркивание одной линией.</span><span class="sxs-lookup"><span data-stu-id="54bdf-116">Specifies a single line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineWavyDoubleLine">
@@ -405,12 +317,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-117">Задает подчеркиванием волнистой линией double.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-117">Specifies a wavy double line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-117">Задает подчеркнутое волнистой линией.</span><span class="sxs-lookup"><span data-stu-id="54bdf-117">Specifies a wavy double line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineWavyHeavyLine">
@@ -429,12 +336,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-118">Задает Жирная волнистая линия подчеркивания.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-118">Specifies a wavy heavy line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-118">Задает волнистое подчеркивание волнистой линией.</span><span class="sxs-lookup"><span data-stu-id="54bdf-118">Specifies a wavy heavy line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineWavyLine">
@@ -453,12 +355,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-119">Задает подчеркиванием волнистой линией.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-119">Specifies a wavy line underline.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-119">Задает подчеркивание волнистой линией.</span><span class="sxs-lookup"><span data-stu-id="54bdf-119">Specifies a wavy line underline.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoUnderlineWords">
@@ -477,12 +374,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9da66-120">Указывает подчеркивание.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9da66-120">Specifies underlining words.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="54bdf-120">Задает подчеркивание слов.</span><span class="sxs-lookup"><span data-stu-id="54bdf-120">Specifies underlining words.</span></span></summary>
       </Docs>
     </Member>
   </Members>

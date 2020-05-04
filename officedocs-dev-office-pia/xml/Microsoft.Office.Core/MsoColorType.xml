@@ -1,13 +1,5 @@
 <Type Name="MsoColorType" FullName="Microsoft.Office.Core.MsoColorType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6f54c4082ae0c2d5b9827526d8f204895cc82c09" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662431" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoColorType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6f54c4082ae0c2d5b9827526d8f204895cc82c09" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662431" /></Metadata><TypeSignature Language="C#" Value="public enum MsoColorType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoColorType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoColorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoColorType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="de0c5-101">Указывает тип цвета.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="de0c5-101">Specifies the color type.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="74a1d-101">Указывает тип цвета.</span><span class="sxs-lookup"><span data-stu-id="74a1d-101">Specifies the color type.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="de0c5-102">Тип системы управления цвет цвета.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="de0c5-102">Color Management System color type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="74a1d-102">Тип цвета системы управления цветом.</span><span class="sxs-lookup"><span data-stu-id="74a1d-102">Color Management System color type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoColorTypeCMYK">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="de0c5-103">Цвет определяется значениями голубой, пурпурный, желтый и черный.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="de0c5-103">Color is determined by values of cyan, magenta, yellow, and black.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="74a1d-103">Цвет определяется значениями "голубой", "пурпурный", "желтый" и "черный".</span><span class="sxs-lookup"><span data-stu-id="74a1d-103">Color is determined by values of cyan, magenta, yellow, and black.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoColorTypeInk">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="de0c5-104">Не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="de0c5-104">Not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="74a1d-104">Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="74a1d-104">Not supported.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoColorTypeMixed">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="de0c5-105">Не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="de0c5-105">Not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="74a1d-105">Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="74a1d-105">Not supported.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoColorTypeRGB">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="de0c5-106">Цвет определяется значения красного, зеленого и синего.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="de0c5-106">Color is determined by values of red, green, and blue.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="74a1d-106">Цвет определяется по значениям красного, зеленого и синего.</span><span class="sxs-lookup"><span data-stu-id="74a1d-106">Color is determined by values of red, green, and blue.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoColorTypeScheme">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="de0c5-107">Цвет определяется схему конкретного приложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="de0c5-107">Color is defined by an application-specific scheme.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="74a1d-107">Цвет определяется схемой, зависящей от приложения.</span><span class="sxs-lookup"><span data-stu-id="74a1d-107">Color is defined by an application-specific scheme.</span></span></summary>
       </Docs>
     </Member>
   </Members>

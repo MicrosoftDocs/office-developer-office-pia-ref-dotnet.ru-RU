@@ -1,13 +1,5 @@
 <Type Name="MsoCustomXMLValidationErrorType" FullName="Microsoft.Office.Core.MsoCustomXMLValidationErrorType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d79d773c902dd0b290353d858f36f6478905d4bc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661895" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoCustomXMLValidationErrorType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d79d773c902dd0b290353d858f36f6478905d4bc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661895" /></Metadata><TypeSignature Language="C#" Value="public enum MsoCustomXMLValidationErrorType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCustomXMLValidationErrorType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCustomXMLValidationErrorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoCustomXMLValidationErrorType" />
@@ -20,24 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="d5bc1-101">Указывает, как очистить или созданных ошибок проверки.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d5bc1-101">Indicates how validation errors will be cleared or generated.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="d5bc1-102">
-        <para>Ссылки на DTD из настраиваемых XML-частей, не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d5bc1-102">
-          <para>References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="d4cf2-101">Указывает, как будут очищаться или создаваться ошибки проверки.</span><span class="sxs-lookup"><span data-stu-id="d4cf2-101">Indicates how validation errors will be cleared or generated.</span></span></summary>
+    <remarks><span data-ttu-id="d4cf2-102"><para>Ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="d4cf2-102"><para>References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoCustomXMLValidationErrorAutomaticallyCleared">
@@ -56,12 +34,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5bc1-103">Указывает, что ошибки будут снимите флажок самого при каждом изменении в узел, с которым он связан.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5bc1-103">Specifies that the error will clear itself whenever any change is made to the node it is bound to.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d4cf2-103">Указывает, что ошибка будет очищаться при каждом изменении узла, к которому она привязана.</span><span class="sxs-lookup"><span data-stu-id="d4cf2-103">Specifies that the error will clear itself whenever any change is made to the node it is bound to.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCustomXMLValidationErrorManual">
@@ -80,12 +53,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5bc1-104">Указывает, что ошибки не удалось очистить до <see cref="M:Microsoft.Office.Core.CustomXMLValidationError.Delete" /> вызывается метод.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5bc1-104">Specifies that the error will not be cleared until the <see cref="M:Microsoft.Office.Core.CustomXMLValidationError.Delete" /> method is called.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d4cf2-104">Указывает, что ошибка не будет очищена, пока <see cref="M:Microsoft.Office.Core.CustomXMLValidationError.Delete" /> не будет вызван метод.</span><span class="sxs-lookup"><span data-stu-id="d4cf2-104">Specifies that the error will not be cleared until the <see cref="M:Microsoft.Office.Core.CustomXMLValidationError.Delete" /> method is called.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCustomXMLValidationErrorSchemaGenerated">
@@ -104,12 +72,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5bc1-105">Указывает, что которых существует коллекции непустые схемы для настраиваемой XML-части и проверки действует, все изменения в часть приведет к ошибкам проверки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5bc1-105">Specifies that where there is a non-empty schema collection available for the custom XML part and validation is in effect, any changes to the part will cause validation errors.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d4cf2-105">Указывает, что при наличии непустой коллекции схемы, доступной для пользовательской XML-части и проверки, любые изменения части приведут к ошибкам проверки.</span><span class="sxs-lookup"><span data-stu-id="d4cf2-105">Specifies that where there is a non-empty schema collection available for the custom XML part and validation is in effect, any changes to the part will cause validation errors.</span></span></summary>
       </Docs>
     </Member>
   </Members>

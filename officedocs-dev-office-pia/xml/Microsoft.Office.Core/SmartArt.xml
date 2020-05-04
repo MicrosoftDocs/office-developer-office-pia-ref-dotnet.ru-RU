@@ -1,13 +1,5 @@
 <Type Name="SmartArt" FullName="Microsoft.Office.Core.SmartArt">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ffa21ced8c5452789aaafea61e588b3e6a37e661" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661681" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartArt : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ffa21ced8c5452789aaafea61e588b3e6a37e661" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661681" /></Metadata><TypeSignature Language="C#" Value="public interface SmartArt : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArt implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArt" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartArt&#xA;Implements _IMsoDispObj" />
@@ -30,16 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="ffa22-101">Класс верхнего уровня для взаимодействия с рисунка SmartArt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ffa22-101">The top level class for interacting with a SmartArt graphic.</span>
-      </span>
-      <span data-ttu-id="ffa22-102">Определяет константы, которые определяют типы узлов SmartArt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ffa22-102">Specifies constants that define the types of SmartArt nodes.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="443b2-101">Класс верхнего уровня для взаимодействия с графическим объектом SmartArt.</span><span class="sxs-lookup"><span data-stu-id="443b2-101">The top level class for interacting with a SmartArt graphic.</span></span> <span data-ttu-id="443b2-102">Задает константы, определяющие типы узлов SmartArt.</span><span class="sxs-lookup"><span data-stu-id="443b2-102">Specifies constants that define the types of SmartArt nodes.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -66,38 +49,27 @@
         <ReturnType>Microsoft.Office.Core.SmartArtNodes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ffa22-103">Получает <see cref="T:Microsoft.Office.Core.SmartArtNodes" /> object, содержащий все узлы в пределах схемы SmartArt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-103">Gets a <see cref="T:Microsoft.Office.Core.SmartArtNodes" /> object containing all of the nodes within the SmartArt diagram.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="443b2-103">Получает <see cref="T:Microsoft.Office.Core.SmartArtNodes" /> объект, содержащий все узлы в схеме SmartArt.</span><span class="sxs-lookup"><span data-stu-id="443b2-103">Gets a <see cref="T:Microsoft.Office.Core.SmartArtNodes" /> object containing all of the nodes within the SmartArt diagram.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ffa22-104">
-            <para>Узлы возвращаются в порядке, вне зависимости от модели данных. Например, следующие модели данных будет получать узлов в порядке A, B, C, D, E, F.</para>
-            <list type="bullet">
-              <item>
-                <para>A</para>
-              </item>-
-            <item><para>F</para></item></list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-104">
-              <para>The nodes are retrieved in order, independent of data model. For example, the following data model would retrieve the nodes in order A, B, C, D, E, F.</para>
-              <list type="bullet">
-                <item>
-                  <para>A</para>
-                </item>
-                <item>
-                  <para>F</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="443b2-104"><para>Узлы извлекаются по порядку независимо от модели данных. Например, следующая модель данных извлекает узлы в порядке A, B, C, D, E, F.</para> 
+          <list type="bullet"> 
+            <item>
+              <para>A</para>
+            </item>
+            <item>
+              <para>F</para>
+            </item>
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="443b2-104"><para>The nodes are retrieved in order, independent of data model. For example, the following data model would retrieve the nodes in order A, B, C, D, E, F.</para>
+          <list type="bullet">
+            <item>
+              <para>A</para>
+            </item>
+            <item>
+              <para>F</para>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -126,25 +98,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ffa22-105">Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>SmartArt</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-105">Gets a <see cref="T:System.Object" /> object that represents the container application for the <b>SmartArt</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="443b2-105">Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>SmartArt</b> .</span><span class="sxs-lookup"><span data-stu-id="443b2-105">Gets a <see cref="T:System.Object" /> object that represents the container application for the <b>SmartArt</b> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ffa22-106">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-106">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="443b2-106"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="443b2-106"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Color">
@@ -173,25 +131,11 @@
         <ReturnType>Microsoft.Office.Core.SmartArtColor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ffa22-107">Получает или задает стиль смарт-картинка цвет, применяемый к рисунок SmartArt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-107">Gets or sets the Smart Art color style applied to the Smart Art graphic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="443b2-107">Получает или задает стиль цвета SmartArt, применяемый к рисунку SmartArt.</span><span class="sxs-lookup"><span data-stu-id="443b2-107">Gets or sets the Smart Art color style applied to the Smart Art graphic.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ffa22-108">
-            <para>Чтение и запись.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-108">
-              <para>Read/write.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="443b2-108"><para>Чтение и запись.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="443b2-108"><para>Read/write.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -220,25 +164,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ffa22-109">Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>SmartArt</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-109">Gets a 32-bit integer that indicates the application in which the <b>SmartArt</b> object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="443b2-109">Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>SmartArt</b> .</span><span class="sxs-lookup"><span data-stu-id="443b2-109">Gets a 32-bit integer that indicates the application in which the <b>SmartArt</b> object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ffa22-110">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-110">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="443b2-110"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="443b2-110"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Layout">
@@ -267,25 +197,11 @@
         <ReturnType>Microsoft.Office.Core.SmartArtLayout</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ffa22-111">Получает или задает макет рисунок, связанный с рисунок SmartArt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-111">Gets or sets the Smart Art layout associated with the Smart Art graphic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="443b2-111">Получает или задает макет смарт-графики, связанный с рисунком SmartArt.</span><span class="sxs-lookup"><span data-stu-id="443b2-111">Gets or sets the Smart Art layout associated with the Smart Art graphic.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ffa22-112">
-            <para>Чтение и запись.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-112">
-              <para>Read/write.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="443b2-112"><para>Чтение и запись.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="443b2-112"><para>Read/write.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Nodes">
@@ -311,38 +227,27 @@
         <ReturnType>Microsoft.Office.Core.SmartArtNodes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ffa22-113">Получает дочерние узлы корневого узла диаграмма SmartArt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-113">Gets the children of the root node of the SmartArt diagram.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="443b2-113">Возвращает дочерние элементы корневого узла схемы SmartArt.</span><span class="sxs-lookup"><span data-stu-id="443b2-113">Gets the children of the root node of the SmartArt diagram.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ffa22-114">
-            <para>Только для чтения. Корневой узел имеет нет родительского узла и содержит дочерние элементы только при наличии дочерних элементов в модели данных графических элементах SmartArt. В следующем примере возвращается узлами A и F.</para>
-            <list type="bullet">
-              <item>
-                <para>A</para>
-              </item>-
-            <item><para>F</para></item></list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-114">
-              <para>Read-only. The root node has no parent node and only contains children if there are children present in the SmartArt graphic’s data model. In the following example, the nodes A and F will be returned.</para>
-              <list type="bullet">
-                <item>
-                  <para>A</para>
-                </item>
-                <item>
-                  <para>F</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="443b2-114"><para>Только для чтения. Корневой узел не имеет родительского узла и содержит только потомки, если в модели данных рисунка SmartArt есть дочерние элементы. В следующем примере будут возвращены узлы A и F.</para> 
+          <list type="bullet"> 
+            <item>
+              <para>A</para>
+            </item>
+            <item>
+              <para>F</para>
+            </item>
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="443b2-114"><para>Read-only. The root node has no parent node and only contains children if there are children present in the SmartArt graphic’s data model. In the following example, the nodes A and F will be returned.</para>
+          <list type="bullet">
+            <item>
+              <para>A</para>
+            </item>
+            <item>
+              <para>F</para>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -368,25 +273,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ffa22-115">Получает объект, вызывающий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-115">Gets the calling object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="443b2-115">Получает вызывающий объект.</span><span class="sxs-lookup"><span data-stu-id="443b2-115">Gets the calling object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ffa22-116">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-116">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="443b2-116"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="443b2-116"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="QuickStyle">
@@ -415,25 +306,11 @@
         <ReturnType>Microsoft.Office.Core.SmartArtQuickStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ffa22-117">Получает или задает SmartArt экспресс-стилей применяется к рисунку SmartArt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-117">Gets or sets the SmartArt quick style applied to the SmartArt graphic.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="443b2-117">Получает или задает экспресс – стиль, примененный к графическому элементу SmartArt.</span><span class="sxs-lookup"><span data-stu-id="443b2-117">Gets or sets the SmartArt quick style applied to the SmartArt graphic.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ffa22-118">
-            <para>Чтение и запись.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-118">
-              <para>Read/write.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="443b2-118"><para>Чтение и запись.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="443b2-118"><para>Read/write.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reset">
@@ -457,24 +334,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ffa22-119">Сбрасывает рисунка SmartArt в исходное состояние.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-119">Resets the SmartArt graphic to its original state.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="ffa22-120">
-            <para>Это действие отображают функциональные возможности, доклад Сброс рисунок, связанный с кнопкой в области вкладки "Конструктор" для SmartArt.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-120">
-              <para>This action mirrors the functionality presented by the Reset Graphic button under the Design tab for SmartArt.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="443b2-119">Сбрасывает графический элемент SmartArt в исходное состояние.</span><span class="sxs-lookup"><span data-stu-id="443b2-119">Resets the SmartArt graphic to its original state.</span></span></summary>
+        <remarks><span data-ttu-id="443b2-120"><para>Это действие отражает функциональные возможности, представленные на кнопке "сбросить изображение" на вкладке "Конструктор" для SmartArt.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="443b2-120"><para>This action mirrors the functionality presented by the Reset Graphic button under the Design tab for SmartArt.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reverse">
@@ -503,25 +366,11 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ffa22-121">Получает или задает состояние диаграмма SmartArt по отношению к LTR (слева направо) или справа НАЛЕВО (справа налево), если схема поддерживает обращение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-121">Gets or sets the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="443b2-121">Получает или задает состояние схемы SmartArt со статусом слева направо (слева направо) справа налево или (справа налево), если схема поддерживает реверсирование.</span><span class="sxs-lookup"><span data-stu-id="443b2-121">Gets or sets the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ffa22-122">
-            <para>Чтение и запись.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ffa22-122">
-              <para>Read/write.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="443b2-122"><para>Чтение и запись.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="443b2-122"><para>Read/write.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="Script" FullName="Microsoft.Office.Core.Script">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2140b9d9200bd6144f2a36ebdceefe33a91ca36c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662477" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Script : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2140b9d9200bd6144f2a36ebdceefe33a91ca36c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662477" /></Metadata><TypeSignature Language="C#" Value="public interface Script : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Script implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Script" />
   <TypeSignature Language="VB.NET" Value="Public Interface Script&#xA;Implements _IMsoDispObj" />
@@ -30,28 +22,20 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="ee1c4-101">Представляет блок скрипта в HTML-код в документ Microsoft Word, электронную таблицу Microsoft Excel, либо на слайд PowerPoint.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ee1c4-101">Represents a block of HTML script in a Microsoft Word document, on a Microsoft Excel spreadsheet, or on a Microsoft PowerPoint slide.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="ee1c4-102">
-        <para>
-          <b>Объект</b> является членом <see cref="T:Microsoft.Office.Core.Scripts" /> семейства.</para> Использование <b>Scripts.Item</b><para>(<paramref name="index" />), где <paramref name="index" /> — это имя, идентификатор или номер индекса скрипта для возврата объекта <b>скрипта</b> . Каждый объект <b>скрипта</b> определяется <see cref="P:Microsoft.Office.Core.Script.Id" /> свойства, которое предоставляет удобное имя можно использовать для доступа к сценария</para><para>Можно указать язык сценариев, использованные в сценарии с помощью изменения <see cref="P:Microsoft.Office.Core.Script.Language" /> свойство.</para><para>Расположение фигуру привязки скрипта в HTML-документ, можно проверить с помощью <see cref="P:Microsoft.Office.Core.Script.Location" /> свойство.</para><para>Вы можете проверить или добавить набор атрибутов в &lt;СЦЕНАРИЙ&gt; тег (за исключением атрибуты языка и идентификатора) с помощью <see cref="P:Microsoft.Office.Core.Script.Extended" /> свойство.</para><para>Можно проверить или задать текст скрипта, связанных с данного сценария с помощью <see cref="P:Microsoft.Office.Core.Script.ScriptText" /> свойство.</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ee1c4-102">
-          <para>The <b>Script</b> object is a member of the <see cref="T:Microsoft.Office.Core.Scripts" /> collection.</para>
-          <para>Use <b>Scripts.Item</b>(<paramref name="index" />), where <paramref name="index" /> is the name, ID, or index number of a script, to return a single <b>Script</b> object. Each <b>Script</b> object is identified by the <see cref="P:Microsoft.Office.Core.Script.Id" /> property, which provides a convenient name you can use to access the script.</para>
-          <para>You can specify the scripting language used in the script by changing the <see cref="P:Microsoft.Office.Core.Script.Language" /> property.</para>
-          <para>You can check the location of the script anchor shape within an HTML document by using the <see cref="P:Microsoft.Office.Core.Script.Location" /> property.</para>
-          <para>You can check or set attributes added to the &lt;SCRIPT&gt; tag (with the exception of the LANGUAGE and ID attributes) by using the <see cref="P:Microsoft.Office.Core.Script.Extended" /> property.</para>
-          <para>You can check or set the script text associated with a given script by using the <see cref="P:Microsoft.Office.Core.Script.ScriptText" /> property.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="0996b-101">Представляет блок HTML-скрипта в документе Microsoft Word, в электронной таблице Microsoft Excel или на слайде Microsoft PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="0996b-101">Represents a block of HTML script in a Microsoft Word document, on a Microsoft Excel spreadsheet, or on a Microsoft PowerPoint slide.</span></span></summary>
+    <remarks><span data-ttu-id="0996b-102"><para>Объект <b>script</b> является членом <see cref="T:Microsoft.Office.Core.Scripts" /> коллекции.</para> 
+      <para>Используйте <b>Scripts. Item</b>(<paramref name="index" />), <paramref name="index" /> где — это имя, идентификатор или номер индекса скрипта, чтобы вернуть один объект <b>скрипта</b> . Каждый объект <b>скрипта</b> определяется <see cref="P:Microsoft.Office.Core.Script.Id" /> свойством, которое предоставляет удобное имя, которое можно использовать для доступа к сценарию.</para> 
+      <para>Вы можете указать язык сценариев, используемый в сценарии, изменив <see cref="P:Microsoft.Office.Core.Script.Language" /> свойство.</para> 
+      <para>Вы можете проверить расположение фигуры привязки скрипта в HTML-документе с помощью <see cref="P:Microsoft.Office.Core.Script.Location" /> свойства.</para> 
+      <para>Вы можете проверить или задать атрибуты, добавленные &lt;в&gt; тег script (за исключением атрибутов Language и ID) с помощью <see cref="P:Microsoft.Office.Core.Script.Extended" /> свойства.</para> 
+      <para>Вы можете проверить или задать текст скрипта, связанный с заданным сценарием, <see cref="P:Microsoft.Office.Core.Script.ScriptText" /> с помощью свойства.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="0996b-102"><para>The <b>Script</b> object is a member of the <see cref="T:Microsoft.Office.Core.Scripts" /> collection.</para>
+      <para>Use <b>Scripts.Item</b>(<paramref name="index" />), where <paramref name="index" /> is the name, ID, or index number of a script, to return a single <b>Script</b> object. Each <b>Script</b> object is identified by the <see cref="P:Microsoft.Office.Core.Script.Id" /> property, which provides a convenient name you can use to access the script.</para>
+      <para>You can specify the scripting language used in the script by changing the <see cref="P:Microsoft.Office.Core.Script.Language" /> property.</para>
+      <para>You can check the location of the script anchor shape within an HTML document by using the <see cref="P:Microsoft.Office.Core.Script.Location" /> property.</para>
+      <para>You can check or set attributes added to the &lt;SCRIPT&gt; tag (with the exception of the LANGUAGE and ID attributes) by using the <see cref="P:Microsoft.Office.Core.Script.Extended" /> property.</para>
+      <para>You can check or set the script text associated with a given script by using the <see cref="P:Microsoft.Office.Core.Script.ScriptText" /> property.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -80,12 +64,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ee1c4-103">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0996b-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="0996b-103">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -116,27 +95,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ee1c4-104">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0996b-104">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="0996b-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ee1c4-105">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.Script.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-105">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.Script.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="0996b-105"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.Script.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0996b-105"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.Script.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -160,24 +127,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ee1c4-106">Удаляет указанный объект из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-106">Deletes the specified object from the collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="ee1c4-107">
-            <para>Для <see cref="T:Microsoft.Office.Core.Scripts" /> коллекции с помощью метода <b>Delete</b> удаляет все сценарии из указанного документа Microsoft Word, лист Microsoft Excel или слайдов Microsoft PowerPoint. Фигуры в ведущем приложении представлены точку привязки. Таким образом объекта <b>Shape</b> , связанные с каждой привязку из типа <b>msoScriptAnchor</b> удаляется из коллекции <b>фигур</b> в Excel и PowerPoint и <b>InlineShapes</b> и коллекции <b>фигур</b> в Word.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-107">
-              <para>For the <see cref="T:Microsoft.Office.Core.Scripts" /> collection, using the <b>Delete</b> method removes all scripts from the specified Microsoft Word document, Microsoft Excel worksheet, or Microsoft PowerPoint slide. A script anchor is represented by a shape in the host application. Therefore, the <b>Shape</b> object associated with each script anchor of type <b>msoScriptAnchor</b> is deleted from the <b>Shapes</b> collection in Excel and PowerPoint and from the <b>InlineShapes</b> and <b>Shapes</b> collections in Word.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="0996b-106">Удаляет указанный объект из коллекции.</span><span class="sxs-lookup"><span data-stu-id="0996b-106">Deletes the specified object from the collection.</span></span></summary>
+        <remarks><span data-ttu-id="0996b-107"><para>Для <see cref="T:Microsoft.Office.Core.Scripts" /> коллекции с помощью метода <b>Delete</b> удаляются все скрипты из указанного документа Microsoft Word, листа Microsoft Excel или слайда Microsoft PowerPoint. Привязка скрипта представлена фигурой в ведущем приложении. Таким образом, <b>объект Shape</b> , связанный с каждой привязкой сценария типа <b>мсоскриптанчор</b> , удаляется из коллекции <b>Shapes</b> в Excel и PowerPoint, а также из семейств <b>InlineShapes</b> и <b>Shapes</b> в Word.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0996b-107"><para>For the <see cref="T:Microsoft.Office.Core.Scripts" /> collection, using the <b>Delete</b> method removes all scripts from the specified Microsoft Word document, Microsoft Excel worksheet, or Microsoft PowerPoint slide. A script anchor is represented by a shape in the host application. Therefore, the <b>Shape</b> object associated with each script anchor of type <b>msoScriptAnchor</b> is deleted from the <b>Shapes</b> collection in Excel and PowerPoint and from the <b>InlineShapes</b> and <b>Shapes</b> collections in Word.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Extended">
@@ -206,31 +159,17 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ee1c4-108">Возвращает или задает атрибуты, добавленные к &lt;СЦЕНАРИЙ&gt; тег, за исключением атрибуты языка и идентификатора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-108">Returns or sets attributes added to the &lt;SCRIPT&gt; tag, with the exception of the LANGUAGE and ID attributes.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0996b-108">Возвращает или задает атрибуты, добавленные &lt;в&gt; тег script, за исключением атрибутов языка и идентификатора.</span><span class="sxs-lookup"><span data-stu-id="0996b-108">Returns or sets attributes added to the &lt;SCRIPT&gt; tag, with the exception of the LANGUAGE and ID attributes.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ee1c4-109">
-            <para>Атрибуты, разделенных пробелами, то же самое, что и HTML-код. Невозможно передать атрибут языка или в атрибуте ID с помощью свойства <b>Extended</b> .</para>
-            <para>Ведущего приложения Microsoft Office не предоставляет означает, что проверки синтаксиса переданного атрибуты.</para>
-            <para>При передаче атрибут языка в свойстве <b>Extended</b> &lt;СЦЕНАРИЙ&gt; тег получает два языковых параметров, который вызывает конфликт.</para>
-            <para>Если атрибут ID передается в свойстве <b>Extended</b> и не указан идентификатор через параметр ID <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> метод или <see cref="P:Microsoft.Office.Core.Script.Id" /> свойства <see cref="T:Microsoft.Office.Core.Script" /> объекта, идентификатор экспортируется правильно.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-109">
-              <para>Attributes are separated by spaces, the same as in HTML. You cannot pass the LANGUAGE attribute or the ID attribute by using the <b>Extended</b> property.</para>
-              <para>The Microsoft Office host application doesn’t provide any means of checking the syntax of passed attributes.</para>
-              <para>If you pass the LANGUAGE attribute in the <b>Extended</b> property, the &lt;SCRIPT&gt; tag receives two language settings, which causes a conflict.</para>
-              <para>If you pass an ID attribute in the <b>Extended</b> property and no ID has been set through either the ID parameter of the <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> method or the <see cref="P:Microsoft.Office.Core.Script.Id" /> property of the <see cref="T:Microsoft.Office.Core.Script" /> object, the ID is exported correctly.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="0996b-109"><para>Атрибуты разделяются пробелами, как в HTML-коде. Вы не можете передать атрибут языка или атрибут ID с помощью <b>расширенного</b> свойства.</para> 
+          <para>Ведущее приложение Microsoft Office не предоставляет никаких средств проверки синтаксиса переданных атрибутов.</para> 
+          <para>Если вы передаете атрибут Language в <b>расширенном</b> свойстве &lt;,&gt; то тег script получает два языковых параметра, что приводит к конфликту.</para> 
+          <para>Если вы передаете атрибут ID в <b>расширенном</b> свойстве, а идентификатор не задается с помощью параметра ID <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> метода или <see cref="P:Microsoft.Office.Core.Script.Id" /> свойства <see cref="T:Microsoft.Office.Core.Script" /> объекта, идентификатор экспортируется правильно.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0996b-109"><para>Attributes are separated by spaces, the same as in HTML. You cannot pass the LANGUAGE attribute or the ID attribute by using the <b>Extended</b> property.</para>
+          <para>The Microsoft Office host application doesn’t provide any means of checking the syntax of passed attributes.</para>
+          <para>If you pass the LANGUAGE attribute in the <b>Extended</b> property, the &lt;SCRIPT&gt; tag receives two language settings, which causes a conflict.</para>
+          <para>If you pass an ID attribute in the <b>Extended</b> property and no ID has been set through either the ID parameter of the <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> method or the <see cref="P:Microsoft.Office.Core.Script.Id" /> property of the <see cref="T:Microsoft.Office.Core.Script" /> object, the ID is exported correctly.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -259,31 +198,17 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ee1c4-110">Возвращает или задает ИД <see cref="T:Microsoft.Office.Core.Script" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-110">Returns or sets the ID of a <see cref="T:Microsoft.Office.Core.Script" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0996b-110">Возвращает или задает идентификатор <see cref="T:Microsoft.Office.Core.Script" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="0996b-110">Returns or sets the ID of a <see cref="T:Microsoft.Office.Core.Script" /> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ee1c4-111">
-            <para>Для атрибута ID является идентификатор, возвращенный &lt;СЦЕНАРИЙ&gt; тег в формате HTML. Если нет не указан в атрибуте ID &lt;СЦЕНАРИЙ&gt; тег, свойство <b>Id</b> возвращает пустую строку.</para>
-            <para>
-              <b>Идентификатор</b> указывает идентификатор SGML, используемый для имен элементов. Допустимыми идентификаторами включать любую строку, которая начинается с буквы и состоять из буквенно-цифровых символов; Строка может также содержать символ подчеркивания (_).</para>
-            <para>Идентификатор должен быть уникальным в HTML-документ.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-111">
-              <para>The ID returned is the ID attribute of the &lt;SCRIPT&gt; tag in HTML. If there’s no ID attribute specified in the &lt;SCRIPT&gt; tag, the <b>Id</b> property returns an empty string.</para>
-              <para>
-                <b>Id</b> specifies an SGML identifier used for naming elements. Valid identifiers include any string that begins with a letter and is composed of alphanumeric characters; the string can also include the underscore character ( _ ).</para>
-              <para>The ID must be unique within the HTML document.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="0996b-111"><para>Возвращаемый идентификатор — это атрибут ID тега &lt;script&gt; в HTML. Если в теге &lt;&gt; script не указан атрибут ID, свойство <b>ID</b> возвращает пустую строку.</para> 
+          <para> 
+            <b>ID</b> указывает идентификатор сгмл, используемый для именования элементов. Допустимые идентификаторы включают любую строку, начинающуюся с буквы и состоящую из буквенно-цифровых символов; строка также может содержать символ подчеркивания (_).</para> 
+          <para>Идентификатор должен быть уникальным в HTML-документе.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0996b-111"><para>The ID returned is the ID attribute of the &lt;SCRIPT&gt; tag in HTML. If there’s no ID attribute specified in the &lt;SCRIPT&gt; tag, the <b>Id</b> property returns an empty string.</para>
+          <para>
+            <b>Id</b> specifies an SGML identifier used for naming elements. Valid identifiers include any string that begins with a letter and is composed of alphanumeric characters; the string can also include the underscore character ( _ ).</para>
+          <para>The ID must be unique within the HTML document.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Language">
@@ -312,26 +237,11 @@
         <ReturnType>Microsoft.Office.Core.MsoScriptLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ee1c4-112">Возвращает или задает язык сценариев активного сценария.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-112">Returns or sets the scripting language of the active script.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0996b-112">Возвращает или задает язык сценариев для активного скрипта.</span><span class="sxs-lookup"><span data-stu-id="0996b-112">Returns or sets the scripting language of the active script.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ee1c4-113">
-            <para>
-              <see cref="T:Microsoft.Office.Core.MsoScriptLanguage" /> Констант, используемых с помощью свойства <b>языка</b> также можно использовать в <paramref name="Language" /> параметр в <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> метод <see cref="T:Microsoft.Office.Core.Scripts" /> семейства сайтов.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-113">
-              <para>The <see cref="T:Microsoft.Office.Core.MsoScriptLanguage" /> constants used with the <b>Language</b> property are also used in the <paramref name="Language" /> parameter in the <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> method of the <see cref="T:Microsoft.Office.Core.Scripts" /> collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="0996b-113"><para><see cref="T:Microsoft.Office.Core.MsoScriptLanguage" /> Константы, используемые с свойством <b>Language</b> , также используются в <paramref name="Language" /> параметре в <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> методе <see cref="T:Microsoft.Office.Core.Scripts" /> коллекции.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0996b-113"><para>The <see cref="T:Microsoft.Office.Core.MsoScriptLanguage" /> constants used with the <b>Language</b> property are also used in the <paramref name="Language" /> parameter in the <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> method of the <see cref="T:Microsoft.Office.Core.Scripts" /> collection.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Location">
@@ -357,28 +267,13 @@
         <ReturnType>Microsoft.Office.Core.MsoScriptLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ee1c4-114">Возвращает расположение привязку в указанный HTML-документ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-114">Returns the location of the script anchor in the specified HTML document.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0996b-114">Возвращает расположение привязки сценария в указанном HTML-документе.</span><span class="sxs-lookup"><span data-stu-id="0996b-114">Returns the location of the script anchor in the specified HTML document.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ee1c4-115">
-            <para>Теги скрипта в HTML-документ, могут появляться в любом месте между &lt;HTML&gt; тегов в документе. В Microsoft Word, Excel и PowerPoint, только ссылки сценария находится между &lt;ТЕЛО&gt; теги отображаются. Дополнительные HTML-скрипта, который отображается до или после &lt;ТЕЛО&gt; хранится в теги, но не отображается для пользователя.</para>
-            <para>
-              <see cref="T:Microsoft.Office.Core.Scripts" /> Семейства сайтов содержит все ссылки сценария, которые отображаются в документ, как внутри, так и за ее пределами основной части документа. С помощью <paramref name="Location" /> аргумент <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> метод, можно вставить ссылки сценария в пределах &lt;HEAD&gt; и &lt;ТЕЛО&gt; теги в HTML-документ. Свойство <b>Location</b> также можно использовать для определения места хранения конкретного точку привязки в документе.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-115">
-              <para>Script tags in an HTML document can appear anywhere between the &lt;HTML&gt; tags in the document. In Microsoft Word, Excel, or PowerPoint, only the script anchors located between the &lt;BODY&gt; tags are visible. Additional HTML script that appears before or after the &lt;BODY&gt; tags is stored in but isn’t visible to the user.</para>
-              <para>The <see cref="T:Microsoft.Office.Core.Scripts" /> collection contains all of the script anchors that appear in the document, whether inside or outside of the main body of the document. Using the <paramref name="Location" /> argument of the <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> method, you can insert script anchors within the &lt;HEAD&gt; and &lt;BODY&gt; tags in the HTML document. You can also use the <b>Location</b> property to determine where a particular script anchor is stored within the document.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="0996b-115"><para>Теги script в HTML-документе могут располагаться в &lt;любом&gt; месте документа. В Microsoft Word, Excel или PowerPoint видны только привязки сценариев, расположенные между тегами &lt;Body&gt; . Дополнительный HTML-сценарий, который появляется до или &lt;после&gt; того, как теги основного текста хранятся в, но не отображаются для пользователя.</para> 
+          <para>Коллекция содержит все привязки сценариев, которые отображаются в документе, вне зависимости от основного текста документа (внутри или за ее пределами). <see cref="T:Microsoft.Office.Core.Scripts" /> С помощью <paramref name="Location" /> <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> аргумента метода можно вставлять привязки скриптов в теги &lt;head&gt; и &lt;Body&gt; в HTML-документе. Кроме того, можно использовать свойство <b>Location</b> , чтобы определить, где в документе хранится привязка к определенному сценарию.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0996b-115"><para>Script tags in an HTML document can appear anywhere between the &lt;HTML&gt; tags in the document. In Microsoft Word, Excel, or PowerPoint, only the script anchors located between the &lt;BODY&gt; tags are visible. Additional HTML script that appears before or after the &lt;BODY&gt; tags is stored in but isn’t visible to the user.</para>
+          <para>The <see cref="T:Microsoft.Office.Core.Scripts" /> collection contains all of the script anchors that appear in the document, whether inside or outside of the main body of the document. Using the <paramref name="Location" /> argument of the <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> method, you can insert script anchors within the &lt;HEAD&gt; and &lt;BODY&gt; tags in the HTML document. You can also use the <b>Location</b> property to determine where a particular script anchor is stored within the document.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -404,12 +299,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ee1c4-116">Возвращает <b>родительский</b> объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-116">Returns the <b>Parent</b> object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0996b-116">Возвращает <b>родительский</b> объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="0996b-116">Returns the <b>Parent</b> object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -440,25 +330,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ee1c4-117">Возвращает или задает текст, содержащийся в блок скрипта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-117">Returns or sets the text contained in a block of script.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0996b-117">Возвращает или задает текст, содержащийся в блоке скрипта.</span><span class="sxs-lookup"><span data-stu-id="0996b-117">Returns or sets the text contained in a block of script.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ee1c4-118">
-            <para>Ведущее приложение Microsoft Office не проверять синтаксис сценария. Свойства <b>ScriptText</b> является свойством по умолчанию для <see cref="T:Microsoft.Office.Core.Script" /> объекта.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-118">
-              <para>The Microsoft Office host application doesn’t check the syntax of the script. The <b>ScriptText</b> property is the default property for the <see cref="T:Microsoft.Office.Core.Script" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="0996b-118"><para>Ведущее приложение Microsoft Office не проверяет синтаксис скрипта. Свойство <b>скрипттекст</b> является свойством по умолчанию для <see cref="T:Microsoft.Office.Core.Script" /> объекта.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0996b-118"><para>The Microsoft Office host application doesn’t check the syntax of the script. The <b>ScriptText</b> property is the default property for the <see cref="T:Microsoft.Office.Core.Script" /> object.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Shape">
@@ -484,25 +360,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ee1c4-119">Возвращает объект <b>фигуры</b> или объекта <b>InlineShape</b> , в зависимости от ведущего приложения Microsoft Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-119">Returns a <b>Shape</b> object or <b>InlineShape</b> object, depending on the Microsoft Office host application.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="0996b-119">Возвращает объект <b>Shape</b> или объект <b>InlineShape</b> в зависимости от ведущего приложения Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="0996b-119">Returns a <b>Shape</b> object or <b>InlineShape</b> object, depending on the Microsoft Office host application.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ee1c4-120">
-            <para>Свойство <b>фигуры</b> возвращает объект <b>фигуры</b> в Microsoft Excel и PowerPoint. В Word возвращает свойство <b>фигуры</b><b>фигуры</b> объекта, если является перемещаемой привязку; Если это встроенные привязки, данное свойство возвращает объект <b>InlineShape</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ee1c4-120">
-              <para>The <b>Shape</b> property returns a <b>Shape</b> object in Microsoft Excel and PowerPoint. In Word, the <b>Shape</b> property returns a <b>Shape</b> object if the script anchor is floating; if it’s an inline anchor, however, this property returns an <b>InlineShape</b> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="0996b-120"><para>Свойство <b>Shape</b> возвращает объект <b>Shape</b> в Microsoft Excel и PowerPoint. В Word свойство <b>Shape</b> возвращает объект <b>Shape</b> , если привязка сценария является плавающей. Тем не менее, если это встроенная привязка, это свойство возвращает объект <b>InlineShape</b> .</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="0996b-120"><para>The <b>Shape</b> property returns a <b>Shape</b> object in Microsoft Excel and PowerPoint. In Word, the <b>Shape</b> property returns a <b>Shape</b> object if the script anchor is floating; if it’s an inline anchor, however, this property returns an <b>InlineShape</b> object.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

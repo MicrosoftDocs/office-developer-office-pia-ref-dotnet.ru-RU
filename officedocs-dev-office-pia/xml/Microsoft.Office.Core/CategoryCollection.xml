@@ -1,13 +1,5 @@
 <Type Name="CategoryCollection" FullName="Microsoft.Office.Core.CategoryCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ed4dfc68f20db8736cbe0e138584d55be0ec9fcc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661677" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CategoryCollection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ed4dfc68f20db8736cbe0e138584d55be0ec9fcc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661677" /></Metadata><TypeSignature Language="C#" Value="public interface CategoryCollection" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CategoryCollection" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CategoryCollection" />
   <TypeSignature Language="VB.NET" Value="Public Interface CategoryCollection" />
@@ -26,12 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="1b9c7-101">Представляет коллекцию категорий видимым диаграммы на диаграмме.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1b9c7-101">Represents the collection of visible chart categories in the chart.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="6380d-101">Представляет коллекцию видимых категорий диаграмм на диаграмме.</span><span class="sxs-lookup"><span data-stu-id="6380d-101">Represents the collection of visible chart categories in the chart.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -61,12 +48,7 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="1b9c7-102">Номер индекса для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1b9c7-102">The index number for the object.</span>
-          </span>
-        </param>
+        <param name="Index"><span data-ttu-id="6380d-102">Номер индекса для объекта.</span><span class="sxs-lookup"><span data-stu-id="6380d-102">The index number for the object.</span></span></param>
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -92,12 +74,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1b9c7-103">Возвращает объект приложения, который представляет приложение Microsoft Excel.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1b9c7-103">Returns an Application object that represents the Microsoft Excel application.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6380d-103">Возвращает объект Application, который представляет приложение Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="6380d-103">Returns an Application object that represents the Microsoft Excel application.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -122,18 +99,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1b9c7-104">Возвращает значение типа Integer (целое в C#), который представляет число объектов в <see cref="T:Microsoft.Office.Core.CategoryCollection" /> (Возвращает число категорий отображается на диаграмме).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1b9c7-104">Returns a Integer (int in C#) value that represents the number of objects in the <see cref="T:Microsoft.Office.Core.CategoryCollection" /> (returns the number of categories visible in the chart).</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1b9c7-105">Возвращает значение типа Integer (целое в C#)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1b9c7-105">Returns an Integer (int in C#)</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="6380d-104">Возвращает значение типа Integer (int в C#), представляющее число объектов в диаграмме <see cref="T:Microsoft.Office.Core.CategoryCollection" /> (Возвращает число категорий, отображаемых на диаграмме).</span><span class="sxs-lookup"><span data-stu-id="6380d-104">Returns a Integer (int in C#) value that represents the number of objects in the <see cref="T:Microsoft.Office.Core.CategoryCollection" /> (returns the number of categories visible in the chart).</span></span></summary>
+        <value><span data-ttu-id="6380d-105">Возвращает целое число (int в C#)</span><span class="sxs-lookup"><span data-stu-id="6380d-105">Returns an Integer (int in C#)</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,12 +124,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1b9c7-106">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1b9c7-106">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6380d-106">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="6380d-106">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -185,18 +147,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="1b9c7-107">Номер индекса для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1b9c7-107">The index number for the object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="1b9c7-108">Возвращает объект из <see cref="T:Microsoft.Office.Core.CategoryCollection" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1b9c7-108">Returns a single object from the <see cref="T:Microsoft.Office.Core.CategoryCollection" /> object.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="6380d-107">Номер индекса для объекта.</span><span class="sxs-lookup"><span data-stu-id="6380d-107">The index number for the object.</span></span></param>
+        <summary><span data-ttu-id="6380d-108">Возвращает один объект из <see cref="T:Microsoft.Office.Core.CategoryCollection" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="6380d-108">Returns a single object from the <see cref="T:Microsoft.Office.Core.CategoryCollection" /> object.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -221,18 +173,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1b9c7-109">Возвращает объект, представляющий родительский объект указанного <see cref="T:Microsoft.Office.Core.CategoryCollection" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1b9c7-109">Returns an Object that represents the parent object of the specified <see cref="T:Microsoft.Office.Core.CategoryCollection" /> object.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="1b9c7-110">Объект</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1b9c7-110">Object</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="6380d-109">Возвращает объект, представляющий родительский объект указанного <see cref="T:Microsoft.Office.Core.CategoryCollection" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="6380d-109">Returns an Object that represents the parent object of the specified <see cref="T:Microsoft.Office.Core.CategoryCollection" /> object.</span></span></summary>
+        <value><span data-ttu-id="6380d-110">Объект</span><span class="sxs-lookup"><span data-stu-id="6380d-110">Object</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

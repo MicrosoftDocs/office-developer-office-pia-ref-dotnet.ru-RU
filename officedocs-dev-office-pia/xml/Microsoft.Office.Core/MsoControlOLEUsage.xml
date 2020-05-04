@@ -1,13 +1,5 @@
 <Type Name="MsoControlOLEUsage" FullName="Microsoft.Office.Core.MsoControlOLEUsage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b02ed8bfb7ad0b3fe9f7fd651f0ac84446eef72" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661907" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoControlOLEUsage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9b02ed8bfb7ad0b3fe9f7fd651f0ac84446eef72" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661907" /></Metadata><TypeSignature Language="C#" Value="public enum MsoControlOLEUsage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoControlOLEUsage extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoControlOLEUsage" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoControlOLEUsage" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="919e2-101">Указывает клиента OLE и OLE ролей сервера, в которых используется элемент управления панели команд, время объединения двух приложений Microsoft Office.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="919e2-101">Specifies the OLE client and OLE server roles in which a command bar control is used when two Microsoft Office applications are merged.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="7eec6-101">Задает роли клиента OLE и сервера OLE, в которых используется элемент управления "панель команд" при объединении двух приложений Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="7eec6-101">Specifies the OLE client and OLE server roles in which a command bar control is used when two Microsoft Office applications are merged.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="919e2-102">Элемент управления работает на клиента и сервера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="919e2-102">Control runs on both client and server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7eec6-102">Управление выполняется как на клиенте, так и на сервере.</span><span class="sxs-lookup"><span data-stu-id="7eec6-102">Control runs on both client and server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlOLEUsageClient">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="919e2-103">Только для клиентского элемента управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="919e2-103">Client-only control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7eec6-103">Только клиентский элемент управления.</span><span class="sxs-lookup"><span data-stu-id="7eec6-103">Client-only control.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlOLEUsageNeither">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="919e2-104">Элемент управления выполняет ни клиент, ни сервер.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="919e2-104">Control runs on neither client nor server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7eec6-104">Управление выполняется не на клиенте и на сервере.</span><span class="sxs-lookup"><span data-stu-id="7eec6-104">Control runs on neither client nor server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlOLEUsageServer">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="919e2-105">Элемент управления только на сервере.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="919e2-105">Server-only control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7eec6-105">Элемент управления только для сервера.</span><span class="sxs-lookup"><span data-stu-id="7eec6-105">Server-only control.</span></span></summary>
       </Docs>
     </Member>
   </Members>

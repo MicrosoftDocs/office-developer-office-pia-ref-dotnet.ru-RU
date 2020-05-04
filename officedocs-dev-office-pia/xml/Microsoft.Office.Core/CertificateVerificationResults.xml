@@ -1,13 +1,5 @@
 <Type Name="CertificateVerificationResults" FullName="Microsoft.Office.Core.CertificateVerificationResults">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="26d8bca54b199d666d4bff30555318b4e9d6d345" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662561" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum CertificateVerificationResults" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="26d8bca54b199d666d4bff30555318b4e9d6d345" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662561" /></Metadata><TypeSignature Language="C#" Value="public enum CertificateVerificationResults" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CertificateVerificationResults extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CertificateVerificationResults" />
   <TypeSignature Language="VB.NET" Value="Public Enum CertificateVerificationResults" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="5f9e6-101">Предоставляет результат проверки цифрового сертификата.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5f9e6-101">Provides the results of  verifying a digital certificate.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f1fd7-101">Предоставляет результаты проверки цифрового сертификата.</span><span class="sxs-lookup"><span data-stu-id="f1fd7-101">Provides the results of  verifying a digital certificate.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5f9e6-102">Проверка возникла ошибка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5f9e6-102">The verification resulted in an error.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1fd7-102">Проверка привела к ошибке.</span><span class="sxs-lookup"><span data-stu-id="f1fd7-102">The verification resulted in an error.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="certverresExpired">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5f9e6-103">Истек срок действия сертификатов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5f9e6-103">The certification has expired.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1fd7-103">Срок действия сертификата истек.</span><span class="sxs-lookup"><span data-stu-id="f1fd7-103">The certification has expired.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="certverresInvalid">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5f9e6-104">Сертификация является недопустимым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5f9e6-104">The certification is invalid.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1fd7-104">Недопустимый сертификат.</span><span class="sxs-lookup"><span data-stu-id="f1fd7-104">The certification is invalid.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="certverresRevoked">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5f9e6-105">Сертификация был отозван.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5f9e6-105">The certification has been revoked.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1fd7-105">Сертификат отозван.</span><span class="sxs-lookup"><span data-stu-id="f1fd7-105">The certification has been revoked.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="certverresUntrusted">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5f9e6-106">Сертификация — от ненадежных источников.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5f9e6-106">The certification is from an untrusted source.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1fd7-106">Сертификация из ненадежного источника.</span><span class="sxs-lookup"><span data-stu-id="f1fd7-106">The certification is from an untrusted source.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="certverresUnverified">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5f9e6-107">В настоящее время непроверенные сертификации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5f9e6-107">The certification is currently unverified.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1fd7-107">В настоящее время сертификат не проверен.</span><span class="sxs-lookup"><span data-stu-id="f1fd7-107">The certification is currently unverified.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="certverresValid">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5f9e6-108">Сертификация является допустимым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5f9e6-108">The certification is valid.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1fd7-108">Сертификация действительна.</span><span class="sxs-lookup"><span data-stu-id="f1fd7-108">The certification is valid.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="certverresVerifying">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5f9e6-109">В настоящее время выполняется проверка сертификата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5f9e6-109">The certificate is currently being verified.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f1fd7-109">В настоящее время проверяется подлинность сертификата.</span><span class="sxs-lookup"><span data-stu-id="f1fd7-109">The certificate is currently being verified.</span></span></summary>
       </Docs>
     </Member>
   </Members>

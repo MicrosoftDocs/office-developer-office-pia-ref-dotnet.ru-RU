@@ -1,13 +1,5 @@
 <Type Name="MsoDateTimeFormat" FullName="Microsoft.Office.Core.MsoDateTimeFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f6d0aea56f1d091fd15d2ca8a4acc7206eba2b8d" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662439" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoDateTimeFormat" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f6d0aea56f1d091fd15d2ca8a4acc7206eba2b8d" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662439" /></Metadata><TypeSignature Language="C#" Value="public enum MsoDateTimeFormat" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoDateTimeFormat extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoDateTimeFormat" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoDateTimeFormat" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="258dc-101">Задает формат данных даты и времени типа.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="258dc-101">Specifies the format of a date/time data type.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="bf417-101">Задает формат данных даты и времени.</span><span class="sxs-lookup"><span data-stu-id="bf417-101">Specifies the format of a date/time data type.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-102">Задает формат ddddMMMMddyyyy.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-102">Specifies a ddddMMMMddyyyy format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-102">Указывает формат Ддддммммддииии.</span><span class="sxs-lookup"><span data-stu-id="bf417-102">Specifies a ddddMMMMddyyyy format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimedMMMMyyyy">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-103">Задает формат MMMMyyyy.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-103">Specifies MMMMyyyy format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-103">Указывает формат Ммммииии.</span><span class="sxs-lookup"><span data-stu-id="bf417-103">Specifies MMMMyyyy format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimedMMMyy">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-104">Задает формат MMMyy.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-104">Specifies MMMyy format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-104">Указывает формат Мммии.</span><span class="sxs-lookup"><span data-stu-id="bf417-104">Specifies MMMyy format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeFigureOut">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-105">Указывает, что приложение Office определяет формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-105">Specifies that the Office application will determine the format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-105">Указывает, что приложение Office определит формат.</span><span class="sxs-lookup"><span data-stu-id="bf417-105">Specifies that the Office application will determine the format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeFormatMixed">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-106">Задает смешанный формат.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-106">Specifies a mixed format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-106">Задает смешанный формат.</span><span class="sxs-lookup"><span data-stu-id="bf417-106">Specifies a mixed format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeHmm">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-107">Задает формат Hmm.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-107">Specifies Hmm format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-107">Указывает формат Хмм.</span><span class="sxs-lookup"><span data-stu-id="bf417-107">Specifies Hmm format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimehmmAMPM">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-108">Задает формат hmmAMPM.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-108">Specifies a hmmAMPM format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-108">Указывает формат Хммампм.</span><span class="sxs-lookup"><span data-stu-id="bf417-108">Specifies a hmmAMPM format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeHmmss">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-109">Задает формат Hmmss.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-109">Specifies a Hmmss format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-109">Указывает формат Хммсс.</span><span class="sxs-lookup"><span data-stu-id="bf417-109">Specifies a Hmmss format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimehmmssAMPM">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-110">Задает формат hmmssAMPM.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-110">Specifies a hmmssAMPM format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-110">Указывает формат Хммссампм.</span><span class="sxs-lookup"><span data-stu-id="bf417-110">Specifies a hmmssAMPM format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeMdyy">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-111">Задает формат Mdyy.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-111">Specifies a Mdyy format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-111">Указывает формат Мдии.</span><span class="sxs-lookup"><span data-stu-id="bf417-111">Specifies a Mdyy format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeMMddyyHmm">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-112">Задает формат MMddyyHmm.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-112">Specifies a MMddyyHmm format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-112">Указывает формат Ммддиихмм.</span><span class="sxs-lookup"><span data-stu-id="bf417-112">Specifies a MMddyyHmm format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeMMddyyhmmAMPM">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-113">Задает формат MMddyyhmmAMPM.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-113">Specifies a MMddyyhmmAMPM format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-113">Указывает формат Ммддиихммампм.</span><span class="sxs-lookup"><span data-stu-id="bf417-113">Specifies a MMddyyhmmAMPM format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeMMMMdyyyy">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-114">Задает формат MMMMdyyyy.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-114">Specifies a MMMMdyyyy format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-114">Указывает формат Ммммдииии.</span><span class="sxs-lookup"><span data-stu-id="bf417-114">Specifies a MMMMdyyyy format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeMMMMyy">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-115">Задает формат MMMMyy.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-115">Specifies a MMMMyy format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-115">Указывает формат Ммммии.</span><span class="sxs-lookup"><span data-stu-id="bf417-115">Specifies a MMMMyy format.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoDateTimeMMyy">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="258dc-116">Задает формат MMyy.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="258dc-116">Specifies a MMyy format.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bf417-116">Указывает формат Ммии.</span><span class="sxs-lookup"><span data-stu-id="bf417-116">Specifies a MMyy format.</span></span></summary>
       </Docs>
     </Member>
   </Members>

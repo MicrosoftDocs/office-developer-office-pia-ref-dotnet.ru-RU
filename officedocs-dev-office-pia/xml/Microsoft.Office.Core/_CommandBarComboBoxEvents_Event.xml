@@ -1,13 +1,5 @@
 <Type Name="_CommandBarComboBoxEvents_Event" FullName="Microsoft.Office.Core._CommandBarComboBoxEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b710d4421b40d8373600303bcbfe71fabaae197c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662472" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CommandBarComboBoxEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b710d4421b40d8373600303bcbfe71fabaae197c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662472" /></Metadata><TypeSignature Language="C#" Value="public interface _CommandBarComboBoxEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBarComboBoxEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarComboBoxEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CommandBarComboBoxEvents_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="c8602-101">Интерфейс события для Microsoft Office <see cref="T:Microsoft.Office.Core.CommandBarComboBox" /> объекта события.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c8602-101">Events interface for Microsoft Office <see cref="T:Microsoft.Office.Core.CommandBarComboBox" /> object events.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="d2ef0-101">Интерфейс событий для событий объектов <see cref="T:Microsoft.Office.Core.CommandBarComboBox" /> Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="d2ef0-101">Events interface for Microsoft Office <see cref="T:Microsoft.Office.Core.CommandBarComboBox" /> object events.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,12 +40,7 @@
         <ReturnType>Microsoft.Office.Core._CommandBarComboBoxEvents_ChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c8602-102">Возникает при изменении выбора в поле со списком панели команд конечного пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c8602-102">Occurs when the end user changes the selection in a command bar combo box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d2ef0-102">Возникает, когда конечный пользователь изменяет значение в поле со списком в строке команд.</span><span class="sxs-lookup"><span data-stu-id="d2ef0-102">Occurs when the end user changes the selection in a command bar combo box.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

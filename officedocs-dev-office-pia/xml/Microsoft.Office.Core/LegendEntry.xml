@@ -1,13 +1,5 @@
 <Type Name="LegendEntry" FullName="Microsoft.Office.Core.LegendEntry">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0fe12cc046983ce5560289f0c5ddd669dffaa109" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662309" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface LegendEntry" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0fe12cc046983ce5560289f0c5ddd669dffaa109" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662309" /></Metadata><TypeSignature Language="C#" Value="public interface LegendEntry" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract LegendEntry" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.LegendEntry" />
   <TypeSignature Language="VB.NET" Value="Public Interface LegendEntry" />
@@ -50,22 +42,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="55858-101">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55858-101">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="55858-102">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55858-102">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0d9fb-101">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="0d9fb-101">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
+        <value><span data-ttu-id="0d9fb-102"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="0d9fb-102"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -114,26 +92,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="55858-103">Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55858-103">Returns a 32-bit integer that indicates the application in which this object was created.</span>
-          </span>
-          <span data-ttu-id="55858-104">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55858-104">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="55858-105">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55858-105">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="0d9fb-103">Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан.</span><span class="sxs-lookup"><span data-stu-id="0d9fb-103">Returns a 32-bit integer that indicates the application in which this object was created.</span></span> <span data-ttu-id="0d9fb-104">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0d9fb-104">Read-only.</span></span></summary>
+        <value><span data-ttu-id="0d9fb-105"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="0d9fb-105"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

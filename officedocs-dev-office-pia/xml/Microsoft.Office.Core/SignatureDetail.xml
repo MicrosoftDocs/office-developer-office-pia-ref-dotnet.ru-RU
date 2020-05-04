@@ -1,13 +1,5 @@
 <Type Name="SignatureDetail" FullName="Microsoft.Office.Core.SignatureDetail">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="451f0aa25fba8bda48ff0a253731e718958dbe67" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661707" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum SignatureDetail" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="451f0aa25fba8bda48ff0a253731e718958dbe67" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661707" /></Metadata><TypeSignature Language="C#" Value="public enum SignatureDetail" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SignatureDetail extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureDetail" />
   <TypeSignature Language="VB.NET" Value="Public Enum SignatureDetail" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="fa2f3-101">Указывает Дополнительные сведения о подписи.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fa2f3-101">Indicates additional information about a signature.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="de7c3-101">Указывает дополнительные сведения о подписи.</span><span class="sxs-lookup"><span data-stu-id="de7c3-101">Indicates additional information about a signature.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-102">Задает имя приложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-102">Specifies the application name.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-102">Задает имя приложения.</span><span class="sxs-lookup"><span data-stu-id="de7c3-102">Specifies the application name.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetApplicationVersion">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-103">Указывает версию приложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-103">Specifies the application version.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-103">Указывает версию приложения.</span><span class="sxs-lookup"><span data-stu-id="de7c3-103">Specifies the application version.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetColorDepth">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-104">Указывает количество цветов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-104">Specifies the color depth.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-104">Задает глубину цвета.</span><span class="sxs-lookup"><span data-stu-id="de7c3-104">Specifies the color depth.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetDelSuggSigner">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-105">Задает делегат предложенного подписывающего лица.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-105">Specifies the suggested signer delegate.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-105">Указывает предполагаемого делегата подписавшего.</span><span class="sxs-lookup"><span data-stu-id="de7c3-105">Specifies the suggested signer delegate.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetDelSuggSignerEmail">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-106">Задает электронной почты предложенного подписывающего лица делегата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-106">Specifies the suggested signer's delegate's e-mail.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-106">Указывает электронную почту делегате'с для предлагаемого подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="de7c3-106">Specifies the suggested signer's delegate's e-mail.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetDelSuggSignerEmailSet">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-107">Указывает, был ли задан сообщение электронной почты предложенного подписывающего лица делегата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-107">Indicates whether an email for a suggested signer delegate has been specified.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-107">Указывает, задано ли письмо для предложенного делегата подписавшего.</span><span class="sxs-lookup"><span data-stu-id="de7c3-107">Indicates whether an email for a suggested signer delegate has been specified.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetDelSuggSignerLine2">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-108">Задает строку подписи делегата предложенного подписывающего лица.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-108">Specifies the suggested signer's delegate's signature line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-108">Указывает строку подписи делегате'с для предложенного подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="de7c3-108">Specifies the suggested signer's delegate's signature line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetDelSuggSignerLine2Set">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-109">Указывает набор строк подписей делегат предложенного подписывающего лица.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-109">Specifies the set of suggested signer's delegate's signature lines.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-109">Задает набор строк подписи делегате'с для предлагаемого подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="de7c3-109">Specifies the set of suggested signer's delegate's signature lines.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetDelSuggSignerSet">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-110">Указывает набор делегаты предложенного подписывающего лица.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-110">Specifies the set of suggested signer's delegates.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-110">Задает набор делегатов предложенного подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="de7c3-110">Specifies the set of suggested signer's delegates.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetDocPreviewImg">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-111">Задает изображения предварительного просмотра документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-111">Specifies the document preview image.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-111">Указывает изображение для предварительного просмотра документа.</span><span class="sxs-lookup"><span data-stu-id="de7c3-111">Specifies the document preview image.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetHashAlgorithm">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-112">Задает алгоритм хэширования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-112">Specifies the hash algorithm.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-112">Задает алгоритм хеширования.</span><span class="sxs-lookup"><span data-stu-id="de7c3-112">Specifies the hash algorithm.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetHorizResolution">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-113">Указывает разрешение по горизонтали.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-113">Specifies the horizontal resolution.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-113">Задает горизонтальное разрешение.</span><span class="sxs-lookup"><span data-stu-id="de7c3-113">Specifies the horizontal resolution.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetIPCurrentView">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-114">Указывает IP-адрес текущего представления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-114">Specifies the IP current view.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-114">Указывает текущее представление с IP-адресом.</span><span class="sxs-lookup"><span data-stu-id="de7c3-114">Specifies the IP current view.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetIPFormHash">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-115">Указывает хэш-функции формы IP-адресов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-115">Specifies the IP form hash.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-115">Указывает хэш формы IP.</span><span class="sxs-lookup"><span data-stu-id="de7c3-115">Specifies the IP form hash.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetLocalSigningTime">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-116">Задает местного времени подписи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-116">Specifies the local signing time.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-116">Указывает локальное время подписи.</span><span class="sxs-lookup"><span data-stu-id="de7c3-116">Specifies the local signing time.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetNumberOfMonitors">
@@ -405,12 +317,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-117">Задает число мониторов</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-117">Specifies the number of monitors</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-117">Задает количество мониторов.</span><span class="sxs-lookup"><span data-stu-id="de7c3-117">Specifies the number of monitors</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetOfficeVersion">
@@ -429,12 +336,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-118">Указывает версию Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-118">Specifies the Office version.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-118">Указывает версию Office.</span><span class="sxs-lookup"><span data-stu-id="de7c3-118">Specifies the Office version.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetShouldShowViewWarning">
@@ -453,12 +355,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-119">Задает параметр следует отображать предупреждение представления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-119">Specifies the Should Show View Warning setting.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-119">Указывает, следует ли отображать параметр Отображать предупреждение.</span><span class="sxs-lookup"><span data-stu-id="de7c3-119">Specifies the Should Show View Warning setting.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetSignatureType">
@@ -477,12 +374,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-120">Указывает тип подписи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-120">Specifies the signature type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-120">Указывает тип подписи.</span><span class="sxs-lookup"><span data-stu-id="de7c3-120">Specifies the signature type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetSignedData">
@@ -501,12 +393,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-121">Задает подписанных данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-121">Specifies the signed data.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-121">Задает подписанные данные.</span><span class="sxs-lookup"><span data-stu-id="de7c3-121">Specifies the signed data.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetVertResolution">
@@ -525,12 +412,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-122">Задает вертикальное разрешение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-122">Specifies the vertical resolution.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-122">Задает вертикальное разрешение.</span><span class="sxs-lookup"><span data-stu-id="de7c3-122">Specifies the vertical resolution.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigdetWindowsVersion">
@@ -549,12 +431,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fa2f3-123">Указывает версию Windows.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fa2f3-123">Specifies the Windows version.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="de7c3-123">Указывает версию Windows.</span><span class="sxs-lookup"><span data-stu-id="de7c3-123">Specifies the Windows version.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="IBlogPictureExtensibility" FullName="Microsoft.Office.Core.IBlogPictureExtensibility">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a64edcdfc7bd03b46db1665de7ed6c161387ef95" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661852" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IBlogPictureExtensibility" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a64edcdfc7bd03b46db1665de7ed6c161387ef95" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661852" /></Metadata><TypeSignature Language="C#" Value="public interface IBlogPictureExtensibility" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBlogPictureExtensibility" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IBlogPictureExtensibility" />
   <TypeSignature Language="VB.NET" Value="Public Interface IBlogPictureExtensibility" />
@@ -26,24 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="e6586-101">Представляет объект, который предоставляет возможность управлять блог изображений.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e6586-101">Represents an object that provides the ability to  manipulate blog images.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="e6586-102">
-        <para>Рисунки хранятся с поставщиками рисунков в учетную запись пользователя.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e6586-102">
-          <para>Pictures are stored with picture providers in an account set up by the user.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="3f342-101">Представляет объект, который предоставляет возможность управлять изображениями в блоге.</span><span class="sxs-lookup"><span data-stu-id="3f342-101">Represents an object that provides the ability to  manipulate blog images.</span></span></summary>
+    <remarks><span data-ttu-id="3f342-102"><para>Изображения хранятся у поставщиков рисунков в учетной записи, настроенной пользователем.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="3f342-102"><para>Pictures are stored with picture providers in an account set up by the user.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="BlogPictureProviderProperties">
@@ -70,24 +48,9 @@
         <Parameter Name="FriendlyName" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="BlogPictureProvider">
-          <span data-ttu-id="e6586-103">Идентификатор поставщика рисунков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-103">The ID of the picture provider.</span>
-          </span>
-        </param>
-        <param name="FriendlyName">
-          <span data-ttu-id="e6586-104">Понятное имя поставщика рисунков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-104">The friendly name of the picture provider.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e6586-105">Позволяет поставщиков рисунков предлагаемых сами как расположение передачи изображений блога.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-105">Enables picture providers to offer themselves as an upload location for blog pictures.</span>
-          </span>
-        </summary>
+        <param name="BlogPictureProvider"><span data-ttu-id="3f342-103">Идентификатор поставщика рисунков.</span><span class="sxs-lookup"><span data-stu-id="3f342-103">The ID of the picture provider.</span></span></param>
+        <param name="FriendlyName"><span data-ttu-id="3f342-104">Понятное имя поставщика рисунков.</span><span class="sxs-lookup"><span data-stu-id="3f342-104">The friendly name of the picture provider.</span></span></param>
+        <summary><span data-ttu-id="3f342-105">Предоставляет поставщикам рисунков возможность предоставления себя в качестве расположения для отправки изображений блога.</span><span class="sxs-lookup"><span data-stu-id="3f342-105">Enables picture providers to offer themselves as an upload location for blog pictures.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,40 +80,11 @@
         <Parameter Name="Document" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Account">
-          <span data-ttu-id="e6586-106">Представляет идентификатор GUID в учетной записи реестра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-106">Represents the GUID of the account registry key.</span>
-          </span>
-          <span data-ttu-id="e6586-107">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-107">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          </span>
-        </param>
-        <param name="BlogProvider">
-          <span data-ttu-id="e6586-108">Идентификатор поставщика.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-108">The ID of the provider.</span>
-          </span>
-        </param>
-        <param name="ParentWindow">
-          <span data-ttu-id="e6586-109">Содержит HWND для Microsoft Office Word — это вызов из окна.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-109">Contains the HWND for the window Microsoft Office Word is calling from.</span>
-          </span>
-        </param>
-        <param name="Document">
-          <span data-ttu-id="e6586-110">Текущего документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-110">The current document.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e6586-111">Позволяет поставщику изображение для отображения пользовательского интерфейса, необходимые для руководство пользователя по настройке учетной записи изображений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-111">Allows a picture provider to display the user interface needed to guide the user through setting up a picture account.</span>
-          </span>
-        </summary>
+        <param name="Account"><span data-ttu-id="3f342-106">Представляет GUID раздела реестра учетной записи.</span><span class="sxs-lookup"><span data-stu-id="3f342-106">Represents the GUID of the account registry key.</span></span> <span data-ttu-id="3f342-107">Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</span><span class="sxs-lookup"><span data-stu-id="3f342-107">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span></span></param>
+        <param name="BlogProvider"><span data-ttu-id="3f342-108">Идентификатор поставщика.</span><span class="sxs-lookup"><span data-stu-id="3f342-108">The ID of the provider.</span></span></param>
+        <param name="ParentWindow"><span data-ttu-id="3f342-109">Содержит HWND для окна, из которого выполняется вызов Microsoft Office Word.</span><span class="sxs-lookup"><span data-stu-id="3f342-109">Contains the HWND for the window Microsoft Office Word is calling from.</span></span></param>
+        <param name="Document"><span data-ttu-id="3f342-110">Текущий документ.</span><span class="sxs-lookup"><span data-stu-id="3f342-110">The current document.</span></span></param>
+        <summary><span data-ttu-id="3f342-111">Позволяет поставщику рисунков отображать пользовательский интерфейс, необходимый для руководства пользователя с помощью настройки учетной записи рисунка.</span><span class="sxs-lookup"><span data-stu-id="3f342-111">Allows a picture provider to display the user interface needed to guide the user through setting up a picture account.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -182,59 +116,16 @@
         <Parameter Name="ImageType" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Account">
-          <span data-ttu-id="e6586-112">Представляет идентификатор GUID в учетной записи реестра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-112">Represents the GUID of the account registry key.</span>
-          </span>
-          <span data-ttu-id="e6586-113">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-113">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          </span>
-        </param>
-        <param name="ParentWindow">
-          <span data-ttu-id="e6586-114">Содержит HWND для Microsoft Office Word — это вызов из окна.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-114">Contains the HWND for the window Microsoft Office Word is calling from.</span>
-          </span>
-        </param>
-        <param name="Document">
-          <span data-ttu-id="e6586-115">Текущего документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-115">The current document.</span>
-          </span>
-        </param>
-        <param name="Image">
-          <span data-ttu-id="e6586-116">Представляет имя файла изображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-116">Represents the name of the image file.</span>
-          </span>
-        </param>
-        <param name="PictureURI">
-          <span data-ttu-id="e6586-117">URI-адрес изображения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-117">The URI of the picture.</span>
-          </span>
-        </param>
+        <param name="Account"><span data-ttu-id="3f342-112">Представляет GUID раздела реестра учетной записи.</span><span class="sxs-lookup"><span data-stu-id="3f342-112">Represents the GUID of the account registry key.</span></span> <span data-ttu-id="3f342-113">Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</span><span class="sxs-lookup"><span data-stu-id="3f342-113">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span></span></param>
+        <param name="ParentWindow"><span data-ttu-id="3f342-114">Содержит HWND для окна, из которого выполняется вызов Microsoft Office Word.</span><span class="sxs-lookup"><span data-stu-id="3f342-114">Contains the HWND for the window Microsoft Office Word is calling from.</span></span></param>
+        <param name="Document"><span data-ttu-id="3f342-115">Текущий документ.</span><span class="sxs-lookup"><span data-stu-id="3f342-115">The current document.</span></span></param>
+        <param name="Image"><span data-ttu-id="3f342-116">Представляет имя файла изображения.</span><span class="sxs-lookup"><span data-stu-id="3f342-116">Represents the name of the image file.</span></span></param>
+        <param name="PictureURI"><span data-ttu-id="3f342-117">Универсальный код ресурса (URI) изображения.</span><span class="sxs-lookup"><span data-stu-id="3f342-117">The URI of the picture.</span></span></param>
         <param name="ImageType">To be added.</param>
-        <summary>
-          <span data-ttu-id="e6586-118">Используется для отправки объект изображения к конечной точке в записи блога.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-118">Used to post a picture object to its final destination in a blog.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="e6586-119">
-            <para>Этот метод вызывается во время создания xHTML и передает. PNG-представления рисунка. Расположение, где он был опубликован возвращается которого добавляется в теге IMG в выходные данные xHTML.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6586-119">
-              <para>This method is called during xHTML generation and hands off a .PNG representation of the picture. The location where  it was published is then returned which is then added to an IMG tag in the xHTML output.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="3f342-118">Используется для отправки объекта Picture в конечное место назначения в блоге.</span><span class="sxs-lookup"><span data-stu-id="3f342-118">Used to post a picture object to its final destination in a blog.</span></span></summary>
+        <remarks><span data-ttu-id="3f342-119"><para>Этот метод вызывается при формировании кода xHTML и отключается. Графическое представление изображения в формате PNG. Затем возвращается расположение, в котором он был опубликован, который затем добавляется в тег IMG в выходных данных xHTML.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="3f342-119"><para>This method is called during xHTML generation and hands off a .PNG representation of the picture. The location where  it was published is then returned which is then added to an IMG tag in the xHTML output.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

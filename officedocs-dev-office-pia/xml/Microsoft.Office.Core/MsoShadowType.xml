@@ -1,13 +1,5 @@
 <Type Name="MsoShadowType" FullName="Microsoft.Office.Core.MsoShadowType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="576aa6c216690d0c1182f75e590a0828e6efe990" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662037" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoShadowType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="576aa6c216690d0c1182f75e590a0828e6efe990" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662037" /></Metadata><TypeSignature Language="C#" Value="public enum MsoShadowType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoShadowType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoShadowType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoShadowType" />
@@ -20,25 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="d30f8-101">Указывает тип тени, отображаемые с фигурой.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d30f8-101">Specifies the type of shadow displayed with a shape.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="d30f8-102">
-        <para>
-          <see cref="T:Microsoft.Office.Core.MsoShadowType" /> Константы нумеруются в соответствии с порядком (слева направо, сверху вниз) внутри стиль тени, набор отображается в панели инструментов Рисование.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d30f8-102">
-          <para>The <see cref="T:Microsoft.Office.Core.MsoShadowType" /> constants are numbered according to their order (left to right, top to bottom) within the Shadow Style set shown in the Drawing toolbar.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="99589-101">Указывает тип тени, отображаемой с фигурой.</span><span class="sxs-lookup"><span data-stu-id="99589-101">Specifies the type of shadow displayed with a shape.</span></span></summary>
+    <remarks><span data-ttu-id="99589-102"><para><see cref="T:Microsoft.Office.Core.MsoShadowType" /> Константы пронумерованы в соответствии с их порядком (слева направо, сверху вниз) в наборе стилей тени, который отображается на панели инструментов Рисование.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="99589-102"><para>The <see cref="T:Microsoft.Office.Core.MsoShadowType" /> constants are numbered according to their order (left to right, top to bottom) within the Shadow Style set shown in the Drawing toolbar.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoShadow1">
@@ -57,12 +34,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-103">Первый тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-103">First shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-103">Первый тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-103">First shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow10">
@@ -81,12 +53,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-104">Тип десятой теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-104">Tenth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-104">Десятый тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-104">Tenth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow11">
@@ -105,12 +72,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-105">Тип одиннадцатого теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-105">Eleventh shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-105">Одиннадцатый тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-105">Eleventh shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow12">
@@ -129,12 +91,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-106">Тип двенадцатого теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-106">Twelfth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-106">Двенадцатый тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-106">Twelfth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow13">
@@ -153,12 +110,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-107">Тринадцатый тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-107">Thirteenth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-107">Тип тени сиртинс.</span><span class="sxs-lookup"><span data-stu-id="99589-107">Thirteenth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow14">
@@ -177,12 +129,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-108">Тип четырнадцатого теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-108">Fourteenth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-108">Тип тени фауртинс.</span><span class="sxs-lookup"><span data-stu-id="99589-108">Fourteenth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow15">
@@ -201,12 +148,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-109">Пятнадцатый тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-109">Fifteenth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-109">Тип пятнадцатой тени.</span><span class="sxs-lookup"><span data-stu-id="99589-109">Fifteenth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow16">
@@ -225,12 +167,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-110">Тип находится 16-й теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-110">Sixteenth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-110">Тип шестнадцатой тени.</span><span class="sxs-lookup"><span data-stu-id="99589-110">Sixteenth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow17">
@@ -249,12 +186,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-111">Семнадцатый тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-111">Seventeenth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-111">Тип тени севентинс.</span><span class="sxs-lookup"><span data-stu-id="99589-111">Seventeenth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow18">
@@ -273,12 +205,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-112">18 тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-112">Eighteenth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-112">Тип тени еигхтинс.</span><span class="sxs-lookup"><span data-stu-id="99589-112">Eighteenth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow19">
@@ -297,12 +224,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-113">Девятнадцатый тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-113">Nineteenth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-113">Тип тени нинетинс.</span><span class="sxs-lookup"><span data-stu-id="99589-113">Nineteenth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow2">
@@ -321,12 +243,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-114">Второй тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-114">Second shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-114">Второй тип теневой копии.</span><span class="sxs-lookup"><span data-stu-id="99589-114">Second shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow20">
@@ -345,12 +262,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-115">Тип двадцатый теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-115">Twentieth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-115">Тип двадцатой тени.</span><span class="sxs-lookup"><span data-stu-id="99589-115">Twentieth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow21">
@@ -369,12 +281,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-116">Тип первого двадцати теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-116">Twenty first shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-116">Двадцать первый тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-116">Twenty first shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow22">
@@ -393,12 +300,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-117">Второй двадцати скрывать типа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-117">Twenty second shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-117">Двадцать второй тип теневой копии.</span><span class="sxs-lookup"><span data-stu-id="99589-117">Twenty second shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow23">
@@ -417,12 +319,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-118">Тип третьего двадцати теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-118">Twenty third shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-118">Двадцать третий тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-118">Twenty third shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow24">
@@ -441,12 +338,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-119">Twenty скрывать указанного типа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-119">Twenty forth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-119">Тип "двадцать вперед".</span><span class="sxs-lookup"><span data-stu-id="99589-119">Twenty forth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow25">
@@ -465,12 +357,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-120">Тип пятого двадцати теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-120">Twenty fifth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-120">Двадцать пятый тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-120">Twenty fifth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow26">
@@ -489,12 +376,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-121">Тип теневой шестой двадцати.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-121">Twenty sixth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-121">Двадцать шестой тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-121">Twenty sixth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow27">
@@ -513,12 +395,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-122">Тип теневой седьмой двадцати.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-122">Twenty seventh shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-122">Двадцать седьмая теневой тип.</span><span class="sxs-lookup"><span data-stu-id="99589-122">Twenty seventh shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow28">
@@ -537,12 +414,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-123">Тип восьмого двадцати теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-123">Twenty eighth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-123">Двадцать восьмой тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-123">Twenty eighth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow29">
@@ -561,12 +433,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-124">Тип теневой девятая двадцати.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-124">Twenty ninth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-124">Двадцать девятый тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-124">Twenty ninth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow3">
@@ -585,12 +452,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-125">Третий тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-125">Third shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-125">Третий тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-125">Third shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow30">
@@ -609,12 +471,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-126">Тип теневой тридцатый.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-126">Thirtieth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-126">Тип тени сиртиес.</span><span class="sxs-lookup"><span data-stu-id="99589-126">Thirtieth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow31">
@@ -633,12 +490,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-127">Тип теневой первоначального 30.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-127">Thirty first shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-127">30 первый тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-127">Thirty first shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow32">
@@ -657,12 +509,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-128">30 второго скрывать типа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-128">Thirty second shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-128">30 — второй тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-128">Thirty second shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow33">
@@ -681,12 +528,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-129">Тип теневой третьего 30.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-129">Thirty third shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-129">30 – третий тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-129">Thirty third shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow34">
@@ -705,12 +547,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-130">30 скрывать указанного типа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-130">Thirty forth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-130">Тип тени (по 30).</span><span class="sxs-lookup"><span data-stu-id="99589-130">Thirty forth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow35">
@@ -729,12 +566,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-131">Тип теневой пятый 30.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-131">Thirty fifth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-131">Половина пятого типа тени.</span><span class="sxs-lookup"><span data-stu-id="99589-131">Thirty fifth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow36">
@@ -753,12 +585,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-132">Тип теневой шестой 30.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-132">Thirty sixth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-132">30 – шестой теневой тип.</span><span class="sxs-lookup"><span data-stu-id="99589-132">Thirty sixth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow37">
@@ -777,12 +604,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-133">Тип теневой седьмой 30.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-133">Thirty seventh shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-133">30 седьмая теневой тип.</span><span class="sxs-lookup"><span data-stu-id="99589-133">Thirty seventh shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow38">
@@ -801,12 +623,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-134">Тип восьмого 30 теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-134">Thirty eighth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-134">30 — восьмой тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-134">Thirty eighth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow39">
@@ -825,12 +642,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-135">Тип теневой девятая 30.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-135">Thirty ninth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-135">Половина девятого типа тени.</span><span class="sxs-lookup"><span data-stu-id="99589-135">Thirty ninth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow4">
@@ -849,12 +661,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-136">Четвертый тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-136">Fourth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-136">Четвертый тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-136">Fourth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow40">
@@ -873,12 +680,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-137">Fortieth тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-137">Fortieth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-137">Тип тени фортиес.</span><span class="sxs-lookup"><span data-stu-id="99589-137">Fortieth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow41">
@@ -897,12 +699,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-138">Тип первого сорока теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-138">Forty first shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-138">40. Первый тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-138">Forty first shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow42">
@@ -921,12 +718,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-139">Второй сорока скрывать типа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-139">Forty second shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-139">40 тип второй теневой копии.</span><span class="sxs-lookup"><span data-stu-id="99589-139">Forty second shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow43">
@@ -945,12 +737,7 @@
       </ReturnValue>
       <MemberValue>43</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-140">Тип третьего сорока теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-140">Forty third shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-140">40 — третий тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-140">Forty third shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow5">
@@ -969,12 +756,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-141">Тип пятого теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-141">Fifth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-141">Пятый тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-141">Fifth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow6">
@@ -993,12 +775,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-142">Шестой тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-142">Sixth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-142">Шестой тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-142">Sixth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow7">
@@ -1017,12 +794,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-143">Седьмой тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-143">Seventh shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-143">Седьмая теневой тип.</span><span class="sxs-lookup"><span data-stu-id="99589-143">Seventh shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow8">
@@ -1041,12 +813,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-144">Восьмому тип тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-144">Eighth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-144">Тип восьмой тени.</span><span class="sxs-lookup"><span data-stu-id="99589-144">Eighth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadow9">
@@ -1065,12 +832,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-145">Тип девятого теневой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-145">Ninth shadow type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-145">Девятый тип тени.</span><span class="sxs-lookup"><span data-stu-id="99589-145">Ninth shadow type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoShadowMixed">
@@ -1089,12 +851,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d30f8-146">Не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d30f8-146">Not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="99589-146">Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="99589-146">Not supported.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="MsoPresetCamera" FullName="Microsoft.Office.Core.MsoPresetCamera">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="32f0cb2eae3cddecf7325f40dede0bc02686c10f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661726" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetCamera" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="32f0cb2eae3cddecf7325f40dede0bc02686c10f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661726" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetCamera" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetCamera extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetCamera" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetCamera" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="8a15f-101">Указывает тип камеры эффекты, используемые на указанный объект.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8a15f-101">Indicates the effects camera type used by the specified object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="03dcc-101">Указывает тип эффекта камеры, используемый указанным объектом.</span><span class="sxs-lookup"><span data-stu-id="03dcc-101">Indicates the effects camera type used by the specified object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-102">Задает изометрическая нижней вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-102">Specifies Isometric Bottom Down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-102">Указывает, что поизометрический внизу.</span><span class="sxs-lookup"><span data-stu-id="03dcc-102">Specifies Isometric Bottom Down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricBottomUp">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-103">Указывает изометрическая снизу вверх.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-103">Specifies Isometric Bottom Up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-103">Указывает, что поизометрические снизу вверх.</span><span class="sxs-lookup"><span data-stu-id="03dcc-103">Specifies Isometric Bottom Up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricLeftDown">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-104">Задает Изометрический, влево вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-104">Specifies Isometric Left Down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-104">Указывает, что наизометрическися влево вниз.</span><span class="sxs-lookup"><span data-stu-id="03dcc-104">Specifies Isometric Left Down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricLeftUp">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-105">Задает Изометрический, влево вверх.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-105">Specifies Isometric Left Up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-105">Указывает, что левая стрелка изометрический.</span><span class="sxs-lookup"><span data-stu-id="03dcc-105">Specifies Isometric Left Up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricOffAxis1Left">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-106">Задает изометрическая OffAxis1 слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-106">Specifies Isometric OffAxis1 Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-106">Указывает OffAxis1 для изометрических налево.</span><span class="sxs-lookup"><span data-stu-id="03dcc-106">Specifies Isometric OffAxis1 Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricOffAxis1Right">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-107">Задает изометрическая OffAxis1 справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-107">Specifies Isometric OffAxis1 Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-107">Указывает на изометрический OffAxis1 вправо.</span><span class="sxs-lookup"><span data-stu-id="03dcc-107">Specifies Isometric OffAxis1 Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricOffAxis1Top">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-108">Задает начало изометрическая OffAxis1.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-108">Specifies Isometric OffAxis1 Top.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-108">Указывает верхнюю OffAxis1.</span><span class="sxs-lookup"><span data-stu-id="03dcc-108">Specifies Isometric OffAxis1 Top.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricOffAxis2Left">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-109">Задает изометрическая OffAxis2 слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-109">Specifies Isometric OffAxis2 Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-109">Указывает OffAxis2 для изометрических налево.</span><span class="sxs-lookup"><span data-stu-id="03dcc-109">Specifies Isometric OffAxis2 Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricOffAxis2Right">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-110">Задает изометрическая OffAxis2 справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-110">Specifies Isometric OffAxis2 Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-110">Указывает на изометрический OffAxis2 вправо.</span><span class="sxs-lookup"><span data-stu-id="03dcc-110">Specifies Isometric OffAxis2 Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricOffAxis2Top">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-111">Задает начало изометрическая OffAxis2.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-111">Specifies Isometric OffAxis2 Top.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-111">Указывает верхнюю OffAxis2.</span><span class="sxs-lookup"><span data-stu-id="03dcc-111">Specifies Isometric OffAxis2 Top.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricOffAxis3Bottom">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-112">Задает нижней изометрическая OffAxis3.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-112">Specifies Isometric OffAxis3 Bottom.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-112">Указывает нижнюю OffAxis3 "изометрический".</span><span class="sxs-lookup"><span data-stu-id="03dcc-112">Specifies Isometric OffAxis3 Bottom.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricOffAxis3Left">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-113">Задает изометрическая OffAxis3 слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-113">Specifies Isometric OffAxis3 Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-113">Указывает OffAxis3 для изометрических налево.</span><span class="sxs-lookup"><span data-stu-id="03dcc-113">Specifies Isometric OffAxis3 Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricOffAxis3Right">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-114">Задает изометрическая OffAxis3 справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-114">Specifies Isometric OffAxis3 Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-114">Указывает на изометрический OffAxis3 вправо.</span><span class="sxs-lookup"><span data-stu-id="03dcc-114">Specifies Isometric OffAxis3 Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricOffAxis4Bottom">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-115">Задает нижней изометрическая OffAxis4.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-115">Specifies Isometric OffAxis4 Bottom.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-115">Указывает нижнюю OffAxis4 "изометрический".</span><span class="sxs-lookup"><span data-stu-id="03dcc-115">Specifies Isometric OffAxis4 Bottom.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricOffAxis4Left">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-116">Задает изометрическая OffAxis4 слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-116">Specifies Isometric OffAxis4 Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-116">Указывает OffAxis4 для изометрических налево.</span><span class="sxs-lookup"><span data-stu-id="03dcc-116">Specifies Isometric OffAxis4 Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricOffAxis4Right">
@@ -405,12 +317,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-117">Задает изометрическая OffAxis4 справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-117">Specifies Isometric OffAxis4 Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-117">Указывает на изометрический OffAxis4 вправо.</span><span class="sxs-lookup"><span data-stu-id="03dcc-117">Specifies Isometric OffAxis4 Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricRightDown">
@@ -429,12 +336,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-118">Задает изометрическая стрелка вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-118">Specifies Isometric Right Down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-118">Указывает на изометрический щелчок правой кнопкой мыши.</span><span class="sxs-lookup"><span data-stu-id="03dcc-118">Specifies Isometric Right Down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricRightUp">
@@ -453,12 +355,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-119">Задает изометрическая вправо вверх.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-119">Specifies Isometric Right Up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-119">Указывает на изометрический щелчок правой кнопкой мыши.</span><span class="sxs-lookup"><span data-stu-id="03dcc-119">Specifies Isometric Right Up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricTopDown">
@@ -477,12 +374,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-120">Задает Изометрический вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-120">Specifies Isometric Top Down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-120">Указывает, что наизометрическися сверху вниз.</span><span class="sxs-lookup"><span data-stu-id="03dcc-120">Specifies Isometric Top Down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraIsometricTopUp">
@@ -501,12 +393,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-121">Задает Изометрический копирования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-121">Specifies Isometric Top Up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-121">Указывает, что поизометрические сверху.</span><span class="sxs-lookup"><span data-stu-id="03dcc-121">Specifies Isometric Top Up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyObliqueBottom">
@@ -525,12 +412,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-122">Задает наклон нижней прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-122">Specifies Legacy Oblique Bottom.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-122">Задает устаревший наклонный нижний край.</span><span class="sxs-lookup"><span data-stu-id="03dcc-122">Specifies Legacy Oblique Bottom.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyObliqueBottomLeft">
@@ -549,12 +431,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-123">Задает наклон нижнем левом прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-123">Specifies Legacy Oblique Lower Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-123">Задает устаревшее наклонное вниз слева.</span><span class="sxs-lookup"><span data-stu-id="03dcc-123">Specifies Legacy Oblique Lower Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyObliqueBottomRight">
@@ -573,12 +450,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-124">Задает прежних версий наклон правом нижнем углу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-124">Specifies Legacy Oblique Lower Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-124">Определяет устаревшее наклонное Правое нижнее право.</span><span class="sxs-lookup"><span data-stu-id="03dcc-124">Specifies Legacy Oblique Lower Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyObliqueFront">
@@ -597,12 +469,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-125">Задает наклон передний план прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-125">Specifies Legacy Oblique Front.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-125">Указывает устаревший наклонный спереди.</span><span class="sxs-lookup"><span data-stu-id="03dcc-125">Specifies Legacy Oblique Front.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyObliqueLeft">
@@ -621,12 +488,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-126">Задает наклон слева прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-126">Specifies Legacy Oblique Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-126">Задает устаревший наклонный влево.</span><span class="sxs-lookup"><span data-stu-id="03dcc-126">Specifies Legacy Oblique Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyObliqueRight">
@@ -645,12 +507,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-127">Определяет право наклон прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-127">Specifies Legacy Oblique Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-127">Указывает устаревшее наклонное правое.</span><span class="sxs-lookup"><span data-stu-id="03dcc-127">Specifies Legacy Oblique Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyObliqueTop">
@@ -669,12 +526,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-128">Задает наклон верхней прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-128">Specifies Legacy Oblique Top.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-128">Задает устаревшее наклонное сверху.</span><span class="sxs-lookup"><span data-stu-id="03dcc-128">Specifies Legacy Oblique Top.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyObliqueTopLeft">
@@ -693,12 +545,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-129">Задает прежних версий наклон левого верхнего угла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-129">Specifies Legacy Oblique Upper Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-129">Задает устаревший наклонный верхний левый угол.</span><span class="sxs-lookup"><span data-stu-id="03dcc-129">Specifies Legacy Oblique Upper Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyObliqueTopRight">
@@ -717,12 +564,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-130">Задает прежних версий наклон правого верхнего угла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-130">Specifies Legacy Oblique Upper Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-130">Задает устаревшее наклонное правое правого верхнего угла.</span><span class="sxs-lookup"><span data-stu-id="03dcc-130">Specifies Legacy Oblique Upper Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyPerspectiveBottom">
@@ -741,12 +583,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-131">Задает нижней Перспектива прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-131">Specifies Legacy Perspective Bottom.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-131">Указывает нижнюю перспективу "старые перспективы".</span><span class="sxs-lookup"><span data-stu-id="03dcc-131">Specifies Legacy Perspective Bottom.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyPerspectiveBottomLeft">
@@ -765,12 +602,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-132">Задает нижнем левом Перспектива прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-132">Specifies Legacy Perspective Lower Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-132">Определяет устаревшую перспективу внизу слева.</span><span class="sxs-lookup"><span data-stu-id="03dcc-132">Specifies Legacy Perspective Lower Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyPerspectiveBottomRight">
@@ -789,12 +621,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-133">Задает нижней правой Перспектива прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-133">Specifies Legacy Perspective Lower Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-133">Определяет устаревшую перспективу внизу справа.</span><span class="sxs-lookup"><span data-stu-id="03dcc-133">Specifies Legacy Perspective Lower Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyPerspectiveFront">
@@ -813,12 +640,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-134">Задает передний план Перспектива прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-134">Specifies Legacy Perspective Front.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-134">Указывает начало устаревшей перспективы.</span><span class="sxs-lookup"><span data-stu-id="03dcc-134">Specifies Legacy Perspective Front.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyPerspectiveLeft">
@@ -837,12 +659,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-135">Задает слева Перспектива прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-135">Specifies Legacy Perspective Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-135">Указывает слева от устаревшей перспективы.</span><span class="sxs-lookup"><span data-stu-id="03dcc-135">Specifies Legacy Perspective Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyPerspectiveRight">
@@ -861,12 +678,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-136">Определяет право Перспектива прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-136">Specifies Legacy Perspective Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-136">Указывает право на устаревшую перспективу.</span><span class="sxs-lookup"><span data-stu-id="03dcc-136">Specifies Legacy Perspective Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyPerspectiveTop">
@@ -885,12 +697,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-137">Задает начало Перспектива прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-137">Specifies Legacy Perspective Top.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-137">Указывает начало устаревшей перспективы.</span><span class="sxs-lookup"><span data-stu-id="03dcc-137">Specifies Legacy Perspective Top.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyPerspectiveTopLeft">
@@ -909,12 +716,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-138">Задает верхнего левого угла перспективы прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-138">Specifies Legacy Perspective Upper Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-138">Указывает верхнее левое с точки зрения прежних версий.</span><span class="sxs-lookup"><span data-stu-id="03dcc-138">Specifies Legacy Perspective Upper Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraLegacyPerspectiveTopRight">
@@ -933,12 +735,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-139">Задает верхний правый Перспектива прежних версий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-139">Specifies Legacy Perspective Upper Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-139">Указывает верхнее правое сверху.</span><span class="sxs-lookup"><span data-stu-id="03dcc-139">Specifies Legacy Perspective Upper Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraObliqueBottom">
@@ -957,12 +754,7 @@
       </ReturnValue>
       <MemberValue>46</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-140">Задает наклон вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-140">Specifies Oblique Bottom.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-140">Задает наклон нижнего края.</span><span class="sxs-lookup"><span data-stu-id="03dcc-140">Specifies Oblique Bottom.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraObliqueBottomLeft">
@@ -981,12 +773,7 @@
       </ReturnValue>
       <MemberValue>45</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-141">Задает наклон нижнем левом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-141">Specifies Oblique Lower Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-141">Задает наклон влево вниз.</span><span class="sxs-lookup"><span data-stu-id="03dcc-141">Specifies Oblique Lower Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraObliqueBottomRight">
@@ -1005,12 +792,7 @@
       </ReturnValue>
       <MemberValue>47</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-142">Задает наклон правом нижнем углу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-142">Specifies Oblique Lower Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-142">Определяет наклон нижнего правого.</span><span class="sxs-lookup"><span data-stu-id="03dcc-142">Specifies Oblique Lower Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraObliqueLeft">
@@ -1029,12 +811,7 @@
       </ReturnValue>
       <MemberValue>43</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-143">Задает наклон слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-143">Specifies Oblique Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-143">Задает наклон влево.</span><span class="sxs-lookup"><span data-stu-id="03dcc-143">Specifies Oblique Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraObliqueRight">
@@ -1053,12 +830,7 @@
       </ReturnValue>
       <MemberValue>44</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-144">Задает Наклон вправо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-144">Specifies Oblique Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-144">Указывает наклон вправо.</span><span class="sxs-lookup"><span data-stu-id="03dcc-144">Specifies Oblique Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraObliqueTop">
@@ -1077,12 +849,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-145">Задает наклон в начало.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-145">Specifies Oblique Top.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-145">Указывает наклон сверху.</span><span class="sxs-lookup"><span data-stu-id="03dcc-145">Specifies Oblique Top.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraObliqueTopLeft">
@@ -1101,12 +868,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-146">Задает наклон верхнем левом углу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-146">Specifies Oblique Upper Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-146">Задает наклон влево в левом верхнем углу.</span><span class="sxs-lookup"><span data-stu-id="03dcc-146">Specifies Oblique Upper Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraObliqueTopRight">
@@ -1125,12 +887,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-147">Задает наклон правого верхнего угла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-147">Specifies Oblique Upper Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-147">Определяет наклон сверху вправо.</span><span class="sxs-lookup"><span data-stu-id="03dcc-147">Specifies Oblique Upper Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraOrthographicFront">
@@ -1149,12 +906,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-148">Задает Ортогональная передний план.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-148">Specifies Orthographic Front.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-148">Указывает ортогональный передний план.</span><span class="sxs-lookup"><span data-stu-id="03dcc-148">Specifies Orthographic Front.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveAbove">
@@ -1173,12 +925,7 @@
       </ReturnValue>
       <MemberValue>51</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-149">Задает Перспектива выше.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-149">Specifies Perspective Above.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-149">Задает перспективу выше.</span><span class="sxs-lookup"><span data-stu-id="03dcc-149">Specifies Perspective Above.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveAboveLeftFacing">
@@ -1197,12 +944,7 @@
       </ReturnValue>
       <MemberValue>53</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-150">Задает Перспектива над левой с выходом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-150">Specifies Perspective Above Left Facing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-150">Задает перспективу над левым разворотом.</span><span class="sxs-lookup"><span data-stu-id="03dcc-150">Specifies Perspective Above Left Facing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveAboveRightFacing">
@@ -1221,12 +963,7 @@
       </ReturnValue>
       <MemberValue>54</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-151">Задает Перспектива над правом с выходом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-151">Specifies Perspective Above Right Facing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-151">Определяет перспективу над правым разделом.</span><span class="sxs-lookup"><span data-stu-id="03dcc-151">Specifies Perspective Above Right Facing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveBelow">
@@ -1245,12 +982,7 @@
       </ReturnValue>
       <MemberValue>52</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-152">Задает Перспектива ниже.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-152">Specifies Perspective Below.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-152">Указывает перспективу ниже.</span><span class="sxs-lookup"><span data-stu-id="03dcc-152">Specifies Perspective Below.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveContrastingLeftFacing">
@@ -1269,12 +1001,7 @@
       </ReturnValue>
       <MemberValue>55</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-153">Задает Перспектива контрастных левой с выходом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-153">Specifies Perspective Contrasting Left Facing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-153">Задает контрастность слева от перспективы.</span><span class="sxs-lookup"><span data-stu-id="03dcc-153">Specifies Perspective Contrasting Left Facing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveContrastingRightFacing">
@@ -1293,12 +1020,7 @@
       </ReturnValue>
       <MemberValue>56</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-154">Задает Перспектива контрастных вправо с выходом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-154">Specifies Perspective Contrasting Right Facing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-154">Задает контрастность перспективы по правому краю.</span><span class="sxs-lookup"><span data-stu-id="03dcc-154">Specifies Perspective Contrasting Right Facing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveFront">
@@ -1317,12 +1039,7 @@
       </ReturnValue>
       <MemberValue>48</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-155">Задает передний план Перспектива.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-155">Specifies Perspective Front.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-155">Указывает перспективу спереди.</span><span class="sxs-lookup"><span data-stu-id="03dcc-155">Specifies Perspective Front.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveHeroicExtremeLeftFacing">
@@ -1341,12 +1058,7 @@
       </ReturnValue>
       <MemberValue>59</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-156">Указывает адрес сильная чрезмерную левой Перспектива.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-156">Specifies Perspective Heroic Extreme Left Facing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-156">Указывает перспективу Хероик с крайним левым левым разворотом.</span><span class="sxs-lookup"><span data-stu-id="03dcc-156">Specifies Perspective Heroic Extreme Left Facing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveHeroicExtremeRightFacing">
@@ -1365,12 +1077,7 @@
       </ReturnValue>
       <MemberValue>60</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-157">Задает Перспектива сильная подключенных чрезмерную вправо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-157">Specifies Perspective Heroic Extreme Right Facing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-157">Указывает перспективу Хероик экстремального вправо.</span><span class="sxs-lookup"><span data-stu-id="03dcc-157">Specifies Perspective Heroic Extreme Right Facing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveHeroicLeftFacing">
@@ -1389,12 +1096,7 @@
       </ReturnValue>
       <MemberValue>57</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-158">Указывает, подключенных к левой сильная Перспектива.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-158">Specifies Perspective Heroic Left Facing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-158">Определяет перспективу Хероик слева.</span><span class="sxs-lookup"><span data-stu-id="03dcc-158">Specifies Perspective Heroic Left Facing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveHeroicRightFacing">
@@ -1413,12 +1115,7 @@
       </ReturnValue>
       <MemberValue>58</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-159">Задает сильная вправо с выходом Перспектива.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-159">Specifies Perspective Heroic Right Facing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-159">Определяет перспективу Хероик вправо.</span><span class="sxs-lookup"><span data-stu-id="03dcc-159">Specifies Perspective Heroic Right Facing.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveLeft">
@@ -1437,12 +1134,7 @@
       </ReturnValue>
       <MemberValue>49</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-160">Задает Перспектива влево.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-160">Specifies Perspective Left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-160">Указывает левую перспективу.</span><span class="sxs-lookup"><span data-stu-id="03dcc-160">Specifies Perspective Left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveRelaxed">
@@ -1461,12 +1153,7 @@
       </ReturnValue>
       <MemberValue>61</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-161">Задает Перспектива, слабая.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-161">Specifies Perspective Relaxed.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-161">Указывает, что перспектива ослаблена.</span><span class="sxs-lookup"><span data-stu-id="03dcc-161">Specifies Perspective Relaxed.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveRelaxedModerately">
@@ -1485,12 +1172,7 @@
       </ReturnValue>
       <MemberValue>62</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-162">Задает Перспектива, слабая средней.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-162">Specifies Perspective Relaxed Moderately.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-162">Указывает, что перспектива ослаблена умеренно.</span><span class="sxs-lookup"><span data-stu-id="03dcc-162">Specifies Perspective Relaxed Moderately.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoCameraPerspectiveRight">
@@ -1509,12 +1191,7 @@
       </ReturnValue>
       <MemberValue>50</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-163">Определяет право Перспектива.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-163">Specifies Perspective Right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-163">Указывает право на перспективу.</span><span class="sxs-lookup"><span data-stu-id="03dcc-163">Specifies Perspective Right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPresetCameraMixed">
@@ -1533,12 +1210,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8a15f-164">Задает смешанных силу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8a15f-164">Specifies a mixed effect.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dcc-164">Задает смешанный результат.</span><span class="sxs-lookup"><span data-stu-id="03dcc-164">Specifies a mixed effect.</span></span></summary>
       </Docs>
     </Member>
   </Members>

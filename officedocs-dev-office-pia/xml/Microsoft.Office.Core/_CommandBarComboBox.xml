@@ -1,13 +1,5 @@
 <Type Name="_CommandBarComboBox" FullName="Microsoft.Office.Core._CommandBarComboBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="06d3a38d916ab38a22ea9c681d5cc6354bde0e9e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662267" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CommandBarComboBox : Microsoft.Office.Core.CommandBarControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="06d3a38d916ab38a22ea9c681d5cc6354bde0e9e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662267" /></Metadata><TypeSignature Language="C#" Value="public interface _CommandBarComboBox : Microsoft.Office.Core.CommandBarControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBarComboBox implements class Microsoft.Office.Core.CommandBarControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarComboBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CommandBarComboBox&#xA;Implements CommandBarControl" />
@@ -30,26 +22,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="3be69-101">Представляет поле со списком на панели команд.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3be69-101">Represents a combo box control on a command bar.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="3be69-102">
-        <para>Использование <b>элементов управления</b>(<paramref name="index" />), где <paramref name="index" /> — номер индекса элемента управления, чтобы возвратить объект <b>CommandBarComboBox</b> . ( <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Type" /> Свойства элемента управления должны быть <b>msoControlEdit</b>, <b>msoControlDropdown</b>, <b>msoControlComboBox</b>, <b>msoControlButtonDropdown</b>, <b>msoControlSplitDropdown</b>, <b>msoControlOCXDropdown</b><b>msoControlGraphicCombo</b>или <b>msoControlGraphicDropdown</b>.)</para>
-        <para>Вы также можете использовать <see cref="M:Microsoft.Office.Core._CommandBars.FindControl(System.Object,System.Object,System.Object,System.Object)" /> метод возвращает объект <b>CommandBarComboBox</b> .</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3be69-102">
-          <para>Use <b>Controls</b>(<paramref name="index" />), where <paramref name="index" /> is the index number of the control, to return a <b>CommandBarComboBox</b> object. (The <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Type" /> property of the control must be <b>msoControlEdit</b>, <b>msoControlDropdown</b>, <b>msoControlComboBox</b>, <b>msoControlButtonDropdown</b>, <b>msoControlSplitDropdown</b>, <b>msoControlOCXDropdown</b>, <b>msoControlGraphicCombo</b>, or <b>msoControlGraphicDropdown</b>.)</para>
-          <para>You can also use the <see cref="M:Microsoft.Office.Core._CommandBars.FindControl(System.Object,System.Object,System.Object,System.Object)" /> method to return a <b>CommandBarComboBox</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="ec5ff-101">Представляет элемент управления "поле со списком" на панели команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-101">Represents a combo box control on a command bar.</span></span></summary>
+    <remarks><span data-ttu-id="ec5ff-102"><para>Используйте <b>элементы управления</b>(<paramref name="index" />), <paramref name="index" /> где — это номер индекса элемента управления, чтобы возвратить объект <b>CommandBarComboBox</b> . ( <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Type" /> Свойство элемента управления должно быть <b>мсоконтроледит</b>, <b>мсоконтролдропдовн</b>, <b>мсоконтролкомбобокс</b>, <b>мсоконтролбуттондропдовн</b>, <b>мсоконтролсплитдропдовн</b>, <b>msoControlOCXDropdown</b>, <b>msoControlGraphicCombo</b>или <b>msoControlGraphicDropdown</b>.)</para> 
+      <para>Вы также можете использовать <see cref="M:Microsoft.Office.Core._CommandBars.FindControl(System.Object,System.Object,System.Object,System.Object)" /> метод для возврата объекта <b>CommandBarComboBox</b> .</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-102"><para>Use <b>Controls</b>(<paramref name="index" />), where <paramref name="index" /> is the index number of the control, to return a <b>CommandBarComboBox</b> object. (The <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Type" /> property of the control must be <b>msoControlEdit</b>, <b>msoControlDropdown</b>, <b>msoControlComboBox</b>, <b>msoControlButtonDropdown</b>, <b>msoControlSplitDropdown</b>, <b>msoControlOCXDropdown</b>, <b>msoControlGraphicCombo</b>, or <b>msoControlGraphicDropdown</b>.)</para>
+      <para>You can also use the <see cref="M:Microsoft.Office.Core._CommandBars.FindControl(System.Object,System.Object,System.Object,System.Object)" /> method to return a <b>CommandBarComboBox</b> object.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="accChild">
@@ -85,12 +63,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-103">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-103">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-103">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-103">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -124,12 +97,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-104">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-104">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-104">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-104">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -167,12 +135,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-105">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-105">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-105">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-105">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -210,12 +173,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-106">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-106">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-106">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-106">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -249,12 +207,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-107">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-107">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-107">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-107">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -287,12 +240,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-108">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-108">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-108">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-108">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -330,12 +278,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-109">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-109">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-109">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-109">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -375,12 +318,7 @@
       <Docs>
         <param name="pszHelpFile">To be added.</param>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-110">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-110">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-110">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-110">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -417,12 +355,7 @@
       <Docs>
         <param name="xLeft">To be added.</param>
         <param name="yTop">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-111">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-111">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-111">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-111">Reserved for internal use.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -460,12 +393,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-112">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-112">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-112">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-112">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -507,12 +435,7 @@
         <param name="pcxWidth">To be added.</param>
         <param name="pcyHeight">To be added.</param>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-113">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-113">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-113">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-113">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -555,12 +478,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-114">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-114">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-114">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-114">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -596,12 +514,7 @@
       <Docs>
         <param name="navDir">To be added.</param>
         <param name="varStart">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-115">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-115">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-115">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-115">Reserved for internal use.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -635,12 +548,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-116">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-116">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-116">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-116">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -678,12 +586,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-117">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-117">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-117">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-117">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -719,12 +622,7 @@
       <Docs>
         <param name="flagsSelect">To be added.</param>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-118">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-118">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-118">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-118">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -757,12 +655,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-119">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-119">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-119">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-119">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -800,12 +693,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-120">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-120">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-120">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-120">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -849,12 +737,7 @@
       </Parameters>
       <Docs>
         <param name="varChild">To be added.</param>
-        <summary>
-          <span data-ttu-id="3be69-121">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-121">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-121">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-121">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -882,54 +765,16 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Text">
-          <span data-ttu-id="3be69-122">
-            <b>Строковое значение.</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-122">Required <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="3be69-123">Текст, добавляемый элемент управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-123">The text added to the control.</span>
-          </span>
-        </param>
-        <param name="Index">
-          <span data-ttu-id="3be69-124">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-124">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="3be69-125">Положение элемента в списке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-125">The position of the item in the list.</span>
-          </span>
-          <span data-ttu-id="3be69-126">Если этот аргумент задан, элемент добавляется в конец списка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-126">If this argument is omitted, the item is added to the end of the list.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3be69-127">Добавляет элемент списка в элемент управления поля со списком указанного командной строки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-127">Adds a list item to the specified command bar combo box control.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3be69-128">
-            <para>Элемент управления ComboBox должен быть пользовательского элемента управления и должно быть в раскрывающемся списке или поле со списком. Этот метод завершится ошибкой, если он применяется к поле ввода или поле со списком встроенных.</para>
-            <para />
-            <para>Примечания для вызывающих объектов</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-128">
-              <para>The combo box control must be a custom control and must be a drop-down list box or a combo box. This method will fail if it's applied to an edit box or a built-in combo box control.</para>
-              <para />
-              <para>Notes to callers</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Text"><span data-ttu-id="ec5ff-122">Обязательный атрибут типа <b>String</b>.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-122">Required <b>String</b>.</span></span> <span data-ttu-id="ec5ff-123">Текст, добавляемый в элемент управления.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-123">The text added to the control.</span></span></param>
+        <param name="Index"><span data-ttu-id="ec5ff-124">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-124">Optional <b>Object</b>.</span></span> <span data-ttu-id="ec5ff-125">Положение элемента в списке.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-125">The position of the item in the list.</span></span> <span data-ttu-id="ec5ff-126">Если этот аргумент опущен, элемент добавляется в конец списка.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-126">If this argument is omitted, the item is added to the end of the list.</span></span></param>
+        <summary><span data-ttu-id="ec5ff-127">Добавляет элемент списка в заданное поле со списком для элемента управления "поле со списком" панели команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-127">Adds a list item to the specified command bar combo box control.</span></span></summary>
+        <remarks><span data-ttu-id="ec5ff-128"><para>Элемент управления "поле со списком" должен быть пользовательским элементом управления и должен быть раскрывающимся списком или полем со списком. Этот метод завершится с ошибкой, если он применяется к полю редактирования или встроенному элементу управления "поле со списком".</para> 
+          <para /> 
+          <para>Примечания для вызывающих объектов</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-128"><para>The combo box control must be a custom control and must be a drop-down list box or a combo box. This method will fail if it's applied to an edit box or a built-in combo box control.</para>
+          <para />
+          <para>Notes to callers</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -958,12 +803,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-129">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-129">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-129">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-129">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -997,25 +837,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-130">Определяет, если элемент управления указанного командной строки отображается в начале группы элементов управления на панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-130">Determines if the specified command bar control appears at the beginning of a group of controls on the command bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-130">Определяет, отображается ли указанный элемент управления "панель команд" в начале группы элементов управления на панели команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-130">Determines if the specified command bar control appears at the beginning of a group of controls on the command bar.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-131">
-            <para>Данное свойство возвращает <b>значение True,</b> Если элемент управления указанного командной строки появится в начале группы элементов управления на панели команд; <b>Значение false,</b> Если это не так.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-131">
-              <para>This property returns <b>True</b> if the specified command bar control appears at the beginning of a group of controls on the command bar; <b>False</b> if it does not.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-131"><para>Это свойство возвращает <b>значение true</b> , если указанный элемент управления "панель команд" отображается в начале группы элементов управления на панели команд; В противном случае — <b>false</b> .</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-131"><para>This property returns <b>True</b> if the specified command bar control appears at the beginning of a group of controls on the command bar; <b>False</b> if it does not.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="BuiltIn">
@@ -1044,25 +870,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-132">Определяет, если панель команд указанного или элемента управления панели команд панель встроенных команд или элемент управления контейнера приложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-132">Determines if the specified command bar or command bar control is a built-in command bar or control of the container application.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-132">Определяет, является ли указанная панель команд или элемент управления "панель команд" встроенной панелью команд или элементом управления приложения контейнера.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-132">Determines if the specified command bar or command bar control is a built-in command bar or control of the container application.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-133">
-            <para>Данное свойство возвращает <b>значение True,</b> Если указанный командной строки или элемента управления панели команд панель встроенных команд или управлять приложением контейнера; <b>Значение false,</b> если она пользовательской панели команд или элемент управления или возможности встроенный элемент управления <see cref="P:Microsoft.Office.Core._CommandBarComboBox.OnAction" /> свойства.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-133">
-              <para>This property returns <b>True</b> if the specified command bar or command bar control is a built-in command bar or control of the container application; <b>False</b> if it's a custom command bar or control or if it's a built-in control whose <see cref="P:Microsoft.Office.Core._CommandBarComboBox.OnAction" /> property has been set.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-133"><para>Это свойство возвращает <b>значение true</b> , если указанная панель команд или элемент управления "панель команд" является встроенной панелью команд или элементом управления приложения контейнера; <b>False</b> , если это настраиваемая панель команд или элемент управления или встроенный элемент управления, свойство Property которого <see cref="P:Microsoft.Office.Core._CommandBarComboBox.OnAction" /> было задано.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-133"><para>This property returns <b>True</b> if the specified command bar or command bar control is a built-in command bar or control of the container application; <b>False</b> if it's a custom command bar or control or if it's a built-in control whose <see cref="P:Microsoft.Office.Core._CommandBarComboBox.OnAction" /> property has been set.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -1094,29 +906,15 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-134">Возвращает или задает текст заголовка для элемента управления панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-134">Returns or sets the caption text for a command bar control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-134">Возвращает или задает текст заголовка для элемента управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-134">Returns or sets the caption text for a command bar control.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-135">
-            <para>Заголовок элемента управления также отображается по умолчанию всплывающая подсказка.</para>
-            <para />
-            <para>Примечания для вызывающих объектов</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-135">
-              <para>A control's caption is also displayed as its default ScreenTip.</para>
-              <para />
-              <para>Notes to callers</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-135"><para>Заголовок элемента управления также отображается как всплывающая подсказка по умолчанию.</para> 
+          <para /> 
+          <para>Примечания для вызывающих объектов</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-135"><para>A control's caption is also displayed as its default ScreenTip.</para>
+          <para />
+          <para>Notes to callers</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -1140,28 +938,14 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-136">Удаляет все элементы списка из командной строки поле со списком (раскрывающемся списке или поле со списком) и очищает текстовое поле (поле ввода или поле со списком).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-136">Removes all list items from a command bar combo box control (drop-down list box or combo box) and clears the text box (edit box or combo box).</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3be69-137">
-            <para>Этот метод завершится ошибкой, если оно применяется для элемента управления панели встроенных команд.</para>
-            <para />
-            <para>Примечания для вызывающих объектов</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-137">
-              <para>This method will fail if it's applied to a built-in command bar control.</para>
-              <para />
-              <para>Notes to callers</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="ec5ff-136">Удаляет все элементы списка из элемента управления "поле со списком" панели команд (раскрывающийся список или поле со списком) и очищает текстовое поле (поле редактирования или поле со списком).</span><span class="sxs-lookup"><span data-stu-id="ec5ff-136">Removes all list items from a command bar combo box control (drop-down list box or combo box) and clears the text box (edit box or combo box).</span></span></summary>
+        <remarks><span data-ttu-id="ec5ff-137"><para>Этот метод завершится с ошибками, если он применяется к встроенному элементу управления "панель команд".</para> 
+          <para /> 
+          <para>Примечания для вызывающих объектов</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-137"><para>This method will fail if it's applied to a built-in command bar control.</para>
+          <para />
+          <para>Notes to callers</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Control">
@@ -1193,12 +977,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-138">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-138">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-138">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-138">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1229,44 +1008,9 @@
         <Parameter Name="Before" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Bar">
-          <span data-ttu-id="3be69-139">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-139">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="3be69-140">A <see cref="T:Microsoft.Office.Core.CommandBar" /> объект, представляющий панель команд назначения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-140">A <see cref="T:Microsoft.Office.Core.CommandBar" />  object that represents the destination command bar.</span>
-          </span>
-          <span data-ttu-id="3be69-141">Если этот аргумент задан, элемент управления копируется в панели команд, где уже существует элемент управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-141">If this argument is omitted, the control is copied to the command bar where the control already exists.</span>
-          </span>
-        </param>
-        <param name="Before">
-          <span data-ttu-id="3be69-142">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-142">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="3be69-143">Число, указывающее положение для нового элемента управления на панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-143">A number that indicates the position for the new control on the command bar.</span>
-          </span>
-          <span data-ttu-id="3be69-144">Новый элемент управления будет вставлена перед элемента управления в этой позиции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-144">The new control will be inserted before the control at this position.</span>
-          </span>
-          <span data-ttu-id="3be69-145">Если этот аргумент задан, элемент управления копируется в конец панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-145">If this argument is omitted, the control is copied to the end of the command bar.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3be69-146">Копирует элемент управления панели команд в существующей панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-146">Copies a command bar control to an existing command bar.</span>
-          </span>
-        </summary>
+        <param name="Bar"><span data-ttu-id="ec5ff-139">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-139">Optional <b>Object</b>.</span></span> <span data-ttu-id="ec5ff-140"><see cref="T:Microsoft.Office.Core.CommandBar" /> Объект, представляющий целевую панель команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-140">A <see cref="T:Microsoft.Office.Core.CommandBar" />  object that represents the destination command bar.</span></span> <span data-ttu-id="ec5ff-141">Если этот аргумент не указан, то элемент управления копируется на панель команд, где элемент управления уже существует.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-141">If this argument is omitted, the control is copied to the command bar where the control already exists.</span></span></param>
+        <param name="Before"><span data-ttu-id="ec5ff-142">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-142">Optional <b>Object</b>.</span></span> <span data-ttu-id="ec5ff-143">Число, указывающее положение нового элемента управления на панели команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-143">A number that indicates the position for the new control on the command bar.</span></span> <span data-ttu-id="ec5ff-144">Новый элемент управления будет вставлен перед элементом управления в этой позиции.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-144">The new control will be inserted before the control at this position.</span></span> <span data-ttu-id="ec5ff-145">Если этот аргумент не указан, то элемент управления копируется в конец панели команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-145">If this argument is omitted, the control is copied to the end of the command bar.</span></span></param>
+        <summary><span data-ttu-id="ec5ff-146">Копирует элемент управления "панель команд" на существующую панель команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-146">Copies a command bar control to an existing command bar.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1297,27 +1041,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-147">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-147">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-147">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-147">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-148">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку «MSWD»; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как это <b>приложение</b> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-148">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string "MSWD"; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <b>Application</b> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-148"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку "МСВД"; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, как свойство <b>Application</b> всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-148"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string "MSWD"; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <b>Application</b> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -1345,28 +1077,8 @@
         <Parameter Name="Temporary" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Temporary">
-          <span data-ttu-id="3be69-149">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-149">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="3be69-150">
-            <b>Значение true,</b> Чтобы удалить элемент управления для текущего сеанса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-150">
-              <b>True</b> to delete the control for the current session.</span>
-          </span>
-          <span data-ttu-id="3be69-151">Элемент управления будет отображаться в приложении еще раз в следующего сеанса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-151">The application will display the control again in the next session.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3be69-152">Удаляет указанный объект из коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-152">Deletes the specified object from its collection.</span>
-          </span>
-        </summary>
+        <param name="Temporary"><span data-ttu-id="ec5ff-149">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-149">Optional <b>Object</b>.</span></span> <span data-ttu-id="ec5ff-150"><b>Значение true</b> , чтобы удалить элемент управления для текущего сеанса.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-150"><b>True</b> to delete the control for the current session.</span></span> <span data-ttu-id="ec5ff-151">Приложение снова отобразит элемент управления в следующем сеансе.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-151">The application will display the control again in the next session.</span></span></param>
+        <summary><span data-ttu-id="ec5ff-152">Удаляет указанный объект из коллекции.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-152">Deletes the specified object from its collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1399,27 +1111,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-153">Возвращает или задает описание для элемента управления панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-153">Returns or sets the description for a command bar control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-153">Возвращает или задает описание элемента управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-153">Returns or sets the description for a command bar control.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-154">
-            <para>Это свойство используется для справки в документе на компьютерах Macintosh.</para>
-            <para>Описания не отображается для пользователя, но его можно использовать для документирования поведение элемента управления другими разработчиками.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-154">
-              <para>This property is used for Balloon Help on the Macintosh.</para>
-              <para>The description is not displayed to the user, but it can be useful for documenting the behavior of the control for other developers. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-154"><para>Это свойство используется для отображения всплывающих подсказок в системе Macintosh.</para> 
+          <para>Описание не отображается для пользователя, но оно может быть полезно для документирования поведения элемента управления для других разработчиков.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-154"><para>This property is used for Balloon Help on the Macintosh.</para>
+          <para>The description is not displayed to the user, but it can be useful for documenting the behavior of the control for other developers. </para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDownLines">
@@ -1448,27 +1146,17 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-155">Возвращает или задает количество строк в поле со списком команду Панель управления поля.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-155">Returns or sets the number of lines in a command bar combo box control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-155">Возвращает или задает количество строк в элементе управления "поле со списком" панели команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-155">Returns or sets the number of lines in a command bar combo box control.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-156">
-            <para>Если задано значение нуль (0), количество строк в элементе управления будут основываться на количество элементов в списке.</para> Элемент управления ComboBox 
-          <para>должен быть пользовательского элемента управления и должен быть раскрывающемся списке или поле со списком. Произошла ошибка при попытке задать это свойство для поля со списком, управления, — это поле ввода или поле со списком встроенных.</para><para /><para>Примечания для вызывающих объектов</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-156">
-              <para>If this property is set to 0 (zero), the number of lines in the control will be based on the number of items in the list.</para>
-              <para>The combo box control must be a custom control and it must be a drop-down list box or a combo box. An error occurs if you attempt to set this property for a combo box control that's an edit box or a built-in combo box control.</para>
-              <para />
-              <para>Notes to callers</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-156"><para>Если для этого свойства задано значение 0 (ноль), число строк в элементе управления будет основываться на количестве элементов в списке.</para> 
+          <para>Элемент управления "поле со списком" должен быть пользовательским элементом управления и должен быть раскрывающимся списком или полем со списком. При попытке задать это свойство для элемента управления "поле со списком", который является полем редактирования или встроенным элементом управления "поле со списком", возникает ошибка.</para> 
+          <para /> 
+          <para>Примечания для вызывающих объектов</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-156"><para>If this property is set to 0 (zero), the number of lines in the control will be based on the number of items in the list.</para>
+          <para>The combo box control must be a custom control and it must be a drop-down list box or a combo box. An error occurs if you attempt to set this property for a combo box control that's an edit box or a built-in combo box control.</para>
+          <para />
+          <para>Notes to callers</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDownWidth">
@@ -1497,31 +1185,17 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-157">Возвращает или задает ширину (в точках) списка для поля со списком указанной команды панели управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-157">Returns or sets the width (in pixels) of the list for the specified command bar combo box control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-157">Возвращает или задает ширину (в пикселях) списка для указанного элемента управления "поле со списком" панели команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-157">Returns or sets the width (in pixels) of the list for the specified command bar combo box control.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-158">
-            <para>Возникает ошибка при попытке установить это свойство для встроенного элемента управления.</para>
-            <para>, Если этому свойству присвоено значение -1, ширину списка основано на длину максимальному элементу в списке. Если задано значение 0, ширину списка основано на ширину элемента управления.</para>
-            <para />
-            <para>Примечания для вызывающих объектов</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-158">
-              <para>An error occurs if you attempt to set this property for a built-in control.</para>
-              <para>If this property is set to -1, the width of the list is based on the length of the longest item in the combo box list. If this property is set to 0, the width of the list is based on the width of the control.</para>
-              <para />
-              <para>Notes to callers</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-158"><para>При попытке задать данное свойство для встроенного элемента управления возникает ошибка.</para> 
+          <para>Если для этого свойства задано значение-1, ширина списка зависит от длины самого длинного элемента в списке поля со списком. Если для этого свойства задано значение 0, ширина списка зависит от ширины элемента управления.</para> 
+          <para /> 
+          <para>Примечания для вызывающих объектов</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-158"><para>An error occurs if you attempt to set this property for a built-in control.</para>
+          <para>If this property is set to -1, the width of the list is based on the length of the longest item in the combo box list. If this property is set to 0, the width of the list is based on the width of the control.</para>
+          <para />
+          <para>Notes to callers</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -1553,29 +1227,15 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-159">Определяет, включена ли панель команд указанного или элемента управления панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-159">Determines if the specified command bar or command bar control is enabled.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-159">Определяет, включена ли указанная панель команд или элемент управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-159">Determines if the specified command bar or command bar control is enabled.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-160">
-            <para>Это свойство возвращает <b>значение True,</b> Если включена панель команд указанного или элемента управления панели команд. <b>Значение false,</b> если они отключены.</para>
-            <para>Для панелей команд, это свойство в <b>значение True</b> , имя панели команд, отображаются в списке доступных командных строк.</para>
-            <para>Для встроенных элементов управления, задайте для свойства <b>Enabled</b> значение <b>True</b>, приложение определяет ее состояния, но указании <b>значения False</b> приведет к отключен.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-160">
-              <para>This property returns <b>True</b> if the specified command bar or command bar control is enabled; <b>False</b> if it is disabled.</para>
-              <para>For command bars, setting this property to <b>True</b> causes the name of the command bar to appear in the list of available command bars.</para>
-              <para>For built-in controls, if you set the <b>Enabled</b> property to <b>True</b>, the application determines its state, but setting it to <b>False</b> will force it to be disabled.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-160"><para>Это свойство возвращает <b>значение true</b> , если указанная панель команд или элемент управления "панель команд" включена; <b>Значение false</b> , если оно отключено.</para> Если 
+          <para>для панели команд задано <b>значение true</b> , то имя панели команд будет отображаться в списке доступных панелей команд.</para> 
+          <para>Для встроенных элементов управления, если для свойства <b>Enabled</b> задано <b>значение true</b>, то приложение определяет его состояние, но если задать для него <b>значение false</b> , оно будет принудительно отключено.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-160"><para>This property returns <b>True</b> if the specified command bar or command bar control is enabled; <b>False</b> if it is disabled.</para>
+          <para>For command bars, setting this property to <b>True</b> causes the name of the command bar to appear in the list of available command bars.</para>
+          <para>For built-in controls, if you set the <b>Enabled</b> property to <b>True</b>, the application determines its state, but setting it to <b>False</b> will force it to be disabled.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Execute">
@@ -1602,24 +1262,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-161">Запускает процедуру, команда или пользовательского действия в зависимости от указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-161">Runs a procedure, command, or user action depending on the specified object.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3be69-162">
-            <para>Для объекты панелей команд запускает процедуры или встроенные команды, назначенные для элемента управления панели команд указанного. Пользовательские элементы управления, используйте <see cref="P:Microsoft.Office.Core._CommandBarComboBox.OnAction" /> свойство, чтобы указать процедуру для выполнения. Для <see cref="T:Microsoft.Office.Core.FileDialog" /> объекты с типом <b>msoFileDialogOpen</b> или <b>msoFileDialogSaveAs</b>выполняет действия пользователя правой после вызова метода <b>Show</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-162">
-              <para>For the command bar objects, runs the procedure or built-in command assigned to the specified command bar control. For custom controls, use the <see cref="P:Microsoft.Office.Core._CommandBarComboBox.OnAction" /> property to specify the procedure to be run. For <see cref="T:Microsoft.Office.Core.FileDialog" /> objects of type <b>msoFileDialogOpen</b> or <b>msoFileDialogSaveAs</b>, carries out a user's action right after the <b>Show</b> method is invoked.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="ec5ff-161">Выполнение процедуры, команды или действия пользователя в зависимости от указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-161">Runs a procedure, command, or user action depending on the specified object.</span></span></summary>
+        <remarks><span data-ttu-id="ec5ff-162"><para>Для объектов панели команд выполняет процедуру или встроенную команду, назначенную указанному элементу управления "панель команд". Для пользовательских элементов управления используйте <see cref="P:Microsoft.Office.Core._CommandBarComboBox.OnAction" /> свойство, чтобы указать процедуру, которую необходимо выполнить. Для <see cref="T:Microsoft.Office.Core.FileDialog" /> объектов типа <b>мсофиледиалогопен</b> или <b>мсофиледиалогсавеас</b>выполняет действие пользователя сразу после вызова метода <b>Show</b> .</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-162"><para>For the command bar objects, runs the procedure or built-in command assigned to the specified command bar control. For custom controls, use the <see cref="P:Microsoft.Office.Core._CommandBarComboBox.OnAction" /> property to specify the procedure to be run. For <see cref="T:Microsoft.Office.Core.FileDialog" /> objects of type <b>msoFileDialogOpen</b> or <b>msoFileDialogSaveAs</b>, carries out a user's action right after the <b>Show</b> method is invoked.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -1651,12 +1297,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-163">Возвращает или задает высоту элемента управления панели команд или панелей команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-163">Returns or sets the height of a command bar control or command bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-163">Возвращает или задает высоту элемента управления "панель команд" или "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-163">Returns or sets the height of a command bar control or command bar.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1690,25 +1331,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-164">Возвращает или задает контекст справки номер идентификатора для раздела справки, подключенного к элемента управления панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-164">Returns or sets the Help context Id number for the Help topic attached to the command bar control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-164">Возвращает или задает идентификационный номер контекста справки для раздела справки, присоединенного к элементу управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-164">Returns or sets the Help context Id number for the Help topic attached to the command bar control.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-165">
-            <para>Чтобы использовать это свойство, необходимо также установить <see cref="P:Microsoft.Office.Core._CommandBarComboBox.HelpFile" /> свойство. Разделы справки ответ на клавиши SHIFT + F1.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-165">
-              <para>To use this property, you must also set the <see cref="P:Microsoft.Office.Core._CommandBarComboBox.HelpFile" /> property. Help topics respond to SHIFT+F1.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-165"><para>Чтобы использовать это свойство, необходимо также задать <see cref="P:Microsoft.Office.Core._CommandBarComboBox.HelpFile" /> свойство. Разделы справки реагируют на клавиши SHIFT + F1.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-165"><para>To use this property, you must also set the <see cref="P:Microsoft.Office.Core._CommandBarComboBox.HelpFile" /> property. Help topics respond to SHIFT+F1.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="HelpFile">
@@ -1740,25 +1367,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-166">Возвращает или задает имя файла для раздела справки, подключенного к элемента управления панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-166">Returns or sets the file name for the Help topic attached to the command bar control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-166">Возвращает или задает имя файла для раздела справки, присоединенного к элементу управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-166">Returns or sets the file name for the Help topic attached to the command bar control.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-167">
-            <para>Чтобы использовать это свойство, необходимо также установить <see cref="P:Microsoft.Office.Core._CommandBarComboBox.HelpContextId" /> свойство. Разделы справки ответ на пользователя, при нажатии клавиши SHIFT + F1.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-167">
-              <para>To use this property, you must also set the <see cref="P:Microsoft.Office.Core._CommandBarComboBox.HelpContextId" /> property. Help topics respond to the user pressing SHIFT+F1.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-167"><para>Чтобы использовать это свойство, необходимо также задать <see cref="P:Microsoft.Office.Core._CommandBarComboBox.HelpContextId" /> свойство. Разделы справки, реагирующие на пользователя нажатием клавиш SHIFT + F1.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-167"><para>To use this property, you must also set the <see cref="P:Microsoft.Office.Core._CommandBarComboBox.HelpContextId" /> property. Help topics respond to the user pressing SHIFT+F1.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -1787,25 +1400,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-168">Возвращает идентификатор для элемента управления панели встроенных команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-168">Returns the ID for a built-in command bar control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-168">Возвращает идентификатор встроенного элемента управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-168">Returns the ID for a built-in command bar control.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-169">
-            <para>Идентификатор элемента управления определяет встроенные действия для этого элемента управления. Значение свойства <b>Id</b> для всех пользовательских элементов управления — 1.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-169">
-              <para>A control's ID determines the built-in action for that control. The value of the <b>Id</b> property for all custom controls is 1.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-169"><para>Идентификатор элемента управления определяет Встроенное действие для этого элемента управления. Значение свойства <b>ID</b> для всех пользовательских элементов управления равно 1.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-169"><para>A control's ID determines the built-in action for that control. The value of the <b>Id</b> property for all custom controls is 1.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -1834,25 +1433,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-170">Возвращает <b>целое число</b> , представляющее номер индекса для объекта в коллекции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-170">Returns an <b>Integer</b> representing the index number for an object in the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-170">Возвращает <b>целое</b> число, представляющее номер индекса для объекта в коллекции.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-170">Returns an <b>Integer</b> representing the index number for an object in the collection.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-171">
-            <para>Положение первого элемента управления панели команд — 1. Разделители не учитываются <see cref="T:Microsoft.Office.Core.CommandBarControls" /> семейства сайтов.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-171">
-              <para>The position of the first command bar control is 1. Separators are not counted in the <see cref="T:Microsoft.Office.Core.CommandBarControls" /> collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-171"><para>Положение первого элемента управления "панель команд" равно 1. Разделители не учитываются в <see cref="T:Microsoft.Office.Core.CommandBarControls" /> коллекции.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-171"><para>The position of the first command bar control is 1. Separators are not counted in the <see cref="T:Microsoft.Office.Core.CommandBarControls" /> collection.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="InstanceId">
@@ -1884,12 +1469,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-172">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-172">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-172">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-172">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1920,12 +1500,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-173">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-173">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-173">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-173">Reserved for internal use.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1956,123 +1531,109 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-174">Определяет, если элемент управления удаляется из меню или панели инструментов на основе использования статистики и макет дискового пространства для в настоящее время.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-174">Determines if the control is currently dropped from the menu or toolbar based on usage statistics and layout space.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-174">Определяет, находится ли элемент управления в данный момент в меню или на панели инструментов в соответствии со статистикой использования и областью макета.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-174">Determines if the control is currently dropped from the menu or toolbar based on usage statistics and layout space.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-175">
-            <para>Данное свойство возвращает <b>значение True,</b> Если в текущий момент элемент управления удаляется из меню или панели инструментов на основании статистики и макет пространства об использовании; <b>Значение false,</b> Если элемент управления в настоящее время не удаляются. (Обратите внимание на то, что это не то же, что видимости элемента управления, как набор с <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Visible" /> свойства.) Элемент управления с <b>Visible</b> значение <b>True</b> не видны сразу же на <b>Личное меню</b> или <b>панель инструментов,</b> Если <b>IsPriorityDropped</b> имеет <b>значение True</b>.</para>
-            <para>Для определения для набора <b>IsPriorityDropped</b> значение <b>True</b> для элемента меню Microsoft Office поддерживает общее число число попыток, используется элемент меню и запись количество сеансов различных приложений, в котором пользователь использовал другой элемент меню в том же меню, как этот элемент меню без использования элемента меню. Когда это значение достигает определенных пороговых значений, уменьшается. Когда счетчик достигает нуля, <b>IsPriorityDropped</b> имеет значение <b>True</b>. Программисты нельзя задать значение сеанса, порогового значения или свойство <b>IsPriorityDropped</b> . Программисты тем не менее, можно использовать свойство <b>AdaptiveMenus</b> для отключения адаптивный меню для конкретных меню в приложении.</para>
-            <para>, Чтобы определить, когда установка <b>IsPriorityDropped</b> значение <b>True</b> для элемента управления конкретной панели инструментов Office поддерживает список порядке, в котором все элементы управления на панели инструментов последнего были выполнены. Панель инструментов всегда будет отображать неограниченное количество элементов управления, что в ней пространства для отображения, в порядке наиболее часто используется для бы недавно использованных. Элементы управления с <b>приоритетом</b> равным 1 всегда будет отображаться и панели инструментов будет переносить строки, если необходимо отобразить эти элементы управления. Программисты можно использовать свойство <b>приоритет</b> убедитесь, что элементы управления конкретной панели инструментов всегда отображается или изменить положение панели инструментов, чтобы они имеют достаточно места для отображения всех элементов управления.</para>
-            <para>Можно использовать следующую таблицу для прогнозирования число сеансов, для которых элемент меню личное меню будет видимым перед свойства <b>IsPriorityDropped</b> элемента меню имеет значение <b>True</b>.</para>
-            <list type="table">
-              <item>
-                <description>
-                  <paramref name="0,1" />
-                </description>3
+        <remarks><span data-ttu-id="ec5ff-175"><para>Это свойство возвращает <b>значение true</b> , если элемент управления в данный момент переключается из меню или с панели инструментов в соответствии со статистикой использования и пространством макета; <b>False</b> , если элемент управления в данный момент не удаляется. (Обратите внимание, что это не то же самое, что и видимость элемента управления, <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Visible" /> как задается свойством.) Элемент управления с <b>видимым</b> значением <b>true</b> не будет сразу отображаться в <b>настраиваемом меню</b> или на <b>панели инструментов</b> , если <b>исприоритидроппед</b> имеет <b>значение true</b>.</para> 
+          <para>Чтобы определить, когда задать <b>IsPriorityDropped</b> для исприоритидроппед <b>значение true</b> для определенного элемента меню, Microsoft Office сохраняет общее количество использованных элементов меню и запись количества различных сеансов приложения, в которых пользователь использовал другой элемент меню в том же меню, что и этот элемент меню, без использования определенного элемента меню. Если это значение достигает определенных пороговых значений, то счетчик уменьшается. Когда значение счетчика достигнет нуля, для <b>исприоритидроппед</b> задается <b>значение true</b>. Программисты не могут задавать значение сеанса, пороговое значение или свойство <b>исприоритидроппед</b> . Тем не менее, программисты могут использовать свойство <b>адаптивеменус</b> , чтобы отключить адаптивные меню для определенных меню в приложении.</para> 
+          <para>Чтобы определить, когда задать <b>IsPriorityDropped</b> для исприоритидроппед <b>значение true</b> для определенного элемента управления ToolBar, Office поддерживает список порядка, в котором все элементы управления на панели инструментов были последними выполнены. Панель инструментов всегда отображает столько элементов управления, сколько места для отображения, в порядке последнего использования. Элементы управления с <b>приоритетом</b> 1 будут отображаться всегда, и при необходимости панель инструментов будет переносить строки, чтобы показать эти элементы управления. Программисты могут использовать свойство <b>Priority</b> , чтобы убедиться, что определенные элементы управления ToolBar всегда отображаются, или чтобы изменить положение панелей инструментов, чтобы отобразить все элементы управления.</para> 
+          <para>Можно использовать приведенную ниже таблицу, чтобы предсказать количество сеансов, для которых элемент меню в настраиваемом меню остается видимым, прежде чем для свойства <b>исприоритидроппед</b> элемента меню будет задано <b>значение true</b>.</para> 
+          <list type="table">
+            <item>3
+              <description>
+                <paramref name="2" />
+              </description>6
             </item>
-              <item>
-                <description>
-                  <paramref name="2" />
-                </description>6
+            <item>9
+              <description>
+                <paramref name="3" />
+              </description>
             </item>
-              <item>
-                <description>
-                  <paramref name="3" />
-                </description>9
+            <item>12
+              <description>
+                <paramref name="6-8" />
+              </description>17
             </item>
-              <item>
-                <description>
-                  <paramref name="4, 5" />
-                </description>12
+            <item>23
+              <description>
+                <paramref name="14-24" />
+              </description>
             </item>
-              <item>
-                <description>
-                  <paramref name="6-8" />
-                </description>17
+            <item>31
+              <description>
+                <paramref name="25 or more" />
+              </description>
+            </item> 
+            <item> 
+              <description>
+                <paramref name="0,1" />
+              </description>
             </item>
-              <item>
-                <description>
-                  <paramref name="9-13" />
-                </description>23
+            <item>
+              <description>
+                <paramref name="4, 5" />
+              </description>
             </item>
-              <item>
-                <description>
-                  <paramref name="14-24" />
-                </description>29
+            <item>
+              <description>
+                <paramref name="9-13" />
+              </description>
             </item>
-              <item>
-                <description>
-                  <paramref name="25 or more" />
-                </description>31
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-175"><para>This property returns <b>True</b> if the control is currently dropped from the menu or toolbar based on usage statistics and layout space; <b>False</b> if the control is not currently dropped. (Note that this is not the same as the control's visibility, as set by the <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Visible" /> property.) A control with <b>Visible</b> set to <b>True</b> will not be immediately visible on a <b>Personalized Menu</b> or <b>Toolbar</b> if <b>IsPriorityDropped</b> is <b>True</b>.</para>
+          <para>To determine when to set <b>IsPriorityDropped</b> to <b>True</b> for a specific menu item, Microsoft Office maintains a total count of the number of times the menu item was used and a record of the number of different application sessions in which the user has used another menu item in the same menu as this menu item, without using the specific menu item. When this value reaches certain threshold values, the count is decremented. When the count reaches zero, <b>IsPriorityDropped</b> is set to <b>True</b>. Programmers cannot set the session value, the threshold value, or the <b>IsPriorityDropped</b> property. Programmers can, however, use the <b>AdaptiveMenus</b> property to disable adaptive menus for specific menus in an application.</para>
+          <para>To determine when to set <b>IsPriorityDropped</b> to <b>True</b> for a specific toolbar control, Office maintains a list of the order in which all the controls on that toolbar were last executed. A toolbar will always show as many controls as it has space to show, in the order of most recently used to least recently used. Controls with <b>Priority</b> set to 1 will always be shown and the toolbar will wrap rows, if necessary, to show these controls. Programmers can use the <b>Priority</b> property to ensure that specific toolbar controls are always shown, or to reposition toolbars so that they have enough space to display all of their controls.</para>
+          <para>You can use the following table to predict the number of sessions for which a menu item on a Personalized Menu will remain visible before the menu item's <b>IsPriorityDropped</b> property is set to <b>True</b>.</para>
+          <list type="table">
+            <item>
+              <description>
+                <paramref name="0,1" />
+              </description>
+              <description>3</description>
             </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-175">
-              <para>This property returns <b>True</b> if the control is currently dropped from the menu or toolbar based on usage statistics and layout space; <b>False</b> if the control is not currently dropped. (Note that this is not the same as the control's visibility, as set by the <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Visible" /> property.) A control with <b>Visible</b> set to <b>True</b> will not be immediately visible on a <b>Personalized Menu</b> or <b>Toolbar</b> if <b>IsPriorityDropped</b> is <b>True</b>.</para>
-              <para>To determine when to set <b>IsPriorityDropped</b> to <b>True</b> for a specific menu item, Microsoft Office maintains a total count of the number of times the menu item was used and a record of the number of different application sessions in which the user has used another menu item in the same menu as this menu item, without using the specific menu item. When this value reaches certain threshold values, the count is decremented. When the count reaches zero, <b>IsPriorityDropped</b> is set to <b>True</b>. Programmers cannot set the session value, the threshold value, or the <b>IsPriorityDropped</b> property. Programmers can, however, use the <b>AdaptiveMenus</b> property to disable adaptive menus for specific menus in an application.</para>
-              <para>To determine when to set <b>IsPriorityDropped</b> to <b>True</b> for a specific toolbar control, Office maintains a list of the order in which all the controls on that toolbar were last executed. A toolbar will always show as many controls as it has space to show, in the order of most recently used to least recently used. Controls with <b>Priority</b> set to 1 will always be shown and the toolbar will wrap rows, if necessary, to show these controls. Programmers can use the <b>Priority</b> property to ensure that specific toolbar controls are always shown, or to reposition toolbars so that they have enough space to display all of their controls.</para>
-              <para>You can use the following table to predict the number of sessions for which a menu item on a Personalized Menu will remain visible before the menu item's <b>IsPriorityDropped</b> property is set to <b>True</b>.</para>
-              <list type="table">
-                <item>
-                  <description>
-                    <paramref name="0,1" />
-                  </description>
-                  <description>3</description>
-                </item>
-                <item>
-                  <description>
-                    <paramref name="2" />
-                  </description>
-                  <description>6</description>
-                </item>
-                <item>
-                  <description>
-                    <paramref name="3" />
-                  </description>
-                  <description>9</description>
-                </item>
-                <item>
-                  <description>
-                    <paramref name="4, 5" />
-                  </description>
-                  <description>12</description>
-                </item>
-                <item>
-                  <description>
-                    <paramref name="6-8" />
-                  </description>
-                  <description>17</description>
-                </item>
-                <item>
-                  <description>
-                    <paramref name="9-13" />
-                  </description>
-                  <description>23</description>
-                </item>
-                <item>
-                  <description>
-                    <paramref name="14-24" />
-                  </description>
-                  <description>29</description>
-                </item>
-                <item>
-                  <description>
-                    <paramref name="25 or more" />
-                  </description>
-                  <description>31</description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+            <item>
+              <description>
+                <paramref name="2" />
+              </description>
+              <description>6</description>
+            </item>
+            <item>
+              <description>
+                <paramref name="3" />
+              </description>
+              <description>9</description>
+            </item>
+            <item>
+              <description>
+                <paramref name="4, 5" />
+              </description>
+              <description>12</description>
+            </item>
+            <item>
+              <description>
+                <paramref name="6-8" />
+              </description>
+              <description>17</description>
+            </item>
+            <item>
+              <description>
+                <paramref name="9-13" />
+              </description>
+              <description>23</description>
+            </item>
+            <item>
+              <description>
+                <paramref name="14-24" />
+              </description>
+              <description>29</description>
+            </item>
+            <item>
+              <description>
+                <paramref name="25 or more" />
+              </description>
+              <description>31</description>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Left">
@@ -2101,25 +1662,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-176">Возвращает или задает горизонтальную позицию элемента управления панели команд указанного (в точках) относительно левого края экрана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-176">Returns or sets the horizontal position of the specified command bar control (in pixels) relative to the left edge of the screen.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-176">Возвращает или задает горизонтальную позицию указанного элемента управления "панель команд" (в пикселях) относительно левого края экрана.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-176">Returns or sets the horizontal position of the specified command bar control (in pixels) relative to the left edge of the screen.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-177">
-            <para>Данное свойство возвращает расстояние от левого края области закрепления.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-177">
-              <para>This property returns the distance from the left side of the docking area. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-177"><para>Это свойство возвращает расстояние от левой стороны области стыковки.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-177"><para>This property returns the distance from the left side of the docking area. </para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="List">
@@ -2151,22 +1698,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="3be69-178">Требуется <b>целое число</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-178">Required <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="3be69-179">Элемент списка должно быть задано.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-179">The list item to be set.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3be69-180">Возвращает или задает элемент в поле со списком команду Панель управления поля.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-180">Returns or sets an item in the command bar combo box control.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="ec5ff-178">Обязательный атрибут типа <b>Integer</b>.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-178">Required <b>Integer</b>.</span></span> <span data-ttu-id="ec5ff-179">Элемент списка, который необходимо задать.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-179">The list item to be set.</span></span></param>
+        <summary><span data-ttu-id="ec5ff-180">Возвращает или задает элемент в элементе управления "поле со списком" панели команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-180">Returns or sets an item in the command bar combo box control.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2194,12 +1727,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-181">Возвращает число элементов списка в поле со списком командной строки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-181">Returns the number of list items in a command bar combo box control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-181">Возвращает количество элементов списка в элементе управления "поле со списком" панели команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-181">Returns the number of list items in a command bar combo box control.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2230,29 +1758,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-182">Возвращает или задает число элементов списка в поле со списком команды панели элемента управления полей, который появляется над Строка разделителя групп разрядов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-182">Returns or sets the number of list items in a command bar combo box control that appears above the separator line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-182">Возвращает или задает количество элементов списка в элементе управления "поле со списком" панели команд, которое отображается над разделительной строкой.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-182">Returns or sets the number of list items in a command bar combo box control that appears above the separator line.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-183">
-            <para>Значение свойства <b>ListHeaderCount</b> -1 означает, что в поле со списком отсутствует строка разделителя групп разрядов.</para>
-            <para />
-            <para>Примечания для вызывающих объектов</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-183">
-              <para>A <b>ListHeaderCount</b> property value of – 1 indicates that there's no separator line in the combo box control.</para>
-              <para />
-              <para>Notes to callers</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-183"><para>Свойство <b>лиссеадеркаунт</b> со значением – 1 указывает на то, что в элементе управления "поле со списком" нет разделительной линии.</para> 
+          <para /> 
+          <para>Примечания для вызывающих объектов</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-183"><para>A <b>ListHeaderCount</b> property value of – 1 indicates that there's no separator line in the combo box control.</para>
+          <para />
+          <para>Notes to callers</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListIndex">
@@ -2281,31 +1795,17 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-184">Возвращает или задает индекс элемента, выбранного в списке части со списком панели команд элемента управления box.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-184">Returns or sets the index number of the selected item in the list portion of the command bar combo box control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-184">Возвращает или задает номер индекса выбранного элемента в части списка элемента управления "поле со списком" панели команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-184">Returns or sets the index number of the selected item in the list portion of the command bar combo box control.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-185">
-            <para>Свойство <b>ListIndex</b> , указанного элемента управления для выбора заданного элемента и выполнения соответствующих действий в приложении.</para>
-            <para>, Если в списке ничего не выбрано, это свойство возвращает нуль. Это свойство не удается выполнить при применении к элементам управления, отличных от элементов управления списком.</para>
-            <para />
-            <para>Примечания для вызывающих объектов</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-185">
-              <para>Setting the <b>ListIndex</b> property causes the specified control to select the given item and execute the appropriate action in the application.</para>
-              <para>If nothing is selected in the list, this property returns zero. This property fails when applied to controls other than list controls.</para>
-              <para />
-              <para>Notes to callers</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-185"><para>Задание свойства <b>ListIndex</b> приводит к выбору указанного элемента управления и выполнению соответствующего действия в приложении.</para> 
+          <para>Если в списке ничего не выбрано, это свойство возвращает ноль. При применении к элементам управления, отличным от элементов управления списками, это свойство завершается с ошибкой.</para> 
+          <para /> 
+          <para>Примечания для вызывающих объектов</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-185"><para>Setting the <b>ListIndex</b> property causes the specified control to select the given item and execute the appropriate action in the application.</para>
+          <para>If nothing is selected in the list, this property returns zero. This property fails when applied to controls other than list controls.</para>
+          <para />
+          <para>Notes to callers</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -2334,44 +1834,9 @@
         <Parameter Name="Before" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Bar">
-          <span data-ttu-id="3be69-186">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-186">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="3be69-187">A <see cref="T:Microsoft.Office.Core.CommandBar" /> объект, представляющий панель команд целевой для элемента управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-187">A <see cref="T:Microsoft.Office.Core.CommandBar" /> object that represents the destination command bar for the control.</span>
-          </span>
-          <span data-ttu-id="3be69-188">Если этот аргумент задан, элемент управления перемещается в конец панели команд, где в настоящее время находится элемент управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-188">If this argument is omitted, the control is moved to the end of the command bar where the control currently resides.</span>
-          </span>
-        </param>
-        <param name="Before">
-          <span data-ttu-id="3be69-189">Необязательный элемент <b>Object</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-189">Optional <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="3be69-190">Число, указывающее положение элемента управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-190">A number that indicates the position for the control.</span>
-          </span>
-          <span data-ttu-id="3be69-191">Элемент управления вставляется перед элементом управления, в настоящее время находящуюся этой позиции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-191">The control is inserted before the control currently occupying this position.</span>
-          </span>
-          <span data-ttu-id="3be69-192">Если этот аргумент задан, элемент управления вставляется на одной панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-192">If this argument is omitted, the control is inserted on the same command bar.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3be69-193">Перемещение элемента управления панели команд указанного существующего панель команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-193">Moves the specified command bar control to an existing command bar.</span>
-          </span>
-        </summary>
+        <param name="Bar"><span data-ttu-id="ec5ff-186">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-186">Optional <b>Object</b>.</span></span> <span data-ttu-id="ec5ff-187"><see cref="T:Microsoft.Office.Core.CommandBar" /> Объект, представляющий целевую панель команд для элемента управления.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-187">A <see cref="T:Microsoft.Office.Core.CommandBar" /> object that represents the destination command bar for the control.</span></span> <span data-ttu-id="ec5ff-188">Если этот аргумент опущен, элемент управления перемещается в конец панели команд, в которой находится элемент управления.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-188">If this argument is omitted, the control is moved to the end of the command bar where the control currently resides.</span></span></param>
+        <param name="Before"><span data-ttu-id="ec5ff-189">Необязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-189">Optional <b>Object</b>.</span></span> <span data-ttu-id="ec5ff-190">Число, указывающее положение элемента управления.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-190">A number that indicates the position for the control.</span></span> <span data-ttu-id="ec5ff-191">Элемент управления вставляется перед элементом управления, который сейчас занимают эту позицию.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-191">The control is inserted before the control currently occupying this position.</span></span> <span data-ttu-id="ec5ff-192">Если этот аргумент опущен, элемент управления вставляется на ту же панель команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-192">If this argument is omitted, the control is inserted on the same command bar.</span></span></param>
+        <summary><span data-ttu-id="ec5ff-193">Перемещает указанный элемент управления панель команд на существующую панель команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-193">Moves the specified command bar control to an existing command bar.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2405,27 +1870,13 @@
         <ReturnType>Microsoft.Office.Core.MsoControlOLEUsage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-194">Возвращает или задает клиента OLE и OLE ролей сервера, в которых будут использоваться элемента управления панели команд при слиянии двух приложений Microsoft Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-194">Returns or sets the OLE client and OLE server roles in which a command bar control will be used when two Microsoft Office applications are merged.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-194">Возвращает или задает роли клиента OLE и сервера OLE, в которых будет использоваться элемент управления "панель команд" при объединении двух приложений Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-194">Returns or sets the OLE client and OLE server roles in which a command bar control will be used when two Microsoft Office applications are merged.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-195">
-            <para>Это свойство предназначено для указания панель команд отдельных надстройки приложений будут представлены элементы управления в одном приложении Office при объединении с другими приложениями Office. Если клиент и сервер реализации панели команд, элементов управления панели команд внедренных в клиенте управления. Настраиваемые элементы управления только для клиента (или клиента ни сервера) удаляются из сервера и элементов управления, только сервер (или не заданы параметры сервера и клиента) удаляются из клиента. Оставшиеся элементы управления объединяются.</para>
-            <para>Если объединения приложений не приложения Office, слияние обычного меню OLE используется, которой управляет <see cref="P:Microsoft.Office.Core.CommandBarPopup.OLEMenuGroup" /> свойство.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-195">
-              <para>This property is intended to allow you to specify how individual add-in applications' command bar controls will be represented in one Office application when it is merged with another Office application. If both the client and server implement command bars, the command bar controls are embedded in the client control by control. Custom controls marked as client-only (or neither client nor server) are dropped from the server, and controls marked as server-only (or neither server nor client) are dropped from the client. The remaining controls are merged.</para>
-              <para>If one of the merging applications isn't an Office application, normal OLE menu merging is used, which is controlled by the <see cref="P:Microsoft.Office.Core.CommandBarPopup.OLEMenuGroup" /> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-195"><para>Это свойство предназначено для того, чтобы задать способ представления панели команд для отдельных приложений надстройки в одном приложении Office при объединении с другим приложением Office. Если и клиент, и сервер реализуют панели команд, элементы управления панели команд внедряются в клиентский элемент управления с помощью элемента управления. Пользовательские элементы управления, помеченные как доступные только для клиента (или ни клиент, ни сервер), не удаляются с сервера, а элементы управления, помеченные как "только для серверов" (или ни сервер, ни клиент, не удаляются из клиента). Остальные элементы управления сливаются.</para> 
+          <para>Если одно из приложений для слияния не является приложением Office, используется обычное объединение меню OLE, которое управляется <see cref="P:Microsoft.Office.Core.CommandBarPopup.OLEMenuGroup" /> свойством.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-195"><para>This property is intended to allow you to specify how individual add-in applications' command bar controls will be represented in one Office application when it is merged with another Office application. If both the client and server implement command bars, the command bar controls are embedded in the client control by control. Custom controls marked as client-only (or neither client nor server) are dropped from the server, and controls marked as server-only (or neither server nor client) are dropped from the client. The remaining controls are merged.</para>
+          <para>If one of the merging applications isn't an Office application, normal OLE menu merging is used, which is controlled by the <see cref="P:Microsoft.Office.Core.CommandBarPopup.OLEMenuGroup" /> property.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnAction">
@@ -2457,29 +1908,15 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-196">Возвращает или задает имя процедуры Visual Basic, которая будет выполняться, когда пользователь нажимает кнопку или изменяет значение элемента управления панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-196">Returns or sets the name of a Visual Basic procedure that will run when the user clicks or changes the value of a command bar control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-196">Возвращает или задает имя процедуры Visual Basic, которая будет выполняться, когда пользователь нажимает или изменяет значение элемента управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-196">Returns or sets the name of a Visual Basic procedure that will run when the user clicks or changes the value of a command bar control.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-197">
-            <para>Приложение-контейнер определяет, является ли значение недопустимое имя макроса.</para>
-            <para />
-            <para>Примечания для вызывающих объектов</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-197">
-              <para>The container application determines whether the value is a valid macro name.</para>
-              <para />
-              <para>Notes to callers</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-197"><para>Приложение контейнера определяет, является ли значение допустимым именем макроса.</para> 
+          <para /> 
+          <para>Примечания для вызывающих объектов</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-197"><para>The container application determines whether the value is a valid macro name.</para>
+          <para />
+          <para>Notes to callers</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parameter">
@@ -2511,25 +1948,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-198">Возвращает или задает строку, приложение может использовать для выполнения команды.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-198">Returns or sets a string that an application can use to execute a command.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-198">Возвращает или задает строку, которую приложение может использовать для выполнения команды.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-198">Returns or sets a string that an application can use to execute a command.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-199">
-            <para>Если указанный параметр имеет значение для встроенного элемента управления, приложения можно изменить его поведение по умолчанию, если его можно анализировать и использовать новое значение. Если параметр имеет значение для пользовательских элементов управления, его можно использовать для отправки информации в программном коде или его можно использовать для хранения сведений об элементе управления (аналогичную секунды <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Tag" /> значение свойства).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-199">
-              <para>If the specified parameter is set for a built-in control, the application can modify its default behavior if it can parse and use the new value. If the parameter is set for custom controls, it can be used to send information to programming code, or it can be used to hold information about the control (similar to a second <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Tag" /> property value).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-199"><para>Если указанный параметр задан для встроенного элемента управления, то приложение может изменить его поведение по умолчанию, если оно может проанализировать и использовать новое значение. Если параметр задан для пользовательских элементов управления, его можно использовать для отправки информации в программный код или использовать для хранения сведений об элементе управления (аналогично второму <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Tag" /> значению свойства).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-199"><para>If the specified parameter is set for a built-in control, the application can modify its default behavior if it can parse and use the new value. If the parameter is set for custom controls, it can be used to send information to programming code, or it can be used to hold information about the control (similar to a second <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Tag" /> property value).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -2558,12 +1981,7 @@
         <ReturnType>Microsoft.Office.Core.CommandBar</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-200">Возвращает родительский объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-200">Returns the parent object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-200">Возвращает родительский объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-200">Returns the parent object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2597,25 +2015,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-201">Возвращает или задает приоритет элемента управления панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-201">Returns or sets the priority of a command bar control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-201">Возвращает или задает приоритет элемента управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-201">Returns or sets the priority of a command bar control.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-202">Приоритет <para>A управления определяет, могут быть удалены элемент управления из панели команд закрепленного Если элементы управления панели команд не помещаются в одну строку. Элементы управления, которые не помещаются в одной строке раскрывающегося off панели команд справа налево.</para> Номера приоритета 
-          <para>действительно являются нуль (0) до 7 и значение по умолчанию — 3. Приоритет 1 означает, что элемент управления не может быть удален из панели инструментов. Другие значения приоритета игнорируются.</para><para>Свойство <b>приоритета</b> не используется элементами управления командной строки, которые являются пунктов меню.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-202">
-              <para>A control's priority determines whether the control can be dropped from a docked command bar if the command bar controls can't fit in a single row. Controls that can't fit in a single row drop off command bars from right to left.</para>
-              <para>Valid priority numbers are 0 (zero) through 7 and the default value is 3. A priority of 1 means that the control cannot be dropped from a toolbar. Other priority values are ignored.</para>
-              <para>The <b>Priority</b> property is not used by command bar controls that are menu items.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-202"><para>Приоритет элемента управления определяет, можно ли удалить элемент управления из закрепленной панели команд, если элементы управления панели команд не помещаются в одну строку. Элементы управления, которые не могут поместиться в панели команд с одной строкой справа налево.</para> 
+          <para>Допустимые значения приоритета: 0 (ноль) до 7, значение по умолчанию — 3. Приоритет 1 означает, что элемент управления невозможно удалить с панели инструментов. Другие значения приоритетов игнорируются.</para> 
+          <para>Свойство <b>Priority</b> не используется элементами управления "панель команд", которые являются элементами меню.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-202"><para>A control's priority determines whether the control can be dropped from a docked command bar if the command bar controls can't fit in a single row. Controls that can't fit in a single row drop off command bars from right to left.</para>
+          <para>Valid priority numbers are 0 (zero) through 7 and the default value is 3. A priority of 1 means that the control cannot be dropped from a toolbar. Other priority values are ignored.</para>
+          <para>The <b>Priority</b> property is not used by command bar controls that are menu items.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoveItem">
@@ -2641,38 +2049,15 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="3be69-203">Требуется <b>целое число</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-203">Required <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="3be69-204">Элемент удаляется из списка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-204">The item to be removed from the list.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3be69-205">Удаляет элемент из командной строки поле со списком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-205">Removes an item from a command bar combo box control.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3be69-206">
-            <para>Свойство происходит сбой при применении к элементам управления, отличных от элементов управления списком.</para>
-            <para />
-            <para>Примечания для вызывающих объектов</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-206">
-              <para>The property fails when applied to controls other than list controls.</para>
-              <para />
-              <para>Notes to callers</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="ec5ff-203">Обязательный атрибут типа <b>Integer</b>.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-203">Required <b>Integer</b>.</span></span> <span data-ttu-id="ec5ff-204">Элемент, который необходимо удалить из списка.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-204">The item to be removed from the list.</span></span></param>
+        <summary><span data-ttu-id="ec5ff-205">Удаляет элемент из элемента управления "поле со списком" панели команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-205">Removes an item from a command bar combo box control.</span></span></summary>
+        <remarks><span data-ttu-id="ec5ff-206"><para>При применении к элементам управления, отличным от элементов управления "список", свойство завершается с ошибкой.</para> 
+          <para /> 
+          <para>Примечания для вызывающих объектов</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-206"><para>The property fails when applied to controls other than list controls.</para>
+          <para />
+          <para>Notes to callers</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reserved1">
@@ -2702,12 +2087,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-207">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-207">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-207">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-207">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2738,12 +2118,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-208">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-208">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-208">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-208">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2774,12 +2149,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-209">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-209">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-209">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-209">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2810,12 +2180,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-210">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-210">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-210">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-210">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2846,12 +2211,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-211">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-211">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-211">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-211">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2882,12 +2242,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-212">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-212">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-212">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-212">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2918,12 +2273,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-213">Зарезервировано для внутреннего использования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-213">Reserved for internal use.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-213">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-213">Reserved for internal use.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2951,24 +2301,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-214">Восстанавливает элемент управления встроенных командной строки для его исходной функции и лиц.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-214">Resets a built-in command bar control to its original function and face.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3be69-215">
-            <para>Сброс встроенного элемента управления, восстанавливает действия, изначально предназначен для элемента управления и сбрасывает каждого из свойств элемента управления обратно в исходное состояние.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-215">
-              <para>Resetting a built-in control restores the actions originally intended for the control and resets each of the control's properties back to its original state.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="ec5ff-214">Сбрасывает встроенный элемент управления "панель команд" в исходную функцию и грань.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-214">Resets a built-in command bar control to its original function and face.</span></span></summary>
+        <remarks><span data-ttu-id="ec5ff-215"><para>При сбросе встроенного элемента управления восстанавливаются действия, изначально предназначенные для элемента управления, и восстанавливается исходное состояние каждого свойства элемента управления.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-215"><para>Resetting a built-in control restores the actions originally intended for the control and resets each of the control's properties back to its original state.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetFocus">
@@ -2995,26 +2331,12 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-216">Перемещает фокус в элемент управления указанного командной строки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-216">Moves the keyboard focus to the specified command bar control.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3be69-217">
-            <para>Если элемент управления этот параметр отключен или не отображается, этот метод завершится с ошибкой.</para>
-            <para>Фокуса на элемент управления тонкой. При использовании этого метода можно заметить 3 измерения выделения в элементе управления. Клавиши со стрелками будут перемещаться в панели инструментов, как если бы вы было доставлено на элемент управления, нажав только элементы управления клавиатуры.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-217">
-              <para>If the control is disabled or isn't visible, this method will fail.</para>
-              <para>The focus on the control is subtle. After you use this method, you will notice a three dimensional highlight on the control. Pressing the arrow keys will navigate in the toolbars, as if you had arrived at the control by pressing only keyboard controls.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="ec5ff-216">Перемещает фокус клавиатуры на указанный элемент управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-216">Moves the keyboard focus to the specified command bar control.</span></span></summary>
+        <remarks><span data-ttu-id="ec5ff-217"><para>Если элемент управления отключен или не отображается, этот метод завершится с ошибками.</para> 
+          <para>Фокус на элементе управления незаметен. После использования этого метода вы заметите трехмерное выделение на элементе управления. Нажатие клавиш со стрелками приведет к переходу на панели инструментов, как если бы вы попали в элемент управления, нажав только клавиши управления.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-217"><para>If the control is disabled or isn't visible, this method will fail.</para>
+          <para>The focus on the control is subtle. After you use this method, you will notice a three dimensional highlight on the control. Pressing the arrow keys will navigate in the toolbars, as if you had arrived at the control by pressing only keyboard controls.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Style">
@@ -3043,25 +2365,11 @@
         <ReturnType>Microsoft.Office.Core.MsoComboStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-218">Возвращает или задает способ отображения панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-218">Returns or sets the way a command bar  is displayed.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-218">Возвращает или задает способ отображения панели команд.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-218">Returns or sets the way a command bar  is displayed.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-219">
-            <para>Может быть одна из следующих <see cref="T:Microsoft.Office.Core.MsoComboStyle" /> констант: <b>msoComboLabel</b> или <b>msoComboNormal</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-219">
-              <para>Can be either of the following <see cref="T:Microsoft.Office.Core.MsoComboStyle" /> constants: <b>msoComboLabel</b> or <b>msoComboNormal</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-219"><para>Может быть любой из следующих <see cref="T:Microsoft.Office.Core.MsoComboStyle" /> констант: <b>мсокомболабел</b> или <b>мсокомбонормал</b>.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-219"><para>Can be either of the following <see cref="T:Microsoft.Office.Core.MsoComboStyle" /> constants: <b>msoComboLabel</b> or <b>msoComboNormal</b>.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Tag">
@@ -3093,25 +2401,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-220">Возвращает или задает сведения о элемента управления панели команд, таких как данные, которые можно использовать в качестве аргумента процедуры или информации, которая идентифицирует элемент управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-220">Returns or sets information about the command bar control, such as data that can be used as an argument in procedures, or information that identifies the control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-220">Возвращает или задает сведения об элементе управления "панель команд", например данные, которые можно использовать в качестве аргумента в процедурах, или сведения, определяющие элемент управления.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-220">Returns or sets information about the command bar control, such as data that can be used as an argument in procedures, or information that identifies the control.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-221">
-            <para>Чтобы избежать повторяющихся звонки того же класса при запуске с событиями, определите уникальное свойство <b>Tag</b> к событиям.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-221">
-              <para>To avoid duplicate calls of the same class when triggered with events, define the <b>Tag</b> property unique to the events.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-221"><para>Чтобы избежать дублирования вызовов того же класса при запуске события с событиями, определите свойство <b>Tag</b> , которое является уникальным для этих событий.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-221"><para>To avoid duplicate calls of the same class when triggered with events, define the <b>Tag</b> property unique to the events.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -3140,12 +2434,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-222">Возвращает или задает текст в отображаемой области или изменить часть поля со списком команду Панель управления поля.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-222">Returns or sets the text in the display or edit portion of the command bar combo box control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-222">Возвращает или задает текст в области отображения или редактирования элемента управления "поле со списком панели команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-222">Returns or sets the text in the display or edit portion of the command bar combo box control.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3179,25 +2468,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-223">Возвращает или задает текст, отображаемый в команде полосы подсказки элемента управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-223">Returns or sets the text displayed in a command bar control's ScreenTip.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-223">Возвращает или задает текст, отображаемый в подсказке элемента управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-223">Returns or sets the text displayed in a command bar control's ScreenTip.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-224">
-            <para>По умолчанию значение <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Caption" /> свойство используется в качестве подсказки.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-224">
-              <para>By default, the value of the <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Caption" /> property is used as the ScreenTip.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-224"><para>По умолчанию в качестве подсказки используется <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Caption" /> значение свойства.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-224"><para>By default, the value of the <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Caption" /> property is used as the ScreenTip.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Top">
@@ -3226,25 +2501,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-225">Возвращает расстояние (в точках) от верхнего края элемента управления панели команд указанного верхнего края экрана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-225">Returns the distance (in pixels) from the top edge of the specified command bar control to the top edge of the screen.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-225">Возвращает расстояние (в пикселях) от верхнего края указанного элемента управления "панель команд" до верхнего края экрана.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-225">Returns the distance (in pixels) from the top edge of the specified command bar control to the top edge of the screen.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-226">
-            <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-226">
-              <para>Some of the content in this topic may not be applicable to some languages.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-226"><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-226"><para>Some of the content in this topic may not be applicable to some languages.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -3273,12 +2534,7 @@
         <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-227">Возвращает тип элемента управления панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-227">Returns the type of command bar control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-227">Возвращает тип элемента управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-227">Returns the type of command bar control.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3312,32 +2568,17 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-228">Определяет, является ли указанный объект видимым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-228">Determines if the specified object is visible.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-228">Определяет, является ли указанный объект видимым.</span><span class="sxs-lookup"><span data-stu-id="ec5ff-228">Determines if the specified object is visible.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3be69-229">
-            <para>Это свойство возвращает <b>значение True,</b> Если указанный объект является видимым. <b>Значение false,</b> Если не видны.</para>
-            <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-            <para>Свойство <b>Visible</b> для только что созданного настраиваемые панели команд является <b>False</b> по умолчанию.</para>
-            <para>
-              <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Enabled" /> Свойства поля со списком панели команд должен иметь значение <b>True,</b> перед свойство visible имеет значение <b>True</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-229">
-              <para>This property returns <b>True</b> if the specified object is visible; <b>False</b> if not visible.</para>
-              <para>Some of the content in this topic may not be applicable to some languages.</para>
-              <para>The <b>Visible</b> property for newly created custom command bars is <b>False</b> by default.</para>
-              <para>The <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Enabled" /> property for a command bar combo box must be set to <b>True</b> before the visible property is set to <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="ec5ff-229"><para>Это свойство возвращает <b>значение true</b> , если указанный объект является видимым; <b>Значение false</b> , если оно не отображается.</para> 
+          <para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Свойство <b>Visible</b> для вновь создаваемых настраиваемых панелей команд по умолчанию имеет <b>значение false</b> .</para> 
+          <para>Свойству поля со списком для панели команд необходимо присвоить значение <b>true</b> , чтобы свойство Visible было было равно <b>true.</b> <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Enabled" /> </para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ec5ff-229"><para>This property returns <b>True</b> if the specified object is visible; <b>False</b> if not visible.</para>
+          <para>Some of the content in this topic may not be applicable to some languages.</para>
+          <para>The <b>Visible</b> property for newly created custom command bars is <b>False</b> by default.</para>
+          <para>The <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Enabled" /> property for a command bar combo box must be set to <b>True</b> before the visible property is set to <b>True</b>.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Width">
@@ -3369,12 +2610,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3be69-230">Возвращает или задает ширину (в точках) указанного командной строки или элемента управления панели команд.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3be69-230">Returns or sets the width (in pixels) of the specified command bar or command bar control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="ec5ff-230">Возвращает или задает ширину (в пикселях) указанной панели команд или элемента управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="ec5ff-230">Returns or sets the width (in pixels) of the specified command bar or command bar control.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

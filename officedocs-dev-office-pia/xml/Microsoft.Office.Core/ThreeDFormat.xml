@@ -1,13 +1,5 @@
 <Type Name="ThreeDFormat" FullName="Microsoft.Office.Core.ThreeDFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="829346af5df2e27ab93c08b232e888b5654a0c48" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661964" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ThreeDFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="829346af5df2e27ab93c08b232e888b5654a0c48" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661964" /></Metadata><TypeSignature Language="C#" Value="public interface ThreeDFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ThreeDFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ThreeDFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ThreeDFormat&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="7b4a4-101">Зарезервировано для внутреннего использования.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7b4a4-101">Reserved for internal use.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="e8e08-101">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="e8e08-101">Reserved for internal use.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -931,19 +918,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7b4a4-102">Возвращает или задает состояние текст проекта для указанного <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7b4a4-102">Returns or sets the project text state for the specified <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> object.</span>
-          </span>
-          <span data-ttu-id="7b4a4-103">Чтение и запись</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7b4a4-103">Read/write</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="e8e08-102">Возвращает или задает состояние текста проекта для указанного <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="e8e08-102">Returns or sets the project text state for the specified <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> object.</span></span> <span data-ttu-id="e8e08-103">Чтение и запись</span><span class="sxs-lookup"><span data-stu-id="e8e08-103">Read/write</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1206,26 +1182,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7b4a4-104">Возвращает Z-порядка указанного <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7b4a4-104">Returns the Z order of the specified <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> object.</span>
-          </span>
-          <span data-ttu-id="7b4a4-105">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7b4a4-105">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="7b4a4-106">
-            <b>Single</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7b4a4-106">
-              <b>Single</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="e8e08-104">Возвращает порядок по оси Z для указанного <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="e8e08-104">Returns the Z order of the specified <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> object.</span></span> <span data-ttu-id="e8e08-105">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="e8e08-105">Read/write.</span></span></summary>
+        <value><span data-ttu-id="e8e08-106"><b>Одинарное с плавающей точкой</b></span><span class="sxs-lookup"><span data-stu-id="e8e08-106"><b>Single</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

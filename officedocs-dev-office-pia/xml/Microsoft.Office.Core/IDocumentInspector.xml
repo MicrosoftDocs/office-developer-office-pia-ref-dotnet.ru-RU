@@ -1,13 +1,5 @@
 <Type Name="IDocumentInspector" FullName="Microsoft.Office.Core.IDocumentInspector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6dc49c2a97cc771ebddfb7fd2025f06a984df10f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662297" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IDocumentInspector" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6dc49c2a97cc771ebddfb7fd2025f06a984df10f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662297" /></Metadata><TypeSignature Language="C#" Value="public interface IDocumentInspector" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDocumentInspector" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IDocumentInspector" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDocumentInspector" />
@@ -29,30 +21,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="c706e-101">Представляет интерфейс, через который методы <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> доступ к объекту.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c706e-101">Represents the interface through which the methods of a <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> object are accessed.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="c706e-102">
-        <para>
-          <b>Примечание</b>: <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> объект использовать настраиваемые авторов модуля инспектора документов и не может использоваться с помощью Visual Basic для приложений (VBA).</para>
-        <para>
-          <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> предоставляет доступ к <see cref="M:Microsoft.Office.Core.IDocumentInspector.GetInfo(System.String@,System.String@)" />, <see cref="M:Microsoft.Office.Core.IDocumentInspector.Inspect(System.Object,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@,System.String@)" />, и <see cref="M:Microsoft.Office.Core.IDocumentInspector.Fix(System.Object,System.Int32,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> методы. <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> Используется объект с помощью пользовательских модулей инспектора документов. Это необходимо, в отличие от модули, входящие в состав 1st_Office12.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c706e-102">
-          <para>
-            <b>Note</b>: The <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> object is for the exclusive use of custom Document Inspector module authors and cannot be used with Visual Basic for Applications (VBA).</para>
-          <para>
-            <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> provides access to the <see cref="M:Microsoft.Office.Core.IDocumentInspector.GetInfo(System.String@,System.String@)" />, <see cref="M:Microsoft.Office.Core.IDocumentInspector.Inspect(System.Object,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@,System.String@)" />, and <see cref="M:Microsoft.Office.Core.IDocumentInspector.Fix(System.Object,System.Int32,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> methods. The <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> object is used with custom Document Inspector modules. This is in contrast to modules that are shipped with 1st_Office12.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="ca214-101">Представляет интерфейс, с помощью которого осуществляется доступ к <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> методам объекта.</span><span class="sxs-lookup"><span data-stu-id="ca214-101">Represents the interface through which the methods of a <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> object are accessed.</span></span></summary>
+    <remarks><span data-ttu-id="ca214-102"><para>
+        <b>Note</b> <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> : объект предназначен для монопольного использования настраиваемых авторов модулей инспектора документов и не может использоваться с Visual Basic для приложений (VBA).</para> 
+      <para>предоставляет доступ <see cref="M:Microsoft.Office.Core.IDocumentInspector.GetInfo(System.String@,System.String@)" />к методам <see cref="M:Microsoft.Office.Core.IDocumentInspector.Inspect(System.Object,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@,System.String@)" />, и, и. <see cref="M:Microsoft.Office.Core.IDocumentInspector.Fix(System.Object,System.Int32,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> 
+        <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> Объект используется с настраиваемыми модулями инспектора документов. Это отличается от модулей, поставляемых с 1st_Office12.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="ca214-102"><para>
+        <b>Note</b>: The <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> object is for the exclusive use of custom Document Inspector module authors and cannot be used with Visual Basic for Applications (VBA).</para>
+      <para>
+        <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> provides access to the <see cref="M:Microsoft.Office.Core.IDocumentInspector.GetInfo(System.String@,System.String@)" />, <see cref="M:Microsoft.Office.Core.IDocumentInspector.Inspect(System.Object,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@,System.String@)" />, and <see cref="M:Microsoft.Office.Core.IDocumentInspector.Fix(System.Object,System.Int32,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" /> methods. The <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> object is used with custom Document Inspector modules. This is in contrast to modules that are shipped with 1st_Office12.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Fix">
@@ -76,88 +54,54 @@
         <Parameter Name="Result" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Doc">
-          <span data-ttu-id="c706e-103">Задает nn, который представляет объект контейнера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-103">Specifies nn object representing the container object.</span>
-          </span>
-        </param>
-        <param name="hwnd">
-          <span data-ttu-id="c706e-104">Указывает уникальный идентификатор окна активных документов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-104">Specifies the unique identifier of the active document window.</span>
-          </span>
-        </param>
-        <param name="Status">
-          <span data-ttu-id="c706e-105">Определяет перечисление, указывающее состояние действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-105">Specifies an enumeration that indicates the status of the action.</span>
-          </span>
-        </param>
-        <param name="Result">
-          <span data-ttu-id="c706e-106">Содержит результаты действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-106">Contains the results of the action.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c706e-107">Выполняет какие-либо действия элементов определенные сведения или свойств документа с помощью настраиваемого модуля инспектора документов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-107">Performs some action on specific information items or document properties by using a custom Document Inspector module.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="c706e-108">
-            <para>В следующей таблице описаны <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> члены.</para>
-            <list type="table">
-              <item>
-                <description>
-                  <b>msoDocInspectorStatusIssueFound</b>
-                </description>
-                <description>1</description>
-              </item>
-              <item>
-                <description>
-                  <b>msoDocInspectorStatusDocOk</b>
-                </description>
-                <description>0</description>
-              </item>
-              <item>
-                <description>
-                  <b>msoDocInspectorStatusError</b>
-                </description>
-                <description>2</description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-108">
-              <para>The following table describes <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> members.</para>
-              <list type="table">
-                <item>
-                  <description>
-                    <b>msoDocInspectorStatusDocOk</b>
-                  </description>
-                  <description>0</description>
-                </item>
-                <item>
-                  <description>
-                    <b>msoDocInspectorStatusIssueFound</b>
-                  </description>
-                  <description>1</description>
-                </item>
-                <item>
-                  <description>
-                    <b>msoDocInspectorStatusError</b>
-                  </description>
-                  <description>2</description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Doc"><span data-ttu-id="ca214-103">Задает объект NN, представляющий объект Container.</span><span class="sxs-lookup"><span data-stu-id="ca214-103">Specifies nn object representing the container object.</span></span></param>
+        <param name="hwnd"><span data-ttu-id="ca214-104">Задает уникальный идентификатор активного окна документа.</span><span class="sxs-lookup"><span data-stu-id="ca214-104">Specifies the unique identifier of the active document window.</span></span></param>
+        <param name="Status"><span data-ttu-id="ca214-105">Задает перечисление, указывающее состояние действия.</span><span class="sxs-lookup"><span data-stu-id="ca214-105">Specifies an enumeration that indicates the status of the action.</span></span></param>
+        <param name="Result"><span data-ttu-id="ca214-106">Содержит результаты действия.</span><span class="sxs-lookup"><span data-stu-id="ca214-106">Contains the results of the action.</span></span></param>
+        <summary><span data-ttu-id="ca214-107">Выполняет некоторые действия с определенными элементами сведений или свойствами документа с помощью настраиваемого модуля инспектора документов.</span><span class="sxs-lookup"><span data-stu-id="ca214-107">Performs some action on specific information items or document properties by using a custom Document Inspector module.</span></span></summary>
+        <remarks><span data-ttu-id="ca214-108"><para>В следующей таблице описываются <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> элементы.</para> 
+          <list type="table"> 
+            <item> 
+              <description>
+                <b>мсодоЦинспекторстатусдокок</b>
+              </description>
+              <description>0</description>
+            </item>
+            <item>
+              <description>
+                <b>мсодоЦинспекторстатусиссуефаунд</b>
+              </description>
+              <description>1</description>
+            </item>
+            <item>
+              <description>
+                <b>мсодоЦинспекторстатусеррор</b>
+              </description>
+              <description>2</description> 
+            </item> 
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="ca214-108"><para>The following table describes <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> members.</para>
+          <list type="table">
+            <item>
+              <description>
+                <b>msoDocInspectorStatusDocOk</b>
+              </description>
+              <description>0</description>
+            </item>
+            <item>
+              <description>
+                <b>msoDocInspectorStatusIssueFound</b>
+              </description>
+              <description>1</description>
+            </item>
+            <item>
+              <description>
+                <b>msoDocInspectorStatusError</b>
+              </description>
+              <description>2</description>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInfo">
@@ -179,24 +123,9 @@
         <Parameter Name="Desc" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="c706e-109">Представляет имя модуля.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-109">Represents the name of the module.</span>
-          </span>
-        </param>
-        <param name="Desc">
-          <span data-ttu-id="c706e-110">Представляет описание модуля.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-110">Represents the description of the module.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c706e-111">Получает сведения о настраиваемых модуля инспектора документов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-111">Gets information about a custom Document Inspector module.</span>
-          </span>
-        </summary>
+        <param name="Name"><span data-ttu-id="ca214-109">Представляет имя модуля.</span><span class="sxs-lookup"><span data-stu-id="ca214-109">Represents the name of the module.</span></span></param>
+        <param name="Desc"><span data-ttu-id="ca214-110">Представляет описание модуля.</span><span class="sxs-lookup"><span data-stu-id="ca214-110">Represents the description of the module.</span></span></param>
+        <summary><span data-ttu-id="ca214-111">Получает сведения о настраиваемом модуле инспектора документов.</span><span class="sxs-lookup"><span data-stu-id="ca214-111">Gets information about a custom Document Inspector module.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -221,37 +150,11 @@
         <Parameter Name="Action" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Doc">
-          <span data-ttu-id="c706e-112">Объект, представляющий контейнер документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-112">An object representing the container document.</span>
-          </span>
-        </param>
-        <param name="Status">
-          <span data-ttu-id="c706e-113">
-            <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> Значение, которое представляет результаты проверки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-113">An <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> value that represents the results of the inspection.</span>
-          </span>
-        </param>
-        <param name="Result">
-          <span data-ttu-id="c706e-114">Содержит список элементов сведений или свойств документа в документе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-114">Contains a list of the information items or document properties found in the document.</span>
-          </span>
-        </param>
-        <param name="Action">
-          <span data-ttu-id="c706e-115">Указывается, какое действие, которое выполняется на основе результатов проверки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-115">Indicates to the user what action to take based on the results of the inspection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c706e-116">Проверка документа для элементов определенные сведения или свойств документа с помощью настраиваемого модуля инспектора документов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c706e-116">Inspects a document for specific information items or document properties by using a custom Document Inspector module.</span>
-          </span>
-        </summary>
+        <param name="Doc"><span data-ttu-id="ca214-112">Объект, представляющий документ контейнера.</span><span class="sxs-lookup"><span data-stu-id="ca214-112">An object representing the container document.</span></span></param>
+        <param name="Status"><span data-ttu-id="ca214-113"><see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> Значение, представляющее результаты проверки.</span><span class="sxs-lookup"><span data-stu-id="ca214-113">An <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" /> value that represents the results of the inspection.</span></span></param>
+        <param name="Result"><span data-ttu-id="ca214-114">Содержит список элементов сведений или свойств документа, найденных в документе.</span><span class="sxs-lookup"><span data-stu-id="ca214-114">Contains a list of the information items or document properties found in the document.</span></span></param>
+        <param name="Action"><span data-ttu-id="ca214-115">Показывает пользователю, какие действия необходимо выполнить в зависимости от результатов проверки.</span><span class="sxs-lookup"><span data-stu-id="ca214-115">Indicates to the user what action to take based on the results of the inspection.</span></span></param>
+        <summary><span data-ttu-id="ca214-116">Проверяет документ на наличие определенных элементов информации или свойств документа с помощью настраиваемого модуля инспектора документов.</span><span class="sxs-lookup"><span data-stu-id="ca214-116">Inspects a document for specific information items or document properties by using a custom Document Inspector module.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

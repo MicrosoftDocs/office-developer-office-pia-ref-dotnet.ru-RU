@@ -1,13 +1,5 @@
 <Type Name="SmartDocument" FullName="Microsoft.Office.Core.SmartDocument">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f1baad263eb43139b77bb1be53d230555de79afc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662126" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartDocument : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f1baad263eb43139b77bb1be53d230555de79afc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662126" /></Metadata><TypeSignature Language="C#" Value="public interface SmartDocument : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartDocument implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartDocument" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartDocument&#xA;Implements _IMsoDispObj" />
@@ -30,26 +22,14 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="7c719-101">Свойство <b>SmartDocument</b> Microsoft Office Word 2003 <b>документов</b> и объектов Microsoft Office Excel 2003 <b>книги</b> возвращает объект <b>SmartDocument</b> .</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7c719-101">The <b>SmartDocument</b> property of the Microsoft Office Word 2003 <b>Document</b> object and the Microsoft Office Excel 2003 <b>Workbook</b> object returns a <b>SmartDocument</b> object.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="7c719-102">
-        <para>Использование объекта <b>SmartDocument</b> для управления пакета расширения XML, присоединяется к активных документов.</para> Объект 
-      <para>использования <b>SmartDocument</b><see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" /> и <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" /> вложенные свойства для извлечения сведений о пакета расширения XML в активный документ или книгу. Использование <see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" /> метод, чтобы разрешить пользователю выбрать доступные пакета расширения XML из списка присоединение в активный документ или книгу. Использование <see cref="M:Microsoft.Office.Core.SmartDocument.RefreshPane" /> метод, чтобы обновить область задач действия с документами смарт-документа.</para> Объектная модель 
-      <para><b>SmartDocument</b> доступна ли документ имеет присоединен пакет расширения XML. Свойство <b>SmartDocument</b> объектов <b>документа</b> или <b>книги</b> не возвращает значение Nothing Если активный документ без пакета расширения XML, присоединенного. Проверить свойство <b>SolutionID</b> , чтобы определить, имеет ли активных документов присоединен пакет расширения XML.</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7c719-102">
-          <para>Use the <b>SmartDocument</b> object to manage the XML expansion pack attached to the active document.</para>
-          <para>Use the <b>SmartDocument</b> object's <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" /> and the <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" /> properties to retrieve information about the XML expansion pack attached to the active document or workbook. Use the <see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" /> method to allow the user to select an available XML expansion pack from a list to attach to the active document or workbook. Use the <see cref="M:Microsoft.Office.Core.SmartDocument.RefreshPane" /> method to refresh the smart document's Document Actions task pane.</para>
-          <para>The <b>SmartDocument</b> object model is available whether or not a document has an XML expansion pack attached. The <b>SmartDocument</b> property of the <b>Document</b> or <b>Workbook</b> objects does not return Nothing when the active document has no XML expansion pack attached. Examine the <b>SolutionID</b> property to determine whether the active document has an XML expansion pack attached.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="1e6d7-101">Свойство <b>SmartDocument</b> объекта <b>Document</b> Microsoft Office Word 2003 и объект <b>книги</b> Microsoft Office Excel 2003 возвращает объект <b>SmartDocument</b> .</span><span class="sxs-lookup"><span data-stu-id="1e6d7-101">The <b>SmartDocument</b> property of the Microsoft Office Word 2003 <b>Document</b> object and the Microsoft Office Excel 2003 <b>Workbook</b> object returns a <b>SmartDocument</b> object.</span></span></summary>
+    <remarks><span data-ttu-id="1e6d7-102"><para>Используйте объект <b>SmartDocument</b> для управления пакетом расширения XML, присоединенного к активному документу.</para> 
+      <para>Используйте объект <b>SmartDocument</b> <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" /> и его <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" /> свойства для получения сведений о пакете расширения XML, вложенном в активный документ или книгу. Используйте <see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" /> метод, чтобы разрешить пользователю выбрать доступный пакет расширения XML из списка, чтобы присоединиться к активному документу или книге. Используйте <see cref="M:Microsoft.Office.Core.SmartDocument.RefreshPane" /> метод, чтобы обновить область задач "действия с документами смарт-документа".</para> 
+      <para>Объектная модель <b>SmartDocument</b> доступна независимо от того, есть ли в документе Присоединенный пакет расширения XML. Свойство <b>SmartDocument</b> объекта <b>Document</b> или <b>Workbook</b> не возвращает значение Nothing, если с активным документом не присоединен пакет расширения XML. Проверьте свойство <b>SolutionId</b> , чтобы определить, связан ли с активным документом пакет расширения XML.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="1e6d7-102"><para>Use the <b>SmartDocument</b> object to manage the XML expansion pack attached to the active document.</para>
+      <para>Use the <b>SmartDocument</b> object's <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" /> and the <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" /> properties to retrieve information about the XML expansion pack attached to the active document or workbook. Use the <see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" /> method to allow the user to select an available XML expansion pack from a list to attach to the active document or workbook. Use the <see cref="M:Microsoft.Office.Core.SmartDocument.RefreshPane" /> method to refresh the smart document's Document Actions task pane.</para>
+      <para>The <b>SmartDocument</b> object model is available whether or not a document has an XML expansion pack attached. The <b>SmartDocument</b> property of the <b>Document</b> or <b>Workbook</b> objects does not return Nothing when the active document has no XML expansion pack attached. Examine the <b>SolutionID</b> property to determine whether the active document has an XML expansion pack attached.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -78,12 +58,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7c719-103">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1e6d7-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="1e6d7-103">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -114,27 +89,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7c719-104">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1e6d7-104">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="1e6d7-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="7c719-105">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.SmartDocument.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-105">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.SmartDocument.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="1e6d7-105"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.SmartDocument.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1e6d7-105"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.SmartDocument.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="PickSolution">
@@ -159,48 +122,17 @@
         <Parameter Name="ConsiderAllSchemas" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="ConsiderAllSchemas">
-          <span data-ttu-id="7c719-106">Необязательный атрибут типа <b>Boolean</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-106">Optional <b>Boolean</b>.</span>
-          </span>
-          <span data-ttu-id="7c719-107">
-            <b>Значение true,</b> отображаются все доступные пакеты расширения XML, установленные на компьютере пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-107">
-              <b>True</b> displays all available XML expansion packs installed on the user's computer.</span>
-          </span>
-          <span data-ttu-id="7c719-108">
-            <b>Значение false,</b> отображается только пакеты расширения XML применимых в активный документ.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-108">
-              <b>False</b> displays only XML expansion packs applicable to the active document.</span>
-          </span>
-          <span data-ttu-id="7c719-109">Значение по умолчанию — <b>False</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-109">Default value is <b>False</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="7c719-110">Отображает диалоговое окно, что позволяет пользователям выбирать доступные пакета расширения XML для присоединения в активный документ Microsoft Office Word 2003 или Microsoft Office Excel 2003 книгу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-110">Displays a dialog box which allows the user to choose an available XML expansion pack to attach to the active Microsoft Office Word 2003 document or Microsoft Office Excel 2003 workbook.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="7c719-111">
-            <para>Используйте метод <b>PickSolution</b> , чтобы разрешить пользователю выбрать пакет расширения XML из списка. Схема, вложенная в активный документ или книга определяет, какие пакеты расширения XML могут быть применены.</para> Метод 
-          <para><b>PickSolution</b> не возвращает значение, указывающее, выбран пакет расширения XML или нажатии этой кнопки "Отмена" в диалоговом окне пользователя. Проверка <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" /> свойство после вызова <b>PickSolution</b> , чтобы определить, добавлен ли пакет расширения XML.</para><para>, Если разработчик смарт-документ не удалось задать «targetApplication» в файле манифеста пакета расширения XML, список, отображаемые <b>PickSolution</b> может включать пакеты расширения XML, не предназначенные для активного приложения; например, Excel при установке будет отображаться пакеты расширения XML, предназначенных исключительно для Word. В этой ситуации, пользователь может выбрать пакета расширения XML, который не подходит для активного приложения.</para><para>Дополнительные сведения о смарт-документы или пакеты расширения XML для смарт-документов можно найти в смарт-документ Software Development Kit (SDK) на веб-сайте Microsoft Developer Network (MSDN).</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-111">
-              <para>Use the <b>PickSolution</b> method to allow the user to select an XML expansion pack from a list. The schema attached to the active document or workbook determines which XML expansion packs are applicable.</para>
-              <para>The <b>PickSolution</b> method does not return a value to indicate whether the user selected an XML expansion pack or clicked Cancel in the dialog box. Check the <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" /> property after calling <b>PickSolution</b> to determine whether an XML expansion pack has been attached.</para>
-              <para>If the smart document developer has failed to specify "targetApplication" in the XML expansion pack manifest file, the list displayed by <b>PickSolution</b> may include XML expansion packs that are not targeted to the active application; for example, an Excel user may see XML expansion packs targeted exclusively to Word. In these circumstances, the user may select an XML expansion pack that is not appropriate for the active application.</para>
-              <para>For more information on smart documents or XML expansion packs for smart documents, please see the Smart Document Software Development Kit (SDK) on the Microsoft Developer Network (MSDN) Web site.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="ConsiderAllSchemas"><span data-ttu-id="1e6d7-106">Необязательный атрибут типа <b>Boolean</b>.</span><span class="sxs-lookup"><span data-stu-id="1e6d7-106">Optional <b>Boolean</b>.</span></span> <span data-ttu-id="1e6d7-107"><b>True</b> отображает все доступные пакеты расширения XML, установленные на компьютере пользователя.</span><span class="sxs-lookup"><span data-stu-id="1e6d7-107"><b>True</b> displays all available XML expansion packs installed on the user's computer.</span></span> <span data-ttu-id="1e6d7-108"><b>False</b> — отображает только пакеты расширения XML, применяемые к активному документу.</span><span class="sxs-lookup"><span data-stu-id="1e6d7-108"><b>False</b> displays only XML expansion packs applicable to the active document.</span></span> <span data-ttu-id="1e6d7-109">Значение по умолчанию — <b>false</b>.</span><span class="sxs-lookup"><span data-stu-id="1e6d7-109">Default value is <b>False</b>.</span></span></param>
+        <summary><span data-ttu-id="1e6d7-110">Отображает диалоговое окно, позволяющее пользователю выбрать доступный пакет расширения XML, чтобы присоединиться к активному документу Microsoft Office Word 2003 или книге Microsoft Office Excel 2003.</span><span class="sxs-lookup"><span data-stu-id="1e6d7-110">Displays a dialog box which allows the user to choose an available XML expansion pack to attach to the active Microsoft Office Word 2003 document or Microsoft Office Excel 2003 workbook.</span></span></summary>
+        <remarks><span data-ttu-id="1e6d7-111"><para>Используйте метод <b>пикксолутион</b> , чтобы разрешить пользователю выбирать пакет расширения XML из списка. Схема, присоединенная к активному документу или книге, определяет, какие пакеты расширения XML применяются.</para> 
+          <para>Метод <b>пикксолутион</b> не возвращает значение, указывающее, выбрал ли пользователь пакет расширения XML или кнопку Отмена в диалоговом окне. Проверьте <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" /> свойство после вызова <b>пикксолутион</b> , чтобы определить, был ли присоединен пакет расширения XML.</para> 
+          <para>Если разработчику смарт-документа не удалось указать "таржетаппликатион" в файле манифеста пакета расширения XML, то список, отображаемый в <b>пикксолутион</b> , может ВКЛЮЧАТЬ пакеты расширения XML, которые не предназначены для активного приложения; например, пользователь Excel может просматривать пакеты расширения XML, предназначенные исключительно для Word. В таких случаях пользователь может выбрать пакет расширения XML, который не подходит для активного приложения.</para> 
+          <para>Дополнительные сведения о смарт-документах или пакетах расширения XML для смарт-документов можно найти в разделе пакет средств разработки смарт-документов (SDK) на веб-сайте Microsoft Developer Network (MSDN).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1e6d7-111"><para>Use the <b>PickSolution</b> method to allow the user to select an XML expansion pack from a list. The schema attached to the active document or workbook determines which XML expansion packs are applicable.</para>
+          <para>The <b>PickSolution</b> method does not return a value to indicate whether the user selected an XML expansion pack or clicked Cancel in the dialog box. Check the <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" /> property after calling <b>PickSolution</b> to determine whether an XML expansion pack has been attached.</para>
+          <para>If the smart document developer has failed to specify "targetApplication" in the XML expansion pack manifest file, the list displayed by <b>PickSolution</b> may include XML expansion packs that are not targeted to the active application; for example, an Excel user may see XML expansion packs targeted exclusively to Word. In these circumstances, the user may select an XML expansion pack that is not appropriate for the active application.</para>
+          <para>For more information on smart documents or XML expansion packs for smart documents, please see the Smart Document Software Development Kit (SDK) on the Microsoft Developer Network (MSDN) Web site.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="RefreshPane">
@@ -224,24 +156,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="7c719-112">Обновление области задач действия с документами для активных документов Microsoft Office Word 2003 или книги Microsoft Office Excel 2003.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-112">Refreshes the Document Actions task pane for the active Microsoft Office Word 2003 document or Microsoft Office Excel 2003 workbook.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="7c719-113">
-            <para>Метод <b>RefreshPane</b> вызывает ошибку, если активный документ не присоединен пакет расширения XML.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-113">
-              <para>The <b>RefreshPane</b> method raises an error if the active document does not have an XML expansion pack attached.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="1e6d7-112">Обновляет область задач "действия с документами" для активного документа Microsoft Office Word 2003 или книги Microsoft Office Excel 2003.</span><span class="sxs-lookup"><span data-stu-id="1e6d7-112">Refreshes the Document Actions task pane for the active Microsoft Office Word 2003 document or Microsoft Office Excel 2003 workbook.</span></span></summary>
+        <remarks><span data-ttu-id="1e6d7-113"><para>Метод <b>рефрешпане</b> вызывает ошибку, если с активным документом не присоединен пакет расширения XML.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1e6d7-113"><para>The <b>RefreshPane</b> method raises an error if the active document does not have an XML expansion pack attached.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="SolutionID">
@@ -270,27 +188,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7c719-114">Возвращает или задает идентификатор, часто глобальный уникальный идентификатор (GUID), определяющий пакета расширения XML, вложенная в активный документ Microsoft Office Word 2003 или книги Microsoft Office Excel 2003.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-114">Returns or sets the ID, often a globally unique identifier (GUID), which identifies the XML expansion pack attached to the active Microsoft Office Word 2003 document or Microsoft Office Excel 2003 workbook.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1e6d7-114">Возвращает или задает идентификатор, часто являющийся глобальным уникальным идентификатором (GUID), который определяет пакет расширения XML, присоединенный к активному документу Microsoft Office Word 2003 или книге Microsoft Office Excel 2003.</span><span class="sxs-lookup"><span data-stu-id="1e6d7-114">Returns or sets the ID, often a globally unique identifier (GUID), which identifies the XML expansion pack attached to the active Microsoft Office Word 2003 document or Microsoft Office Excel 2003 workbook.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="7c719-115">
-            <para>Свойство <b>SolutionID</b> возвращает пустую строку или «None», при подключении без пакета расширения XML в активный документ.</para>
-            <para>Предоставление подходящие значения для <b>SolutionID</b> и <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" /> пакет обновления свойств для присоединения доступные расширения XML в активный документ, ее можно преобразовать в смарт-документ без использования <see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" /> метод. Установите свойства <b>SolutionID</b> и <b>SolutionURL</b> пустые строки, чтобы удалить присоединенные пакета расширения XML.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-115">
-              <para>The <b>SolutionID</b> property returns an empty string or "None" when no XML expansion pack is attached to the active document.</para>
-              <para>Provide appropriate values for the <b>SolutionID</b> and <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" /> properties to attach an available XML expansion pack to the active document to transform it into a smart document without using the <see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" /> method. Set the <b>SolutionID</b> and <b>SolutionURL</b> properties to empty strings to remove the attached XML expansion pack.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="1e6d7-115"><para>Свойство <b>SolutionId</b> возвращает пустую строку или значение "None", если к активному документу не присоединен пакет расширения XML.</para> 
+          <para>Укажите соответствующие значения для <b>SolutionId</b> и <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" /> свойства, чтобы подключить доступный пакет расширения XML к активному документу, чтобы преобразовать его в смарт-документ без использования <see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" /> метода. Задайте для свойств <b>SolutionId</b> и <b>солутионурл</b> пустые строки, чтобы удалить Присоединенный пакет расширения XML.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1e6d7-115"><para>The <b>SolutionID</b> property returns an empty string or "None" when no XML expansion pack is attached to the active document.</para>
+          <para>Provide appropriate values for the <b>SolutionID</b> and <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" /> properties to attach an available XML expansion pack to the active document to transform it into a smart document without using the <see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" /> method. Set the <b>SolutionID</b> and <b>SolutionURL</b> properties to empty strings to remove the attached XML expansion pack.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="SolutionURL">
@@ -319,27 +223,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7c719-116">Возвращает или задает абсолютный URL-адрес, который предоставляет полный путь для файла пакета расширения XML, вложенная в активный документ Microsoft Office Word 2003 или книги Microsoft Office Excel 2003.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-116">Returns or sets an absolute URL that provides the complete path to the XML expansion pack file attached to the active Microsoft Office Word 2003 document or Microsoft Office Excel 2003 workbook.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1e6d7-116">Возвращает или задает абсолютный URL-адрес, который предоставляет полный путь к файлу пакета расширения XML, прикрепленному к активному документу Microsoft Office Word 2003 или книге Microsoft Office Excel 2003.</span><span class="sxs-lookup"><span data-stu-id="1e6d7-116">Returns or sets an absolute URL that provides the complete path to the XML expansion pack file attached to the active Microsoft Office Word 2003 document or Microsoft Office Excel 2003 workbook.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="7c719-117">
-            <para>Свойство <b>SolutionURL</b> возвращает пустую строку при подключении без пакета расширения XML в активный документ.</para>
-            <para>Предоставление подходящие значения для свойств <b>SolutionID</b> и <b>SolutionURL</b> присоединение доступные расширения XML пакет в активный документ и преобразует его в смарт-документ без использования метода <b>PickSolution</b> . Установите свойства <b>SolutionID</b> и <b>SolutionURL</b> пустые строки, чтобы удалить присоединенные пакета расширения XML</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c719-117">
-              <para>The <b>SolutionURL</b> property returns an empty string when no XML expansion pack is attached to the active document.</para>
-              <para>Provide appropriate values for the <b>SolutionID</b> and <b>SolutionURL</b> properties to attach an available XML expansion pack to the active document and transform it into a smart document without using the <b>PickSolution</b> method. Set the <b>SolutionID</b> and <b>SolutionURL</b> properties to empty strings to remove the attached XML expansion pack</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="1e6d7-117"><para>Свойство <b>солутионурл</b> возвращает пустую строку, если к активному документу не присоединен пакет расширения XML.</para> 
+          <para>Укажите соответствующие значения свойств <b>SolutionId</b> и <b>солутионурл</b> , чтобы подключить доступный пакет расширения XML к активному документу и преобразовать его в смарт-документ без использования метода <b>пикксолутион</b> . Задайте для свойств <b>SolutionId</b> и <b>солутионурл</b> пустые строки, чтобы удалить ПРИСОЕДИНЕНный пакет расширения XML</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="1e6d7-117"><para>The <b>SolutionURL</b> property returns an empty string when no XML expansion pack is attached to the active document.</para>
+          <para>Provide appropriate values for the <b>SolutionID</b> and <b>SolutionURL</b> properties to attach an available XML expansion pack to the active document and transform it into a smart document without using the <b>PickSolution</b> method. Set the <b>SolutionID</b> and <b>SolutionURL</b> properties to empty strings to remove the attached XML expansion pack</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

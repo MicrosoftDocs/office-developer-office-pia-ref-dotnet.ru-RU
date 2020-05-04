@@ -1,13 +1,5 @@
 <Type Name="WorkflowTemplate" FullName="Microsoft.Office.Core.WorkflowTemplate">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="504925d0b2994ff9ce1bda3bf82bd77ace041e6b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662368" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface WorkflowTemplate : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="504925d0b2994ff9ce1bda3bf82bd77ace041e6b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662368" /></Metadata><TypeSignature Language="C#" Value="public interface WorkflowTemplate : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract WorkflowTemplate implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.WorkflowTemplate" />
   <TypeSignature Language="VB.NET" Value="Public Interface WorkflowTemplate&#xA;Implements _IMsoDispObj" />
@@ -30,24 +22,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="bf75c-101">Представляет один из рабочих процессов, доступных для текущего документа.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bf75c-101">Represents one of the workflows available for the current document.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="bf75c-102">
-        <para>Объект <b>рабочего процесса со</b> соответствует один из вариантов, отображаемые в диалоговом окне Запуск нового рабочего процесса. На веб-странице шаблонов рабочих процессов отображаются в виде списка параметров.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bf75c-102">
-          <para>A <b>WorkflowTemplate</b> object corresponds to one of the options displayed in the Start New Workflow dialog box. On a Web page, the workflow templates are displayed as a list of options.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="27557-101">Представляет один из рабочих процессов, доступных для текущего документа.</span><span class="sxs-lookup"><span data-stu-id="27557-101">Represents one of the workflows available for the current document.</span></span></summary>
+    <remarks><span data-ttu-id="27557-102"><para>Объект <b>WorkflowTemplate</b> соответствует одному из параметров, отображаемых в диалоговом окне "Запуск нового рабочего процесса". На веб-странице шаблоны рабочих процессов отображаются в виде списка параметров.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="27557-102"><para>A <b>WorkflowTemplate</b> object corresponds to one of the options displayed in the Start New Workflow dialog box. On a Web page, the workflow templates are displayed as a list of options.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -76,26 +54,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bf75c-103">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-103">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> object.</span>
-          </span>
-          <span data-ttu-id="bf75c-104">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-104">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="bf75c-105">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-105">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="27557-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="27557-103">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> object.</span></span> <span data-ttu-id="27557-104">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="27557-104">Read-only.</span></span></summary>
+        <value><span data-ttu-id="27557-105"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="27557-105"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -125,26 +85,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bf75c-106">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-106">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> object was created.</span>
-          </span>
-          <span data-ttu-id="bf75c-107">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-107">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="bf75c-108">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-108">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="27557-106">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="27557-106">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> object was created.</span></span> <span data-ttu-id="27557-107">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="27557-107">Read-only.</span></span></summary>
+        <value><span data-ttu-id="27557-108"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="27557-108"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -171,26 +113,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bf75c-109">Получает описание шаблона рабочего процесса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-109">Gets the description of a workflow template.</span>
-          </span>
-          <span data-ttu-id="bf75c-110">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-110">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="bf75c-111">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-111">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="27557-109">Получает описание шаблона рабочего процесса.</span><span class="sxs-lookup"><span data-stu-id="27557-109">Gets the description of a workflow template.</span></span> <span data-ttu-id="27557-110">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="27557-110">Read-only.</span></span></summary>
+        <value><span data-ttu-id="27557-111"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="27557-111"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -217,26 +141,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bf75c-112">Возвращает имя библиотеки документов, связанные с шаблоном рабочего процесса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-112">Gets the name of the document library associated with the  workflow template.</span>
-          </span>
-          <span data-ttu-id="bf75c-113">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-113">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="bf75c-114">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-114">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="27557-112">Получает имя библиотеки документов, связанной с шаблоном рабочего процесса.</span><span class="sxs-lookup"><span data-stu-id="27557-112">Gets the name of the document library associated with the  workflow template.</span></span> <span data-ttu-id="27557-113">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="27557-113">Read-only.</span></span></summary>
+        <value><span data-ttu-id="27557-114"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="27557-114"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -263,26 +169,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bf75c-115">Получает URL-адрес библиотеки документов, где хранятся шаблоны рабочих процессов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-115">Gets the URL address of the document library where workflow templates are stored.</span>
-          </span>
-          <span data-ttu-id="bf75c-116">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-116">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="bf75c-117">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-117">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="27557-115">Получает URL-адрес библиотеки документов, в которой хранятся шаблоны рабочих процессов.</span><span class="sxs-lookup"><span data-stu-id="27557-115">Gets the URL address of the document library where workflow templates are stored.</span></span> <span data-ttu-id="27557-116">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="27557-116">Read-only.</span></span></summary>
+        <value><span data-ttu-id="27557-117"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="27557-117"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -309,26 +197,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bf75c-118">Получает идентификатор шаблона, используемого для создания экземпляра рабочего процесса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-118">Gets the ID of a template used to create a workflow instance.</span>
-          </span>
-          <span data-ttu-id="bf75c-119">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-119">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="bf75c-120">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-120">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="27557-118">Получает идентификатор шаблона, используемого для создания экземпляра рабочего процесса.</span><span class="sxs-lookup"><span data-stu-id="27557-118">Gets the ID of a template used to create a workflow instance.</span></span> <span data-ttu-id="27557-119">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="27557-119">Read-only.</span></span></summary>
+        <value><span data-ttu-id="27557-120"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="27557-120"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -355,26 +225,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bf75c-121">Получает имя <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-121">Gets the name of the <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> object.</span>
-          </span>
-          <span data-ttu-id="bf75c-122">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-122">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="bf75c-123">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-123">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="27557-121">Получает имя <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="27557-121">Gets the name of the <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> object.</span></span> <span data-ttu-id="27557-122">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="27557-122">Read-only.</span></span></summary>
+        <value><span data-ttu-id="27557-123"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="27557-123"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -399,22 +251,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="bf75c-124">Отображает пользовательский интерфейс определенной конфигурации рабочего процесса для указанного <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-124">Displays a workflow specific configuration user interface for the specified <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="bf75c-125">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bf75c-125">
-              <b>Integer</b>
-            </span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="27557-124">Отображает пользовательский интерфейс для определенного <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> объекта конфигурации рабочего процесса.</span><span class="sxs-lookup"><span data-stu-id="27557-124">Displays a workflow specific configuration user interface for the specified <see cref="T:Microsoft.Office.Core.WorkflowTemplate" /> object.</span></span></summary>
+        <returns><span data-ttu-id="27557-125"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="27557-125"><b>Integer</b></span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

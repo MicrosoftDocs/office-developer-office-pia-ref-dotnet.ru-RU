@@ -1,13 +1,5 @@
 <Type Name="EffectParameter" FullName="Microsoft.Office.Core.EffectParameter">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f2aafd1235dc325f0ae84aeadc6e7ebf7838cc47" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662053" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface EffectParameter : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f2aafd1235dc325f0ae84aeadc6e7ebf7838cc47" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662053" /></Metadata><TypeSignature Language="C#" Value="public interface EffectParameter : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract EffectParameter implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.EffectParameter" />
   <TypeSignature Language="VB.NET" Value="Public Interface EffectParameter&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="32658-101">Описывает один параметр влияние рисунков.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="32658-101">Describes a single Picture Effect parameter.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="b50b7-101">Описывает один параметр "Рисунок".</span><span class="sxs-lookup"><span data-stu-id="b50b7-101">Describes a single Picture Effect parameter.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -65,25 +52,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="32658-102">Получает объект <b>приложения</b> , представляющий приложение-контейнер для объекта <b>EffectParameter</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="32658-102">Gets an <b>Application</b> object that represents the container application for the <b>EffectParameter</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b50b7-102">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта <b>EffectParameter</b> .</span><span class="sxs-lookup"><span data-stu-id="b50b7-102">Gets an <b>Application</b> object that represents the container application for the <b>EffectParameter</b> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="32658-103">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="32658-103">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="b50b7-103"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b50b7-103"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -112,25 +85,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="32658-104">Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>EffectParameter</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="32658-104">Gets a 32-bit integer that indicates the application in which the <b>EffectParameter</b> object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b50b7-104">Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>EffectParameter</b> .</span><span class="sxs-lookup"><span data-stu-id="b50b7-104">Gets a 32-bit integer that indicates the application in which the <b>EffectParameter</b> object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="32658-105">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="32658-105">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="b50b7-105"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b50b7-105"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -156,25 +115,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="32658-106">Получает имя строки параметра <b>EffectParameter</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="32658-106">Gets the string name of the <b>EffectParameter</b>parameter.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b50b7-106">Получает строковое имя параметра <b>EffectParameter</b>.</span><span class="sxs-lookup"><span data-stu-id="b50b7-106">Gets the string name of the <b>EffectParameter</b>parameter.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="32658-107">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="32658-107">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="b50b7-107"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b50b7-107"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -203,25 +148,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="32658-108">Получает или задает значение объекта <b>EffectParameter</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="32658-108">Gets or sets the value of the <b>EffectParameter</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b50b7-108">Получает или задает значение объекта <b>EffectParameter</b> .</span><span class="sxs-lookup"><span data-stu-id="b50b7-108">Gets or sets the value of the <b>EffectParameter</b> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="32658-109">
-            <para>Чтение и запись.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="32658-109">
-              <para>Read/write.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="b50b7-109"><para>Чтение и запись.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="b50b7-109"><para>Read/write.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

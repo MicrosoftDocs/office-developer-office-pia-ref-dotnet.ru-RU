@@ -1,13 +1,5 @@
 <Type Name="MsoPresetLightingDirection" FullName="Microsoft.Office.Core.MsoPresetLightingDirection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9552305628cd503ccfae92d92a2f397c80cda572" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661690" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetLightingDirection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9552305628cd503ccfae92d92a2f397c80cda572" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661690" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetLightingDirection" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetLightingDirection extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetLightingDirection" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetLightingDirection" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="6f1e6-101">Указывает расположение освещения на вытянутый (трехмерную) фигуры относительно фигуры.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6f1e6-101">Specifies the location of lighting on an extruded (three-dimensional) shape relative to the shape.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="55bec-101">Задает расположение освещения на вытянутой (трехмерной) фигуре относительно фигуры.</span><span class="sxs-lookup"><span data-stu-id="55bec-101">Specifies the location of lighting on an extruded (three-dimensional) shape relative to the shape.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6f1e6-102">Освещение, поступающие в нижней части.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6f1e6-102">Lighting comes from the bottom.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="55bec-102">Освещение поступает из нижней части.</span><span class="sxs-lookup"><span data-stu-id="55bec-102">Lighting comes from the bottom.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingBottomLeft">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6f1e6-103">Освещение, поступающие из внизу слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6f1e6-103">Lighting comes from the bottom left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="55bec-103">Освещение поступает из нижнего левого угла.</span><span class="sxs-lookup"><span data-stu-id="55bec-103">Lighting comes from the bottom left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingBottomRight">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6f1e6-104">Освещение, поступающие из внизу справа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6f1e6-104">Lighting comes from the bottom right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="55bec-104">Освещение поступает из правого нижнего края.</span><span class="sxs-lookup"><span data-stu-id="55bec-104">Lighting comes from the bottom right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingLeft">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6f1e6-105">Освещение, поступающие из слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6f1e6-105">Lighting comes from the left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="55bec-105">Освещение поступает из левой части.</span><span class="sxs-lookup"><span data-stu-id="55bec-105">Lighting comes from the left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingNone">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6f1e6-106">Нет освещения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6f1e6-106">No lighting.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="55bec-106">Нет освещения.</span><span class="sxs-lookup"><span data-stu-id="55bec-106">No lighting.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingRight">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6f1e6-107">Освещение, поступающие из вправо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6f1e6-107">Lighting comes from the right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="55bec-107">Освещение поступает из правой части.</span><span class="sxs-lookup"><span data-stu-id="55bec-107">Lighting comes from the right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingTop">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6f1e6-108">Освещение, поступающие из верхней.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6f1e6-108">Lighting comes from the top.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="55bec-108">Освещение поступает сверху.</span><span class="sxs-lookup"><span data-stu-id="55bec-108">Lighting comes from the top.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingTopLeft">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6f1e6-109">Освещение, поступающие из сверху слева.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6f1e6-109">Lighting comes from the top left.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="55bec-109">Освещение поступает из левого верхнего угла.</span><span class="sxs-lookup"><span data-stu-id="55bec-109">Lighting comes from the top left.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLightingTopRight">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6f1e6-110">Освещение, поступающие в верхнем правом углу.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6f1e6-110">Lighting comes from the top right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="55bec-110">Освещение поступает из правого верхнего края.</span><span class="sxs-lookup"><span data-stu-id="55bec-110">Lighting comes from the top right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPresetLightingDirectionMixed">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6f1e6-111">Не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6f1e6-111">Not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="55bec-111">Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="55bec-111">Not supported.</span></span></summary>
       </Docs>
     </Member>
   </Members>

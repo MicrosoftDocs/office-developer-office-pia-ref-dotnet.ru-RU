@@ -1,13 +1,5 @@
 <Type Name="RulerLevels2" FullName="Microsoft.Office.Core.RulerLevels2">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="39146bf9bc9bf810f130e2d94177956e415fa60e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661667" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RulerLevels2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="39146bf9bc9bf810f130e2d94177956e415fa60e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661667" /></Metadata><TypeSignature Language="C#" Value="public interface RulerLevels2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RulerLevels2 implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.RulerLevels2" />
   <TypeSignature Language="VB.NET" Value="Public Interface RulerLevels2&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,24 +25,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="a0e8c-101">Коллекция всех <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объектов на указанном линейки.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a0e8c-101">A collection of all the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> objects on the specified ruler.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="a0e8c-102">
-        <para>Каждый <see cref="T:Microsoft.Office.Core.RulerLevel2" /> первой строки и левый отступ для текста на уровне конкретной структуры которого представляет объект. Эта коллекция всегда содержит пять элементов — один для каждого из уровней структуры недоступны.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a0e8c-102">
-          <para>Each <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object represents the first-line and left indent for text at a particular outline level. This collection always contains five members — one for each of the available outline levels.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="9e730-101">Коллекция всех <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объектов на указанной линейке.</span><span class="sxs-lookup"><span data-stu-id="9e730-101">A collection of all the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> objects on the specified ruler.</span></span></summary>
+    <remarks><span data-ttu-id="9e730-102"><para>Каждый <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объект представляет отступы первой строки и левого края для текста на определенном уровне структуры. Эта коллекция всегда содержит пять элементов (по одному для каждого из доступных уровней структуры).</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="9e730-102"><para>Each <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object represents the first-line and left indent for text at a particular outline level. This collection always contains five members — one for each of the available outline levels.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -79,26 +57,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a0e8c-103">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-103">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object.</span>
-          </span>
-          <span data-ttu-id="a0e8c-104">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-104">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a0e8c-105">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-105">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="9e730-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="9e730-103">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object.</span></span> <span data-ttu-id="9e730-104">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9e730-104">Read-only.</span></span></summary>
+        <value><span data-ttu-id="9e730-105"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="9e730-105"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -125,26 +85,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a0e8c-106">Возвращает <b>целое число</b> , указывающее количество элементов в <see cref="T:Microsoft.Office.Core.RulerLevel2" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-106">Gets a <b>Integer</b> indicating the number of items in the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> collection.</span>
-          </span>
-          <span data-ttu-id="a0e8c-107">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-107">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a0e8c-108">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-108">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="9e730-106">Возвращает <b>целое</b> число, указывающее количество элементов в <see cref="T:Microsoft.Office.Core.RulerLevel2" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="9e730-106">Gets a <b>Integer</b> indicating the number of items in the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> collection.</span></span> <span data-ttu-id="9e730-107">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9e730-107">Read-only.</span></span></summary>
+        <value><span data-ttu-id="9e730-108"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="9e730-108"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -174,26 +116,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a0e8c-109">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.RulerLevel2" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-109">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object was created.</span>
-          </span>
-          <span data-ttu-id="a0e8c-110">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-110">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a0e8c-111">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-111">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="9e730-109">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.RulerLevel2" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="9e730-109">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object was created.</span></span> <span data-ttu-id="9e730-110">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9e730-110">Read-only.</span></span></summary>
+        <value><span data-ttu-id="9e730-111"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="9e730-111"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -252,21 +176,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="a0e8c-112">Номер индекса объекта должно быть возвращено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-112">The index number of the object to be returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="a0e8c-113">Получает элемент <see cref="T:Microsoft.Office.Core.RulerLevel2" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-113">Gets a member of the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.RulerLevel2" />
-        </returns>
+        <param name="Index"><span data-ttu-id="9e730-112">Номер индекса возвращаемого объекта.</span><span class="sxs-lookup"><span data-stu-id="9e730-112">The index number of the object to be returned.</span></span></param>
+        <summary><span data-ttu-id="9e730-113">Получает элемент <see cref="T:Microsoft.Office.Core.RulerLevel2" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="9e730-113">Gets a member of the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> collection.</span></span></summary>
+        <returns><see cref="T:Microsoft.Office.Core.RulerLevel2" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -293,26 +205,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a0e8c-114">Получает родительский объект для <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-114">Gets the parent object for the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object.</span>
-          </span>
-          <span data-ttu-id="a0e8c-115">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-115">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a0e8c-116">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a0e8c-116">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="9e730-114">Получает родительский объект для <see cref="T:Microsoft.Office.Core.RulerLevel2" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="9e730-114">Gets the parent object for the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object.</span></span> <span data-ttu-id="9e730-115">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9e730-115">Read-only.</span></span></summary>
+        <value><span data-ttu-id="9e730-116"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="9e730-116"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

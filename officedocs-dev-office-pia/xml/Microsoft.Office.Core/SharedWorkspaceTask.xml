@@ -1,13 +1,5 @@
 <Type Name="SharedWorkspaceTask" FullName="Microsoft.Office.Core.SharedWorkspaceTask">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="269af9eed73565e3123231fe6db6c8beaa6ea80c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661948" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SharedWorkspaceTask : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="269af9eed73565e3123231fe6db6c8beaa6ea80c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661948" /></Metadata><TypeSignature Language="C#" Value="public interface SharedWorkspaceTask : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SharedWorkspaceTask implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SharedWorkspaceTask" />
   <TypeSignature Language="VB.NET" Value="Public Interface SharedWorkspaceTask&#xA;Implements _IMsoDispObj" />
@@ -30,33 +22,24 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="d5e12-101">Этот объект, член или перечисление относятся к числу нерекомендуемых и не предназначен для использования в вашем коде. Объект <b>SharedWorkspaceTask</b> представляет задачу в рабочей области для общих документов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d5e12-101">This object, member, or enumeration is deprecated and is not intended to be used in your code.The <b>SharedWorkspaceTask</b> object represents a task in a shared document workspace.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="d5e12-102">
-        <para>Этот объект является членом <see cref="T:Microsoft.Office.Core.SharedWorkspaceTasks" /> семейства.</para>
-        <para>Использовать объект <b>SharedWorkspaceTask</b> для управления задач, назначенных участникам, которые в документы в общей рабочей области совместной работе.</para>
-        <para>Использование <b>элемента</b>(<paramref name="index" />) методу коллекции <b>SharedWorkspaceTasks</b> для получения определенного объекта <b>SharedWorkspaceTask</b> .</para>
-        <para>Использования <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Title" /> свойство, чтобы задать текст задач, которое будет отображаться на вкладке задачи область задач общей рабочей области и на веб-странице общей рабочей области. Использование <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Description" /> свойство, чтобы предоставить дополнительные сведения о задаче.</para> С помощью 
-      <para>назначить задачу для участником рабочей области <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.AssignedTo" /> свойство и его доменное имя пользователя. Укажите дату завершения для задачи с помощью <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.DueDate" /> свойство.</para><para>Использования <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Priority" /> и <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Status" /> свойства для указания относительной важности задачи и обновить состояние задачи.</para><para>Использования <see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" /> метод для отправки изменений на сервер после изменения свойства объекта <b>SharedWorkspaceTask</b> .</para><para>Использования <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.CreatedBy" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.CreatedDate" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.ModifiedBy" />, и <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.ModifiedDate" /> свойства, чтобы получить сведения об истории каждой задачи.</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d5e12-102">
-          <para>This object is a member of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceTasks" /> collection.</para>
-          <para>Use the <b>SharedWorkspaceTask</b> object to manage tasks assigned to the members who are collaborating on the document(s) in the shared workspace.</para>
-          <para>Use the <b>Item</b>(<paramref name="index" />) method of the <b>SharedWorkspaceTasks</b> collection to return a specific <b>SharedWorkspaceTask</b> object.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Title" /> property to set the text of the task that will appear on the Tasks tab of the Shared Workspace task pane and on the shared workspace Web page. Use the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Description" /> property to supply additional information about the task.</para>
-          <para>Assign the task to a member of the workspace using the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.AssignedTo" /> property and the member's domain user name. Specify a due date for the task using the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.DueDate" /> property.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Priority" /> and <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Status" /> properties to indicate the relative importance of the task and to update the task's status.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" /> method to upload changes to the server after you modify properties of the <b>SharedWorkspaceTask</b> object.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.CreatedBy" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.CreatedDate" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.ModifiedBy" />, and <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.ModifiedDate" /> properties to return information about the history of each task.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="462a8-101">Этот объект, элемент или перечисление устарели и не предназначены для использования в вашем коде. Объект <b>SharedWorkspaceTask</b> представляет задачу в общей рабочей области для документов.</span><span class="sxs-lookup"><span data-stu-id="462a8-101">This object, member, or enumeration is deprecated and is not intended to be used in your code.The <b>SharedWorkspaceTask</b> object represents a task in a shared document workspace.</span></span></summary>
+    <remarks><span data-ttu-id="462a8-102"><para>Этот объект является элементом <see cref="T:Microsoft.Office.Core.SharedWorkspaceTasks" /> коллекции.</para> 
+      <para>Используйте объект <b>SharedWorkspaceTask</b> для управления задачами, назначенными участникам, которые совместно работают над документами в общей рабочей области.</para> 
+      <para>Используйте метод <b>Item</b>(<paramref name="index" />) коллекции <b>SharedWorkspaceTasks</b> , чтобы возвратить определенный объект <b>SharedWorkspaceTask</b> .</para> 
+      <para>Используйте <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Title" /> свойство, чтобы задать текст задачи, которая будет отображаться на вкладке задачи в области задач Общая рабочая область и на веб-странице Общая рабочая область. Используйте <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Description" /> свойство, чтобы указать дополнительные сведения о задаче.</para> 
+      <para>Назначьте задачу участнику рабочей области с помощью <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.AssignedTo" /> свойства и имени пользователя домена участника. Укажите срок выполнения задачи <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.DueDate" /> с помощью свойства.</para> 
+      <para>Используйте свойства <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Priority" /> и <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Status" /> , чтобы указать относительную важность задачи и обновить состояние задачи.</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" /> метод для отправки изменений на сервер после изменения свойств объекта <b>SharedWorkspaceTask</b> .</para> 
+      <para>Используйте свойства <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.CreatedBy" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.CreatedDate" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.ModifiedBy" />и <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.ModifiedDate" /> , чтобы получить сведения о журнале каждой задачи.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-102"><para>This object is a member of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceTasks" /> collection.</para>
+      <para>Use the <b>SharedWorkspaceTask</b> object to manage tasks assigned to the members who are collaborating on the document(s) in the shared workspace.</para>
+      <para>Use the <b>Item</b>(<paramref name="index" />) method of the <b>SharedWorkspaceTasks</b> collection to return a specific <b>SharedWorkspaceTask</b> object.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Title" /> property to set the text of the task that will appear on the Tasks tab of the Shared Workspace task pane and on the shared workspace Web page. Use the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Description" /> property to supply additional information about the task.</para>
+      <para>Assign the task to a member of the workspace using the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.AssignedTo" /> property and the member's domain user name. Specify a due date for the task using the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.DueDate" /> property.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Priority" /> and <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Status" /> properties to indicate the relative importance of the task and to update the task's status.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" /> method to upload changes to the server after you modify properties of the <b>SharedWorkspaceTask</b> object.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.CreatedBy" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.CreatedDate" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.ModifiedBy" />, and <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.ModifiedDate" /> properties to return information about the history of each task.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -85,12 +68,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-103">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="462a8-103">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -121,25 +99,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-104">Возвращает или задает <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> к которому назначена задача.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-104">Returns or sets the <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> to whom the task is assigned.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-104">Возвращает или задает значение <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> , указывающее, кому назначена задача.</span><span class="sxs-lookup"><span data-stu-id="462a8-104">Returns or sets the <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> to whom the task is assigned.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5e12-105">
-            <para>Необязательный <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.AssignedTo" /> задач общей рабочей области Возвращает отображаемое имя или <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.Name" /> свойства <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> к которому назначена задача. Тем не менее, используйте <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.DomainName" /> свойство <b>SharedWorkspaceMember</b> , чтобы задать это свойство.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-105">
-              <para>The optional <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.AssignedTo" /> property of a shared workspace task returns the display name or <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.Name" /> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> to whom the task is assigned. However, use the <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.DomainName" /> property of a <b>SharedWorkspaceMember</b> to set this property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="462a8-105"><para>Необязательное <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.AssignedTo" /> свойство задачи общей рабочей области Возвращает отображаемое имя или <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.Name" /> свойство, <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> которому назначена задача. Однако для задания этого <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.DomainName" /> свойства используйте свойство <b>SharedWorkspaceMember</b> .</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-105"><para>The optional <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.AssignedTo" /> property of a shared workspace task returns the display name or <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.Name" /> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> to whom the task is assigned. However, use the <see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.DomainName" /> property of a <b>SharedWorkspaceMember</b> to set this property.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreatedBy">
@@ -165,28 +129,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-106">Возвращает понятное имя участника, создавшее этот объект общей рабочей области.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-106">Returns the friendly name of the member who created the shared workspace object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-106">Возвращает понятное имя участника, создавшего объект общей рабочей области.</span><span class="sxs-lookup"><span data-stu-id="462a8-106">Returns the friendly name of the member who created the shared workspace object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5e12-107">
-            <para>Свойство <b>Кем создано</b> Возвращает понятное имя, хранящиеся в свойство <b>Name</b> объекта <b>DWSMember</b> .</para>
-            <para>
-              <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> И <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> объекты не имеют свойство <b>Кем создано</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-107">
-              <para>The <b>CreatedBy</b> property returns the friendly name stored in the <b>Name</b> property of the <b>DWSMember</b> object.</para>
-              <para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> and <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> objects do not have a <b>CreatedBy</b> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="462a8-107"><para>Свойство <b>CreatedBy</b> возвращает понятное имя, хранящееся в свойстве <b>Name</b> объекта <b>двсмембер</b> .</para> 
+          <para>Объекты <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> и <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> не имеют свойства <b>CreatedBy</b> .</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-107"><para>The <b>CreatedBy</b> property returns the friendly name stored in the <b>Name</b> property of the <b>DWSMember</b> object.</para>
+          <para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> and <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> objects do not have a <b>CreatedBy</b> property.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreatedDate">
@@ -212,26 +161,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-108">Возвращает дату и время создания объекта общей рабочей области.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-108">Returns the date and time when the shared workspace object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-108">Возвращает дату и время создания объекта общей рабочей области.</span><span class="sxs-lookup"><span data-stu-id="462a8-108">Returns the date and time when the shared workspace object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5e12-109">
-            <para>
-              <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> И <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> объекты не имеют свойство <b>Дата создания</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-109">
-              <para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> and <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> objects do not have a <b>CreatedDate</b> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="462a8-109"><para>Объекты <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> и <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> не имеют свойства <b>CreatedDate</b> .</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-109"><para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> and <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> objects do not have a <b>CreatedDate</b> property.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -260,27 +194,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-110">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-110">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-110">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="462a8-110">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5e12-111">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-111">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="462a8-111"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-111"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -304,24 +226,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-112">Удаляет текущий объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-112">Deletes the current object.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="d5e12-113">
-            <para>Этот метод завершится ошибкой, если пользователь не имеет разрешения на удаление текущего объекта из общей рабочей области.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-113">
-              <para>This method will fail if the user does not have permission to delete the current object from the shared workspace.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="462a8-112">Удаляет текущий объект.</span><span class="sxs-lookup"><span data-stu-id="462a8-112">Deletes the current object.</span></span></summary>
+        <remarks><span data-ttu-id="462a8-113"><para>Этот метод завершится с ошибками, если у пользователя нет разрешения на удаление текущего объекта из общей рабочей области.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-113"><para>This method will fail if the user does not have permission to delete the current object from the shared workspace.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Description">
@@ -350,25 +258,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-114">Возвращает или задает описательный <b>строковое</b> значение для указанного <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-114">Returns or sets a descriptive <b>String</b> value for the specified <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-114">Возвращает или задает <b>строковое</b> значение с описанием для указанного <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="462a8-114">Returns or sets a descriptive <b>String</b> value for the specified <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5e12-115">
-            <para>Свойство <b>Description</b> является необязательным, когда новой ссылки общей рабочей области или задачи создается и может быть пустым.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-115">
-              <para>The <b>Description</b> property is optional when a new shared workspace link or task is created, and may be empty.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="462a8-115"><para>Свойство <b>Description</b> является необязательным при создании новой ссылки на общую рабочую область или задачи, и может быть пустым.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-115"><para>The <b>Description</b> property is optional when a new shared workspace link or task is created, and may be empty.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="DueDate">
@@ -397,12 +291,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-116">Возвращает или задает необязательный срок выполнения и время <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-116">Returns or sets the optional due date and time of a <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-116">Возвращает или задает необязательную дату и время выполнения <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="462a8-116">Returns or sets the optional due date and time of a <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -430,28 +319,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-117">Возвращает имя пользователя, который последнего изменения объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-117">Returns the name of the user who last modified the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-117">Возвращает имя пользователя, который последним изменил объект.</span><span class="sxs-lookup"><span data-stu-id="462a8-117">Returns the name of the user who last modified the object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5e12-118">
-            <para>Для объектов общей рабочей области, свойство <b>ModifiedBy</b> Возвращает понятное имя, хранящиеся в свойство <b>Name</b> объекта <b>DWSMember</b> .</para>
-            <para>
-              <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> И <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> объекты не имеют свойство <b>ModifiedBy</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-118">
-              <para>For shared workspace objects, the <b>ModifiedBy</b> property returns the friendly name stored in the <b>Name</b> property of the <b>DWSMember</b> object.</para>
-              <para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> and <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> objects do not have a <b>ModifiedBy</b> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="462a8-118"><para>Для объектов общих рабочих областей свойство <b>модифиедби</b> возвращает понятное имя, хранящееся в свойстве <b>Name</b> объекта <b>двсмембер</b> .</para> 
+          <para>Объекты <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> и <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> не имеют свойства <b>модифиедби</b> .</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-118"><para>For shared workspace objects, the <b>ModifiedBy</b> property returns the friendly name stored in the <b>Name</b> property of the <b>DWSMember</b> object.</para>
+          <para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> and <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> objects do not have a <b>ModifiedBy</b> property.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ModifiedDate">
@@ -477,26 +351,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-119">Возвращает дату и время последнего изменения объекта общей рабочей области.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-119">Returns the date and time when the shared workspace object was last modified.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-119">Возвращает дату и время последнего изменения объекта общей рабочей области.</span><span class="sxs-lookup"><span data-stu-id="462a8-119">Returns the date and time when the shared workspace object was last modified.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5e12-120">
-            <para>
-              <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> И <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> объекты не имеют свойство <b>ModifiedDate</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-120">
-              <para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> and <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> objects do not have a <b>ModifiedDate</b> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="462a8-120"><para>Объекты <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> и <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> не имеют свойства <b>ModifiedDate</b> .</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-120"><para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> and <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> objects do not have a <b>ModifiedDate</b> property.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -522,12 +381,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-121">Возвращает <b>родительский</b> объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-121">Returns the <b>Parent</b> object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-121">Возвращает <b>родительский</b> объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="462a8-121">Returns the <b>Parent</b> object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -558,38 +412,27 @@
         <ReturnType>Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-122">Возвращает или задает состояние указанной общей рабочей области задач.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-122">Returns or sets the status of the specified shared workspace task.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-122">Возвращает или задает состояние указанной задачи общей рабочей области.</span><span class="sxs-lookup"><span data-stu-id="462a8-122">Returns or sets the status of the specified shared workspace task.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5e12-123">
-            <para>Можно настроить общую рабочую область схемы задачи на сервере. Настройка схемы может повлиять на <see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority" /> параметру при <see cref="M:Microsoft.Office.Core.SharedWorkspaceTasks.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" /> или <see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" /> вызывается метод. <b>Приоритет</b> значения свойства сопоставляются следующим образом:</para>
-            <list type="bullet">
-              <item>
-                <para>загруженные значение 1, сопоставленную с <b>msoSharedWorkspaceTaskPriority</b> 1 (<b>msoSharedWorkspaceTaskPriorityHigh</b>). Загруженного значения 2 с помощью N-1, сопоставляются с <b>msoSharedWorkspaceTaskPriority</b> 2 (<b>msoSharedWorkspaceTaskPriorityNormal</b>). Загруженного значение N сопоставляется с <b>msoSharedWorkspaceTaskPriority</b> 3 (<b>msoSharedWorkspaceTaskPriorityLow</b>).</para>
-              </item> Значения перечисления 
-            <item><para>передано 1 – 3, сопоставляются с схемы значения 1-3. Если значение, задаваемое пользователем не соответствует любое значение, определенном в схеме, игнорируется определенные пользователем значения и <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Status" /> свойство не обновляются на сервере.</para></item></list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-123">
-              <para>The shared workspace task schema on the server can be customized. Customization of the schema may affect the <see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority" /> setting when the <see cref="M:Microsoft.Office.Core.SharedWorkspaceTasks.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" /> method is called. <b>Priority</b> property values are mapped as follows:</para>
-              <list type="bullet">
-                <item>
-                  <para>Downloaded value 1 is mapped to <b>msoSharedWorkspaceTaskPriority</b> 1 (<b>msoSharedWorkspaceTaskPriorityHigh</b>). Downloaded values 2 through N-1 are mapped to <b>msoSharedWorkspaceTaskPriority</b> 2 (<b>msoSharedWorkspaceTaskPriorityNormal</b>). Downloaded value N is mapped to <b>msoSharedWorkspaceTaskPriority</b> 3 (<b>msoSharedWorkspaceTaskPriorityLow</b>).</para>
-                </item>
-                <item>
-                  <para>Uploaded enumeration values 1 through 3 are mapped to schema values 1 through 3. If a user-specified value does not map to any value defined in the schema, the user-specified value is silently ignored and the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Status" /> property is not updated on the server.</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="462a8-123"><para>Схему задач общей рабочей области на сервере можно изменить. Настройка схемы может повлиять на <see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority" /> параметр при вызове <see cref="M:Microsoft.Office.Core.SharedWorkspaceTasks.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" /> метода <see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" /> или. Значения свойств <b>Priority</b> сопоставляются следующим образом:</para>
+          <list type="bullet">
+            <item>
+              <para>загруженное значение 1 сопоставлено с <b>мсошаредворкспацетаскприорити</b> 1 (<b>мсошаредворкспацетаскприоритихигх</b>). Загруженные значения 2 – N-1 сопоставляются с <b>мсошаредворкспацетаскприорити</b> 2 (<b>мсошаредворкспацетаскприоритинормал</b>). Загруженное значение N сопоставляется с <b>мсошаредворкспацетаскприорити</b> 3 (<b>мсошаредворкспацетаскприоритилов</b>).</para>
+            </item> 
+            <item>
+              <para>Переданные значения перечислений с 1 по 3 сопоставляются со значениями схемы 1 — 3. Если указанное пользователем значение не соответствует какому-либо значению, определенному в схеме, то указанное пользователем значение игнорируется без уведомления и <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Status" /> свойство на сервере не обновляется.</para>
+            </item> 
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-123"><para>The shared workspace task schema on the server can be customized. Customization of the schema may affect the <see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority" /> setting when the <see cref="M:Microsoft.Office.Core.SharedWorkspaceTasks.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" /> method is called. <b>Priority</b> property values are mapped as follows:</para>
+          <list type="bullet">
+            <item>
+              <para>Downloaded value 1 is mapped to <b>msoSharedWorkspaceTaskPriority</b> 1 (<b>msoSharedWorkspaceTaskPriorityHigh</b>). Downloaded values 2 through N-1 are mapped to <b>msoSharedWorkspaceTaskPriority</b> 2 (<b>msoSharedWorkspaceTaskPriorityNormal</b>). Downloaded value N is mapped to <b>msoSharedWorkspaceTaskPriority</b> 3 (<b>msoSharedWorkspaceTaskPriorityLow</b>).</para>
+            </item>
+            <item>
+              <para>Uploaded enumeration values 1 through 3 are mapped to schema values 1 through 3. If a user-specified value does not map to any value defined in the schema, the user-specified value is silently ignored and the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Status" /> property is not updated on the server.</para>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -613,24 +456,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-124">Отправляет изменения, внесенные программным способом, чтобы <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> на сервере.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-124">Uploads changes made programmatically to a <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> to the server.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="d5e12-125">
-            <para>Используйте метод <b>Save</b> для отправки изменений на сервер после изменения свойств ссылок общей рабочей области или задач.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-125">
-              <para>Use the <b>Save</b> method to upload changes to the server after changing the properties of a shared workspace link or task.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="462a8-124">Отправляет изменения, <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> внесенные программным способом, на сервер.</span><span class="sxs-lookup"><span data-stu-id="462a8-124">Uploads changes made programmatically to a <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> to the server.</span></span></summary>
+        <remarks><span data-ttu-id="462a8-125"><para>Используйте метод <b>Save</b> для отправки изменений на сервер после изменения свойств ссылки на общую рабочую область или задачи.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-125"><para>Use the <b>Save</b> method to upload changes to the server after changing the properties of a shared workspace link or task.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Status">
@@ -659,38 +488,27 @@
         <ReturnType>Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-126">Возвращает или задает состояние указанной общей рабочей области задач.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-126">Returns or sets the status of the specified shared workspace task.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-126">Возвращает или задает состояние указанной задачи общей рабочей области.</span><span class="sxs-lookup"><span data-stu-id="462a8-126">Returns or sets the status of the specified shared workspace task.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5e12-127">
-            <para>Можно настроить общую рабочую область схемы задачи на сервере. Настройка схемы может повлиять на <see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority" /> параметру при <see cref="M:Microsoft.Office.Core.SharedWorkspaceTasks.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" /> или <see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" /> вызывается метод. <b>Состояние</b> значения свойства сопоставляются следующим образом:</para>
-            <list type="bullet">
-              <item>
-                <para>загруженные значения 1-5, сопоставляются с значений перечисления <b>msoSharedWorkspaceTaskStatus</b> 1-5. Схема значения за пределы 5, сопоставляются с значение перечисления 1 (<b>msoSharedWorkspaceTaskStatusInProgress</b>).</para>
-              </item> Значения перечисления 
-            <item><para>передано 1-5, сопоставляются с схемы значения 1-5. Если значение, задаваемое пользователем не соответствует любое значение, определенном в схеме, определенные пользователем значение игнорируется и свойство <b>Status</b> не обновляются на сервере.</para></item></list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-127">
-              <para>The shared workspace task schema on the server can be customized. Customization of the schema may affect the <see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority" /> setting when the <see cref="M:Microsoft.Office.Core.SharedWorkspaceTasks.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" /> method is called. <b>Status</b> property values are mapped as follows:</para>
-              <list type="bullet">
-                <item>
-                  <para>Downloaded values 1 through 5 are mapped to <b>msoSharedWorkspaceTaskStatus</b> enumeration values 1 through 5. Schema values beyond 5 are mapped to enumeration value 1 (<b>msoSharedWorkspaceTaskStatusInProgress</b>).</para>
-                </item>
-                <item>
-                  <para>Uploaded enumeration values 1 through 5 are mapped to schema values 1 through 5. If a user-specified value does not map to any value defined in the schema, the user-specified value is silently ignored and the <b>Status</b> property is not updated on the server.</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="462a8-127"><para>Схему задач общей рабочей области на сервере можно изменить. Настройка схемы может повлиять на <see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority" /> параметр при вызове <see cref="M:Microsoft.Office.Core.SharedWorkspaceTasks.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" /> метода <see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" /> или. Значения свойств <b>Status</b> сопоставляются следующим образом:</para>
+          <list type="bullet">
+            <item>
+              <para>загруженные значения от 1 до 5 сопоставляются со значениями перечислений <b>мсошаредворкспацетаскстатус</b> с 1 по 5. Значения схемы, превышающие 5, сопоставляются со значением перечисления 1 (<b>мсошаредворкспацетаскстатусинпрогресс</b>).</para>
+            </item> 
+            <item>
+              <para>Переданные значения перечислений от 1 до 5 сопоставляются со значениями схемы 1 – 5. Если указанное пользователем значение не соответствует какому-либо значению, определенному в схеме, то указанное пользователем значение игнорируется без уведомления, а свойство <b>Status</b> на сервере не обновляется.</para>
+            </item> 
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-127"><para>The shared workspace task schema on the server can be customized. Customization of the schema may affect the <see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority" /> setting when the <see cref="M:Microsoft.Office.Core.SharedWorkspaceTasks.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" /> method is called. <b>Status</b> property values are mapped as follows:</para>
+          <list type="bullet">
+            <item>
+              <para>Downloaded values 1 through 5 are mapped to <b>msoSharedWorkspaceTaskStatus</b> enumeration values 1 through 5. Schema values beyond 5 are mapped to enumeration value 1 (<b>msoSharedWorkspaceTaskStatusInProgress</b>).</para>
+            </item>
+            <item>
+              <para>Uploaded enumeration values 1 through 5 are mapped to schema values 1 through 5. If a user-specified value does not map to any value defined in the schema, the user-specified value is silently ignored and the <b>Status</b> property is not updated on the server.</para>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Title">
@@ -719,25 +537,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d5e12-128">Возвращает или задает заголовок <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-128">Returns or sets the title of a <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="462a8-128">Возвращает или задает заголовок <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="462a8-128">Returns or sets the title of a <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d5e12-129">
-            <para>Свойство <b>Title</b> — это отдельное свойство необходимых задач общей рабочей области. Дополнительно <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Description" /> свойство, чтобы предоставить или получить дополнительные сведения о задаче.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d5e12-129">
-              <para>The <b>Title</b> property is the single required property of a shared workspace task. Use the optional <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Description" /> property to provide or return additional information about the task.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="462a8-129"><para>Свойство <b>Title</b> — это одно обязательное свойство задачи общей рабочей области. Используйте необязательное <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Description" /> свойство, чтобы предоставить или вернуть дополнительные сведения о задаче.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="462a8-129"><para>The <b>Title</b> property is the single required property of a shared workspace task. Use the optional <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Description" /> property to provide or return additional information about the task.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

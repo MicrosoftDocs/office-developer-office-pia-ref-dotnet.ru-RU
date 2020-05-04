@@ -1,13 +1,5 @@
 <Type Name="_CustomXMLSchemaCollection" FullName="Microsoft.Office.Core._CustomXMLSchemaCollection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8cde1797eb568b4867921087523a23f2ea785704" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661725" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CustomXMLSchemaCollection : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8cde1797eb568b4867921087523a23f2ea785704" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661725" /></Metadata><TypeSignature Language="C#" Value="public interface _CustomXMLSchemaCollection : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomXMLSchemaCollection implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLSchemaCollection" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CustomXMLSchemaCollection&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,26 +25,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="78078-101">Представляет коллекцию объектов <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекты, подключенного к потоку данных.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="78078-101">Represents a collection of <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> objects attached to a data stream.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="78078-102">
-        <para>
-          <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="78078-102">
-          <para>
-            <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="73d00-101">Представляет коллекцию <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объектов, вложенных в поток данных.</span><span class="sxs-lookup"><span data-stu-id="73d00-101">Represents a collection of <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> objects attached to a data stream.</span></span></summary>
+    <remarks><span data-ttu-id="73d00-102"><para>
+        <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="73d00-102"><para>
+        <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -80,85 +58,17 @@
         <Parameter Name="InstallForAllUsers" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="NamespaceURI">
-          <span data-ttu-id="78078-103">Необязательный атрибут типа <b>String</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-103">Optional <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="78078-104">Содержит пространство имен схемы для добавления в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-104">Contains the namespace of the schema to be added to the collection.</span>
-          </span>
-          <span data-ttu-id="78078-105">Если схема уже существует в библиотеке схем, метод будет извлекать его из него.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-105">If the schema already exists in the Schema Library, the method will retrieve it from there.</span>
-          </span>
-        </param>
-        <param name="Alias">
-          <span data-ttu-id="78078-106">Необязательный атрибут типа <b>String</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-106">Optional <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="78078-107">Содержит псевдоним схемы для добавления в коллекцию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-107">Contains the alias of the schema to be added to the collection.</span>
-          </span>
-          <span data-ttu-id="78078-108">Если псевдоним уже существует в библиотеке схем, метод можно найти с помощью этого аргумента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-108">If the alias already exists in the Schema Library, the method can find it using this argument.</span>
-          </span>
-        </param>
-        <param name="FileName">
-          <span data-ttu-id="78078-109">Необязательный атрибут типа <b>String</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-109">Optional <b>String</b>.</span>
-          </span>
-          <span data-ttu-id="78078-110">Папка схемы на диске.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-110">Contains the location of the schema on a disk.</span>
-          </span>
-          <span data-ttu-id="78078-111">Если этот параметр указан, схема добавляется к коллекции и в библиотеку схем.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-111">If this parameter is specified, the schema is added to the collection and to the Schema Library.</span>
-          </span>
-        </param>
-        <param name="InstallForAllUsers">
-          <span data-ttu-id="78078-112">Необязательный атрибут типа <b>Boolean</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-112">Optional <b>Boolean</b>.</span>
-          </span>
-          <span data-ttu-id="78078-113">Признак, в случае, где метод добавления схемы в библиотеку схем, ключи Библиотека схем следует записи в реестр (HKey_Local_Machine для всех пользователей) или HKey_Current_User для только что текущего пользователя.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-113">Specifies whether, in the case where the method is adding the schema to the Schema Library, the Schema Library keys should be written to the registry(HKey_Local_Machine for all users or HKey_Current_User for just the current user).</span>
-          </span>
-          <span data-ttu-id="78078-114">Параметр по умолчанию используется значение <b>False</b> и записывает HKey_Current_User.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-114">The parameter defaults to <b>False</b> and writes to HKey_Current_User.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="78078-115">Можно добавить одного или нескольких схемы в коллекции схемы, который можно добавить к потоку в хранилище данных и в библиотеку схем.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-115">Allows you to add one or more schemas to a schema collection that can then be added to a stream in the data store and to the Schema Library.</span>
-          </span>
-        </summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.CustomXMLSchema" />
-        </returns>
-        <remarks>
-          <span data-ttu-id="78078-116">
-            <para>
-              <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-116">
-              <para>
-                <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="NamespaceURI"><span data-ttu-id="73d00-103">Необязательная <b>строка</b>.</span><span class="sxs-lookup"><span data-stu-id="73d00-103">Optional <b>String</b>.</span></span> <span data-ttu-id="73d00-104">Содержит пространство имен схемы, которую необходимо добавить в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="73d00-104">Contains the namespace of the schema to be added to the collection.</span></span> <span data-ttu-id="73d00-105">Если схема уже существует в библиотеке схем, метод извлечет его из него.</span><span class="sxs-lookup"><span data-stu-id="73d00-105">If the schema already exists in the Schema Library, the method will retrieve it from there.</span></span></param>
+        <param name="Alias"><span data-ttu-id="73d00-106">Необязательная <b>строка</b>.</span><span class="sxs-lookup"><span data-stu-id="73d00-106">Optional <b>String</b>.</span></span> <span data-ttu-id="73d00-107">Содержит псевдоним схемы, которую необходимо добавить в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="73d00-107">Contains the alias of the schema to be added to the collection.</span></span> <span data-ttu-id="73d00-108">Если псевдоним уже существует в библиотеке схем, метод может найти его с помощью этого аргумента.</span><span class="sxs-lookup"><span data-stu-id="73d00-108">If the alias already exists in the Schema Library, the method can find it using this argument.</span></span></param>
+        <param name="FileName"><span data-ttu-id="73d00-109">Необязательная <b>строка</b>.</span><span class="sxs-lookup"><span data-stu-id="73d00-109">Optional <b>String</b>.</span></span> <span data-ttu-id="73d00-110">Содержит расположение схемы на диске.</span><span class="sxs-lookup"><span data-stu-id="73d00-110">Contains the location of the schema on a disk.</span></span> <span data-ttu-id="73d00-111">Если этот параметр указан, схема добавляется в коллекцию и в библиотеку схем.</span><span class="sxs-lookup"><span data-stu-id="73d00-111">If this parameter is specified, the schema is added to the collection and to the Schema Library.</span></span></param>
+        <param name="InstallForAllUsers"><span data-ttu-id="73d00-112">Необязательный атрибут типа <b>Boolean</b>.</span><span class="sxs-lookup"><span data-stu-id="73d00-112">Optional <b>Boolean</b>.</span></span> <span data-ttu-id="73d00-113">Указывает, требуется ли, в случае, если метод добавляет схему в библиотеку схемы, ключи библиотеки схемы должны быть записаны в реестр (HKey_Local_Machine для всех пользователей или HKey_Current_User только для текущего пользователя).</span><span class="sxs-lookup"><span data-stu-id="73d00-113">Specifies whether, in the case where the method is adding the schema to the Schema Library, the Schema Library keys should be written to the registry(HKey_Local_Machine for all users or HKey_Current_User for just the current user).</span></span> <span data-ttu-id="73d00-114">По умолчанию параметр <b>имеет значение false</b> и записывается в HKEY_CURRENT_USER.</span><span class="sxs-lookup"><span data-stu-id="73d00-114">The parameter defaults to <b>False</b> and writes to HKey_Current_User.</span></span></param>
+        <summary><span data-ttu-id="73d00-115">Позволяет добавить одну или несколько схем в коллекцию схем, которую затем можно добавить в поток в хранилище данных и в библиотеку схем.</span><span class="sxs-lookup"><span data-stu-id="73d00-115">Allows you to add one or more schemas to a schema collection that can then be added to a stream in the data store and to the Schema Library.</span></span></summary>
+        <returns><see cref="T:Microsoft.Office.Core.CustomXMLSchema" /></returns>
+        <remarks><span data-ttu-id="73d00-116"><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="73d00-116"><para>
+            <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddCollection">
@@ -215,40 +125,13 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="78078-117">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-117">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> object.</span>
-          </span>
-          <span data-ttu-id="78078-118">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-118">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="78078-119">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-119">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="78078-120">
-            <para>
-              <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-120">
-              <para>
-                <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="73d00-117">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="73d00-117">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> object.</span></span> <span data-ttu-id="73d00-118">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="73d00-118">Read-only.</span></span></summary>
+        <value><span data-ttu-id="73d00-119"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="73d00-119"><b>Object</b></span></span></value>
+        <remarks><span data-ttu-id="73d00-120"><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="73d00-120"><para>
+            <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -274,40 +157,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="78078-121">Получает количество элементов в <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-121">Gets the number of items in the <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> collection.</span>
-          </span>
-          <span data-ttu-id="78078-122">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-122">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="78078-123">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-123">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="78078-124">
-            <para>
-              <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-124">
-              <para>
-                <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="73d00-121">Получает количество элементов в <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="73d00-121">Gets the number of items in the <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> collection.</span></span> <span data-ttu-id="73d00-122">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="73d00-122">Read-only.</span></span></summary>
+        <value><span data-ttu-id="73d00-123"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="73d00-123"><b>Integer</b></span></span></value>
+        <remarks><span data-ttu-id="73d00-124"><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="73d00-124"><para>
+            <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -336,40 +192,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="78078-125">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-125">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> object was created.</span>
-          </span>
-          <span data-ttu-id="78078-126">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-126">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="78078-127">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-127">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="78078-128">
-            <para>
-              <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-128">
-              <para>
-                <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="73d00-125">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="73d00-125">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> object was created.</span></span> <span data-ttu-id="73d00-126">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="73d00-126">Read-only.</span></span></summary>
+        <value><span data-ttu-id="73d00-127"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="73d00-127"><b>Integer</b></span></span></value>
+        <remarks><span data-ttu-id="73d00-128"><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="73d00-128"><para>
+            <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -400,12 +229,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>
-          <span data-ttu-id="78078-129">Возвращает <see cref="T:System.Collections.IEnumerator" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-129">Returns <see cref="T:System.Collections.IEnumerator" />.</span>
-          </span>
-        </returns>
+        <returns><span data-ttu-id="73d00-129">Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</span><span class="sxs-lookup"><span data-stu-id="73d00-129">Returns <see cref="T:System.Collections.IEnumerator" />.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -435,43 +259,14 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="78078-130">Требуется <b>объект</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-130">Required <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="78078-131">Имя или номер индекса <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта должно быть возвращено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-131">The name or index number of the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object to be returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="78078-132">Получает <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта из <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-132">Gets a <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object from the <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> collection.</span>
-          </span>
-          <span data-ttu-id="78078-133">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-133">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLSchema" />
-        </value>
-        <remarks>
-          <span data-ttu-id="78078-134">
-            <para>
-              <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-134">
-              <para>
-                <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="73d00-130">Обязательный <b>объект</b>.</span><span class="sxs-lookup"><span data-stu-id="73d00-130">Required <b>Object</b>.</span></span> <span data-ttu-id="73d00-131">Имя или номер индекса возвращаемого <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="73d00-131">The name or index number of the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object to be returned.</span></span></param>
+        <summary><span data-ttu-id="73d00-132">Получает <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объект из <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="73d00-132">Gets a <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object from the <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> collection.</span></span> <span data-ttu-id="73d00-133">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="73d00-133">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLSchema" /></value>
+        <remarks><span data-ttu-id="73d00-134"><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="73d00-134"><para>
+            <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="NamespaceURI">
@@ -500,50 +295,14 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="78078-135">Требуется <b>целое число</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-135">Required <b>Integer</b>.</span>
-          </span>
-          <span data-ttu-id="78078-136">Номер индекса <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-136">The index number of the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="78078-137">Получает идентификатор уникальный адрес для пространства имен <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-137">Gets the unique address identifier for the namespace of the <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> object.</span>
-          </span>
-          <span data-ttu-id="78078-138">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-138">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="78078-139">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-139">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="78078-140">
-            <para>
-              <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-140">
-              <para>
-                <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="73d00-135">Обязательный атрибут типа <b>Integer</b>.</span><span class="sxs-lookup"><span data-stu-id="73d00-135">Required <b>Integer</b>.</span></span> <span data-ttu-id="73d00-136">Номер индекса <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="73d00-136">The index number of the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object.</span></span></param>
+        <summary><span data-ttu-id="73d00-137">Получает уникальный идентификатор пространства имен <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="73d00-137">Gets the unique address identifier for the namespace of the <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> object.</span></span> <span data-ttu-id="73d00-138">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="73d00-138">Read-only.</span></span></summary>
+        <value><span data-ttu-id="73d00-139"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="73d00-139"><b>String</b></span></span></value>
+        <remarks><span data-ttu-id="73d00-140"><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="73d00-140"><para>
+            <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -569,40 +328,13 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="78078-141">Получает родительский объект для <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-141">Gets the parent object for the <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> object.</span>
-          </span>
-          <span data-ttu-id="78078-142">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-142">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="78078-143">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-143">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="78078-144">
-            <para>
-              <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-144">
-              <para>
-                <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="73d00-141">Получает родительский объект для <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="73d00-141">Gets the parent object for the <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> object.</span></span> <span data-ttu-id="73d00-142">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="73d00-142">Read-only.</span></span></summary>
+        <value><span data-ttu-id="73d00-143"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="73d00-143"><b>Object</b></span></span></value>
+        <remarks><span data-ttu-id="73d00-144"><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="73d00-144"><para>
+            <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Validate">
@@ -626,38 +358,15 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="78078-145">Указывает, действительны ли схем в коллекции схем (соответствует правила синтаксиса XML и правил для указанного словаря; standard для структурирования XML).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-145">Specifies whether the schemas in a schema collection are valid (conforms to the syntactic rules of XML and the rules for a specified vocabulary; a standard for structuring XML).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="78078-146">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-146">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="78078-147">
-            <para>
-              <b>Примечание</b>: ссылки на DTD из настраиваемых XML-частей не поддерживаются. Ссылки на DTD в настраиваемой XML-части, не будет разрешен и настраиваемых XML-частей, содержащий ссылки на DTD создает исключение при попытке сохранить содержимое файла плоский XML-файле.</para>
-            <para>Кроме определения, является ли схемы являются допустимыми, этот метод также проходят через операторы <b>включают</b> для каждой схемы в коллекции и добавляет указанный схем в исходной схеме.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="78078-147">
-              <para>
-                <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
-              <para>In addition to determining whether the schemas are valid, this method also traverses the <b>include</b> statements for each schema in the collection and adds the referenced schemas to the source schema.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="73d00-145">Указывает, являются ли схемы в коллекции схемы допустимыми (соответствует синтаксическим правилам XML и правилам для указанного словаря; стандарт для структурирования XML).</span><span class="sxs-lookup"><span data-stu-id="73d00-145">Specifies whether the schemas in a schema collection are valid (conforms to the syntactic rules of XML and the rules for a specified vocabulary; a standard for structuring XML).</span></span></summary>
+        <returns><span data-ttu-id="73d00-146"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="73d00-146"><b>Boolean</b></span></span></returns>
+        <remarks><span data-ttu-id="73d00-147"><para>
+            <b>Note</b>: ссылки на DTD из НАСТРАИВАЕМЫХ XML-частей не поддерживаются. Ссылки на DTD в настраиваемых XML-частях не будут устранены, а пользовательские XML-части, содержащие ссылки на DTD, создают исключение при попытке сохранить содержимое файла в виде неструктурированного XML-файла.</para> 
+          <para>В дополнение к определению того, являются ли схемы допустимыми, этот метод также выполняет обход операторов <b>include</b> для каждой схемы в коллекции и добавляет схемы, на которые указывают ссылки, в исходную схему.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="73d00-147"><para>
+            <b>Note</b>: References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
+          <para>In addition to determining whether the schemas are valid, this method also traverses the <b>include</b> statements for each schema in the collection and adds the referenced schemas to the source schema.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

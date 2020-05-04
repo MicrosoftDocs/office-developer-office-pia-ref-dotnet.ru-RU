@@ -1,13 +1,5 @@
 <Type Name="IBlogExtensibility" FullName="Microsoft.Office.Core.IBlogExtensibility">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fb00ae654ec9e5663ff48fe1466a8e8b00117ebc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662506" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IBlogExtensibility" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fb00ae654ec9e5663ff48fe1466a8e8b00117ebc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662506" /></Metadata><TypeSignature Language="C#" Value="public interface IBlogExtensibility" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBlogExtensibility" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IBlogExtensibility" />
   <TypeSignature Language="VB.NET" Value="Public Interface IBlogExtensibility" />
@@ -26,12 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="6db84-101">Объект, который предоставляет возможность управлять записи в блогах.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6db84-101">An object that provides the ability to manipulate blog entries.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="4b4b9-101">Объект, который предоставляет возможность управлять записями в блоге.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-101">An object that provides the ability to manipulate blog entries.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -61,36 +48,11 @@
         <Parameter Name="Padding" Type="System.Boolean&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="BlogProvider">
-          <span data-ttu-id="6db84-102">Имя поставщика блога.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-102">The name of the blog provider.</span>
-          </span>
-        </param>
-        <param name="FriendlyName">
-          <span data-ttu-id="6db84-103">Представляет имя, отображаемое в пользовательском интерфейсе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-103">Represents the name displayed in the user interface.</span>
-          </span>
-        </param>
-        <param name="CategorySupport">
-          <span data-ttu-id="6db84-104">Представляет, сколько категорий поддерживаются поставщиком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-104">Represents how many categories are supported by the provider.</span>
-          </span>
-        </param>
-        <param name="Padding">
-          <span data-ttu-id="6db84-105">Указывает, является ли внутренние поля в таблице.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-105">Specifies whether table padding is recognized.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6db84-106">Содержит сведения о поставщике.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-106">Contains information about the provider.</span>
-          </span>
-        </summary>
+        <param name="BlogProvider"><span data-ttu-id="4b4b9-102">Имя поставщика блогов.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-102">The name of the blog provider.</span></span></param>
+        <param name="FriendlyName"><span data-ttu-id="4b4b9-103">Представляет имя, отображаемое в пользовательском интерфейсе.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-103">Represents the name displayed in the user interface.</span></span></param>
+        <param name="CategorySupport"><span data-ttu-id="4b4b9-104">Указывает, сколько категорий поддерживается поставщиком.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-104">Represents how many categories are supported by the provider.</span></span></param>
+        <param name="Padding"><span data-ttu-id="4b4b9-105">Указывает, следует ли распознать заполнение таблицы.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-105">Specifies whether table padding is recognized.</span></span></param>
+        <summary><span data-ttu-id="4b4b9-106">Содержит сведения о поставщике.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-106">Contains information about the provider.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,48 +82,14 @@
         <Parameter Name="Categories" Type="System.Array&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">
-          <span data-ttu-id="6db84-107">Представляет идентификатор GUID в учетной записи реестра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-107">Represents the GUID of the account registry key.</span>
-          </span>
-        </param>
-        <param name="ParentWindow">
-          <span data-ttu-id="6db84-108">Представляет HWND главного окна.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-108">Represents the HWND of the host window.</span>
-          </span>
-        </param>
-        <param name="Document">
-          <span data-ttu-id="6db84-109">Текущего документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-109">The current document.</span>
-          </span>
-        </param>
-        <param name="Categories">
-          <span data-ttu-id="6db84-110">Список категорий, поддерживаемых поставщиком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-110">A list of categories supported by the provider.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6db84-111">Этот метод возвращает список категорий блога для учетной записи, поэтому Microsoft Office Word можно заполнить в раскрывающемся списке категорий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-111">This method returns the list of blog categories for an account so Microsoft Office Word can populate the categories dropdown list.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="6db84-112">
-            <para>Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-112">
-              <para>Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Account"><span data-ttu-id="4b4b9-107">Представляет GUID раздела реестра учетной записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-107">Represents the GUID of the account registry key.</span></span></param>
+        <param name="ParentWindow"><span data-ttu-id="4b4b9-108">Представляет дескриптор окна ведущего приложения.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-108">Represents the HWND of the host window.</span></span></param>
+        <param name="Document"><span data-ttu-id="4b4b9-109">Текущий документ.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-109">The current document.</span></span></param>
+        <param name="Categories"><span data-ttu-id="4b4b9-110">Список категорий, поддерживаемых поставщиком.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-110">A list of categories supported by the provider.</span></span></param>
+        <summary><span data-ttu-id="4b4b9-111">Этот метод возвращает список категорий блогов для учетной записи, чтобы Microsoft Office Word мог заполнить раскрывающийся список категорий.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-111">This method returns the list of blog categories for an account so Microsoft Office Word can populate the categories dropdown list.</span></span></summary>
+        <remarks><span data-ttu-id="4b4b9-112"><para>Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="4b4b9-112"><para>Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRecentPosts">
@@ -192,56 +120,13 @@
         <Parameter Name="PostIDs" Type="System.Array&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">
-          <span data-ttu-id="6db84-113">Представляет идентификатор GUID в учетной записи реестра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-113">Represents the GUID of the account registry key.</span>
-          </span>
-          <span data-ttu-id="6db84-114">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-114">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          </span>
-        </param>
-        <param name="ParentWindow">
-          <span data-ttu-id="6db84-115">Содержит HWND Office Word — это вызов из окна.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-115">Contains the HWND for the window Office Word is calling from.</span>
-          </span>
-        </param>
-        <param name="Document">
-          <span data-ttu-id="6db84-116">Текущего документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-116">The current document.</span>
-          </span>
-        </param>
-        <param name="PostTitles">
-          <span data-ttu-id="6db84-117">Содержит заголовки последнего пятнадцать публикации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-117">Contains the titles of the last fifteen posts.</span>
-          </span>
-        </param>
-        <param name="PostDates">
-          <span data-ttu-id="6db84-118">Содержит даты последнего пятнадцать публикации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-118">Contains the dates of the last fifteen posts.</span>
-          </span>
-        </param>
-        <param name="PostIDs">
-          <span data-ttu-id="6db84-119">Содержит идентификаторы последнего пятнадцать публикации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-119">Contains the IDs of the last fifteen posts.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6db84-120">Возвращает список последних пятнадцать блога пользователя публикации, Microsoft Office Word, затем отображается в диалоговом окне Открытие существующей записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-120">Returns the list of the user’s last fifteen blog posts that Microsoft Office Word then displays in the Open Existing Post dialog.</span>
-          </span>
-          <span data-ttu-id="6db84-121">Этот метод не возвращает фактически содержимое публикация в блоге.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-121">This method does not actually return the blog post contents.</span>
-          </span>
-        </summary>
+        <param name="Account"><span data-ttu-id="4b4b9-113">Представляет GUID раздела реестра учетной записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-113">Represents the GUID of the account registry key.</span></span> <span data-ttu-id="4b4b9-114">Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-114">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span></span></param>
+        <param name="ParentWindow"><span data-ttu-id="4b4b9-115">Содержит HWND для окна Office Word, из которого выполняется вызов.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-115">Contains the HWND for the window Office Word is calling from.</span></span></param>
+        <param name="Document"><span data-ttu-id="4b4b9-116">Текущий документ.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-116">The current document.</span></span></param>
+        <param name="PostTitles"><span data-ttu-id="4b4b9-117">Содержит заголовки последних пятнадцати записей.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-117">Contains the titles of the last fifteen posts.</span></span></param>
+        <param name="PostDates"><span data-ttu-id="4b4b9-118">Содержит даты последних пятнадцати записей.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-118">Contains the dates of the last fifteen posts.</span></span></param>
+        <param name="PostIDs"><span data-ttu-id="4b4b9-119">Содержит идентификаторы последних пятнадцати записей.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-119">Contains the IDs of the last fifteen posts.</span></span></param>
+        <summary><span data-ttu-id="4b4b9-120">Возвращает список последних пятнадцати записей блогов, которые Microsoft Office Word отображает в диалоговом окне Открытие существующего сообщения POST.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-120">Returns the list of the user’s last fifteen blog posts that Microsoft Office Word then displays in the Open Existing Post dialog.</span></span> <span data-ttu-id="4b4b9-121">Этот метод фактически не возвращает содержимое записи блога.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-121">This method does not actually return the blog post contents.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -273,52 +158,13 @@
         <Parameter Name="BlogURLs" Type="System.Array&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">
-          <span data-ttu-id="6db84-122">Представляет идентификатор GUID в учетной записи реестра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-122">Represents the GUID of the account registry key.</span>
-          </span>
-          <span data-ttu-id="6db84-123">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-123">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          </span>
-        </param>
-        <param name="ParentWindow">
-          <span data-ttu-id="6db84-124">Содержит HWND для Microsoft Office Word — это вызов из окна.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-124">Contains the HWND for the window Microsoft Office Word is calling from.</span>
-          </span>
-        </param>
-        <param name="Document">
-          <span data-ttu-id="6db84-125">Текущего документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-125">The current document.</span>
-          </span>
-        </param>
-        <param name="BlogNames">
-          <span data-ttu-id="6db84-126">Содержит все имена блога в разделе данная учетная запись.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-126">Contains all blog names under the current account.</span>
-          </span>
-        </param>
-        <param name="BlogIDs">
-          <span data-ttu-id="6db84-127">Содержит все идентификаторы блога в разделе данная учетная запись.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-127">Contains all blog IDs under the current account.</span>
-          </span>
-        </param>
-        <param name="BlogURLs">
-          <span data-ttu-id="6db84-128">Содержит все URL-адреса блога в разделе данная учетная запись.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-128">Contains all blog URLs under the current account.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6db84-129">Возвращает список и сведения о блогов пользователя, связанные с указанной учетной записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-129">Returns the list and details of user blogs associated with the specified account.</span>
-          </span>
-        </summary>
+        <param name="Account"><span data-ttu-id="4b4b9-122">Представляет GUID раздела реестра учетной записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-122">Represents the GUID of the account registry key.</span></span> <span data-ttu-id="4b4b9-123">Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-123">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span></span></param>
+        <param name="ParentWindow"><span data-ttu-id="4b4b9-124">Содержит HWND для окна, из которого выполняется вызов Microsoft Office Word.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-124">Contains the HWND for the window Microsoft Office Word is calling from.</span></span></param>
+        <param name="Document"><span data-ttu-id="4b4b9-125">Текущий документ.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-125">The current document.</span></span></param>
+        <param name="BlogNames"><span data-ttu-id="4b4b9-126">Содержит все имена блогов под текущей учетной записью.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-126">Contains all blog names under the current account.</span></span></param>
+        <param name="BlogIDs"><span data-ttu-id="4b4b9-127">Содержит все идентификаторы блогов в текущей учетной записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-127">Contains all blog IDs under the current account.</span></span></param>
+        <param name="BlogURLs"><span data-ttu-id="4b4b9-128">Содержит все URL-адреса блогов в текущей учетной записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-128">Contains all blog URLs under the current account.</span></span></param>
+        <summary><span data-ttu-id="4b4b9-129">Возвращает список и подробные сведения о пользовательских блогах, связанных с указанной учетной записью.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-129">Returns the list and details of user blogs associated with the specified account.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -351,62 +197,14 @@
         <Parameter Name="Categories" Type="System.Array&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">
-          <span data-ttu-id="6db84-130">Представляет идентификатор GUID в учетной записи реестра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-130">Represents the GUID of the account registry key.</span>
-          </span>
-          <span data-ttu-id="6db84-131">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-131">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          </span>
-        </param>
-        <param name="PostID">
-          <span data-ttu-id="6db84-132">Идентификатор записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-132">The ID of the post.</span>
-          </span>
-        </param>
-        <param name="ParentWindow">
-          <span data-ttu-id="6db84-133">Содержит HWND для Microsoft Office Word — это вызов из окна.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-133">Contains the HWND for the window Microsoft Office Word is calling from.</span>
-          </span>
-        </param>
-        <param name="xHTML">
-          <span data-ttu-id="6db84-134">Представляет xHTML текущего документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-134">Represents the xHTML of the current document.</span>
-          </span>
-        </param>
-        <param name="Title">
-          <span data-ttu-id="6db84-135">Заголовок post.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-135">The title of the post.</span>
-          </span>
-        </param>
-        <param name="DatePosted">
-          <span data-ttu-id="6db84-136">Дата учета операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-136">The date the entry was posted.</span>
-          </span>
-        </param>
-        <param name="Categories">
-          <span data-ttu-id="6db84-137">Список категорий, поддерживаемых поставщиком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-137">A list of categories supported by the provider.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6db84-138">Открывает блога, заданную идентификатором блог (en)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-138">Opens the blog specified by the blog ID.</span>
-          </span>
-          <span data-ttu-id="6db84-139">Он вызывает диалоговое окно Открытие существующей записи, на основе выбранного пользователем элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-139">It is called by the Open Existing Post dialog based on the item selected by the user.</span>
-          </span>
-        </summary>
+        <param name="Account"><span data-ttu-id="4b4b9-130">Представляет GUID раздела реестра учетной записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-130">Represents the GUID of the account registry key.</span></span> <span data-ttu-id="4b4b9-131">Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-131">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span></span></param>
+        <param name="PostID"><span data-ttu-id="4b4b9-132">Идентификатор записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-132">The ID of the post.</span></span></param>
+        <param name="ParentWindow"><span data-ttu-id="4b4b9-133">Содержит HWND для окна, из которого выполняется вызов Microsoft Office Word.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-133">Contains the HWND for the window Microsoft Office Word is calling from.</span></span></param>
+        <param name="xHTML"><span data-ttu-id="4b4b9-134">Представляет xHTML текущего документа.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-134">Represents the xHTML of the current document.</span></span></param>
+        <param name="Title"><span data-ttu-id="4b4b9-135">Заголовок записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-135">The title of the post.</span></span></param>
+        <param name="DatePosted"><span data-ttu-id="4b4b9-136">Дата отправки записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-136">The date the entry was posted.</span></span></param>
+        <param name="Categories"><span data-ttu-id="4b4b9-137">Список категорий, поддерживаемых поставщиком.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-137">A list of categories supported by the provider.</span></span></param>
+        <summary><span data-ttu-id="4b4b9-138">Открывает блог, заданный ИДЕНТИФИКАТОРом блога.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-138">Opens the blog specified by the blog ID.</span></span> <span data-ttu-id="4b4b9-139">Он вызывается с помощью диалогового окна Открытие существующего сообщения POST на основе элемента, выбранного пользователем.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-139">It is called by the Open Existing Post dialog based on the item selected by the user.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -442,76 +240,17 @@
         <Parameter Name="PublishMessage" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">
-          <span data-ttu-id="6db84-140">Представляет идентификатор GUID в учетной записи реестра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-140">Represents the GUID of the account registry key.</span>
-          </span>
-          <span data-ttu-id="6db84-141">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-141">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          </span>
-        </param>
-        <param name="ParentWindow">
-          <span data-ttu-id="6db84-142">Содержит HWND для Microsoft Office Word — это вызов из окна.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-142">Contains the HWND for the window Microsoft Office Word is calling from.</span>
-          </span>
-        </param>
-        <param name="Document">
-          <span data-ttu-id="6db84-143">Текущего документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-143">The current document.</span>
-          </span>
-        </param>
-        <param name="xHTML">
-          <span data-ttu-id="6db84-144">Представляет xHTML текущего документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-144">Represents the xHTML of the current document.</span>
-          </span>
-        </param>
-        <param name="Title">
-          <span data-ttu-id="6db84-145">Заголовок post.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-145">The title of the post.</span>
-          </span>
-        </param>
-        <param name="DateTime">
-          <span data-ttu-id="6db84-146">Дата учета операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-146">The date the entry was posted.</span>
-          </span>
-        </param>
-        <param name="Categories">
-          <span data-ttu-id="6db84-147">Список категорий, поддерживаемых поставщиком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-147">A list of categories supported by the provider.</span>
-          </span>
-        </param>
-        <param name="Draft">
-          <span data-ttu-id="6db84-148">Указывает, является ли данный черновик post.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-148">Specifies whether this is a draft version of the post.</span>
-          </span>
-        </param>
-        <param name="PostID">
-          <span data-ttu-id="6db84-149">Идентификатор исходного сообщения при повторной публикации этой записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-149">The ID of the original post if this post has been republished.</span>
-          </span>
-        </param>
-        <param name="PublishMessage">
-          <span data-ttu-id="6db84-150">Указывает, что отображается в строке опубликовать.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-150">Specifies what is displayed in the publish bar.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6db84-151">Руки off текущего post, поэтому он может быть опубликована поставщиком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-151">Hands off the current post so it can be published by the provider.</span>
-          </span>
-        </summary>
+        <param name="Account"><span data-ttu-id="4b4b9-140">Представляет GUID раздела реестра учетной записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-140">Represents the GUID of the account registry key.</span></span> <span data-ttu-id="4b4b9-141">Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-141">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span></span></param>
+        <param name="ParentWindow"><span data-ttu-id="4b4b9-142">Содержит HWND для окна, из которого выполняется вызов Microsoft Office Word.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-142">Contains the HWND for the window Microsoft Office Word is calling from.</span></span></param>
+        <param name="Document"><span data-ttu-id="4b4b9-143">Текущий документ.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-143">The current document.</span></span></param>
+        <param name="xHTML"><span data-ttu-id="4b4b9-144">Представляет xHTML текущего документа.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-144">Represents the xHTML of the current document.</span></span></param>
+        <param name="Title"><span data-ttu-id="4b4b9-145">Заголовок записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-145">The title of the post.</span></span></param>
+        <param name="DateTime"><span data-ttu-id="4b4b9-146">Дата отправки записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-146">The date the entry was posted.</span></span></param>
+        <param name="Categories"><span data-ttu-id="4b4b9-147">Список категорий, поддерживаемых поставщиком.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-147">A list of categories supported by the provider.</span></span></param>
+        <param name="Draft"><span data-ttu-id="4b4b9-148">Указывает, является ли версия POST черновиком.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-148">Specifies whether this is a draft version of the post.</span></span></param>
+        <param name="PostID"><span data-ttu-id="4b4b9-149">Идентификатор исходной записи, если эта запись была повторно опубликована.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-149">The ID of the original post if this post has been republished.</span></span></param>
+        <param name="PublishMessage"><span data-ttu-id="4b4b9-150">Указывает, что отображается на панели публикации.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-150">Specifies what is displayed in the publish bar.</span></span></param>
+        <summary><span data-ttu-id="4b4b9-151">Отменяет текущую запись, чтобы ее можно было опубликовать у поставщика.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-151">Hands off the current post so it can be published by the provider.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -547,76 +286,17 @@
         <Parameter Name="PublishMessage" Type="System.String&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">
-          <span data-ttu-id="6db84-152">Представляет идентификатор GUID в учетной записи реестра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-152">Represents the GUID of the account registry key.</span>
-          </span>
-          <span data-ttu-id="6db84-153">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-153">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          </span>
-        </param>
-        <param name="ParentWindow">
-          <span data-ttu-id="6db84-154">Содержит HWND для Microsoft Office Word — это вызов из окна.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-154">Contains the HWND for the window Microsoft Office Word is calling from.</span>
-          </span>
-        </param>
-        <param name="Document">
-          <span data-ttu-id="6db84-155">Текущего документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-155">The current document.</span>
-          </span>
-        </param>
-        <param name="PostID">
-          <span data-ttu-id="6db84-156">Идентификатор исходного сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-156">The ID of the original post.</span>
-          </span>
-        </param>
-        <param name="xHTML">
-          <span data-ttu-id="6db84-157">Представляет xHTML текущего документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-157">Represents the xHTML of the current document.</span>
-          </span>
-        </param>
-        <param name="Title">
-          <span data-ttu-id="6db84-158">Заголовок post.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-158">The title of the post.</span>
-          </span>
-        </param>
-        <param name="DateTime">
-          <span data-ttu-id="6db84-159">Дата учета операции.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-159">The date the entry was posted.</span>
-          </span>
-        </param>
-        <param name="Categories">
-          <span data-ttu-id="6db84-160">Список категорий, поддерживаемых поставщиком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-160">A list of categories supported by the provider.</span>
-          </span>
-        </param>
-        <param name="Draft">
-          <span data-ttu-id="6db84-161">Указывает, является ли данный черновик post.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-161">Specifies whether this is a draft version of the post.</span>
-          </span>
-        </param>
-        <param name="PublishMessage">
-          <span data-ttu-id="6db84-162">Указывает, что отображается в строке опубликовать.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-162">Specifies what is displayed in the publish bar.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6db84-163">Руки off текущего post, необходимо заново опубликовать поставщиком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-163">Hands off the current post so it can be republished by the provider.</span>
-          </span>
-        </summary>
+        <param name="Account"><span data-ttu-id="4b4b9-152">Представляет GUID раздела реестра учетной записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-152">Represents the GUID of the account registry key.</span></span> <span data-ttu-id="4b4b9-153">Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-153">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span></span></param>
+        <param name="ParentWindow"><span data-ttu-id="4b4b9-154">Содержит HWND для окна, из которого выполняется вызов Microsoft Office Word.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-154">Contains the HWND for the window Microsoft Office Word is calling from.</span></span></param>
+        <param name="Document"><span data-ttu-id="4b4b9-155">Текущий документ.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-155">The current document.</span></span></param>
+        <param name="PostID"><span data-ttu-id="4b4b9-156">Идентификатор исходной записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-156">The ID of the original post.</span></span></param>
+        <param name="xHTML"><span data-ttu-id="4b4b9-157">Представляет xHTML текущего документа.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-157">Represents the xHTML of the current document.</span></span></param>
+        <param name="Title"><span data-ttu-id="4b4b9-158">Заголовок записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-158">The title of the post.</span></span></param>
+        <param name="DateTime"><span data-ttu-id="4b4b9-159">Дата отправки записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-159">The date the entry was posted.</span></span></param>
+        <param name="Categories"><span data-ttu-id="4b4b9-160">Список категорий, поддерживаемых поставщиком.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-160">A list of categories supported by the provider.</span></span></param>
+        <param name="Draft"><span data-ttu-id="4b4b9-161">Указывает, является ли версия POST черновиком.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-161">Specifies whether this is a draft version of the post.</span></span></param>
+        <param name="PublishMessage"><span data-ttu-id="4b4b9-162">Указывает, что отображается на панели публикации.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-162">Specifies what is displayed in the publish bar.</span></span></param>
+        <summary><span data-ttu-id="4b4b9-163">Передает текущую запись, чтобы ее можно было повторно опубликовать с помощью поставщика.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-163">Hands off the current post so it can be republished by the provider.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -647,46 +327,12 @@
         <Parameter Name="ShowPictureUI" Type="System.Boolean&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="Account">
-          <span data-ttu-id="6db84-164">Представляет идентификатор GUID в учетной записи реестра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-164">Represents the GUID of the account registry key.</span>
-          </span>
-          <span data-ttu-id="6db84-165">Параметры учетной записи блога, хранятся в разделе реестра \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-165">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span>
-          </span>
-        </param>
-        <param name="ParentWindow">
-          <span data-ttu-id="6db84-166">Содержит HWND для Microsoft Word — это вызов из окна.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-166">Contains the HWND for the window Microsoft Word is calling from.</span>
-          </span>
-        </param>
-        <param name="Document">
-          <span data-ttu-id="6db84-167">Текущего документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-167">The current document.</span>
-          </span>
-        </param>
-        <param name="NewAccount">
-          <span data-ttu-id="6db84-168">Указывает, является ли новую учетную запись.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-168">Indicates whether this is a new account.</span>
-          </span>
-        </param>
-        <param name="ShowPictureUI">
-          <span data-ttu-id="6db84-169">Указывает, должна ли отображаться пользовательский интерфейс Microsoft Office Word рисунков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-169">Indicates whether Microsoft Office Word’s picture user interface needs to be displayed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6db84-170">Вызывается из диалогового окна выберите учетную запись, при выборе имя поставщика в раскрывающемся списке узла блога или когда пользователь запрашивает изменение учетной записи поставщика в диалоговом окне учетные записи блога.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6db84-170">Called from the Choose Account dialog when the provider’s name is chosen in the Blog Host dropdown or when the user requests to change a provider’s account in the Blog Accounts dialog box.</span>
-          </span>
-        </summary>
+        <param name="Account"><span data-ttu-id="4b4b9-164">Представляет GUID раздела реестра учетной записи.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-164">Represents the GUID of the account registry key.</span></span> <span data-ttu-id="4b4b9-165">Параметры учетной записи блога хранятся в реестре \\по адресу хкку\софтваре\микрософт\оффице\коммон\блог\аккаунт.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-165">Blog account settings are stored in the registry at \\HKCU\Software\Microsoft\Office\Common\Blog\Account.</span></span></param>
+        <param name="ParentWindow"><span data-ttu-id="4b4b9-166">Содержит HWND для окна, из которого вызывается Microsoft Word.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-166">Contains the HWND for the window Microsoft Word is calling from.</span></span></param>
+        <param name="Document"><span data-ttu-id="4b4b9-167">Текущий документ.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-167">The current document.</span></span></param>
+        <param name="NewAccount"><span data-ttu-id="4b4b9-168">Указывает, является ли новая учетная запись новой.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-168">Indicates whether this is a new account.</span></span></param>
+        <param name="ShowPictureUI"><span data-ttu-id="4b4b9-169">Указывает, нужно ли отображать пользовательский интерфейс рисунка Microsoft Office Word.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-169">Indicates whether Microsoft Office Word’s picture user interface needs to be displayed.</span></span></param>
+        <summary><span data-ttu-id="4b4b9-170">Вызывается из диалогового окна Выбор учетной записи, когда имя поставщика выбирается в раскрывающемся списке узла блога или когда пользователь запрашивает изменение учетной записи поставщика в диалоговом окне Учетные записи блога.</span><span class="sxs-lookup"><span data-stu-id="4b4b9-170">Called from the Choose Account dialog when the provider’s name is chosen in the Blog Host dropdown or when the user requests to change a provider’s account in the Blog Accounts dialog box.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

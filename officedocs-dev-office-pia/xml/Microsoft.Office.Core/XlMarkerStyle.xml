@@ -1,13 +1,5 @@
 <Type Name="XlMarkerStyle" FullName="Microsoft.Office.Core.XlMarkerStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="98d02d5c3f6363e54c3d1493cd75c290d0b33de7" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662009" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlMarkerStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="98d02d5c3f6363e54c3d1493cd75c290d0b33de7" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662009" /></Metadata><TypeSignature Language="C#" Value="public enum XlMarkerStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlMarkerStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlMarkerStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlMarkerStyle" />
@@ -28,16 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="fad4c-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fad4c-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="fad4c-102">Задает стиль маркера для точки или серии график, диаграмме или лепестковые диаграммы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fad4c-102">Specifies the marker style for a point or series in a line chart, scatter chart, or radar chart.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="50dd2-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-102">Задает стиль маркера для точки или ряда в графике, точечной диаграмме или лепестковой диаграмме.</span><span class="sxs-lookup"><span data-stu-id="50dd2-102">Specifies the marker style for a point or series in a line chart, scatter chart, or radar chart.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -57,16 +40,7 @@
       </ReturnValue>
       <MemberValue>-4105</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fad4c-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fad4c-104">Автоматическое маркеры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-104">Automatic markers.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50dd2-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-104">Автоматические маркеры.</span><span class="sxs-lookup"><span data-stu-id="50dd2-104">Automatic markers.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleCircle">
@@ -85,16 +59,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fad4c-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fad4c-106">Циклическая маркеры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-106">Circular markers.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50dd2-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-106">Циклические маркеры.</span><span class="sxs-lookup"><span data-stu-id="50dd2-106">Circular markers.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleDash">
@@ -113,16 +78,7 @@
       </ReturnValue>
       <MemberValue>-4115</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fad4c-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fad4c-108">Срок черта маркеры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-108">Long bar markers.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50dd2-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-108">Длинные маркеры столбцов.</span><span class="sxs-lookup"><span data-stu-id="50dd2-108">Long bar markers.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleDiamond">
@@ -141,16 +97,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fad4c-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fad4c-110">Ромб образный маркеры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-110">Diamond-shaped markers.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50dd2-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-110">Маркеры в форме ромба.</span><span class="sxs-lookup"><span data-stu-id="50dd2-110">Diamond-shaped markers.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleDot">
@@ -169,16 +116,7 @@
       </ReturnValue>
       <MemberValue>-4118</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fad4c-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fad4c-112">Короткая штрих-маркеров.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-112">Short bar markers.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50dd2-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-112">Короткие маркеры полосы проштриха.</span><span class="sxs-lookup"><span data-stu-id="50dd2-112">Short bar markers.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleNone">
@@ -197,16 +135,7 @@
       </ReturnValue>
       <MemberValue>-4142</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fad4c-113">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-113">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fad4c-114">Без маркеров.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-114">No markers.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50dd2-113">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-113">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-114">Без маркеров.</span><span class="sxs-lookup"><span data-stu-id="50dd2-114">No markers.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStylePicture">
@@ -225,16 +154,7 @@
       </ReturnValue>
       <MemberValue>-4147</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fad4c-115">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-115">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fad4c-116">Маркеры рисунков.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-116">Picture markers.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50dd2-115">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-115">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-116">Маркеры рисунков.</span><span class="sxs-lookup"><span data-stu-id="50dd2-116">Picture markers.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStylePlus">
@@ -253,16 +173,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fad4c-117">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-117">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fad4c-118">Квадратный маркер добавляется знак плюса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-118">Square markers with a plus sign.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50dd2-117">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-117">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-118">Квадратные маркеры со знаком "плюс".</span><span class="sxs-lookup"><span data-stu-id="50dd2-118">Square markers with a plus sign.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleSquare">
@@ -281,16 +192,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fad4c-119">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-119">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fad4c-120">Квадратный маркер.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-120">Square markers.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50dd2-119">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-119">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-120">Квадратные маркеры.</span><span class="sxs-lookup"><span data-stu-id="50dd2-120">Square markers.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleStar">
@@ -309,16 +211,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fad4c-121">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-121">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fad4c-122">Квадратный маркер звездочкой.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-122">Square markers with an asterisk.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50dd2-121">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-121">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-122">Квадратные маркеры со звездочкой.</span><span class="sxs-lookup"><span data-stu-id="50dd2-122">Square markers with an asterisk.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleTriangle">
@@ -337,16 +230,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fad4c-123">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-123">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fad4c-124">Трехсторонняя маркеры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-124">Triangular markers.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50dd2-123">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-123">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-124">Треугольные маркеры.</span><span class="sxs-lookup"><span data-stu-id="50dd2-124">Triangular markers.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlMarkerStyleX">
@@ -365,16 +249,7 @@
       </ReturnValue>
       <MemberValue>-4168</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fad4c-125">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-125">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="fad4c-126">Квадратный маркер с X.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fad4c-126">Square markers with an X.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50dd2-125">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="50dd2-125">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="50dd2-126">Квадратные маркеры с символом X.</span><span class="sxs-lookup"><span data-stu-id="50dd2-126">Square markers with an X.</span></span></summary>
       </Docs>
     </Member>
   </Members>

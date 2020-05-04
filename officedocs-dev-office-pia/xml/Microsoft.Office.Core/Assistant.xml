@@ -1,13 +1,5 @@
 <Type Name="Assistant" FullName="Microsoft.Office.Core.Assistant">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="61064786eac2bb5900c548fc2646b43d445a5449" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661728" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Assistant : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="61064786eac2bb5900c548fc2646b43d445a5449" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661728" /></Metadata><TypeSignature Language="C#" Value="public interface Assistant : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Assistant implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Assistant" />
   <TypeSignature Language="VB.NET" Value="Public Interface Assistant&#xA;Implements _IMsoDispObj" />
@@ -30,24 +22,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="d86cb-101">Представляет помощник по Microsoft Office.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d86cb-101">Represents the Microsoft Office Assistant.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="d86cb-102">
-        <para>Свойство <b>Assistant</b> используется для возврата объекта <b>помощника по</b> . Не коллекцию для объекта <b>помощника по</b> ; только один объект <b>помощника по</b> может быть активной за раз. Используйте <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> свойство для отображения помощника и использовать <see cref="P:Microsoft.Office.Core.Assistant.On" /> свойство, чтобы включить помощник по.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d86cb-102">
-          <para>Use the <b>Assistant</b> property to return the <b>Assistant</b> object. There isn't a collection for the <b>Assistant</b> object; only one <b>Assistant</b> object can be active at a time. Use the <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> property to display the Assistant, and use the <see cref="P:Microsoft.Office.Core.Assistant.On" /> property to enable the Assistant.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="fbcab-101">Представляет помощник по Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-101">Represents the Microsoft Office Assistant.</span></span></summary>
+    <remarks><span data-ttu-id="fbcab-102"><para>Используйте свойство <b>Assistant</b> для возврата объекта <b>Assistant</b> . Отсутствует коллекция для объекта <b>Assistant</b> ; в каждый момент времени может быть активен только один объект <b>помощника</b> . Используйте <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> свойство для отображения помощника и используйте <see cref="P:Microsoft.Office.Core.Assistant.On" /> свойство для включения помощника.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="fbcab-102"><para>Use the <b>Assistant</b> property to return the <b>Assistant</b> object. There isn't a collection for the <b>Assistant</b> object; only one <b>Assistant</b> object can be active at a time. Use the <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> property to display the Assistant, and use the <see cref="P:Microsoft.Office.Core.Assistant.On" /> property to enable the Assistant.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="ActivateWizard">
@@ -74,30 +52,10 @@
         <Parameter Name="Animation" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="WizardID">
-          <span data-ttu-id="d86cb-103">Число, возвращаемое <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> метод.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-103">The number returned by the <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> method.</span>
-          </span>
-        </param>
-        <param name="act">
-          <span data-ttu-id="d86cb-104">Задает изменения в сеансе помощником справки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-104">Specifies the change to the Office Assistant Help session.</span>
-          </span>
-        </param>
-        <param name="Animation">
-          <span data-ttu-id="d86cb-105">Анимация помощника Office выполняет при приостановить или возобновить.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-105">The animation the Office Assistant performs when it is suspended or resumed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d86cb-106">Возобновляет или приостанавливает помощником справки во время настраиваемого мастера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-106">Resumes or suspends Office Assistant Help during a custom wizard.</span>
-          </span>
-        </summary>
+        <param name="WizardID"><span data-ttu-id="fbcab-103">Число, возвращенное <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> методом.</span><span class="sxs-lookup"><span data-stu-id="fbcab-103">The number returned by the <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> method.</span></span></param>
+        <param name="act"><span data-ttu-id="fbcab-104">Задает изменение сеанса справки помощника по Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-104">Specifies the change to the Office Assistant Help session.</span></span></param>
+        <param name="Animation"><span data-ttu-id="fbcab-105">Анимация, выполняемая помощником по Office при его остановке или возобновлении.</span><span class="sxs-lookup"><span data-stu-id="fbcab-105">The animation the Office Assistant performs when it is suspended or resumed.</span></span></param>
+        <summary><span data-ttu-id="fbcab-106">Возобновляет или приостанавливает работу помощника по Office во время настраиваемого мастера.</span><span class="sxs-lookup"><span data-stu-id="fbcab-106">Resumes or suspends Office Assistant Help during a custom wizard.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -127,25 +85,11 @@
         <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-107">Возвращает или задает действие анимации для помощника по Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-107">Returns or sets an animation action for the Office Assistant.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-107">Возвращает или задает действие анимации для помощника по Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-107">Returns or sets an animation action for the Office Assistant.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d86cb-108">
-            <para>Когда это свойство применяется к <see cref="T:Microsoft.Office.Core.Assistant" /> объект и помощник поддерживает указанный анимации, выполняется анимация помощника (если помощник видимы и включены).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-108">
-              <para>When this property is applied to the <see cref="T:Microsoft.Office.Core.Assistant" /> object and the Assistant supports the specified animation, the Assistant is animated immediately (if the Assistant is visible and enabled).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="fbcab-108"><para>Когда это свойство применяется к <see cref="T:Microsoft.Office.Core.Assistant" /> объекту, а помощник поддерживает указанную анимацию, помощник анимируется сразу же (если помощник видим и включен).</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="fbcab-108"><para>When this property is applied to the <see cref="T:Microsoft.Office.Core.Assistant" /> object and the Assistant supports the specified animation, the Assistant is animated immediately (if the Assistant is visible and enabled).</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -174,12 +118,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-109">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-109">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-109">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="fbcab-109">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -210,14 +149,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-110">
-            <b>Значение true,</b> Если помощника Microsoft Office предоставляет оповещения приложение помощника отображается, когда.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-110">
-              <b>True</b> if the Office Assistant balloon delivers application alerts when the Office Assistant is visible.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-110"><b>Имеет значение true</b> , если выноска помощника по Office предоставляет оповещения о приложении, когда помощник по Office отображается.</span><span class="sxs-lookup"><span data-stu-id="fbcab-110"><b>True</b> if the Office Assistant balloon delivers application alerts when the Office Assistant is visible.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -248,14 +180,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-111">
-            <b>Значение true,</b> Если помощник появляется, когда пользователь нажимает клавишу F1 для отображения справки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-111">
-              <b>True</b> if the Office Assistant appears when the user presses the F1 key to display Help.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-111"><b>Имеет значение true</b> , если помощник отображается, когда пользователь нажимает клавишу F1 для отображения справки.</span><span class="sxs-lookup"><span data-stu-id="fbcab-111"><b>True</b> if the Office Assistant appears when the user presses the F1 key to display Help.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -286,14 +211,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-112">
-            <b>Значение true,</b> Если помощник по Office предоставляет интерактивной справки с помощью мастера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-112">
-              <b>True</b> if the Office Assistant provides online Help with wizards.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-112"><b>Имеет значение true</b> , если помощник предоставляет справку в Интернете с помощью мастеров.</span><span class="sxs-lookup"><span data-stu-id="fbcab-112"><b>True</b> if the Office Assistant provides online Help with wizards.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -321,12 +239,7 @@
         <ReturnType>Microsoft.Office.Core.MsoBalloonErrorType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-113">Возвращает значение, которое указывает последнюю ошибку записанных в документе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-113">Returns a value that indicates the last recorded balloon error.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-113">Возвращает значение, которое указывает на последнюю записанную ошибку всплывающей подсказки.</span><span class="sxs-lookup"><span data-stu-id="fbcab-113">Returns a value that indicates the last recorded balloon error.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -357,12 +270,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-114">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-114">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-114">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="fbcab-114">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -396,64 +304,14 @@
         <Parameter Name="varfSysAlert" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="bstrAlertTitle">
-          <span data-ttu-id="d86cb-115">Задает заголовок оповещения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-115">Sets the title of the alert.</span>
-          </span>
-        </param>
-        <param name="bstrAlertText">
-          <span data-ttu-id="d86cb-116">Задает текст оповещения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-116">Sets the text of the alert.</span>
-          </span>
-        </param>
-        <param name="alb">
-          <span data-ttu-id="d86cb-117">Определяет кнопки, которые отображаются на оповещение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-117">Determines which buttons are displayed on the alert.</span>
-          </span>
-        </param>
-        <param name="alc">
-          <span data-ttu-id="d86cb-118">Определяет значок, который отображается в оповещении.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-118">Determines the icon that is displayed on the alert.</span>
-          </span>
-        </param>
-        <param name="ald">
-          <span data-ttu-id="d86cb-119">Определяет, какие кнопки имеет значение по умолчанию оповещения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-119">Determines which button is set as the default button of the alert.</span>
-          </span>
-          <span data-ttu-id="d86cb-120">Если этот аргумент задано значение больше, чем количество кнопок, возвращается ошибка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-120">If this argument is set to a value greater than the number of buttons, an error is returned.</span>
-          </span>
-        </param>
-        <param name="alq">
-          <span data-ttu-id="d86cb-121">Всегда установите в <b>msoAlertCancelDefault</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-121">Always set this to <b>msoAlertCancelDefault</b>.</span>
-          </span>
-          <span data-ttu-id="d86cb-122">Любая другая настройка может возвращать ошибку.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-122">Any other setting may return an error.</span>
-          </span>
-        </param>
-        <param name="varfSysAlert">
-          <span data-ttu-id="d86cb-123">
-            <b>Значение true,</b> Если это оповещение отображается в окне сообщения, или <b>значение False</b> , если отображается оповещение с помощью помощника по Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-123">
-              <b>True</b> if the alert is displayed in a message box or <b>False</b> if the alert is displayed through the Office Assistant.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d86cb-124">Появляется сообщение о и возвращает <b>целое число</b> , указывающее, какая кнопка была нажата.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-124">Displays an alert and returns an <b>Integer</b> that indicates which button the user pressed.</span>
-          </span>
-        </summary>
+        <param name="bstrAlertTitle"><span data-ttu-id="fbcab-115">Задает название оповещения.</span><span class="sxs-lookup"><span data-stu-id="fbcab-115">Sets the title of the alert.</span></span></param>
+        <param name="bstrAlertText"><span data-ttu-id="fbcab-116">Задает текст оповещения.</span><span class="sxs-lookup"><span data-stu-id="fbcab-116">Sets the text of the alert.</span></span></param>
+        <param name="alb"><span data-ttu-id="fbcab-117">Определяет, какие кнопки отображаются в оповещении.</span><span class="sxs-lookup"><span data-stu-id="fbcab-117">Determines which buttons are displayed on the alert.</span></span></param>
+        <param name="alc"><span data-ttu-id="fbcab-118">Определяет значок, отображаемый в оповещении.</span><span class="sxs-lookup"><span data-stu-id="fbcab-118">Determines the icon that is displayed on the alert.</span></span></param>
+        <param name="ald"><span data-ttu-id="fbcab-119">Определяет, какая кнопка задается как кнопка оповещения по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="fbcab-119">Determines which button is set as the default button of the alert.</span></span> <span data-ttu-id="fbcab-120">Если для этого аргумента задано значение, превышающее количество кнопок, возвращается ошибка.</span><span class="sxs-lookup"><span data-stu-id="fbcab-120">If this argument is set to a value greater than the number of buttons, an error is returned.</span></span></param>
+        <param name="alq"><span data-ttu-id="fbcab-121">Всегда присвойте этому параметру значение <b>мсоалертканцелдефаулт</b>.</span><span class="sxs-lookup"><span data-stu-id="fbcab-121">Always set this to <b>msoAlertCancelDefault</b>.</span></span> <span data-ttu-id="fbcab-122">Любой другой параметр может возвращать сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="fbcab-122">Any other setting may return an error.</span></span></param>
+        <param name="varfSysAlert"><span data-ttu-id="fbcab-123"><b>Значение true</b> , если предупреждение отображается в окне сообщения, или <b>значение false</b> , если оповещение отображается в помощнике по Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-123"><b>True</b> if the alert is displayed in a message box or <b>False</b> if the alert is displayed through the Office Assistant.</span></span></param>
+        <summary><span data-ttu-id="fbcab-124">Отображает оповещение и возвращает <b>целое число</b> , которое указывает, какая кнопка нажата пользователем.</span><span class="sxs-lookup"><span data-stu-id="fbcab-124">Displays an alert and returns an <b>Integer</b> that indicates which button the user pressed.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -482,36 +340,10 @@
         <Parameter Name="Animation" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="WizardID">
-          <span data-ttu-id="d86cb-125">Число, возвращаемое методом <b>StartWizard</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-125">The number returned by the <b>StartWizard</b> method.</span>
-          </span>
-        </param>
-        <param name="varfSuccess">
-          <span data-ttu-id="d86cb-126">
-            <b>Значение true,</b> чтобы указать, что пользователь успешно выполнил мастера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-126">
-              <b>True</b> to indicate that the user completed the wizard successfully.</span>
-          </span>
-        </param>
-        <param name="Animation">
-          <span data-ttu-id="d86cb-127">Анимация, помощника Office выполняет, если <paramref name="varfSuccess" /> имеет значение <b>True</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-127">The animation the Office Assistant performs if <paramref name="varfSuccess" /> is set to <b>True</b>.</span>
-          </span>
-          <span data-ttu-id="d86cb-128">Значение по умолчанию — <b>msoAnimationCharacterSuccessMajor</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-128">The default value is <b>msoAnimationCharacterSuccessMajor</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d86cb-129">Освобождает переменной, возвращаемые <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> метод.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-129">Releases the variable returned by the <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> method.</span>
-          </span>
-        </summary>
+        <param name="WizardID"><span data-ttu-id="fbcab-125">Число, возвращенное методом <b>стартвизард</b> .</span><span class="sxs-lookup"><span data-stu-id="fbcab-125">The number returned by the <b>StartWizard</b> method.</span></span></param>
+        <param name="varfSuccess"><span data-ttu-id="fbcab-126"><b>Значение true</b> указывает, что пользователь успешно завершил работу мастера.</span><span class="sxs-lookup"><span data-stu-id="fbcab-126"><b>True</b> to indicate that the user completed the wizard successfully.</span></span></param>
+        <param name="Animation"><span data-ttu-id="fbcab-127">Анимация, выполняемая помощником по <paramref name="varfSuccess" /> Office, если задано <b>значение true</b>.</span><span class="sxs-lookup"><span data-stu-id="fbcab-127">The animation the Office Assistant performs if <paramref name="varfSuccess" /> is set to <b>True</b>.</span></span> <span data-ttu-id="fbcab-128">Значение по умолчанию — <b>мсоаниматиончарактерсукцессмажор</b>.</span><span class="sxs-lookup"><span data-stu-id="fbcab-128">The default value is <b>msoAnimationCharacterSuccessMajor</b>.</span></span></param>
+        <summary><span data-ttu-id="fbcab-129">Освобождает переменную, возвращаемую <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> методом.</span><span class="sxs-lookup"><span data-stu-id="fbcab-129">Releases the variable returned by the <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> method.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -541,14 +373,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-130">
-            <b>Значение true,</b> Если помощник по Office содержит сведения об использовании функции приложения более эффективно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-130">
-              <b>True</b> if the Office Assistant provides information about using application features more effectively.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-130"><b>Имеет значение true</b> , если помощник по Office предоставляет сведения об использовании функций приложений более эффективно.</span><span class="sxs-lookup"><span data-stu-id="fbcab-130"><b>True</b> if the Office Assistant provides information about using application features more effectively.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -579,12 +404,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-131">Возвращает или задает путь и имя файла для активной помощника.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-131">Returns or sets the path and file name for the active Office Assistant.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-131">Возвращает или задает путь и имя файла для активного помощника Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-131">Returns or sets the path and file name for the active Office Assistant.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -615,14 +435,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-132">
-            <b>Значение true,</b> Если помощника Microsoft Office предоставляет список разделов справки по ключевым словам пользователь выбирает до щелчка окно помощника или нажав клавишу F1.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-132">
-              <b>True</b> if the Office Assistant balloon presents a list of Help topics based on keywords the user selects before clicking the Assistant window or pressing F1.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-132"><b>True</b> , если всплывающая подсказка помощника по Office отображает список разделов справки на основе ключевых слов, выбранных пользователем перед щелчком окна помощника или нажатием клавиши F1.</span><span class="sxs-lookup"><span data-stu-id="fbcab-132"><b>True</b> if the Office Assistant balloon presents a list of Help topics based on keywords the user selects before clicking the Assistant window or pressing F1.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -648,16 +461,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-133">Отображает помощника по Office и встроенные «Что вы хотите сделать?»</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-133">Displays the Office Assistant and the built-in "What would you like to do?"</span>
-          </span>
-          <span data-ttu-id="d86cb-134">Помощника для стандартных интерактивной справки Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-134">Assistant balloon for standard Office online Help.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-133">Отображение помощника по Office и встроенного "что вы хотите сделать?"</span><span class="sxs-lookup"><span data-stu-id="fbcab-133">Displays the Office Assistant and the built-in "What would you like to do?"</span></span> <span data-ttu-id="fbcab-134">Выноска помощника для стандартной справки по Office Online.</span><span class="sxs-lookup"><span data-stu-id="fbcab-134">Assistant balloon for standard Office online Help.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -687,14 +491,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-135">
-            <b>Значение true,</b> Если помощником советы высокий приоритет.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-135">
-              <b>True</b> if the Office Assistant displays high-priority tips.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-135"><b>Имеет значение true</b> , если помощник по Office отображает советы с высоким приоритетом.</span><span class="sxs-lookup"><span data-stu-id="fbcab-135"><b>True</b> if the Office Assistant displays high-priority tips.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -722,12 +519,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-136">Возвращает текст, связанного с объектом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-136">Returns the text associated with an object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-136">Возвращает текст, связанный с объектом.</span><span class="sxs-lookup"><span data-stu-id="fbcab-136">Returns the text associated with an object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -758,14 +550,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-137">
-            <b>Значение true,</b> Если помощником справки о сочетаниях клавиш.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-137">
-              <b>True</b> if the Office Assistant displays Help about keyboard shortcuts.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-137"><b>Имеет значение true</b> , если помощник по Office отображает справку о сочетаниях клавиш.</span><span class="sxs-lookup"><span data-stu-id="fbcab-137"><b>True</b> if the Office Assistant displays Help about keyboard shortcuts.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -796,12 +581,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-138">Задает или возвращает горизонтальную позицию окна помощника по Office (в пунктах) или расстояние (в точках) панели команд от левого края указанный объект относительно экрана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-138">Sets or returns the horizontal position of the Office Assistant window (in points), or the distance (in pixels) of the command bar, from the left edge of the specified object relative to the screen.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-138">Задает или Возвращает горизонтальное положение окна помощника по Office (в пунктах) или расстояние (в пикселях) для панели команд от левого края указанного объекта относительно экрана.</span><span class="sxs-lookup"><span data-stu-id="fbcab-138">Sets or returns the horizontal position of the Office Assistant window (in points), or the distance (in pixels) of the command bar, from the left edge of the specified object relative to the screen.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -832,14 +612,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-139">
-            <b>Значение true,</b> Если помощник рекомендации по эффективному с помощью мыши.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-139">
-              <b>True</b> if the Office Assistant provides suggestions for using the mouse effectively.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-139"><b>Имеет значение true</b> , если помощник по Office предоставляет рекомендации по эффективному использованию мыши.</span><span class="sxs-lookup"><span data-stu-id="fbcab-139"><b>True</b> if the Office Assistant provides suggestions for using the mouse effectively.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -868,24 +641,9 @@
         <Parameter Name="yTop" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="xLeft">
-          <span data-ttu-id="d86cb-140">Слева от окна помощника Office в пунктах.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-140">The left position of the Office Assistant window, in points.</span>
-          </span>
-        </param>
-        <param name="yTop">
-          <span data-ttu-id="d86cb-141">Основные положения окна помощника Office в пунктах.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-141">The top position of the Office Assistant window, in points.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d86cb-142">Перемещение помощника в указанном расположении.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-142">Moves the Office Assistant to the specified location.</span>
-          </span>
-        </summary>
+        <param name="xLeft"><span data-ttu-id="fbcab-140">Левое положение окна помощника по Office в пунктах.</span><span class="sxs-lookup"><span data-stu-id="fbcab-140">The left position of the Office Assistant window, in points.</span></span></param>
+        <param name="yTop"><span data-ttu-id="fbcab-141">Верхняя позиция окна помощника по Office в пунктах.</span><span class="sxs-lookup"><span data-stu-id="fbcab-141">The top position of the Office Assistant window, in points.</span></span></param>
+        <summary><span data-ttu-id="fbcab-142">Перемещает помощника в указанное место.</span><span class="sxs-lookup"><span data-stu-id="fbcab-142">Moves the Office Assistant to the specified location.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -915,14 +673,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-143">
-            <b>Значение true,</b> Если окно помощника Office автоматически перемещает при условиях пользователя рабочей области.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-143">
-              <b>True</b> if the Office Assistant window automatically moves when it's in the way of the user's work area.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-143"><b>Значение true</b> , если окно помощника Office автоматически перемещается, когда оно находится в рабочем месте пользователя.</span><span class="sxs-lookup"><span data-stu-id="fbcab-143"><b>True</b> if the Office Assistant window automatically moves when it's in the way of the user's work area.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -950,12 +701,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-144">Возвращает или задает имя указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-144">Returns or sets the name of the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-144">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="fbcab-144">Returns or sets the name of the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -983,12 +729,7 @@
         <ReturnType>Microsoft.Office.Core.Balloon</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-145">Создает помощника Microsoft Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-145">Creates an Office Assistant balloon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-145">Создает выноску помощника по Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-145">Creates an Office Assistant balloon.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1019,14 +760,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-146">
-            <b>Значение true,</b> Если включена помощника по Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-146">
-              <b>True</b> if the Office Assistant is enabled.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-146"><b>Имеет значение true</b> , если помощник по Office включен.</span><span class="sxs-lookup"><span data-stu-id="fbcab-146"><b>True</b> if the Office Assistant is enabled.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1054,12 +788,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-147">Возвращает <b>родительский</b> объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-147">Returns the <b>Parent</b> object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-147">Возвращает <b>родительский</b> объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="fbcab-147">Returns the <b>Parent</b> object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1090,14 +819,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-148">
-            <b>Значение true,</b> Если окно помощника появляется в его меньший размер.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-148">
-              <b>True</b> if the Office Assistant window appears in its smaller size.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-148"><b>Значение true</b> , если окно помощника отображается в уменьшенном размере.</span><span class="sxs-lookup"><span data-stu-id="fbcab-148"><b>True</b> if the Office Assistant window appears in its smaller size.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1123,12 +845,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-149">Сбрасывает советы приложения, которые отображаются в окне помощника Microsoft Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-149">Resets the application tips that appear in the Office Assistant balloon.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-149">Сбрасывает подсказки для приложений, которые отображаются в выноске помощника по Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-149">Resets the application tips that appear in the Office Assistant balloon.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1158,14 +875,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-150">
-            <b>Значение true,</b> Если помощником приложения и справки по программирования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-150">
-              <b>True</b> if the Office Assistant displays application and programming Help.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-150"><b>Имеет значение true</b> , если помощник по Office отображает справку по приложениям и программированию.</span><span class="sxs-lookup"><span data-stu-id="fbcab-150"><b>True</b> if the Office Assistant displays application and programming Help.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1196,14 +906,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-151">
-            <b>Значение true,</b> Если помощник создает звуки, которые соответствуют анимации.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-151">
-              <b>True</b> if the Office Assistant produces the sounds that correspond to animations.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-151"><b>Имеет значение true</b> , если помощник создает звуки, соответствующие анимациям.</span><span class="sxs-lookup"><span data-stu-id="fbcab-151"><b>True</b> if the Office Assistant produces the sounds that correspond to animations.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1238,99 +941,20 @@
         <Parameter Name="Right" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="On">
-          <span data-ttu-id="d86cb-152">
-            <b>Значение true,</b> чтобы отобразить всплывающие принятия решений Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-152">
-              <b>True</b> to display the Office decision balloon.</span>
-          </span>
-          <span data-ttu-id="d86cb-153">Выноске принятия решений Office запрашивает у пользователя ли он или она хочет справки по работе с активной настраиваемого мастера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-153">The Office decision balloon asks the user whether he or she wants help with the active custom wizard.</span>
-          </span>
-          <span data-ttu-id="d86cb-154">Нет необходимости использовать <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> свойство для отображения помощника по Office, если указать <b>значение True</b> для этого аргумента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-154">It isn't necessary to use the <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> property to display the Office Assistant if you specify <b>True</b> for this argument.</span>
-          </span>
-        </param>
-        <param name="Callback">
-          <span data-ttu-id="d86cb-155">Имя процедуры обратного вызова, с помощью всплывающее принятия решений Office и выноске филиала.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-155">The name of the callback procedure run by the Office decision balloon and the branch balloon.</span>
-          </span>
-          <span data-ttu-id="d86cb-156">Выноски филиала пользователь может выбрать одну из подготовили для мастера справки и справки Microsoft Office стандартный.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-156">The branch balloon allows the user to choose between custom Help you've provided for the wizard and standard Office Help.</span>
-          </span>
-        </param>
-        <param name="PrivateX">
-          <span data-ttu-id="d86cb-157">Номер, идентифицирующий этот значок, который инициировал процедуру обратного вызова.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-157">A number that identifies the balloon that initiated the callback procedure.</span>
-          </span>
-        </param>
-        <param name="Animation">
-          <span data-ttu-id="d86cb-158">Анимация помощника Office выполняет при использовании этого метода.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-158">The animation the Office Assistant performs when this method is used.</span>
-          </span>
-          <span data-ttu-id="d86cb-159">Значение по умолчанию — <b>msoAnimationGetWizardy</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-159">The default value is <b>msoAnimationGetWizardy</b>.</span>
-          </span>
-        </param>
-        <param name="CustomTeaser">
-          <span data-ttu-id="d86cb-160">
-            <b>Значение false,</b> чтобы отобразить всплывающие принятия решений Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-160">
-              <b>False</b> to display the Office decision balloon.</span>
-          </span>
-        </param>
-        <param name="Top">
-          <span data-ttu-id="d86cb-161">Положение углы (в пунктах и относительно экрана) помощника формы настраиваемого мастера помогают предотвратить появление в появившемся помощника по Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-161">The position of the corners (in points and relative to the screen) of the custom wizard form the Office Assistant will avoid when the Office Assistant appears.</span>
-          </span>
-        </param>
-        <param name="Left">
-          <span data-ttu-id="d86cb-162">Положение углы (в пунктах и относительно экрана) помощника формы настраиваемого мастера помогают предотвратить появление в появившемся помощника по Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-162">The position of the corners (in points and relative to the screen) of the custom wizard form the Office Assistant will avoid when the Office Assistant appears.</span>
-          </span>
-        </param>
-        <param name="Bottom">
-          <span data-ttu-id="d86cb-163">Положение углы (в пунктах и относительно экрана) помощника формы настраиваемого мастера помогают предотвратить появление в появившемся помощника по Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-163">The position of the corners (in points and relative to the screen) of the custom wizard form the Office Assistant will avoid when the Office Assistant appears.</span>
-          </span>
-        </param>
-        <param name="Right">
-          <span data-ttu-id="d86cb-164">Положение углы (в пунктах и относительно экрана) помощника формы настраиваемого мастера помогают предотвратить появление в появившемся помощника по Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-164">The position of the corners (in points and relative to the screen) of the custom wizard form the Office Assistant will avoid when the Office Assistant appears.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="d86cb-165">Запуск помощника по Office и возвращает <b>целое число, идентифицирующее сеанса</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-165">Starts the Office Assistant and returns an <b>Integer</b> value that identifies the session.</span>
-          </span>
-        </summary>
+        <param name="On"><span data-ttu-id="fbcab-152"><b>Значение true</b> , чтобы отобразить всплывающее подсказку решения Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-152"><b>True</b> to display the Office decision balloon.</span></span> <span data-ttu-id="fbcab-153">Всплывающее подсказка о решении Office запрашивает у пользователя, хочет ли он помочь вам в работе с активным пользовательским мастером.</span><span class="sxs-lookup"><span data-stu-id="fbcab-153">The Office decision balloon asks the user whether he or she wants help with the active custom wizard.</span></span> <span data-ttu-id="fbcab-154">Если для этого аргумента задано <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> <b>значение true</b> , не нужно использовать свойство для отображения помощника по Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-154">It isn't necessary to use the <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> property to display the Office Assistant if you specify <b>True</b> for this argument.</span></span></param>
+        <param name="Callback"><span data-ttu-id="fbcab-155">Имя процедуры обратного вызова, которое выноски решения Office и подсказки ветви.</span><span class="sxs-lookup"><span data-stu-id="fbcab-155">The name of the callback procedure run by the Office decision balloon and the branch balloon.</span></span> <span data-ttu-id="fbcab-156">Подсказка Branch позволяет пользователю выбрать пользовательскую справку, предоставленную для мастера и стандартной справки Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-156">The branch balloon allows the user to choose between custom Help you've provided for the wizard and standard Office Help.</span></span></param>
+        <param name="PrivateX"><span data-ttu-id="fbcab-157">Число, определяющее всплывающее сообщение, которое инициировало процедуру обратного вызова.</span><span class="sxs-lookup"><span data-stu-id="fbcab-157">A number that identifies the balloon that initiated the callback procedure.</span></span></param>
+        <param name="Animation"><span data-ttu-id="fbcab-158">Анимация, выполняемая помощником по Office при использовании этого метода.</span><span class="sxs-lookup"><span data-stu-id="fbcab-158">The animation the Office Assistant performs when this method is used.</span></span> <span data-ttu-id="fbcab-159">Значение по умолчанию — <b>мсоаниматионжетвизарди</b>.</span><span class="sxs-lookup"><span data-stu-id="fbcab-159">The default value is <b>msoAnimationGetWizardy</b>.</span></span></param>
+        <param name="CustomTeaser"><span data-ttu-id="fbcab-160"><b>Значение false</b> , чтобы отобразить всплывающее подсказку решения Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-160"><b>False</b> to display the Office decision balloon.</span></span></param>
+        <param name="Top"><span data-ttu-id="fbcab-161">Положение углов (в пунктах и относительно экрана) формы настраиваемого мастера помощник по Office не будет появляться, когда появится помощник по Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-161">The position of the corners (in points and relative to the screen) of the custom wizard form the Office Assistant will avoid when the Office Assistant appears.</span></span></param>
+        <param name="Left"><span data-ttu-id="fbcab-162">Положение углов (в пунктах и относительно экрана) формы настраиваемого мастера помощник по Office не будет появляться, когда появится помощник по Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-162">The position of the corners (in points and relative to the screen) of the custom wizard form the Office Assistant will avoid when the Office Assistant appears.</span></span></param>
+        <param name="Bottom"><span data-ttu-id="fbcab-163">Положение углов (в пунктах и относительно экрана) формы настраиваемого мастера помощник по Office не будет появляться, когда появится помощник по Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-163">The position of the corners (in points and relative to the screen) of the custom wizard form the Office Assistant will avoid when the Office Assistant appears.</span></span></param>
+        <param name="Right"><span data-ttu-id="fbcab-164">Положение углов (в пунктах и относительно экрана) формы настраиваемого мастера помощник по Office не будет появляться, когда появится помощник по Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-164">The position of the corners (in points and relative to the screen) of the custom wizard form the Office Assistant will avoid when the Office Assistant appears.</span></span></param>
+        <summary><span data-ttu-id="fbcab-165">Запускает помощник по Office и возвращает <b>целое</b> значение, идентифицирующее сеанс.</span><span class="sxs-lookup"><span data-stu-id="fbcab-165">Starts the Office Assistant and returns an <b>Integer</b> value that identifies the session.</span></span></summary>
         <returns>To be added.</returns>
-        <remarks>
-          <span data-ttu-id="d86cb-166">
-            <para>Этот метод следует использовать только для запуска помощника в настраиваемого мастера.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-166">
-              <para>You should use this method only to run the Office Assistant in a custom wizard.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="fbcab-166"><para>Этот метод следует использовать только для запуска помощника по Office в настраиваемом мастере.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="fbcab-166"><para>You should use this method only to run the Office Assistant in a custom wizard.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="TipOfDay">
@@ -1359,14 +983,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-167">
-            <b>Значение true,</b> Если помощником специальный подсказки при каждом открытии приложения Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-167">
-              <b>True</b> if the Office Assistant displays a special tip each time the Office application is opened.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-167"><b>Имеет значение true</b> , если помощник по Office отображает особый Совет при каждом открытии приложения Office.</span><span class="sxs-lookup"><span data-stu-id="fbcab-167"><b>True</b> if the Office Assistant displays a special tip each time the Office application is opened.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1397,25 +1014,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-168">Задает или возвращает расстояние (в пунктах) в верхней части помощника по Office или верхнего края панели команд указанного по верхнему краю экрана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-168">Sets or returns the distance (in points) from the top of the Office Assistant, or from the top edge of the specified command bar, to the top edge of the screen.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-168">Задает или возвращает расстояние (в пунктах) от верхнего края помощника или от верхнего края указанной панели команд до верхнего края экрана.</span><span class="sxs-lookup"><span data-stu-id="fbcab-168">Sets or returns the distance (in points) from the top of the Office Assistant, or from the top edge of the specified command bar, to the top edge of the screen.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d86cb-169">
-            <para>Для панелей команд закрепленного это свойство Возвращает или задает расстояние от панели команд в верхней части области закрепления.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-169">
-              <para>For docked command bars, this property returns or sets the distance from the command bar to the top of the docking area.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="fbcab-169"><para>Для закрепленных панелей команд это свойство возвращает или задает расстояние от панели команд до верха области стыковки.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="fbcab-169"><para>For docked command bars, this property returns or sets the distance from the command bar to the top of the docking area.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -1444,14 +1047,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d86cb-170">
-            <b>Значение true,</b> Если указанный объект является видимым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d86cb-170">
-              <b>True</b> if the specified object is visible.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fbcab-170"><b>Значение true</b> , если указанный объект является видимым.</span><span class="sxs-lookup"><span data-stu-id="fbcab-170"><b>True</b> if the specified object is visible.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

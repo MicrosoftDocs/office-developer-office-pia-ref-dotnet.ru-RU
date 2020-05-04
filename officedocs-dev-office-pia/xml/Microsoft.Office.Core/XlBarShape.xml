@@ -1,13 +1,5 @@
 <Type Name="XlBarShape" FullName="Microsoft.Office.Core.XlBarShape">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="13aaf124c61a0d82ed94380fc23eac31f977e6f2" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662136" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlBarShape" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="13aaf124c61a0d82ed94380fc23eac31f977e6f2" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662136" /></Metadata><TypeSignature Language="C#" Value="public enum XlBarShape" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlBarShape extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlBarShape" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlBarShape" />
@@ -25,16 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="2a6cd-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2a6cd-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="2a6cd-102">Задает форму, используемую для объемной линейчатой диаграммы или гистограммы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2a6cd-102">Specifies the shape used with the 3-D bar or column chart.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="321f8-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="321f8-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="321f8-102">Задает фигуру, используемую с трехмерной линейчатой или гистограммой.</span><span class="sxs-lookup"><span data-stu-id="321f8-102">Specifies the shape used with the 3-D bar or column chart.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -54,16 +37,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2a6cd-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2a6cd-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="2a6cd-104">Поле.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2a6cd-104">Box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="321f8-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="321f8-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="321f8-104">Выберите.</span><span class="sxs-lookup"><span data-stu-id="321f8-104">Box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlConeToMax">
@@ -82,16 +56,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2a6cd-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2a6cd-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="2a6cd-106">Конические усечено до значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2a6cd-106">Cone, truncated at value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="321f8-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="321f8-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="321f8-106">Конус, усекается по значению.</span><span class="sxs-lookup"><span data-stu-id="321f8-106">Cone, truncated at value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlConeToPoint">
@@ -110,16 +75,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2a6cd-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2a6cd-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="2a6cd-108">Конические посещать наведите указатель на значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2a6cd-108">Cone, coming to point at value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="321f8-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="321f8-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="321f8-108">Конус, поступающий в точку по значению.</span><span class="sxs-lookup"><span data-stu-id="321f8-108">Cone, coming to point at value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlCylinder">
@@ -138,16 +94,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2a6cd-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2a6cd-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="2a6cd-110">Цилиндрические.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2a6cd-110">Cylinder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="321f8-109">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="321f8-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="321f8-110">Конфигураци.</span><span class="sxs-lookup"><span data-stu-id="321f8-110">Cylinder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlPyramidToMax">
@@ -166,16 +113,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2a6cd-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2a6cd-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="2a6cd-112">Пирамидальной усечено до значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2a6cd-112">Pyramid, truncated at value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="321f8-111">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="321f8-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="321f8-112">Пирамида, усекается по значению.</span><span class="sxs-lookup"><span data-stu-id="321f8-112">Pyramid, truncated at value.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlPyramidToPoint">
@@ -194,16 +132,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2a6cd-113">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2a6cd-113">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="2a6cd-114">Пирамидальной посещать наведите указатель на значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2a6cd-114">Pyramid, coming to point at value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="321f8-113">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="321f8-113">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="321f8-114">Пирамида, поступающие в точку по значению.</span><span class="sxs-lookup"><span data-stu-id="321f8-114">Pyramid, coming to point at value.</span></span></summary>
       </Docs>
     </Member>
   </Members>

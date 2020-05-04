@@ -1,13 +1,5 @@
 <Type Name="_CustomTaskPane" FullName="Microsoft.Office.Core._CustomTaskPane">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="54421a9151e347dcd5f463af33539b23e21495a1" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662650" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CustomTaskPane" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="54421a9151e347dcd5f463af33539b23e21495a1" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662650" /></Metadata><TypeSignature Language="C#" Value="public interface _CustomTaskPane" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomTaskPane" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomTaskPane" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CustomTaskPane" />
@@ -26,26 +18,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="51105-101">Представляет настраиваемую область задач в приложении контейнера.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="51105-101">Represents a custom task pane in the container application.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="51105-102">
-        <para>
-          <b>Примечание</b>: можно создавать настраиваемые области задач на любом языке, который поддерживает COM и позволяет создавать файлы библиотеки (DLL). Например Microsoft Visual Basic 6.0®, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET и Microsoft Visual C#®. Тем не менее Microsoft Visual Basic для приложений (VBA) не поддерживает создание настраиваемых областей задач.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="51105-102">
-          <para>
-            <b>Note</b>: You can create custom task panes in any language that supports COM and allows you to create dynamic-linked library (DLL) files. For example, Microsoft Visual Basic® 6.0, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET, and Microsoft Visual C#®. However, Microsoft Visual Basic for Applications (VBA) does not support creating custom task panes. </para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="43fc8-101">Представляет настраиваемую область задач в приложении контейнера.</span><span class="sxs-lookup"><span data-stu-id="43fc8-101">Represents a custom task pane in the container application.</span></span></summary>
+    <remarks><span data-ttu-id="43fc8-102"><para>
+        <b>Примечание</b>: вы можете создавать настраиваемые области задач на любом языке, поддерживающем COM, и позволяет создавать файлы динамической библиотеки (DLL). Например, Microsoft Visual Basic® 6,0, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET и Microsoft Visual C#®. Тем не менее, Microsoft Visual Basic для приложений (VBA) не поддерживает создание настраиваемых областей задач.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="43fc8-102"><para>
+        <b>Note</b>: You can create custom task panes in any language that supports COM and allows you to create dynamic-linked library (DLL) files. For example, Microsoft Visual Basic® 6.0, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET, and Microsoft Visual C#®. However, Microsoft Visual Basic for Applications (VBA) does not support creating custom task panes. </para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -71,26 +49,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="51105-103">Получает объект <b>приложения</b> ведущего приложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-103">Gets the <b>Application</b> object of the host application.</span>
-          </span>
-          <span data-ttu-id="51105-104">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-104">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="51105-105">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-105">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="43fc8-103">Возвращает объект <b>Application</b> ведущего приложения.</span><span class="sxs-lookup"><span data-stu-id="43fc8-103">Gets the <b>Application</b> object of the host application.</span></span> <span data-ttu-id="43fc8-104">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="43fc8-104">Read-only.</span></span></summary>
+        <value><span data-ttu-id="43fc8-105"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="43fc8-105"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,38 +77,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="51105-106">Получает элемент управления Microsoft ActiveX®, отображаемый в рамке пользовательской панели задач.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-106">Gets the Microsoft ActiveX® control instance displayed in the custom task pane frame.</span>
-          </span>
-          <span data-ttu-id="51105-107">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-107">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="51105-108">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-108">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="51105-109">
-            <para>Это свойство имеет значение один раз при его создании.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-109">
-              <para>This property is set once at creation.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="43fc8-106">Получает экземпляр элемента управления® Microsoft ActiveX, отображаемый в рамке настраиваемой области задач.</span><span class="sxs-lookup"><span data-stu-id="43fc8-106">Gets the Microsoft ActiveX® control instance displayed in the custom task pane frame.</span></span> <span data-ttu-id="43fc8-107">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="43fc8-107">Read-only.</span></span></summary>
+        <value><span data-ttu-id="43fc8-108"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="43fc8-108"><b>Object</b></span></span></value>
+        <remarks><span data-ttu-id="43fc8-109"><para>Это свойство задается один раз при создании.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="43fc8-109"><para>This property is set once at creation.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -172,12 +105,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="51105-110">Удаляет active настраиваемой области задач.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-110">Deletes the active custom task pane.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="43fc8-110">Удаляет активную настраиваемую область задач.</span><span class="sxs-lookup"><span data-stu-id="43fc8-110">Deletes the active custom task pane.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -207,31 +135,11 @@
         <ReturnType>Microsoft.Office.Core.MsoCTPDockPosition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="51105-111">Получает или задает значение перечисления, указывающее положение закрепленного <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-111">Gets or sets an enumerated value specifying the docked position of a <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object.</span>
-          </span>
-          <span data-ttu-id="51105-112">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-112">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoCTPDockPosition" />
-        </value>
-        <remarks>
-          <span data-ttu-id="51105-113">
-            <para>Параметры по умолчанию для <see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionRight" /> для языков для письма справа налево и <see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionLeft" /> для языков toRight слева.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-113">
-              <para>Defaults to <see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionRight" /> for Right-to-Left languages and <see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionLeft" /> for Left-toRight languages.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="43fc8-111">Получает или задает перечислимое значение, задающее закрепление позиции <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="43fc8-111">Gets or sets an enumerated value specifying the docked position of a <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object.</span></span> <span data-ttu-id="43fc8-112">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="43fc8-112">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoCTPDockPosition" /></value>
+        <remarks><span data-ttu-id="43fc8-113"><para><see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionRight" /> По умолчанию для языков с письмом справа налево <see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionLeft" /> и языков торигхт.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="43fc8-113"><para>Defaults to <see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionRight" /> for Right-to-Left languages and <see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionLeft" /> for Left-toRight languages.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="DockPositionRestrict">
@@ -260,19 +168,8 @@
         <ReturnType>Microsoft.Office.Core.MsoCTPDockPositionRestrict</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="51105-114">Получает или задает значение перечисления, определяющее ограничение на ориентации <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-114">Gets or sets an enumerated value specifying a restriction on the orientation of a <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object.</span>
-          </span>
-          <span data-ttu-id="51105-115">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-115">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoCTPDockPositionRestrict" />
-        </value>
+        <summary><span data-ttu-id="43fc8-114">Получает или задает перечислимое значение, определяющее ограничение ориентации <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="43fc8-114">Gets or sets an enumerated value specifying a restriction on the orientation of a <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object.</span></span> <span data-ttu-id="43fc8-115">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="43fc8-115">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoCTPDockPositionRestrict" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -302,26 +199,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="51105-116">Получает или задает высоту <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта (в точках).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-116">Gets or sets the height of the <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object (in points).</span>
-          </span>
-          <span data-ttu-id="51105-117">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-117">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="51105-118">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-118">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="43fc8-116">Получает или задает высоту <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта (в пунктах).</span><span class="sxs-lookup"><span data-stu-id="43fc8-116">Gets or sets the height of the <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object (in points).</span></span> <span data-ttu-id="43fc8-117">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="43fc8-117">Read/write.</span></span></summary>
+        <value><span data-ttu-id="43fc8-118"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="43fc8-118"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -348,38 +227,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="51105-119">Получает название объекта <b>CustomTaskPane</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-119">Gets the title of a <b>CustomTaskPane</b> object.</span>
-          </span>
-          <span data-ttu-id="51105-120">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-120">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="51105-121">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-121">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="51105-122">
-            <para>Это свойство имеет значение один раз при его создании.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-122">
-              <para>This property is set once at creation.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="43fc8-119">Получает название объекта <b>CustomTaskPane</b> .</span><span class="sxs-lookup"><span data-stu-id="43fc8-119">Gets the title of a <b>CustomTaskPane</b> object.</span></span> <span data-ttu-id="43fc8-120">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="43fc8-120">Read-only.</span></span></summary>
+        <value><span data-ttu-id="43fc8-121"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="43fc8-121"><b>String</b></span></span></value>
+        <remarks><span data-ttu-id="43fc8-122"><para>Это свойство задается один раз при создании.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="43fc8-122"><para>This property is set once at creation.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -408,28 +260,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="51105-123">
-            <b>Значение true,</b> Если указанный <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объект является видимым.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-123">
-              <b>True</b> if the specified <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object is visible.</span>
-          </span>
-          <span data-ttu-id="51105-124">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-124">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="51105-125">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-125">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="43fc8-123"><b>Значение true</b> , если <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> указанный объект является видимым.</span><span class="sxs-lookup"><span data-stu-id="43fc8-123"><b>True</b> if the specified <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object is visible.</span></span> <span data-ttu-id="43fc8-124">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="43fc8-124">Read/write.</span></span></summary>
+        <value><span data-ttu-id="43fc8-125"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="43fc8-125"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -459,26 +291,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="51105-126">Получает или задает ширину области задач, указанного идентификатором <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-126">Gets or sets the width of the task pane specified by the <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object.</span>
-          </span>
-          <span data-ttu-id="51105-127">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-127">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="51105-128">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-128">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="43fc8-126">Получает или задает ширину области задач, заданной <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объектом.</span><span class="sxs-lookup"><span data-stu-id="43fc8-126">Gets or sets the width of the task pane specified by the <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object.</span></span> <span data-ttu-id="43fc8-127">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="43fc8-127">Read/write.</span></span></summary>
+        <value><span data-ttu-id="43fc8-128"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="43fc8-128"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -505,38 +319,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="51105-129">Получает родительский объект window <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-129">Gets the  parent window object of the <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object.</span>
-          </span>
-          <span data-ttu-id="51105-130">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-130">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="51105-131">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-131">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="51105-132">
-            <para>Определенный класс для этого свойства зависит от ведущего приложения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="51105-132">
-              <para>The specific class for this property depends on the host application.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="43fc8-129">Возвращает объект родительского окна <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="43fc8-129">Gets the  parent window object of the <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object.</span></span> <span data-ttu-id="43fc8-130">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="43fc8-130">Read-only.</span></span></summary>
+        <value><span data-ttu-id="43fc8-131"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="43fc8-131"><b>Object</b></span></span></value>
+        <remarks><span data-ttu-id="43fc8-132"><para>Конкретный класс для этого свойства зависит от ведущего приложения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="43fc8-132"><para>The specific class for this property depends on the host application.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

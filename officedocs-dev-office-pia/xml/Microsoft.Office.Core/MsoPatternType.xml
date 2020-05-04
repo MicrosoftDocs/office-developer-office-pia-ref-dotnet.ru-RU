@@ -1,13 +1,5 @@
 <Type Name="MsoPatternType" FullName="Microsoft.Office.Core.MsoPatternType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="02282470a715404cfd5fe1a0a3dee92b2e249707" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662195" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPatternType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="02282470a715404cfd5fe1a0a3dee92b2e249707" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662195" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPatternType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPatternType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPatternType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPatternType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="9fcaa-101">Определяет шаблон заполнения, используемые в фигуры.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9fcaa-101">Specifies the fill pattern used in a shape.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="03dbb-101">Указывает узор заливки, используемый в фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-101">Specifies the fill pattern used in a shape.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-102">10% цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-102">10% of the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-102">10% от основного цвета.</span><span class="sxs-lookup"><span data-stu-id="03dbb-102">10% of the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern20Percent">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-103">20% цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-103">20% of the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-103">20% от основного цвета.</span><span class="sxs-lookup"><span data-stu-id="03dbb-103">20% of the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern25Percent">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-104">25% цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-104">25% of the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-104">25% от основного цвета.</span><span class="sxs-lookup"><span data-stu-id="03dbb-104">25% of the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern30Percent">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-105">30% цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-105">30% of the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-105">30% от основного цвета.</span><span class="sxs-lookup"><span data-stu-id="03dbb-105">30% of the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern40Percent">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-106">40% цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-106">40% of the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-106">40% от основного цвета.</span><span class="sxs-lookup"><span data-stu-id="03dbb-106">40% of the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern50Percent">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-107">50% цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-107">50% of the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-107">50% от основного цвета.</span><span class="sxs-lookup"><span data-stu-id="03dbb-107">50% of the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern5Percent">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-108">5% цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-108">5% of the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-108">5% от основного цвета.</span><span class="sxs-lookup"><span data-stu-id="03dbb-108">5% of the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern60Percent">
@@ -213,12 +165,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-109">60% цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-109">60% of the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-109">60% от основного цвета.</span><span class="sxs-lookup"><span data-stu-id="03dbb-109">60% of the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern70Percent">
@@ -237,12 +184,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-110">70% цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-110">70% of the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-110">70% от основного цвета.</span><span class="sxs-lookup"><span data-stu-id="03dbb-110">70% of the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern75Percent">
@@ -261,12 +203,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-111">75% цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-111">75% of the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-111">75% от основного цвета.</span><span class="sxs-lookup"><span data-stu-id="03dbb-111">75% of the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern80Percent">
@@ -285,12 +222,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-112">80% цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-112">80% of the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-112">80% от основного цвета.</span><span class="sxs-lookup"><span data-stu-id="03dbb-112">80% of the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPattern90Percent">
@@ -309,12 +241,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-113">90% цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-113">90% of the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-113">90% от основного цвета.</span><span class="sxs-lookup"><span data-stu-id="03dbb-113">90% of the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternCross">
@@ -333,12 +260,7 @@
       </ReturnValue>
       <MemberValue>51</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-114">Кросс-</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-114">Cross</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-114">Состав</span><span class="sxs-lookup"><span data-stu-id="03dbb-114">Cross</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDarkDownwardDiagonal">
@@ -357,12 +279,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-115">Толстые линии в цвет переднего плана, запустив из верхней в правой части фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-115">Thick lines in the foreground color running from the top to the right-hand side of the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-115">Жирные линии в фоновом режиме, расположенном сверху на правой стороне фигуры.</span><span class="sxs-lookup"><span data-stu-id="03dbb-115">Thick lines in the foreground color running from the top to the right-hand side of the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDarkHorizontal">
@@ -381,12 +298,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-116">Жирная горизонтальные линии в цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-116">Thick horizontal lines in the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-116">Толстые горизонтальные линии в основном цвете.</span><span class="sxs-lookup"><span data-stu-id="03dbb-116">Thick horizontal lines in the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDarkUpwardDiagonal">
@@ -405,12 +317,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-117">Толстые линии в цвет переднего плана, запустив из верхней в левой части фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-117">Thick lines in the foreground color running from the top to the left-hand side of the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-117">Жирные линии на основном уровне, начиная с верхнего, до левой стороны фигуры.</span><span class="sxs-lookup"><span data-stu-id="03dbb-117">Thick lines in the foreground color running from the top to the left-hand side of the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDarkVertical">
@@ -429,12 +336,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-118">Жирная вертикальной линии в цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-118">Thick vertical lines in the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-118">Толстые вертикальные линии в основном цвете.</span><span class="sxs-lookup"><span data-stu-id="03dbb-118">Thick vertical lines in the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDashedDownwardDiagonal">
@@ -453,12 +355,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-119">В цвет переднего плана, запустив из верхней в правой части фигуры в виде пунктирной линии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-119">Dashed lines in the foreground color running from the top to the right-hand side of the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-119">Пунктирные линии в цвете переднего плана, начиная с верхнего края и до правого края фигуры.</span><span class="sxs-lookup"><span data-stu-id="03dbb-119">Dashed lines in the foreground color running from the top to the right-hand side of the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDashedHorizontal">
@@ -477,12 +374,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-120">Пунктирная горизонтальные линии в цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-120">Dashed horizontal lines in the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-120">Пунктирные горизонтальные линии в основном цвете.</span><span class="sxs-lookup"><span data-stu-id="03dbb-120">Dashed horizontal lines in the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDashedUpwardDiagonal">
@@ -501,12 +393,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-121">В цвет переднего плана, запустив из верхней в левой части фигуры в виде пунктирной линии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-121">Dashed lines in the foreground color running from the top to the left-hand side of the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-121">Пунктирные линии в цвете переднего плана, начиная с верхнего края и до левой стороны фигуры.</span><span class="sxs-lookup"><span data-stu-id="03dbb-121">Dashed lines in the foreground color running from the top to the left-hand side of the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDashedVertical">
@@ -525,12 +412,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-122">Пунктирная вертикальной линии в цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-122">Dashed vertical lines in the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-122">Пунктирные вертикальные линии в основном цвете.</span><span class="sxs-lookup"><span data-stu-id="03dbb-122">Dashed vertical lines in the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDiagonalBrick">
@@ -549,12 +431,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-123">Прямоугольный граница шаблон выполнения диагонали на форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-123">Rectangular brick pattern running diagonally across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-123">Узор прямоугольного кирпича, выполняемого по диагонали к фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-123">Rectangular brick pattern running diagonally across the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDiagonalCross">
@@ -573,12 +450,7 @@
       </ReturnValue>
       <MemberValue>54</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-124">Диагональные нескольких</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-124">Diagonal Cross</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-124">Диагональный крест</span><span class="sxs-lookup"><span data-stu-id="03dbb-124">Diagonal Cross</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDivot">
@@ -597,12 +469,7 @@
       </ReturnValue>
       <MemberValue>46</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-125">Небольшие угловые фигуры в цвет переднего плана, выполняющегося в чередующихся строк вниз фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-125">Small angled shapes in the foreground color running in alternating rows down the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-125">Небольшие повернутые фигуры в цвете переднего плана, выполняемые в чередующихся строках по отношению к фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-125">Small angled shapes in the foreground color running in alternating rows down the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDottedDiamond">
@@ -621,12 +488,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-126">Пунктирная перпендикулярных линии в цвет переднего плана с диагонали к ромбы формы в форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-126">Dotted perpendicular lines in the foreground color running diagonally to form diamonds across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-126">Пунктирные перпендикулярные линии в основном цвете заменяются по диагонали, чтобы обменять ромбы в фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-126">Dotted perpendicular lines in the foreground color running diagonally to form diamonds across the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDottedGrid">
@@ -645,12 +507,7 @@
       </ReturnValue>
       <MemberValue>45</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-127">Пунктирной линии перпендикулярная в цвет переднего плана, выполнив по горизонтали и по вертикали на линиях сетки формы в форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-127">Dotted perpendicular lines in the foreground color running horizontally and vertically to form grid lines across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-127">Пунктирные перпендикулярные линии в основном цвете выполняются горизонтально и вертикально для формирования линий сетки по всей фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-127">Dotted perpendicular lines in the foreground color running horizontally and vertically to form grid lines across the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternDownwardDiagonal">
@@ -669,12 +526,7 @@
       </ReturnValue>
       <MemberValue>52</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-128">Вниз вправо</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-128">Downward Diagonal</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-128">По диагонали вниз</span><span class="sxs-lookup"><span data-stu-id="03dbb-128">Downward Diagonal</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternHorizontal">
@@ -693,12 +545,7 @@
       </ReturnValue>
       <MemberValue>49</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-129">Горизонтальная</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-129">Horizontal</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-129">Горизонтальный</span><span class="sxs-lookup"><span data-stu-id="03dbb-129">Horizontal</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternHorizontalBrick">
@@ -717,12 +564,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-130">Шаблон прямоугольный граница под управлением по горизонтали между фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-130">Rectangular brick pattern running horizontally across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-130">Узор прямоугольного кирпича, который выполняется горизонтально по отношению к фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-130">Rectangular brick pattern running horizontally across the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLargeCheckerBoard">
@@ -741,12 +583,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-131">Квадраты в других цвета переднего плана и фона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-131">Squares in alternating foreground/background colors.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-131">Квадраты в чередующихся цветах переднего плана и фона.</span><span class="sxs-lookup"><span data-stu-id="03dbb-131">Squares in alternating foreground/background colors.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLargeConfetti">
@@ -765,12 +602,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-132">Крупного размера в цвет переднего плана находятся на форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-132">Large dots in the foreground color scattered across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-132">Крупные точки в основном цвете, разбросанном по всей фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-132">Large dots in the foreground color scattered across the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLargeGrid">
@@ -789,12 +621,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-133">Сплошной, широко расстоянии друг от друга перпендикулярных линии в цвет переднего плана, выполнив по горизонтали и по вертикали на линиях сетки формы в форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-133">Solid, widely spaced perpendicular lines in the foreground color running horizontally and vertically to form grid lines across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-133">Сплошные перпендикулярные линии в фоновом цвете, которые выполняются горизонтально и вертикально для формирования линий сетки по всей фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-133">Solid, widely spaced perpendicular lines in the foreground color running horizontally and vertically to form grid lines across the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLightDownwardDiagonal">
@@ -813,12 +640,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-134">Тонкие линии в цвет переднего плана, запустив из верхней в правой части фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-134">Thin lines in the foreground color running from the top to the right-hand side of the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-134">Тонкие линии в основном цвете, расположенном сверху на правой стороне фигуры.</span><span class="sxs-lookup"><span data-stu-id="03dbb-134">Thin lines in the foreground color running from the top to the right-hand side of the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLightHorizontal">
@@ -837,12 +659,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-135">Тонкие горизонтальные линии в цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-135">Thin horizontal lines in the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-135">Тонкие горизонтальные линии в основном цвете.</span><span class="sxs-lookup"><span data-stu-id="03dbb-135">Thin horizontal lines in the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLightUpwardDiagonal">
@@ -861,12 +678,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-136">Тонкие линии в цвет переднего плана, запустив из верхней в левой части фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-136">Thin lines in the foreground color running from the top to the left-hand side of the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-136">Тонкие линии в основном цвете, начиная с верхнего, до левой стороны фигуры.</span><span class="sxs-lookup"><span data-stu-id="03dbb-136">Thin lines in the foreground color running from the top to the left-hand side of the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternLightVertical">
@@ -885,12 +697,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-137">Тонкие вертикальной линии в цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-137">Thin vertical lines in the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-137">Тонкие вертикальные линии в основном цвете.</span><span class="sxs-lookup"><span data-stu-id="03dbb-137">Thin vertical lines in the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternMixed">
@@ -909,12 +716,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-138">Не поддерживается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-138">Not supported.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-138">Не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="03dbb-138">Not supported.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternNarrowHorizontal">
@@ -933,12 +735,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-139">Цвет переднего плана узко расстоянии друг от друга горизонтальные линии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-139">Narrowly spaced horizontal lines in the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-139">Узкие горизонтальные линии в основном цвете.</span><span class="sxs-lookup"><span data-stu-id="03dbb-139">Narrowly spaced horizontal lines in the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternNarrowVertical">
@@ -957,12 +754,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-140">Узко расстоянии друг от друга вертикальной линии в цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-140">Narrowly spaced vertical lines in the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-140">Узкие вертикальные линии в основном цвете.</span><span class="sxs-lookup"><span data-stu-id="03dbb-140">Narrowly spaced vertical lines in the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternOutlinedDiamond">
@@ -981,12 +773,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-141">Сплошной перпендикулярных линии в цвет переднего плана с диагонали к ромбы формы в форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-141">Solid perpendicular lines in the foreground color running diagonally to form diamonds across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-141">Сплошные перпендикулярные линии в основном цвете заменяются по диагонали, чтобы обменять ромбы в фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-141">Solid perpendicular lines in the foreground color running diagonally to form diamonds across the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternPlaid">
@@ -1005,12 +792,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-142">Очень Жирная линия под управлением по вертикали, цвет переднего плана в сочетании с очень толстые линии и цвета переднего плана, выполнив по горизонтали на 40%.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-142">Very thick solid lines in the foreground color running vertically, coupled with very thick lines and 40% of the foreground color running horizontally.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-142">Очень толстые сплошные линии фонового цвета, которые выполняются вертикально, вместе с очень толстыми линиями и 40% от основного цвета, запущенного горизонтально.</span><span class="sxs-lookup"><span data-stu-id="03dbb-142">Very thick solid lines in the foreground color running vertically, coupled with very thick lines and 40% of the foreground color running horizontally.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternShingle">
@@ -1029,12 +811,7 @@
       </ReturnValue>
       <MemberValue>47</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-143">Перекрывающиеся кривой прямоугольники диагонали выполнения на форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-143">Overlapping curved rectangles running diagonally across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-143">Пересекающиеся изогнутые прямоугольники, работающие по диагонали в фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-143">Overlapping curved rectangles running diagonally across the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternSmallCheckerBoard">
@@ -1053,12 +830,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-144">Небольшие квадраты в других цвета переднего плана и фона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-144">Small squares in alternating foreground/background colors.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-144">Небольшие квадраты в чередующихся цветах переднего плана и фона.</span><span class="sxs-lookup"><span data-stu-id="03dbb-144">Small squares in alternating foreground/background colors.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternSmallConfetti">
@@ -1077,12 +849,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-145">Точки в цвет переднего плана находятся на форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-145">Small dots in the foreground color scattered across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-145">Небольшие точки в основном цвете, разбросанном по фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-145">Small dots in the foreground color scattered across the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternSmallGrid">
@@ -1101,12 +868,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-146">Сплошной, близко расположенные перпендикулярных линии в цвет переднего плана, выполнив по горизонтали и по вертикали на линиях сетки формы в форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-146">Solid, closely spaced perpendicular lines in the foreground color running horizontally and vertically to form grid lines across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-146">Однородные перпендикулярные линии в основном цвете, которые выполняются горизонтально и вертикально, для формирования линий сетки по всей фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-146">Solid, closely spaced perpendicular lines in the foreground color running horizontally and vertically to form grid lines across the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternSolidDiamond">
@@ -1125,12 +887,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-147">Ромб фигур в чередующихся цвета переднего плана и фона.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-147">Diamond shapes in alternating foreground/background colors.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-147">Фигуры ромбов в чередующихся цветах переднего плана и фона.</span><span class="sxs-lookup"><span data-stu-id="03dbb-147">Diamond shapes in alternating foreground/background colors.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternSphere">
@@ -1149,12 +906,7 @@
       </ReturnValue>
       <MemberValue>43</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-148">Круга, использующие цвета переднего плана и фона, чтобы они появлялись трехмерную, ориентированного в строках в форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-148">Circles that use foreground and background colors to make them appear three-dimensional, oriented in rows across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-148">Круги, которые используют цвет переднего плана и фона, чтобы сделать их трехмерными, ориентированными по строкам в фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-148">Circles that use foreground and background colors to make them appear three-dimensional, oriented in rows across the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternTrellis">
@@ -1173,12 +925,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-149">Шпалера в цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-149">Trellis pattern in the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-149">Шаблон Треллис на основном цвете.</span><span class="sxs-lookup"><span data-stu-id="03dbb-149">Trellis pattern in the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternUpwardDiagonal">
@@ -1197,12 +944,7 @@
       </ReturnValue>
       <MemberValue>53</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-150">Вверх вправо</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-150">Upward Diagonal</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-150">По диагонали вверх</span><span class="sxs-lookup"><span data-stu-id="03dbb-150">Upward Diagonal</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternVertical">
@@ -1221,12 +963,7 @@
       </ReturnValue>
       <MemberValue>50</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-151">По вертикали</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-151">Vertical</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-151">Вертикальный</span><span class="sxs-lookup"><span data-stu-id="03dbb-151">Vertical</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternWave">
@@ -1245,12 +982,7 @@
       </ReturnValue>
       <MemberValue>48</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-152">Волнистой линией в цвет переднего плана.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-152">Wavy lines in the foreground color.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-152">Волнистые линии на основном цвете.</span><span class="sxs-lookup"><span data-stu-id="03dbb-152">Wavy lines in the foreground color.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternWeave">
@@ -1269,12 +1001,7 @@
       </ReturnValue>
       <MemberValue>44</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-153">Объединить шаблон в цвет переднего плана, выполнения диагонали на форме.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-153">Weave pattern in the foreground color running diagonally across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-153">Шаблон плетения на основном цвете, который используется по диагонали к фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-153">Weave pattern in the foreground color running diagonally across the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternWideDownwardDiagonal">
@@ -1293,12 +1020,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-154">Широко расстоянии друг от друга линии в цвет переднего плана, запустив из верхней в правой части фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-154">Widely spaced lines in the foreground color running from the top to the right-hand side of the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-154">Широко зафиксированные линии в фоновом цвете, расположенном сверху на правой стороне фигуры.</span><span class="sxs-lookup"><span data-stu-id="03dbb-154">Widely spaced lines in the foreground color running from the top to the right-hand side of the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternWideUpwardDiagonal">
@@ -1317,12 +1039,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-155">Широко расстоянии друг от друга линии в цвет переднего плана, запустив из верхней в левой части фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-155">Widely spaced lines in the foreground color running from the top to the left-hand side of the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-155">Широко зафиксированные линии в фоновом цвете, расположенном сверху в левой части фигуры.</span><span class="sxs-lookup"><span data-stu-id="03dbb-155">Widely spaced lines in the foreground color running from the top to the left-hand side of the shape.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoPatternZigZag">
@@ -1341,12 +1058,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9fcaa-156">Под управлением по горизонтали между фигуры зигзаг линии.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9fcaa-156">Zigzag lines running horizontally across the shape.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="03dbb-156">Линии Зигзаг работают горизонтально в фигуре.</span><span class="sxs-lookup"><span data-stu-id="03dbb-156">Zigzag lines running horizontally across the shape.</span></span></summary>
       </Docs>
     </Member>
   </Members>

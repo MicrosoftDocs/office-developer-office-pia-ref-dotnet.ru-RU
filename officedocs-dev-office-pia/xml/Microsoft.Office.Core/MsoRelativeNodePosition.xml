@@ -1,13 +1,5 @@
 <Type Name="MsoRelativeNodePosition" FullName="Microsoft.Office.Core.MsoRelativeNodePosition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d376a5cadab15de637c4cbe3fbf2146e3ba43bb5" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662191" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoRelativeNodePosition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d376a5cadab15de637c4cbe3fbf2146e3ba43bb5" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662191" /></Metadata><TypeSignature Language="C#" Value="public enum MsoRelativeNodePosition" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoRelativeNodePosition extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoRelativeNodePosition" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoRelativeNodePosition" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="95b17-101">Указывает, где узел добавляется схема относительно существующих узлов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="95b17-101">Specifies where a node is added to a diagram relative to existing nodes.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="01708-101">Указывает место добавления узла на схему относительно существующих узлов.</span><span class="sxs-lookup"><span data-stu-id="01708-101">Specifies where a node is added to a diagram relative to existing nodes.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="95b17-102">После последний элемент добавить узел.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="95b17-102">Node is added after last sibling.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="01708-102">Узел добавляется после последнего элемента того же уровня.</span><span class="sxs-lookup"><span data-stu-id="01708-102">Node is added after last sibling.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoAfterNode">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="95b17-103">Узел добавляется после текущего узла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="95b17-103">Node is added after current node.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="01708-103">Узел добавляется после текущего узла.</span><span class="sxs-lookup"><span data-stu-id="01708-103">Node is added after current node.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoBeforeFirstSibling">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="95b17-104">Прежде чем первый элемент добавляется узел.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="95b17-104">Node is added before first sibling.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="01708-104">Узел добавляется перед первым элементом того же уровня.</span><span class="sxs-lookup"><span data-stu-id="01708-104">Node is added before first sibling.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoBeforeNode">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="95b17-105">Прежде чем текущий узел добавляется узел.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="95b17-105">Node is added before current node.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="01708-105">Узел добавляется перед текущим узлом.</span><span class="sxs-lookup"><span data-stu-id="01708-105">Node is added before current node.</span></span></summary>
       </Docs>
     </Member>
   </Members>

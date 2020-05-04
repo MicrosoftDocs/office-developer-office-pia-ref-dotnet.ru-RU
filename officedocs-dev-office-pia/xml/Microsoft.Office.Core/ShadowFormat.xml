@@ -1,13 +1,5 @@
 <Type Name="ShadowFormat" FullName="Microsoft.Office.Core.ShadowFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fdad9fed327ac6a5b5f63b77d5dc1c2771761177" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661696" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ShadowFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fdad9fed327ac6a5b5f63b77d5dc1c2771761177" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661696" /></Metadata><TypeSignature Language="C#" Value="public interface ShadowFormat : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ShadowFormat implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ShadowFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ShadowFormat&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="a4b27-101">Зарезервировано для внутреннего использования.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a4b27-101">Reserved for internal use.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f977f-101">Зарезервировано для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="f977f-101">Reserved for internal use.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -96,26 +83,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a4b27-102">Возвращает или задает степень размытости указанной shadow.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a4b27-102">Returns or sets the degree of blurriness of the specified shadow.</span>
-          </span>
-          <span data-ttu-id="a4b27-103">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a4b27-103">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a4b27-104">
-            <b>Single</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a4b27-104">
-              <b>Single</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f977f-102">Возвращает или задает степень размытия указанного тени.</span><span class="sxs-lookup"><span data-stu-id="f977f-102">Returns or sets the degree of blurriness of the specified shadow.</span></span> <span data-ttu-id="f977f-103">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="f977f-103">Read/write.</span></span></summary>
+        <value><span data-ttu-id="f977f-104"><b>Одинарное с плавающей точкой</b></span><span class="sxs-lookup"><span data-stu-id="f977f-104"><b>Single</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -384,19 +353,8 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a4b27-105">Возвращает или задает <see cref="T:Microsoft.Office.Core.MsoTriState" /> , представляет ли поворот тени, когда Поворот фигуры.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a4b27-105">Returns or sets an <see cref="T:Microsoft.Office.Core.MsoTriState" /> that represents whether to rotate the shadow when rotating the shape.</span>
-          </span>
-          <span data-ttu-id="a4b27-106">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a4b27-106">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoTriState" />
-        </value>
+        <summary><span data-ttu-id="f977f-105">Возвращает или задает значение <see cref="T:Microsoft.Office.Core.MsoTriState" /> , указывающее, следует ли повернуть тень при повороте фигуры.</span><span class="sxs-lookup"><span data-stu-id="f977f-105">Returns or sets an <see cref="T:Microsoft.Office.Core.MsoTriState" /> that represents whether to rotate the shadow when rotating the shape.</span></span> <span data-ttu-id="f977f-106">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="f977f-106">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoTriState" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -426,26 +384,8 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a4b27-107">Возвращает или задает размер указанного тени.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a4b27-107">Returns or sets the size of the specified shadow.</span>
-          </span>
-          <span data-ttu-id="a4b27-108">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a4b27-108">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="a4b27-109">
-            <b>Single</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a4b27-109">
-              <b>Single</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="f977f-107">Возвращает или задает размер указанной теневой копии.</span><span class="sxs-lookup"><span data-stu-id="f977f-107">Returns or sets the size of the specified shadow.</span></span> <span data-ttu-id="f977f-108">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="f977f-108">Read/write.</span></span></summary>
+        <value><span data-ttu-id="f977f-109"><b>Одинарное с плавающей точкой</b></span><span class="sxs-lookup"><span data-stu-id="f977f-109"><b>Single</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -475,19 +415,8 @@
         <ReturnType>Microsoft.Office.Core.MsoShadowStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a4b27-110">Возвращает или задает стиль указанной shadow.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a4b27-110">Returns or sets the style of the specified shadow.</span>
-          </span>
-          <span data-ttu-id="a4b27-111">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a4b27-111">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.MsoShadowStyle" />
-        </value>
+        <summary><span data-ttu-id="f977f-110">Возвращает или задает стиль указанной тени.</span><span class="sxs-lookup"><span data-stu-id="f977f-110">Returns or sets the style of the specified shadow.</span></span> <span data-ttu-id="f977f-111">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="f977f-111">Read/write.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.MsoShadowStyle" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

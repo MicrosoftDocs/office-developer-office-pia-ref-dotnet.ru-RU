@@ -1,13 +1,5 @@
 <Type Name="FileDialogFilter" FullName="Microsoft.Office.Core.FileDialogFilter">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3d901bb178448196d75cebe3e5335b466b2b98bf" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662071" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FileDialogFilter : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3d901bb178448196d75cebe3e5335b466b2b98bf" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662071" /></Metadata><TypeSignature Language="C#" Value="public interface FileDialogFilter : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FileDialogFilter implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.FileDialogFilter" />
   <TypeSignature Language="VB.NET" Value="Public Interface FileDialogFilter&#xA;Implements _IMsoDispObj" />
@@ -30,26 +22,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="609c5-101">Представляет фильтр файлов в отображаемое с помощью диалогового окна файла <see cref="T:Microsoft.Office.Core.FileDialog" /> объекта.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="609c5-101">Represents a file filter in a file dialog box displayed through the <see cref="T:Microsoft.Office.Core.FileDialog" /> object.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="609c5-102">
-        <para>Каждого файла фильтра определяет, какие файлы отображаются в диалоговом окне файла.</para>
-        <para>Использования <see cref="M:Microsoft.Office.Core.FileDialogFilters.Item(System.Int32)" /> метод с <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> коллекции для получения объекта <b>FileDialogFilter</b> . Использование <see cref="M:Microsoft.Office.Core.FileDialogFilters.Add(System.String,System.String,System.Object)" /> метод, чтобы добавить <b>FileDialogFilter</b> объект в коллекцию <b>FileDialogFilters</b> . Можно вернуть расширения, которые использует объект <b>FileDialogFilter</b> для фильтрации файлов с <see cref="P:Microsoft.Office.Core.FileDialogFilter.Extensions" /> свойство и можно вернуть описание фильтра с <see cref="P:Microsoft.Office.Core.FileDialogFilter.Description" /> свойства; Тем не менее оба эти свойства доступны только для чтения. Если вы хотите задать расширение или описания, необходимо использовать метод <b>Add</b> .</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="609c5-102">
-          <para>Each file filter determines which files are displayed in the file dialog box.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Core.FileDialogFilters.Item(System.Int32)" /> method with the <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> collection to return a <b>FileDialogFilter</b> object. Use the <see cref="M:Microsoft.Office.Core.FileDialogFilters.Add(System.String,System.String,System.Object)" /> method to add a <b>FileDialogFilter</b> object to the <b>FileDialogFilters</b> collection. You can return the extensions that a <b>FileDialogFilter</b> object uses to filter files with the <see cref="P:Microsoft.Office.Core.FileDialogFilter.Extensions" /> property, and you can return the description of the filter with the <see cref="P:Microsoft.Office.Core.FileDialogFilter.Description" /> property; however, both of these properties are read-only. If you want to set the extension or description, you must use the <b>Add</b> method.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="65e44-101">Представляет фильтр файлов в диалоговом окне "файл", <see cref="T:Microsoft.Office.Core.FileDialog" /> отображаемом через объект.</span><span class="sxs-lookup"><span data-stu-id="65e44-101">Represents a file filter in a file dialog box displayed through the <see cref="T:Microsoft.Office.Core.FileDialog" /> object.</span></span></summary>
+    <remarks><span data-ttu-id="65e44-102"><para>Каждый фильтр файлов определяет, какие файлы отображаются в диалоговом окне "файл".</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.FileDialogFilters.Item(System.Int32)" /> метод вместе <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> с коллекцией, чтобы возвратить объект <b>FileDialogFilter</b> . Используйте <see cref="M:Microsoft.Office.Core.FileDialogFilters.Add(System.String,System.String,System.Object)" /> метод, чтобы добавить объект <b>FileDialogFilter</b> в коллекцию <b>FileDialogFilters</b> . Вы можете вернуть расширения, используемые объектом <b>FileDialogFilter</b> , для фильтрации файлов со <see cref="P:Microsoft.Office.Core.FileDialogFilter.Extensions" /> свойством, а также получить описание фильтра со <see cref="P:Microsoft.Office.Core.FileDialogFilter.Description" /> свойством; Однако оба эти свойства доступны только для чтения. Если вы хотите задать расширение или описание, необходимо использовать метод <b>Add</b> .</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="65e44-102"><para>Each file filter determines which files are displayed in the file dialog box.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Core.FileDialogFilters.Item(System.Int32)" /> method with the <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> collection to return a <b>FileDialogFilter</b> object. Use the <see cref="M:Microsoft.Office.Core.FileDialogFilters.Add(System.String,System.String,System.Object)" /> method to add a <b>FileDialogFilter</b> object to the <b>FileDialogFilters</b> collection. You can return the extensions that a <b>FileDialogFilter</b> object uses to filter files with the <see cref="P:Microsoft.Office.Core.FileDialogFilter.Extensions" /> property, and you can return the description of the filter with the <see cref="P:Microsoft.Office.Core.FileDialogFilter.Description" /> property; however, both of these properties are read-only. If you want to set the extension or description, you must use the <b>Add</b> method.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -78,12 +56,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="609c5-103">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="609c5-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="65e44-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="65e44-103">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -114,27 +87,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="609c5-104">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="609c5-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="65e44-104">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="65e44-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="609c5-105">
-            <para>Если объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.FileDialogFilter.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="609c5-105">
-              <para>If the object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.FileDialogFilter.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="65e44-105"><para>Если объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.FileDialogFilter.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="65e44-105"><para>If the object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.FileDialogFilter.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Description">
@@ -160,25 +121,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="609c5-106">Возвращает описание каждого из них <see cref="T:Microsoft.Office.Core.FileDialogFilter" /> объект, что и <b>строковое</b> значение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="609c5-106">Returns the description of each <see cref="T:Microsoft.Office.Core.FileDialogFilter" /> object as a <b>String</b> value.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="65e44-106">Возвращает описание каждого <see cref="T:Microsoft.Office.Core.FileDialogFilter" /> объекта в виде <b>строкового</b> значения.</span><span class="sxs-lookup"><span data-stu-id="65e44-106">Returns the description of each <see cref="T:Microsoft.Office.Core.FileDialogFilter" /> object as a <b>String</b> value.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="609c5-107">
-            <para>Описание — текст, который отображается в диалоговом окне файла.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="609c5-107">
-              <para>The description is the text that is displayed in the File dialog box.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="65e44-107"><para>Описание — это текст, который отображается в диалоговом окне "файл".</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="65e44-107"><para>The description is the text that is displayed in the File dialog box.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Extensions">
@@ -204,12 +151,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="609c5-108">Возвращает <b>строковое</b> значение, содержащее расширения, определяющие, какие файлы отображаются в диалогового окна файла для каждого из них <see cref="T:Microsoft.Office.Core.FileDialogFilter" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="609c5-108">Returns a <b>String</b> value containing the extensions that determine which files are displayed in a File dialog box for each <see cref="T:Microsoft.Office.Core.FileDialogFilter" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="65e44-108">Возвращает <b>строковое</b> значение, содержащее расширения, которые определяют, какие файлы отображаются в диалоговом окне для каждого <see cref="T:Microsoft.Office.Core.FileDialogFilter" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="65e44-108">Returns a <b>String</b> value containing the extensions that determine which files are displayed in a File dialog box for each <see cref="T:Microsoft.Office.Core.FileDialogFilter" /> object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -237,12 +179,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="609c5-109">Возвращает <b>родительский</b> объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="609c5-109">Returns the <b>Parent</b> object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="65e44-109">Возвращает <b>родительский</b> объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="65e44-109">Returns the <b>Parent</b> object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,13 +1,5 @@
 <Type Name="IRibbonControl" FullName="Microsoft.Office.Core.IRibbonControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="68773fd86e42dc3132be028386c9b8eeaf465f51" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662399" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface IRibbonControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="68773fd86e42dc3132be028386c9b8eeaf465f51" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662399" /></Metadata><TypeSignature Language="C#" Value="public interface IRibbonControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRibbonControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IRibbonControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface IRibbonControl" />
@@ -26,28 +18,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="fee67-101">Представляет объект, который был передан в процедуру обратного вызова каждые ленты пользовательского интерфейса (UI) элемента управления.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fee67-101">Represents the object passed into every Ribbon user interface (UI) control's callback procedure.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="fee67-102">
-        <para>Объект <b>IRibbonControl</b> содержит имя (идентификатор) элемента управления и текущего объекта <b>Window</b> для элемента управления пользовательского интерфейса ленты.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fee67-102">
-          <para>The <b>IRibbonControl</b> object  contains the name (ID) of the control and the current <b>Window</b> object for the Ribbon UI control.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
-    <example>
-      <span data-ttu-id="fee67-103">
-        <para>В следующем примере, написанном на языке C# показаны две процедуры, вызов выполняется из процедуру события <b>onAction</b> элемента управления Button и элемент управления ToggleButton. В первой процедуре <b>IRibbonControl</b> объект, представляющий элемент управления передается в процедуру и отображается окно сообщения, указывающего на то, что кнопка была нажата клавиша совместно с Идентификатором кнопки. Во второй процедуре аналогичен первому с добавлением <b>логический</b> параметр, указывающего на то, что кнопка была нажата.</para>
-        <code>&lt;span class="label"&gt;public void ButtonOnAction(IRibbonControl control) 
+    <summary><span data-ttu-id="d2f1e-101">Представляет объект, передаваемый в каждую процедуру обратного вызова элемента управления ПОЛЬЗОВАТЕЛЬСКОГО интерфейса ленты.</span><span class="sxs-lookup"><span data-stu-id="d2f1e-101">Represents the object passed into every Ribbon user interface (UI) control's callback procedure.</span></span></summary>
+    <remarks><span data-ttu-id="d2f1e-102"><para>Объект <b>IRibbonControl</b> содержит имя (ID) элемента управления и текущий объект <b>Window</b> для элемента управления пользовательского интерфейса ленты.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="d2f1e-102"><para>The <b>IRibbonControl</b> object  contains the name (ID) of the control and the current <b>Window</b> object for the Ribbon UI control.</para>
+      <para /></span></span></remarks>
+    <example><span data-ttu-id="d2f1e-103"><para>В следующем примере, написанном на языке C#, показаны две процедуры, вызываемые из процедуры события <b>onAction</b> элемента управления "Кнопка" и элемента управления ToggleButton. В первой процедуре объект <b>IRibbonControl</b> , представляющий элемент управления, передается в процедуру, и отображается окно сообщения с указанием на то, что кнопка нажата, а также идентификатор кнопки. Вторая процедура аналогична первой, с добавлением <b>логического</b> параметра, указывающим, что нажата кнопка.</para>
+      <code>&lt;span class="label"&gt;public void ButtonOnAction(IRibbonControl control) 
    MessageBox.Show("Button clicked: " + control.Id); 
 } 
  
@@ -63,12 +39,8 @@ public void ToggleButtonOnAction(IRibbonControl control, bool pressed)
    else 
       MessageBox.Show("ToggleButton was switched off."); 
  
-}&lt;/span&gt;</code>
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fee67-103">
-          <para>The following example, written in C#,  shows two procedures called from the <b>onAction</b> event procedure  of a Button control and a ToggleButton control. In the first procedure, the <b>IRibbonControl</b> object representing the control is passed into the procedure and a message box is displayed indicating that the button was pressed along with the ID of the button. The second procedure is similar to the first with the addition of a <b>Boolean</b> parameter indicating that the button was pressed.</para>
-          <code>&lt;span class="label"&gt;public void ButtonOnAction(IRibbonControl control) 
+}&lt;/span&gt;</code></span><span class="sxs-lookup"><span data-stu-id="d2f1e-103"><para>The following example, written in C#,  shows two procedures called from the <b>onAction</b> event procedure  of a Button control and a ToggleButton control. In the first procedure, the <b>IRibbonControl</b> object representing the control is passed into the procedure and a message box is displayed indicating that the button was pressed along with the ID of the button. The second procedure is similar to the first with the addition of a <b>Boolean</b> parameter indicating that the button was pressed.</para>
+      <code>&lt;span class="label"&gt;public void ButtonOnAction(IRibbonControl control) 
    MessageBox.Show("Button clicked: " + control.Id); 
 } 
  
@@ -84,10 +56,7 @@ public void ToggleButtonOnAction(IRibbonControl control, bool pressed)
    else 
       MessageBox.Show("ToggleButton was switched off."); 
  
-}&lt;/span&gt;</code>
-        </span>
-      </span>
-    </example>
+}&lt;/span&gt;</code></span></span></example>
   </Docs>
   <Members>
     <Member MemberName="Context">
@@ -113,22 +82,8 @@ public void ToggleButtonOnAction(IRibbonControl control, bool pressed)
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fee67-104">Представляет активное окно, содержащий пользовательский интерфейс ленты, который запускает процедуру обратного вызова.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fee67-104">Represents the active window containing the Ribbon user interface that triggers a callback procedure.</span>
-          </span>
-          <span data-ttu-id="fee67-105">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fee67-105">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="fee67-106">Объект</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fee67-106">Object</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d2f1e-104">Представляет активное окно, содержащее пользовательский интерфейс ленты, который запускает процедуру обратного вызова.</span><span class="sxs-lookup"><span data-stu-id="d2f1e-104">Represents the active window containing the Ribbon user interface that triggers a callback procedure.</span></span> <span data-ttu-id="d2f1e-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="d2f1e-105">Read-only.</span></span></summary>
+        <value><span data-ttu-id="d2f1e-106">Объект</span><span class="sxs-lookup"><span data-stu-id="d2f1e-106">Object</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -155,22 +110,8 @@ public void ToggleButtonOnAction(IRibbonControl control, bool pressed)
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fee67-107">Получает идентификатор элемента управления, указанных в файле параметров разметки XML-ленты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fee67-107">Gets the ID of the control specified in the Ribbon XML markup customization file.</span>
-          </span>
-          <span data-ttu-id="fee67-108">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fee67-108">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="fee67-109">String</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fee67-109">String</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="d2f1e-107">Получает идентификатор элемента управления, указанного в файле настройки разметки XML ленты.</span><span class="sxs-lookup"><span data-stu-id="d2f1e-107">Gets the ID of the control specified in the Ribbon XML markup customization file.</span></span> <span data-ttu-id="d2f1e-108">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="d2f1e-108">Read-only.</span></span></summary>
+        <value><span data-ttu-id="d2f1e-109">String</span><span class="sxs-lookup"><span data-stu-id="d2f1e-109">String</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -197,64 +138,32 @@ public void ToggleButtonOnAction(IRibbonControl control, bool pressed)
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fee67-110">Используется для хранения произвольных строк и извлечь их во время выполнения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fee67-110">Used to store arbitrary strings and fetch them at runtime.</span>
-          </span>
-          <span data-ttu-id="fee67-111">Только для чтения</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fee67-111">Read-only</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="fee67-112">String</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fee67-112">String</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="fee67-113">
-            <para>Обычно может различать элементы управления в ленте пользовательского интерфейса файл настройки XML с помощью свойства <b>Id</b> . Тем не менее, существуют ограничения на идентификаторы, которые могут содержать (отсутствуют не являющиеся буквенно-цифровых символов и они должны быть уникальным).  Свойство <b>Tag</b> не имеет следующие ограничения и поэтому его можно использовать в следующих ситуациях, где идентификатор не работает:</para>
-            <list type="bullet">
-              <item>
-                <para>, если необходимо сохранить специальные строку с элементом управления, такие как имя файла.  Например: tag="C:\path\file.xlsm.»</para>
-              </item>
-              <item>
-                <para>, Если вы хотите, чтобы несколько элементов управления могут быть обрабатываются так же, как с вашей процедуры обратного вызова, но вы не хотите поддерживать список всех своих идентификаторы (которые должно быть уникальным).  К примеру, может иметь кнопок на различных вкладок на ленте, с tag = «blue» и только проверка свойство <b>Tag</b> вместо свойства <b>ID</b> при perfroming некоторых распространенных операций.</para>
-              </item>
-            </list>
-            <para />
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fee67-113">
-              <para>Normally you can distinguish between controls in a Ribbon user interface XML customization file using the <b>Id</b> property. However, there are restrictions on what IDs can contain (no non-alphanumeric characters, and they must all be unique).  The <b>Tag</b> property doesn’t have these restrictions and so it can be used in the following situations, where ID doesn’t work:</para>
-              <list type="bullet">
-                <item>
-                  <para>If you need to store a special string with your control such as a filename.  For example: tag=”C:\path\file.xlsm.”</para>
-                </item>
-                <item>
-                  <para>If you want multiple controls to be treated the same way by your callback procedures, but you don’t want to maintain a list of all of their IDs (which must be unique).  For example, you could have buttons on different tabs on the Ribbon, all with tag=”blue”, and then just check the <b>Tag</b> property instead of the <b>ID</b> property when perfroming some common action.</para>
-                </item>
-              </list>
-              <para />
-              <para />
-            </span>
-          </span>
-        </remarks>
-        <example>
-          <span data-ttu-id="fee67-114">
-            <para>В XML, используемый для настройки пользовательского интерфейса ленты можно задать тег следующим образом. При вызове действие MyFunction могут читать свойства <b>Tag</b> , которое будет равен «некоторые string».</para>
-            <code>&lt;span class="label"&gt;&amp;lt;button id=”mybutton” tag=”some string” onAction=”MyFunction”/&amp;gt;&lt;/span&gt;</code>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fee67-114">
-              <para>In the  XML used to customize the Ribbon user interface, you can set a tag as follows. When the MyFunction action is called, you can read the <b>Tag</b> property, which will be equal to “some string”. </para>
-              <code>&lt;span class="label"&gt;&amp;lt;button id=”mybutton” tag=”some string” onAction=”MyFunction”/&amp;gt;&lt;/span&gt;</code>
-            </span>
-          </span>
-        </example>
+        <summary><span data-ttu-id="d2f1e-110">Используется для хранения произвольных строк и их извлечения во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="d2f1e-110">Used to store arbitrary strings and fetch them at runtime.</span></span> <span data-ttu-id="d2f1e-111">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="d2f1e-111">Read-only</span></span></summary>
+        <value><span data-ttu-id="d2f1e-112">String</span><span class="sxs-lookup"><span data-stu-id="d2f1e-112">String</span></span></value>
+        <remarks><span data-ttu-id="d2f1e-113"><para>Как правило, вы можете отличать элементы управления в файле настройки XML пользовательского интерфейса ленты с помощью свойства <b>ID</b> . Тем не менее, существуют ограничения на идентификаторы, которые могут содержаться (без буквенно-цифровых символов, и все они должны быть уникальными).  У свойства <b>Tag</b> нет этих ограничений, поэтому его можно использовать в следующих ситуациях, где идентификатор не работает:</para>
+          <list type="bullet">
+            <item>
+              <para>Если вам нужно сохранить специальную строку с элементом управления, например именем файла.  Например: TAG = "К:\пас\филе.кслсм."</para>
+            </item> 
+            <item>
+              <para>Если требуется, чтобы несколько элементов управления считались процедурами обратного вызова одним и тем же способом, но не нужно поддерживать список всех их идентификаторов (которые должны быть уникальными).  Например, можно использовать кнопки на разных вкладках ленты, все с тегом "Blue", а затем просто проверить свойство <b>Tag</b> , а не свойство <b>ID</b> при перфроминг некоторых типовых действий.</para>
+            </item> 
+          </list>
+          <para />
+          <para /></span><span class="sxs-lookup"><span data-stu-id="d2f1e-113"><para>Normally you can distinguish between controls in a Ribbon user interface XML customization file using the <b>Id</b> property. However, there are restrictions on what IDs can contain (no non-alphanumeric characters, and they must all be unique).  The <b>Tag</b> property doesn’t have these restrictions and so it can be used in the following situations, where ID doesn’t work:</para>
+          <list type="bullet">
+            <item>
+              <para>If you need to store a special string with your control such as a filename.  For example: tag=”C:\path\file.xlsm.”</para>
+            </item>
+            <item>
+              <para>If you want multiple controls to be treated the same way by your callback procedures, but you don’t want to maintain a list of all of their IDs (which must be unique).  For example, you could have buttons on different tabs on the Ribbon, all with tag=”blue”, and then just check the <b>Tag</b> property instead of the <b>ID</b> property when perfroming some common action.</para>
+            </item>
+          </list>
+          <para />
+          <para /></span></span></remarks>
+        <example><span data-ttu-id="d2f1e-114"><para>В XML-коде, используемом для настройки пользовательского интерфейса ленты, можно установить тег следующим образом. При вызове действия MyFunction можно прочитать свойство <b>Tag</b> , которое будет равно "some String".</para>
+          <code>&lt;span class="label"&gt;&amp;lt;button id=”mybutton” tag=”some string” onAction=”MyFunction”/&amp;gt;&lt;/span&gt;</code></span><span class="sxs-lookup"><span data-stu-id="d2f1e-114"><para>In the  XML used to customize the Ribbon user interface, you can set a tag as follows. When the MyFunction action is called, you can read the <b>Tag</b> property, which will be equal to “some string”. </para>
+          <code>&lt;span class="label"&gt;&amp;lt;button id=”mybutton” tag=”some string” onAction=”MyFunction”/&amp;gt;&lt;/span&gt;</code></span></span></example>
       </Docs>
     </Member>
   </Members>

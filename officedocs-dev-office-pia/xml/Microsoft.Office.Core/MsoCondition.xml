@@ -1,13 +1,5 @@
 <Type Name="MsoCondition" FullName="Microsoft.Office.Core.MsoCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2facec1a7ecb416e3346ffd928fdb23bd39a0f3f" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661882" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2facec1a7ecb416e3346ffd928fdb23bd39a0f3f" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661882" /></Metadata><TypeSignature Language="C#" Value="public enum MsoCondition" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCondition extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCondition" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoCondition" />
@@ -25,24 +17,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="3a67e-101">Определяет условие для сравнения файла и указанное свойство в поиск файлов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3a67e-101">Defines the condition for comparison between a file and a specified property in a file search.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="3a67e-102">
-        <para>Используется для получения или задания свойства <b>Condition</b> объекта <b>PropertyTest</b> . <b>PropertyTest</b> является частью <b>FileSearch</b> объектной модели. Поведение <b>FileSearch</b> соответствует интерактивного режима, отображаемые в поле Finddialog, которое можно открыть из меню "Сервис" открыть диалоговое окно "приложения" (меню "файл").</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3a67e-102">
-          <para>Used to get or set the <b>Condition</b> property of the <b>PropertyTest</b> object. <b>PropertyTest</b> is part of the <b>FileSearch</b> object model. The behavior of <b>FileSearch</b> corresponds to the interactive behavior you see in the Finddialog box, which you open from the Tools menu in the application's Open dialog box (File menu).</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="305a0-101">Определяет условие сравнения файла и указанного свойства при поиске файла.</span><span class="sxs-lookup"><span data-stu-id="305a0-101">Defines the condition for comparison between a file and a specified property in a file search.</span></span></summary>
+    <remarks><span data-ttu-id="305a0-102"><para>Используется для получения или задания свойства <b>Condition</b> объекта <b>пропертитест</b> . <b>Пропертитест</b> является частью объектной модели <b>FileSearch</b> . Поведение <b>FileSearch</b> соответствует интерактивному поведению, которое отображается в поле финддиалог, которое открывается из меню "Сервис" в диалоговом окне открытия приложения (меню "файл").</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="305a0-102"><para>Used to get or set the <b>Condition</b> property of the <b>PropertyTest</b> object. <b>PropertyTest</b> is part of the <b>FileSearch</b> object model. The behavior of <b>FileSearch</b> corresponds to the interactive behavior you see in the Finddialog box, which you open from the Tools menu in the application's Open dialog box (File menu).</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoConditionAnyNumberBetween">
@@ -61,12 +39,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-103">Любое число между значениями, указанными с помощью свойства <b>значение</b> и <b>SecondValue</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-103">Any number between values specified with the <b>Value</b> and <b>SecondValue</b> properties of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-103">Любое число между значениями, указанными в свойствах <b>value</b> и <b>секондвалуе</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-103">Any number between values specified with the <b>Value</b> and <b>SecondValue</b> properties of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionAnytime">
@@ -85,12 +58,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-104">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> может быть любое время.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-104">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object can be any time.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-104">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , может быть любой раз.</span><span class="sxs-lookup"><span data-stu-id="305a0-104">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object can be any time.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionAnytimeBetween">
@@ -109,12 +77,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-105">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> находится в пределах даты, указанные с помощью свойства <b>значение</b> и <b>SecondValue</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-105">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is between the dates specified with the <b>Value</b> and <b>SecondValue</b> properties of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-105">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится в интервале между датами, указанными в свойствах <b>value</b> и <b>секондвалуе</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-105">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is between the dates specified with the <b>Value</b> and <b>SecondValue</b> properties of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionAtLeast">
@@ -133,12 +96,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-106">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> по крайней мере — значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-106">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is at least the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-106">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , равно по крайней мере значению, указанному в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-106">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is at least the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionAtMost">
@@ -157,12 +115,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-107">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> максимум — значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-107">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is at most the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-107">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , не превышает значение, указанное в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-107">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is at most the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionBeginsWith">
@@ -181,12 +134,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-108">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> начинается со значением, указанным в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-108">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object begins with the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-108">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , начинается со значения, указанного в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-108">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object begins with the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionDoesNotEqual">
@@ -205,12 +153,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-109">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> не равно значению, указанному в свойства <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-109">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object does not equal the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-109">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , не равно значению, указанному в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-109">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object does not equal the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEndsWith">
@@ -229,12 +172,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-110">Значение свойства файла, указанного в свойство <b>Name</b> конечных объектов <b>PropertyTest</b> со значением, указанным в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-110">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object ends with the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-110">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , заканчивается значением, указанным в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-110">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object ends with the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEquals">
@@ -253,12 +191,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-111">Свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> равно значению, указанных в свойстве <b>значение</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-111">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object equals the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-111">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , равно значению, указанному в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-111">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object equals the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsCompleted">
@@ -277,16 +210,7 @@
       </ReturnValue>
       <MemberValue>66</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-112">Состояние равно «Завершено».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-112">Status equals "Completed".</span>
-          </span>
-          <span data-ttu-id="3a67e-113">Значение свойства <b>Name</b> должно быть <b>состояние</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-113">Value of the <b>Name</b> property must be <b>Status</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-112">Состояние равно "завершено".</span><span class="sxs-lookup"><span data-stu-id="305a0-112">Status equals "Completed".</span></span> <span data-ttu-id="305a0-113">Значение свойства <b>Name</b> должно быть <b>Status</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-113">Value of the <b>Name</b> property must be <b>Status</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsDeferred">
@@ -305,16 +229,7 @@
       </ReturnValue>
       <MemberValue>68</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-114">Состояние равно «Отложенный».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-114">Status equals "Deferred".</span>
-          </span>
-          <span data-ttu-id="3a67e-115">Значение свойства <b>Name</b> должно быть <b>состояние</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-115">Value of the <b>Name</b> property must be <b>Status</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-114">Состояние равно "отложена".</span><span class="sxs-lookup"><span data-stu-id="305a0-114">Status equals "Deferred".</span></span> <span data-ttu-id="305a0-115">Значение свойства <b>Name</b> должно быть <b>Status</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-115">Value of the <b>Name</b> property must be <b>Status</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsHigh">
@@ -333,16 +248,7 @@
       </ReturnValue>
       <MemberValue>60</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-116">Приоритет равен «Высокий».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-116">Priority equals "High".</span>
-          </span>
-          <span data-ttu-id="3a67e-117">Значение свойства <b>Name</b> должно быть <b>приоритет</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-117">Value of the <b>Name</b> property must be <b>Priority</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-116">Приоритет равен "High".</span><span class="sxs-lookup"><span data-stu-id="305a0-116">Priority equals "High".</span></span> <span data-ttu-id="305a0-117">Значение свойства <b>Name</b> должно быть <b>Priority</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-117">Value of the <b>Name</b> property must be <b>Priority</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsInProgress">
@@ -361,16 +267,7 @@
       </ReturnValue>
       <MemberValue>65</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-118">Состояние равно «Выполняется».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-118">Status equals "In Progress".</span>
-          </span>
-          <span data-ttu-id="3a67e-119">Значение свойства <b>Name</b> должно быть <b>состояние</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-119">Value of the <b>Name</b> property must be <b>Status</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-118">Состояние равно "выполняется".</span><span class="sxs-lookup"><span data-stu-id="305a0-118">Status equals "In Progress".</span></span> <span data-ttu-id="305a0-119">Значение свойства <b>Name</b> должно быть <b>Status</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-119">Value of the <b>Name</b> property must be <b>Status</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsLow">
@@ -389,16 +286,7 @@
       </ReturnValue>
       <MemberValue>58</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-120">Приоритет равен «Низкий».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-120">Priority equals "Low".</span>
-          </span>
-          <span data-ttu-id="3a67e-121">Значение свойства <b>Name</b> должно быть <b>приоритет</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-121">Value of the <b>Name</b> property must be <b>Priority</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-120">Приоритет равен "низку".</span><span class="sxs-lookup"><span data-stu-id="305a0-120">Priority equals "Low".</span></span> <span data-ttu-id="305a0-121">Значение свойства <b>Name</b> должно быть <b>Priority</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-121">Value of the <b>Name</b> property must be <b>Priority</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsNormal">
@@ -417,16 +305,7 @@
       </ReturnValue>
       <MemberValue>59</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-122">Приоритет равен «Обычный».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-122">Priority equals "Normal".</span>
-          </span>
-          <span data-ttu-id="3a67e-123">Значение свойства <b>Name</b> должно быть <b>приоритет</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-123">Value of the <b>Name</b> property must be <b>Priority</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-122">Приоритет равен "Normal".</span><span class="sxs-lookup"><span data-stu-id="305a0-122">Priority equals "Normal".</span></span> <span data-ttu-id="305a0-123">Значение свойства <b>Name</b> должно быть <b>Priority</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-123">Value of the <b>Name</b> property must be <b>Priority</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsNotStarted">
@@ -445,16 +324,7 @@
       </ReturnValue>
       <MemberValue>64</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-124">Состояние равно «Не удалось запустить».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-124">Status equals "Not Started".</span>
-          </span>
-          <span data-ttu-id="3a67e-125">Значение свойства <b>Name</b> должно быть <b>состояние</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-125">Value of the <b>Name</b> property must be <b>Status</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-124">Состояние равно "Not started".</span><span class="sxs-lookup"><span data-stu-id="305a0-124">Status equals "Not Started".</span></span> <span data-ttu-id="305a0-125">Значение свойства <b>Name</b> должно быть <b>Status</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-125">Value of the <b>Name</b> property must be <b>Status</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionEqualsWaitingForSomeoneElse">
@@ -473,16 +343,7 @@
       </ReturnValue>
       <MemberValue>67</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-126">Состояние равно «Ожидание для кто-то еще».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-126">Status equals "Waiting for Someone Else".</span>
-          </span>
-          <span data-ttu-id="3a67e-127">Значение свойства <b>Name</b> должно быть <b>состояние</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-127">Value of the <b>Name</b> property must be <b>Status</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-126">Состояние равно "ожидает кого-либо другого".</span><span class="sxs-lookup"><span data-stu-id="305a0-126">Status equals "Waiting for Someone Else".</span></span> <span data-ttu-id="305a0-127">Значение свойства <b>Name</b> должно быть <b>Status</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-127">Value of the <b>Name</b> property must be <b>Status</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeAllFiles">
@@ -501,12 +362,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-128">Файл может быть любого типа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-128">File can be any type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-128">Файл может иметь любой тип.</span><span class="sxs-lookup"><span data-stu-id="305a0-128">File can be any type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeBinders">
@@ -525,12 +381,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-129">Файл Binder.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-129">Binder file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-129">Файл подшивки.</span><span class="sxs-lookup"><span data-stu-id="305a0-129">Binder file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeCalendarItem">
@@ -549,12 +400,7 @@
       </ReturnValue>
       <MemberValue>45</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-130">Элемент календаря.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-130">Calendar item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-130">Элемент календаря.</span><span class="sxs-lookup"><span data-stu-id="305a0-130">Calendar item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeContactItem">
@@ -573,12 +419,7 @@
       </ReturnValue>
       <MemberValue>46</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-131">Элемента контакта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-131">Contact item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-131">Элемент Contact.</span><span class="sxs-lookup"><span data-stu-id="305a0-131">Contact item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeDatabases">
@@ -597,12 +438,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-132">База данных.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-132">Database.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-132">Базу.</span><span class="sxs-lookup"><span data-stu-id="305a0-132">Database.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeDataConnectionFiles">
@@ -621,12 +457,7 @@
       </ReturnValue>
       <MemberValue>51</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-133">Файл подключения к данным.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-133">Data connection file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-133">Файл подключения к данным.</span><span class="sxs-lookup"><span data-stu-id="305a0-133">Data connection file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeDesignerFiles">
@@ -645,12 +476,7 @@
       </ReturnValue>
       <MemberValue>56</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-134">Файл конструктора.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-134">Designer file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-134">Файл конструктора.</span><span class="sxs-lookup"><span data-stu-id="305a0-134">Designer file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeDocumentImagingFiles">
@@ -669,12 +495,7 @@
       </ReturnValue>
       <MemberValue>54</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-135">Файл документа обработки изображений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-135">Document imaging file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-135">Файл Document Imaging.</span><span class="sxs-lookup"><span data-stu-id="305a0-135">Document imaging file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeExcelWorkbooks">
@@ -693,12 +514,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-136">Книга Excel.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-136">Excel workbook.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-136">Книга Excel.</span><span class="sxs-lookup"><span data-stu-id="305a0-136">Excel workbook.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeJournalItem">
@@ -717,12 +533,7 @@
       </ReturnValue>
       <MemberValue>48</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-137">Элемент "Дневник".</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-137">Journal item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-137">Элемент дневника.</span><span class="sxs-lookup"><span data-stu-id="305a0-137">Journal item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeMailItem">
@@ -741,12 +552,7 @@
       </ReturnValue>
       <MemberValue>44</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-138">Почтового элемента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-138">Mail item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-138">Почтовый элемент.</span><span class="sxs-lookup"><span data-stu-id="305a0-138">Mail item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeNoteItem">
@@ -765,12 +571,7 @@
       </ReturnValue>
       <MemberValue>47</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-139">Элемент заметки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-139">Note item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-139">Элемент заметок.</span><span class="sxs-lookup"><span data-stu-id="305a0-139">Note item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeOfficeFiles">
@@ -789,12 +590,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-140">Файл может быть любой тип файлов Office.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-140">File can be any Office file type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-140">Файл может иметь любой тип файлов Office.</span><span class="sxs-lookup"><span data-stu-id="305a0-140">File can be any Office file type.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeOutlookItems">
@@ -813,12 +609,7 @@
       </ReturnValue>
       <MemberValue>43</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-141">Элемент Outlook.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-141">Outlook item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-141">Элемент Outlook.</span><span class="sxs-lookup"><span data-stu-id="305a0-141">Outlook item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypePhotoDrawFiles">
@@ -837,12 +628,7 @@
       </ReturnValue>
       <MemberValue>50</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-142">Файл PhotoDraw.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-142">PhotoDraw file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-142">Файл PhotoDraw.</span><span class="sxs-lookup"><span data-stu-id="305a0-142">PhotoDraw file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypePowerPointPresentations">
@@ -861,12 +647,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-143">Презентация PowerPoint.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-143">PowerPoint presentation.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-143">Презентация PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="305a0-143">PowerPoint presentation.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeProjectFiles">
@@ -885,12 +666,7 @@
       </ReturnValue>
       <MemberValue>53</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-144">Файл проекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-144">Project file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-144">Файл проекта.</span><span class="sxs-lookup"><span data-stu-id="305a0-144">Project file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypePublisherFiles">
@@ -909,12 +685,7 @@
       </ReturnValue>
       <MemberValue>52</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-145">Файл Publisher.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-145">Publisher file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-145">Файл Publisher.</span><span class="sxs-lookup"><span data-stu-id="305a0-145">Publisher file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeTaskItem">
@@ -933,12 +704,7 @@
       </ReturnValue>
       <MemberValue>49</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-146">Элемент задачи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-146">Task item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-146">Элемент задачи.</span><span class="sxs-lookup"><span data-stu-id="305a0-146">Task item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeTemplates">
@@ -957,12 +723,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-147">Шаблон.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-147">Template.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-147">Шаблонов.</span><span class="sxs-lookup"><span data-stu-id="305a0-147">Template.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeVisioFiles">
@@ -981,12 +742,7 @@
       </ReturnValue>
       <MemberValue>55</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-148">Файл Visio.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-148">Visio file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-148">Файл Visio.</span><span class="sxs-lookup"><span data-stu-id="305a0-148">Visio file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeWebPages">
@@ -1005,12 +761,7 @@
       </ReturnValue>
       <MemberValue>57</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-149">Веб-страницы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-149">Web page.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-149">Веб-страница.</span><span class="sxs-lookup"><span data-stu-id="305a0-149">Web page.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFileTypeWordDocuments">
@@ -1029,12 +780,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-150">Документ Word.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-150">Word document.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-150">Документ Word.</span><span class="sxs-lookup"><span data-stu-id="305a0-150">Word document.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionFreeText">
@@ -1053,12 +799,7 @@
       </ReturnValue>
       <MemberValue>42</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-151">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> соответствует значению, указанных в свойстве <b>значение</b> объекта <b>PropertyTest</b> при использовании FreeText поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-151">Value of the file property specified in the <b>Name</b> property of the <b>PropertyTest</b> object matches the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object when a FreeText search is used.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-151">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , соответствует значению, указанному в свойстве <b>value</b> объекта <b>пропертитест</b> при использовании поиска FREETEXT.</span><span class="sxs-lookup"><span data-stu-id="305a0-151">Value of the file property specified in the <b>Name</b> property of the <b>PropertyTest</b> object matches the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object when a FreeText search is used.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIncludes">
@@ -1077,12 +818,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-152">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> содержит значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-152">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object includes the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-152">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , включает значение, указанное в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-152">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object includes the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIncludesFormsOf">
@@ -1101,12 +837,7 @@
       </ReturnValue>
       <MemberValue>41</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-153">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> включает в себя форм значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-153">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object includes forms of the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-153">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , включает формы значения, указанные в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-153">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object includes forms of the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIncludesNearEachOther">
@@ -1125,12 +856,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-154">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> и значения, заданного в свойстве <b>Value</b> объекта <b>PropertyTest</b> являются рядом друг с другом.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-154">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object and the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object are near each other.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-154">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , и значение, указанное в свойстве <b>value</b> объекта <b>пропертитест</b> , расположены рядом друг с другом.</span><span class="sxs-lookup"><span data-stu-id="305a0-154">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object and the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object are near each other.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIncludesPhrase">
@@ -1149,12 +875,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-155">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> содержит фразу, указанных в значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-155">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object includes the phrase specified in the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-155">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , включает фразу, заданную в значении, указанном в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-155">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object includes the phrase specified in the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionInTheLast">
@@ -1173,12 +894,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-156">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — в последний временной интервал, указанный в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-156">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is within the last time interval specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-156">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится в последнем интервале времени, указанном в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-156">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is within the last time interval specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionInTheNext">
@@ -1197,12 +913,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-157">Даты, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> находится следующий интервал времени, заданный в свойства <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-157">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is within the next time interval specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-157">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится в следующем интервале времени, указанном в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-157">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is within the next time interval specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIsExactly">
@@ -1221,12 +932,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-158">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> — точно значения, указанного в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-158">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is exactly the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-158">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , равно значению, указанному в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-158">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is exactly the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIsNo">
@@ -1245,12 +951,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-159">Свойство файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> значение «False».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-159">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is "False".</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-159">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , равно "false".</span><span class="sxs-lookup"><span data-stu-id="305a0-159">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is "False".</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIsNot">
@@ -1269,12 +970,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-160">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> не значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-160">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is not the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-160">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , не является значением, указанным в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-160">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is not the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionIsYes">
@@ -1293,12 +989,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-161">Свойство файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> значение «True».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-161">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is "True".</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-161">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , равно "true".</span><span class="sxs-lookup"><span data-stu-id="305a0-161">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is "True".</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionLastMonth">
@@ -1317,12 +1008,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-162">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> находится в последний месяц.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-162">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is within the last month.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-162">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится в прошлом месяце.</span><span class="sxs-lookup"><span data-stu-id="305a0-162">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is within the last month.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionLastWeek">
@@ -1341,12 +1027,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-163">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> находится в пределах за прошлую неделю.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-163">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is within the last week.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-163">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится в течение прошлой недели.</span><span class="sxs-lookup"><span data-stu-id="305a0-163">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is within the last week.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionLessThan">
@@ -1365,12 +1046,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-164">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> меньше, чем значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-164">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is less than the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-164">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , меньше значения, указанного в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-164">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is less than the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionMoreThan">
@@ -1389,12 +1065,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-165">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> больше, чем значение, указанное в свойстве <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-165">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is more than the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-165">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест</b> , превышает значение, указанное в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-165">Value of the file property specified in <b>Name</b> property of the <b>PropertyTest</b> object is more than the value specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNextMonth">
@@ -1413,12 +1084,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-166">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — следующего месяца.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-166">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is next month.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-166">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , относится к следующему месяцу.</span><span class="sxs-lookup"><span data-stu-id="305a0-166">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is next month.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNextWeek">
@@ -1437,12 +1103,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-167">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — следующей недели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-167">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is next week.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-167">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , относится к следующей неделе.</span><span class="sxs-lookup"><span data-stu-id="305a0-167">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is next week.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToCompleted">
@@ -1461,16 +1122,7 @@
       </ReturnValue>
       <MemberValue>71</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-168">Состояние не равно «Завершено».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-168">Status does not equal "Completed".</span>
-          </span>
-          <span data-ttu-id="3a67e-169">Значение свойства <b>Name</b> должно быть <b>состояние</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-169">Value of the <b>Name</b> property must be <b>Status</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-168">Состояние не равно "завершено".</span><span class="sxs-lookup"><span data-stu-id="305a0-168">Status does not equal "Completed".</span></span> <span data-ttu-id="305a0-169">Значение свойства <b>Name</b> должно быть <b>Status</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-169">Value of the <b>Name</b> property must be <b>Status</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToDeferred">
@@ -1489,16 +1141,7 @@
       </ReturnValue>
       <MemberValue>73</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-170">Состояние не равно «Отложенный».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-170">Status does not equal "Deferred".</span>
-          </span>
-          <span data-ttu-id="3a67e-171">Значение свойства <b>Name</b> должно быть <b>состояние</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-171">Value of the <b>Name</b> property must be <b>Status</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-170">Состояние не равно "отложен".</span><span class="sxs-lookup"><span data-stu-id="305a0-170">Status does not equal "Deferred".</span></span> <span data-ttu-id="305a0-171">Значение свойства <b>Name</b> должно быть <b>Status</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-171">Value of the <b>Name</b> property must be <b>Status</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToHigh">
@@ -1517,16 +1160,7 @@
       </ReturnValue>
       <MemberValue>63</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-172">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest </b>не равно «Высокий».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-172">Value of file property specified in the <b>Name</b> property of the <b>PropertyTest </b>object does not equal "High".</span>
-          </span>
-          <span data-ttu-id="3a67e-173">Значение свойства <b>Name</b> должно быть <b>приоритет</b> или <b>Установка высокой важности</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-173">Value of the <b>Name</b> property must be <b>Priority</b> or <b>Importance</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-172">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест </b>, не равно "High".</span><span class="sxs-lookup"><span data-stu-id="305a0-172">Value of file property specified in the <b>Name</b> property of the <b>PropertyTest </b>object does not equal "High".</span></span> <span data-ttu-id="305a0-173">Значение свойства <b>Name</b> должно быть <b>приоритетом</b> или <b>важностью</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-173">Value of the <b>Name</b> property must be <b>Priority</b> or <b>Importance</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToInProgress">
@@ -1545,16 +1179,7 @@
       </ReturnValue>
       <MemberValue>70</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-174">Состояние не равно «Выполняется».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-174">Status does not equal "In Progress".</span>
-          </span>
-          <span data-ttu-id="3a67e-175">Значение свойства <b>Name</b> должно быть <b>состояние</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-175">Value of the <b>Name</b> property must be <b>Status</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-174">Состояние "выполняется" не равно "выполняется".</span><span class="sxs-lookup"><span data-stu-id="305a0-174">Status does not equal "In Progress".</span></span> <span data-ttu-id="305a0-175">Значение свойства <b>Name</b> должно быть <b>Status</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-175">Value of the <b>Name</b> property must be <b>Status</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToLow">
@@ -1573,16 +1198,7 @@
       </ReturnValue>
       <MemberValue>61</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-176">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest </b>не равно «Низкий».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-176">Value of file property specified in the <b>Name</b> property of the <b>PropertyTest </b>object does not equal "Low".</span>
-          </span>
-          <span data-ttu-id="3a67e-177">Значение свойства <b>Name</b> должно быть <b>приоритет</b> или <b>Установка высокой важности</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-177">Value of the <b>Name</b> property must be <b>Priority</b> or <b>Importance</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-176">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест </b>, не равно "низкие".</span><span class="sxs-lookup"><span data-stu-id="305a0-176">Value of file property specified in the <b>Name</b> property of the <b>PropertyTest </b>object does not equal "Low".</span></span> <span data-ttu-id="305a0-177">Значение свойства <b>Name</b> должно быть <b>приоритетом</b> или <b>важностью</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-177">Value of the <b>Name</b> property must be <b>Priority</b> or <b>Importance</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToNormal">
@@ -1601,16 +1217,7 @@
       </ReturnValue>
       <MemberValue>62</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-178">Значение свойства файла, указанного в свойство <b>Name</b> объекта <b>PropertyTest </b>не равно «Обычный».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-178">Value of file property specified in the <b>Name</b> property of the <b>PropertyTest </b>object does not equal "Normal".</span>
-          </span>
-          <span data-ttu-id="3a67e-179">Значение свойства <b>Name</b> должно быть <b>приоритет</b> или <b>Установка высокой важности</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-179">Value of the <b>Name</b> property must be <b>Priority</b> or <b>Importance</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-178">Значение свойства файла, указанного в свойстве <b>Name</b> объекта <b>пропертитест </b>, не равно "Normal".</span><span class="sxs-lookup"><span data-stu-id="305a0-178">Value of file property specified in the <b>Name</b> property of the <b>PropertyTest </b>object does not equal "Normal".</span></span> <span data-ttu-id="305a0-179">Значение свойства <b>Name</b> должно быть <b>приоритетом</b> или <b>важностью</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-179">Value of the <b>Name</b> property must be <b>Priority</b> or <b>Importance</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToNotStarted">
@@ -1629,16 +1236,7 @@
       </ReturnValue>
       <MemberValue>69</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-180">Состояние не равно «Не удалось запустить».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-180">Status does not equal "Not Started".</span>
-          </span>
-          <span data-ttu-id="3a67e-181">Значение свойства <b>Name</b> должно быть <b>состояние</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-181">Value of the <b>Name</b> property must be <b>Status</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-180">Состояние не равно "не началась".</span><span class="sxs-lookup"><span data-stu-id="305a0-180">Status does not equal "Not Started".</span></span> <span data-ttu-id="305a0-181">Значение свойства <b>Name</b> должно быть <b>Status</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-181">Value of the <b>Name</b> property must be <b>Status</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionNotEqualToWaitingForSomeoneElse">
@@ -1657,16 +1255,7 @@
       </ReturnValue>
       <MemberValue>72</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-182">Состояние не равно «Ожидание для кто-то еще».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-182">Status does not equal "Waiting for Someone Else".</span>
-          </span>
-          <span data-ttu-id="3a67e-183">Значение свойства <b>Name</b> должно быть <b>состояние</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-183">Value of the <b>Name</b> property must be <b>Status</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-182">Состояние не равно "ожидайте кого-либо еще".</span><span class="sxs-lookup"><span data-stu-id="305a0-182">Status does not equal "Waiting for Someone Else".</span></span> <span data-ttu-id="305a0-183">Значение свойства <b>Name</b> должно быть <b>Status</b>.</span><span class="sxs-lookup"><span data-stu-id="305a0-183">Value of the <b>Name</b> property must be <b>Status</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionOn">
@@ -1685,12 +1274,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-184">Даты, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> совпадает с датой, указанной в свойства <b>Value</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-184">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is the same as the date specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-184">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , совпадает с датой, указанной в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-184">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is the same as the date specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionOnOrAfter">
@@ -1709,12 +1293,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-185">Даты, указанного в свойство <b>Name</b> объекта <b>PropertyTest</b> не ранее указанной в свойстве <b>Value</b> объекта <b>PropertyTest</b> даты.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-185">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is on or after the date specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-185">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится в или после даты, указанной в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-185">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is on or after the date specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionOnOrBefore">
@@ -1733,12 +1312,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-186">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> не позднее даты, указанных в свойстве <b>значение</b> объекта <b>PropertyTest</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-186">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is on or before the date specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-186">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , равна или предшествует дате, указанной в свойстве <b>value</b> объекта <b>пропертитест</b> .</span><span class="sxs-lookup"><span data-stu-id="305a0-186">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is on or before the date specified in the <b>Value</b> property of the <b>PropertyTest</b> object.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionThisMonth">
@@ -1757,12 +1331,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-187">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — этот месяц.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-187">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is this month.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-187">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , относится к этому месяцу.</span><span class="sxs-lookup"><span data-stu-id="305a0-187">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is this month.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionThisWeek">
@@ -1781,12 +1350,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-188">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — на этой неделе.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-188">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is this week.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-188">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , относится к этой неделе.</span><span class="sxs-lookup"><span data-stu-id="305a0-188">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is this week.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionToday">
@@ -1805,12 +1369,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-189">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> соответствует текущей дате.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-189">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is today.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-189">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , находится на сегодняшний день.</span><span class="sxs-lookup"><span data-stu-id="305a0-189">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is today.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionTomorrow">
@@ -1829,12 +1388,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-190">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — завтра.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-190">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is tomorrow.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-190">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , завтра.</span><span class="sxs-lookup"><span data-stu-id="305a0-190">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is tomorrow.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoConditionYesterday">
@@ -1853,12 +1407,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3a67e-191">Дата, указанных в свойстве <b>имя</b> объекта <b>PropertyTest</b> — за вчерашний день.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3a67e-191">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is yesterday.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="305a0-191">Дата, указанная в свойстве <b>Name</b> объекта <b>пропертитест</b> , вчера.</span><span class="sxs-lookup"><span data-stu-id="305a0-191">Date specified in the <b>Name</b> property of the <b>PropertyTest</b> object is yesterday.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="CustomXMLValidationErrors" FullName="Microsoft.Office.Core.CustomXMLValidationErrors">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c776681c7c831f4789515a2436bf2e39e3efd499" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662268" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CustomXMLValidationErrors : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c776681c7c831f4789515a2436bf2e39e3efd499" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662268" /></Metadata><TypeSignature Language="C#" Value="public interface CustomXMLValidationErrors : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLValidationErrors implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLValidationErrors" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLValidationErrors&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,12 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="c6f63-101">Представляет коллекцию объектов <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объектов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c6f63-101">Represents a collection of <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> objects.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="61b46-101">Представляет коллекцию <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объектов.</span><span class="sxs-lookup"><span data-stu-id="61b46-101">Represents a collection of <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> objects.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -67,36 +54,11 @@
         <Parameter Name="ClearedOnUpdate" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="Node">
-          <span data-ttu-id="c6f63-102">Представляет узел, где произошла ошибка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-102">Represents the node where the error occurred.</span>
-          </span>
-        </param>
-        <param name="ErrorName">
-          <span data-ttu-id="c6f63-103">Содержит имя ошибки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-103">Contains the name of the error.</span>
-          </span>
-        </param>
-        <param name="ErrorText">
-          <span data-ttu-id="c6f63-104">Содержит текст описания ошибки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-104">Contains the descriptive error text.</span>
-          </span>
-        </param>
-        <param name="ClearedOnUpdate">
-          <span data-ttu-id="c6f63-105">Указывает, является ли ошибки необходимо выполнить очистку от <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> семейства сайтов при исправляются и обновляются XML-код.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-105">Specifies whether the error is to be cleared from the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> collection when the XML is corrected and updated.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c6f63-106">Добавляет <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> object, содержащий ошибка проверки XML для <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-106">Adds a <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> object containing an XML validation error to the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> collection.</span>
-          </span>
-        </summary>
+        <param name="Node"><span data-ttu-id="61b46-102">Представляет узел, на котором возникла ошибка.</span><span class="sxs-lookup"><span data-stu-id="61b46-102">Represents the node where the error occurred.</span></span></param>
+        <param name="ErrorName"><span data-ttu-id="61b46-103">Содержит имя ошибки.</span><span class="sxs-lookup"><span data-stu-id="61b46-103">Contains the name of the error.</span></span></param>
+        <param name="ErrorText"><span data-ttu-id="61b46-104">Содержит описательный текст ошибки.</span><span class="sxs-lookup"><span data-stu-id="61b46-104">Contains the descriptive error text.</span></span></param>
+        <param name="ClearedOnUpdate"><span data-ttu-id="61b46-105">Указывает, следует ли удалить ошибку из <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> коллекции при исправлении и обновлении XML-кода.</span><span class="sxs-lookup"><span data-stu-id="61b46-105">Specifies whether the error is to be cleared from the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> collection when the XML is corrected and updated.</span></span></param>
+        <summary><span data-ttu-id="61b46-106">Добавляет в <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> коллекцию объект, содержащий ошибку проверки XML.</span><span class="sxs-lookup"><span data-stu-id="61b46-106">Adds a <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> object containing an XML validation error to the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -126,26 +88,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6f63-107">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-107">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> object.</span>
-          </span>
-          <span data-ttu-id="c6f63-108">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-108">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c6f63-109">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-109">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="61b46-107">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="61b46-107">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> object.</span></span> <span data-ttu-id="61b46-108">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="61b46-108">Read-only.</span></span></summary>
+        <value><span data-ttu-id="61b46-109"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="61b46-109"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -172,26 +116,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6f63-110">Получает количество элементов в <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-110">Gets the number of items in the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> collection.</span>
-          </span>
-          <span data-ttu-id="c6f63-111">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-111">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c6f63-112">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-112">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="61b46-110">Получает количество элементов в <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="61b46-110">Gets the number of items in the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> collection.</span></span> <span data-ttu-id="61b46-111">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="61b46-111">Read-only.</span></span></summary>
+        <value><span data-ttu-id="61b46-112"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="61b46-112"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -221,26 +147,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6f63-113">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-113">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> object was created.</span>
-          </span>
-          <span data-ttu-id="c6f63-114">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-114">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c6f63-115">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-115">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="61b46-113">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="61b46-113">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> object was created.</span></span> <span data-ttu-id="61b46-114">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="61b46-114">Read-only.</span></span></summary>
+        <value><span data-ttu-id="61b46-115"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="61b46-115"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -302,25 +210,9 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="c6f63-116">Имя или номер индекса <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта должно быть возвращено.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-116">The name or index number of the <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> object to be returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c6f63-117">Получает <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта из <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-117">Gets a <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> object from the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> collection.</span>
-          </span>
-          <span data-ttu-id="c6f63-118">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-118">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" />
-        </value>
+        <param name="Index"><span data-ttu-id="61b46-116">Имя или номер индекса возвращаемого <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="61b46-116">The name or index number of the <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> object to be returned.</span></span></param>
+        <summary><span data-ttu-id="61b46-117">Получает <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> объект из <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="61b46-117">Gets a <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> object from the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> collection.</span></span> <span data-ttu-id="61b46-118">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="61b46-118">Read-only.</span></span></summary>
+        <value><see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -347,26 +239,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6f63-119">Получает родительский объект для <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-119">Gets the parent object for the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> object.</span>
-          </span>
-          <span data-ttu-id="c6f63-120">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-120">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="c6f63-121">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6f63-121">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="61b46-119">Получает родительский объект для <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="61b46-119">Gets the parent object for the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> object.</span></span> <span data-ttu-id="61b46-120">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="61b46-120">Read-only.</span></span></summary>
+        <value><span data-ttu-id="61b46-121"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="61b46-121"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

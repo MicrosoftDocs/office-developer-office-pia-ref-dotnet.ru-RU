@@ -1,13 +1,5 @@
 <Type Name="FileSearch" FullName="Microsoft.Office.Core.FileSearch">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6b9b7b2b808d83357cc4a067d756b5cc9697f058" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662078" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FileSearch : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6b9b7b2b808d83357cc4a067d756b5cc9697f058" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662078" /></Metadata><TypeSignature Language="C#" Value="public interface FileSearch : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FileSearch implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.FileSearch" />
   <TypeSignature Language="VB.NET" Value="Public Interface FileSearch&#xA;Implements _IMsoDispObj" />
@@ -30,26 +22,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="6dba1-101">Представляет функциональность диалоговое окно Открыть доступ, в меню файл.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6dba1-101">Represents the functionality of the Open dialog box accessible by the File menu.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="6dba1-102">
-        <para>Используйте свойство <b>FileSearch</b> объекта <b>Application</b> отдельного приложения для возврата объекта <b>FileSearch</b> .</para>
-        <para>Использования <see cref="M:Microsoft.Office.Core.FileSearch.NewSearch" /> метод, чтобы сбросить параметры поиска по умолчанию. После выполнения каждого поиска и с помощью метода <b>NewSearch</b> выборочно можно задать свойства для следующего поиск файлов без вручную сброса ранее заданные значения свойств сохраняются все значения свойств.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6dba1-102">
-          <para>Use the <b>FileSearch</b> property of an individual application's <b>Application</b> object to return the <b>FileSearch</b> object.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Core.FileSearch.NewSearch" /> method to reset the search criteria to the default settings. All property values are retained after each search is run, and by using the <b>NewSearch</b> method you can selectively set properties for the next file search without manually resetting previous property values.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="372bf-101">Представляет функциональные возможности, доступные в меню "файл" диалогового окна "Открыть".</span><span class="sxs-lookup"><span data-stu-id="372bf-101">Represents the functionality of the Open dialog box accessible by the File menu.</span></span></summary>
+    <remarks><span data-ttu-id="372bf-102"><para>Используйте свойство <b>FileSearch</b> объекта <b>приложения</b> отдельного приложения, чтобы возвратить объект <b>FileSearch</b> .</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core.FileSearch.NewSearch" /> метод, чтобы сбросить критерии поиска к параметрам по умолчанию. Все значения свойств сохраняются после выполнения каждого поиска и с помощью метода <b>невсеарч</b> можно выборочно задать свойства для следующего поиска файлов без сброса прежних значений свойств вручную.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="372bf-102"><para>Use the <b>FileSearch</b> property of an individual application's <b>Application</b> object to return the <b>FileSearch</b> object.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Core.FileSearch.NewSearch" /> method to reset the search criteria to the default settings. All property values are retained after each search is run, and by using the <b>NewSearch</b> method you can selectively set properties for the next file search without manually resetting previous property values.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -78,12 +56,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-103">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="372bf-103">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -114,27 +87,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-104">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-104">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="372bf-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6dba1-105">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.FileSearch.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Свойство <b>Кем создано</b> объекты <b>SharedWorkspaceFile</b>, <b>SharedWorkspaceFolder</b>, <b>SharedWorkspaceLink</b>и <b>SharedWorkspaceTask</b> для получения имени пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-105">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.FileSearch.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <b>SharedWorkspaceFile</b>, <b>SharedWorkspaceFolder</b>, <b>SharedWorkspaceLink</b>, and <b>SharedWorkspaceTask</b> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="372bf-105"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.FileSearch.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объектов <b>SharedWorkspaceFile</b>, <b>SharedWorkspaceFolder</b>, <b>SharedWorkspaceLink</b>и <b>SharedWorkspaceTask</b> , чтобы вернуть имя пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="372bf-105"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.FileSearch.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <b>SharedWorkspaceFile</b>, <b>SharedWorkspaceFolder</b>, <b>SharedWorkspaceLink</b>, and <b>SharedWorkspaceTask</b> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Execute">
@@ -161,61 +122,14 @@
         <Parameter Name="AlwaysAccurate" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="SortBy">
-          <span data-ttu-id="6dba1-106">Необязательные <see cref="T:Microsoft.Office.Core.MsoSortBy" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-106">Optional <see cref="T:Microsoft.Office.Core.MsoSortBy" />.</span>
-          </span>
-          <span data-ttu-id="6dba1-107">Метод, используемый для сортировки возвращенных файлов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-107">The method used to sort the returned file(s).</span>
-          </span>
-        </param>
-        <param name="SortOrder">
-          <span data-ttu-id="6dba1-108">Необязательные <see cref="T:Microsoft.Office.Core.MsoSortOrder" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-108">Optional <see cref="T:Microsoft.Office.Core.MsoSortOrder" />.</span>
-          </span>
-          <span data-ttu-id="6dba1-109">Порядок сортировки возвращенных файлов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-109">The order in which the returned file(s) are sorted.</span>
-          </span>
-        </param>
-        <param name="AlwaysAccurate">
-          <span data-ttu-id="6dba1-110">Необязательный атрибут типа <b>Boolean</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-110">Optional <b>Boolean</b>.</span>
-          </span>
-          <span data-ttu-id="6dba1-111">
-            <b>Значение true,</b> Чтобы включить файлы, которые были добавлены, изменены или удалены с момента последнего обновления индекса файл как часть поиск файлов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-111">
-              <b>True</b> to include files that have been added, modified, or deleted since the file index was last updated as part of the file search.</span>
-          </span>
-          <span data-ttu-id="6dba1-112">Значение по умолчанию — <b>True</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-112">The default value is <b>True</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6dba1-113">Начать поиск для указанных файлов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-113">Begins the search for the specified file(s).</span>
-          </span>
-        </summary>
+        <param name="SortBy"><span data-ttu-id="372bf-106">Необязательный <see cref="T:Microsoft.Office.Core.MsoSortBy" />параметр.</span><span class="sxs-lookup"><span data-stu-id="372bf-106">Optional <see cref="T:Microsoft.Office.Core.MsoSortBy" />.</span></span> <span data-ttu-id="372bf-107">Метод, используемый для сортировки возвращаемых файлов.</span><span class="sxs-lookup"><span data-stu-id="372bf-107">The method used to sort the returned file(s).</span></span></param>
+        <param name="SortOrder"><span data-ttu-id="372bf-108">Необязательный <see cref="T:Microsoft.Office.Core.MsoSortOrder" />параметр.</span><span class="sxs-lookup"><span data-stu-id="372bf-108">Optional <see cref="T:Microsoft.Office.Core.MsoSortOrder" />.</span></span> <span data-ttu-id="372bf-109">Порядок, в котором сортируются возвращенные файлы.</span><span class="sxs-lookup"><span data-stu-id="372bf-109">The order in which the returned file(s) are sorted.</span></span></param>
+        <param name="AlwaysAccurate"><span data-ttu-id="372bf-110">Необязательный атрибут типа <b>Boolean</b>.</span><span class="sxs-lookup"><span data-stu-id="372bf-110">Optional <b>Boolean</b>.</span></span> <span data-ttu-id="372bf-111"><b>Значение true</b> , чтобы включить файлы, которые были добавлены, изменены или удалены с момента последнего обновления индекса файлов в ходе поиска файла.</span><span class="sxs-lookup"><span data-stu-id="372bf-111"><b>True</b> to include files that have been added, modified, or deleted since the file index was last updated as part of the file search.</span></span> <span data-ttu-id="372bf-112">Значение по умолчанию — <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="372bf-112">The default value is <b>True</b>.</span></span></param>
+        <summary><span data-ttu-id="372bf-113">Начинает поиск указанного файла (-ов).</span><span class="sxs-lookup"><span data-stu-id="372bf-113">Begins the search for the specified file(s).</span></span></summary>
         <returns>To be added.</returns>
-        <remarks>
-          <span data-ttu-id="6dba1-114">
-            <para>Данное свойство Возвращает аргумент <b>Integer</b>: 0, если не найдено ни одного файла или положительное число, при обнаружении одного или нескольких файлов.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-114">
-              <para>This property returns an <b>Integer</b>: zero (0) if no files are found, or a positive number if one or more files are found.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="372bf-114"><para>Это свойство возвращает <b>целое число</b>: ноль (0), если файлы не найдены, или положительное число, если обнаружен один или несколько файлов.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="372bf-114"><para>This property returns an <b>Integer</b>: zero (0) if no files are found, or a positive number if one or more files are found.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FileName">
@@ -244,27 +158,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-115">Возвращает или задает имя файла для поиска во время поиска файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-115">Returns or sets the name of the file to look for during a file search.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-115">Возвращает или задает имя файла, который нужно искать во время поиска файла.</span><span class="sxs-lookup"><span data-stu-id="372bf-115">Returns or sets the name of the file to look for during a file search.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6dba1-116">
-            <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-            <para>Может включать имя файла, * (звездочка) или? подстановочные знаки (вопросительный знак). Используйте подстановочные знаки вопросительный знак в соответствии с любой отдельный знак. Например введите <b>gr?y </b>в соответствии с «серый» и «серый». Используйте подстановочный знак звездочка в соответствии с любое число знаков. Например, введите <b>*.txt</b> , чтобы найти все файлы, имеющие. Расширением TXT.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-116">
-              <para>Some of the content in this topic may not be applicable to some languages.</para>
-              <para>The name of the file may include the * (asterisk) or ? (question mark) wildcards. Use the question mark wildcard to match any single character. For example, type <b>gr?y </b>to match both "gray" and "grey." Use the asterisk wildcard to match any number of characters. For example, type <b>*.txt</b> to find all files that have the .TXT extension.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="372bf-116"><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Имя файла может содержать символ \* (звездочка) или? (вопросительный знак) подстановочные знаки. Используйте подстановочный знак "вопросительный знак" для сопоставления с любым одиночным символом. Например, введите <b>GR? y </b>, чтобы найти "серые" и "серые". Используйте подстановочный знак "звездочка" для сопоставления с любым количеством символов. Например, введите <b>\*. txt</b> , чтобы найти все файлы с расширением. Расширение TXT.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="372bf-116"><para>Some of the content in this topic may not be applicable to some languages.</para>
+          <para>The name of the file may include the \* (asterisk) or ? (question mark) wildcards. Use the question mark wildcard to match any single character. For example, type <b>gr?y </b>to match both "gray" and "grey." Use the asterisk wildcard to match any number of characters. For example, type <b>\*.txt</b> to find all files that have the .TXT extension.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FileType">
@@ -293,25 +193,11 @@
         <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-117">Возвращает или задает тип файла для поиска во время поиска файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-117">Returns or sets the type of file to look for during a file search.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-117">Возвращает или задает тип файла для поиска во время поиска файла.</span><span class="sxs-lookup"><span data-stu-id="372bf-117">Returns or sets the type of file to look for during a file search.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6dba1-118">
-            <para>Константы <b>msoFileTypeOfficeFiles</b> включает в себя все файлы с любым из следующих расширений: \* .doc, \*.xls, \* PPT, \*.pps, \*.obd, \*.mdb, \*.mpd, \* .dot, \*.xlt, \* pot, \*.obt, \*.htm, или \* .html.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-118">
-              <para>The constant <b>msoFileTypeOfficeFiles</b> includes all files with any of the following extensions: \*.doc, \*.xls, \*.ppt, \*.pps, \*.obd, \*.mdb, \*.mpd, \*.dot, \*.xlt, \*.pot, \*.obt, \*.htm, or \*.html.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="372bf-118"><para>Константа <b>мсофилетипеоффицефилес</b> включает все файлы со следующими расширениями: \*. doc, \*. xls, \*. ppt, \*. PPS, \*. ОБД, \*. mdb, \*. mpd, \*. dot, \*. xlt, \*. pot, \*. ОБТ, \*. htm или \*. HTML.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="372bf-118"><para>The constant <b>msoFileTypeOfficeFiles</b> includes all files with any of the following extensions: \*.doc, \*.xls, \*.ppt, \*.pps, \*.obd, \*.mdb, \*.mpd, \*.dot, \*.xlt, \*.pot, \*.obt, \*.htm, or \*.html.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="FileTypes">
@@ -337,12 +223,7 @@
         <ReturnType>Microsoft.Office.Core.FileTypes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-119">Возвращает <see cref="T:Microsoft.Office.Core.FileTypes" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-119">Returns a <see cref="T:Microsoft.Office.Core.FileTypes" /> collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-119">Возвращает <see cref="T:Microsoft.Office.Core.FileTypes" /> коллекцию.</span><span class="sxs-lookup"><span data-stu-id="372bf-119">Returns a <see cref="T:Microsoft.Office.Core.FileTypes" /> collection.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -370,12 +251,7 @@
         <ReturnType>Microsoft.Office.Core.FoundFiles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-120">Возвращает <see cref="T:Microsoft.Office.Core.FoundFiles" /> объект, который содержит имена всех файлов, обнаруженные во время поиска.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-120">Returns a <see cref="T:Microsoft.Office.Core.FoundFiles" /> object that contains the names of all the files found during a search.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-120">Возвращает <see cref="T:Microsoft.Office.Core.FoundFiles" /> объект, который содержит имена всех файлов, найденных во время поиска.</span><span class="sxs-lookup"><span data-stu-id="372bf-120">Returns a <see cref="T:Microsoft.Office.Core.FoundFiles" /> object that contains the names of all the files found during a search.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -406,18 +282,8 @@
         <ReturnType>Microsoft.Office.Core.MsoLastModified</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-121">Возвращает или задает значение константы, представляющий количество времени, поскольку указанный файл был последнего изменения и сохранения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-121">Returns or sets a constant that represents the amount of time since the specified file was last modified and saved.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6dba1-122">Значение по умолчанию — <b>msoLastModifiedAnyTime</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-122">The default value is <b>msoLastModifiedAnyTime</b>.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="372bf-121">Возвращает или задает константу, представляющую количество времени, прошедшее с момента последнего изменения и сохранения указанного файла.</span><span class="sxs-lookup"><span data-stu-id="372bf-121">Returns or sets a constant that represents the amount of time since the specified file was last modified and saved.</span></span></summary>
+        <value><span data-ttu-id="372bf-122">Значение по умолчанию — <b>мсоластмодифиеданитиме</b>.</span><span class="sxs-lookup"><span data-stu-id="372bf-122">The default value is <b>msoLastModifiedAnyTime</b>.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -447,12 +313,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-123">Возвращает или задает папку для поиска во время поиска указанного файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-123">Returns or sets the folder to be searched during the specified file search.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-123">Возвращает или задает папку, в которой будет выполняться поиск при указанном поиске файлов.</span><span class="sxs-lookup"><span data-stu-id="372bf-123">Returns or sets the folder to be searched during the specified file search.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -483,29 +344,15 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-124">Определяет, если поиск файлов были развернуты для включения всех форм заданного слова, содержащиеся в теле файла или его свойства.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-124">Determines if the file search is expanded to include all forms of the specified word contained in the body of the file or in the file's properties.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-124">Определяет, развернут ли поиск файлов, чтобы включить все формы указанного слова, содержащиеся в основном тексте файла или в свойствах файла.</span><span class="sxs-lookup"><span data-stu-id="372bf-124">Determines if the file search is expanded to include all forms of the specified word contained in the body of the file or in the file's properties.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6dba1-125">
-            <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-            <para>Данное свойство возвращает <b>значение True, если поиск файлов расширяется для включения всех форм заданного слова, содержащихся в тексте файла или в свойствах файла;</b><b>Значение false,</b> Если поиск не развернут.</para>
-            <para>Это свойство доступно только в том случае, если файл Mswds_en.lex установлен и зарегистрирован. Обратите внимание на то, что этот файл не будет установлен как часть установки Обычная.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-125">
-              <para>Some of the content in this topic may not be applicable to some languages.</para>
-              <para>This property returns <b>True</b> if the file search is expanded to include all forms of the specified word contained in the body of the file or in the file's properties; <b>False</b> if the search is not expanded.</para>
-              <para>This property is available only if the file Mswds_en.lex has been installed and registered. Note that this file isn't installed as part of a typical setup.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="372bf-125"><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Это свойство возвращает <b>значение true</b> , если поиск файлов расширен и содержит все формы указанного слова, содержащиеся в основном тексте файла или в свойствах файла; <b>Значение false</b> , если поиск не разворачивается.</para> 
+          <para>Это свойство доступно только в том случае, если файл Mswds_en. Лекс был установлен и зарегистрирован. Обратите внимание, что этот файл не устанавливается в составе типичной установки.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="372bf-125"><para>Some of the content in this topic may not be applicable to some languages.</para>
+          <para>This property returns <b>True</b> if the file search is expanded to include all forms of the specified word contained in the body of the file or in the file's properties; <b>False</b> if the search is not expanded.</para>
+          <para>This property is available only if the file Mswds_en.lex has been installed and registered. Note that this file isn't installed as part of a typical setup.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="MatchTextExactly">
@@ -534,27 +381,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-126">Определяет, указанный файл будет найти только файлы которого основной текст или свойства файла содержат точное слово или фразу, указанные пользователем.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-126">Determines if the specified file search will find only files whose body text or file properties contain the exact word or phrase that you've specified.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-126">Определяет, будут ли заданным поиском файлов искать только те файлы, текст основного текста или свойства файла которых содержит точное заданное слово или фразу.</span><span class="sxs-lookup"><span data-stu-id="372bf-126">Determines if the specified file search will find only files whose body text or file properties contain the exact word or phrase that you've specified.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6dba1-127">
-            <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para>
-            <para>Данное свойство возвращает <b>значение True, если указанный файл будет найти только файлы которого основной текст или свойства файла содержат точное слово или фразу, заданной;</b><b>Значение false,</b> Если поиск является более общие.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-127">
-              <para>Some of the content in this topic may not be applicable to some languages.</para>
-              <para>This property returns <b>True</b> if the specified file search will find only files whose body text or file properties contain the exact word or phrase that you've specified; <b>False</b> if the search is more general.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="372bf-127"><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Это свойство возвращает <b>значение true</b> , если указанный Поиск файлов будет искать только те файлы, основной текст или свойства файла которых содержат точное заданное слово или фразу; <b>Значение false</b> , если поиск является более общим.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="372bf-127"><para>Some of the content in this topic may not be applicable to some languages.</para>
+          <para>This property returns <b>True</b> if the specified file search will find only files whose body text or file properties contain the exact word or phrase that you've specified; <b>False</b> if the search is more general.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="NewSearch">
@@ -578,24 +411,12 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-128">Восстанавливает для всех параметров критерии поиска к значениям по умолчанию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-128">Resets all the search criteria settings to their default settings.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="6dba1-129">
-            <para>Часть содержимого в этом разделе могут быть неприменимы к отдельным языкам.</para> Параметры критерии поиска 
-          <para>, сохраняются в сеансе приложения. Этот метод используется каждый раз при переходе условия поиска. Этот метод не восстановит значение <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> свойства.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-129">
-              <para>Some of the content in this topic may not be applicable to some languages.</para>
-              <para>Search criteria settings are retained throughout an application session. Use this method every time you change search criteria. This method will not reset the value of the <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="372bf-128">Восстанавливает значения по умолчанию для всех параметров условий поиска.</span><span class="sxs-lookup"><span data-stu-id="372bf-128">Resets all the search criteria settings to their default settings.</span></span></summary>
+        <remarks><span data-ttu-id="372bf-129"><para>Часть содержимого этого раздела может быть неприменима к некоторым языкам.</para> 
+          <para>Параметры условий поиска сохраняются в течение всего сеанса работы приложения. Используйте этот метод каждый раз при изменении условий поиска. Этот метод не сбрасывает <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> значение свойства.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="372bf-129"><para>Some of the content in this topic may not be applicable to some languages.</para>
+          <para>Search criteria settings are retained throughout an application session. Use this method every time you change search criteria. This method will not reset the value of the <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> property.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyTests">
@@ -621,12 +442,7 @@
         <ReturnType>Microsoft.Office.Core.PropertyTests</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-130">Возвращает <see cref="T:Microsoft.Office.Core.PropertyTests" /> коллекции, представляющей все условия поиска для поиска файлов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-130">Returns the <see cref="T:Microsoft.Office.Core.PropertyTests" /> collection that represents all the search criteria for a file search.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-130">Возвращает <see cref="T:Microsoft.Office.Core.PropertyTests" /> коллекцию, которая представляет все условия поиска файла.</span><span class="sxs-lookup"><span data-stu-id="372bf-130">Returns the <see cref="T:Microsoft.Office.Core.PropertyTests" /> collection that represents all the search criteria for a file search.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -652,12 +468,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-131">Обновляет список доступные в настоящее время <see cref="T:Microsoft.Office.Core.ScopeFolder" /> объектов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-131">Refreshes the list of currently available <see cref="T:Microsoft.Office.Core.ScopeFolder" /> objects.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-131">Обновляет список доступных <see cref="T:Microsoft.Office.Core.ScopeFolder" /> в данный момент объектов.</span><span class="sxs-lookup"><span data-stu-id="372bf-131">Refreshes the list of currently available <see cref="T:Microsoft.Office.Core.ScopeFolder" /> objects.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -684,12 +495,7 @@
         <ReturnType>Microsoft.Office.Core.SearchFolders</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-132">Возвращает <see cref="T:Microsoft.Office.Core.SearchFolders" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-132">Returns a <see cref="T:Microsoft.Office.Core.SearchFolders" /> collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-132">Возвращает <see cref="T:Microsoft.Office.Core.SearchFolders" /> коллекцию.</span><span class="sxs-lookup"><span data-stu-id="372bf-132">Returns a <see cref="T:Microsoft.Office.Core.SearchFolders" /> collection.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -717,12 +523,7 @@
         <ReturnType>Microsoft.Office.Core.SearchScopes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-133">Возвращает <see cref="T:Microsoft.Office.Core.SearchScopes" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-133">Returns a <see cref="T:Microsoft.Office.Core.SearchScopes" /> collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-133">Возвращает <see cref="T:Microsoft.Office.Core.SearchScopes" /> коллекцию.</span><span class="sxs-lookup"><span data-stu-id="372bf-133">Returns a <see cref="T:Microsoft.Office.Core.SearchScopes" /> collection.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -753,25 +554,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-134">Определяет, если в поиск включаются все вложенные папки в папке, указанной в <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> свойство.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-134">Determines if the search includes all the subfolders in the folder specified by the <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> property.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-134">Определяет, включены ли в Поиск все вложенные папки в папке, указанной в <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> свойстве.</span><span class="sxs-lookup"><span data-stu-id="372bf-134">Determines if the search includes all the subfolders in the folder specified by the <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> property.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6dba1-135">
-            <para>Данное свойство возвращает <b>значение True,</b> Если в поиск включаются все вложенные папки в папке, указанной в <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> свойства; <b>Значение false,</b> Если это не так.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-135">
-              <para>This property returns <b>True</b> if the search includes all the subfolders in the folder specified by the <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> property; <b>False</b> if it does not.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="372bf-135"><para>Это свойство возвращает <b>значение true</b> , если поиск включает все вложенные папки в папке, указанной <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> свойством; В противном случае — <b>false</b> .</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="372bf-135"><para>This property returns <b>True</b> if the search includes all the subfolders in the folder specified by the <see cref="P:Microsoft.Office.Core.FileSearch.LookIn" /> property; <b>False</b> if it does not.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextOrProperty">
@@ -800,27 +587,15 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6dba1-136">Возвращает или задает слово или фразу для поиска, в теле файла или его свойства во время поиска файлов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-136">Returns or sets the word or phrase to be searched for, in either the body of a file or the file's properties, during the file search.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="372bf-136">Возвращает или задает слово или фразу для поиска в тексте файла или свойства файла во время поиска файла.</span><span class="sxs-lookup"><span data-stu-id="372bf-136">Returns or sets the word or phrase to be searched for, in either the body of a file or the file's properties, during the file search.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6dba1-137">
-            <para>Слово или фраза может включать * (звездочка) или? подстановочный знак (вопросительный знак).</para>
-            <para>Использовать подстановочные знаки вопросительный знак в соответствии с любой отдельный знак. Например, введите <b>gr?y</b> , чтобы найти все файлы, которые содержат по крайней мере один экземпляр «серый» или «серый.»</para> Подстановочный знак 
-          <para>использования звездочка в соответствии с любое число знаков. Например, введите <b>San *</b> для возврата всех файлов, содержащих по крайней мере одно слово начинается с «San.»</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6dba1-137">
-              <para>The word or phrase can include the * (asterisk) or ? (question mark) wildcard character.</para>
-              <para>Use the question mark wildcard character to match any single character. For example, type <b>gr?y</b> to find all files that contain at least one instance of either "gray" or "grey."</para>
-              <para>Use the asterisk wildcard character to match any number of characters. For example, type <b>San*</b> to return all files that contain at least one word that begins with "San."</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="372bf-137"><para>Слово или фраза может содержать символ звездочки (\*) или? подстановочный знак (</para> вопросительный знак). 
+          <para>Используйте подстановочный знак "вопросительный знак" для сопоставления с любым одиночным символом. Например, введите <b>GR? y</b> , чтобы найти все файлы, которые содержат по крайней мере один экземпляр "Gray" или "Grey".</para> 
+          <para>Используйте подстановочный знак "звездочка" для сопоставления с любым количеством символов. Например, введите <b>San \*</b> , чтобы возвратить все файлы, содержащие по крайней мере одно слово, начинающееся с "San".</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="372bf-137"><para>The word or phrase can include the \* (asterisk) or ? (question mark) wildcard character.</para>
+          <para>Use the question mark wildcard character to match any single character. For example, type <b>gr?y</b> to find all files that contain at least one instance of either "gray" or "grey."</para>
+          <para>Use the asterisk wildcard character to match any number of characters. For example, type <b>San\*</b> to return all files that contain at least one word that begins with "San."</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

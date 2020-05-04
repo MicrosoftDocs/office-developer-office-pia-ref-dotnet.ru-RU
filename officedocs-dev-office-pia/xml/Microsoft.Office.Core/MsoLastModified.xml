@@ -1,13 +1,5 @@
 <Type Name="MsoLastModified" FullName="Microsoft.Office.Core.MsoLastModified">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5e2e57aed0d122981a96f3fb7099b54fe7b46133" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661688" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoLastModified" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5e2e57aed0d122981a96f3fb7099b54fe7b46133" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661688" /></Metadata><TypeSignature Language="C#" Value="public enum MsoLastModified" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLastModified extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLastModified" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoLastModified" />
@@ -25,16 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="ab5fe-101">Определяет период времени для фильтрации файлов по дате последнего изменения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ab5fe-101">Specifies the period of time to filter files by the date last modified.</span>
-      </span>
-      <span data-ttu-id="ab5fe-102">Используется с помощью свойства <b>LastModified</b><b>FileSearch</b> объекта.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ab5fe-102">Used with the <b>LastModified</b> property of the <b>FileSearch</b> object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="955f9-101">Указывает период времени, в течение которого файлы фильтруются по дате последнего изменения.</span><span class="sxs-lookup"><span data-stu-id="955f9-101">Specifies the period of time to filter files by the date last modified.</span></span> <span data-ttu-id="955f9-102">Используется со свойством <b>LastModified</b> объекта <b>FileSearch</b> .</span><span class="sxs-lookup"><span data-stu-id="955f9-102">Used with the <b>LastModified</b> property of the <b>FileSearch</b> object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -54,12 +37,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab5fe-103">Любое время последнего изменения файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab5fe-103">File last modified any time.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="955f9-103">Последнее изменение файла.</span><span class="sxs-lookup"><span data-stu-id="955f9-103">File last modified any time.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLastModifiedLastMonth">
@@ -78,12 +56,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab5fe-104">Последний месяц последнего изменения файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab5fe-104">File last modified last month.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="955f9-104">Последнее изменение файла в прошлом месяце.</span><span class="sxs-lookup"><span data-stu-id="955f9-104">File last modified last month.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLastModifiedLastWeek">
@@ -102,12 +75,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab5fe-105">Последняя неделя последнего изменения файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab5fe-105">File last modified last week.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="955f9-105">Последнее изменение файла за последнюю неделю.</span><span class="sxs-lookup"><span data-stu-id="955f9-105">File last modified last week.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLastModifiedThisMonth">
@@ -126,12 +94,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab5fe-106">В этом месяца последнего изменения файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab5fe-106">File last modified this month.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="955f9-106">Последнее изменение файла в этом месяце.</span><span class="sxs-lookup"><span data-stu-id="955f9-106">File last modified this month.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLastModifiedThisWeek">
@@ -150,12 +113,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab5fe-107">На этой неделе последнего изменения файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab5fe-107">File last modified this week.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="955f9-107">Последнее изменение файла на этой неделе.</span><span class="sxs-lookup"><span data-stu-id="955f9-107">File last modified this week.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLastModifiedToday">
@@ -174,12 +132,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab5fe-108">А вы — уже последнего изменения файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab5fe-108">File last modified today.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="955f9-108">Дата последнего изменения файла.</span><span class="sxs-lookup"><span data-stu-id="955f9-108">File last modified today.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLastModifiedYesterday">
@@ -198,12 +151,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ab5fe-109">За вчерашний день последнего изменения файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ab5fe-109">File last modified yesterday.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="955f9-109">Последнее изменение файла: вчера.</span><span class="sxs-lookup"><span data-stu-id="955f9-109">File last modified yesterday.</span></span></summary>
       </Docs>
     </Member>
   </Members>

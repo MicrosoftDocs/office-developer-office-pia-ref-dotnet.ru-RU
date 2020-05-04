@@ -1,13 +1,5 @@
 <Type Name="MsoControlType" FullName="Microsoft.Office.Core.MsoControlType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dc2aea21eab3314ebec7550dde32f66b9caea87b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661717" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoControlType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dc2aea21eab3314ebec7550dde32f66b9caea87b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661717" /></Metadata><TypeSignature Language="C#" Value="public enum MsoControlType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoControlType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoControlType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoControlType" />
@@ -20,24 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="9af0a-101">Указывает тип элемента управления панели команд.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9af0a-101">Specifies the type of the command bar control.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="9af0a-102">
-        <para>Используется с методом <b>Add</b> объекта <b>CommandBarControls</b> . Только ограниченный набор типов элементов управления можно создать с помощью объектной модели <b>CommandBars</b> : <b>msoControlButton</b>, <b>msoControlEdit</b>, <b>msoControlDropdown</b>, <b>msoControlComboBox</b>, <b>msoControlPopup</b>и <b> msoControlActiveX</b>. Другие типы элементов управления, могут существовать в панели команд встроенные или надстройки, но не может быть создан с помощью объектной модели.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9af0a-102">
-          <para>Used with the <b>Add</b> method of the <b>CommandBarControls</b> object. Only a limited set of the control types can be created via the <b>CommandBars</b> object model: <b>msoControlButton</b>, <b>msoControlEdit</b>, <b>msoControlDropdown</b>, <b>msoControlComboBox</b>, <b>msoControlPopup</b>, and <b>msoControlActiveX</b>. Other control types may exist on built-in or add-in command bars, but cannot be created via the object model.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="38786-101">Задает тип элемента управления "панель команд".</span><span class="sxs-lookup"><span data-stu-id="38786-101">Specifies the type of the command bar control.</span></span></summary>
+    <remarks><span data-ttu-id="38786-102"><para>Используется с методом <b>Add</b> объекта <b>CommandBarControls</b> . С помощью объектной модели <b>CommandBars</b> можно создать только ограниченный набор типов элементов управления: <b>мсоконтролбуттон</b>, <b>мсоконтроледит</b>, <b>мсоконтролдропдовн</b>, <b>мсоконтролкомбобокс</b>, <b>мсоконтролпопуп</b>и <b>msoControlActiveX</b>. Другие типы элементов управления могут существовать на встроенных панелях команд или в панелях команд надстройки, но не могут создаваться с помощью объектной модели.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="38786-102"><para>Used with the <b>Add</b> method of the <b>CommandBarControls</b> object. Only a limited set of the control types can be created via the <b>CommandBars</b> object model: <b>msoControlButton</b>, <b>msoControlEdit</b>, <b>msoControlDropdown</b>, <b>msoControlComboBox</b>, <b>msoControlPopup</b>, and <b>msoControlActiveX</b>. Other control types may exist on built-in or add-in command bars, but cannot be created via the object model.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoControlActiveX">
@@ -56,12 +34,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-103">Элемент управления ActiveX.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-103">ActiveX control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-103">Элемент управления ActiveX.</span><span class="sxs-lookup"><span data-stu-id="38786-103">ActiveX control.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlAutoCompleteCombo">
@@ -80,16 +53,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-104">Поле со списком, в котором первый соответствующий вариант автоматически заполняется как введенных пользователем.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-104">Combo box in which the first matching choice is automatically filled in as the user types.</span>
-          </span>
-          <span data-ttu-id="9af0a-105">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-105">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-104">Поле со списком, в котором первый подходящий вариант автоматически заполняется в качестве типа пользователя.</span><span class="sxs-lookup"><span data-stu-id="38786-104">Combo box in which the first matching choice is automatically filled in as the user types.</span></span> <span data-ttu-id="38786-105">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-105">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlButton">
@@ -108,12 +72,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-106">Кнопки команды.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-106">Command button.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-106">Кнопка.</span><span class="sxs-lookup"><span data-stu-id="38786-106">Command button.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlButtonDropdown">
@@ -132,16 +91,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-107">Раскрывающийся список кнопки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-107">Drop-down button.</span>
-          </span>
-          <span data-ttu-id="9af0a-108">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-108">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-107">Кнопка раскрывающегося список.</span><span class="sxs-lookup"><span data-stu-id="38786-107">Drop-down button.</span></span> <span data-ttu-id="38786-108">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-108">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlButtonPopup">
@@ -160,16 +110,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-109">Кнопка всплывающего.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-109">Pop-up button.</span>
-          </span>
-          <span data-ttu-id="9af0a-110">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-110">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-109">Всплывающая кнопка.</span><span class="sxs-lookup"><span data-stu-id="38786-109">Pop-up button.</span></span> <span data-ttu-id="38786-110">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-110">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlComboBox">
@@ -188,12 +129,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-111">Поле со списком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-111">Combo box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-111">Поле со списком.</span><span class="sxs-lookup"><span data-stu-id="38786-111">Combo box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlCustom">
@@ -212,16 +148,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-112">Настраиваемый элемент управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-112">Custom control.</span>
-          </span>
-          <span data-ttu-id="9af0a-113">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-113">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-112">Настраиваемый элемент управления.</span><span class="sxs-lookup"><span data-stu-id="38786-112">Custom control.</span></span> <span data-ttu-id="38786-113">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-113">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlDropdown">
@@ -240,12 +167,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-114">Раскрывающийся список.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-114">Drop-down list.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-114">Раскрывающийся список.</span><span class="sxs-lookup"><span data-stu-id="38786-114">Drop-down list.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlEdit">
@@ -264,12 +186,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-115">Текстовое поле.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-115">Text box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-115">Текстовое поле.</span><span class="sxs-lookup"><span data-stu-id="38786-115">Text box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlExpandingGrid">
@@ -288,16 +205,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-116">Развертывание сетки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-116">Expanding grid.</span>
-          </span>
-          <span data-ttu-id="9af0a-117">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-117">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-116">Разворачивание сетки.</span><span class="sxs-lookup"><span data-stu-id="38786-116">Expanding grid.</span></span> <span data-ttu-id="38786-117">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-117">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlGauge">
@@ -316,16 +224,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-118">Оценить допустимое для элемента управления.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-118">Gauge control.</span>
-          </span>
-          <span data-ttu-id="9af0a-119">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-119">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-118">Контроль датчика.</span><span class="sxs-lookup"><span data-stu-id="38786-118">Gauge control.</span></span> <span data-ttu-id="38786-119">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-119">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlGenericDropdown">
@@ -344,16 +243,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-120">Универсальный раскрывающегося списка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-120">Generic drop-down list.</span>
-          </span>
-          <span data-ttu-id="9af0a-121">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-121">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-120">Общий раскрывающийся список.</span><span class="sxs-lookup"><span data-stu-id="38786-120">Generic drop-down list.</span></span> <span data-ttu-id="38786-121">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-121">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlGraphicCombo">
@@ -372,16 +262,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-122">Рисунок, связанный со списком.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-122">Graphic combo box.</span>
-          </span>
-          <span data-ttu-id="9af0a-123">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-123">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-122">Графическое поле со списком.</span><span class="sxs-lookup"><span data-stu-id="38786-122">Graphic combo box.</span></span> <span data-ttu-id="38786-123">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-123">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlGraphicDropdown">
@@ -400,16 +281,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-124">Рисунок, связанный с раскрывающегося списка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-124">Graphic drop-down list.</span>
-          </span>
-          <span data-ttu-id="9af0a-125">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-125">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-124">Раскрывающийся список "график".</span><span class="sxs-lookup"><span data-stu-id="38786-124">Graphic drop-down list.</span></span> <span data-ttu-id="38786-125">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-125">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlGraphicPopup">
@@ -428,16 +300,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-126">Рисунок, связанный с всплывающего меню.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-126">Graphic pop-up menu.</span>
-          </span>
-          <span data-ttu-id="9af0a-127">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-127">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-126">Всплывающее меню "графика".</span><span class="sxs-lookup"><span data-stu-id="38786-126">Graphic pop-up menu.</span></span> <span data-ttu-id="38786-127">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-127">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlGrid">
@@ -456,16 +319,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-128">Сетка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-128">Grid.</span>
-          </span>
-          <span data-ttu-id="9af0a-129">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-129">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-128">Таблице.</span><span class="sxs-lookup"><span data-stu-id="38786-128">Grid.</span></span> <span data-ttu-id="38786-129">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-129">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlLabel">
@@ -484,16 +338,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-130">Метки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-130">Label.</span>
-          </span>
-          <span data-ttu-id="9af0a-131">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-131">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-130">Клей.</span><span class="sxs-lookup"><span data-stu-id="38786-130">Label.</span></span> <span data-ttu-id="38786-131">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-131">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlLabelEx">
@@ -512,16 +357,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-132">Расширенные метки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-132">Extended label.</span>
-          </span>
-          <span data-ttu-id="9af0a-133">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-133">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-132">Расширенная метка.</span><span class="sxs-lookup"><span data-stu-id="38786-132">Extended label.</span></span> <span data-ttu-id="38786-133">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-133">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlOCXDropdown">
@@ -540,16 +376,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-134">OCX раскрывающегося списка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-134">OCX drop-down list.</span>
-          </span>
-          <span data-ttu-id="9af0a-135">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-135">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-134">Раскрывающийся список OCX.</span><span class="sxs-lookup"><span data-stu-id="38786-134">OCX drop-down list.</span></span> <span data-ttu-id="38786-135">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-135">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlPane">
@@ -568,16 +395,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-136">Область.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-136">Pane.</span>
-          </span>
-          <span data-ttu-id="9af0a-137">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-137">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-136">Панелей.</span><span class="sxs-lookup"><span data-stu-id="38786-136">Pane.</span></span> <span data-ttu-id="38786-137">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-137">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlPopup">
@@ -596,12 +414,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-138">Всплывающее окно.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-138">Pop-up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-138">Всплывающее окно.</span><span class="sxs-lookup"><span data-stu-id="38786-138">Pop-up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlSpinner">
@@ -620,16 +433,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-139">Счетчик.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-139">Spinner.</span>
-          </span>
-          <span data-ttu-id="9af0a-140">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-140">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-139">Spinner.</span><span class="sxs-lookup"><span data-stu-id="38786-139">Spinner.</span></span> <span data-ttu-id="38786-140">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-140">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlSplitButtonMRUPopup">
@@ -648,16 +452,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-141">Большинство всплывающее окно недавно использованных файлов (MRU).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-141">Most Recently Used (MRU) pop-up.</span>
-          </span>
-          <span data-ttu-id="9af0a-142">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-142">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-141">Всплывающее окно с последним использованием (MRU).</span><span class="sxs-lookup"><span data-stu-id="38786-141">Most Recently Used (MRU) pop-up.</span></span> <span data-ttu-id="38786-142">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-142">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlSplitButtonPopup">
@@ -676,16 +471,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-143">Разворачивающаяся кнопка всплывающего.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-143">Split button pop-up.</span>
-          </span>
-          <span data-ttu-id="9af0a-144">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-144">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-143">Всплывающая кнопка "разделить".</span><span class="sxs-lookup"><span data-stu-id="38786-143">Split button pop-up.</span></span> <span data-ttu-id="38786-144">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-144">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlSplitDropdown">
@@ -704,16 +490,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-145">Разделение раскрывающегося списка.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-145">Split drop-down list.</span>
-          </span>
-          <span data-ttu-id="9af0a-146">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-146">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-145">Раскрывающийся список разделений.</span><span class="sxs-lookup"><span data-stu-id="38786-145">Split drop-down list.</span></span> <span data-ttu-id="38786-146">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-146">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlSplitExpandingGrid">
@@ -732,16 +509,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-147">Разделение расширяющегося сетке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-147">Split expanding grid.</span>
-          </span>
-          <span data-ttu-id="9af0a-148">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-148">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-147">Разделите развернутую сетку.</span><span class="sxs-lookup"><span data-stu-id="38786-147">Split expanding grid.</span></span> <span data-ttu-id="38786-148">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-148">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoControlWorkPane">
@@ -760,16 +528,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9af0a-149">Рабочая область.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-149">Work pane.</span>
-          </span>
-          <span data-ttu-id="9af0a-150">Невозможно создать с помощью объектной модели.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9af0a-150">Cannot be created through the object model.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="38786-149">Рабочая область.</span><span class="sxs-lookup"><span data-stu-id="38786-149">Work pane.</span></span> <span data-ttu-id="38786-150">Невозможно создать с помощью объектной модели.</span><span class="sxs-lookup"><span data-stu-id="38786-150">Cannot be created through the object model.</span></span></summary>
       </Docs>
     </Member>
   </Members>

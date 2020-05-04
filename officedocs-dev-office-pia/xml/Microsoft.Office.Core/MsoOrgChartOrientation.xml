@@ -1,13 +1,5 @@
 <Type Name="MsoOrgChartOrientation" FullName="Microsoft.Office.Core.MsoOrgChartOrientation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="516d209198e15c751b07f9c8cfbe7054769c0fe9" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661649" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoOrgChartOrientation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="516d209198e15c751b07f9c8cfbe7054769c0fe9" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661649" /></Metadata><TypeSignature Language="C#" Value="public enum MsoOrgChartOrientation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoOrgChartOrientation extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoOrgChartOrientation" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoOrgChartOrientation" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="7cfdc-101">Определяет ориентацию организационной диаграммы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7cfdc-101">Specifies orientation of an organization chart.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="90082-101">Указывает ориентацию организационной диаграммы.</span><span class="sxs-lookup"><span data-stu-id="90082-101">Specifies orientation of an organization chart.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7cfdc-102">Смешанные ориентация.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7cfdc-102">Mixed orientation.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="90082-102">Смешанная ориентация.</span><span class="sxs-lookup"><span data-stu-id="90082-102">Mixed orientation.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoOrgChartOrientationVertical">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7cfdc-103">Вертикальную ориентацию.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7cfdc-103">Vertical orientation.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="90082-103">Вертикальная ориентация.</span><span class="sxs-lookup"><span data-stu-id="90082-103">Vertical orientation.</span></span></summary>
       </Docs>
     </Member>
   </Members>

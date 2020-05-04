@@ -1,13 +1,5 @@
 <Type Name="XlChartPictureType" FullName="Microsoft.Office.Core.XlChartPictureType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="82a42dd46ffbc5030b23004e3dfc88405e6fe05e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662225" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum XlChartPictureType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="82a42dd46ffbc5030b23004e3dfc88405e6fe05e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662225" /></Metadata><TypeSignature Language="C#" Value="public enum XlChartPictureType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlChartPictureType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlChartPictureType" />
   <TypeSignature Language="VB.NET" Value="Public Enum XlChartPictureType" />
@@ -25,16 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="37fc4-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="37fc4-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-      </span>
-      <span data-ttu-id="37fc4-102">Задает способ отображения изображений на столбец, линейчатая диаграмма рисунков или ключ легенды.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="37fc4-102">Specifies how pictures are displayed on a column, bar picture chart, or legend key.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="02ca6-101">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="02ca6-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="02ca6-102">Указывает, как изображения отображаются в столбце, линейчатой диаграмме или ключе легенды.</span><span class="sxs-lookup"><span data-stu-id="02ca6-102">Specifies how pictures are displayed on a column, bar picture chart, or legend key.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -54,16 +37,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="37fc4-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37fc4-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="37fc4-104">Изображение размера для повторения более 15 раз в длинным линейчатая диаграмма.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37fc4-104">Picture is sized to repeat a maximum of 15 times in the longest stacked bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="02ca6-103">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="02ca6-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="02ca6-104">Размер рисунка должен повторяться не более 15 раз на самой длинной линейчатой диаграмме.</span><span class="sxs-lookup"><span data-stu-id="02ca6-104">Picture is sized to repeat a maximum of 15 times in the longest stacked bar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlStackScale">
@@ -82,16 +56,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="37fc4-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37fc4-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="37fc4-106">Изображение размера для указанного количества единиц измерения и повторяется длина полосы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37fc4-106">Picture is sized to a specified number of units and repeated the length of the bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="02ca6-105">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="02ca6-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="02ca6-106">Размер рисунка равен заданному количеству единиц измерения и повторяется длина полосы.</span><span class="sxs-lookup"><span data-stu-id="02ca6-106">Picture is sized to a specified number of units and repeated the length of the bar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="xlStretch">
@@ -110,16 +75,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="37fc4-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37fc4-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
-          </span>
-          <span data-ttu-id="37fc4-108">Рисунок растягивается полная длина линейчатая диаграмма.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="37fc4-108">Picture is stretched the full length of stacked bar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="02ca6-107">Следует обращаться к этому перечислению и использовать его из первичной сборки взаимодействия Excel (PIA).</span><span class="sxs-lookup"><span data-stu-id="02ca6-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span></span>  <span data-ttu-id="02ca6-108">Изображение растягивается на всю длину линейчатой диаграммы с накоплением.</span><span class="sxs-lookup"><span data-stu-id="02ca6-108">Picture is stretched the full length of stacked bar.</span></span></summary>
       </Docs>
     </Member>
   </Members>

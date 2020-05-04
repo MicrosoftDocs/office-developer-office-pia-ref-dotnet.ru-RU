@@ -1,13 +1,5 @@
 <Type Name="ChartColorFormat" FullName="Microsoft.Office.Core.ChartColorFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6c2bc00154affb252896bf48fc61bae6363c1d7a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662065" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ChartColorFormat" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6c2bc00154affb252896bf48fc61bae6363c1d7a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662065" /></Metadata><TypeSignature Language="C#" Value="public interface ChartColorFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartColorFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ChartColorFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ChartColorFormat" />
@@ -26,64 +18,50 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="ae7dd-101">Представляет цвет переднего плана или объект один цвет или цвет фона объекта с градиента и узорные заливки.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ae7dd-101">Represents the color of a one-color object or the foreground or background color of an object with a gradient or patterned fill.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="ae7dd-102">
-        <para>Используются только с диаграммами.</para>
-        <para>, Выполните одну из свойства, перечисленные в следующей таблице для возврата <see cref="T:Microsoft.Office.Core.ChartColorFormat" /> объект.</para>
-        <list type="table">
-          <item>
-            <description>
-              <see cref="P:Microsoft.Office.Core.FillFormat.BackColor" />
-            </description>
-            <description>
-              <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
-            </description>Фона (используется в затемненные или узорную заливку)
+    <summary><span data-ttu-id="468a8-101">Представляет цвет объекта с одним цветом или переднего плана или цвета фона объекта с градиентной или узорной заливкой.</span><span class="sxs-lookup"><span data-stu-id="468a8-101">Represents the color of a one-color object or the foreground or background color of an object with a gradient or patterned fill.</span></span></summary>
+    <remarks><span data-ttu-id="468a8-102"><para>Используется только с диаграммами.</para> 
+      <para>Используйте одно из свойств, приведенных в следующей таблице, чтобы возвратить <see cref="T:Microsoft.Office.Core.ChartColorFormat" /> объект.</para> Цвет заливки 
+      <list type="table"> 
+        <item>фона (используемый в затененной или узорной заливки) (или только цвет заливки для сплошной заливки) 
+          <description>
+            <see cref="P:Microsoft.Office.Core.FillFormat.BackColor" />
+          </description> 
+          <description>
+            <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
+          </description>
         </item>
-          <item>
-            <description>
-              <see cref="P:Microsoft.Office.Core.ChartFillFormat.ForeColor" />
-            </description>
-            <description>
-              <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
-            </description>переднего плана заливки цвет (или просто цвет заливки сплошной заливке)
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Core.ChartFillFormat.ForeColor" />
+          </description>
+          <description>
+            <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
+          </description>
+        </item> 
+      </list>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="468a8-102"><para>Used only with charts.</para>
+      <para>Use one of the properties listed in the following table to return a <see cref="T:Microsoft.Office.Core.ChartColorFormat" /> object.</para>
+      <list type="table">
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Core.FillFormat.BackColor" />
+          </description>
+          <description>
+            <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
+          </description>
+          <description>Background fill color (used in a shaded or patterned fill)</description>
         </item>
-        </list>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ae7dd-102">
-          <para>Used only with charts.</para>
-          <para>Use one of the properties listed in the following table to return a <see cref="T:Microsoft.Office.Core.ChartColorFormat" /> object.</para>
-          <list type="table">
-            <item>
-              <description>
-                <see cref="P:Microsoft.Office.Core.FillFormat.BackColor" />
-              </description>
-              <description>
-                <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
-              </description>
-              <description>Background fill color (used in a shaded or patterned fill)</description>
-            </item>
-            <item>
-              <description>
-                <see cref="P:Microsoft.Office.Core.ChartFillFormat.ForeColor" />
-              </description>
-              <description>
-                <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
-              </description>
-              <description>Foreground fill color (or just the fill color for a solid fill)</description>
-            </item>
-          </list>
-          <para />
-        </span>
-      </span>
-    </remarks>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Core.ChartFillFormat.ForeColor" />
+          </description>
+          <description>
+            <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
+          </description>
+          <description>Foreground fill color (or just the fill color for a solid fill)</description>
+        </item>
+      </list>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="_Default">
@@ -134,22 +112,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ae7dd-103">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ae7dd-104">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-104">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="468a8-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="468a8-103">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
+        <value><span data-ttu-id="468a8-104"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="468a8-104"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -173,26 +137,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ae7dd-105">Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-105">Returns a 32-bit integer that indicates the application in which this object was created.</span>
-          </span>
-          <span data-ttu-id="ae7dd-106">Только для чтения</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-106">Read-only</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ae7dd-107">
-            <b>Long</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-107">
-              <b>Long</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="468a8-105">Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан.</span><span class="sxs-lookup"><span data-stu-id="468a8-105">Returns a 32-bit integer that indicates the application in which this object was created.</span></span> <span data-ttu-id="468a8-106">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="468a8-106">Read-only</span></span></summary>
+        <value><span data-ttu-id="468a8-107"><b>Long</b></span><span class="sxs-lookup"><span data-stu-id="468a8-107"><b>Long</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -216,26 +162,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ae7dd-108">Возвращает родительский объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-108">Returns the parent object for the specified object.</span>
-          </span>
-          <span data-ttu-id="ae7dd-109">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-109">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ae7dd-110">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-110">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="468a8-108">Возвращает родительский объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="468a8-108">Returns the parent object for the specified object.</span></span> <span data-ttu-id="468a8-109">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="468a8-109">Read-only.</span></span></summary>
+        <value><span data-ttu-id="468a8-110"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="468a8-110"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -259,22 +187,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ae7dd-111">Возвращает <b>целое число, представляющее значение красный зеленый синий указанного цвета</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-111">Returns an <b>Integer</b> value that represents the red-green-blue value of the specified color.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ae7dd-112">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-112">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="468a8-111">Возвращает <b>целое</b> значение, представляющее значение красного, зеленого и синего цвета указанного цвета.</span><span class="sxs-lookup"><span data-stu-id="468a8-111">Returns an <b>Integer</b> value that represents the red-green-blue value of the specified color.</span></span></summary>
+        <value><span data-ttu-id="468a8-112"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="468a8-112"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -298,20 +212,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ae7dd-113">Возвращает или задает значение типа <b>Integer</b> , представляющее цвет объекта <b>цвет</b> как индекс текущей цветовой схемы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-113">Returns or sets an <b>Integer</b> value that represents the color of a <b>Color</b> object, as an index in the current color scheme.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ae7dd-114">
-            <b>Целое число</b> Возвращает значение типа Long, представляющее значение красный зеленый синий указанного цвета.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-114">
-              <b>Integer</b>Returns a Long value that represents the red-green-blue value of the specified color.</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="468a8-113">Возвращает или задает <b>целое</b> значение, представляющее цвет объекта <b>Color</b> в виде индекса в текущей цветовой схеме.</span><span class="sxs-lookup"><span data-stu-id="468a8-113">Returns or sets an <b>Integer</b> value that represents the color of a <b>Color</b> object, as an index in the current color scheme.</span></span></summary>
+        <value><span data-ttu-id="468a8-114"><b>Integer (целое число</b> ) Возвращает значение типа Long, представляющее значение красного, зеленого и синего цвета указанного цвета.</span><span class="sxs-lookup"><span data-stu-id="468a8-114"><b>Integer</b>Returns a Long value that represents the red-green-blue value of the specified color.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -335,58 +237,35 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ae7dd-115">Возвращает <b>целое</b> значение, что представляет цвет формате введите.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-115">Returns an <b>Integer</b> value that that represents the color format type.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ae7dd-116">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-116">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="ae7dd-117">
-            <para>Данное свойство возвращает один из следующих <see cref="T:Microsoft.Office.Core.MsoColorType" /> значения:</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Core.MsoColorType.msoColorTypeRGB" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Core.MsoColorType.msoColorTypeScheme" />
-                </para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7dd-117">
-              <para>This property returns one of the following <see cref="T:Microsoft.Office.Core.MsoColorType" /> values:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Core.MsoColorType.msoColorTypeRGB" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Core.MsoColorType.msoColorTypeScheme" />
-                  </para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="468a8-115">Возвращает <b>целое</b> значение, представляющее тип цветового формата.</span><span class="sxs-lookup"><span data-stu-id="468a8-115">Returns an <b>Integer</b> value that that represents the color format type.</span></span></summary>
+        <value><span data-ttu-id="468a8-116"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="468a8-116"><b>Integer</b></span></span></value>
+        <remarks><span data-ttu-id="468a8-117"><para>Это свойство возвращает одно из следующих <see cref="T:Microsoft.Office.Core.MsoColorType" /> значений:</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Core.MsoColorType.msoColorTypeRGB" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Core.MsoColorType.msoColorTypeScheme" />
+              </para>
+            </item>
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="468a8-117"><para>This property returns one of the following <see cref="T:Microsoft.Office.Core.MsoColorType" /> values:</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Core.MsoColorType.msoColorTypeRGB" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Core.MsoColorType.msoColorTypeScheme" />
+              </para>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

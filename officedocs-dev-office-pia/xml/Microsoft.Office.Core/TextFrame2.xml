@@ -1,13 +1,5 @@
 <Type Name="TextFrame2" FullName="Microsoft.Office.Core.TextFrame2">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5314633137478d8349480d5ade3d81b493b98c1a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662128" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface TextFrame2 : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5314633137478d8349480d5ade3d81b493b98c1a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662128" /></Metadata><TypeSignature Language="C#" Value="public interface TextFrame2 : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextFrame2 implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.TextFrame2" />
   <TypeSignature Language="VB.NET" Value="Public Interface TextFrame2&#xA;Implements _IMsoDispObj" />
@@ -389,79 +381,65 @@
         <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="10c75-101">Возвращает или задает значение, указывающее, если текст в фигуру является вращаться Если поворот самой фигуре.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="10c75-101">Returns or sets a value that specifies if the text on a shape is rotated if the shape itself is being rotated.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="954a9-101">Возвращает или задает значение, указывающее, вращается ли текст на фигуре при вращении самой фигуры.</span><span class="sxs-lookup"><span data-stu-id="954a9-101">Returns or sets a value that specifies if the text on a shape is rotated if the shape itself is being rotated.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="10c75-102">
-            <para>Возвращает или задает один из следующих <see cref="T:Microsoft.Office.Core.MsoTriState" /> значений перечисления:</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <b>msoCTrue</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>msoFalse</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>msoTriStateMixed</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>msoTriStateToggle</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>msoTrue</b>
-                </para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="10c75-102">
-              <para>Returns or sets one of the following <see cref="T:Microsoft.Office.Core.MsoTriState" /> enumeration values:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <b>msoCTrue</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>msoFalse</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>msoTriStateMixed</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>msoTriStateToggle</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>msoTrue</b>
-                  </para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="954a9-102"><para>Возвращает или <see cref="T:Microsoft.Office.Core.MsoTriState" /> задает одно из следующих значений перечисления:</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <b>мсоктруе</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>мсофалсе</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>мсотристатемиксед</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>мсотристатетоггле</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>мсотруе</b>
+              </para>
+            </item> 
+          </list>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="954a9-102"><para>Returns or sets one of the following <see cref="T:Microsoft.Office.Core.MsoTriState" /> enumeration values:</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <b>msoCTrue</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>msoFalse</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>msoTriStateMixed</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>msoTriStateToggle</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>msoTrue</b>
+              </para>
+            </item>
+          </list>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Orientation">

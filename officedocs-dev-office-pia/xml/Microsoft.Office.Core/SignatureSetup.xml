@@ -1,13 +1,5 @@
 <Type Name="SignatureSetup" FullName="Microsoft.Office.Core.SignatureSetup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fc4c3508be8168ff85d7b6cf5478616ba862803a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661714" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SignatureSetup : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fc4c3508be8168ff85d7b6cf5478616ba862803a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661714" /></Metadata><TypeSignature Language="C#" Value="public interface SignatureSetup : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SignatureSetup implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureSetup" />
   <TypeSignature Language="VB.NET" Value="Public Interface SignatureSetup&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="99899-101">Представляет данные, используемые для настройки пакетов подписи.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="99899-101">Represents the information used to set up a signature packet.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="4754f-101">Представляет сведения, используемые для настройки пакета сигнатур.</span><span class="sxs-lookup"><span data-stu-id="4754f-101">Represents the information used to set up a signature packet.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -65,26 +52,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="99899-102">Получает или задает дополнительные сведения XML, добавлена к подписи, во время установки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-102">Gets or sets any additional XML information added to the signature during setup.</span>
-          </span>
-          <span data-ttu-id="99899-103">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-103">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="99899-104">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-104">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4754f-102">Получает или задает дополнительные XML-данные, добавленные в подпись во время установки.</span><span class="sxs-lookup"><span data-stu-id="4754f-102">Gets or sets any additional XML information added to the signature during setup.</span></span> <span data-ttu-id="4754f-103">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="4754f-103">Read/write.</span></span></summary>
+        <value><span data-ttu-id="4754f-104"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="4754f-104"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -114,26 +83,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="99899-105">Получает или задает <b>логическое</b> значение, указывающее, является ли подписи можно ввести комментарии в диалоговом окне входа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-105">Gets or sets a <b>Boolean</b> value specifying whether the signer can enter comments in the Sign dialog box.</span>
-          </span>
-          <span data-ttu-id="99899-106">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-106">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="99899-107">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-107">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4754f-105">Получает или задает <b>логическое</b> значение, указывающее, может ли подписывающий ввести комментарии в диалоговом окне Подпись.</span><span class="sxs-lookup"><span data-stu-id="4754f-105">Gets or sets a <b>Boolean</b> value specifying whether the signer can enter comments in the Sign dialog box.</span></span> <span data-ttu-id="4754f-106">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="4754f-106">Read/write.</span></span></summary>
+        <value><span data-ttu-id="4754f-107"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="4754f-107"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -163,26 +114,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="99899-108">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.SignatureSetup" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-108">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.SignatureSetup" /> object.</span>
-          </span>
-          <span data-ttu-id="99899-109">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-109">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="99899-110">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-110">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4754f-108">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.SignatureSetup" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="4754f-108">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.SignatureSetup" /> object.</span></span> <span data-ttu-id="4754f-109">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="4754f-109">Read-only.</span></span></summary>
+        <value><span data-ttu-id="4754f-110"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="4754f-110"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -212,26 +145,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="99899-111">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.SignatureSetup" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-111">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.SignatureSetup" /> object was created.</span>
-          </span>
-          <span data-ttu-id="99899-112">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-112">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="99899-113">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-113">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4754f-111">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.SignatureSetup" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="4754f-111">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.SignatureSetup" /> object was created.</span></span> <span data-ttu-id="4754f-112">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="4754f-112">Read-only.</span></span></summary>
+        <value><span data-ttu-id="4754f-113"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="4754f-113"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -258,26 +173,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="99899-114">Получает идентификатор поставщика подписи для документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-114">Gets the ID of the signature provider for a document.</span>
-          </span>
-          <span data-ttu-id="99899-115">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-115">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="99899-116">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-116">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4754f-114">Получает идентификатор поставщика подписи для документа.</span><span class="sxs-lookup"><span data-stu-id="4754f-114">Gets the ID of the signature provider for a document.</span></span> <span data-ttu-id="4754f-115">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="4754f-115">Read-only.</span></span></summary>
+        <value><span data-ttu-id="4754f-116"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="4754f-116"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -304,26 +201,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="99899-117">Возвращает значение <b>типа Boolean</b> , указывающее, является ли <see cref="T:Microsoft.Office.Core.SignatureSetup" /> объект доступен только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-117">Gets a <b>Boolean</b> value indicating whether the <see cref="T:Microsoft.Office.Core.SignatureSetup" /> object is read-only.</span>
-          </span>
-          <span data-ttu-id="99899-118">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-118">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="99899-119">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-119">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4754f-117">Получает <b>логическое</b> значение, указывающее, является <see cref="T:Microsoft.Office.Core.SignatureSetup" /> ли объект доступен только для чтения.</span><span class="sxs-lookup"><span data-stu-id="4754f-117">Gets a <b>Boolean</b> value indicating whether the <see cref="T:Microsoft.Office.Core.SignatureSetup" /> object is read-only.</span></span> <span data-ttu-id="4754f-118">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="4754f-118">Read-only.</span></span></summary>
+        <value><span data-ttu-id="4754f-119"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="4754f-119"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -353,26 +232,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="99899-120">Получает или задает <b>логическое</b> значение, указывающее, отображаются ли дата подписания документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-120">Gets or sets a <b>Boolean</b> value indicating whether the date the document was signed should be displayed.</span>
-          </span>
-          <span data-ttu-id="99899-121">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-121">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="99899-122">
-            <b>Boolean</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-122">
-              <b>Boolean</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4754f-120">Получает или задает <b>логическое</b> значение, указывающее, должна ли отображаться Дата подписания документа.</span><span class="sxs-lookup"><span data-stu-id="4754f-120">Gets or sets a <b>Boolean</b> value indicating whether the date the document was signed should be displayed.</span></span> <span data-ttu-id="4754f-121">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="4754f-121">Read/write.</span></span></summary>
+        <value><span data-ttu-id="4754f-122"><b>Boolean</b></span><span class="sxs-lookup"><span data-stu-id="4754f-122"><b>Boolean</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -399,26 +260,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="99899-123">Получает значение, идентифицирующее установленных подписи поставщика надстройки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-123">Gets a value identifying an installed signature provider add-in.</span>
-          </span>
-          <span data-ttu-id="99899-124">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-124">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="99899-125">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-125">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4754f-123">Получает значение, идентифицирующее установленную надстройку поставщика подписей.</span><span class="sxs-lookup"><span data-stu-id="4754f-123">Gets a value identifying an installed signature provider add-in.</span></span> <span data-ttu-id="4754f-124">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="4754f-124">Read-only.</span></span></summary>
+        <value><span data-ttu-id="4754f-125"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="4754f-125"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -448,26 +291,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="99899-126">Получает или задает инструкции для подписания документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-126">Gets or sets the instructions for signing the document.</span>
-          </span>
-          <span data-ttu-id="99899-127">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-127">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="99899-128">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-128">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4754f-126">Получает или задает инструкции по подписыванию документа.</span><span class="sxs-lookup"><span data-stu-id="4754f-126">Gets or sets the instructions for signing the document.</span></span> <span data-ttu-id="4754f-127">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="4754f-127">Read/write.</span></span></summary>
+        <value><span data-ttu-id="4754f-128"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="4754f-128"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -497,26 +322,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="99899-129">Получает или задает имя подписывающего лица принцип документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-129">Gets or sets the name of the principle signer of the document.</span>
-          </span>
-          <span data-ttu-id="99899-130">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-130">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="99899-131">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-131">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4754f-129">Получает или задает имя участника, подписавшего документ.</span><span class="sxs-lookup"><span data-stu-id="4754f-129">Gets or sets the name of the principle signer of the document.</span></span> <span data-ttu-id="4754f-130">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="4754f-130">Read/write.</span></span></summary>
+        <value><span data-ttu-id="4754f-131"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="4754f-131"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -546,26 +353,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="99899-132">Получает или задает адрес электронной почты подписывающего лица документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-132">Gets or sets the e-mail address of the signer of the document.</span>
-          </span>
-          <span data-ttu-id="99899-133">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-133">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="99899-134">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-134">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4754f-132">Получает или задает адрес электронной почты подписавшего документ.</span><span class="sxs-lookup"><span data-stu-id="4754f-132">Gets or sets the e-mail address of the signer of the document.</span></span> <span data-ttu-id="4754f-133">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="4754f-133">Read/write.</span></span></summary>
+        <value><span data-ttu-id="4754f-134"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="4754f-134"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -595,26 +384,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="99899-135">Получает или задает во второй строке предложенного подписывающего лица сведения (например, заголовок).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-135">Gets or sets the second line of suggested signer information (for example, title).</span>
-          </span>
-          <span data-ttu-id="99899-136">Для чтения и записи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-136">Read/write.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="99899-137">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="99899-137">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="4754f-135">Получает или задает вторую строку предложенных сведений о подписавшем (например, Title).</span><span class="sxs-lookup"><span data-stu-id="4754f-135">Gets or sets the second line of suggested signer information (for example, title).</span></span> <span data-ttu-id="4754f-136">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="4754f-136">Read/write.</span></span></summary>
+        <value><span data-ttu-id="4754f-137"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="4754f-137"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

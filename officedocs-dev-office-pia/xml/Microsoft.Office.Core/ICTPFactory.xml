@@ -1,13 +1,5 @@
 <Type Name="ICTPFactory" FullName="Microsoft.Office.Core.ICTPFactory">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="71c1d37324603615d1e97988c76adabe01d145c4" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662266" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ICTPFactory" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="71c1d37324603615d1e97988c76adabe01d145c4" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662266" /></Metadata><TypeSignature Language="C#" Value="public interface ICTPFactory" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICTPFactory" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ICTPFactory" />
   <TypeSignature Language="VB.NET" Value="Public Interface ICTPFactory" />
@@ -26,26 +18,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="2bfcd-101">Используется для создания настраиваемой области задач.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2bfcd-101">Used to create a custom task pane.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="2bfcd-102">
-        <para>
-          <b>Примечание</b>: можно создавать настраиваемые области задач на любом языке, который поддерживает COM и позволяет создавать файлы библиотеки (DLL). Например Microsoft Visual Basic 6.0®, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET и Microsoft Visual C#®. Тем не менее Microsoft Visual Basic для приложений (VBA) не поддерживает создание настраиваемых областей задач.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2bfcd-102">
-          <para>
-            <b>Note</b>: You can create custom task panes in any language that supports COM and allows you to create dynamic-linked library (DLL) files. For example, Microsoft Visual Basic® 6.0, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET, and Microsoft Visual C#®. However, Microsoft Visual Basic for Applications (VBA) does not support creating custom task panes. </para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="626c9-101">Используется для создания настраиваемой области задач.</span><span class="sxs-lookup"><span data-stu-id="626c9-101">Used to create a custom task pane.</span></span></summary>
+    <remarks><span data-ttu-id="626c9-102"><para>
+        <b>Примечание</b>: вы можете создавать настраиваемые области задач на любом языке, поддерживающем COM, и позволяет создавать файлы динамической библиотеки (DLL). Например, Microsoft Visual Basic® 6,0, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET и Microsoft Visual C#®. Тем не менее, Microsoft Visual Basic для приложений (VBA) не поддерживает создание настраиваемых областей задач.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="626c9-102"><para>
+        <b>Note</b>: You can create custom task panes in any language that supports COM and allows you to create dynamic-linked library (DLL) files. For example, Microsoft Visual Basic® 6.0, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET, and Microsoft Visual C#®. However, Microsoft Visual Basic for Applications (VBA) does not support creating custom task panes. </para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="CreateCTP">
@@ -72,37 +50,11 @@
         <Parameter Name="CTPParentWindow" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="CTPAxID">
-          <span data-ttu-id="2bfcd-103">CLSID или программный идентификатор объекта Microsoft ActiveX®.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bfcd-103">The CLSID or ProgID of a Microsoft ActiveX® object.</span>
-          </span>
-        </param>
-        <param name="CTPTitle">
-          <span data-ttu-id="2bfcd-104">Заголовок для области задач.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bfcd-104">The title for the task pane.</span>
-          </span>
-        </param>
-        <param name="CTPParentWindow">
-          <span data-ttu-id="2bfcd-105">Окно, на котором размещен в области задач.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bfcd-105">The window that hosts the task pane.</span>
-          </span>
-          <span data-ttu-id="2bfcd-106">Если этот параметр отсутствует, родительской области задач — это свойство <b>ActiveWindow</b> ведущего приложения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bfcd-106">If not present, the parent of the task pane is the <b>ActiveWindow</b> property of the host application.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="2bfcd-107">Создает экземпляр настраиваемой области задач.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2bfcd-107">Creates an instance of a custom task pane.</span>
-          </span>
-        </summary>
-        <returns>
-          <see cref="T:Microsoft.Office.Core.CustomTaskPane" />
-        </returns>
+        <param name="CTPAxID"><span data-ttu-id="626c9-103">CLSID или ProgID объекта® Microsoft ActiveX.</span><span class="sxs-lookup"><span data-stu-id="626c9-103">The CLSID or ProgID of a Microsoft ActiveX® object.</span></span></param>
+        <param name="CTPTitle"><span data-ttu-id="626c9-104">Название области задач.</span><span class="sxs-lookup"><span data-stu-id="626c9-104">The title for the task pane.</span></span></param>
+        <param name="CTPParentWindow"><span data-ttu-id="626c9-105">Окно, в котором размещается область задач.</span><span class="sxs-lookup"><span data-stu-id="626c9-105">The window that hosts the task pane.</span></span> <span data-ttu-id="626c9-106">Если он отсутствует, родительский элемент области задач является свойством <b>ActiveWindow</b> ведущего приложения.</span><span class="sxs-lookup"><span data-stu-id="626c9-106">If not present, the parent of the task pane is the <b>ActiveWindow</b> property of the host application.</span></span></param>
+        <summary><span data-ttu-id="626c9-107">Создает экземпляр настраиваемой области задач.</span><span class="sxs-lookup"><span data-stu-id="626c9-107">Creates an instance of a custom task pane.</span></span></summary>
+        <returns><see cref="T:Microsoft.Office.Core.CustomTaskPane" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

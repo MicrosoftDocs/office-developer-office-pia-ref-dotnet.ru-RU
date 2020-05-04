@@ -1,13 +1,5 @@
 <Type Name="MsoFileFindOptions" FullName="Microsoft.Office.Core.MsoFileFindOptions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3b6bc20640e8d31ff32e2144ae04060a15d43e4a" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662179" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoFileFindOptions" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3b6bc20640e8d31ff32e2144ae04060a15d43e4a" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662179" /></Metadata><TypeSignature Language="C#" Value="public enum MsoFileFindOptions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileFindOptions extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileFindOptions" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoFileFindOptions" />
@@ -25,12 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="05523-101">Это перечисление применяется только для Macintosh и не должен использоваться.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="05523-101">This enumeration applies to the Macintosh only and should not be used.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="50a4b-101">Это перечисление применяется только к Macintosh и не должно использоваться.</span><span class="sxs-lookup"><span data-stu-id="50a4b-101">This enumeration applies to the Macintosh only and should not be used.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,12 +37,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="05523-102">Этот элемент предназначен только для Macintosh, и его не следует использовать.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="05523-102">This member is for Macintosh only and should not be used.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50a4b-102">Этот элемент предназначен только для Macintosh, и его не следует использовать.</span><span class="sxs-lookup"><span data-stu-id="50a4b-102">This member is for Macintosh only and should not be used.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoOptionsNew">
@@ -74,12 +56,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="05523-103">Этот элемент предназначен только для Macintosh, и его не следует использовать.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="05523-103">This member is for Macintosh only and should not be used.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50a4b-103">Этот элемент предназначен только для Macintosh, и его не следует использовать.</span><span class="sxs-lookup"><span data-stu-id="50a4b-103">This member is for Macintosh only and should not be used.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoOptionsWithin">
@@ -98,12 +75,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="05523-104">Этот элемент предназначен только для Macintosh, и его не следует использовать.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="05523-104">This member is for Macintosh only and should not be used.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="50a4b-104">Этот элемент предназначен только для Macintosh, и его не следует использовать.</span><span class="sxs-lookup"><span data-stu-id="50a4b-104">This member is for Macintosh only and should not be used.</span></span></summary>
       </Docs>
     </Member>
   </Members>

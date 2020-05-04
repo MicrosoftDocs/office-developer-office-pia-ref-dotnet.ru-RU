@@ -1,13 +1,5 @@
 <Type Name="CommandBars" FullName="Microsoft.Office.Core.CommandBars">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f136918bdc6ba24b3cab7df3ec1d5efee2668ccc" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661837" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CommandBars : Microsoft.Office.Core._CommandBars, Microsoft.Office.Core._CommandBarsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f136918bdc6ba24b3cab7df3ec1d5efee2668ccc" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661837" /></Metadata><TypeSignature Language="C#" Value="public interface CommandBars : Microsoft.Office.Core._CommandBars, Microsoft.Office.Core._CommandBarsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CommandBars implements class Microsoft.Office.Core._CommandBars, class Microsoft.Office.Core._CommandBarsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBars" />
   <TypeSignature Language="VB.NET" Value="Public Interface CommandBars&#xA;Implements _CommandBars, _CommandBarsEvents_Event" />
@@ -33,32 +25,18 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="57c6b-101">Коллекцию <see cref="T:Microsoft.Office.Core.CommandBar" /> объекты, которые представляют панели команд в приложении контейнера.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="57c6b-101">A collection of <see cref="T:Microsoft.Office.Core.CommandBar" /> objects that represent the command bars in the container application.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="57c6b-102">
-        <para>Использование <see cref="P:Microsoft.Office.Core.MsoEnvelopeClass.CommandBars" /> свойство для возврата коллекции <b>CommandBars</b> .</para>
-        <para>Использования <see cref="M:Microsoft.Office.Core._CommandBars.Add(System.Object,System.Object,System.Object,System.Object)" /> способ добавления новой панели команд в коллекцию.</para>
-        <para>Использования <b>CommandBars</b>(<paramref name="index" />), где <paramref name="index" /> — имя или номер индекса панели команд, чтобы возвратить объект <b>CommandBar</b> .</para>
-        <para>
-          <b>Примечание</b>: имя или номер индекса можно использовать для указания строка меню или панели инструментов в списке Доступные меню и панели инструментов в приложение-контейнер. Тем не менее необходимо использовать имя для указания меню, контекстное меню или подменю (каждый из которых представлены объекты <b>CommandBar</b> ). Если двух или нескольких настраиваемых меню и подменю имеет то же имя, <b>CommandBars</b>(<paramref name="index" />) возвращает первый. Чтобы вернуть правильное меню или подменю, найдите пункта контекстного меню, который отображает этого меню. Применить <see cref="P:Microsoft.Office.Core.CommandBarPopup.CommandBar" /> свойство для пункта контекстного меню для возврата панели команд, который представляет это меню.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="57c6b-102">
-          <para>Use the <see cref="P:Microsoft.Office.Core.MsoEnvelopeClass.CommandBars" /> property to return the <b>CommandBars</b> collection.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Core._CommandBars.Add(System.Object,System.Object,System.Object,System.Object)" /> method to add a new command bar to the collection.</para>
-          <para>Use <b>CommandBars</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number of a command bar, to return a single <b>CommandBar</b> object.</para>
-          <para>
-            <b>Note</b>: You can use the name or index number to specify a menu bar or toolbar in the list of available menu bars and toolbars in the container application. However, you must use the name to specify a menu, shortcut menu, or submenu (all of which are represented by <b>CommandBar</b> objects). If two or more custom menus or submenus have the same name, <b>CommandBars</b>(<paramref name="index" />) returns the first one. To ensure that you return the correct menu or submenu, locate the pop-up control that displays that menu. Then apply the <see cref="P:Microsoft.Office.Core.CommandBarPopup.CommandBar" /> property to the pop-up control to return the command bar that represents that menu.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="9f6b7-101">Коллекция <see cref="T:Microsoft.Office.Core.CommandBar" /> объектов, представляющих панели команд в приложении-контейнере.</span><span class="sxs-lookup"><span data-stu-id="9f6b7-101">A collection of <see cref="T:Microsoft.Office.Core.CommandBar" /> objects that represent the command bars in the container application.</span></span></summary>
+    <remarks><span data-ttu-id="9f6b7-102"><para>Используйте <see cref="P:Microsoft.Office.Core.MsoEnvelopeClass.CommandBars" /> свойство, чтобы возвратить коллекцию <b>CommandBars</b> .</para> 
+      <para>Используйте <see cref="M:Microsoft.Office.Core._CommandBars.Add(System.Object,System.Object,System.Object,System.Object)" /> метод, чтобы добавить новую панель команд в коллекцию.</para> 
+      <para>Используйте <b>CommandBars</b>(<paramref name="index" />), где <paramref name="index" /> — это имя или номер индекса панели команд, чтобы вернуть один объект <b>CommandBar</b> .</para> 
+      <para> 
+        <b>Note</b>: имя или номер индекса можно использовать для указания строки меню или панели инструментов в списке доступных строк меню и панелей инструментов в приложении контейнера. Однако необходимо использовать имя, чтобы указать меню, контекстное меню или подменю (все из них представлены объектами <b>CommandBar</b> ). Если два или более настраиваемых меню или подменю имеют одно и то же <b>CommandBars</b>имя, CommandBars<paramref name="index" />() возвращает первое из них. Чтобы убедиться, что вы возвращаете нужное меню или подменю, выберите всплывающий элемент управления, который отображает это меню. Затем примените <see cref="P:Microsoft.Office.Core.CommandBarPopup.CommandBar" /> свойство к всплывающему элементу управления, чтобы возвратить панель команд, представляющую меню.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="9f6b7-102"><para>Use the <see cref="P:Microsoft.Office.Core.MsoEnvelopeClass.CommandBars" /> property to return the <b>CommandBars</b> collection.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Core._CommandBars.Add(System.Object,System.Object,System.Object,System.Object)" /> method to add a new command bar to the collection.</para>
+      <para>Use <b>CommandBars</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number of a command bar, to return a single <b>CommandBar</b> object.</para>
+      <para>
+        <b>Note</b>: You can use the name or index number to specify a menu bar or toolbar in the list of available menu bars and toolbars in the container application. However, you must use the name to specify a menu, shortcut menu, or submenu (all of which are represented by <b>CommandBar</b> objects). If two or more custom menus or submenus have the same name, <b>CommandBars</b>(<paramref name="index" />) returns the first one. To ensure that you return the correct menu or submenu, locate the pop-up control that displays that menu. Then apply the <see cref="P:Microsoft.Office.Core.CommandBarPopup.CommandBar" /> property to the pop-up control to return the command bar that represents that menu.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members />
 </Type>

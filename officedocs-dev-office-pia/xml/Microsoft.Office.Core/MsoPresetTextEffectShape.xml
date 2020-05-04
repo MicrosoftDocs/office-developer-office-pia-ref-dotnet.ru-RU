@@ -1,13 +1,5 @@
 <Type Name="MsoPresetTextEffectShape" FullName="Microsoft.Office.Core.MsoPresetTextEffectShape">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bee40dbc31fedc3bd31730bbb5ee29cb9f48d258" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661727" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoPresetTextEffectShape" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bee40dbc31fedc3bd31730bbb5ee29cb9f48d258" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661727" /></Metadata><TypeSignature Language="C#" Value="public enum MsoPresetTextEffectShape" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetTextEffectShape extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetTextEffectShape" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetTextEffectShape" />
@@ -20,24 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="314c6-101">Задает фигуры WordArt текст.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="314c6-101">Specifies shape of WordArt text.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="314c6-102">
-        <para>При выборе WordArt фигуры на панели инструментов WordArt можно просмотреть Предварительный просмотр каждой фигуры влияние текста.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="314c6-102">
-          <para>You can see a preview of each text effect shape by selecting WordArt Shape in the WordArt toolbar.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="8b316-101">Задает форму текста WordArt.</span><span class="sxs-lookup"><span data-stu-id="8b316-101">Specifies shape of WordArt text.</span></span></summary>
+    <remarks><span data-ttu-id="8b316-102"><para>Вы можете увидеть предварительный просмотр каждой фигуры с текстом, выбрав фигуру WordArt на панели инструментов WordArt.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="8b316-102"><para>You can see a preview of each text effect shape by selecting WordArt Shape in the WordArt toolbar.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="msoTextEffectShapeArchDownCurve">
@@ -56,12 +34,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-103">Текст — архитектура, закругленная вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-103">Text is an arch that curves down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-103">Текст — это Arch, который изогнут вниз.</span><span class="sxs-lookup"><span data-stu-id="8b316-103">Text is an arch that curves down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeArchDownPour">
@@ -80,12 +53,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-104">Текст — трехмерной архитектуры, закругленная вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-104">Text is a 3-D arch that curves down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-104">Текст — трехмерная дуга, которая изогнута вниз.</span><span class="sxs-lookup"><span data-stu-id="8b316-104">Text is a 3-D arch that curves down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeArchUpCurve">
@@ -104,12 +72,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-105">Текст — архитектура, которая закругляется вверх.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-105">Text is an arch that curves up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-105">Текст — это дуга, которая раскривой вверх.</span><span class="sxs-lookup"><span data-stu-id="8b316-105">Text is an arch that curves up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeArchUpPour">
@@ -128,12 +91,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-106">Текст — трехмерной архитектуры, которая закругляется вверх.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-106">Text is a 3-D arch that curves up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-106">Текст — трехмерная дуга, которая раскривой вверх.</span><span class="sxs-lookup"><span data-stu-id="8b316-106">Text is a 3-D arch that curves up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeButtonCurve">
@@ -152,12 +110,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-107">Текст — это круглая вокруг центр «кнопка».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-107">Text is curved around a center "button."</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-107">Текст изогнут вокруг центральной кнопки.</span><span class="sxs-lookup"><span data-stu-id="8b316-107">Text is curved around a center "button."</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeButtonPour">
@@ -176,12 +129,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-108">Текст будет отображаться в объемных круглая вокруг центр «кнопка».</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-108">Text is seen in 3-D, curved around a center "button."</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-108">Текст отображается в трехмерной, изогнут вокруг центра "Кнопка".</span><span class="sxs-lookup"><span data-stu-id="8b316-108">Text is seen in 3-D, curved around a center "button."</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCanDown">
@@ -200,12 +148,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-109">Текст растягивается для заполнения высоту фигуры, только незначительные график работы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-109">Text is stretched to fill the height of the shape, with only a slight curve down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-109">Текст растягивается, чтобы заполнить высоту фигуры, с небольшой кривизной.</span><span class="sxs-lookup"><span data-stu-id="8b316-109">Text is stretched to fill the height of the shape, with only a slight curve down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCanUp">
@@ -224,12 +167,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-110">Текст растягивается для заполнения высота формы, с помощью только незначительные график.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-110">Text is stretched to fill the height of the shape, with only a slight curve up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-110">Текст растягивается, чтобы заполнить высоту фигуры, с небольшой изгибной.</span><span class="sxs-lookup"><span data-stu-id="8b316-110">Text is stretched to fill the height of the shape, with only a slight curve up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCascadeDown">
@@ -248,12 +186,7 @@
       </ReturnValue>
       <MemberValue>40</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-111">Текст отклоняются относительно запущено и справа как уменьшается размер шрифта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-111">Text slants up and to the right as font size decreases.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-111">Уменьшается наклон текста вверх и вправо, чем уменьшается размер шрифта.</span><span class="sxs-lookup"><span data-stu-id="8b316-111">Text slants up and to the right as font size decreases.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCascadeUp">
@@ -272,12 +205,7 @@
       </ReturnValue>
       <MemberValue>39</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-112">Текст отклоняются относительно вниз и вправо при увеличении размера шрифта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-112">Text slants down and to the right as font size increases.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-112">При увеличении размера шрифта текст становится наклоненным и вправо.</span><span class="sxs-lookup"><span data-stu-id="8b316-112">Text slants down and to the right as font size increases.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeChevronDown">
@@ -296,12 +224,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-113">Текст, отклоняются относительно до его центральной точки и затем отклоняются относительно вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-113">Text slants up to its center point and then slants down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-113">Текст будет наклонен до центральной точки, а затем наклонен вниз.</span><span class="sxs-lookup"><span data-stu-id="8b316-113">Text slants up to its center point and then slants down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeChevronUp">
@@ -320,12 +243,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-114">Текст, отклоняются относительно вниз до его центральной точки и затем отклоняются относительно копирования.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-114">Text slants down to its center point and then slants up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-114">Текст наклонен до центральной точки, а затем наклонен вверх.</span><span class="sxs-lookup"><span data-stu-id="8b316-114">Text slants down to its center point and then slants up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCircleCurve">
@@ -344,12 +262,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-115">Текст следует круг, чтение стрелке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-115">Text follows a circle, reading clockwise.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-115">Текст следует за кружком, прочитав по часовой стрелке.</span><span class="sxs-lookup"><span data-stu-id="8b316-115">Text follows a circle, reading clockwise.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCirclePour">
@@ -368,12 +281,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-116">Текст имеет объема и соответствует круг, чтение стрелке.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-116">Text has a 3-D effect and follows a circle, reading clockwise.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-116">В тексте используется объемный, а затем — круг, который просматривается по часовой стрелке.</span><span class="sxs-lookup"><span data-stu-id="8b316-116">Text has a 3-D effect and follows a circle, reading clockwise.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCurveDown">
@@ -392,12 +300,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-117">Уменьшение кривые текст вниз и вправо размером шрифта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-117">Text curves down and to the right as font size decreases.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-117">Уменьшается кривая текста вниз и вправо, чем уменьшается размер шрифта.</span><span class="sxs-lookup"><span data-stu-id="8b316-117">Text curves down and to the right as font size decreases.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeCurveUp">
@@ -416,12 +319,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-118">Увеличивает кривые текст вниз и вправо размером шрифта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-118">Text curves down and to the right as font size increases.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-118">Кривая текста вниз и вправо по мере увеличения размера шрифта.</span><span class="sxs-lookup"><span data-stu-id="8b316-118">Text curves down and to the right as font size increases.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDeflate">
@@ -440,12 +338,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-119">Размер шрифта снижает по центру текст, а затем увеличивается до начала размера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-119">Font size decreases to the text's midpoint, then increases to the starting size.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-119">Размер шрифта уменьшается до средней точки текста, а затем увеличивается до начального размера.</span><span class="sxs-lookup"><span data-stu-id="8b316-119">Font size decreases to the text's midpoint, then increases to the starting size.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDeflateBottom">
@@ -464,12 +357,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-120">Размер шрифта уменьшается по центру текст, а затем увеличивается до начала размера, сохраняя в верхней части текст по одной график.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-120">Font size decreases to the text's midpoint, then increases to the starting size, while keeping the top of the text along the same curve.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-120">Размер шрифта уменьшается до средней точки текста, а затем увеличивается до начального размера, сохраняя при этом верхнюю часть текста в той же кривой.</span><span class="sxs-lookup"><span data-stu-id="8b316-120">Font size decreases to the text's midpoint, then increases to the starting size, while keeping the top of the text along the same curve.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDeflateInflate">
@@ -488,12 +376,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-121">Размер шрифта увеличивается по центру текст, а затем снижает начальный размер.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-121">Font size increases to the text's midpoint, then decreases to the starting size.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-121">Размер шрифта увеличивается до средней точки текста, а затем уменьшается до начального размера.</span><span class="sxs-lookup"><span data-stu-id="8b316-121">Font size increases to the text's midpoint, then decreases to the starting size.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDeflateInflateDeflate">
@@ -512,12 +395,7 @@
       </ReturnValue>
       <MemberValue>32</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-122">Размер шрифта снижает, увеличивает и уменьшает еще раз через текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-122">Font size decreases, increases, and decreases again across the text.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-122">Размер шрифта уменьшается, увеличивается и уменьшается в тексте.</span><span class="sxs-lookup"><span data-stu-id="8b316-122">Font size decreases, increases, and decreases again across the text.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDeflateTop">
@@ -536,12 +414,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-123">Размер шрифта уменьшается по центру текст, а затем увеличивается до начала размера, сохраняя в нижней части текст по одной график.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-123">Font size decreases to the text's midpoint, then increases to the starting size, while keeping the bottom of the text along the same curve.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-123">Размер шрифта уменьшается до средней точки текста, а затем увеличивается до начального размера, а нижняя часть текста — с той же кривой.</span><span class="sxs-lookup"><span data-stu-id="8b316-123">Font size decreases to the text's midpoint, then increases to the starting size, while keeping the bottom of the text along the same curve.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDoubleWave1">
@@ -560,12 +433,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-124">Текст исходя из строки, закругленная еще раз, а затем вниз, а затем вверх и вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-124">Text follows a line that curves up, then down, then up and down again.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-124">Текст следует за строкой, которая раскривой вверх, вниз, вверх и вниз.</span><span class="sxs-lookup"><span data-stu-id="8b316-124">Text follows a line that curves up, then down, then up and down again.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeDoubleWave2">
@@ -584,12 +452,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-125">Следующий текст кривой линии вниз, а затем вверх, затем вниз и копирование еще раз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-125">Text follows a line that curves down, then up, then down and up again.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-125">Текст — это строка, которая раскривой вниз, затем вверх, затем вверх и вверх.</span><span class="sxs-lookup"><span data-stu-id="8b316-125">Text follows a line that curves down, then up, then down and up again.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeFadeDown">
@@ -608,12 +471,7 @@
       </ReturnValue>
       <MemberValue>36</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-126">В начало текста видимому, должен быть ближе к пользователю, чем текст вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-126">Top of the text appears to be closer to the viewer than bottom of the text.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-126">Верхняя часть текста отображается ближе к средству просмотра, чем нижняя часть текста.</span><span class="sxs-lookup"><span data-stu-id="8b316-126">Top of the text appears to be closer to the viewer than bottom of the text.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeFadeLeft">
@@ -632,12 +490,7 @@
       </ReturnValue>
       <MemberValue>34</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-127">-Видимому ближе к пользователю, чем правой части левой части текста.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-127">Left side of text appears to be closer to the viewer than right side.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-127">Левая часть текста отображается ближе к средству просмотра по сравнению с правой стороны.</span><span class="sxs-lookup"><span data-stu-id="8b316-127">Left side of text appears to be closer to the viewer than right side.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeFadeRight">
@@ -656,12 +509,7 @@
       </ReturnValue>
       <MemberValue>33</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-128">Справа от текста видимому, должен быть ближе к пользователю, чем левой части.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-128">Right side of text appears to be closer to the viewer than left side.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-128">Область справа от текста отображается ближе к средству просмотра, а не по левому краю.</span><span class="sxs-lookup"><span data-stu-id="8b316-128">Right side of text appears to be closer to the viewer than left side.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeFadeUp">
@@ -680,12 +528,7 @@
       </ReturnValue>
       <MemberValue>35</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-129">В нижней части текста видимому, должен быть ближе к пользователю, чем в начало.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-129">Bottom of text appears to be closer to the viewer than top.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-129">Нижняя часть текста отображается ближе к средству просмотра, чем Top.</span><span class="sxs-lookup"><span data-stu-id="8b316-129">Bottom of text appears to be closer to the viewer than top.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeInflate">
@@ -704,16 +547,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-130">Размер шрифта текста увеличивается до его центральной точки, а затем уменьшается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-130">Font size of text increases to its center point, then decreases.</span>
-          </span>
-          <span data-ttu-id="314c6-131">В той же строке прямой — центральной точки каждой буквы.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-131">Center point of each letter is on the same straight line.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-130">Размер шрифта текста увеличивается до центральной точки, а затем уменьшается.</span><span class="sxs-lookup"><span data-stu-id="8b316-130">Font size of text increases to its center point, then decreases.</span></span> <span data-ttu-id="8b316-131">Центральная точка каждой буквы находится на одной прямой линии.</span><span class="sxs-lookup"><span data-stu-id="8b316-131">Center point of each letter is on the same straight line.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeInflateBottom">
@@ -732,16 +566,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-132">Размер шрифта текста увеличивается до его центральной точки, а затем уменьшается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-132">Font size of text increases to its center point, then decreases.</span>
-          </span>
-          <span data-ttu-id="314c6-133">Центральной точки каждого письма следует архитектуры, закругленная вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-133">Center point of each letter follows an arch that curves downward.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-132">Размер шрифта текста увеличивается до центральной точки, а затем уменьшается.</span><span class="sxs-lookup"><span data-stu-id="8b316-132">Font size of text increases to its center point, then decreases.</span></span> <span data-ttu-id="8b316-133">Центральная точка каждой буквы соответствует дуге, который изогнут вниз.</span><span class="sxs-lookup"><span data-stu-id="8b316-133">Center point of each letter follows an arch that curves downward.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeInflateTop">
@@ -760,16 +585,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-134">Размер шрифта текста увеличивается до его центральной точки, а затем уменьшается.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-134">Font size of text increases to its center point, then decreases.</span>
-          </span>
-          <span data-ttu-id="314c6-135">Архитектура, закругленная вверх исходя из центральной точки каждого письма.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-135">Center point of each letter follows an arch that curves upward.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-134">Размер шрифта текста увеличивается до центральной точки, а затем уменьшается.</span><span class="sxs-lookup"><span data-stu-id="8b316-134">Font size of text increases to its center point, then decreases.</span></span> <span data-ttu-id="8b316-135">Центральная точка каждой буквы соответствует Arch, который изогнут вверх.</span><span class="sxs-lookup"><span data-stu-id="8b316-135">Center point of each letter follows an arch that curves upward.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeMixed">
@@ -788,12 +604,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-136">Не используется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-136">Not used.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-136">Не используется.</span><span class="sxs-lookup"><span data-stu-id="8b316-136">Not used.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapePlainText">
@@ -812,12 +623,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-137">Фигура не применяется.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-137">No shape applied.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-137">Фигура не применена.</span><span class="sxs-lookup"><span data-stu-id="8b316-137">No shape applied.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeRingInside">
@@ -836,12 +642,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-138">Для записи внутри трехмерной звонка отображается текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-138">Text appears to be written on the inside of a 3-D ring.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-138">Текст будет записан на внутреннем трехмерном кольцах.</span><span class="sxs-lookup"><span data-stu-id="8b316-138">Text appears to be written on the inside of a 3-D ring.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeRingOutside">
@@ -860,12 +661,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-139">Для записи вне трехмерной звонка отображается текст.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-139">Text appears to be written on the outside of a 3-D ring.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-139">Текст будет записан на внешнем трехмерном кольцах.</span><span class="sxs-lookup"><span data-stu-id="8b316-139">Text appears to be written on the outside of a 3-D ring.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeSlantDown">
@@ -884,12 +680,7 @@
       </ReturnValue>
       <MemberValue>38</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-140">Текст отклоняются относительно вниз и вправо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-140">Text slants down and to the right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-140">Текст наклонен вниз и вправо.</span><span class="sxs-lookup"><span data-stu-id="8b316-140">Text slants down and to the right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeSlantUp">
@@ -908,12 +699,7 @@
       </ReturnValue>
       <MemberValue>37</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-141">Текст отклоняются относительно вверх и вправо.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-141">Text slants up and to the right.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-141">Текст наклонен вверх и вправо.</span><span class="sxs-lookup"><span data-stu-id="8b316-141">Text slants up and to the right.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeStop">
@@ -932,12 +718,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-142">Текст следует фигуры Стоп.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-142">Text follows the shape of a stop sign.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-142">Текст, который следует за формой знака остановки.</span><span class="sxs-lookup"><span data-stu-id="8b316-142">Text follows the shape of a stop sign.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeTriangleDown">
@@ -956,12 +737,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-143">Текст отклоняются относительно вверх и вниз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-143">Text slants up, then down.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-143">Текст будет наклонен вверх, а затем вниз.</span><span class="sxs-lookup"><span data-stu-id="8b316-143">Text slants up, then down.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeTriangleUp">
@@ -980,12 +756,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-144">Текст отклоняются относительно вниз, а затем копирование.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-144">Text slants down, then up.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-144">Текст наклонен вниз, а затем вверх.</span><span class="sxs-lookup"><span data-stu-id="8b316-144">Text slants down, then up.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeWave1">
@@ -1004,12 +775,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-145">Текст следуют волнистая, затем вниз и копирование еще раз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-145">Text follows a wave up, then down and up again.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-145">Текст подключается к волнам, а затем вверх и вверх.</span><span class="sxs-lookup"><span data-stu-id="8b316-145">Text follows a wave up, then down and up again.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoTextEffectShapeWave2">
@@ -1028,12 +794,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="314c6-146">Текст следует волнистая вниз, затем вверх и вниз еще раз.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="314c6-146">Text follows a wave down, then up and down again.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8b316-146">Текст находится в волне, а затем вверх и вниз.</span><span class="sxs-lookup"><span data-stu-id="8b316-146">Text follows a wave down, then up and down again.</span></span></summary>
       </Docs>
     </Member>
   </Members>

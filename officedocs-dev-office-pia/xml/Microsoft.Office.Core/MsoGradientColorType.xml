@@ -1,13 +1,5 @@
 <Type Name="MsoGradientColorType" FullName="Microsoft.Office.Core.MsoGradientColorType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6d341a737d25df2ff8fa3625be8baf1d9d530d0b" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662365" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoGradientColorType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6d341a737d25df2ff8fa3625be8baf1d9d530d0b" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662365" /></Metadata><TypeSignature Language="C#" Value="public enum MsoGradientColorType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoGradientColorType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoGradientColorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoGradientColorType" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="ae7b1-101">Указывает тип градиента, используемый в заливки фигуры.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ae7b1-101">Specifies the type of gradient used in a shape's fill.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="1f0e1-101">Указывает тип градиента, используемого в заполнении фигуры.</span><span class="sxs-lookup"><span data-stu-id="1f0e1-101">Specifies the type of gradient used in a shape's fill.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ae7b1-102">Смешанные градиент.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7b1-102">Mixed gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1f0e1-102">Смешанный градиент.</span><span class="sxs-lookup"><span data-stu-id="1f0e1-102">Mixed gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientMultiColor">
@@ -88,12 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ae7b1-103">Один-градиента.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7b1-103">One-color gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1f0e1-103">Одноцветный градиент.</span><span class="sxs-lookup"><span data-stu-id="1f0e1-103">One-color gradient.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientPresetColors">
@@ -112,12 +89,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ae7b1-104">Задана в соответствии с встроенной градиентной набора, определенные в константу <b>msoPresetGradientType</b> цветов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7b1-104">Gradient colors set according to a built-in gradient of the set defined by the <b>msoPresetGradientType</b> constant.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1f0e1-104">Цвета градиента задаются в соответствии со встроенным градиентом набора, определенного константой <b>мсопресетградиенттипе</b> .</span><span class="sxs-lookup"><span data-stu-id="1f0e1-104">Gradient colors set according to a built-in gradient of the set defined by the <b>msoPresetGradientType</b> constant.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoGradientTwoColors">
@@ -136,12 +108,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ae7b1-105">Градиентные двух цветов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ae7b1-105">Two-color gradient.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1f0e1-105">Градиент с двумя цветами.</span><span class="sxs-lookup"><span data-stu-id="1f0e1-105">Two-color gradient.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="SmartArtQuickStyles" FullName="Microsoft.Office.Core.SmartArtQuickStyles">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8289c42a2661aaa7bf73206800919b3978811d8c" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661670" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartArtQuickStyles : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8289c42a2661aaa7bf73206800919b3978811d8c" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661670" /></Metadata><TypeSignature Language="C#" Value="public interface SmartArtQuickStyles : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArtQuickStyles implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArtQuickStyles" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartArtQuickStyles&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,12 +25,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="47793-101">Представляет коллекцию SmartArt экспресс-стилей.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="47793-101">Represents a collection of SmartArt quick styles.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="13ac3-101">Представляет коллекцию экспресс-стилей SmartArt.</span><span class="sxs-lookup"><span data-stu-id="13ac3-101">Represents a collection of SmartArt quick styles.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -68,25 +55,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="47793-102">Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>SmartArtQuickStyles</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47793-102">Gets a <see cref="T:System.Object" />  object that represents the container application for the <b>SmartArtQuickStyles</b> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="13ac3-102">Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>SmartArtQuickStyles</b> .</span><span class="sxs-lookup"><span data-stu-id="13ac3-102">Gets a <see cref="T:System.Object" />  object that represents the container application for the <b>SmartArtQuickStyles</b> object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="47793-103">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47793-103">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="13ac3-103"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="13ac3-103"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -112,25 +85,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="47793-104">Возвращает количество число <see cref="T:Microsoft.Office.Core.SmartArtQuickStyle" /> объектов, содержащихся в коллекции <b>SmartArtQuickStyles</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47793-104">Gets the count of the number of <see cref="T:Microsoft.Office.Core.SmartArtQuickStyle" /> objects contained within the <b>SmartArtQuickStyles</b> collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="13ac3-104">Получает количество <see cref="T:Microsoft.Office.Core.SmartArtQuickStyle" /> объектов, содержащихся в коллекции <b>SmartArtQuickStyles</b> .</span><span class="sxs-lookup"><span data-stu-id="13ac3-104">Gets the count of the number of <see cref="T:Microsoft.Office.Core.SmartArtQuickStyle" /> objects contained within the <b>SmartArtQuickStyles</b> collection.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="47793-105">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47793-105">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="13ac3-105"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="13ac3-105"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -159,25 +118,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="47793-106">Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>SmartArtQuickStyles</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47793-106">Gets a 32-bit integer that indicates the application in which the <b>SmartArtQuickStyles</b> object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="13ac3-106">Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>SmartArtQuickStyles</b> .</span><span class="sxs-lookup"><span data-stu-id="13ac3-106">Gets a 32-bit integer that indicates the application in which the <b>SmartArtQuickStyles</b> object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="47793-107">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47793-107">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="13ac3-107"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="13ac3-107"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -208,12 +153,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>
-          <span data-ttu-id="47793-108">Возвращает <see cref="T:System.Collections.IEnumerator" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47793-108">Returns <see cref="T:System.Collections.IEnumerator" />.</span>
-          </span>
-        </returns>
+        <returns><span data-ttu-id="13ac3-108">Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</span><span class="sxs-lookup"><span data-stu-id="13ac3-108">Returns <see cref="T:System.Collections.IEnumerator" />.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -243,18 +183,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="47793-109">Задает индекс или расположение <see cref="T:Microsoft.Office.Core.SmartArtQuickStyle" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47793-109">Specifies either the index or the location of the <see cref="T:Microsoft.Office.Core.SmartArtQuickStyle" /> object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="47793-110">Получает <see cref="T:Microsoft.Office.Core.SmartArtQuickStyle" /> объекта по указанному индексу или с указанным уникальным идентификатором.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47793-110">Gets a <see cref="T:Microsoft.Office.Core.SmartArtQuickStyle" /> object at the specified index or with the specified unique identifier.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="13ac3-109">Указывает индекс или расположение <see cref="T:Microsoft.Office.Core.SmartArtQuickStyle" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="13ac3-109">Specifies either the index or the location of the <see cref="T:Microsoft.Office.Core.SmartArtQuickStyle" /> object.</span></span></param>
+        <summary><span data-ttu-id="13ac3-110">Возвращает <see cref="T:Microsoft.Office.Core.SmartArtQuickStyle" /> объект по указанному индексу или по указанному уникальному идентификатору.</span><span class="sxs-lookup"><span data-stu-id="13ac3-110">Gets a <see cref="T:Microsoft.Office.Core.SmartArtQuickStyle" /> object at the specified index or with the specified unique identifier.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -282,25 +212,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="47793-111">Получает объект, вызывающий.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47793-111">Gets the calling object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="13ac3-111">Получает вызывающий объект.</span><span class="sxs-lookup"><span data-stu-id="13ac3-111">Gets the calling object.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="47793-112">
-            <para>Только для чтения.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="47793-112">
-              <para>Read-only.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="13ac3-112"><para>Только для чтения.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="13ac3-112"><para>Read-only.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

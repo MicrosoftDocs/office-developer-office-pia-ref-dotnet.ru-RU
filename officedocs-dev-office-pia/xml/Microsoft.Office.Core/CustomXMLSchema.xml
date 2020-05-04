@@ -1,13 +1,5 @@
 <Type Name="CustomXMLSchema" FullName="Microsoft.Office.Core.CustomXMLSchema">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b2e655782fcffad3b76e98ffb7f0f73a987e96ff" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662257" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface CustomXMLSchema : Microsoft.Office.Core._IMsoDispObj" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b2e655782fcffad3b76e98ffb7f0f73a987e96ff" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662257" /></Metadata><TypeSignature Language="C#" Value="public interface CustomXMLSchema : Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLSchema implements class Microsoft.Office.Core._IMsoDispObj" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLSchema" />
   <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLSchema&#xA;Implements _IMsoDispObj" />
@@ -30,12 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="0471b-101">Представляет схему в <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> семейства сайтов.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0471b-101">Represents a schema in a <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> collection.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="adabc-101">Представляет схему в <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="adabc-101">Represents a schema in a <see cref="T:Microsoft.Office.Core._CustomXMLSchemaCollection" /> collection.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -65,26 +52,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0471b-102">Получает объект <b>приложения</b> , представляющий приложение-контейнер для <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object.</span>
-          </span>
-          <span data-ttu-id="0471b-103">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-103">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="0471b-104">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-104">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="adabc-102">Возвращает объект <b>Application</b> , представляющий приложение контейнера для <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="adabc-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object.</span></span> <span data-ttu-id="adabc-103">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="adabc-103">Read-only.</span></span></summary>
+        <value><span data-ttu-id="adabc-104"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="adabc-104"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -114,26 +83,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0471b-105">Получает 32-разрядное целое число, указывающее приложение, в котором <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> был создан объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-105">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object was created.</span>
-          </span>
-          <span data-ttu-id="0471b-106">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-106">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="0471b-107">
-            <b>Integer</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-107">
-              <b>Integer</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="adabc-105">Получает 32 — разрядное целое число, которое указывает приложение, <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> в котором был создан объект.</span><span class="sxs-lookup"><span data-stu-id="adabc-105">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object was created.</span></span> <span data-ttu-id="adabc-106">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="adabc-106">Read-only.</span></span></summary>
+        <value><span data-ttu-id="adabc-107"><b>Integer</b></span><span class="sxs-lookup"><span data-stu-id="adabc-107"><b>Integer</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,24 +109,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="0471b-108">Удаляет указанную схему из <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> семейства сайтов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-108">Deletes the specified schema from the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="0471b-109">
-            <para>Если эта операция выполняется попытка на основе схемы в коллекции, которая уже проверенные или подключенного к потоку данных затем операция не выполняется и отображается сообщение об ошибке.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-109">
-              <para>If this operation is attempted on a schema in a collection that is already validated or attached to a data stream, then the operation is not performed and an error message is displayed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="adabc-108">Удаляет указанную схему из <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> коллекции.</span><span class="sxs-lookup"><span data-stu-id="adabc-108">Deletes the specified schema from the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> collection.</span></span></summary>
+        <remarks><span data-ttu-id="adabc-109"><para>Если эта операция выполняется над схемой в коллекции, которая уже проверена или присоединена к потоку данных, то операция не выполняется и отображается сообщение об ошибке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="adabc-109"><para>If this operation is attempted on a schema in a collection that is already validated or attached to a data stream, then the operation is not performed and an error message is displayed.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Location">
@@ -201,26 +138,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0471b-110">Получает <b>строку</b> , представляющую расположение схемы на компьютере.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-110">Gets a <b>String</b> that represents the location of a schema on a computer.</span>
-          </span>
-          <span data-ttu-id="0471b-111">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-111">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="0471b-112">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-112">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="adabc-110">Получает <b>строку</b> , представляющую расположение схемы на компьютере.</span><span class="sxs-lookup"><span data-stu-id="adabc-110">Gets a <b>String</b> that represents the location of a schema on a computer.</span></span> <span data-ttu-id="adabc-111">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="adabc-111">Read-only.</span></span></summary>
+        <value><span data-ttu-id="adabc-112"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="adabc-112"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -247,26 +166,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0471b-113">Получает идентификатор уникальный адрес для пространства имен <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-113">Gets the unique address identifier for the namespace of the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object.</span>
-          </span>
-          <span data-ttu-id="0471b-114">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-114">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="0471b-115">
-            <b>Строка</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-115">
-              <b>String</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="adabc-113">Получает уникальный идентификатор пространства имен <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="adabc-113">Gets the unique address identifier for the namespace of the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object.</span></span> <span data-ttu-id="adabc-114">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="adabc-114">Read-only.</span></span></summary>
+        <value><span data-ttu-id="adabc-115"><b>Строка</b></span><span class="sxs-lookup"><span data-stu-id="adabc-115"><b>String</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -293,26 +194,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0471b-116">Получает родительский объект для <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-116">Gets the parent object for the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object.</span>
-          </span>
-          <span data-ttu-id="0471b-117">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-117">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="0471b-118">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-118">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="adabc-116">Получает родительский объект для <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> объекта.</span><span class="sxs-lookup"><span data-stu-id="adabc-116">Gets the parent object for the <see cref="T:Microsoft.Office.Core.CustomXMLSchema" /> object.</span></span> <span data-ttu-id="adabc-117">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="adabc-117">Read-only.</span></span></summary>
+        <value><span data-ttu-id="adabc-118"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="adabc-118"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -337,24 +220,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="0471b-119">Перезагружает схемы из файла.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-119">Reloads a schema from a file.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="0471b-120">
-            <para>Как правило этот метод используется для определения схемы допустимость по-прежнему или расположение схемы. Также полезно для перезагрузки схемы, в которой часто изменяется. При попытке выполнить это действие схемы в коллекции, которая уже проверяется и не привязывается к потоку данных затем операция не выполняется и отображается сообщение об ошибке.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0471b-120">
-              <para>Typically, this method is used to update the location of the schema or to determine if the schema is still valid. It is also useful for reloading a schema that frequently changes. If this action is attempted on a schema in a collection that is already validated or tied to a data stream, then the operation is not performed and an error message is displayed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="adabc-119">Перезагружает схему из файла.</span><span class="sxs-lookup"><span data-stu-id="adabc-119">Reloads a schema from a file.</span></span></summary>
+        <remarks><span data-ttu-id="adabc-120"><para>Как правило, этот метод используется для обновления расположения схемы или для определения того, является ли схема по-прежнему допустимой. Он также полезен для повторной загрузки схемы, которая часто изменяется. При попытке выполнить это действие для схемы в коллекции, которая уже проверена или привязана к потоку данных, операция не выполняется и отображается сообщение об ошибке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="adabc-120"><para>Typically, this method is used to update the location of the schema or to determine if the schema is still valid. It is also useful for reloading a schema that frequently changes. If this action is attempted on a schema in a collection that is already validated or tied to a data stream, then the operation is not performed and an error message is displayed.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

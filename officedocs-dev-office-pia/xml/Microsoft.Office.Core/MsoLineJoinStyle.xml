@@ -1,13 +1,5 @@
 <Type Name="MsoLineJoinStyle" FullName="Microsoft.Office.Core.MsoLineJoinStyle">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a85266f6696c1cd1838927101a1355b66b7d9d69" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20661856" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum MsoLineJoinStyle" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a85266f6696c1cd1838927101a1355b66b7d9d69" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20661856" /></Metadata><TypeSignature Language="C#" Value="public enum MsoLineJoinStyle" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLineJoinStyle extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLineJoinStyle" />
   <TypeSignature Language="VB.NET" Value="Public Enum MsoLineJoinStyle" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="5d710-101">Указывает тип соединения, где две строки подключения.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="5d710-101">Specifies the type of join where two lines connect.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="aa9e7-101">Указывает тип объединения, к которому подключаются две линии.</span><span class="sxs-lookup"><span data-stu-id="aa9e7-101">Specifies the type of join where two lines connect.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d710-102">Задает среза соединение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d710-102">Specifies a beveled join.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="aa9e7-102">Указывает рельефное соединение.</span><span class="sxs-lookup"><span data-stu-id="aa9e7-102">Specifies a beveled join.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineJoinMiter">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d710-103">Задает угловое соединение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d710-103">Specifies a mitered join.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="aa9e7-103">Задает угловое соединение.</span><span class="sxs-lookup"><span data-stu-id="aa9e7-103">Specifies a mitered join.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineJoinMixed">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>-2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d710-104">Задает смешанные типы соединения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d710-104">Specifies a mixture of join types.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="aa9e7-104">Указывает смесь типов присоединения.</span><span class="sxs-lookup"><span data-stu-id="aa9e7-104">Specifies a mixture of join types.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="msoLineJoinRound">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="5d710-105">Задает скругленные соединение.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="5d710-105">Specifies a rounded join.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="aa9e7-105">Указывает скругленное соединение.</span><span class="sxs-lookup"><span data-stu-id="aa9e7-105">Specifies a rounded join.</span></span></summary>
       </Docs>
     </Member>
   </Members>

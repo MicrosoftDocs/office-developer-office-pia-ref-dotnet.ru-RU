@@ -1,13 +1,5 @@
 <Type Name="DocumentProperty" FullName="Microsoft.Office.Core.DocumentProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="be826a73e8f4e085cc5edc2a6bc0a3254ae53c15" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662103" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface DocumentProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="be826a73e8f4e085cc5edc2a6bc0a3254ae53c15" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662103" /></Metadata><TypeSignature Language="C#" Value="public interface DocumentProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.DocumentProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface DocumentProperty" />
@@ -26,54 +18,72 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="41f0a-101">Представляет свойство настраиваемых и встроенных документа из контейнера документа.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="41f0a-101">Represents a custom or built-in document property of a container document.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="41f0a-102">
-        <para>Объекта <b>DocumentProperty</b> входит в состав <see cref="T:Microsoft.Office.Core.DocumentProperties" /> семейства.</para> Использование <b>которые</b><para>(<paramref name="index" />), где <paramref name="index" /> — имя или номер индекса свойства встроенных документов для возврата объекта <b>DocumentProperty</b> , который представляет определенные встроенное свойство документа. Используйте <b>CustomDocumentProperties</b>(<paramref name="index" />), где <paramref name="index" /> — имя или номер индекса пользовательского свойства документа, чтобы возвратить объект <b>DocumentProperty</b> , представляющий определенного настраиваемого свойства документа.</para><para>Следующий список содержит имена всех доступных встроенных свойств документа:</para><para>Заголовок</para><para>Тема</para><para>Автор</para><para>Ключевые слова</para><para>Комментарии</para><para>Шаблон</para><para>Автор изменений</para><para>Номер редакции</para><para>Имя приложения</para><para>Дата последней печати</para><para>Дата создания</para><para>Время последнего сохранения</para><para>Общее время правки</para><para>Число страниц</para><para>Количество слов</para><para>Число символов</para><para>Безопасность</para><para>Категории</para><para>Формат</para><para>Руководитель</para><para>Компании</para><para>Число байт</para><para>Число строк</para><para>Число абзацев</para><para>Число слайдов</para><para>Число заметок</para><para>Число скрытых слайдов</para><para>Число мультимедиа-клипов</para> Контейнер 
-      <para>приложений не обязательно указать значение для каждого встроенного свойства документа. Если данного приложения не определяет значение для одного из встроенных свойств документа, возвращая <see cref="P:Microsoft.Office.Core.DocumentProperty.Value" /> свойства для этого свойства документа вызовет ошибку.</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="41f0a-102">
-          <para>The <b>DocumentProperty</b> object is a member of the <see cref="T:Microsoft.Office.Core.DocumentProperties" /> collection.</para>
-          <para>Use <b>BuiltinDocumentProperties</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number of the built-in document property, to return a single <b>DocumentProperty</b> object that represents a specific built-in document property. Use <b>CustomDocumentProperties</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number of the custom document property, to return a <b>DocumentProperty</b> object that represents a specific custom document property.</para>
-          <para>The following list contains the names of all the available built-in document properties:</para>
-          <para>Title</para>
-          <para>Subject</para>
-          <para>Author</para>
-          <para>Keywords</para>
-          <para>Comments</para>
-          <para>Template</para>
-          <para>Last Author</para>
-          <para>Revision Number</para>
-          <para>Application Name</para>
-          <para>Last Print Date</para>
-          <para>Creation Date</para>
-          <para>Last Save Time</para>
-          <para>Total Editing Time</para>
-          <para>Number of Pages</para>
-          <para>Number of Words </para>
-          <para>Number of Characters</para>
-          <para>Security</para>
-          <para>Category</para>
-          <para>Format</para>
-          <para>Manager</para>
-          <para>Company</para>
-          <para>Number of Bytes</para>
-          <para>Number of Lines</para>
-          <para>Number of Paragraphs</para>
-          <para>Number of Slides</para>
-          <para>Number of Notes</para>
-          <para>Number of Hidden Slides</para>
-          <para>Number of Multimedia Clips</para>
-          <para>Container applications don't necessarily define a value for every built-in document property. If a given application doesn't define a value for one of the built-in document properties, returning the <see cref="P:Microsoft.Office.Core.DocumentProperty.Value" /> property for that document property causes an error.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="4a9f6-101">Представляет настраиваемое или встроенное свойство документа для контейнера документа.</span><span class="sxs-lookup"><span data-stu-id="4a9f6-101">Represents a custom or built-in document property of a container document.</span></span></summary>
+    <remarks><span data-ttu-id="4a9f6-102"><para>Объект <b>DocumentProperty</b> является членом <see cref="T:Microsoft.Office.Core.DocumentProperties" /> коллекции.</para> 
+      <para>Используйте <b>BuiltinDocumentProperties</b>(<paramref name="index" />), где <paramref name="index" /> — это имя или номер индекса встроенного свойства документа, чтобы вернуть один объект <b>DocumentProperty</b> , представляющий конкретное встроенное свойство документа. Используйте <b>кустомдокументпропертиес</b>(<paramref name="index" />), где <paramref name="index" /> — это имя или номер индекса настраиваемого свойства документа, чтобы возвратить объект <b>DocumentProperty</b> , представляющий конкретное настраиваемое свойство документа.</para> 
+      <para>Следующий список содержит имена всех доступных встроенных свойств документа:</para>
+      <para>заголовок</para>
+      <para>темы</para>
+      <para>Автор</para>
+      <para>Keywords</para>
+      <para>Комментарии</para>
+      <para>шаблон</para>комментарии
+      <para>фамилия автора</para>
+      <para>номер редакции</para>
+      <para>имя приложения</para>Дата
+      <para>Security</para>
+      <para>Category</para>
+      <para>Format</para>
+      <para>Manager</para>
+      <para>последнего отпечатка</para>Дата
+      <para>создания Дата</para>
+      <para>последнего сохранения</para>
+      <para>Общее время редактирования</para>
+      <para>— число страниц</para>число
+      <para>слов </para> 
+      <para>число символов</para>число строк число абзацев
+      <para>название компании</para>номер
+      <para>документа число</para>
+      <para>строк</para>
+      <para>число абзацев</para>номер
+      <para>слайдов количество слайдов</para>
+      <para>количество символов</para>
+      <para>Number of Hidden Slides</para>
+      <para>Number of Multimedia Clips</para>в абзацах номер
+      <para>каждого встроенного свойства документа Если данное приложение не определяет значение для одного из встроенных свойств документа, то возвращение <see cref="P:Microsoft.Office.Core.DocumentProperty.Value" /> свойства для этого свойства документа приводит к ошибке.</para>
+      <para /></span><span class="sxs-lookup"><span data-stu-id="4a9f6-102"><para>The <b>DocumentProperty</b> object is a member of the <see cref="T:Microsoft.Office.Core.DocumentProperties" /> collection.</para>
+      <para>Use <b>BuiltinDocumentProperties</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number of the built-in document property, to return a single <b>DocumentProperty</b> object that represents a specific built-in document property. Use <b>CustomDocumentProperties</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number of the custom document property, to return a <b>DocumentProperty</b> object that represents a specific custom document property.</para>
+      <para>The following list contains the names of all the available built-in document properties:</para>
+      <para>Title</para>
+      <para>Subject</para>
+      <para>Author</para>
+      <para>Keywords</para>
+      <para>Comments</para>
+      <para>Template</para>
+      <para>Last Author</para>
+      <para>Revision Number</para>
+      <para>Application Name</para>
+      <para>Last Print Date</para>
+      <para>Creation Date</para>
+      <para>Last Save Time</para>
+      <para>Total Editing Time</para>
+      <para>Number of Pages</para>
+      <para>Number of Words </para>
+      <para>Number of Characters</para>
+      <para>Security</para>
+      <para>Category</para>
+      <para>Format</para>
+      <para>Manager</para>
+      <para>Company</para>
+      <para>Number of Bytes</para>
+      <para>Number of Lines</para>
+      <para>Number of Paragraphs</para>
+      <para>Number of Slides</para>
+      <para>Number of Notes</para>
+      <para>Number of Hidden Slides</para>
+      <para>Number of Multimedia Clips</para>
+      <para>Container applications don't necessarily define a value for every built-in document property. If a given application doesn't define a value for one of the built-in document properties, returning the <see cref="P:Microsoft.Office.Core.DocumentProperty.Value" /> property for that document property causes an error.</para>
+      <para /></span></span></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -96,12 +106,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="41f0a-103">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4a9f6-103">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="4a9f6-103">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -126,27 +131,15 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="41f0a-104">Возвращает 32-разрядное целое число, которое указывает, приложения, в котором был создан указанный объект.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4a9f6-104">Возвращает 32 — разрядное целое число, которое указывает приложение, в котором был создан указанный объект.</span><span class="sxs-lookup"><span data-stu-id="4a9f6-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="41f0a-105">
-            <para>Если указанный объект был создан в Microsoft Word, данное свойство возвращает 1297307460, который представляет строку, которую MSWD; Если создан в Microsoft Excel, данное свойство возвращает 1480803660. Это значение может также быть представлено константу <b>wdCreatorCode</b> в Word или <b>xlCreatorCode</b> в Excel.</para> Свойство 
-          <para><b>создателя</b> в основном предназначено для использования на компьютерах Macintosh, где каждое приложение имеет код создателя четырех символов. Например Microsoft Word содержит код создателя MSWD. Для получения дополнительных сведений об этом свойстве обратитесь к Справочник по языку справки, включенные в состав Microsoft Office Macintosh выпуск.</para> Свойство 
-          <para><b>создателя</b> всегда возвращает числовой идентификатор для активного приложения так же, как <see cref="P:Microsoft.Office.Core.DocumentProperty.Application" /> свойство всегда возвращает имя активного приложения в виде строки. Используйте свойство <b>Кем создано</b><see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> объекты для возвращения имя пользователя, создавшего эти объекты. Использование свойств документа для возвращения сведений об авторах с документами Office.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-105">
-              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
-              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
-              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.DocumentProperty.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="4a9f6-105"><para>Если указанный объект был создан в Microsoft Word, это свойство возвращает 1297307460, которое представляет строку МСВД; При создании в Microsoft Excel это свойство возвращает 1480803660. Это значение также может быть представлено константным <b>вдкреаторкоде</b> в Word или <b>кслкреаторкоде</b> в Excel.</para> 
+          <para>Свойство <b>Creator</b> в основном предназначено для использования в Macintosh, где каждое приложение содержит код создателя из четырех символов. Например, в Microsoft Word есть код создателя МСВД. Для получения дополнительных сведений об этом свойстве обратитесь к справочной справке по языку, включенной в Microsoft Office Macintosh Edition.</para> 
+          <para>Свойство <b>Creator</b> всегда возвращает числовой идентификатор активного приложения точно так же, <see cref="P:Microsoft.Office.Core.DocumentProperty.Application" /> как свойство всегда возвращает имя активного приложения в строковом формате. Используйте свойство <b>CreatedBy</b> объекта <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, и <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> для получения имени пользователя, создавшего эти объекты. Используйте свойства документа, чтобы получить сведения об авторских документах Office.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="4a9f6-105"><para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+          <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+          <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.DocumentProperty.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -165,24 +158,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="41f0a-106">Удаляет настраиваемое свойство документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-106">Removes a custom document property.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="41f0a-107">
-            <para>Не удается удалить встроенное свойство документа.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-107">
-              <para>You cannot delete a built-in document property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="4a9f6-106">Удаляет настраиваемое свойство документа.</span><span class="sxs-lookup"><span data-stu-id="4a9f6-106">Removes a custom document property.</span></span></summary>
+        <remarks><span data-ttu-id="4a9f6-107"><para>Встроенное свойство документа невозможно удалить.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="4a9f6-107"><para>You cannot delete a built-in document property.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="LinkSource">
@@ -205,29 +184,15 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="41f0a-108">Возвращает или задает источник связанных настраиваемого свойства документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-108">Returns or sets the source of a linked custom document property.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4a9f6-108">Возвращает или задает источник связанного настраиваемого свойства документа.</span><span class="sxs-lookup"><span data-stu-id="4a9f6-108">Returns or sets the source of a linked custom document property.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="41f0a-109">
-            <para>Это свойство применяется только для настраиваемых свойств документа, его нельзя использовать вместе с встроенных свойств документа.</para>
-            <para>Источника ссылки на указанном определяется приложением контейнера.</para>
-            <para>Установка наборы свойств <b>LinkSource</b><see cref="P:Microsoft.Office.Core.DocumentProperty.LinkToContent" /> значение <b>True</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-109">
-              <para>This property applies only to custom document properties; you cannot use it with built-in document properties.</para>
-              <para>The source of the specified link is defined by the container application.</para>
-              <para>Setting the <b>LinkSource</b> property sets the <see cref="P:Microsoft.Office.Core.DocumentProperty.LinkToContent" /> property to <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="4a9f6-109"><para>Это свойство применимо только к настраиваемым свойствам документа, поэтому его нельзя использовать со встроенными свойствами документа.</para> 
+          <para>Источник указанной ссылки определяется приложением-контейнером.</para> 
+          <para>Установка свойства <b>LinkSource</b> задает для <see cref="P:Microsoft.Office.Core.DocumentProperty.LinkToContent" /> свойства <b>значение true</b>.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="4a9f6-109"><para>This property applies only to custom document properties; you cannot use it with built-in document properties.</para>
+          <para>The source of the specified link is defined by the container application.</para>
+          <para>Setting the <b>LinkSource</b> property sets the <see cref="P:Microsoft.Office.Core.DocumentProperty.LinkToContent" /> property to <b>True</b>.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="LinkToContent">
@@ -250,29 +215,15 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="41f0a-110">Определите, если значение свойства настраиваемого документа с содержимым документа, контейнера.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-110">Determine if the value of the custom document property is linked to the content of the container document.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4a9f6-110">Определите, связано ли значение настраиваемого свойства документа с содержимым документа-контейнера.</span><span class="sxs-lookup"><span data-stu-id="4a9f6-110">Determine if the value of the custom document property is linked to the content of the container document.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="41f0a-111">
-            <para>Данное свойство возвращает <b>значение True,</b> Если значение свойства настраиваемого документа с содержимым документа контейнера; <b>Значение false,</b> Если значение является статическим.</para>
-            <para>Это свойство применяется только к настраиваемых свойств документа. Для встроенных свойств документа, значение этого свойства имеет <b>значение False</b>.</para>
-            <para>Использования <see cref="P:Microsoft.Office.Core.DocumentProperty.LinkSource" /> связанные свойства источника для указанного свойства. Свойство <b>LinkSource</b> устанавливает для свойства <b>LinkToContent</b> значение <b>True</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-111">
-              <para>This property returns <b>True</b> if the value of the custom document property is linked to the content of the container document; <b>False</b> if the value is static.</para>
-              <para>This property applies only to custom document properties. For built-in document properties, the value of this property is <b>False</b>.</para>
-              <para>Use the <see cref="P:Microsoft.Office.Core.DocumentProperty.LinkSource" /> property to set the source for the specified linked property. Setting the <b>LinkSource</b> property sets the <b>LinkToContent</b> property to <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="4a9f6-111"><para>Это свойство возвращает <b>значение true</b> , если значение настраиваемого свойства документа связано с содержимым документа-контейнера; Значение <b>false</b> , если значение является статическим.</para> 
+          <para>Это свойство применяется только к настраиваемым свойствам документа. Для встроенных свойств документа значение этого свойства равно <b>false</b>.</para> 
+          <para>Используйте <see cref="P:Microsoft.Office.Core.DocumentProperty.LinkSource" /> свойство, чтобы задать источник указанного связанного свойства. Установка свойства <b>LinkSource</b> задает для свойства <b>LinkToContent</b> <b>значение true</b>.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="4a9f6-111"><para>This property returns <b>True</b> if the value of the custom document property is linked to the content of the container document; <b>False</b> if the value is static.</para>
+          <para>This property applies only to custom document properties. For built-in document properties, the value of this property is <b>False</b>.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Core.DocumentProperty.LinkSource" /> property to set the source for the specified linked property. Setting the <b>LinkSource</b> property sets the <b>LinkToContent</b> property to <b>True</b>.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -301,12 +252,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="41f0a-112">Возвращает или задает имя указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-112">Returns or sets the name of the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4a9f6-112">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="4a9f6-112">Returns or sets the name of the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -331,12 +277,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="41f0a-113">Возвращает <b>родительский</b> объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-113">Returns the <b>Parent</b> object for the specified object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4a9f6-113">Возвращает <b>родительский</b> объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="4a9f6-113">Returns the <b>Parent</b> object for the specified object.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -367,25 +308,11 @@
         <ReturnType>Microsoft.Office.Core.MsoDocProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="41f0a-114">Возвращает или задает тип свойства документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-114">Returns or sets the document property type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4a9f6-114">Возвращает или задает тип свойства Document.</span><span class="sxs-lookup"><span data-stu-id="4a9f6-114">Returns or sets the document property type.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="41f0a-115">
-            <para>Это свойство доступно только для чтения для встроенных свойств документа; чтение и запись настраиваемых свойств документа.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-115">
-              <para>This property is read-only for built-in document properties; read/write for custom document properties.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="4a9f6-115"><para>Это свойство доступно только для чтения для встроенных свойств документа; чтение и запись для настраиваемых свойств документа.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="4a9f6-115"><para>This property is read-only for built-in document properties; read/write for custom document properties.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -414,25 +341,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="41f0a-116">Возвращает или задает значение свойства документа.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-116">Returns or sets the value of a document property.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4a9f6-116">Возвращает или задает значение свойства документа.</span><span class="sxs-lookup"><span data-stu-id="4a9f6-116">Returns or sets the value of a document property.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="41f0a-117">
-            <para>Если приложение-контейнер не определяет значение для одного из встроенных свойств документа, чтение свойства <b>значение</b> для этого свойства документа приводит к ошибке.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="41f0a-117">
-              <para>If the container application doesn't define a value for one of the built-in document properties, reading the <b>Value</b> property for that document property causes an error.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><span data-ttu-id="4a9f6-117"><para>Если приложение контейнера не определяет значение для одного из встроенных свойств документа, то чтение свойства <b>value</b> для этого свойства документа приводит к ошибке.</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="4a9f6-117"><para>If the container application doesn't define a value for one of the built-in document properties, reading the <b>Value</b> property for that document property causes an error.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

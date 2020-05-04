@@ -1,13 +1,5 @@
 <Type Name="_CustomXMLPartEvents_Event" FullName="Microsoft.Office.Core._CustomXMLPartEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="288de8d25064212269e03f6466fa1d1b34040cd5" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662629" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CustomXMLPartEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="288de8d25064212269e03f6466fa1d1b34040cd5" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662629" /></Metadata><TypeSignature Language="C#" Value="public interface _CustomXMLPartEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomXMLPartEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLPartEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CustomXMLPartEvents_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="e9238-101">Интерфейс события для Microsoft Office <see cref="T:Microsoft.Office.Core.CustomXMLPart" /> объекта события.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e9238-101">Events interface for Microsoft Office <see cref="T:Microsoft.Office.Core.CustomXMLPart" /> object events.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="2c801-101">Интерфейс событий для событий объектов <see cref="T:Microsoft.Office.Core.CustomXMLPart" /> Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="2c801-101">Events interface for Microsoft Office <see cref="T:Microsoft.Office.Core.CustomXMLPart" /> object events.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,12 +40,7 @@
         <ReturnType>Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterDeleteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e9238-102">Возникает после удалении узла в <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e9238-102">Occurs after a node is deleted in a <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c801-102">Возникает после удаления узла в <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекте.</span><span class="sxs-lookup"><span data-stu-id="2c801-102">Occurs after a node is deleted in a <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,12 +59,7 @@
         <ReturnType>Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterInsertEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e9238-103">Возникает после вставки узла в <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e9238-103">Occurs after a node is inserted in a <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c801-103">Возникает после вставки узла в <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объект.</span><span class="sxs-lookup"><span data-stu-id="2c801-103">Occurs after a node is inserted in a <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -101,12 +78,7 @@
         <ReturnType>Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterReplaceEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e9238-104">Происходит после замене узла в <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e9238-104">Occurs just after a node is replaced in a <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2c801-104">Возникает сразу после замены узла в <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> объекте.</span><span class="sxs-lookup"><span data-stu-id="2c801-104">Occurs just after a node is replaced in a <see cref="T:Microsoft.Office.Core._CustomXMLPart" /> object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
