@@ -1,13 +1,5 @@
 <Type Name="ChartFont" FullName="Microsoft.Office.Core.ChartFont">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="384a6c76025dc1f2e8e573f63903373ce83fed37" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662670" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ChartFont" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="384a6c76025dc1f2e8e573f63903373ce83fed37" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662670" /></Metadata><TypeSignature Language="C#" Value="public interface ChartFont" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartFont" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ChartFont" />
   <TypeSignature Language="VB.NET" Value="Public Interface ChartFont" />
@@ -53,22 +45,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="078a3-101">Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="078a3-101">Returns an <b>Application</b> object that represents the container application for the object.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="078a3-102">
-            <b>Объект</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="078a3-102">
-              <b>Object</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a0342-101">Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</span><span class="sxs-lookup"><span data-stu-id="a0342-101">Returns an <b>Application</b> object that represents the container application for the object.</span></span></summary>
+        <value><span data-ttu-id="a0342-102"><b>Object</b></span><span class="sxs-lookup"><span data-stu-id="a0342-102"><b>Object</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -219,26 +197,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="078a3-103">Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="078a3-103">Returns a 32-bit integer that indicates the application in which this object was created.</span>
-          </span>
-          <span data-ttu-id="078a3-104">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="078a3-104">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="078a3-105">
-            <b>Integerc</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="078a3-105">
-              <b>Integerc</b>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a0342-103">Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан.</span><span class="sxs-lookup"><span data-stu-id="a0342-103">Returns a 32-bit integer that indicates the application in which this object was created.</span></span> <span data-ttu-id="a0342-104">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="a0342-104">Read-only.</span></span></summary>
+        <value><span data-ttu-id="a0342-105"><b>интежерк</b></span><span class="sxs-lookup"><span data-stu-id="a0342-105"><b>Integerc</b></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -389,24 +349,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="078a3-106">Возвращает родительский объект для указанного объекта.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="078a3-106">Returns the parent object for the specified object.</span>
-          </span>
-          <span data-ttu-id="078a3-107">Только для чтения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="078a3-107">Read-only.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="078a3-108">
-            <b>Объект</b>s</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="078a3-108">
-              <b>Object</b>s</span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a0342-106">Возвращает родительский объект для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="a0342-106">Returns the parent object for the specified object.</span></span> <span data-ttu-id="a0342-107">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="a0342-107">Read-only.</span></span></summary>
+        <value><span data-ttu-id="a0342-108"><b>Объект</b>s</span><span class="sxs-lookup"><span data-stu-id="a0342-108"><b>Object</b>s</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

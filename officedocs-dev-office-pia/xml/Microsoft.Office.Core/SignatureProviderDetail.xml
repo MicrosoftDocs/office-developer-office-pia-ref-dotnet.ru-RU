@@ -1,13 +1,5 @@
 <Type Name="SignatureProviderDetail" FullName="Microsoft.Office.Core.SignatureProviderDetail">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4e2403e73b9626c3ec76e2edb94b2cafcdb0d922" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662657" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum SignatureProviderDetail" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4e2403e73b9626c3ec76e2edb94b2cafcdb0d922" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662657" /></Metadata><TypeSignature Language="C#" Value="public enum SignatureProviderDetail" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SignatureProviderDetail extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureProviderDetail" />
   <TypeSignature Language="VB.NET" Value="Public Enum SignatureProviderDetail" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="1fe25-101">Задает свойства подписи поставщика.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="1fe25-101">Specifies properties of a signature provider.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="8ac3e-101">Задает свойства поставщика подписей.</span><span class="sxs-lookup"><span data-stu-id="8ac3e-101">Specifies properties of a signature provider.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1fe25-102">Алгоритм хэширования, используемый для хэширования данных в файле.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1fe25-102">Hash algorithm used to hash the data in the file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ac3e-102">Хэш-алгоритм, используемый для хеширования данных в файле.</span><span class="sxs-lookup"><span data-stu-id="8ac3e-102">Hash algorithm used to hash the data in the file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigprovdetUIOnly">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1fe25-103">Указывает, что поставщик подписи только использует настраиваемого пользовательского интерфейса.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1fe25-103">Indicates that the signature provider only uses a custom user interface.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ac3e-103">Указывает, что поставщик подписи использует только настраиваемый пользовательский интерфейс.</span><span class="sxs-lookup"><span data-stu-id="8ac3e-103">Indicates that the signature provider only uses a custom user interface.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigprovdetUrl">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="1fe25-104">URL-адрес поставщика подписи.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="1fe25-104">The URL of the signature provider.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ac3e-104">URL-адрес поставщика подписи.</span><span class="sxs-lookup"><span data-stu-id="8ac3e-104">The URL of the signature provider.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="sigprovdetUseOfficeStampUI">
