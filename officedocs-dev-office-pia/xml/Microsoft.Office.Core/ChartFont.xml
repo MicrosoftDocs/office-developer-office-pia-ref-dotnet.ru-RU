@@ -1,13 +1,5 @@
 <Type Name="ChartFont" FullName="Microsoft.Office.Core.ChartFont">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="384a6c76025dc1f2e8e573f63903373ce83fed37" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662670" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ChartFont" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="384a6c76025dc1f2e8e573f63903373ce83fed37" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662670" /></Metadata><TypeSignature Language="C#" Value="public interface ChartFont" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartFont" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ChartFont" />
   <TypeSignature Language="VB.NET" Value="Public Interface ChartFont" />
@@ -53,10 +45,8 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект <b>приложения</b> , представляющий приложение-контейнер для объекта.</summary>
-        <value>
-          <b>Объект</b>
-        </value>
+        <summary>Возвращает объект <b>Application</b> , представляющий приложение контейнера для объекта.</summary>
+        <value><b>Object</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -208,9 +198,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает 32-битное целое число, указывающее на приложение, в котором объект был создан. Только для чтения.</summary>
-        <value>
-          <b>Integerc</b>
-        </value>
+        <value><b>интежерк</b></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -362,8 +350,7 @@
       </ReturnValue>
       <Docs>
         <summary>Возвращает родительский объект для указанного объекта. Только для чтения.</summary>
-        <value>
-          <b>Объект</b>s</value>
+        <value><b>Объект</b>s</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

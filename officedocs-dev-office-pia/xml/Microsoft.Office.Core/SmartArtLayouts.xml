@@ -1,13 +1,5 @@
 <Type Name="SmartArtLayouts" FullName="Microsoft.Office.Core.SmartArtLayouts">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="908363f7aceef1a006b3e886caf21ef0cd7d11f9" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662660" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartArtLayouts : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="908363f7aceef1a006b3e886caf21ef0cd7d11f9" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662660" /></Metadata><TypeSignature Language="C#" Value="public interface SmartArtLayouts : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArtLayouts implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArtLayouts" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartArtLayouts&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -34,10 +26,8 @@
   </Attributes>
   <Docs>
     <summary>Представляет коллекцию схем макета SmartArt.</summary>
-    <remarks>
-      <para>Варианты включают простой блочный список изображений подпись список вертикальной маркированный список и т. д.</para>
-      <para />
-    </remarks>
+    <remarks><para>Возможные варианты: базовый список блокировок, список названий рисунков, вертикальный маркированный список и т. д.</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -66,12 +56,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>SmartArtLayouts</b> .</summary>
+        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>SmartArtLayouts</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -97,12 +85,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает количество число <see cref="T:Microsoft.Office.Core.SmartArtLayout" /> объектов, содержащихся в коллекции <b>SmartArtLayouts</b> .</summary>
+        <summary>Получает количество <see cref="T:Microsoft.Office.Core.SmartArtLayout" /> объектов, содержащихся в коллекции <b>SmartArtLayouts</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -131,12 +117,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>SmartArtLayouts</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>SmartArtLayouts</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -167,7 +151,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />.</returns>
+        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -197,8 +181,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">Задает индекс или расположение <see cref="T:Microsoft.Office.Core.SmartArtLayout" /> объекта.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.SmartArtLayout" /> объекта по указанному индексу или с указанным уникальным идентификатором.</summary>
+        <param name="Index">Указывает индекс или расположение <see cref="T:Microsoft.Office.Core.SmartArtLayout" /> объекта.</param>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.SmartArtLayout" /> объект по указанному индексу или по указанному уникальному идентификатору.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -226,12 +210,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает объект, вызывающий.</summary>
+        <summary>Получает вызывающий объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

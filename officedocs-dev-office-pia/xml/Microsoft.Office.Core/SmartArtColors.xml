@@ -1,13 +1,5 @@
 <Type Name="SmartArtColors" FullName="Microsoft.Office.Core.SmartArtColors">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b2d13f838f8478b260f917b29491a5c61a4761d7" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662655" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SmartArtColors : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b2d13f838f8478b260f917b29491a5c61a4761d7" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662655" /></Metadata><TypeSignature Language="C#" Value="public interface SmartArtColors : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArtColors implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArtColors" />
   <TypeSignature Language="VB.NET" Value="Public Interface SmartArtColors&#xA;Implements _IMsoDispObj, IEnumerable" />
@@ -33,11 +25,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Коллекция стилей цвет.</summary>
-    <remarks>
-      <para>Моделирует команд в пользовательском интерфейсе Microsoft Office Fluent ленты на вкладке Работа SmartArt в группе разработки на команду Изменение цветов.</para>
-      <para />
-    </remarks>
+    <summary>Коллекция стилей цветов SmartArt.</summary>
+    <remarks><para>Имитирует команды в пользовательском интерфейсе ленты Microsoft Office Fluent на вкладке "инструменты SmartArt" в группе "Конструктор" в команде "изменить цвета".</para>
+      <para /></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -66,12 +56,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение-контейнер для объекта <b>SmartArtColors</b> .</summary>
+        <summary>Получает <see cref="T:System.Object" /> объект, представляющий приложение контейнера для объекта <b>SmartArtColors</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -97,12 +85,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает количество объектов <b>SmartArtColor</b> , содержащихся в коллекции <b>SmartArtColors</b> .</summary>
+        <summary>Получает число объектов <b>SmartArtColor</b> , содержащихся в коллекции <b>SmartArtColors</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Creator">
@@ -131,12 +117,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Получает 32-разрядное целое число, которое указывает, приложения, в котором был создан объект <b>SmartArtColors</b> .</summary>
+        <summary>Получает 32 — разрядное целое число, которое указывает приложение, в котором был создан объект <b>SmartArtColors</b> .</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -167,7 +151,7 @@
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
-        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />.</returns>
+        <returns>Возвращает <see cref="T:System.Collections.IEnumerator" />значение.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -197,8 +181,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">Задает индекс или идентификатор цветов SmartArt.</param>
-        <summary>Получает <see cref="T:Microsoft.Office.Core.SmartArtColor" /> объекта по указанному индексу или с указанным уникальным идентификатором.</summary>
+        <param name="Index">Задает индекс или идентификатор цвета SmartArt.</param>
+        <summary>Возвращает <see cref="T:Microsoft.Office.Core.SmartArtColor" /> объект по указанному индексу или по указанному уникальному идентификатору.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -226,12 +210,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Возвращает объект, вызывающий.</summary>
+        <summary>Возвращает вызывающий объект.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Только для чтения.</para>
-          <para />
-        </remarks>
+        <remarks><para>Только для чтения.</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

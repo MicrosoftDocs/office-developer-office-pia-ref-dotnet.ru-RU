@@ -1,13 +1,5 @@
 <Type Name="SignatureLineImage" FullName="Microsoft.Office.Core.SignatureLineImage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d1013b3654d84911551ba021a0b6cd8a1a3dcd7e" />
-    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20662653" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum SignatureLineImage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d1013b3654d84911551ba021a0b6cd8a1a3dcd7e" /><Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20662653" /></Metadata><TypeSignature Language="C#" Value="public enum SignatureLineImage" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SignatureLineImage extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureLineImage" />
   <TypeSignature Language="VB.NET" Value="Public Enum SignatureLineImage" />
@@ -20,7 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Указывает строку изображением подписи.</summary>
+    <summary>Указывает изображение строки подписи.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -59,7 +51,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Изображение SignedInvalid.</summary>
+        <summary>Изображение Сигнединвалид.</summary>
       </Docs>
     </Member>
     <Member MemberName="siglnimgSignedValid">
@@ -78,7 +70,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Изображение SignedValid.</summary>
+        <summary>Изображение Сигнедвалид.</summary>
       </Docs>
     </Member>
     <Member MemberName="siglnimgSoftwareRequired">
@@ -97,7 +89,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Изображение SoftwareRequired.</summary>
+        <summary>Изображение Софтваререкуиред.</summary>
       </Docs>
     </Member>
     <Member MemberName="siglnimgUnsigned">
@@ -116,7 +108,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Неподписанные изображение.</summary>
+        <summary>Неподписанное изображение.</summary>
       </Docs>
     </Member>
   </Members>
